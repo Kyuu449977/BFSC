@@ -1,0 +1,27 @@
+# Dependencies & Virtual Environments
+node_modules/
+my-project/
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Local Tunnel & Temp Binaries
+cloudflared.exe
+*.log
+
+# Cloud CLI Directories
+.vercel/
+.netlify/
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

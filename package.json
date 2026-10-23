@@ -1,0 +1,18 @@
+{
+  "name": "hom-nay-an-gi",
+  "version": "1.0.0",
+  "description": "Hôm nay ăn gì? - Vòng quay ẩm thực Việt Nam (Món chính theo buổi, Ăn vặt, Đồ uống)",
+  "main": "index.html",
+  "scripts": {
+    "start": "python server.py",
+    "deploy:vercel": "npx vercel --prod",
+    "deploy:netlify": "npx netlify-cli deploy --prod --dir=."
+  },
+  "keywords": [
+    "vietnamese-food",
+    "random-food",
+    "hom-nay-an-gi",
+    "csgo-roulette"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Hôm Nay Ăn Gì? - Vòng Quay Ẩm Thực Việt",
+  "short_name": "Ăn Gì Đây?",
+  "description": "Vòng quay random món ăn chính theo buổi, đồ ăn vặt và đồ uống Việt Nam hoạt động độc lập trên điện thoại",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b0f1d",
+  "theme_color": "#141830",
+  "icons": [
+    {
+      "src": "images/buoi_sang/pho_bo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "images/buoi_toi/lau_thai.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

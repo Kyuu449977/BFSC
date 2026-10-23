@@ -1,0 +1,84 @@
+========================================================================
+HƯỚNG DẪN QUẢN LÝ & THAY ĐỔI HÌNH ẢNH MÓN ĂN - WEBSITE "HÔM NAY ĂN GÌ?"
+========================================================================
+
+Hình ảnh đã được phân chia vào các thư mục riêng biệt theo từng danh mục:
+
+1. Thư mục: images/buoi_sang/
+   - Chứa ảnh các món ăn sáng:
+     * pho_bo.jpg (Phở tái lăn)
+     * bun_bo_hue.jpg (Bún bò Huế)
+     * banh_mi_chao.jpg (Bánh mì chảo)
+     * banh_cuon.jpg (Bánh cuốn)
+     * hu_tieu.jpg (Hủ tiếu Nam Vang)
+     * xoi_xeo.jpg (Xôi xéo)
+     * banh_mi_pate.jpg (Bánh mì pate)
+     * bun_rieu.jpg (Bún riêu cua)
+
+2. Thư mục: images/buoi_trua/
+   - Chứa ảnh các món ăn trưa:
+     * com_tam.jpg (Cơm tấm)
+     * bun_cha.jpg (Bún chả)
+     * com_ga.jpg (Cơm gà xối mỡ)
+     * mi_quang.jpg (Mì Quảng)
+     * bun_thit_nuong.jpg (Bún thịt nướng)
+     * com_rang.jpg (Cơm rang dưa bò)
+     * pho_tron.jpg (Phở trộn)
+
+3. Thư mục: images/buoi_chieu/
+   - Chứa ảnh các món ăn xế chiều:
+     * banh_xeo.jpg (Bánh xèo)
+     * goi_cuon.jpg (Gỏi cuốn)
+     * banh_khot.jpg (Bánh khọt)
+     * bot_chien.jpg (Bột chiên)
+     * banh_bot_loc.jpg (Bánh bột lọc)
+     * sup_cua.jpg (Súp cua)
+
+4. Thư mục: images/buoi_toi/
+   - Chứa ảnh các món ăn tối / ăn đêm:
+     * lau_thai.jpg (Lẩu Thái)
+     * bun_dau.jpg (Bún đậu mắm tôm)
+     * bbq_nuong.jpg (Bò nướng BBQ)
+     * quan_oc.jpg (Quán ốc)
+     * bo_ne.jpg (Bò né)
+     * chao_suon.jpg (Cháo sườn)
+     * mien_ga.jpg (Miến gà)
+
+5. Thư mục: images/do_an_vat/
+   - Chứa ảnh các món ăn vặt:
+     * banh_trang_tron.jpg (Bánh tráng trộn)
+     * che_thai.jpg (Chè Thái)
+     * nem_chua_ran.jpg (Nem chua rán)
+     * banh_trang_nuong.jpg (Bánh tráng nướng)
+     * ca_vien_chien.jpg (Cá viên chiên)
+
+6. Thư mục: images/do_uong/
+   - Chứa ảnh các loại đồ uống & nước ngọt:
+     * tra_dao.jpg (Trà đào)
+     * tra_sua.jpg (Trà sữa)
+     * nuoc_dua.jpg (Nước dừa)
+     * ca_phe_muoi.jpg (Cà phê muối)
+     * sinh_to_bo.jpg (Sinh tố bơ)
+     * tra_trai_cay.jpg (Trà trái cây)
+     * ca_phe_sua_da.jpg (Cà phê sữa đá)
+     * nuoc_mia.jpg (Nước mía)
+     * rau_ma.jpg (Rau má đậu xanh)
+     * coca_cola.jpg (Coca-Cola)
+     * pepsi.jpg (Pepsi)
+     * 7up.jpg (7Up)
+     * sting_dau.jpg (Sting dâu)
+     * mirinda.jpg (Mirinda)
+     * bo_huc.jpg (Bò Húc)
+
+------------------------------------------------------------------------
+CÁCH THAY ĐỔI ẢNH MÓN ĂN:
+------------------------------------------------------------------------
+Cách 1 (Nhanh nhất):
+- Bạn chỉ cần chép đè ảnh mới của bạn vào đúng thư mục tương ứng với TÊN FILE GIỐNG NHƯ CŨ (ví dụ thay ảnh phở mới thì đặt tên là "pho_bo.jpg" rồi dán vào thư mục "images/buoi_sang/"). Web sẽ tự động đổi ngay!
+
+Cách 2 (Thêm món mới hoặc đổi tên file):
+- Đặt ảnh vào thư mục thích hợp (ví dụ: "images/buoi_sang/mon_moi.jpg").
+- Mở file "data.js" tìm đến món đó và đổi đường dẫn:
+  image: 'images/buoi_sang/mon_moi.jpg'
+
+* Mẹo nhỏ: Nên dùng ảnh có tỉ lệ vuông hoặc 4:3 (kích thước khoảng 500x500px đến 800x600px, dung lượng dưới 200KB) để web load nhanh và hiển thị đẹp nhất.
