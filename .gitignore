@@ -25,3 +25,13 @@ cloudflared.exe
 Thumbs.db
 .vscode/
 .idea/
+
+# Persistent request budget; never reset this to bypass limits.
+.private/
+
+# Generated static-only output
+public/
+
+# Local research archive and generated test evidence (never application source)
+archive/
+artifacts/

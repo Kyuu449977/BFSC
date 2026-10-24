@@ -2,11 +2,27 @@
   "name": "hom-nay-an-gi",
   "version": "1.0.0",
   "description": "Hôm nay ăn gì? - Vòng quay ẩm thực Việt Nam (Món chính theo buổi, Ăn vặt, Đồ uống)",
-  "main": "index.html",
+  "main": "src/index.html",
   "scripts": {
     "start": "python server.py",
     "deploy:vercel": "npx vercel --prod",
-    "deploy:netlify": "npx netlify-cli deploy --prod --dir=."
+    "deploy:netlify": "python build_public.py && npx netlify-cli deploy --prod --dir=public",
+    "test": "node --test tests/*.test.cjs",
+    "test:browser": "python -B build_public.py && node tests/browser.cjs",
+    "test:server": "python -B tests/test_server.py",
+    "benchmark": "node tests/benchmark.cjs",
+    "test:places-browser": "python -B build_public.py && node tests/places-browser.cjs",
+    "test:mobile": "python -B build_public.py && node tests/mobile-ui.cjs",
+    "test:budget": "python -B build_public.py && node tests/budget-browser.cjs",
+    "test:motion": "python -B build_public.py && node tests/motion-browser.cjs",
+    "build": "python build_public.py",
+    "test:audit-fixes": "python -B build_public.py && node tests/audit-fixes.cjs",
+    "test:mobile-compact": "python -B build_public.py && node tests/mobile-compact.cjs",
+    "test:theme": "python -B build_public.py && node tests/theme-startup-browser.cjs && node tests/theme-browser.cjs",
+    "format": "prettier --write src tests tools *.json",
+    "format:check": "prettier --check src tests tools *.json",
+    "test:personal": "python -B build_public.py && node tests/personal-browser.cjs",
+    "test:controls": "python -B build_public.py && node tests/controls-browser.cjs"
   },
   "keywords": [
     "vietnamese-food",
@@ -14,5 +30,8 @@
     "hom-nay-an-gi",
     "csgo-roulette"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
 }

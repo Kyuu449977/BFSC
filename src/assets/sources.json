@@ -1,0 +1,59 @@
+{
+  "lucide": {
+    "commit": "9f20b2b8f99cd9fe89bbfcbe883ee5b664ebb595",
+    "source": "https://github.com/lucide-icons/lucide",
+    "license": "ISC",
+    "icons": [
+      "utensils",
+      "coffee",
+      "cookie",
+      "shuffle",
+      "layers",
+      "sparkles",
+      "map-pin",
+      "volume-2",
+      "volume-x",
+      "share-2",
+      "download",
+      "arrow-up-right",
+      "search",
+      "arrow-right",
+      "check",
+      "book-open",
+      "bookmark",
+      "compass",
+      "rotate-ccw",
+      "x",
+      "copy",
+      "smartphone",
+      "wifi-off"
+    ]
+  },
+  "font": {
+    "package": "@fontsource/be-vietnam-pro",
+    "version": "5.3.0",
+    "license": "OFL-1.1",
+    "source": "https://fontsource.org/fonts/be-vietnam-pro",
+    "files": [
+      "be-vietnam-pro-latin-400-normal.woff2",
+      "be-vietnam-pro-latin-ext-400-normal.woff2",
+      "be-vietnam-pro-vietnamese-400-normal.woff2",
+      "be-vietnam-pro-latin-600-normal.woff2",
+      "be-vietnam-pro-latin-ext-600-normal.woff2",
+      "be-vietnam-pro-vietnamese-600-normal.woff2",
+      "be-vietnam-pro-latin-700-normal.woff2",
+      "be-vietnam-pro-latin-ext-700-normal.woff2",
+      "be-vietnam-pro-vietnamese-700-normal.woff2"
+    ]
+  },
+  "motion": {
+    "version": "12.23.24",
+    "source": "https://github.com/motiondivision/motion",
+    "distribution": "https://unpkg.com/motion@12.23.24/dist/motion.js",
+    "license": "MIT",
+    "file": "assets/vendor/motion.js",
+    "sha256": "631dbfc6984d0078a6edbc9885a87d5d941ad9d7534740237c9679140c0dfdc5",
+    "bytes": 81378,
+    "gzipBytes": 28350
+  }
+}

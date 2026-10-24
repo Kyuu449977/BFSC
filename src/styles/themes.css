@@ -1,0 +1,258 @@
+/* User-selected palettes retain dark text on light surfaces. */
+:root {
+  --accent-hover: #90321b;
+  --ambient: #f7e9d766;
+}
+:root[data-theme='green'] {
+  --cream: #f5faf6;
+  --orange: #286743;
+  --orange-soft: #e3f1e7;
+  --border: #d8e6dc;
+  --accent-hover: #1d5133;
+  --ambient: #dbeee066;
+}
+:root[data-theme='blue'] {
+  --cream: #f5f9fc;
+  --orange: #245f93;
+  --orange-soft: #e2eef9;
+  --border: #d8e3ed;
+  --accent-hover: #194b76;
+  --ambient: #dceafa66;
+}
+:root[data-theme='rose'] {
+  --cream: #fcf6f8;
+  --orange: #9d355f;
+  --orange-soft: #f7e4ed;
+  --border: #eadbe1;
+  --accent-hover: #7c2549;
+  --ambient: #f2ddea66;
+}
+body {
+  background: radial-gradient(ellipse at 90% 0%, var(--ambient), transparent 42%), var(--cream);
+}
+.primary:hover:not(:disabled) {
+  background-color: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+.hero-copy {
+  background: linear-gradient(120deg, #fff, var(--cream));
+}
+.modes,
+.maps-callout {
+  background: color-mix(in srgb, var(--orange-soft) 45%, var(--cream));
+  border-color: var(--border);
+}
+.modes button[aria-pressed='true'],
+.budget-panel[open],
+.collection-toggle[aria-pressed='true'],
+.maps-dish-link {
+  border-color: color-mix(in srgb, var(--orange) 35%, var(--border));
+}
+.choose .actions > button:not(.primary) {
+  color: var(--orange);
+  border-color: var(--border);
+}
+.result-cost {
+  background: var(--orange-soft);
+  border-color: var(--border);
+}
+.mobile-nav {
+  background: color-mix(in srgb, var(--cream) 95%, transparent);
+}
+.theme-settings {
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+  margin-top: 14px;
+}
+.theme-settings h3 {
+  font-size: 12px;
+  margin: 0 0 10px;
+}
+.theme-options {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+.theme-options button {
+  min-width: 0;
+  min-height: 44px;
+  padding: 8px;
+  font-size: 12px;
+  gap: 7px;
+}
+.theme-options button[aria-pressed='true'] {
+  background: var(--orange-soft);
+  color: var(--orange);
+  border-color: var(--orange);
+  box-shadow: inset 0 0 0 1px var(--orange);
+}
+.theme-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: #af4023;
+}
+[data-theme-choice='green'] .theme-dot {
+  background: #286743;
+}
+[data-theme-choice='blue'] .theme-dot {
+  background: #245f93;
+}
+[data-theme-choice='rose'] .theme-dot {
+  background: #9d355f;
+}
+@media (max-width: 600px) {
+  .theme-options {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.appearance-heading {
+  font-size: 13px;
+  margin: 14px 0 10px;
+}
+.appearance-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.4fr;
+  gap: 8px;
+}
+.appearance-options button {
+  font-size: 12px;
+  padding: 8px;
+  min-width: 0;
+}
+.appearance-options [aria-pressed='true'] {
+  background: var(--orange-soft);
+  border-color: var(--orange);
+  color: var(--orange);
+}
+.tools {
+  flex-shrink: 0;
+}
+@media (max-width: 380px) {
+  .brand-wordmark {
+    display: none;
+  }
+  .header {
+    gap: 8px;
+  }
+}
+:root[data-appearance='dark'] {
+  color-scheme: dark;
+  --cream: #181c21;
+  --ink: #f1ece6;
+  --muted: #b8b2ab;
+  --border: #3d4249;
+  --orange: #ffae88;
+  --orange-soft: #3e2c26;
+  --accent-hover: #ffc3a6;
+  --ambient: #35292366;
+}
+:root[data-appearance='dark'][data-theme='green'] {
+  --orange: #96d9ab;
+  --orange-soft: #253b2d;
+  --accent-hover: #b7ecc6;
+  --ambient: #20372b66;
+}
+:root[data-appearance='dark'][data-theme='blue'] {
+  --orange: #98ccff;
+  --orange-soft: #263747;
+  --accent-hover: #bedfff;
+  --ambient: #22334866;
+}
+:root[data-appearance='dark'][data-theme='rose'] {
+  --orange: #f5a8ca;
+  --orange-soft: #402b37;
+  --accent-hover: #ffc6df;
+  --ambient: #39243366;
+}
+:root[data-appearance='dark']
+  :where(
+    button,
+    .hero,
+    .dish-card,
+    .result-card,
+    .budget-panel,
+    .search-wrap,
+    .menu-empty,
+    .maps-dish-link,
+    #budgetInput,
+    #shareUrl,
+    .callout-icon
+  ) {
+  background: #23282f;
+  border-color: var(--border);
+  color: var(--ink);
+}
+:root[data-appearance='dark'] .hero-copy {
+  background: #23282f;
+}
+:root[data-appearance='dark'] .primary {
+  background: var(--orange);
+  color: #211b17;
+  border-color: var(--orange);
+}
+:root[data-appearance='dark'] .primary:hover:not(:disabled) {
+  background: var(--accent-hover);
+  color: #211b17;
+}
+:root[data-appearance='dark']
+  :is(
+    .modes button[aria-pressed='true'],
+    .filters button[aria-pressed='true'],
+    .collection-toggle[aria-pressed='true'],
+    .theme-options button[aria-pressed='true'],
+    .appearance-options button[aria-pressed='true'],
+    .budget-presets button[aria-pressed='true']
+  ) {
+  background: var(--orange-soft);
+  color: var(--orange);
+  border-color: var(--orange);
+}
+:root[data-appearance='dark'] :is(.tools .icon-button, .choose .actions > button:not(.primary)) {
+  background: #23282f;
+  color: var(--orange);
+  border-color: var(--border);
+}
+:root[data-appearance='dark'] button:hover:not(:disabled):not(.primary) {
+  background: #343b44;
+}
+:root[data-appearance='dark']
+  :is(
+    .dish-more,
+    .selection-options,
+    .theme-settings,
+    .dish-card .collected,
+    .dish-card .uncollected,
+    .header,
+    .maps-callout
+  ) {
+  border-color: var(--border);
+}
+:root[data-appearance='dark'] .dish-thumb .dish-source {
+  background: #20262feb;
+  color: var(--ink);
+}
+:root[data-appearance='dark'] .collected {
+  color: #a4d6b0;
+}
+:root[data-appearance='dark'] .uncollected {
+  color: var(--muted);
+}
+:root[data-appearance='dark'] .reel-viewport {
+  background: #242b33;
+}
+:root[data-appearance='dark'] .reel-card {
+  background: #303740;
+  color: var(--ink);
+}
+:root[data-appearance='dark'] .result-save-notice {
+  background: #49391f;
+  color: #ffda91;
+}
+:root[data-appearance='dark'] .progress {
+  background: var(--border);
+}
+:root[data-appearance='dark'] .brand-mark {
+  color: #211b17;
+}

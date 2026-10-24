@@ -1,0 +1,13 @@
+.private/
+.env
+.env.*
+__pycache__/
+
+artifacts/
+tests/
+tools/
+public/
+cloudflared.exe
+
+archive/
+docs/

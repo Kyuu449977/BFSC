@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#fbf8f3" />
+    <meta
+      name="description"
+      content="Chọn món Việt theo buổi, khám phá 89 lựa chọn món ăn bình dân và tìm quán trên Google Maps. Dùng ngay trên điện thoại, không cần quét mã."
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Ăn gì đây?" />
+    <script src="theme-init.js"></script>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="images/icons/icon-192.png" />
+    <link rel="icon" href="assets/brand.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ăn gì đây? — Một bữa ngon, một ngày vui</title>
+    <script defer src="data.js"></script>
+    <script defer src="assets/vendor/motion.js"></script>
+    <script defer src="experience.js"></script>
+    <script defer src="ui.js"></script>
+    <script defer src="controls.js"></script>
+    <script defer src="audio.js"></script>
+    <script defer src="collection.js"></script>
+    <script defer src="dish-preferences.js"></script>
+    <script defer src="gacha.js"></script>
+    <script defer src="animation.js"></script>
+    <script defer src="nearby.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <noscript
+      ><p>Vui lòng bật JavaScript trong trình duyệt để chọn món và xem thực đơn.</p></noscript
+    >
+    <a class="skip-link" href="#home">Đến nội dung chính</a>
+    <div class="app">
+      <header class="header">
+        <a class="brand" href="#home" aria-label="Ăn gì đây — về đầu trang"
+          ><span class="brand-mark"><span data-icon="utensils"></span></span
+          ><span class="brand-wordmark"
+            >Ăn gì đây<span class="brand-sub">Một bữa ngon, một ngày vui.</span></span
+          ></a
+        >
+        <nav class="tools" aria-label="Công cụ và giao diện">
+          <button
+            id="themeBtn"
+            class="icon-button"
+            aria-label="Đổi giao diện"
+            title="Đổi giao diện"
+            aria-haspopup="dialog"
+          >
+            <span data-icon="sparkles"></span>
+          </button>
+          <button id="installBtn" class="icon-button" title="Thêm vào màn hình chính">
+            <span data-icon="download"></span><span class="sr-only">Thêm vào màn hình chính</span>
+          </button>
+          <button id="shareBtn" class="icon-button" title="Chia sẻ website">
+            <span data-icon="share-2"></span><span class="sr-only">Chia sẻ website</span>
+          </button>
+          <button
+            id="soundBtn"
+            class="icon-button"
+            aria-label="Tắt âm thanh"
+            aria-pressed="false"
+            title="Bật hoặc tắt âm thanh"
+          >
+            <span data-icon="volume-2"></span>
+          </button>
+        </nav>
+      </header>
+      <main>
+        <section id="home" class="home-section" aria-labelledby="title">
+          <div class="intro">
+            <div class="intro-kicker">
+              <span class="status-dot"></span><span id="period" class="eyebrow"></span
+              ><span id="offlineStatus" class="offline-status" hidden>Đang offline</span>
+            </div>
+            <h1 id="title">Hôm nay ăn gì?</h1>
+            <p>Để bụng đói được nghỉ nghĩ. Chọn một món ngon thôi.</p>
+          </div>
+          <nav class="modes" aria-label="Danh mục món ăn">
+            <button data-mode="main" aria-pressed="true">
+              <span data-icon="utensils"></span>Món chính</button
+            ><button data-mode="snacks" aria-pressed="false">
+              <span data-icon="cookie"></span>Ăn vặt</button
+            ><button data-mode="drinks" aria-pressed="false">
+              <span data-icon="coffee"></span>Đồ uống
+            </button>
+          </nav>
+
+          <section class="hero" aria-label="Món gợi ý">
+            <div class="hero-copy">
+              <span class="feature-tag"><span data-icon="sparkles"></span>GỢI Ý HÔM NAY</span>
+              <h2 id="featuredName"></h2>
+              <p id="featuredDesc"></p>
+              <div class="hero-price">
+                <strong id="featuredPrice" class="price"></strong
+                ><span class="note">giá tham khảo</span>
+              </div>
+              <button id="findFeaturedBtn" class="find-featured">
+                <span data-icon="map-pin"></span>Xem món &amp; tìm quán<span
+                  data-icon="arrow-up-right"
+                ></span>
+              </button>
+            </div>
+            <div class="hero-photo">
+              <img
+                id="featuredImage"
+                width="600"
+                height="450"
+                fetchpriority="high"
+                alt="Món gợi ý"
+              /><span class="photo-caption">Hương vị Việt, lựa chọn mỗi ngày</span>
+            </div>
+          </section>
+          <section class="choose" aria-label="Chọn món">
+            <div class="actions">
+              <button class="primary" id="singleBtn">
+                <span data-icon="shuffle"></span>Chọn 1 món</button
+              ><button id="tripleBtn"><span data-icon="layers"></span>Chọn 3 món</button
+              ><button id="comboBtn" aria-describedby="comboHelp">
+                <span data-icon="sparkles"></span>Tạo combo
+              </button>
+            </div>
+            <p id="budgetStatus" class="budget-status" role="status" aria-live="polite"></p>
+          </section>
+          <details class="budget-panel" id="budgetPanel">
+            <summary>
+              <span>Ngân sách &amp; sở thích</span><strong id="budgetLabel">Không giới hạn</strong>
+            </summary>
+            <div class="budget-content">
+              <label for="budgetInput">Tổng số tiền bạn muốn chi (đ)</label>
+              <div class="budget-input-row">
+                <input
+                  id="budgetInput"
+                  type="text"
+                  inputmode="numeric"
+                  autocomplete="off"
+                  placeholder="Ví dụ: 100000"
+                  aria-describedby="budgetHelp budgetStatus"
+                /><button id="clearBudgetBtn" type="button">Bỏ giới hạn</button>
+              </div>
+              <p id="budgetPreviewNote" class="budget-preview-note" role="status" hidden></p>
+              <div class="budget-presets" aria-label="Ngân sách nhanh">
+                <button data-budget="30000">30.000đ</button
+                ><button data-budget="50000">50.000đ</button
+                ><button data-budget="100000">100.000đ</button
+                ><button data-budget="200000">200.000đ</button>
+              </div>
+              <p id="budgetHelp" class="note">
+                Áp dụng cho cả lượt: 1 món, tổng 3 món hoặc tổng combo. Lọc theo giá thấp nhất trong
+                khoảng tham khảo; giá thực tế có thể cao hơn. Món mới dùng giá ước tính cho phần
+                thường một người, chưa xác minh tại quán.
+              </p>
+              <div class="budget-options">
+                <span id="singleBudgetInfo"></span><span id="tripleBudgetInfo"></span
+                ><span id="comboBudgetInfo"></span>
+              </div>
+              <div class="taste-options">
+                <label for="cravingInput">Hôm nay thèm món chính gì?</label
+                ><select id="cravingInput">
+                  <option value="all">Món nào cũng được</option>
+                  <option value="rice">Cơm &amp; xôi</option>
+                  <option value="soup">Món nước</option>
+                  <option value="light">Ăn nhẹ</option>
+                  <option value="spicy">Cay</option>
+                  <option value="mild">Thanh đạm</option>
+                </select>
+                <p class="note">
+                  Áp dụng cho món chính, kể cả món chính trong combo. Khẩu vị và cách nấu tùy quán;
+                  không phải bộ lọc dị ứng hay dinh dưỡng.
+                </p>
+                <label class="unique"
+                  ><input id="avoidRecentInput" type="checkbox" />Ưu tiên tránh món đã ăn trong 3
+                  ngày</label
+                >
+                <p class="note">
+                  Nếu ít lựa chọn, món đã ăn vẫn có thể xuất hiện để giữ đúng ngân sách.
+                </p>
+                <button id="resetTasteBtn" type="button">Bỏ lọc khẩu vị</button>
+              </div>
+              <div class="selection-options">
+                <label class="unique"
+                  ><input id="uniqueInput" type="checkbox" checked />Không trùng trong lượt chọn 3
+                  món</label
+                ><span id="comboHelp" class="combo-note">Combo = món chính + ăn vặt + đồ uống</span
+                ><span class="combo-note"
+                  >Ưu tiên món khác lượt trước và ít xuất hiện trong tab này. Ngân sách ít lựa chọn
+                  vẫn có thể lặp.</span
+                >
+              </div>
+            </div>
+          </details>
+        </section>
+        <section id="menu" class="menu-section" aria-labelledby="menuTitle">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">MỖI NGÀY MỘT HƯƠNG VỊ</span>
+              <h2 id="menuTitle">Khám phá thực đơn</h2>
+            </div>
+            <button
+              id="collectionToggle"
+              class="collection-toggle"
+              aria-pressed="false"
+              title="Chỉ xem món đã thu thập"
+            >
+              <span data-icon="bookmark"></span><span id="collectionCount"></span>
+            </button>
+          </div>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Tiến độ bộ sưu tập"
+            aria-valuemin="0"
+            aria-valuemax="89"
+            aria-valuenow="0"
+            id="collectionProgress"
+          >
+            <div id="progressFill"></div>
+          </div>
+          <p class="note" id="collectionNote"></p>
+          <div class="personal-view">
+            <label for="personalView">Danh sách của tôi</label
+            ><select id="personalView">
+              <option value="all">Tất cả món</option>
+              <option value="favorite">Yêu thích</option>
+              <option value="eaten">Đã ăn</option>
+              <option value="hidden">Món đã ẩn · có thể khôi phục</option>
+            </select>
+          </div>
+          <div class="search-wrap">
+            <span data-icon="search"></span
+            ><input
+              id="dishSearch"
+              type="search"
+              placeholder="Tìm món bạn đang thèm…"
+              aria-label="Tìm món trong thực đơn"
+              autocomplete="off"
+            /><button id="clearSearch" class="icon-button" aria-label="Xóa tìm kiếm" hidden>
+              <span data-icon="x"></span>
+            </button>
+          </div>
+          <nav id="filters" class="filters" aria-label="Lọc thực đơn"></nav>
+          <p id="menuStatus" class="menu-status" role="status" aria-live="polite"></p>
+          <div id="menuEmpty" class="menu-empty" hidden>
+            <p id="menuEmptyMessage"></p>
+            <button id="resetMenuBudget" type="button">Bỏ giới hạn ngân sách</button
+            ><button id="resetMenuFilters" type="button">Xem tất cả món</button>
+          </div>
+          <div id="menuGrid" class="menu-grid"></div>
+          <button id="loadMoreBtn" class="load-more">
+            Xem thêm món<span data-icon="arrow-right"></span>
+          </button>
+        </section>
+        <a class="maps-callout" href="#home" aria-label="Về phần gợi ý để chọn món và tìm quán"
+          ><span class="callout-icon"><span data-icon="map-pin"></span></span>
+          <div>
+            <strong>Thấy món ngon? Tìm ngay quán gần bạn.</strong>
+            <p>Chọn món rồi mở Google Maps để xem địa chỉ, đánh giá và thực đơn của quán.</p>
+          </div>
+          <span data-icon="arrow-up-right"></span
+        ></a>
+      </main>
+      <footer>
+        <a class="footer-brand" href="#home">Ăn gì đây.</a
+        ><span>Ăn ngon, chọn vui. Theo cách của bạn.</span>
+        <div class="legal-links">
+          <a href="privacy.html">Quyền riêng tư</a><a href="terms.html">Điều khoản</a
+          ><a href="credits.html">Nguồn mở</a>
+        </div>
+        <span id="offlineReadiness" class="offline-readiness" role="status"
+          >Đang chuẩn bị offline…</span
+        >
+      </footer>
+    </div>
+    <nav class="mobile-nav" aria-label="Điều hướng nhanh">
+      <a id="homeNav" href="#home" aria-current="page"
+        ><span data-icon="compass"></span><span>Gợi ý</span></a
+      ><a id="menuNav" href="#menu"><span data-icon="book-open"></span><span>Thực đơn</span></a
+      ><button id="collectionNav"><span data-icon="bookmark"></span><span>Bộ sưu tập</span></button>
+    </nav>
+    <dialog id="spinDialog" aria-labelledby="spinTitle">
+      <div class="dialog-heading">
+        <div>
+          <span class="eyebrow">MỘT CHÚT BẤT NGỜ</span>
+          <h2 id="spinTitle">Đang tìm món ngon…</h2>
+        </div>
+        <button id="skipBtn">Bỏ qua<span data-icon="arrow-right"></span></button>
+      </div>
+      <div id="reelViewport" class="reel-viewport">
+        <div class="needle"></div>
+        <div id="reelTrack" class="reel-track"></div>
+      </div>
+      <p class="note">Một lựa chọn mới cho bữa ăn hôm nay.</p>
+    </dialog>
+    <dialog id="resultDialog" aria-labelledby="resultTitle">
+      <div class="dialog-heading">
+        <div>
+          <span class="eyebrow">BỮA NGON ĐANG CHỜ</span>
+          <h2 id="resultTitle">Món ngon dành cho bạn</h2>
+        </div>
+        <button class="icon-button" data-close aria-label="Đóng kết quả">
+          <span data-icon="x"></span>
+        </button>
+      </div>
+      <div id="resultScroll" class="result-scroll">
+        <p id="resultSaveNotice" class="result-save-notice" role="status" hidden></p>
+        <div id="resultCost" class="result-cost" hidden></div>
+        <div id="resultGrid" class="result-grid"></div>
+        <section id="nearbyPanel" class="nearby-panel" aria-labelledby="nearbyTitle">
+          <div class="nearby-heading">
+            <div>
+              <span class="eyebrow">TỪ MÓN NGON ĐẾN QUÁN QUEN</span>
+              <h3 id="nearbyTitle">Tìm quán trên Google Maps</h3>
+            </div>
+            <img
+              class="google-attribution"
+              src="images/google-maps-attribution.svg"
+              alt="Google Maps"
+              height="18"
+            />
+          </div>
+          <p id="placesStatus" class="places-status" role="status" aria-live="polite"></p>
+          <div id="placesLinks" class="maps-dish-links" aria-label="Tìm quán cho từng món"></div>
+          <p class="note">
+            Giá món chỉ là tham khảo. Xem thực đơn và xác nhận giá thực tế với quán.
+          </p>
+        </section>
+      </div>
+      <div class="actions result-actions">
+        <button id="rerollBtn" class="primary"><span data-icon="rotate-ccw"></span>Chọn lại</button
+        ><button data-close>Xong<span data-icon="check"></span></button>
+      </div>
+    </dialog>
+    <dialog id="shareDialog" class="compact-dialog" aria-labelledby="shareTitle">
+      <div class="dialog-heading">
+        <h2 id="shareTitle">Gửi một bữa ngon</h2>
+        <button class="icon-button" data-close aria-label="Đóng chia sẻ">
+          <span data-icon="x"></span>
+        </button>
+      </div>
+      <p>Sao chép đường dẫn và gửi cho bạn bè. Mở trực tiếp trên bất kỳ thiết bị nào.</p>
+      <label class="sr-only" for="shareUrl">Đường dẫn website</label
+      ><input id="shareUrl" type="url" readonly /><button id="copyLinkBtn" class="primary">
+        <span data-icon="copy"></span>Sao chép đường dẫn
+      </button>
+    </dialog>
+    <dialog id="installDialog" class="compact-dialog" aria-labelledby="installTitle">
+      <div class="dialog-heading">
+        <h2 id="installTitle">Luôn sẵn sàng khi bạn đói</h2>
+        <button class="icon-button" data-close aria-label="Đóng hướng dẫn cài đặt">
+          <span data-icon="x"></span>
+        </button>
+      </div>
+      <p>Thêm Ăn gì đây vào màn hình chính để mở nhanh như một ứng dụng.</p>
+      <ol id="installSteps" class="install-steps"></ol>
+      <button data-close class="primary">Đã hiểu<span data-icon="check"></span></button>
+    </dialog>
+    <dialog id="themeDialog" class="compact-dialog" aria-labelledby="appearanceTitle">
+      <div class="dialog-heading">
+        <h2 id="appearanceTitle">Giao diện của bạn</h2>
+        <button class="icon-button" data-close aria-label="Đóng cài đặt giao diện">
+          <span data-icon="x"></span>
+        </button>
+      </div>
+      <h3 class="appearance-heading" id="brightnessTitle">Chế độ hiển thị</h3>
+      <div class="appearance-options" role="group" aria-labelledby="brightnessTitle">
+        <button type="button" data-appearance-choice="light" aria-pressed="true">Sáng</button
+        ><button type="button" data-appearance-choice="dark" aria-pressed="false">Tối</button
+        ><button type="button" data-appearance-choice="system" aria-pressed="false">
+          Theo thiết bị
+        </button>
+      </div>
+      <div class="theme-settings">
+        <h3 id="themeTitle">Màu giao diện</h3>
+        <div class="theme-options" role="group" aria-labelledby="themeTitle">
+          <button type="button" data-theme-choice="orange" aria-pressed="true">
+            <span class="theme-dot" aria-hidden="true"></span>Cam đất</button
+          ><button type="button" data-theme-choice="green" aria-pressed="false">
+            <span class="theme-dot" aria-hidden="true"></span>Xanh lá</button
+          ><button type="button" data-theme-choice="blue" aria-pressed="false">
+            <span class="theme-dot" aria-hidden="true"></span>Xanh biển</button
+          ><button type="button" data-theme-choice="rose" aria-pressed="false">
+            <span class="theme-dot" aria-hidden="true"></span>Hồng mận
+          </button>
+        </div>
+      </div>
+      <p class="note">
+        Màu chủ đạo kết hợp được với cả chế độ sáng và tối. Lựa chọn được lưu trên trình duyệt này.
+      </p>
+      <button class="primary" data-close>Xong<span data-icon="check"></span></button>
+    </dialog>
+    <div id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

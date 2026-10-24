@@ -1,0 +1,358 @@
+{
+  "sang_5_1": {
+    "name": "Phở tái lăn",
+    "query": "quán Phở tái lăn"
+  },
+  "sang_5_2": {
+    "name": "Bún bò Huế",
+    "query": "quán Bún bò Huế"
+  },
+  "sang_5_3": {
+    "name": "Bánh mì chảo",
+    "query": "quán Bánh mì chảo"
+  },
+  "sang_4_1": {
+    "name": "Bánh cuốn",
+    "query": "quán Bánh cuốn"
+  },
+  "sang_4_2": {
+    "name": "Hủ tiếu Nam Vang",
+    "query": "quán Hủ tiếu Nam Vang"
+  },
+  "sang_4_3": {
+    "name": "Xôi xéo",
+    "query": "quán Xôi xéo"
+  },
+  "sang_3_1": {
+    "name": "Bánh mì pate",
+    "query": "quán Bánh mì pate"
+  },
+  "sang_3_2": {
+    "name": "Bún riêu cua",
+    "query": "quán Bún riêu cua"
+  },
+  "sv_morning_banh_bao": {
+    "name": "Bánh bao nhân thịt",
+    "query": "quán Bánh bao nhân thịt"
+  },
+  "sv_morning_banh_gio": {
+    "name": "Bánh giò",
+    "query": "quán Bánh giò"
+  },
+  "more_morning_banh_uot": {
+    "name": "Bánh ướt",
+    "query": "quán Bánh ướt"
+  },
+  "more_morning_banh_mi_xiu_mai": {
+    "name": "Bánh mì xíu mại",
+    "query": "quán Bánh mì xíu mại"
+  },
+  "trua_5_1": {
+    "name": "Cơm tấm",
+    "query": "quán Cơm tấm"
+  },
+  "trua_5_2": {
+    "name": "Bún chả",
+    "query": "quán Bún chả"
+  },
+  "trua_5_3": {
+    "name": "Cơm gà xối mỡ",
+    "query": "quán Cơm gà xối mỡ"
+  },
+  "trua_4_1": {
+    "name": "Mì Quảng",
+    "query": "quán Mì Quảng"
+  },
+  "trua_4_2": {
+    "name": "Bún thịt nướng",
+    "query": "quán Bún thịt nướng"
+  },
+  "trua_3_1": {
+    "name": "Cơm rang dưa bò",
+    "query": "quán Cơm rang dưa bò"
+  },
+  "trua_3_2": {
+    "name": "Phở trộn",
+    "query": "quán Phở trộn"
+  },
+  "sv_lunch_banh_canh": {
+    "name": "Bánh canh",
+    "query": "quán Bánh canh"
+  },
+  "sv_lunch_bun_mam": {
+    "name": "Bún mắm",
+    "query": "quán Bún mắm"
+  },
+  "sv_lunch_sang_4_2": {
+    "name": "Hủ tiếu Nam Vang",
+    "query": "quán Hủ tiếu Nam Vang"
+  },
+  "more_lunch_com_chien": {
+    "name": "Cơm chiên thập cẩm",
+    "query": "quán Cơm chiên thập cẩm"
+  },
+  "more_lunch_com_ca_man": {
+    "name": "Cơm cá mặn",
+    "query": "quán Cơm cá mặn"
+  },
+  "more_lunch_bun_thai": {
+    "name": "Bún Thái",
+    "query": "quán Bún Thái"
+  },
+  "more_lunch_bun_hen": {
+    "name": "Bún hến",
+    "query": "quán Bún hến"
+  },
+  "chieu_5_1": {
+    "name": "Bánh xèo",
+    "query": "quán Bánh xèo"
+  },
+  "chieu_5_2": {
+    "name": "Gỏi cuốn",
+    "query": "quán Gỏi cuốn"
+  },
+  "chieu_4_1": {
+    "name": "Bánh khọt",
+    "query": "quán Bánh khọt"
+  },
+  "chieu_4_2": {
+    "name": "Bột chiên",
+    "query": "quán Bột chiên"
+  },
+  "chieu_3_1": {
+    "name": "Bánh bột lọc",
+    "query": "quán Bánh bột lọc"
+  },
+  "chieu_3_2": {
+    "name": "Súp cua",
+    "query": "quán Súp cua"
+  },
+  "sv_afternoon_banh_bao": {
+    "name": "Bánh bao nhân thịt",
+    "query": "quán Bánh bao nhân thịt"
+  },
+  "sv_afternoon_banh_gio": {
+    "name": "Bánh giò",
+    "query": "quán Bánh giò"
+  },
+  "sv_afternoon_pha_lau": {
+    "name": "Phá lấu bánh mì",
+    "query": "quán Phá lấu bánh mì"
+  },
+  "more_afternoon_banh_uot": {
+    "name": "Bánh ướt",
+    "query": "quán Bánh ướt"
+  },
+  "more_afternoon_banh_mi_xiu_mai": {
+    "name": "Bánh mì xíu mại",
+    "query": "quán Bánh mì xíu mại"
+  },
+  "toi_5_1": {
+    "name": "Lẩu Thái mini",
+    "query": "quán Lẩu Thái mini"
+  },
+  "toi_5_2": {
+    "name": "Bún đậu mắm tôm",
+    "query": "quán Bún đậu mắm tôm"
+  },
+  "toi_5_3": {
+    "name": "Bò nướng phần nhỏ",
+    "query": "quán Bò nướng phần nhỏ"
+  },
+  "toi_4_1": {
+    "name": "Ốc luộc đĩa nhỏ",
+    "query": "quán Ốc luộc đĩa nhỏ"
+  },
+  "toi_4_2": {
+    "name": "Bò né",
+    "query": "quán Bò né"
+  },
+  "toi_3_1": {
+    "name": "Cháo sườn",
+    "query": "quán Cháo sườn"
+  },
+  "toi_3_2": {
+    "name": "Miến gà",
+    "query": "quán Miến gà"
+  },
+  "sv_dinner_banh_canh": {
+    "name": "Bánh canh",
+    "query": "quán Bánh canh"
+  },
+  "sv_dinner_pha_lau": {
+    "name": "Phá lấu bánh mì",
+    "query": "quán Phá lấu bánh mì"
+  },
+  "sv_dinner_trua_5_1": {
+    "name": "Cơm tấm",
+    "query": "quán Cơm tấm"
+  },
+  "sv_dinner_trua_5_3": {
+    "name": "Cơm gà xối mỡ",
+    "query": "quán Cơm gà xối mỡ"
+  },
+  "sv_dinner_sang_3_2": {
+    "name": "Bún riêu cua",
+    "query": "quán Bún riêu cua"
+  },
+  "sv_dinner_chieu_4_2": {
+    "name": "Bột chiên",
+    "query": "quán Bột chiên"
+  },
+  "more_dinner_com_chien": {
+    "name": "Cơm chiên thập cẩm",
+    "query": "quán Cơm chiên thập cẩm"
+  },
+  "more_dinner_com_ca_man": {
+    "name": "Cơm cá mặn",
+    "query": "quán Cơm cá mặn"
+  },
+  "more_dinner_bun_thai": {
+    "name": "Bún Thái",
+    "query": "quán Bún Thái"
+  },
+  "more_dinner_bun_hen": {
+    "name": "Bún hến",
+    "query": "quán Bún hến"
+  },
+  "vat_5_1": {
+    "name": "Bánh tráng trộn",
+    "query": "quán Bánh tráng trộn"
+  },
+  "vat_5_2": {
+    "name": "Chè Thái",
+    "query": "quán Chè Thái"
+  },
+  "vat_4_1": {
+    "name": "Nem chua rán",
+    "query": "quán Nem chua rán"
+  },
+  "vat_4_2": {
+    "name": "Bánh tráng nướng",
+    "query": "quán Bánh tráng nướng"
+  },
+  "vat_3_1": {
+    "name": "Cá viên chiên",
+    "query": "quán Cá viên chiên"
+  },
+  "sv_snacks_banh_flan": {
+    "name": "Bánh flan",
+    "query": "quán Bánh flan"
+  },
+  "sv_snacks_che_dau_trang": {
+    "name": "Chè đậu trắng",
+    "query": "quán Chè đậu trắng"
+  },
+  "sv_snacks_che_dau_den": {
+    "name": "Chè đậu đen",
+    "query": "quán Chè đậu đen"
+  },
+  "sv_snacks_che_dau_xanh": {
+    "name": "Chè đậu xanh nha đam",
+    "query": "quán Chè đậu xanh nha đam"
+  },
+  "sv_snacks_banh_bo": {
+    "name": "Bánh bò hấp",
+    "query": "quán Bánh bò hấp"
+  },
+  "sv_snacks_chieu_5_2": {
+    "name": "Gỏi cuốn",
+    "query": "quán Gỏi cuốn"
+  },
+  "sv_snacks_chieu_3_1": {
+    "name": "Bánh bột lọc",
+    "query": "quán Bánh bột lọc"
+  },
+  "nuoc_5_1": {
+    "name": "Trà đào",
+    "query": "quán Trà đào"
+  },
+  "nuoc_5_2": {
+    "name": "Trà sữa",
+    "query": "quán Trà sữa"
+  },
+  "nuoc_5_3": {
+    "name": "Nước dừa",
+    "query": "quán Nước dừa"
+  },
+  "nuoc_4_1": {
+    "name": "Cà phê muối",
+    "query": "quán Cà phê muối"
+  },
+  "nuoc_4_2": {
+    "name": "Sinh tố bơ",
+    "query": "quán Sinh tố bơ"
+  },
+  "nuoc_4_3": {
+    "name": "Trà trái cây",
+    "query": "quán Trà trái cây"
+  },
+  "nuoc_3_1": {
+    "name": "Cà phê sữa đá",
+    "query": "quán Cà phê sữa đá"
+  },
+  "nuoc_3_2": {
+    "name": "Nước mía",
+    "query": "quán Nước mía"
+  },
+  "nuoc_3_3": {
+    "name": "Rau má đậu xanh",
+    "query": "quán Rau má đậu xanh"
+  },
+  "nuoc_ngot_1": {
+    "name": "Coca-Cola",
+    "query": "quán Coca-Cola"
+  },
+  "nuoc_ngot_2": {
+    "name": "Pepsi",
+    "query": "quán Pepsi"
+  },
+  "nuoc_ngot_3": {
+    "name": "7Up",
+    "query": "quán 7Up"
+  },
+  "nuoc_ngot_4": {
+    "name": "Sting dâu",
+    "query": "quán Sting dâu"
+  },
+  "nuoc_ngot_5": {
+    "name": "Mirinda",
+    "query": "quán Mirinda"
+  },
+  "nuoc_ngot_6": {
+    "name": "Bò Húc",
+    "query": "quán Bò Húc"
+  },
+  "more_drinks_sua_dau_nanh": {
+    "name": "Sữa đậu nành",
+    "query": "quán Sữa đậu nành"
+  },
+  "more_drinks_nuoc_cam": {
+    "name": "Nước cam",
+    "query": "quán Nước cam"
+  },
+  "more_drinks_tra_da": {
+    "name": "Trà đá",
+    "query": "quán Trà đá"
+  },
+  "more_drinks_chanh_day": {
+    "name": "Nước chanh dây",
+    "query": "quán Nước chanh dây"
+  },
+  "more_drinks_dua_hau": {
+    "name": "Nước ép dưa hấu",
+    "query": "quán Nước ép dưa hấu"
+  },
+  "more_drinks_ca_cao": {
+    "name": "Ca cao nóng",
+    "query": "quán Ca cao nóng"
+  },
+  "more_drinks_sinh_to_xoai": {
+    "name": "Sinh tố xoài",
+    "query": "quán Sinh tố xoài"
+  },
+  "more_drinks_nuoc_sam": {
+    "name": "Nước sâm",
+    "query": "quán Nước sâm"
+  }
+}
