@@ -41,10 +41,11 @@ class FoodRoulette {
       const img = new Image(130, 125);
       UI.imageFallback(img);
       img.src = item.image;
-      img.alt = item.name;
+      const displayName = typeof getDishName === 'function' ? getDishName(item) : item.name;
+      img.alt = displayName;
       img.decoding = 'async';
       const label = document.createElement('span');
-      label.textContent = item.name;
+      label.textContent = displayName;
       card.append(img, label);
       fragment.append(card);
     }

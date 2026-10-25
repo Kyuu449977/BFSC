@@ -40,10 +40,28 @@
         <a class="brand" href="#home" aria-label="Ăn gì đây — về đầu trang"
           ><span class="brand-mark"><span data-icon="utensils"></span></span
           ><span class="brand-wordmark"
-            >Ăn gì đây<span class="brand-sub">Một bữa ngon, một ngày vui.</span></span
+            ><span class="brand-name">Ăn gì đây</span><span class="brand-sub">Một bữa ngon, một ngày vui.</span></span
           ></a
         >
         <nav class="tools" aria-label="Công cụ và giao diện">
+          <button
+            id="tzBtn"
+            class="icon-button"
+            aria-label="Múi giờ khu vực"
+            title="Múi giờ khu vực (Timezone)"
+            aria-haspopup="dialog"
+          >
+            <span data-icon="clock"></span>
+          </button>
+          <button
+            id="langBtn"
+            class="icon-button"
+            aria-label="Đổi ngôn ngữ"
+            title="Đổi ngôn ngữ (Language)"
+            aria-haspopup="dialog"
+          >
+            <span data-icon="globe"></span>
+          </button>
           <button
             id="themeBtn"
             class="icon-button"
@@ -58,6 +76,15 @@
           </button>
           <button id="shareBtn" class="icon-button" title="Chia sẻ website">
             <span data-icon="share-2"></span><span class="sr-only">Chia sẻ website</span>
+          </button>
+          <button
+            id="bgmBtn"
+            class="icon-button"
+            aria-label="Bật nhạc nền"
+            aria-pressed="false"
+            title="Bật hoặc tắt nhạc nền thư giãn"
+          >
+            <span data-icon="music"></span>
           </button>
           <button
             id="soundBtn"
@@ -75,10 +102,17 @@
           <div class="intro">
             <div class="intro-kicker">
               <span class="status-dot"></span><span id="period" class="eyebrow"></span
+              ><button id="tzPill" class="tz-pill" type="button" aria-haspopup="dialog" title="Đổi múi giờ khu vực · Change Timezone">
+                <span data-icon="clock"></span><span id="tzPillText">VN · --:--</span>
+              </button
               ><span id="offlineStatus" class="offline-status" hidden>Đang offline</span>
             </div>
             <h1 id="title">Hôm nay ăn gì?</h1>
-            <p>Để bụng đói được nghỉ nghĩ. Chọn một món ngon thôi.</p>
+            <p>Để cái bụng thôi réo gọi, Vũ trụ sẽ mang bất ngờ tới cho bạn💫</p>
+            <div id="lateNightNotice" class="latenight-banner" role="status" hidden>
+              <span class="latenight-star">🌙</span>
+              <strong class="latenight-text">*Chú ý: HÃY ĂN NHẸ THÔI NHÉ BẠN ƠI&lt;3</strong>
+            </div>
           </div>
           <nav class="modes" aria-label="Danh mục món ăn">
             <button data-mode="main" aria-pressed="true">
@@ -298,7 +332,7 @@
     <dialog id="resultDialog" aria-labelledby="resultTitle">
       <div class="dialog-heading">
         <div>
-          <span class="eyebrow">BỮA NGON ĐANG CHỜ</span>
+          <span class="eyebrow" id="resultModalEyebrow">BỮA NGON ĐANG CHỜ</span>
           <h2 id="resultTitle">Món ngon dành cho bạn</h2>
         </div>
         <button class="icon-button" data-close aria-label="Đóng kết quả">
@@ -330,8 +364,14 @@
         </section>
       </div>
       <div class="actions result-actions">
-        <button id="rerollBtn" class="primary"><span data-icon="rotate-ccw"></span>Chọn lại</button
-        ><button data-close>Xong<span data-icon="check"></span></button>
+        <button id="rerollBtn" type="button" class="result-action-btn result-reroll-btn">
+          <span data-icon="rotate-ccw"></span>
+          <span>Chọn lại</span>
+        </button>
+        <button id="resultDoneBtn" type="button" class="primary-button result-action-btn result-done-btn" data-close>
+          <span>Xong</span>
+          <span data-icon="check"></span>
+        </button>
       </div>
     </dialog>
     <dialog id="shareDialog" class="compact-dialog" aria-labelledby="shareTitle">
@@ -360,24 +400,28 @@
     </dialog>
     <dialog id="themeDialog" class="compact-dialog" aria-labelledby="appearanceTitle">
       <div class="dialog-heading">
-        <h2 id="appearanceTitle">Giao diện của bạn</h2>
+        <h2 id="appearanceTitle">Cài đặt &amp; Giao diện</h2>
         <button class="icon-button" data-close aria-label="Đóng cài đặt giao diện">
           <span data-icon="x"></span>
         </button>
       </div>
+
       <h3 class="appearance-heading" id="brightnessTitle">Chế độ hiển thị</h3>
       <div class="appearance-options" role="group" aria-labelledby="brightnessTitle">
         <button type="button" data-appearance-choice="light" aria-pressed="true">Sáng</button
         ><button type="button" data-appearance-choice="dark" aria-pressed="false">Tối</button
         ><button type="button" data-appearance-choice="system" aria-pressed="false">
           Theo thiết bị
+        </button
+        ><button type="button" data-appearance-choice="auto" aria-pressed="false">
+          Tự động (Theo giờ)
         </button>
       </div>
       <div class="theme-settings">
         <h3 id="themeTitle">Màu giao diện</h3>
         <div class="theme-options" role="group" aria-labelledby="themeTitle">
-          <button type="button" data-theme-choice="orange" aria-pressed="true">
-            <span class="theme-dot" aria-hidden="true"></span>Cam đất</button
+          <button type="button" data-theme-choice="system" aria-pressed="true">
+            <span class="theme-dot" aria-hidden="true"></span>Màu hệ thống</button
           ><button type="button" data-theme-choice="green" aria-pressed="false">
             <span class="theme-dot" aria-hidden="true"></span>Xanh lá</button
           ><button type="button" data-theme-choice="blue" aria-pressed="false">
@@ -386,11 +430,185 @@
             <span class="theme-dot" aria-hidden="true"></span>Hồng mận
           </button>
         </div>
+        <div class="custom-color-picker-wrap">
+          <label for="customThemeColor" class="custom-color-label">
+            <span class="custom-color-preview" id="customColorPreview"></span>
+            <input type="color" id="customThemeColor" value="#ff7733" aria-label="Tự chọn màu sắc giao diện" />
+            <span id="customColorText">Tự chọn màu</span>
+          </label>
+        </div>
       </div>
-      <p class="note">
+      <p class="note" id="themeNote">
         Màu chủ đạo kết hợp được với cả chế độ sáng và tối. Lựa chọn được lưu trên trình duyệt này.
       </p>
-      <button class="primary" data-close>Xong<span data-icon="check"></span></button>
+      <button class="primary" data-close id="themeDoneBtn">Xong<span data-icon="check"></span></button>
+    </dialog>
+    <dialog id="languageDialog" class="compact-dialog" aria-labelledby="langModalTitle">
+      <div class="dialog-heading">
+        <div>
+          <span class="eyebrow" id="langModalEyebrow">NGÔN NGỮ · LANGUAGE</span>
+          <h2 id="langModalTitle">Chọn ngôn ngữ</h2>
+        </div>
+        <button class="icon-button" data-close aria-label="Đóng chọn ngôn ngữ">
+          <span data-icon="x"></span>
+        </button>
+      </div>
+      <p id="langModalDesc" class="note">Chọn ngôn ngữ hiển thị cho toàn bộ ứng dụng.</p>
+      <div class="lang-options-grid" role="group" aria-labelledby="langModalTitle">
+        <button type="button" class="lang-card" data-lang-choice="vi" aria-pressed="true">
+          <span class="lang-flag">🇻🇳</span>
+          <span class="lang-info">
+            <span class="lang-name">Tiếng Việt</span>
+            <span class="lang-sub">Mặc định</span>
+          </span>
+        </button>
+        <button type="button" class="lang-card" data-lang-choice="en" aria-pressed="false">
+          <span class="lang-flag">🇬🇧</span>
+          <span class="lang-info">
+            <span class="lang-name">English</span>
+            <span class="lang-sub">International</span>
+          </span>
+        </button>
+        <button type="button" class="lang-card" data-lang-choice="ja" aria-pressed="false">
+          <span class="lang-flag">🇯🇵</span>
+          <span class="lang-info">
+            <span class="lang-name">日本語</span>
+            <span class="lang-sub">Japanese</span>
+          </span>
+        </button>
+        <button type="button" class="lang-card" data-lang-choice="ko" aria-pressed="false">
+          <span class="lang-flag">🇰🇷</span>
+          <span class="lang-info">
+            <span class="lang-name">한국어</span>
+            <span class="lang-sub">Korean</span>
+          </span>
+        </button>
+        <button type="button" class="lang-card" data-lang-choice="zh" aria-pressed="false">
+          <span class="lang-flag">🇨🇳</span>
+          <span class="lang-info">
+            <span class="lang-name">中文</span>
+            <span class="lang-sub">Simplified Chinese</span>
+          </span>
+        </button>
+      </div>
+      <div class="dialog-actions">
+        <button id="langDoneBtn" class="primary-button" data-close type="button">
+          Xong
+        </button>
+      </div>
+    </dialog>
+    <dialog id="timezoneDialog" class="compact-dialog" aria-labelledby="timezoneModalTitle">
+      <div class="dialog-heading">
+        <div>
+          <span class="eyebrow" id="timezoneModalEyebrow">THỜI GIAN THEO KHU VỰC</span>
+          <h2 id="timezoneModalTitle">Múi giờ khu vực</h2>
+        </div>
+        <button class="icon-button" data-close aria-label="Đóng chọn múi giờ">
+          <span data-icon="x"></span>
+        </button>
+      </div>
+      <p class="note" id="timezoneModalDesc">
+        Chọn múi giờ để giao diện chuyển màu theo đúng buổi sáng, trưa, tối và đêm tại nơi bạn sống.
+      </p>
+      <div class="timezone-grid" role="group" aria-labelledby="timezoneModalTitle">
+        <button type="button" data-timezone-choice="auto" class="tz-card" aria-pressed="true">
+          <span class="tz-flag">🌐</span>
+          <div class="tz-info">
+            <strong class="tz-city" data-tz-name="auto">Tự động</strong>
+            <span class="tz-desc" data-tz-sub="auto">Theo giờ thiết bị</span>
+          </div>
+          <span class="tz-time" data-tz-time="auto">--:--</span>
+        </button>
+        <button type="button" data-timezone-choice="Asia/Ho_Chi_Minh" class="tz-card" aria-pressed="false">
+          <span class="tz-flag">🇻🇳</span>
+          <div class="tz-info">
+            <strong class="tz-city" data-tz-name="Asia/Ho_Chi_Minh">Việt Nam</strong>
+            <span class="tz-desc" data-tz-sub="Asia/Ho_Chi_Minh">Hà Nội, TP.HCM · GMT+7</span>
+          </div>
+          <span class="tz-time" data-tz-time="Asia/Ho_Chi_Minh">--:--</span>
+        </button>
+        <button type="button" data-timezone-choice="Asia/Tokyo" class="tz-card" aria-pressed="false">
+          <span class="tz-flag">🇯🇵</span>
+          <div class="tz-info">
+            <strong class="tz-city" data-tz-name="Asia/Tokyo">Nhật Bản</strong>
+            <span class="tz-desc" data-tz-sub="Asia/Tokyo">Tokyo · GMT+9</span>
+          </div>
+          <span class="tz-time" data-tz-time="Asia/Tokyo">--:--</span>
+        </button>
+        <button type="button" data-timezone-choice="Asia/Seoul" class="tz-card" aria-pressed="false">
+          <span class="tz-flag">🇰🇷</span>
+          <div class="tz-info">
+            <strong class="tz-city" data-tz-name="Asia/Seoul">Hàn Quốc</strong>
+            <span class="tz-desc" data-tz-sub="Asia/Seoul">Seoul · GMT+9</span>
+          </div>
+          <span class="tz-time" data-tz-time="Asia/Seoul">--:--</span>
+        </button>
+        <button type="button" data-timezone-choice="Asia/Shanghai" class="tz-card" aria-pressed="false">
+          <span class="tz-flag">🇨🇳</span>
+          <div class="tz-info">
+            <strong class="tz-city" data-tz-name="Asia/Shanghai">Trung Quốc</strong>
+            <span class="tz-desc" data-tz-sub="Asia/Shanghai">Bắc Kinh, Thượng Hải · GMT+8</span>
+          </div>
+          <span class="tz-time" data-tz-time="Asia/Shanghai">--:--</span>
+        </button>
+        <button type="button" data-timezone-choice="Asia/Bangkok" class="tz-card" aria-pressed="false">
+          <span class="tz-flag">🇹🇭</span>
+          <div class="tz-info">
+            <strong class="tz-city" data-tz-name="Asia/Bangkok">Thái Lan</strong>
+            <span class="tz-desc" data-tz-sub="Asia/Bangkok">Bangkok · GMT+7</span>
+          </div>
+          <span class="tz-time" data-tz-time="Asia/Bangkok">--:--</span>
+        </button>
+        <button type="button" data-timezone-choice="Asia/Singapore" class="tz-card" aria-pressed="false">
+          <span class="tz-flag">🇸🇬</span>
+          <div class="tz-info">
+            <strong class="tz-city" data-tz-name="Asia/Singapore">Singapore / Malaysia</strong>
+            <span class="tz-desc" data-tz-sub="Asia/Singapore">Singapore · GMT+8</span>
+          </div>
+          <span class="tz-time" data-tz-time="Asia/Singapore">--:--</span>
+        </button>
+        <button type="button" data-timezone-choice="Europe/London" class="tz-card" aria-pressed="false">
+          <span class="tz-flag">🇬🇧</span>
+          <div class="tz-info">
+            <strong class="tz-city" data-tz-name="Europe/London">Anh / Tây Âu</strong>
+            <span class="tz-desc" data-tz-sub="Europe/London">London · GMT+0/+1</span>
+          </div>
+          <span class="tz-time" data-tz-time="Europe/London">--:--</span>
+        </button>
+        <button type="button" data-timezone-choice="Europe/Paris" class="tz-card" aria-pressed="false">
+          <span class="tz-flag">🇫🇷</span>
+          <div class="tz-info">
+            <strong class="tz-city" data-tz-name="Europe/Paris">Pháp / Đức</strong>
+            <span class="tz-desc" data-tz-sub="Europe/Paris">Paris, Berlin · GMT+1/+2</span>
+          </div>
+          <span class="tz-time" data-tz-time="Europe/Paris">--:--</span>
+        </button>
+        <button type="button" data-timezone-choice="America/New_York" class="tz-card" aria-pressed="false">
+          <span class="tz-flag">🇺🇸</span>
+          <div class="tz-info">
+            <strong class="tz-city" data-tz-name="America/New_York">Mỹ - Bờ Đông</strong>
+            <span class="tz-desc" data-tz-sub="America/New_York">New York · GMT-5/-4</span>
+          </div>
+          <span class="tz-time" data-tz-time="America/New_York">--:--</span>
+        </button>
+        <button type="button" data-timezone-choice="America/Los_Angeles" class="tz-card" aria-pressed="false">
+          <span class="tz-flag">🇺🇸</span>
+          <div class="tz-info">
+            <strong class="tz-city" data-tz-name="America/Los_Angeles">Mỹ - Bờ Tây</strong>
+            <span class="tz-desc" data-tz-sub="America/Los_Angeles">California · GMT-8/-7</span>
+          </div>
+          <span class="tz-time" data-tz-time="America/Los_Angeles">--:--</span>
+        </button>
+        <button type="button" data-timezone-choice="Australia/Sydney" class="tz-card" aria-pressed="false">
+          <span class="tz-flag">🇦🇺</span>
+          <div class="tz-info">
+            <strong class="tz-city" data-tz-name="Australia/Sydney">Úc</strong>
+            <span class="tz-desc" data-tz-sub="Australia/Sydney">Sydney · GMT+10/+11</span>
+          </div>
+          <span class="tz-time" data-tz-time="Australia/Sydney">--:--</span>
+        </button>
+      </div>
+      <button class="primary" data-close id="tzDoneBtn">Xong<span data-icon="check"></span></button>
     </dialog>
     <div id="toast" role="status" aria-live="polite"></div>
   </body>

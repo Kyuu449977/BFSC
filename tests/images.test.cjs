@@ -7,7 +7,7 @@ test('all dish images exist, match their attribution record and use local assets
   vm.runInContext(fs.readFileSync('src/js/data.js', 'utf8') + ';globalThis.db=FOOD_DATABASE', c);
   const sources = JSON.parse(fs.readFileSync('src/images/sources.json', 'utf8'));
   const all = Object.values(c.db).flatMap((g) => g.dishes);
-  assert.equal(Object.keys(sources).length, 89);
+  assert.equal(Object.keys(sources).length, 128);
   let photos = 0,
     illustrations = 0;
   for (const dish of all) {
@@ -28,7 +28,7 @@ test('all dish images exist, match their attribution record and use local assets
       assert.ok(fs.readFileSync('src/' + s.file, 'utf8').includes('MINH HỌA'));
     }
   }
-  assert.equal(photos, 89);
+  assert.equal(photos, 128);
   assert.equal(illustrations, 0);
   const sw = fs.readFileSync('src/sw.js', 'utf8');
   for (const d of all) assert.ok(sw.includes('./' + d.image));

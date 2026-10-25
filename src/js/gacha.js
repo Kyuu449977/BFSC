@@ -1,5 +1,6 @@
 class GachaEngine {
   constructor() {
+    this.currentRegion = 'vi';
     this.preferences =
       typeof DishPreferences === 'function' ? new DishPreferences(this.getAllDishesList()) : null;
     this.currentMode = 'main';
@@ -58,23 +59,49 @@ class GachaEngine {
     this.currentMode = mode;
   }
 
+  setRegion(region) {
+    if (!region || this.currentRegion === region) return;
+    this.currentRegion = region;
+    if (this.preferences && typeof this.preferences.syncAllDishes === 'function') {
+      this.preferences.syncAllDishes(this.getAllDishesList());
+    }
+  }
+
+  getActiveDatabase() {
+    return (
+      (typeof REGIONAL_DATABASES !== 'undefined' && REGIONAL_DATABASES[this.currentRegion]) ||
+      (typeof FOOD_DATABASE !== 'undefined' ? FOOD_DATABASE : {})
+    );
+  }
+
   getActiveBannerKey(mode = this.currentMode) {
     return mode === 'main' ? getCurrentMealPeriod() : mode;
   }
   getCurrentBannerData() {
-    return FOOD_DATABASE[this.getActiveBannerKey()];
+    const db = this.getActiveDatabase();
+    return db[this.getActiveBannerKey()] || (typeof FOOD_DATABASE !== 'undefined' ? FOOD_DATABASE[this.getActiveBannerKey()] : null);
   }
 
   prices(dish) {
-    const min = dish.priceMin,
-      max = dish.priceMax;
+    if (!dish) return null;
+    let min = dish.priceMin;
+    let max = dish.priceMax;
+    if (min === undefined && max === undefined) {
+      if (Array.isArray(dish.priceRange) && dish.priceRange.length === 2) {
+        min = dish.priceRange[0];
+        max = dish.priceRange[1];
+      } else if (typeof dish.price === 'number') {
+        min = dish.price;
+        max = dish.price;
+      }
+    }
     return Number.isSafeInteger(min) && Number.isSafeInteger(max) && min >= 0 && max >= min
       ? { min, max }
       : null;
   }
 
   signature(mode, unique, budget, period = getCurrentMealPeriod()) {
-    return JSON.stringify([period, mode, unique, budget, this.preferences?.revision || 0]);
+    return JSON.stringify([this.currentRegion, period, mode, unique, budget, this.preferences?.revision || 0]);
   }
 
   candidates(pools, budget, unique) {
@@ -87,7 +114,7 @@ class GachaEngine {
       for (const item of pools[index]) {
         const price = this.prices(item.dish);
         if (budget !== null && (!price || sum + price.min > budget)) continue;
-        if (unique && selected.some((previous) => previous.dish.id === item.dish.id)) continue;
+        if (unique && selected.some((previous) => previous.dish.id === item.dish.id || previous.dish.name === item.dish.name)) continue;
         selected.push(item);
         visit(index + 1, selected, sum + (price?.min || 0));
         selected.pop();
@@ -104,14 +131,17 @@ class GachaEngine {
       throw new Error('Ngân sách phải là số tiền hợp lệ.');
     const period = getCurrentMealPeriod();
     const key = mode === 'main' ? period : mode;
-    const group = (source) =>
-      FOOD_DATABASE[source].dishes
+    const db = this.getActiveDatabase();
+    const group = (source) => {
+      const srcGroup = db[source] || (typeof FOOD_DATABASE !== 'undefined' ? FOOD_DATABASE[source] : { dishes: [], name: '' });
+      return srcGroup.dishes
         .filter((dish) => !this.preferences || this.preferences.eligible(dish, source))
         .map((dish) => ({
           dish,
           source,
-          sourceName: FOOD_DATABASE[source].name,
+          sourceName: srcGroup.name,
         }));
+    };
     const pool = group(key);
     const main = group(period),
       snacks = group('snacks'),
@@ -200,16 +230,18 @@ class GachaEngine {
     if (plan.signature !== this.signature(mode, unique, budget))
       throw new Error('Thực đơn hoặc ngân sách vừa thay đổi. Vui lòng chờ tính lại.');
     const key = this.getActiveBannerKey(mode);
-    if (unique && FOOD_DATABASE[key].dishes.length < count)
+    const activeDb = this.getActiveDatabase();
+    const activeGroup = activeDb[key] || (typeof FOOD_DATABASE !== 'undefined' ? FOOD_DATABASE[key] : { dishes: [], name: '' });
+    if (unique && activeGroup.dishes.length < count)
       throw new Error('Không đủ món khác nhau. Hãy chọn ít món hơn hoặc tắt tùy chọn không trùng.');
     if (count === 1) return this.pick(plan.singles);
     if (count === 3) return this.pick(plan.triples);
-    const pool = FOOD_DATABASE[key].dishes
+    const pool = activeGroup.dishes
       .filter((dish) => !this.preferences || this.preferences.eligible(dish, key))
       .map((dish) => ({
         dish,
         source: key,
-        sourceName: FOOD_DATABASE[key].name,
+        sourceName: activeGroup.name,
       }));
     return this.pick(this.candidates([pool, pool], budget, unique));
   }
@@ -282,9 +314,22 @@ class GachaEngine {
   }
 
   getAllDishesList() {
-    return Object.values(FOOD_DATABASE).flatMap((group) =>
-      group.dishes.map((d) => ({ ...d, mealId: group.id, mealName: group.name }))
-    );
+    const db = this.getActiveDatabase();
+    const seenIds = new Set();
+    const seenNames = new Set();
+    const list = [];
+    for (const [mealId, group] of Object.entries(db)) {
+      if (!group || !Array.isArray(group.dishes)) continue;
+      for (const dish of group.dishes) {
+        if (!dish || !dish.id) continue;
+        const normName = (dish.name || '').trim().toLowerCase();
+        if (seenIds.has(dish.id) || (normName && seenNames.has(normName))) continue;
+        seenIds.add(dish.id);
+        if (normName) seenNames.add(normName);
+        list.push({ ...dish, mealId: group.id || mealId, mealName: group.name });
+      }
+    }
+    return list;
   }
 
   getCollectionStats() {
@@ -294,3 +339,6 @@ class GachaEngine {
   }
 }
 const gachaEngine = new GachaEngine();
+if (typeof window !== 'undefined') {
+  window.gachaEngine = gachaEngine;
+}

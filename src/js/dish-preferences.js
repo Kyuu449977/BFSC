@@ -39,6 +39,14 @@ class DishPreferences {
     this.avoidRecent = this.read('avoidRecent', false, (v) => typeof v === 'boolean');
     this.revision++;
   }
+  syncAllDishes(dishes) {
+    if (!Array.isArray(dishes)) return;
+    for (const dish of dishes) {
+      if (!this.names.has(dish.name)) this.names.set(dish.name, dish.id);
+      this.byId.set(dish.id, this.names.get(dish.name));
+    }
+    this.reload();
+  }
   state(dish) {
     return this.states.get(this.byId.get(dish.id)) || { favorite: false, hidden: false, eaten: 0 };
   }

@@ -1,0 +1,912 @@
+[
+  {
+    "id": "morning",
+    "name": "Buổi Sáng",
+    "type": "",
+    "desc": "",
+    "quote": ""
+  },
+  {
+    "id": "sang_5_1",
+    "name": "Phở tái lăn",
+    "type": "Quán Phở Gia Truyền",
+    "desc": "Thịt bò xào lăn lửa lớn ngập tỏi phi thơm nức, nước dùng hầm xương 24h sôi sục trong thố đá nóng đến miếng cuối cùng.",
+    "quote": "\"Tạt vào quán phở quen, xì xụp bát phở nóng hổi là tỉnh táo cả ngày.\""
+  },
+  {
+    "id": "sang_5_2",
+    "name": "Bún bò Huế",
+    "type": "Quán Bún Bò Cố Đô",
+    "desc": "Tô bún đầy ắp sợi to, chả cua béo ngậy, nạm bò mềm cùng khoanh giò heo ngập tràn sa tế sả ớt nồng nàn.",
+    "quote": "\"Mùi nước lèo thơm nức mũi cả góc phố, ăn một tô no tới trưa.\""
+  },
+  {
+    "id": "sang_5_3",
+    "name": "Bánh mì chảo",
+    "type": "Quán Bánh Mì Chảo",
+    "desc": "Chảo gang bưng ra bàn xèo xèo pate béo ngậy, thịt bò mềm sốt tiêu, 2 trứng lòng đào chấm bánh mì giòn tan.",
+    "quote": "\"Ngồi quán quen gọi chảo thập cẩm đầy ắp, chấm bánh mì giòn rụm cực phê.\""
+  },
+  {
+    "id": "sang_4_1",
+    "name": "Bánh cuốn",
+    "type": "Hàng Bánh Cuốn Nóng",
+    "desc": "Từng mẻ bánh mỏng tang tráng tay bốc khói cuốn mộc nhĩ thịt băm, rắc ngập hành phi vàng rụm chấm nước mắm ấm.",
+    "quote": "\"Ngồi xem cô chủ thoăn thoắt tráng bánh rồi thưởng thức ngay đĩa bánh nóng hổi.\""
+  },
+  {
+    "id": "sang_4_2",
+    "name": "Hủ tiếu Nam Vang",
+    "type": "Tiệm Hủ Tiếu Nam Vang",
+    "desc": "Hủ tiếu khô trộn sốt đậm đà hoặc hủ tiếu nước ngọt thanh xương ống, đầy ắp tôm sú, thịt băm và trứng cút.",
+    "quote": "\"Món ruột của dân sành ăn sáng, ăn khô kèm chén nước lèo là chuẩn bài.\""
+  },
+  {
+    "id": "sang_4_3",
+    "name": "Xôi xéo",
+    "type": "Hàng Xôi Lá Chuối",
+    "desc": "Gói xôi nếp bọc lá chuối ấm nóng, đậu xanh bào mịn mượt, rưới mỡ gà thơm lừng, thịt gà xé và ruốc đậm đà.",
+    "quote": "\"Tạt qua hàng xôi vỉa hè xách một gói xôi ấm nóng đến chỗ làm là hết ý.\""
+  },
+  {
+    "id": "sang_3_1",
+    "name": "Bánh mì pate",
+    "type": "Tiệm Bánh Mì Đường Phố",
+    "desc": "Bánh mì nướng lò nóng hổi giòn rụm kẹp pate béo, trứng ốp la lòng đào, dưa leo ngò rí và chút tương ớt cay nồng.",
+    "quote": "\"Đứng chờ 2 phút có ngay ổ bánh mì nóng giòn cứu đói buổi sáng cấp tốc.\""
+  },
+  {
+    "id": "sang_3_2",
+    "name": "Bún riêu cua",
+    "type": "Quán Bún Riêu Vỉa Hè",
+    "desc": "Tô bún riêu đầy đặn riêu cua đồng thơm phức, đậu phụ chiên phồng, thịt bò tái và dấm bỗng chua thanh dịu mát.",
+    "quote": "\"Ghé quán bún riêu đầu ngõ, gọi tô đầy đủ thêm quẩy giòn tan.\""
+  },
+  {
+    "id": "sv_morning_banh_bao",
+    "name": "Bánh bao nhân thịt",
+    "type": "Món bình dân · phần một người",
+    "desc": "Bánh bao hấp nóng, nhân thịt và trứng; một phần gọn cho bữa sáng hoặc bữa xế.",
+    "quote": "Giá ước tính cho phần thường, chưa xác minh tại từng quán."
+  },
+  {
+    "id": "sv_morning_banh_gio",
+    "name": "Bánh giò",
+    "type": "Món bình dân · phần một người",
+    "desc": "Bánh bột gạo mềm, nhân thịt băm mộc nhĩ, gói lá và hấp nóng.",
+    "quote": "Giá ước tính cho phần thường, chưa xác minh tại từng quán."
+  },
+  {
+    "id": "more_morning_banh_uot",
+    "name": "Bánh ướt",
+    "type": "Phần thường một người",
+    "desc": "Bánh ướt mềm ăn với chả, rau và nước mắm; giá một phần thường.",
+    "quote": "Giá ước tính; xác nhận giá và tình trạng bán tại quán."
+  },
+  {
+    "id": "more_morning_banh_mi_xiu_mai",
+    "name": "Bánh mì xíu mại",
+    "type": "Phần thường một người",
+    "desc": "Bánh mì với xíu mại, rau và nước sốt; có thể kẹp sẵn hoặc để chén riêng tùy quán.",
+    "quote": "Giá ước tính; xác nhận giá và tình trạng bán tại quán."
+  },
+  {
+    "id": "lunch",
+    "name": "Buổi Trưa",
+    "type": "",
+    "desc": "",
+    "quote": ""
+  },
+  {
+    "id": "trua_5_1",
+    "name": "Cơm tấm",
+    "type": "Tiệm Cơm Tấm Sài Gòn",
+    "desc": "Miếng sườn cốt lết nướng khói than hoa cháy cạnh thơm lừng, bì dai giòn, chả trứng béo mềm chan đẫm mỡ hành và mắm kẹo.",
+    "quote": "\"Mùi khói sườn nướng bay khắp phố, trưa nào ngửi thấy cũng phải tạt vào ăn.\""
+  },
+  {
+    "id": "trua_5_2",
+    "name": "Bún chả",
+    "type": "Quán Bún Chả Quạt Than",
+    "desc": "Chả miếng ba chỉ và chả băm nướng vỉ than hoa xém cạnh thơm nức mũi, thả ngập trong bát mắm ấm chua ngọt dưa góp.",
+    "quote": "\"Trưa rủ hội bạn ra quán bún chả làm suất đặc biệt nem rán giòn tan.\""
+  },
+  {
+    "id": "trua_5_3",
+    "name": "Cơm gà xối mỡ",
+    "type": "Tiệm Cơm Gà Xối Mỡ",
+    "desc": "Gà góc tư xối mỡ lớp da vàng ươm giòn rôm rốp, thịt mềm mọng ăn cùng đĩa cơm rang cà chua đảo chảo thơm bơ.",
+    "quote": "\"Cắn miếng da gà giòn rụm ở tiệm cơm gà, nạp lại năng lượng tức thì.\""
+  },
+  {
+    "id": "trua_4_1",
+    "name": "Mì Quảng",
+    "type": "Quán Đặc Sản Miền Trung",
+    "desc": "Sợi mì vàng nghệ mềm dai, nước nhưn tôm thịt sánh đậm, đậu phộng bùi bùi bẻ thêm miếng bánh đa vừng giòn rụm.",
+    "quote": "\"Đổi vị bữa trưa với tô mì Quảng đậm đà cay nồng vị ớt xanh.\""
+  },
+  {
+    "id": "trua_4_2",
+    "name": "Bún thịt nướng",
+    "type": "Quán Bún Thịt Nướng",
+    "desc": "Tô bún ngập thịt xiên nướng sả thơm lừng, chả giò rế chiên vàng giòn rụm, rau thơm dưa leo chan nước mắm chua ngọt.",
+    "quote": "\"Trưa hè gọi tô bún thịt nướng vừa thanh mát vừa ngon miệng.\""
+  },
+  {
+    "id": "trua_3_1",
+    "name": "Cơm rang dưa bò",
+    "type": "Quán Cơm Rang Phố Cổ",
+    "desc": "Hạt cơm săn tơi xốp bóng bẩy đảo chảo lửa lớn, thịt bò mềm xào dưa chua giòn sần sật chan nước sốt bò đậm đà.",
+    "quote": "\"Tiếng muôi đảo chảo lách cách tạo nên đĩa cơm rang dưa bò thơm ngào ngạt.\""
+  },
+  {
+    "id": "trua_3_2",
+    "name": "Phở trộn",
+    "type": "Quán Phở Trộn Nức Tiếng",
+    "desc": "Bánh phở mềm trộn sốt xì dầu chua ngọt đặc chế, thịt bò chần mềm, hành phi giòn tan và rau thơm tươi rói.",
+    "quote": "\"Bữa trưa không lo mồ hôi nhễ nhại, phở trộn ăn chua ngọt cực cuốn.\""
+  },
+  {
+    "id": "sv_lunch_banh_canh",
+    "name": "Bánh canh",
+    "type": "Món bình dân · phần một người",
+    "desc": "Sợi bánh canh mềm trong nước dùng, ăn kèm thịt hoặc chả tùy quán; giá cho một tô thường.",
+    "quote": "Giá ước tính cho phần thường, chưa xác minh tại từng quán."
+  },
+  {
+    "id": "sv_lunch_bun_mam",
+    "name": "Bún mắm",
+    "type": "Món bình dân · phần một người",
+    "desc": "Bún với nước dùng mắm, rau và phần thịt, cá hoặc tôm tùy quán; chọn tô thường.",
+    "quote": "Giá ước tính cho phần thường, chưa xác minh tại từng quán."
+  },
+  {
+    "id": "sv_lunch_sang_4_2",
+    "name": "Hủ tiếu Nam Vang",
+    "type": "Tiệm Hủ Tiếu Nam Vang",
+    "desc": "Hủ tiếu khô trộn sốt đậm đà hoặc hủ tiếu nước ngọt thanh xương ống, đầy ắp tôm sú, thịt băm và trứng cút.",
+    "quote": "\"Món ruột của dân sành ăn sáng, ăn khô kèm chén nước lèo là chuẩn bài.\""
+  },
+  {
+    "id": "more_lunch_com_chien",
+    "name": "Cơm chiên thập cẩm",
+    "type": "Phần thường một người",
+    "desc": "Cơm chiên cùng trứng và rau củ, thêm topping tùy quán; giá cho một đĩa thường.",
+    "quote": "Giá ước tính; xác nhận giá và tình trạng bán tại quán."
+  },
+  {
+    "id": "more_lunch_com_ca_man",
+    "name": "Cơm cá mặn",
+    "type": "Phần thường một người",
+    "desc": "Cơm ăn cùng cá mặn và rau; phần cá, cách chế biến và món kèm tùy quán.",
+    "quote": "Giá ước tính; xác nhận giá và tình trạng bán tại quán."
+  },
+  {
+    "id": "more_lunch_bun_thai",
+    "name": "Bún Thái",
+    "type": "Phần thường một người",
+    "desc": "Bún nước vị chua cay, topping thay đổi theo quán; giá cho tô thường một người.",
+    "quote": "Giá ước tính; xác nhận giá và tình trạng bán tại quán."
+  },
+  {
+    "id": "more_lunch_bun_hen",
+    "name": "Bún hến",
+    "type": "Phần thường một người",
+    "desc": "Bún ăn với hến và rau thơm, thêm gia vị vừa miệng; không phải quán nào cũng có bán.",
+    "quote": "Giá ước tính; xác nhận giá và tình trạng bán tại quán."
+  },
+  {
+    "id": "afternoon",
+    "name": "Buổi Chiều",
+    "type": "",
+    "desc": "",
+    "quote": ""
+  },
+  {
+    "id": "chieu_5_1",
+    "name": "Bánh xèo",
+    "type": "Quán Bánh Xèo Chảo Lớn",
+    "desc": "Vỏ bánh vàng ươm mỏng tang reo vui tai trên chảo lớn, nhân tôm thịt tươi rói cuốn rau rừng chấm nước mắm chua ngọt.",
+    "quote": "\"Chiều tà ngồi quán bánh xèo đợi từng đĩa bánh nóng hổi bưng ra giòn rụm.\""
+  },
+  {
+    "id": "chieu_5_2",
+    "name": "Gỏi cuốn",
+    "type": "Quán Gỏi Cuốn Tươi Sạch",
+    "desc": "Những cuốn gỏi tròn lẳn trong veo thấy rõ hai con tôm đỏ tươi và lát thịt nạc cuốn bún chấm tương đen bơ lạc béo bùi.",
+    "quote": "\"Order ngay dĩa gỏi cuốn ăn xế nhẹ bụng, vừa healthy vừa chống đói 4h chiều.\""
+  },
+  {
+    "id": "chieu_4_1",
+    "name": "Bánh khọt",
+    "type": "Tiệm Bánh Khọt Khuôn Đất",
+    "desc": "Từng chiếc bánh tròn xoe chiên giòn rụm ôm trọn con tôm tươi mọng nước, rắc bột tôm cháy và mỡ hành thơm phức.",
+    "quote": "\"Ghé quán bánh khọt làm một khay nóng hổi cuốn cải xanh chấm mắm ớt.\""
+  },
+  {
+    "id": "chieu_4_2",
+    "name": "Bột chiên",
+    "type": "Xe Bột Chiên Chảo Phẳng",
+    "desc": "Những viên bột vuông vức chiên xèo xèo giòn vỏ ngoài dẻo bên trong, đập hai quả trứng gà lòng đào và đu đủ bào ngâm giấm.",
+    "quote": "\"Món ăn xế chiều trứ danh của các con phố Sài Gòn, thơm nức mũi.\""
+  },
+  {
+    "id": "chieu_3_1",
+    "name": "Bánh bột lọc",
+    "type": "Quán Đặc Sản Bánh Huế",
+    "desc": "Bánh trong veo dai sần sật lộ rõ con tôm rim mặn ngọt và thịt mỡ trong suốt, rưới đẫm mỡ hành và nước mắm ớt hiểm cay nồng.",
+    "quote": "\"Đĩa bánh bột lọc dai giòn sần sật ăn chơi buổi chiều cực cuốn.\""
+  },
+  {
+    "id": "chieu_3_2",
+    "name": "Súp cua",
+    "type": "Hàng Súp Cua Nóng Hổi",
+    "desc": "Tô súp sánh đặc ngập thịt cua tươi, trứng bắc thảo bùi béo, nấm tuyết giòn sần sật và chút tiêu ớt bột ấm nồng.",
+    "quote": "\"Tạt vào xe súp cua vỉa hè húp một chén nóng hổi làm ấm bụng giờ tan tầm.\""
+  },
+  {
+    "id": "sv_afternoon_banh_bao",
+    "name": "Bánh bao nhân thịt",
+    "type": "Món bình dân · phần một người",
+    "desc": "Bánh bao hấp nóng, nhân thịt và trứng; một phần gọn cho bữa sáng hoặc bữa xế.",
+    "quote": "Giá ước tính cho phần thường, chưa xác minh tại từng quán."
+  },
+  {
+    "id": "sv_afternoon_banh_gio",
+    "name": "Bánh giò",
+    "type": "Món bình dân · phần một người",
+    "desc": "Bánh bột gạo mềm, nhân thịt băm mộc nhĩ, gói lá và hấp nóng.",
+    "quote": "Giá ước tính cho phần thường, chưa xác minh tại từng quán."
+  },
+  {
+    "id": "sv_afternoon_pha_lau",
+    "name": "Phá lấu bánh mì",
+    "type": "Món bình dân · phần một người",
+    "desc": "Chén phá lấu nước cốt dừa ăn với bánh mì, phù hợp một bữa xế hoặc bữa tối nhẹ.",
+    "quote": "Giá ước tính cho phần thường, chưa xác minh tại từng quán."
+  },
+  {
+    "id": "more_afternoon_banh_uot",
+    "name": "Bánh ướt",
+    "type": "Phần thường một người",
+    "desc": "Bánh ướt mềm ăn với chả, rau và nước mắm; giá một phần thường.",
+    "quote": "Giá ước tính; xác nhận giá và tình trạng bán tại quán."
+  },
+  {
+    "id": "more_afternoon_banh_mi_xiu_mai",
+    "name": "Bánh mì xíu mại",
+    "type": "Phần thường một người",
+    "desc": "Bánh mì với xíu mại, rau và nước sốt; có thể kẹp sẵn hoặc để chén riêng tùy quán.",
+    "quote": "Giá ước tính; xác nhận giá và tình trạng bán tại quán."
+  },
+  {
+    "id": "dinner",
+    "name": "Buổi Tối",
+    "type": "",
+    "desc": "",
+    "quote": ""
+  },
+  {
+    "id": "toi_5_1",
+    "name": "Lẩu Thái mini",
+    "type": "Phần nhỏ một người",
+    "desc": "Lẩu chua cay phần nhỏ một người, ăn cùng bún hoặc mì; không phải giá nồi lớn cho cả nhóm.",
+    "quote": "Giá ước tính cho phần nhỏ; hỏi quán trước khi gọi."
+  },
+  {
+    "id": "toi_5_2",
+    "name": "Bún đậu mắm tôm",
+    "type": "Quán Bún Đậu Mẹt",
+    "desc": "Mẹt tre đầy ắp bún lá, đậu Mơ rán giòn ruột mềm, chả cốm dẻo quánh, dồi sụn nướng, chân giò luộc chấm mắm tôm sủi bọt quất ớt.",
+    "quote": "\"Bún đậu mắm tôm quán quen, mắm đánh bông bọt quất ớt thơm lừng.\""
+  },
+  {
+    "id": "toi_5_3",
+    "name": "Bò nướng phần nhỏ",
+    "type": "Phần nhỏ một người",
+    "desc": "Một phần bò nướng nhỏ ăn nhẹ; không phải buffet hay suất BBQ nhà hàng.",
+    "quote": "Giá ước tính cho phần nhỏ; hỏi quán trước khi gọi."
+  },
+  {
+    "id": "toi_4_1",
+    "name": "Ốc luộc đĩa nhỏ",
+    "type": "Phần nhỏ một người",
+    "desc": "Một đĩa ốc nhỏ dùng một người; xác nhận loại ốc, khối lượng và giá với quán.",
+    "quote": "Giá ước tính cho phần nhỏ; hỏi quán trước khi gọi."
+  },
+  {
+    "id": "toi_4_2",
+    "name": "Bò né",
+    "type": "Tiệm Bò Né Chảo Gang",
+    "desc": "Chảo bò né bưng ra bàn còn sôi sùng sục dầu bơ, thịt bò mềm ướp sốt đậm đà, trứng lòng đào ăn kèm bánh mì hoa cúc nóng.",
+    "quote": "\"Vừa ăn vừa né nhưng vị ngon béo ngậy khiến ai cũng mê mẩn.\""
+  },
+  {
+    "id": "toi_3_1",
+    "name": "Cháo sườn",
+    "type": "Quán Cháo Đêm Nóng Hổi",
+    "desc": "Bát cháo sườn xay mịn như nhung bốc khói nghi ngút, sườn sụn giòn sần sật rắc ngập ruốc thịt và đĩa quẩy giòn.",
+    "quote": "\"Đêm muộn đói bụng tạt vào quán cháo sườn làm một bát ấm nóng dễ ngủ.\""
+  },
+  {
+    "id": "toi_3_2",
+    "name": "Miến gà",
+    "type": "Quán Miến Gà Đêm",
+    "desc": "Sợi miến dong trong dai, thịt gà ta xé ngọt mềm cùng nấm hương măng khô trong nước dùng thanh mát ăn đêm không sợ nặng bụng.",
+    "quote": "\"Lựa chọn hoàn hảo đi ăn đêm vỉa hè, nhẹ bụng mà thơm ngon nức nở.\""
+  },
+  {
+    "id": "sv_dinner_banh_canh",
+    "name": "Bánh canh",
+    "type": "Món bình dân · phần một người",
+    "desc": "Sợi bánh canh mềm trong nước dùng, ăn kèm thịt hoặc chả tùy quán; giá cho một tô thường.",
+    "quote": "Giá ước tính cho phần thường, chưa xác minh tại từng quán."
+  },
+  {
+    "id": "sv_dinner_pha_lau",
+    "name": "Phá lấu bánh mì",
+    "type": "Món bình dân · phần một người",
+    "desc": "Chén phá lấu nước cốt dừa ăn với bánh mì, phù hợp một bữa xế hoặc bữa tối nhẹ.",
+    "quote": "Giá ước tính cho phần thường, chưa xác minh tại từng quán."
+  },
+  {
+    "id": "sv_dinner_trua_5_1",
+    "name": "Cơm tấm",
+    "type": "Tiệm Cơm Tấm Sài Gòn",
+    "desc": "Miếng sườn cốt lết nướng khói than hoa cháy cạnh thơm lừng, bì dai giòn, chả trứng béo mềm chan đẫm mỡ hành và mắm kẹo.",
+    "quote": "\"Mùi khói sườn nướng bay khắp phố, trưa nào ngửi thấy cũng phải tạt vào ăn.\""
+  },
+  {
+    "id": "sv_dinner_trua_5_3",
+    "name": "Cơm gà xối mỡ",
+    "type": "Tiệm Cơm Gà Xối Mỡ",
+    "desc": "Gà góc tư xối mỡ lớp da vàng ươm giòn rôm rốp, thịt mềm mọng ăn cùng đĩa cơm rang cà chua đảo chảo thơm bơ.",
+    "quote": "\"Cắn miếng da gà giòn rụm ở tiệm cơm gà, nạp lại năng lượng tức thì.\""
+  },
+  {
+    "id": "sv_dinner_sang_3_2",
+    "name": "Bún riêu cua",
+    "type": "Quán Bún Riêu Vỉa Hè",
+    "desc": "Tô bún riêu đầy đặn riêu cua đồng thơm phức, đậu phụ chiên phồng, thịt bò tái và dấm bỗng chua thanh dịu mát.",
+    "quote": "\"Ghé quán bún riêu đầu ngõ, gọi tô đầy đủ thêm quẩy giòn tan.\""
+  },
+  {
+    "id": "sv_dinner_chieu_4_2",
+    "name": "Bột chiên",
+    "type": "Xe Bột Chiên Chảo Phẳng",
+    "desc": "Những viên bột vuông vức chiên xèo xèo giòn vỏ ngoài dẻo bên trong, đập hai quả trứng gà lòng đào và đu đủ bào ngâm giấm.",
+    "quote": "\"Món ăn xế chiều trứ danh của các con phố Sài Gòn, thơm nức mũi.\""
+  },
+  {
+    "id": "more_dinner_com_chien",
+    "name": "Cơm chiên thập cẩm",
+    "type": "Phần thường một người",
+    "desc": "Cơm chiên cùng trứng và rau củ, thêm topping tùy quán; giá cho một đĩa thường.",
+    "quote": "Giá ước tính; xác nhận giá và tình trạng bán tại quán."
+  },
+  {
+    "id": "more_dinner_com_ca_man",
+    "name": "Cơm cá mặn",
+    "type": "Phần thường một người",
+    "desc": "Cơm ăn cùng cá mặn và rau; phần cá, cách chế biến và món kèm tùy quán.",
+    "quote": "Giá ước tính; xác nhận giá và tình trạng bán tại quán."
+  },
+  {
+    "id": "more_dinner_bun_thai",
+    "name": "Bún Thái",
+    "type": "Phần thường một người",
+    "desc": "Bún nước vị chua cay, topping thay đổi theo quán; giá cho tô thường một người.",
+    "quote": "Giá ước tính; xác nhận giá và tình trạng bán tại quán."
+  },
+  {
+    "id": "more_dinner_bun_hen",
+    "name": "Bún hến",
+    "type": "Phần thường một người",
+    "desc": "Bún ăn với hến và rau thơm, thêm gia vị vừa miệng; không phải quán nào cũng có bán.",
+    "quote": "Giá ước tính; xác nhận giá và tình trạng bán tại quán."
+  },
+  {
+    "id": "snacks",
+    "name": "Món Ăn Vặt",
+    "type": "",
+    "desc": "",
+    "quote": ""
+  },
+  {
+    "id": "vat_5_1",
+    "name": "Bánh tráng trộn",
+    "type": "Xe Bánh Tráng Trộn",
+    "desc": "Bánh tráng dẻo trộn xoài xanh chua giòn, bò khô đỏ cay, trứng cút chiên giòn, rau răm và nước sốt tắc sa tế cay nồng.",
+    "quote": "\"Đứng đợi cô bán bánh tráng trộn thoăn thoắt đôi tay làm ngay một bịch đầy ắp.\""
+  },
+  {
+    "id": "vat_5_2",
+    "name": "Chè Thái",
+    "type": "Quán Chè Thái Sầu Riêng",
+    "desc": "Bát chè ngập múi sầu riêng tươi thơm nức mũi, thạch củ năng giòn rụm, hạt đác và nước cốt dừa chan đá bào mát lạnh.",
+    "quote": "\"Hẹn nhau quán chè làm một bát chè Thái sầu riêng mát lịm tim.\""
+  },
+  {
+    "id": "vat_4_1",
+    "name": "Nem chua rán",
+    "type": "Quán Ăn Vặt Nem Chua Rán",
+    "desc": "Những thanh nem chua lăn bột xù chiên vàng ruộm bốc khói, chấm tương ớt cay ngọt ăn kèm đĩa dưa leo xoài xanh.",
+    "quote": "\"Ngồi quán ăn vặt vỉa hè gọi đĩa nem chua rán nóng hổi chấm đẫm tương ớt.\""
+  },
+  {
+    "id": "vat_4_2",
+    "name": "Bánh tráng nướng",
+    "type": "Hàng Bánh Tráng Nướng Than Hoa",
+    "desc": "Bánh tráng nướng than hồng phết bơ, đập trứng cút, xúc xích, bò khô và phô mai kéo sợi béo ngậy thơm lừng góc phố.",
+    "quote": "\"Tối se lạnh ngồi quây quanh bếp than chờ chiếc bánh tráng nướng giòn tan bưng ra.\""
+  },
+  {
+    "id": "vat_3_1",
+    "name": "Cá viên chiên",
+    "type": "Xe Đẩy Cá Viên Chiên Vỉa Hè",
+    "desc": "Xiên cá viên, bò viên, tôm viên chiên phồng xóc trong chảo nước mắm tỏi ớt kẹo sệt cùng đậu bắp và rau muống giòn tan.",
+    "quote": "\"Mùi nước mắm tỏi ớt xào thơm nức mũi góc đường làm sao cưỡng lại được.\""
+  },
+  {
+    "id": "sv_snacks_banh_flan",
+    "name": "Bánh flan",
+    "type": "Món bình dân · phần một người",
+    "desc": "Bánh trứng sữa mềm với caramel, ăn lạnh; giá cho một bánh nhỏ.",
+    "quote": "Giá ước tính cho phần thường, chưa xác minh tại từng quán."
+  },
+  {
+    "id": "sv_snacks_che_dau_trang",
+    "name": "Chè đậu trắng",
+    "type": "Món bình dân · phần một người",
+    "desc": "Đậu trắng nấu cùng nếp, thêm nước cốt dừa; giá một ly hoặc chén thường.",
+    "quote": "Giá ước tính cho phần thường, chưa xác minh tại từng quán."
+  },
+  {
+    "id": "sv_snacks_che_dau_den",
+    "name": "Chè đậu đen",
+    "type": "Món bình dân · phần một người",
+    "desc": "Chè đậu đen ngọt nhẹ, có thể thêm đá; giá cho một ly thường.",
+    "quote": "Giá ước tính cho phần thường, chưa xác minh tại từng quán."
+  },
+  {
+    "id": "sv_snacks_che_dau_xanh",
+    "name": "Chè đậu xanh nha đam",
+    "type": "Món bình dân · phần một người",
+    "desc": "Đậu xanh bùi và nha đam giòn, món chè mát cho buổi xế.",
+    "quote": "Giá ước tính cho phần thường, chưa xác minh tại từng quán."
+  },
+  {
+    "id": "sv_snacks_banh_bo",
+    "name": "Bánh bò hấp",
+    "type": "Món bình dân · phần một người",
+    "desc": "Bánh bò hấp mềm xốp, vị ngọt nhẹ; giá cho một phần nhỏ.",
+    "quote": "Giá ước tính cho phần thường, chưa xác minh tại từng quán."
+  },
+  {
+    "id": "sv_snacks_chieu_5_2",
+    "name": "Gỏi cuốn",
+    "type": "Quán Gỏi Cuốn Tươi Sạch",
+    "desc": "Những cuốn gỏi tròn lẳn trong veo thấy rõ hai con tôm đỏ tươi và lát thịt nạc cuốn bún chấm tương đen bơ lạc béo bùi.",
+    "quote": "\"Order ngay dĩa gỏi cuốn ăn xế nhẹ bụng, vừa healthy vừa chống đói 4h chiều.\""
+  },
+  {
+    "id": "sv_snacks_chieu_3_1",
+    "name": "Bánh bột lọc",
+    "type": "Quán Đặc Sản Bánh Huế",
+    "desc": "Bánh trong veo dai sần sật lộ rõ con tôm rim mặn ngọt và thịt mỡ trong suốt, rưới đẫm mỡ hành và nước mắm ớt hiểm cay nồng.",
+    "quote": "\"Đĩa bánh bột lọc dai giòn sần sật ăn chơi buổi chiều cực cuốn.\""
+  },
+  {
+    "id": "drinks",
+    "name": "Đồ Uống & Nước Ngọt",
+    "type": "",
+    "desc": "",
+    "quote": ""
+  },
+  {
+    "id": "hl_tra_sen_vang",
+    "name": "Trà Sen Vàng (Highlands)",
+    "type": "Highlands Coffee",
+    "desc": "Trà Ô Long thanh mát kết hợp hạt sen ninh mềm bùi ngậy, thạch củ năng giòn sần sật và lớp kem macchiato béo ngọt đặc trưng Highlands.",
+    "quote": "\"Trà sen vàng thơm nức mùi sen, củ năng giòn tan nhai cực đã.\""
+  },
+  {
+    "id": "hl_phin_sua_da",
+    "name": "Phin Sữa Đá (Highlands)",
+    "type": "Highlands Coffee",
+    "desc": "Cà phê phin Robusta rang xay đậm đà nồng nàn, hòa quyện sữa đặc béo ngậy chuẩn vị cà phê Highlands.",
+    "quote": "\"Một ly phin sữa đá đậm đà bừng tỉnh năng lượng ngày mới.\""
+  },
+  {
+    "id": "hl_freeze_tra_xanh",
+    "name": "Freeze Trà Xanh (Highlands)",
+    "type": "Highlands Coffee",
+    "desc": "Đá xay trà xanh thơm dịu mát lạnh, kèm thạch trà xanh giòn dai và ngọn kem tươi béo mịn rắc bột matcha.",
+    "quote": "\"Vị trà xanh thanh mát hòa quyện kem tươi ngọt béo cực sảng khoái.\""
+  },
+  {
+    "id": "hl_phindi_hanh_nhan",
+    "name": "PhinDi Hạnh Nhân (Highlands)",
+    "type": "Highlands Coffee",
+    "desc": "Cà phê phin thế hệ mới kết hợp sốt hạnh nhân thơm bùi ngọt dịu và sữa tươi thanh nhẹ.",
+    "quote": "\"Hương thơm hạnh nhân quyến rũ hòa quyện cà phê phin êm dịu.\""
+  },
+  {
+    "id": "hl_freeze_socola",
+    "name": "Freeze Socola (Highlands)",
+    "type": "Highlands Coffee",
+    "desc": "Đá xay socola ngọt ngào sánh mịn ngập tràn sốt socola đậm vị, phủ kem tươi mịn màng xua tan mệt mỏi.",
+    "quote": "\"Đậm đà hương vị cacao ngọt ngào, món ruột của tín đồ socola.\""
+  },
+  {
+    "id": "pl_tra_dao_cam_sa",
+    "name": "Trà Đào Cam Sả (Phúc Long)",
+    "type": "Phúc Long Tea & Coffee",
+    "desc": "Hương trà đào thanh khiết kết hợp vị chua thanh của cam vàng, hương sả nồng ấm thơm lừng và những miếng đào vàng ươm giòn ngọt.",
+    "quote": "\"Hút một ngụm trà đào cam sả Phúc Long, vị thanh ngọt sảng khoái đánh tan mọi cơn khát.\""
+  },
+  {
+    "id": "pl_tra_sua",
+    "name": "Trà Sữa Phúc Long",
+    "type": "Phúc Long Tea & Coffee",
+    "desc": "Vị trà đen nồng đậm đặc trưng Phúc Long quyện sữa béo ngậy, ngọt ngào đậm vị trà chuẩn gu sành điệu.",
+    "quote": "\"Đậm vị trà nồng nàn béo ngậy vị sữa, uống một lần là nhớ mãi.\""
+  },
+  {
+    "id": "pl_tra_vai_lai",
+    "name": "Trà Vải Lài (Phúc Long)",
+    "type": "Phúc Long Tea & Coffee",
+    "desc": "Lục trà hoa lài thanh tao thơm ngát quyện cùng những trái vải ngâm mọng nước giòn ngọt tự nhiên.",
+    "quote": "\"Vị trà thanh tao quý phái kết hợp trái vải ngọt lịm mát lòng.\""
+  },
+  {
+    "id": "pl_tra_lai_kem_cheese",
+    "name": "Trà Lài Kem Cheese (Phúc Long)",
+    "type": "Phúc Long Tea & Coffee",
+    "desc": "Trà lài thanh khiết ướp hương hoa dưới lớp váng sữa phô mai mặn béo ngậy đặc sánh bồng bềnh.",
+    "quote": "\"Nhấp ngụm kem cheese mặn béo rồi chạm vị trà lài mát lịm cực đã.\""
+  },
+  {
+    "id": "pl_tra_mang_cau",
+    "name": "Trà Ô Long Mãng Cầu (Phúc Long)",
+    "type": "Phúc Long Tea & Coffee",
+    "desc": "Cốt trà ô long thơm nức mũi hòa quyện cùng thịt quả mãng cầu xiêm chua ngọt thanh mát cực kỳ cuốn hút.",
+    "quote": "\"Vị trà thơm nồng kết hợp tép mãng cầu tươi chua ngọt giòn giòn.\""
+  },
+  {
+    "id": "phela_o_long_sua",
+    "name": "Ô Long Sữa Phê La",
+    "type": "Phê La Đặc Sản",
+    "desc": "Trà Ô Long đặc sản Đà Lạt ủ hương thủ công kết hợp sữa thơm béo ngậy bùi ngọt ngào tinh tế.",
+    "quote": "\"Nốt hương ô long mộc mạc thơm lừng, vị sữa êm dịu khó quên.\""
+  },
+  {
+    "id": "nuoc_ngot_1",
+    "name": "Coca-Cola",
+    "type": "Nước ngọt có ga",
+    "desc": "Thức uống có ga huyền thoại thế giới với công thức bí mật, bật nắp mát lạnh bùng nổ năng lượng.",
+    "quote": "\"Bật nắp lon Coca-Cola ướp lạnh, ga sủi tăm xua tan cảm giác ngấy mỡ.\""
+  },
+  {
+    "id": "nuoc_coca_zero",
+    "name": "Coca-Cola Zero Sugar",
+    "type": "Nước ngọt có ga",
+    "desc": "Hương vị Coca-Cola kinh điển sảng khoái không đường không calo, uống thỏa thích mà vẫn giữ dáng.",
+    "quote": "\"Sảng khoái trọn vẹn, không calo không lo tăng cân.\""
+  },
+  {
+    "id": "nuoc_ngot_2",
+    "name": "Pepsi",
+    "type": "Nước ngọt có ga",
+    "desc": "Vị ngọt dịu sảng khoái với ga mạnh mẽ, đánh thức sự trẻ trung năng động trong từng ngụm nước mát lạnh.",
+    "quote": "\"Một ngụm Pepsi mát rượi, tinh thần phấn chấn tức thì.\""
+  },
+  {
+    "id": "nuoc_pepsi_chanh",
+    "name": "Pepsi Vị Chanh Không Calo",
+    "type": "Nước ngọt có ga",
+    "desc": "Ga sảng khoái kết hợp tinh chất chanh tươi mát lạnh, giải khát cực đã mà không nạp calo.",
+    "quote": "\"Thơm mùi chanh tươi mát lạnh, sảng khoái bất tận.\""
+  },
+  {
+    "id": "nuoc_ngot_3",
+    "name": "7Up Chanh",
+    "type": "Nước ngọt có ga",
+    "desc": "Hương vị chanh thanh mát tự nhiên cùng bọt ga sủi tăm dịu nhẹ, xua tan ngay cảm giác khát khô.",
+    "quote": "\"Thanh mát vị chanh, nhẹ êm sảng khoái.\""
+  },
+  {
+    "id": "nuoc_sprite",
+    "name": "Sprite Chanh Mát Lạnh",
+    "type": "Nước ngọt có ga",
+    "desc": "Vị chanh tươi mát rượi cùng bọt ga sống động kích thích vị giác và xua tan cơn khát.",
+    "quote": "\"Mát lạnh tột đỉnh, bùng nổ cơn khát mùa hè.\""
+  },
+  {
+    "id": "nuoc_ngot_4",
+    "name": "Sting Dâu Đỏ",
+    "type": "Nước tăng lực",
+    "desc": "Nước tăng lực hương dâu tây đỏ bùng nổ ga mạnh mẽ, nạp lại năng lượng cực nhanh cho ngày năng động.",
+    "quote": "\"Vị dâu tây ngọt thơm ga cực mạnh, bật tung năng lượng bứt phá.\""
+  },
+  {
+    "id": "nuoc_sting_vang",
+    "name": "Sting Vàng Nhân Sâm",
+    "type": "Nước tăng lực",
+    "desc": "Chiết xuất nhân sâm tự nhiên vị ngọt đậm đà kích thích tinh thần tỉnh táo tập trung tối đa.",
+    "quote": "\"Bổ sung nhân sâm tỉnh táo sảng khoái cả ngày.\""
+  },
+  {
+    "id": "nuoc_ngot_6",
+    "name": "Bò Húc Red Bull",
+    "type": "Nước tăng lực",
+    "desc": "Nước tăng lực lon vàng huyền thoại Thái Lan thơm nồng, dồi dào taurine và vitamin nhóm B giúp tỉnh táo tức thì.",
+    "quote": "\"Tập trung tỉnh táo, tiếp thêm sức mạnh cho mọi thử thách.\""
+  },
+  {
+    "id": "nuoc_ngot_5",
+    "name": "Mirinda Cam",
+    "type": "Nước ngọt có ga",
+    "desc": "Hương vị cam tươi chua ngọt sống động rực rỡ, bùng nổ cảm xúc vui vẻ sảng khoái.",
+    "quote": "\"Vị cam tươi bùng nổ ga, sảng khoái từng giọt.\""
+  },
+  {
+    "id": "nuoc_mirinda_xa_xi",
+    "name": "Mirinda Xá Xị",
+    "type": "Nước ngọt có ga",
+    "desc": "Hương thơm xá xị thảo mộc miền Nam the the sảng khoái độc đáo, mang đậm phong vị tuổi thơ.",
+    "quote": "\"Hương xá xị cay the đặc trưng Nam Bộ uống cực cuốn.\""
+  },
+  {
+    "id": "nuoc_revive",
+    "name": "Revive Chanh Muối Isotonic",
+    "type": "Nước giải khát thể thao",
+    "desc": "Nước giải khát thể thao bù nước và muối khoáng điện giải hương chanh muối, giải nhiệt và hồi phục thể lực cấp tốc.",
+    "quote": "\"Bù nước bù khoáng, đánh bay mệt mỏi oi bức.\""
+  },
+  {
+    "id": "nuoc_tra_c2",
+    "name": "Trà Xanh Không Độ / C2",
+    "type": "Trà đóng chai",
+    "desc": "Ủ từ những búp trà xanh Thái Nguyên tươi non chứa dồi dào EGCG giúp thanh lọc cơ thể và giải nhiệt.",
+    "quote": "\"Thanh lọc cơ thể, giải tỏa căng thẳng ngày bận rộn.\""
+  },
+  {
+    "id": "nuoc_tra_tea_plus",
+    "name": "Trà Ô Long Tea+ Plus",
+    "type": "Trà đóng chai",
+    "desc": "Trà ô long thanh nhẹ chứa hoạt chất OTPP hạn chế hấp thu chất béo, vị trà thanh lịch thơm thoang thoảng.",
+    "quote": "\"Trà ô long thanh mát nhẹ bụng, đồng hành cùng bữa ăn ngon.\""
+  },
+  {
+    "id": "nuoc_ca_phe_trung",
+    "name": "Cà phê trứng Hà Nội",
+    "type": "Cà Phê Phố Cổ",
+    "desc": "Lớp kem trứng đánh bông vàng óng mịn màng béo ngậy phủ lên cà phê phin đậm đặc nóng hổi thơm nức mũi.",
+    "quote": "\"Thưởng thức cà phê trứng ấm nóng, béo mịn tan ngay nơi đầu lưỡi.\""
+  },
+  {
+    "id": "nuoc_bac_xiu",
+    "name": "Bạc xỉu ba tầng Sài Gòn",
+    "type": "Cà Phê Sài Gòn",
+    "desc": "Sự hòa quyện ngọt ngào giữa sữa đặc ngọt lịm, sữa tươi thơm béo và chút cà phê phin thơm nồng quyến rũ.",
+    "quote": "\"Ly bạc xỉu ba tầng ngọt ngào khởi đầu một ngày tràn đầy năng lượng tươi mới.\""
+  },
+  {
+    "id": "nuoc_ca_phe_den_da",
+    "name": "Cà phê đen đá",
+    "type": "Cà Phê Phin Truyền Thống",
+    "desc": "Cà phê Robusta pha phin nguyên chất đắng đậm đà, tỏa hương thơm quyến rũ cùng những viên đá lạnh mát lịm.",
+    "quote": "\"Một ly đen đá đậm chất Việt, vị đắng thanh làm bừng tỉnh mọi giác quan.\""
+  },
+  {
+    "id": "nuoc_4_1",
+    "name": "Cà phê muối",
+    "type": "Quán Cà Phê Huế",
+    "desc": "Lớp kem sữa béo ngậy mặn mòi cân bằng hoàn hảo vị đắng đậm của cà phê phin, tạo nên hương vị cuốn hút lạ kỳ.",
+    "quote": "\"Vị mặn béo của kem muối tôn lên độ đắng đậm nồng nàn của cà phê phin.\""
+  },
+  {
+    "id": "nuoc_3_1",
+    "name": "Cà phê sữa đá",
+    "type": "Cà Phê Vỉa Hè",
+    "desc": "Cà phê phin truyền thống nhỏ từng giọt đặc quánh hòa cùng sữa đặc và đá đập nhỏ, thức uống linh hồn của đường phố Việt.",
+    "quote": "\"Ngồi ghế cóc vỉa hè ngắm phố phường, khuấy đều ly nâu đá đậm đà chuẩn vị.\""
+  },
+  {
+    "id": "nuoc_tra_tac",
+    "name": "Trà tắc khổng lồ",
+    "type": "Trà Vỉa Hè Bình Dân",
+    "desc": "Cốt trà lài thơm đậm vắt ngập tắc tươi chua thanh, ngọt dịu đường phèn cùng thật nhiều đá lạnh giải nhiệt cấp tốc.",
+    "quote": "\"Ly trà tắc to đùng mát lạnh, uống một hơi xua tan mọi oi bức trưa hè.\""
+  },
+  {
+    "id": "nuoc_tra_hoa_dau_biec",
+    "name": "Trà hoa đậu biếc",
+    "type": "Tiệm Trà Thảo Mộc",
+    "desc": "Màu xanh biếc huyền ảo của hoa đậu biếc chuyển dần sang sắc tím quyến rũ khi hòa cùng chanh tươi và mật ong ngọt thanh.",
+    "quote": "\"Thức uống lung linh sắc màu thiên nhiên, vừa đẹp mắt vừa tốt cho sức khỏe.\""
+  },
+  {
+    "id": "nuoc_tra_vai",
+    "name": "Trà vải hạt sen",
+    "type": "Tiệm Trà & Cà Phê",
+    "desc": "Trà đen hảo hạng thoang thoảng hương vải dịu ngọt, ăn kèm những trái vải căng mọng và hạt sen hầm mềm ngọt.",
+    "quote": "\"Vị trà thanh lịch hòa quyện vị vải ngọt ngào mang lại cảm giác thư thái tuyệt đối.\""
+  },
+  {
+    "id": "nuoc_4_3",
+    "name": "Trà trái cây nhiệt đới",
+    "type": "Tiệm Trà & Cà Phê",
+    "desc": "Cốt trà lài thơm ngát ngập tràn lát cam vàng, táo giòn, dưa hấu và chanh dây chua ngọt tươi mát.",
+    "quote": "\"Ly trà rực rỡ sắc màu nhiệt đới, từng ngụm mát rượi ngập tràn hương vị tươi mới.\""
+  },
+  {
+    "id": "more_drinks_tra_da",
+    "name": "Trà đá vỉa hè",
+    "type": "Đồ uống bình dân",
+    "desc": "Ly trà thơm đậm thanh mát vỉa hè, thức uống bình dị gắn liền với đời sống hàng ngày của người Việt.",
+    "quote": "\"Ngồi quán cóc gọi ly trà đá mát rượi giải nhiệt tức thì.\""
+  },
+  {
+    "id": "nuoc_nuoc_ep_oi_hong",
+    "name": "Nước ép ổi hồng",
+    "type": "Quán Nước Ép Tươi",
+    "desc": "Ổi hồng ruby tươi chín mọng ép nguyên chất, màu hồng đào bắt mắt giàu vitamin C vị chua ngọt thanh mát.",
+    "quote": "\"Màu sắc tươi tắn rực rỡ, vị ngọt thanh tự nhiên bồi bổ sức khỏe tuyệt vời.\""
+  },
+  {
+    "id": "nuoc_nuoc_ep_thom",
+    "name": "Nước ép thơm",
+    "type": "Quán Nước Ép Tươi",
+    "desc": "Thơm mật chín vàng ươm ép tươi nguyên chất, vị chua ngọt tự nhiên sảng khoái và dồi dào dưỡng chất.",
+    "quote": "\"Màu vàng rực rỡ tươi mới, vị chua ngọt thanh mát tiếp thêm sức sống cả ngày.\""
+  },
+  {
+    "id": "more_drinks_dua_hau",
+    "name": "Nước ép dưa hấu",
+    "type": "Đồ uống bình dân",
+    "desc": "Dưa hấu tươi mọng nước ngọt mát, bổ sung nước giải nhiệt tuyệt vời.",
+    "quote": "\"Đỏ au ngọt lịm, giải nhiệt cực đã những ngày nắng nóng.\""
+  },
+  {
+    "id": "more_drinks_nuoc_cam",
+    "name": "Nước cam vắt",
+    "type": "Đồ uống bình dân",
+    "desc": "Cam sành vắt tươi nguyên chất giàu vitamin C, pha thêm chút mật ong hoặc đường mát lành.",
+    "quote": "\"Vị cam tươi chua ngọt tự nhiên tăng cường đề kháng mỗi ngày.\""
+  },
+  {
+    "id": "more_drinks_chanh_day",
+    "name": "Nước chanh dây",
+    "type": "Đồ uống bình dân",
+    "desc": "Chanh dây thơm lừng vị chua thanh mát kích thích vị giác sảng khoái.",
+    "quote": "\"Chua chua ngọt ngọt thơm nức mũi, xua tan cơn khát mùa hè.\""
+  },
+  {
+    "id": "nuoc_chanh_muoi",
+    "name": "Nước chanh muối",
+    "type": "Nước Giải Khát Truyền Thống",
+    "desc": "Trái chanh ủ muối lâu năm dầm cùng đường phèn và đá lạnh, vị mằn mặn chua ngọt độc đáo đã khát đã họng.",
+    "quote": "\"Thức uống giải khát bù khoáng dân dã truyền thống, vị mặn ngọt êm dịu cổ họng.\""
+  },
+  {
+    "id": "nuoc_3_2",
+    "name": "Nước mía siêu sạch",
+    "type": "Xe Nước Mía Vỉa Hè",
+    "desc": "Mía tươi ép nguyên cây cuộn cùng trái tắc vàng thơm phức, ngọt lịm mát lạnh sủi bọt trắng xóa bùi béo.",
+    "quote": "\"Ly nước mía sủi bọt thơm mùi tắc, uống tới đâu tỉnh người tới đó.\""
+  },
+  {
+    "id": "nuoc_5_3",
+    "name": "Nước dừa tươi",
+    "type": "Quán Nước Giải Khát",
+    "desc": "Trái dừa xiêm gọt vỏ ngọt lịm thanh mát, cùi dừa non mềm mỏng béo ngậy nhai sần sật đã khát ngày hè.",
+    "quote": "\"Hút trọn nước dừa xiêm ngọt lịm, nạo miếng cùi dừa non béo ngậy mát rượi.\""
+  },
+  {
+    "id": "nuoc_3_3",
+    "name": "Rau má đậu xanh",
+    "type": "Tiệm Nước Mát Thanh Nhiệt",
+    "desc": "Rau má tươi thanh mát xay cùng đậu xanh nấu nhuyễn sánh mịn, thêm chút sữa dừa béo bùi ngọt dịu cực kỳ lành tính.",
+    "quote": "\"Vị rau má mát lành hòa quyện đậu xanh bùi bùi, thức uống giải nhiệt đỉnh cao.\""
+  },
+  {
+    "id": "nuoc_nuoc_sam_bi_dao",
+    "name": "Nước sâm bí đao",
+    "type": "Quán Nước Thảo Mộc Gia Truyền",
+    "desc": "Bí đao già nấu cùng lá dứa, thục địa, la hán quả và hạt chia bổ dưỡng, ngọt thanh mát lành giải nhiệt.",
+    "quote": "\"Thức uống thảo mộc lành mát chuẩn vị mẹ nấu, thanh nhiệt giải độc ngày hè.\""
+  },
+  {
+    "id": "more_drinks_nuoc_sam",
+    "name": "Nước sâm thảo mộc",
+    "type": "Đồ uống bình dân",
+    "desc": "Nấu từ mía lau, rễ tranh, mã đề và lá dứa thơm mát, vị ngọt thanh tự nhiên bồi bổ giải nhiệt cơ thể cực tốt.",
+    "quote": "\"Trưa hè nóng nực làm một ly nước sâm mát lạnh, cơ thể nhẹ nhõm ngay tức thì.\""
+  },
+  {
+    "id": "more_drinks_sua_dau_nanh",
+    "name": "Sữa đậu nành lá dứa",
+    "type": "Đồ uống bình dân",
+    "desc": "Sữa đậu nành nấu cùng lá dứa thơm bùi ngậy béo, uống ấm hay uống đá đều rất ngon.",
+    "quote": "\"Thơm mùi lá dứa ngậy vị đậu nành, ấm lòng ngày se lạnh.\""
+  },
+  {
+    "id": "nuoc_sua_bap",
+    "name": "Sữa bắp non Đà Lạt",
+    "type": "Quán Nước Bình Dân",
+    "desc": "Bắp ngọt non mới hái tách hạt xay nhuyễn cùng sữa tươi, ngậy bùi tự nhiên màu vàng nắng óng ả.",
+    "quote": "\"Vị bắp non ngọt thơm tự nhiên, uống nóng hay uống đá đều thơm ngon xuất sắc.\""
+  },
+  {
+    "id": "nuoc_sua_tuoi_tran_chau",
+    "name": "Sữa tươi trân châu đường đen",
+    "type": "Thương Hiệu Trà Sữa",
+    "desc": "Sữa tươi thanh trùng mát lạnh kết hợp trân châu nấu đường đen dẻo quánh, từng vệt siro hổ vằn óng ả quanh thành ly.",
+    "quote": "\"Khuấy đều 18 lần để cảm nhận trọn vẹn vị béo ngậy hòa cùng đường đen ấm nóng.\""
+  },
+  {
+    "id": "nuoc_sua_chua_danh_da",
+    "name": "Sữa chua đánh đá cà phê",
+    "type": "Quán Nước Giải Khát",
+    "desc": "Sữa chua lên men dẻo mịn đánh cùng đá bào nhuyễn mát lạnh, rưới thêm chút nước cốt cà phê đậm vị.",
+    "quote": "\"Chua ngọt dịu nhẹ hòa quyện hương cà phê nồng ấm cực kỳ bắt miệng.\""
+  },
+  {
+    "id": "nuoc_milo_dam",
+    "name": "Milo dầm trân châu",
+    "type": "Trà Sữa & Ăn Vặt",
+    "desc": "Đá bào ngập sốt ca cao đặc sánh, rắc bột Milo ngập tràn cùng trân châu dai giòn và bánh flan pudding mềm mịn.",
+    "quote": "\"Cơn sốt ngọt ngào tuổi học trò với vị chocolate mạch nha đậm đà quyến rũ.\""
+  },
+  {
+    "id": "nuoc_soda_viet_quat",
+    "name": "Soda việt quất",
+    "type": "Tiệm Nước & Mocktail",
+    "desc": "Siro việt quất chua ngọt thơm lừng hòa cùng soda sủi bọt lăn tăn mát rượi, trang trí lá bạc hà tươi mát.",
+    "quote": "\"Màu xanh tím rực rỡ sủi bọt mát lạnh, mang đến cảm giác sảng khoái bùng nổ.\""
+  },
+  {
+    "id": "more_drinks_ca_cao",
+    "name": "Ca cao nóng",
+    "type": "Đồ uống bình dân",
+    "desc": "Bột ca cao nguyên chất pha sữa đặc thơm lừng ngọt ngào béo ngậy.",
+    "quote": "\"Ấm áp ngọt ngào, xua tan mọi mỏi mệt trong ngày.\""
+  },
+  {
+    "id": "nuoc_4_2",
+    "name": "Sinh tố bơ",
+    "type": "Quán Sinh Tố Trái Cây",
+    "desc": "Bơ sáp Đắk Lắk chín tới dẻo quánh xay cùng sữa đặc béo ngậy, ngọt dịu và thơm nức mũi.",
+    "quote": "\"Bơ sáp sánh mịn ngậy vị sữa, từng thìa béo bùi ngon khó cưỡng.\""
+  },
+  {
+    "id": "nuoc_sinh_to_sau_rieng",
+    "name": "Sinh tố sầu riêng",
+    "type": "Quán Sinh Tố Trái Cây",
+    "desc": "Cơm sầu riêng Ri6 chín vàng thơm nức xay cùng sữa đặc béo ngậy và đá tuyết sánh đặc ngọt ngào.",
+    "quote": "\"Đậm đà hương sầu riêng quyến rũ, béo ngậy thơm ngon ngây ngất.\""
+  },
+  {
+    "id": "more_drinks_sinh_to_xoai",
+    "name": "Sinh tố xoài",
+    "type": "Đồ uống bình dân",
+    "desc": "Xoài cát Hòa Lộc chín vàng ươm xay nhuyễn béo ngọt ngào thơm nức.",
+    "quote": "\"Xoài cát thơm lừng vàng óng, ngọt dịu sảng khoái.\""
+  },
+  {
+    "id": "nuoc_sinh_to_dau",
+    "name": "Sinh tố dâu tây",
+    "type": "Quán Sinh Tố Trái Cây",
+    "desc": "Dâu tây Đà Lạt đỏ mọng tươi ngon xay cùng sữa tươi và sữa đặc, vị chua ngọt hài hòa với sắc đỏ hồng quyến rũ.",
+    "quote": "\"Ly sinh tố thơm lừng mùi dâu tươi, béo ngậy vị sữa làm xiêu lòng bất cứ ai.\""
+  },
+  {
+    "id": "nuoc_sinh_to_mang_cau",
+    "name": "Sinh tố mãng cầu",
+    "type": "Quán Sinh Tố Trái Cây",
+    "desc": "Thịt mãng cầu xiêm chua chua ngọt ngọt xay cùng sữa đặc sánh mịn, béo bùi vừa vặn không hề ngấy.",
+    "quote": "\"Hương thơm mãng cầu đặc trưng khó cưỡng, vị chua thanh ngọt béo gây nghiện.\""
+  }
+]

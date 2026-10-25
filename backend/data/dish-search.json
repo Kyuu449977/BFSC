@@ -354,5 +354,73 @@
   "more_drinks_nuoc_sam": {
     "name": "Nước sâm",
     "query": "quán Nước sâm"
+  },
+  "vat_banh_lot": {
+    "name": "Bánh lọt nước cốt dừa",
+    "query": "quán Bánh lọt nước cốt dừa"
+  },
+  "sang_banh_tam_bi": {
+    "name": "Bánh tằm bì",
+    "query": "quán Bánh tằm bì"
+  },
+  "chieu_banh_can": {
+    "name": "Bánh căn Đà Lạt",
+    "query": "quán Bánh căn Đà Lạt"
+  },
+  "chieu_banh_cong": {
+    "name": "Bánh cống Sóc Trăng",
+    "query": "quán Bánh cống Sóc Trăng"
+  },
+  "chieu_banh_duc_nong": {
+    "name": "Bánh đúc nóng Hà Nội",
+    "query": "quán Bánh đúc nóng Hà Nội"
+  },
+  "trua_cao_lau": {
+    "name": "Cao lầu Hội An",
+    "query": "quán Cao lầu Hội An"
+  },
+  "sang_banh_uot_long_ga": {
+    "name": "Bánh ướt lòng gà",
+    "query": "quán Bánh ướt lòng gà"
+  },
+  "vat_che_buoi": {
+    "name": "Chè bưởi An Giang",
+    "query": "quán Chè bưởi An Giang"
+  },
+  "toi_nem_nuong": {
+    "name": "Nem nướng Ninh Hòa",
+    "query": "quán Nem nướng Ninh Hòa"
+  },
+  "trua_bun_ca": {
+    "name": "Bún cá Nha Trang",
+    "query": "quán Bún cá Nha Trang"
+  },
+  "toi_mi_vit_tiem": {
+    "name": "Mì vịt tiềm",
+    "query": "quán Mì vịt tiềm"
+  },
+  "toi_chao_long": {
+    "name": "Cháo lòng",
+    "query": "quán Cháo lòng"
+  },
+  "toi_lau_bo": {
+    "name": "Lẩu bò nhúng dấm",
+    "query": "quán Lẩu bò nhúng dấm"
+  },
+  "chieu_banh_dap": {
+    "name": "Bánh đập hến xào",
+    "query": "quán Bánh đập hến xào"
+  },
+  "vat_che_ba_ba": {
+    "name": "Chè bà ba",
+    "query": "quán Chè bà ba"
+  },
+  "vat_banh_cam": {
+    "name": "Bánh cam · Bánh tiêu",
+    "query": "quán Bánh cam · Bánh tiêu"
+  },
+  "trua_com_hen": {
+    "name": "Cơm hến Huế",
+    "query": "quán Cơm hến Huế"
   }
 }

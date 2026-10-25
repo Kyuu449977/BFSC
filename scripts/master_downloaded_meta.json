@@ -1,0 +1,1938 @@
+{
+  "ja_m_1": {
+    "dish_id": "ja_m_1",
+    "file_title": "File:Tamagokake-gohan 001.jpg",
+    "artist": "Ocdp",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Tamagokake-gohan_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_m_1.webp"
+  },
+  "ja_m_2": {
+    "dish_id": "ja_m_2",
+    "file_title": "File:Breakfast of grilled salmon, miso soup and rice by jetalone.jpg",
+    "artist": "jetalone",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Breakfast_of_grilled_salmon%2C_miso_soup_and_rice_by_jetalone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_m_2.webp"
+  },
+  "ja_m_3": {
+    "dish_id": "ja_m_3",
+    "file_title": "File:Sake chazuke by matsukawa1971.jpg",
+    "artist": "matsukawa1971",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sake_chazuke_by_matsukawa1971.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_m_3.webp"
+  },
+  "ja_m_4": {
+    "dish_id": "ja_m_4",
+    "file_title": "File:Japanese egg sandwich in a sandwich case.jpg",
+    "artist": "Quercus acuta",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Japanese_egg_sandwich_in_a_sandwich_case.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_m_4.webp"
+  },
+  "ja_m_5": {
+    "dish_id": "ja_m_5",
+    "file_title": "File:Ogura Toast (Toast with Sweet Red Bean Paste) (6639292463).jpg",
+    "artist": "Naotake Murayama from San Francisco, CA, USA",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ogura_Toast_%28Toast_with_Sweet_Red_Bean_Paste%29_%286639292463%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_m_5.webp"
+  },
+  "ja_m_6": {
+    "dish_id": "ja_m_6",
+    "file_title": "File:Nanakusa gayu on Nanakusa no sekku.jpg",
+    "artist": "Blue Lotus",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Nanakusa_gayu_on_Nanakusa_no_sekku.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_m_6.webp"
+  },
+  "ja_m_7": {
+    "dish_id": "ja_m_7",
+    "file_title": "File:Natto on rice.jpg",
+    "artist": "The original uploader was Shades0404 at English Wikipedia.",
+    "license": "CC BY 2.5",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Natto_on_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_m_7.webp"
+  },
+  "ja_m_8": {
+    "dish_id": "ja_m_8",
+    "file_title": "File:SABAMISO Zen (6644938431).jpg",
+    "artist": "Nori Norisa",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/SABAMISO_Zen_%286644938431%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_m_8.webp"
+  },
+  "ja_m_9": {
+    "dish_id": "ja_m_9",
+    "file_title": "File:Miso soup of Japanese littleneck clam(asari) 2014.jpg",
+    "artist": "Kentin",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Miso_soup_of_Japanese_littleneck_clam%28asari%29_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_m_9.webp"
+  },
+  "ja_l_1": {
+    "dish_id": "ja_l_1",
+    "file_title": "File:Nigiri Sushi (26505096851).jpg",
+    "artist": "Tim Reckmann from Hamm, Deutschland",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Nigiri_Sushi_%2826505096851%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_l_1.webp"
+  },
+  "ja_l_2": {
+    "dish_id": "ja_l_2",
+    "file_title": "File:Chirashizushi in San Diego by lookslikeamy.jpg",
+    "artist": "lookslikeamy from Izakaya Sakura in  Convoy Steet, San Diego, California",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Chirashizushi_in_San_Diego_by_lookslikeamy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_l_2.webp"
+  },
+  "ja_l_3": {
+    "dish_id": "ja_l_3",
+    "file_title": "File:Ikkousha tonkotsu bowl.jpg",
+    "artist": "Wesoree",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Ikkousha_tonkotsu_bowl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_l_3.webp"
+  },
+  "ja_l_4": {
+    "dish_id": "ja_l_4",
+    "file_title": "File:Empty bowl, Hakata Choten, Paris 001.jpg",
+    "artist": "Guilhem Vellut from Paris, France",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Empty_bowl%2C_Hakata_Choten%2C_Paris_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_l_4.webp"
+  },
+  "ja_l_5": {
+    "dish_id": "ja_l_5",
+    "file_title": "File:Katsudon 001.jpg",
+    "artist": "Ocdp",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Katsudon_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_l_5.webp"
+  },
+  "ja_l_6": {
+    "dish_id": "ja_l_6",
+    "file_title": "File:Gyuu-don 001.jpg",
+    "artist": "Ocdp",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Gyuu-don_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_l_6.webp"
+  },
+  "ja_l_7": {
+    "dish_id": "ja_l_7",
+    "file_title": "File:Tempura-Udon-Nudeln.JPG",
+    "artist": "Dr. Bernd Gross",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Tempura-Udon-Nudeln.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_l_7.webp"
+  },
+  "ja_l_8": {
+    "dish_id": "ja_l_8",
+    "file_title": "File:Ten zaru soba by jetalone in Tokyo.jpg",
+    "artist": "jetalone from Minato,  Chuo,  Tokyo",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Ten_zaru_soba_by_jetalone_in_Tokyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_l_8.webp"
+  },
+  "ja_l_9": {
+    "dish_id": "ja_l_9",
+    "file_title": "File:Katsu-curry 003.jpg",
+    "artist": "Ocdp",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Katsu-curry_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_l_9.webp"
+  },
+  "ja_l_10": {
+    "dish_id": "ja_l_10",
+    "file_title": "File:ひつまぶし (8866834170).jpg",
+    "artist": "akira yamada from Chigasaki, Japan",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/%E3%81%B2%E3%81%A4%E3%81%BE%E3%81%B6%E3%81%97_%288866834170%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_l_10.webp"
+  },
+  "ja_l_11": {
+    "dish_id": "ja_l_11",
+    "file_title": "File:Oyakodon 003.jpg",
+    "artist": "Ocdp",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Oyakodon_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_l_11.webp"
+  },
+  "ja_l_12": {
+    "dish_id": "ja_l_12",
+    "file_title": "File:Hiyashi chuka by woinary at 551 Horai in Osaka Intl Airport.jpg",
+    "artist": "woinary from Osaka International Airport",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Hiyashi_chuka_by_woinary_at_551_Horai_in_Osaka_Intl_Airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_l_12.webp"
+  },
+  "ja_a_1": {
+    "dish_id": "ja_a_1",
+    "file_title": "File:Honkeohtako's takoyaki, Osaka; December 2013 (04).jpg",
+    "artist": "City Foodsters",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Honkeohtako%27s_takoyaki%2C_Osaka%3B_December_2013_%2804%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_a_1.webp"
+  },
+  "ja_a_2": {
+    "dish_id": "ja_a_2",
+    "file_title": "File:Hiroshima-Style Okonomiyaki (40283556800).jpg",
+    "artist": "Ajay Suresh from New York, NY, USA",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Hiroshima-Style_Okonomiyaki_%2840283556800%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_a_2.webp"
+  },
+  "ja_a_3": {
+    "dish_id": "ja_a_3",
+    "file_title": "File:10 Yen coin King edible Japanes pancake mozzarellaA.jpg",
+    "artist": "Valenzuela400",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/10_Yen_coin_King_edible_Japanes_pancake_mozzarellaA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_a_3.webp"
+  },
+  "ja_a_4": {
+    "dish_id": "ja_a_4",
+    "file_title": "File:Taiyaki, Daisen-Ji Temple. Japan (6354564985).jpg",
+    "artist": "GanMed64",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Taiyaki%2C_Daisen-Ji_Temple._Japan_%286354564985%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_a_4.webp"
+  },
+  "ja_a_5": {
+    "dish_id": "ja_a_5",
+    "file_title": "File:Yakisoba-pan1(480x800).jpg",
+    "artist": "TNewfields",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Yakisoba-pan1%28480x800%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_a_5.webp"
+  },
+  "ja_a_6": {
+    "dish_id": "ja_a_6",
+    "file_title": "File:Tori no Karaage - Japanese style Fried chicken.jpg",
+    "artist": "tab2_dawa",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Tori_no_Karaage_-_Japanese_style_Fried_chicken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_a_6.webp"
+  },
+  "ja_a_7": {
+    "dish_id": "ja_a_7",
+    "file_title": "File:Mitarashi dango by denver935.jpg",
+    "artist": "denver935",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Mitarashi_dango_by_denver935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_a_7.webp"
+  },
+  "ja_a_8": {
+    "dish_id": "ja_a_8",
+    "file_title": "File:Utagawa Kunisada Yakiimo-Oshichi.jpg",
+    "artist": "歌川国貞",
+    "license": "Public domain",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Utagawa_Kunisada_Yakiimo-Oshichi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_a_8.webp"
+  },
+  "ja_a_9": {
+    "dish_id": "ja_a_9",
+    "file_title": "File:Grilled squid 001.jpg",
+    "artist": "Ocdp",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Grilled_squid_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_a_9.webp"
+  },
+  "ja_d_1": {
+    "dish_id": "ja_d_1",
+    "file_title": "File:Sashimi Moriawase (13822047473).jpg",
+    "artist": "LeonardKong",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Sashimi_Moriawase_%2813822047473%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_d_1.webp"
+  },
+  "ja_d_2": {
+    "dish_id": "ja_d_2",
+    "file_title": "File:Sukiyaki 01.jpg",
+    "artist": "ajari",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Sukiyaki_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_d_2.webp"
+  },
+  "ja_d_3": {
+    "dish_id": "ja_d_3",
+    "file_title": "File:DFC 0331 Skewers of bacon-wrapped sausages golden and grilled to a savory glaze.jpg",
+    "artist": "PattayaPatrol",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/DFC_0331_Skewers_of_bacon-wrapped_sausages_golden_and_grilled_to_a_savory_glaze.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_d_3.webp"
+  },
+  "ja_d_4": {
+    "dish_id": "ja_d_4",
+    "file_title": "File:Fukuoka-style hot pot (3637375629).jpg",
+    "artist": "pelican from Tokyo, Japan",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Fukuoka-style_hot_pot_%283637375629%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_d_4.webp"
+  },
+  "ja_d_5": {
+    "dish_id": "ja_d_5",
+    "file_title": "File:Shabu Shabu photo Don Ramey Logan.jpg",
+    "artist": "Don Ramey Logan",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Shabu_Shabu_photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_d_5.webp"
+  },
+  "ja_d_6": {
+    "dish_id": "ja_d_6",
+    "file_title": "File:Monjayaki-2006-06-25.jpg",
+    "artist": "Syohei Arai",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Monjayaki-2006-06-25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_d_6.webp"
+  },
+  "ja_d_7": {
+    "dish_id": "ja_d_7",
+    "file_title": "File:Jingisukan japanese mutton barbecue.jpg",
+    "artist": "Jesper Rautell Balle",
+    "license": "CC BY 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Jingisukan_japanese_mutton_barbecue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_d_7.webp"
+  },
+  "ja_d_8": {
+    "dish_id": "ja_d_8",
+    "file_title": "File:I settled down in the Kushikatsu restaurant - too bad about the idiot next to me smoking all the time (49399232551).jpg",
+    "artist": "shankar s. from Poona (pune), India, India",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/I_settled_down_in_the_Kushikatsu_restaurant_-_too_bad_about_the_idiot_next_to_me_smoking_all_the_time_%2849399232551%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_d_8.webp"
+  },
+  "ja_d_9": {
+    "dish_id": "ja_d_9",
+    "file_title": "File:Cold noodles at Xinchuan (20170622163023).jpg",
+    "artist": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Cold_noodles_at_Xinchuan_%2820170622163023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_d_9.webp"
+  },
+  "ja_s_1": {
+    "dish_id": "ja_s_1",
+    "file_title": "File:Warabimochi GionTokuya.jpg",
+    "artist": "Kykk wiki",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Warabimochi_GionTokuya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_s_1.webp"
+  },
+  "ja_s_2": {
+    "dish_id": "ja_s_2",
+    "file_title": "File:KyotoTsujiri.jpg",
+    "artist": "User: (WT-shared) Shirakawa-yobune at  wts wikivoyage",
+    "license": "CC BY-SA 1.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/KyotoTsujiri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_s_2.webp"
+  },
+  "ja_s_3": {
+    "dish_id": "ja_s_3",
+    "file_title": "File:Mizu Shingen Mochi, black syrup (27871976812).jpg",
+    "artist": "T.Tseng",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Mizu_Shingen_Mochi%2C_black_syrup_%2827871976812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_s_3.webp"
+  },
+  "ja_s_4": {
+    "dish_id": "ja_s_4",
+    "file_title": "File:Soft rice cake stuffed with sweetened bean & strawberry,katori-city,japan.JPG",
+    "artist": "katorisi",
+    "license": "CC BY 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Soft_rice_cake_stuffed_with_sweetened_bean_%26_strawberry%2Ckatori-city%2Cjapan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_s_4.webp"
+  },
+  "ja_s_5": {
+    "dish_id": "ja_s_5",
+    "file_title": "File:Mixue matcha ice cream-20240128.jpg",
+    "artist": "Shwangtianyuan",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Mixue_matcha_ice_cream-20240128.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_s_5.webp"
+  },
+  "ja_s_6": {
+    "dish_id": "ja_s_6",
+    "file_title": "File:Dorayaki (54091920195).jpg",
+    "artist": "Choo Yut Shing from Singapore, Singapore",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Dorayaki_%2854091920195%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_s_6.webp"
+  },
+  "ja_s_7": {
+    "dish_id": "ja_s_7",
+    "file_title": "File:Fluffy Japanese Pancake - Shibuya (41950827231).jpg",
+    "artist": "Ajay Suresh from New York, NY, USA",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Fluffy_Japanese_Pancake_-_Shibuya_%2841950827231%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_s_7.webp"
+  },
+  "ja_dr_1": {
+    "dish_id": "ja_dr_1",
+    "file_title": "File:Coffee float and ice cream soda 2017 Ginza Renoir 1.jpg",
+    "artist": "Morio",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Coffee_float_and_ice_cream_soda_2017_Ginza_Renoir_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_dr_1.webp"
+  },
+  "ja_dr_2": {
+    "dish_id": "ja_dr_2",
+    "file_title": "File:Iced green tea latte.jpg",
+    "artist": "Saya1611",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Iced_green_tea_latte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_dr_2.webp"
+  },
+  "ja_dr_3": {
+    "dish_id": "ja_dr_3",
+    "file_title": "File:Rollcakes and latte - Rawlab 2024-11-08.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Rollcakes_and_latte_-_Rawlab_2024-11-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_dr_3.webp"
+  },
+  "ja_dr_4": {
+    "dish_id": "ja_dr_4",
+    "file_title": "File:Ramune-lemonade,japan.JPG",
+    "artist": "katorisi",
+    "license": "CC BY 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Ramune-lemonade%2Cjapan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_dr_4.webp"
+  },
+  "ja_dr_5": {
+    "dish_id": "ja_dr_5",
+    "file_title": "File:CALPIS SODA - Asahi Soft Drinks.jpg",
+    "artist": "Quercus acuta",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/CALPIS_SODA_-_Asahi_Soft_Drinks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_dr_5.webp"
+  },
+  "ja_dr_6": {
+    "dish_id": "ja_dr_6",
+    "file_title": "File:Royal Albert 'Masquerade' tea service - 2025-10-14 - Andy Mabbett - 01.jpg",
+    "artist": "Andy Mabbett",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Royal_Albert_%27Masquerade%27_tea_service_-_2025-10-14_-_Andy_Mabbett_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_dr_6.webp"
+  },
+  "ja_dr_8": {
+    "dish_id": "ja_dr_8",
+    "file_title": "File:Umeshu on the rocks.jpg",
+    "artist": "Chris 73",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Umeshu_on_the_rocks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ja/ja_dr_8.webp"
+  },
+  "ko_m_1": {
+    "dish_id": "ko_m_1",
+    "file_title": "File:Kongnamul gukbap 20230408 001.jpg",
+    "artist": "Mobius6",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Kongnamul_gukbap_20230408_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_m_1.webp"
+  },
+  "ko_m_2": {
+    "dish_id": "ko_m_2",
+    "file_title": "File:Gilgeori toast 4.jpg",
+    "artist": "gildedgingerbread",
+    "license": "CC BY 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Gilgeori_toast_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_m_2.webp"
+  },
+  "ko_m_3": {
+    "dish_id": "ko_m_3",
+    "file_title": "File:Korean abalone porridge-Jeonbokjuk-01A.jpg",
+    "artist": "by linlilian at Flickr",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Korean_abalone_porridge-Jeonbokjuk-01A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_m_3.webp"
+  },
+  "ko_m_4": {
+    "dish_id": "ko_m_4",
+    "file_title": "File:Gyeran-ppang bungeo-ppang.jpg",
+    "artist": "anokarina",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Gyeran-ppang_bungeo-ppang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_m_4.webp"
+  },
+  "ko_m_5": {
+    "dish_id": "ko_m_5",
+    "file_title": "File:Korea.food-Miyeok.guk-01.jpg",
+    "artist": "User:Feth",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Korea.food-Miyeok.guk-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_m_5.webp"
+  },
+  "ko_m_6": {
+    "dish_id": "ko_m_6",
+    "file_title": "File:Haejang-guk 2.jpg",
+    "artist": "lazy fri13th",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Haejang-guk_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_m_6.webp"
+  },
+  "ko_m_7": {
+    "dish_id": "ko_m_7",
+    "file_title": "File:Korean pumpkin porridge-Hobakjuk-01.jpg",
+    "artist": "by Nicole Cho (nchoz) at Flickr",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Korean_pumpkin_porridge-Hobakjuk-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_m_7.webp"
+  },
+  "ko_m_8": {
+    "dish_id": "ko_m_8",
+    "file_title": "File:Korean.food-teok-01.jpg",
+    "artist": "by johl",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Korean.food-teok-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_m_8.webp"
+  },
+  "ko_l_1": {
+    "dish_id": "ko_l_1",
+    "file_title": "File:Hot stone pot bibimbap with beef (Bulgogi dolsot bibimbap) - Kogi 2023-10-16.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Hot_stone_pot_bibimbap_with_beef_%28Bulgogi_dolsot_bibimbap%29_-_Kogi_2023-10-16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_l_1.webp"
+  },
+  "ko_l_2": {
+    "dish_id": "ko_l_2",
+    "file_title": "File:키토 김밥.jpg",
+    "artist": "Kcjsew",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/%ED%82%A4%ED%86%A0_%EA%B9%80%EB%B0%A5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_l_2.webp"
+  },
+  "ko_l_3": {
+    "dish_id": "ko_l_3",
+    "file_title": "File:Jajangmyeon 2 bowls.jpg",
+    "artist": "Sarang",
+    "license": "Public domain",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Jajangmyeon_2_bowls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_l_3.webp"
+  },
+  "ko_l_4": {
+    "dish_id": "ko_l_4",
+    "file_title": "File:Jjamppong 2.jpg",
+    "artist": "햇살소리",
+    "license": "CC BY 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Jjamppong_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_l_4.webp"
+  },
+  "ko_l_5": {
+    "dish_id": "ko_l_5",
+    "file_title": "File:Korean.cuisine-Kimchi jjigae-01.jpg",
+    "artist": "by avlxyz",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Korean.cuisine-Kimchi_jjigae-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_l_5.webp"
+  },
+  "ko_l_6": {
+    "dish_id": "ko_l_6",
+    "file_title": "File:Hanbang samgye tang (chicken soup) - Kogi, Brighton.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Hanbang_samgye_tang_%28chicken_soup%29_-_Kogi%2C_Brighton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_l_6.webp"
+  },
+  "ko_l_7": {
+    "dish_id": "ko_l_7",
+    "file_title": "File:Dwaeji-gukbap 1.jpg",
+    "artist": "chomjong",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Dwaeji-gukbap_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_l_7.webp"
+  },
+  "ko_l_8": {
+    "dish_id": "ko_l_8",
+    "file_title": "File:Mul-naengmyeon 3.jpg",
+    "artist": "chomjong",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Mul-naengmyeon_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_l_8.webp"
+  },
+  "ko_l_9": {
+    "dish_id": "ko_l_9",
+    "file_title": "File:Bajirak-kalguksu.jpg",
+    "artist": "Suh Jeong-ho",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Bajirak-kalguksu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_l_9.webp"
+  },
+  "ko_l_10": {
+    "dish_id": "ko_l_10",
+    "file_title": "File:Kimchi-bokkeum-bap (Kimchi fried rice) - Kogi 2023-09-11.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Kimchi-bokkeum-bap_%28Kimchi_fried_rice%29_-_Kogi_2023-09-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_l_10.webp"
+  },
+  "ko_l_11": {
+    "dish_id": "ko_l_11",
+    "file_title": "File:Ttukbaegi bulgogi - Bulgogi(beef) hot pot - Kogi Korean cuisine 2024-09-03.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ttukbaegi_bulgogi_-_Bulgogi%28beef%29_hot_pot_-_Kogi_Korean_cuisine_2024-09-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_l_11.webp"
+  },
+  "ko_l_12": {
+    "dish_id": "ko_l_12",
+    "file_title": "File:Andong-jjimdak.jpg",
+    "artist": "Korean Culture and Information Service",
+    "license": "KOGL Type 1",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Andong-jjimdak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_l_12.webp"
+  },
+  "ko_a_1": {
+    "dish_id": "ko_a_1",
+    "file_title": "File:Rosé tteokbokki 2.png",
+    "artist": "호기로운생활",
+    "license": "CC BY-SA 2.5",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ros%C3%A9_tteokbokki_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_a_1.webp"
+  },
+  "ko_a_2": {
+    "dish_id": "ko_a_2",
+    "file_title": "File:Baek-sundae-gopchang-bokkeum.jpg",
+    "artist": "LWYang",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Baek-sundae-gopchang-bokkeum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_a_2.webp"
+  },
+  "ko_a_3": {
+    "dish_id": "ko_a_3",
+    "file_title": "File:Korean corn dog & fried dumplings - KOGI to-go Korean kitchen.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Korean_corn_dog_%26_fried_dumplings_-_KOGI_to-go_Korean_kitchen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_a_3.webp"
+  },
+  "ko_a_4": {
+    "dish_id": "ko_a_4",
+    "file_title": "File:Cheung Chau Potato Chips.jpg",
+    "artist": "Re-imaginigenglish",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Cheung_Chau_Potato_Chips.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_a_4.webp"
+  },
+  "ko_a_5": {
+    "dish_id": "ko_a_5",
+    "file_title": "File:Kkochi-eomuk.jpg",
+    "artist": "anokarina",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Kkochi-eomuk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_a_5.webp"
+  },
+  "ko_a_6": {
+    "dish_id": "ko_a_6",
+    "file_title": "File:Korean cuisine-Bossam-04.jpg",
+    "artist": "Timber Tank",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Korean_cuisine-Bossam-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_a_6.webp"
+  },
+  "ko_a_7": {
+    "dish_id": "ko_a_7",
+    "file_title": "File:Homemade Japchae, Dhaka 03.jpg",
+    "artist": "Ibrahim Husain Meraj",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Homemade_Japchae%2C_Dhaka_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_a_7.webp"
+  },
+  "ko_a_8": {
+    "dish_id": "ko_a_8",
+    "file_title": "File:Gimmari 김말이C1.jpg",
+    "artist": "Valenzuela400",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Gimmari_%EA%B9%80%EB%A7%90%EC%9D%B4C1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_a_8.webp"
+  },
+  "ko_a_9": {
+    "dish_id": "ko_a_9",
+    "file_title": "File:Sundae-bokkeum 3.jpg",
+    "artist": "Charles Haynes",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Sundae-bokkeum_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_a_9.webp"
+  },
+  "ko_a_10": {
+    "dish_id": "ko_a_10",
+    "file_title": "File:Rabokki - SOJU 2024-06-02.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Rabokki_-_SOJU_2024-06-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_a_10.webp"
+  },
+  "ko_d_1": {
+    "dish_id": "ko_d_1",
+    "file_title": "File:Korean.cuisine-Samgyeopsal-01.jpg",
+    "artist": "by hellochris",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Korean.cuisine-Samgyeopsal-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_d_1.webp"
+  },
+  "ko_d_2": {
+    "dish_id": "ko_d_2",
+    "file_title": "File:Korean.food-Makchang-04.jpg",
+    "artist": "by ~Mers",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Korean.food-Makchang-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_d_2.webp"
+  },
+  "ko_d_3": {
+    "dish_id": "ko_d_3",
+    "file_title": "File:Iksan City 48 Korean Style Fried chicken.jpg",
+    "artist": "KOREA.NET",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Iksan_City_48_Korean_Style_Fried_chicken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_d_3.webp"
+  },
+  "ko_d_4": {
+    "dish_id": "ko_d_4",
+    "file_title": "File:Budae-jjigae 1.jpg",
+    "artist": "lazy fri13th",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Budae-jjigae_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_d_4.webp"
+  },
+  "ko_d_5": {
+    "dish_id": "ko_d_5",
+    "file_title": "File:Galbi-jjim 3.jpg",
+    "artist": "lazy fri13th",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Galbi-jjim_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_d_5.webp"
+  },
+  "ko_d_6": {
+    "dish_id": "ko_d_6",
+    "file_title": "File:Dak-galbi 2.jpg",
+    "artist": "Lisa Risager",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Dak-galbi_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_d_6.webp"
+  },
+  "ko_d_7": {
+    "dish_id": "ko_d_7",
+    "file_title": "File:Korean cuisine-Gwamegi-01.jpg",
+    "artist": "by Nicole Cho (nchoz) at Flickr",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Korean_cuisine-Gwamegi-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_d_7.webp"
+  },
+  "ko_d_9": {
+    "dish_id": "ko_d_9",
+    "file_title": "File:Korean cuisine-Osam bulgogi-01.jpg",
+    "artist": "by aka_maya at Flickr",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Korean_cuisine-Osam_bulgogi-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_d_9.webp"
+  },
+  "ko_d_10": {
+    "dish_id": "ko_d_10",
+    "file_title": "File:Galbi-jjim 3.jpg",
+    "artist": "lazy fri13th",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Galbi-jjim_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_d_10.webp"
+  },
+  "ko_s_1": {
+    "dish_id": "ko_s_1",
+    "file_title": "File:Bungeoppang-01.jpg",
+    "artist": "Siqbal at en.wikipedia",
+    "license": "Public domain",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Bungeoppang-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_s_1.webp"
+  },
+  "ko_s_2": {
+    "dish_id": "ko_s_2",
+    "file_title": "File:Hotteok 3.jpg",
+    "artist": "Charles Haynes",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Hotteok_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_s_2.webp"
+  },
+  "ko_s_3": {
+    "dish_id": "ko_s_3",
+    "file_title": "File:Injeolmi bingsu 2.jpg",
+    "artist": "보노비야",
+    "license": "CC BY 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Injeolmi_bingsu_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_s_3.webp"
+  },
+  "ko_s_4": {
+    "dish_id": "ko_s_4",
+    "file_title": "File:Bingsu.jpeg",
+    "artist": "Misaochan",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Bingsu.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_s_4.webp"
+  },
+  "ko_s_5": {
+    "dish_id": "ko_s_5",
+    "file_title": "File:씨유 쫀득한 마카롱 (초코 딸기 말차) 1.jpg",
+    "artist": "박찹쌀",
+    "license": "CC BY-SA 2.0 kr",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/%EC%94%A8%EC%9C%A0_%EC%AB%80%EB%93%9D%ED%95%9C_%EB%A7%88%EC%B9%B4%EB%A1%B1_%28%EC%B4%88%EC%BD%94_%EB%94%B8%EA%B8%B0_%EB%A7%90%EC%B0%A8%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_s_5.webp"
+  },
+  "ko_s_6": {
+    "dish_id": "ko_s_6",
+    "file_title": "File:Kkwabaegi.jpg",
+    "artist": "쪼끄미**",
+    "license": "CC BY 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Kkwabaegi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_s_6.webp"
+  },
+  "ko_dr_1": {
+    "dish_id": "ko_dr_1",
+    "file_title": "File:Binggrae Banana Flavored Milk 03.jpg",
+    "artist": "KOREA.NET",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Binggrae_Banana_Flavored_Milk_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_dr_1.webp"
+  },
+  "ko_dr_2": {
+    "dish_id": "ko_dr_2",
+    "file_title": "File:HK Drink vending coin machine Joint Host Limited August 2022 Px3 03.jpg",
+    "artist": "LINAMWYZNAM Wangrim",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/HK_Drink_vending_coin_machine_Joint_Host_Limited_August_2022_Px3_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_dr_2.webp"
+  },
+  "ko_dr_3": {
+    "dish_id": "ko_dr_3",
+    "file_title": "File:Andong Sikhye- 안동식혜.jpg",
+    "artist": "Chae Ji-hyeong",
+    "license": "Donated work",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Andong_Sikhye-_%EC%95%88%EB%8F%99%EC%8B%9D%ED%98%9C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_dr_3.webp"
+  },
+  "ko_dr_4": {
+    "dish_id": "ko_dr_4",
+    "file_title": "File:Sujeonggwa.jpg",
+    "artist": "lazy fri13th",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Sujeonggwa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_dr_4.webp"
+  },
+  "ko_dr_5": {
+    "dish_id": "ko_dr_5",
+    "file_title": "File:Seattle, September 10, 2024 - 65.jpg",
+    "artist": "Another Believer",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Seattle%2C_September_10%2C_2024_-_65.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_dr_5.webp"
+  },
+  "ko_dr_7": {
+    "dish_id": "ko_dr_7",
+    "file_title": "File:Korean rice wine Makgeori01.jpg",
+    "artist": "Mar del Este",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Korean_rice_wine_Makgeori01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_dr_7.webp"
+  },
+  "ko_dr_8": {
+    "dish_id": "ko_dr_8",
+    "file_title": "File:Soju Bottle Offering on Inwangsan.jpg",
+    "artist": "Ethan Doyle White",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Soju_Bottle_Offering_on_Inwangsan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/ko/ko_dr_8.webp"
+  },
+  "zh_m_1": {
+    "dish_id": "zh_m_1",
+    "file_title": "File:Jianbing Guozi 20170610.jpg",
+    "artist": "Xrdtj",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Jianbing_Guozi_20170610.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_m_1.webp"
+  },
+  "zh_m_2": {
+    "dish_id": "zh_m_2",
+    "file_title": "File:Truffle Soup Dumplings at Din Tai Fung.jpg",
+    "artist": "Okadiputera",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Truffle_Soup_Dumplings_at_Din_Tai_Fung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_m_2.webp"
+  },
+  "zh_m_3": {
+    "dish_id": "zh_m_3",
+    "file_title": "File:Shengjianbao by buncheduptv in San Mateo, CA.jpg",
+    "artist": "buncheduptv from Shanghainese restaurant Little Shanghai Restaurant in San Mateo, California",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Shengjianbao_by_buncheduptv_in_San_Mateo%2C_CA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_m_3.webp"
+  },
+  "zh_m_4": {
+    "dish_id": "zh_m_4",
+    "file_title": "File:Hot dry noodles.jpg",
+    "artist": "Syouziiye",
+    "license": "CC BY 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Hot_dry_noodles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_m_4.webp"
+  },
+  "zh_m_5": {
+    "dish_id": "zh_m_5",
+    "file_title": "File:Doujiang and youtiao Taipei.jpg",
+    "artist": "KQuhen",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Doujiang_and_youtiao_Taipei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_m_5.webp"
+  },
+  "zh_m_6": {
+    "dish_id": "zh_m_6",
+    "file_title": "File:A century eggs and Pork Congee from Chi Kee Congee Shop.jpg",
+    "artist": "Peachyeung316",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/A_century_eggs_and_Pork_Congee_from_Chi_Kee_Congee_Shop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_m_6.webp"
+  },
+  "zh_m_8": {
+    "dish_id": "zh_m_8",
+    "file_title": "File:Dried shrimp rice noodle roll.jpg",
+    "artist": "ZhengZhou",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Dried_shrimp_rice_noodle_roll.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_m_8.webp"
+  },
+  "zh_l_1": {
+    "dish_id": "zh_l_1",
+    "file_title": "File:Authentic Lanzhou Beef Lamian Medium Thin (40099715133).jpg",
+    "artist": "Jose Nicdao from San Jose, United States",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Authentic_Lanzhou_Beef_Lamian_Medium_Thin_%2840099715133%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_l_1.webp"
+  },
+  "zh_l_2": {
+    "dish_id": "zh_l_2",
+    "file_title": "File:Taste of Beijing, Soho, London (4363231155).jpg",
+    "artist": "Ewan Munro from London, UK",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Taste_of_Beijing%2C_Soho%2C_London_%284363231155%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_l_2.webp"
+  },
+  "zh_l_3": {
+    "dish_id": "zh_l_3",
+    "file_title": "File:Cha siu choeng.jpg",
+    "artist": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Cha_siu_choeng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_l_3.webp"
+  },
+  "zh_l_4": {
+    "dish_id": "zh_l_4",
+    "file_title": "File:Hainanese Chicken from Thai Restaurant from Public Food Court in Olympian City.jpg",
+    "artist": "Peachyeung316",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Hainanese_Chicken_from_Thai_Restaurant_from_Public_Food_Court_in_Olympian_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_l_4.webp"
+  },
+  "zh_l_5": {
+    "dish_id": "zh_l_5",
+    "file_title": "File:Beef Belly with Noodles Soup - Noodles Soup 2023-10-24.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Beef_Belly_with_Noodles_Soup_-_Noodles_Soup_2023-10-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_l_5.webp"
+  },
+  "zh_l_6": {
+    "dish_id": "zh_l_6",
+    "file_title": "File:Dan-dan noodles, Shanghai.jpg",
+    "artist": "Steven G. Johnson",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Dan-dan_noodles%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_l_6.webp"
+  },
+  "zh_l_7": {
+    "dish_id": "zh_l_7",
+    "file_title": "File:Cantonese roast goose served in Guangzhou, China, June 2026.jpg",
+    "artist": "Guangzhou Private Tours by Janvi",
+    "license": "CC BY 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Cantonese_roast_goose_served_in_Guangzhou%2C_China%2C_June_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_l_7.webp"
+  },
+  "zh_l_8": {
+    "dish_id": "zh_l_8",
+    "file_title": "File:Biang Biang Noodles at Qintangyizhan, Tianzhu, Beijing (20200412133323).jpg",
+    "artist": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Biang_Biang_Noodles_at_Qintangyizhan%2C_Tianzhu%2C_Beijing_%2820200412133323%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_l_8.webp"
+  },
+  "zh_l_9": {
+    "dish_id": "zh_l_9",
+    "file_title": "File:Taiwanese Beef Noodle Soup.jpg",
+    "artist": "Jjj84206",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Taiwanese_Beef_Noodle_Soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_l_9.webp"
+  },
+  "zh_l_10": {
+    "dish_id": "zh_l_10",
+    "file_title": "File:Yangzhou fried rice and drinks 25-09-2019.jpg",
+    "artist": "LN9267",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Yangzhou_fried_rice_and_drinks_25-09-2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_l_10.webp"
+  },
+  "zh_l_11": {
+    "dish_id": "zh_l_11",
+    "file_title": "File:Guilin mifan.jpg",
+    "artist": "Popo le Chien",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Guilin_mifan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_l_11.webp"
+  },
+  "zh_l_12": {
+    "dish_id": "zh_l_12",
+    "file_title": "File:Luosifen at Guangya, Liuzhou (20190420141814).jpg",
+    "artist": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Luosifen_at_Guangya%2C_Liuzhou_%2820190420141814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_l_12.webp"
+  },
+  "zh_a_1": {
+    "dish_id": "zh_a_1",
+    "file_title": "File:Dim sum at Yu Garden restaurant, Hamburg.jpg",
+    "artist": "Băng Tỏa",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Dim_sum_at_Yu_Garden_restaurant%2C_Hamburg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_a_1.webp"
+  },
+  "zh_a_2": {
+    "dish_id": "zh_a_2",
+    "file_title": "File:HK dim sum food - Pork meat spare ribs n Chicken feet cooked rice Feb-2014 MCK.jpg",
+    "artist": "Rousgmwicna",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/HK_dim_sum_food_-_Pork_meat_spare_ribs_n_Chicken_feet_cooked_rice_Feb-2014_MCK.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_a_2.webp"
+  },
+  "zh_a_3": {
+    "dish_id": "zh_a_3",
+    "file_title": "File:Steamed Rice with Chicken Feet and Spare Ribs.jpg",
+    "artist": "Mk2010",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Steamed_Rice_with_Chicken_Feet_and_Spare_Ribs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_a_3.webp"
+  },
+  "zh_a_4": {
+    "dish_id": "zh_a_4",
+    "file_title": "File:Pineapple bun from Heung Heung Bakery HK.jpg",
+    "artist": "Peachyeung316",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Pineapple_bun_from_Heung_Heung_Bakery_HK.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_a_4.webp"
+  },
+  "zh_a_5": {
+    "dish_id": "zh_a_5",
+    "file_title": "File:Rou jia mo in Xi yang shi.jpg",
+    "artist": "我乃野云鹤",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Rou_jia_mo_in_Xi_yang_shi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_a_5.webp"
+  },
+  "zh_a_6": {
+    "dish_id": "zh_a_6",
+    "file_title": "File:20260516 - Fried Rice with Stinky Tofu - Kaohsiung.jpg",
+    "artist": "Yamato Shiya",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/20260516_-_Fried_Rice_with_Stinky_Tofu_-_Kaohsiung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_a_6.webp"
+  },
+  "zh_a_7": {
+    "dish_id": "zh_a_7",
+    "file_title": "File:TWBC Taiwanese fried chicken 20070303.jpg",
+    "artist": "JeanHavoc",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/TWBC_Taiwanese_fried_chicken_20070303.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_a_7.webp"
+  },
+  "zh_a_8": {
+    "dish_id": "zh_a_8",
+    "file_title": "File:Tanghulu vendor - Tamsui, Taiwan (2017).jpg",
+    "artist": "Riblet15",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Tanghulu_vendor_-_Tamsui%2C_Taiwan_%282017%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_a_8.webp"
+  },
+  "zh_a_9": {
+    "dish_id": "zh_a_9",
+    "file_title": "File:Portuguese egg tart in Macau.jpg",
+    "artist": "Pauloleong2002",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Portuguese_egg_tart_in_Macau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_a_9.webp"
+  },
+  "zh_d_1": {
+    "dish_id": "zh_d_1",
+    "file_title": "File:Sliced Peking Roasted Duck from Peking Garden.jpg",
+    "artist": "Peachyeung316",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Sliced_Peking_Roasted_Duck_from_Peking_Garden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_d_1.webp"
+  },
+  "zh_d_2": {
+    "dish_id": "zh_d_2",
+    "file_title": "File:Rice bowl topped with tofu (7960798384).jpg",
+    "artist": "pelican from Tokyo, Japan",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Rice_bowl_topped_with_tofu_%287960798384%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_d_2.webp"
+  },
+  "zh_d_3": {
+    "dish_id": "zh_d_3",
+    "file_title": "File:Szechuan beef Sichuan cuisine 四川菜 Shuizhu roupian 23 January 2025 Filipinas5.jpg",
+    "artist": "Valenzuela400",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Szechuan_beef_Sichuan_cuisine_%E5%9B%9B%E5%B7%9D%E8%8F%9C_Shuizhu_roupian_23_January_2025_Filipinas5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_d_3.webp"
+  },
+  "zh_d_4": {
+    "dish_id": "zh_d_4",
+    "file_title": "File:Concentric hot pot in Chongqing (20180217165607).jpg",
+    "artist": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Concentric_hot_pot_in_Chongqing_%2820180217165607%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_d_4.webp"
+  },
+  "zh_d_5": {
+    "dish_id": "zh_d_5",
+    "file_title": "File:Dongpo pork garnished.jpg",
+    "artist": "CNEcija12345",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Dongpo_pork_garnished.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_d_5.webp"
+  },
+  "zh_d_6": {
+    "dish_id": "zh_d_6",
+    "file_title": "File:Kung Pao Chicken - Jadeland Restaurant, Ottawa (6453176819).jpg",
+    "artist": "John Thompson from Iqaluit",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Kung_Pao_Chicken_-_Jadeland_Restaurant%2C_Ottawa_%286453176819%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_d_6.webp"
+  },
+  "zh_d_7": {
+    "dish_id": "zh_d_7",
+    "file_title": "File:Jumbo kebab at Xinjiang Restaurant (20141121184744).JPG",
+    "artist": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Jumbo_kebab_at_Xinjiang_Restaurant_%2820141121184744%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_d_7.webp"
+  },
+  "zh_d_8": {
+    "dish_id": "zh_d_8",
+    "file_title": "File:Squirrel fish.jpg",
+    "artist": "Ines Yeh",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Squirrel_fish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_d_8.webp"
+  },
+  "zh_d_9": {
+    "dish_id": "zh_d_9",
+    "file_title": "File:Fish shaped clay vessel.jpg",
+    "artist": "MUCUNGUZI Jr ANOLD",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Fish_shaped_clay_vessel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_d_9.webp"
+  },
+  "zh_d_10": {
+    "dish_id": "zh_d_10",
+    "file_title": "File:Shanghai hot pots-20150518-RM-102531.jpg",
+    "artist": "Ermell",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Shanghai_hot_pots-20150518-RM-102531.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_d_10.webp"
+  },
+  "zh_s_1": {
+    "dish_id": "zh_s_1",
+    "file_title": "File:蜜雪冰城杨枝甘露.jpg",
+    "artist": "彩色琪子",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/%E8%9C%9C%E9%9B%AA%E5%86%B0%E5%9F%8E%E6%9D%A8%E6%9E%9D%E7%94%98%E9%9C%B2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_s_1.webp"
+  },
+  "zh_s_2": {
+    "dish_id": "zh_s_2",
+    "file_title": "File:Shuangpi Nai.jpeg",
+    "artist": "Pokman817",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Shuangpi_Nai.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_s_2.webp"
+  },
+  "zh_s_3": {
+    "dish_id": "zh_s_3",
+    "file_title": "File:Kueh hrua lau cau.jpg",
+    "artist": "User Polyhedron on zh.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Kueh_hrua_lau_cau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_s_3.webp"
+  },
+  "zh_s_4": {
+    "dish_id": "zh_s_4",
+    "file_title": "File:Black sesame paste.jpg",
+    "artist": "bryan... from Taipei, Taiwan",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Black_sesame_paste.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_s_4.webp"
+  },
+  "zh_s_5": {
+    "dish_id": "zh_s_5",
+    "file_title": "File:Dim Sum in a New Face.jpg",
+    "artist": "AnistynL",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Dim_Sum_in_a_New_Face.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_s_5.webp"
+  },
+  "zh_s_6": {
+    "dish_id": "zh_s_6",
+    "file_title": "File:Grass Jelly with Taro Balls, Sweet Potato and Pearl.jpg",
+    "artist": "Wyteoh2000",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Grass_Jelly_with_Taro_Balls%2C_Sweet_Potato_and_Pearl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_s_6.webp"
+  },
+  "zh_s_7": {
+    "dish_id": "zh_s_7",
+    "file_title": "File:Bowl Rice Cakes.jpg",
+    "artist": "Cangjie6",
+    "license": "CC BY 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Bowl_Rice_Cakes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_s_7.webp"
+  },
+  "zh_s_8": {
+    "dish_id": "zh_s_8",
+    "file_title": "File:Walmart Marketside exploding brown sugar glutinous rice cake.jpg",
+    "artist": "Fumikas Sagisavas",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Walmart_Marketside_exploding_brown_sugar_glutinous_rice_cake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_s_8.webp"
+  },
+  "zh_dr_1": {
+    "dish_id": "zh_dr_1",
+    "file_title": "File:Hong Kong Milk Tea, Cha Chaan Teng-style with Black and White cup.jpg",
+    "artist": "Nikoletic126",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Hong_Kong_Milk_Tea%2C_Cha_Chaan_Teng-style_with_Black_and_White_cup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_dr_1.webp"
+  },
+  "zh_dr_2": {
+    "dish_id": "zh_dr_2",
+    "file_title": "File:Hot lemon water and iced lemon tea (Hong Kong).jpg",
+    "artist": "Mk2010",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Hot_lemon_water_and_iced_lemon_tea_%28Hong_Kong%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_dr_2.webp"
+  },
+  "zh_dr_3": {
+    "dish_id": "zh_dr_3",
+    "file_title": "File:Brown Sugar Pearl Milk Tea, Mixue Kota Lama Semarang, 2025 (01).jpg",
+    "artist": "Bahnfrend",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Brown_Sugar_Pearl_Milk_Tea%2C_Mixue_Kota_Lama_Semarang%2C_2025_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_dr_3.webp"
+  },
+  "zh_dr_4": {
+    "dish_id": "zh_dr_4",
+    "file_title": "File:Sour plum drink.jpg",
+    "artist": "用心阁/Yongxinge",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Sour_plum_drink.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_dr_4.webp"
+  },
+  "zh_dr_5": {
+    "dish_id": "zh_dr_5",
+    "file_title": "File:Drinking healthy sugarcane juice.jpg",
+    "artist": "Simionescu Victor",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Drinking_healthy_sugarcane_juice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_dr_5.webp"
+  },
+  "zh_dr_6": {
+    "dish_id": "zh_dr_6",
+    "file_title": "File:Tea set, China for export, c. 1795, porcelain, on stand, New England, 1780-1790, mahogany - Concord Museum - Concord, MA - DSC05787.JPG",
+    "artist": "Daderot",
+    "license": "Public domain",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Tea_set%2C_China_for_export%2C_c._1795%2C_porcelain%2C_on_stand%2C_New_England%2C_1780-1790%2C_mahogany_-_Concord_Museum_-_Concord%2C_MA_-_DSC05787.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_dr_6.webp"
+  },
+  "zh_dr_7": {
+    "dish_id": "zh_dr_7",
+    "file_title": "File:Jiugui.jpg",
+    "artist": "Badagnani",
+    "license": "CC BY 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Jiugui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_dr_7.webp"
+  },
+  "zh_dr_8": {
+    "dish_id": "zh_dr_8",
+    "file_title": "File:Bottle and glas of Chinese Tsingtao beer.jpg",
+    "artist": "Derbrauni",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Bottle_and_glas_of_Chinese_Tsingtao_beer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/zh/zh_dr_8.webp"
+  },
+  "en_m_1": {
+    "dish_id": "en_m_1",
+    "file_title": "File:Full English breakfast at the Chalet Cafe, Cowfold, West Sussex, England.jpg",
+    "artist": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Full_English_breakfast_at_the_Chalet_Cafe%2C_Cowfold%2C_West_Sussex%2C_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_m_1.webp"
+  },
+  "en_m_2": {
+    "dish_id": "en_m_2",
+    "file_title": "File:2019-04-21 11 42 42 A stack of blueberry pancakes with syrup and butter in the Franklin Farm section of Oak Hill, Fairfax County, Virginia.jpg",
+    "artist": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/2019-04-21_11_42_42_A_stack_of_blueberry_pancakes_with_syrup_and_butter_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_m_2.webp"
+  },
+  "en_m_3": {
+    "dish_id": "en_m_3",
+    "file_title": "File:Eggs Benedict with green Hollandaise sauce, smoked pastrami, and hash browns - Auckland, New Zealand.jpg",
+    "artist": "Daderot",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Eggs_Benedict_with_green_Hollandaise_sauce%2C_smoked_pastrami%2C_and_hash_browns_-_Auckland%2C_New_Zealand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_m_3.webp"
+  },
+  "en_m_4": {
+    "dish_id": "en_m_4",
+    "file_title": "File:Smashed Avocado On Toast (with one poached egg) - Jonny's 2026-01-06.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Smashed_Avocado_On_Toast_%28with_one_poached_egg%29_-_Jonny%27s_2026-01-06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_m_4.webp"
+  },
+  "en_m_5": {
+    "dish_id": "en_m_5",
+    "file_title": "File:Lox Bagel Sandwich with Cream Cheese Schmear Onion Tomato.jpg",
+    "artist": "LinguisticsGirl.Librarian",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Lox_Bagel_Sandwich_with_Cream_Cheese_Schmear_Onion_Tomato.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_m_5.webp"
+  },
+  "en_m_6": {
+    "dish_id": "en_m_6",
+    "file_title": "File:French toast & berries at Kristenbosch, Cape Town.jpg",
+    "artist": "Reem Al-Kashif",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/French_toast_%26_berries_at_Kristenbosch%2C_Cape_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_m_6.webp"
+  },
+  "en_m_7": {
+    "dish_id": "en_m_7",
+    "file_title": "File:Belgian waffles & fruit - Brewhouse & Kitchen 2026-04-14.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Belgian_waffles_%26_fruit_-_Brewhouse_%26_Kitchen_2026-04-14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_m_7.webp"
+  },
+  "en_m_8": {
+    "dish_id": "en_m_8",
+    "file_title": "File:Tortilla española kuku sabzi hybrid.jpg",
+    "artist": "Jarrod Baniqued",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Tortilla_espa%C3%B1ola_kuku_sabzi_hybrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_m_8.webp"
+  },
+  "en_l_1": {
+    "dish_id": "en_l_1",
+    "file_title": "File:Sriracha Double Smash Burger.jpg",
+    "artist": "JIP",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Sriracha_Double_Smash_Burger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_l_1.webp"
+  },
+  "en_l_2": {
+    "dish_id": "en_l_2",
+    "file_title": "File:Pizza @ Rocco's New York-style Pizza restaurant @ Oji (9529071831).jpg",
+    "artist": "Guilhem Vellut from Annecy, France",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Pizza_%40_Rocco%27s_New_York-style_Pizza_restaurant_%40_Oji_%289529071831%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_l_2.webp"
+  },
+  "en_l_3": {
+    "dish_id": "en_l_3",
+    "file_title": "File:A dish of fish and chips containing fried cod, pea puree, tartar sauce and chips.jpg",
+    "artist": "Triv97",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/A_dish_of_fish_and_chips_containing_fried_cod%2C_pea_puree%2C_tartar_sauce_and_chips.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_l_3.webp"
+  },
+  "en_l_4": {
+    "dish_id": "en_l_4",
+    "file_title": "File:Spaghetti Bolognese mit Parmesan oder Grana Padano.jpg",
+    "artist": "Manfred&amp;Barbara Aulbach",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_l_4.webp"
+  },
+  "en_l_5": {
+    "dish_id": "en_l_5",
+    "file_title": "File:Bread Bowl & Clam Chowder Soup (29842842338).jpg",
+    "artist": "Prayitno / Thank you for (12 millions +) view from Los Angeles, USA",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bread_Bowl_%26_Clam_Chowder_Soup_%2829842842338%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_l_5.webp"
+  },
+  "en_l_6": {
+    "dish_id": "en_l_6",
+    "file_title": "File:Lobster Roll (Sandwich) @ Beal's Lobster Pier.jpg",
+    "artist": "cdorobek from Washington, DC, USA",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Lobster_Roll_%28Sandwich%29_%40_Beal%27s_Lobster_Pier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_l_6.webp"
+  },
+  "en_l_7": {
+    "dish_id": "en_l_7",
+    "file_title": "File:Cheesesteak (19386149993).jpg",
+    "artist": "jeffreyw",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Cheesesteak_%2819386149993%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_l_7.webp"
+  },
+  "en_l_8": {
+    "dish_id": "en_l_8",
+    "file_title": "File:DSC 7112 A plate of grilled chicken Caesar salad on a table set for dinner with glasses of red wine and soft candlelight in the background.jpg",
+    "artist": "PattayaPatrol",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/DSC_7112_A_plate_of_grilled_chicken_Caesar_salad_on_a_table_set_for_dinner_with_glasses_of_red_wine_and_soft_candlelight_in_the_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_l_8.webp"
+  },
+  "en_l_9": {
+    "dish_id": "en_l_9",
+    "file_title": "File:Club-Sandwich Dorint Neuss.jpg",
+    "artist": "Benreis",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Club-Sandwich_Dorint_Neuss.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_l_9.webp"
+  },
+  "en_l_10": {
+    "dish_id": "en_l_10",
+    "file_title": "File:Pork shoulder tacos - 33983678678.jpg",
+    "artist": "T.Tseng",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Pork_shoulder_tacos_-_33983678678.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_l_10.webp"
+  },
+  "en_l_11": {
+    "dish_id": "en_l_11",
+    "file_title": "File:Mmm...onion soup (5344349906).jpg",
+    "artist": "jeffreyw",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Mmm...onion_soup_%285344349906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_l_11.webp"
+  },
+  "en_l_12": {
+    "dish_id": "en_l_12",
+    "file_title": "File:Canter's Pastrami sandwich.jpg",
+    "artist": "Arnold Gatilao",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Canter%27s_Pastrami_sandwich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_l_12.webp"
+  },
+  "en_a_1": {
+    "dish_id": "en_a_1",
+    "file_title": "File:Buffalo wings.jpg",
+    "artist": "John Tornow",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Buffalo_wings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_a_1.webp"
+  },
+  "en_a_2": {
+    "dish_id": "en_a_2",
+    "file_title": "File:Basket of Slim Chickens tenders and french fries, with sauce.jpg",
+    "artist": "Ser Amantio di Nicolao",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Basket_of_Slim_Chickens_tenders_and_french_fries%2C_with_sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_a_2.webp"
+  },
+  "en_a_3": {
+    "dish_id": "en_a_3",
+    "file_title": "File:Mozzarella 394.jpg",
+    "artist": "Alvis at English Wikibooks",
+    "license": "Public domain",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Mozzarella_394.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_a_3.webp"
+  },
+  "en_a_4": {
+    "dish_id": "en_a_4",
+    "file_title": "File:Mozzarella cheese stick, fries, and nachos platter.jpg",
+    "artist": "Chammy17",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Mozzarella_cheese_stick%2C_fries%2C_and_nachos_platter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_a_4.webp"
+  },
+  "en_a_5": {
+    "dish_id": "en_a_5",
+    "file_title": "File:Churros for two with Dark Chocolate and Dulce de Leche dipping sauce - Chocolateria San Churro AUD13.90 + flash.jpg",
+    "artist": "Alpha",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Churros_for_two_with_Dark_Chocolate_and_Dulce_de_Leche_dipping_sauce_-_Chocolateria_San_Churro_AUD13.90_%2B_flash.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_a_5.webp"
+  },
+  "en_a_6": {
+    "dish_id": "en_a_6",
+    "file_title": "File:Crispy fried salt and pepper calamari with spicy anchovy aioli, fresh parsley, grilled lemon, and shallot rings.jpg",
+    "artist": "ppacificvancouver",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Crispy_fried_salt_and_pepper_calamari_with_spicy_anchovy_aioli%2C_fresh_parsley%2C_grilled_lemon%2C_and_shallot_rings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_a_6.webp"
+  },
+  "en_a_7": {
+    "dish_id": "en_a_7",
+    "file_title": "File:Beer Battered Onion Rings - RV90 - 20241107-133409.jpg",
+    "artist": "RegionVisitor90",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Beer_Battered_Onion_Rings_-_RV90_-_20241107-133409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_a_7.webp"
+  },
+  "en_a_8": {
+    "dish_id": "en_a_8",
+    "file_title": "File:Pink's Chili Cheese Dog and Fries at Planet Hollywood in Las Vegas.jpg",
+    "artist": "slgckgc",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Pink%27s_Chili_Cheese_Dog_and_Fries_at_Planet_Hollywood_in_Las_Vegas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_a_8.webp"
+  },
+  "en_a_9": {
+    "dish_id": "en_a_9",
+    "file_title": "File:Beer cheese soup with pretzels.jpg",
+    "artist": "Karen and Brad Emerson",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Beer_cheese_soup_with_pretzels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_a_9.webp"
+  },
+  "en_a_10": {
+    "dish_id": "en_a_10",
+    "file_title": "File:Fried pickles closeup.jpg",
+    "artist": "Guanaco",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Fried_pickles_closeup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_a_10.webp"
+  },
+  "en_d_1": {
+    "dish_id": "en_d_1",
+    "file_title": "File:Ribeye steak, hot off the grill.jpg",
+    "artist": "HungryHuy",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Ribeye_steak%2C_hot_off_the_grill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_d_1.webp"
+  },
+  "en_d_2": {
+    "dish_id": "en_d_2",
+    "file_title": "File:Brisket at Stubb's (4426216624).jpg",
+    "artist": "Ryan Snyder",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Brisket_at_Stubb%27s_%284426216624%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_d_2.webp"
+  },
+  "en_d_3": {
+    "dish_id": "en_d_3",
+    "file_title": "File:-food, meat- BBQ Pork Ribs and potato salad (50078700982).jpg",
+    "artist": "David Jackmanson from Melbourne, Australia, Australia",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/-food%2C_meat-_BBQ_Pork_Ribs_and_potato_salad_%2850078700982%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_d_3.webp"
+  },
+  "en_d_4": {
+    "dish_id": "en_d_4",
+    "file_title": "File:A roast beef dinner at The Queen's Head, Boreham, Essex, England - lighter.jpg",
+    "artist": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/A_roast_beef_dinner_at_The_Queen%27s_Head%2C_Boreham%2C_Essex%2C_England_-_lighter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_d_4.webp"
+  },
+  "en_d_5": {
+    "dish_id": "en_d_5",
+    "file_title": "File:Shepherd's Pie Irish Brewry, Kolkata West Bengal DSC016.jpg",
+    "artist": "Pratiti090",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Shepherd%27s_Pie_Irish_Brewry%2C_Kolkata_West_Bengal_DSC016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_d_5.webp"
+  },
+  "en_d_6": {
+    "dish_id": "en_d_6",
+    "file_title": "File:Two Boots Restaurant, Brooklyn, NYC.jpg",
+    "artist": "Mike G",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Two_Boots_Restaurant%2C_Brooklyn%2C_NYC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_d_6.webp"
+  },
+  "en_d_8": {
+    "dish_id": "en_d_8",
+    "file_title": "File:Cioppino.jpg",
+    "artist": "Kelly Sue DeConnick",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Cioppino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_d_8.webp"
+  },
+  "en_d_9": {
+    "dish_id": "en_d_9",
+    "file_title": "File:'Steak and ale pie' at the White Hart Inn, Moreton, Essex, England.jpg",
+    "artist": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/%27Steak_and_ale_pie%27_at_the_White_Hart_Inn%2C_Moreton%2C_Essex%2C_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_d_9.webp"
+  },
+  "en_d_10": {
+    "dish_id": "en_d_10",
+    "file_title": "File:HopMonk Tavern Sonoma - July 2023 - Sarah Stierch.jpg",
+    "artist": "Missvain",
+    "license": "CC BY 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/HopMonk_Tavern_Sonoma_-_July_2023_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_d_10.webp"
+  },
+  "en_s_1": {
+    "dish_id": "en_s_1",
+    "file_title": "File:DFC 5120 A creamy slice of peach tart on a white plate ready to be enjoyed.jpg",
+    "artist": "PattayaPatrol",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/DFC_5120_A_creamy_slice_of_peach_tart_on_a_white_plate_ready_to_be_enjoyed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_s_1.webp"
+  },
+  "en_s_2": {
+    "dish_id": "en_s_2",
+    "file_title": "File:Македонски колач топло ладна чоколадна топка.jpg",
+    "artist": "Делфина",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/%D0%9C%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D1%81%D0%BA%D0%B8_%D0%BA%D0%BE%D0%BB%D0%B0%D1%87_%D1%82%D0%BE%D0%BF%D0%BB%D0%BE_%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0_%D1%87%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0_%D1%82%D0%BE%D0%BF%D0%BA%D0%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_s_2.webp"
+  },
+  "en_s_3": {
+    "dish_id": "en_s_3",
+    "file_title": "File:Oak Glen, Apple Pie 6-2012 (7408772362).jpg",
+    "artist": "inkknife_2000 (7.5 million views +)",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Oak_Glen%2C_Apple_Pie_6-2012_%287408772362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_s_3.webp"
+  },
+  "en_s_4": {
+    "dish_id": "en_s_4",
+    "file_title": "File:Sticky toffee pudding, rum butterscotch sauce and vanilla ice cream (v) - Post House Cafe, Brighton 2024-01-28.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Sticky_toffee_pudding%2C_rum_butterscotch_sauce_and_vanilla_ice_cream_%28v%29_-_Post_House_Cafe%2C_Brighton_2024-01-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_s_4.webp"
+  },
+  "en_s_5": {
+    "dish_id": "en_s_5",
+    "file_title": "File:Eton mess at Black Horse Inn, Nuthurst West Sussex England 1.jpg",
+    "artist": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Eton_mess_at_Black_Horse_Inn%2C_Nuthurst_West_Sussex_England_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_s_5.webp"
+  },
+  "en_s_6": {
+    "dish_id": "en_s_6",
+    "file_title": "File:Rollo de canela (Cinnamon roll).jpg",
+    "artist": "Horacio Cambeiro",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Rollo_de_canela_%28Cinnamon_roll%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_s_6.webp"
+  },
+  "en_s_7": {
+    "dish_id": "en_s_7",
+    "file_title": "File:Sultana scone with Rodda's clotted cream and GAIL's organic jam - GAIL's 2024-05-31.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Sultana_scone_with_Rodda%27s_clotted_cream_and_GAIL%27s_organic_jam_-_GAIL%27s_2024-05-31.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_s_7.webp"
+  },
+  "en_dr_1": {
+    "dish_id": "en_dr_1",
+    "file_title": "File:Gelato ice cream.jpg",
+    "artist": "rawpixel",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Gelato_ice_cream.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_dr_1.webp"
+  },
+  "en_dr_2": {
+    "dish_id": "en_dr_2",
+    "file_title": "File:Preparation of cold brew coffee 02.jpg",
+    "artist": "Sage Ross",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Preparation_of_cold_brew_coffee_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_dr_2.webp"
+  },
+  "en_dr_3": {
+    "dish_id": "en_dr_3",
+    "file_title": "File:2022-12-17 20 04 12 A glass of passion fruit lemonade at the Applebee's along U.S. Route 1 (Brunswick Pike) in Lawrence Township, Mercer County, New Jersey.jpg",
+    "artist": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/2022-12-17_20_04_12_A_glass_of_passion_fruit_lemonade_at_the_Applebee%27s_along_U.S._Route_1_%28Brunswick_Pike%29_in_Lawrence_Township%2C_Mercer_County%2C_New_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_dr_3.webp"
+  },
+  "en_dr_4": {
+    "dish_id": "en_dr_4",
+    "file_title": "File:Root Beer Float A&W PJ Malaysia.jpg",
+    "artist": "Vincent60030",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Root_Beer_Float_A%26W_PJ_Malaysia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_dr_4.webp"
+  },
+  "en_dr_5": {
+    "dish_id": "en_dr_5",
+    "file_title": "File:Chocolate Egg ,Oreo Choco Milkshake.png",
+    "artist": "CakieBakie",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Chocolate_Egg_%2COreo_Choco_Milkshake.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_dr_5.webp"
+  },
+  "en_dr_6": {
+    "dish_id": "en_dr_6",
+    "file_title": "File:London fog latte - Jolliffes Coffee Shop 2024-01-07.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/London_fog_latte_-_Jolliffes_Coffee_Shop_2024-01-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_dr_6.webp"
+  },
+  "en_dr_7": {
+    "dish_id": "en_dr_7",
+    "file_title": "File:India Pale Ale picture from Jacksonville, FL.jpg",
+    "artist": "ZLGragg19",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/India_Pale_Ale_picture_from_Jacksonville%2C_FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_dr_7.webp"
+  },
+  "en_dr_8": {
+    "dish_id": "en_dr_8",
+    "file_title": "File:Cosmopolitan (5076906532).jpg",
+    "artist": "TheCulinaryGeek from Chicago, USA",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Cosmopolitan_%285076906532%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/en/en_dr_8.webp"
+  },
+  "chieu_banh_can": {
+    "dish_id": "chieu_banh_can",
+    "file_title": "File:Bánh căn in phan rang, vietnam.jpg",
+    "artist": "Saigon Time",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/B%C3%A1nh_c%C4%83n_in_phan_rang%2C_vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/banh_can.webp"
+  },
+  "chieu_banh_cong": {
+    "dish_id": "chieu_banh_cong",
+    "file_title": "File:Banh Cong Mung Bean Pie - Thanh Tam AUD2.50 (4906952131).jpg",
+    "artist": "Alpha from Melbourne, Australia",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Banh_Cong_Mung_Bean_Pie_-_Thanh_Tam_AUD2.50_%284906952131%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/banh_cong.webp"
+  },
+  "chieu_banh_duc_nong": {
+    "dish_id": "chieu_banh_duc_nong",
+    "file_title": "File:Banhduc-northern.jpg",
+    "artist": "Flickr user: hongnhung106 ( https://www.flickr.com/photos/53433754@N00/ )",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Banhduc-northern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/banh_duc.webp"
+  },
+  "chieu_banh_dap": {
+    "dish_id": "chieu_banh_dap",
+    "file_title": "File:Dirt jump IMG 7609.jpg",
+    "artist": "Fischer.H",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Dirt_jump_IMG_7609.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/banh_dap.webp"
+  },
+  "sang_banh_tam_bi": {
+    "dish_id": "sang_banh_tam_bi",
+    "file_title": "File:Steamed Rice Noodles with Pork Loaf and Mung Bean Pie - Thanh Ha (3014200871).jpg",
+    "artist": "Alpha from Melbourne, Australia",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Steamed_Rice_Noodles_with_Pork_Loaf_and_Mung_Bean_Pie_-_Thanh_Ha_%283014200871%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/banh_tam_bi.webp"
+  },
+  "sang_banh_uot_long_ga": {
+    "dish_id": "sang_banh_uot_long_ga",
+    "file_title": "File:Bánh cuốn Thanh Trì.jpg",
+    "artist": "Casablanca1911 at vi.wikipedia",
+    "license": "Public domain",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/B%C3%A1nh_cu%E1%BB%91n_Thanh_Tr%C3%AC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/banh_uot_long_ga.webp"
+  },
+  "trua_cao_lau": {
+    "dish_id": "trua_cao_lau",
+    "file_title": "File:Cao Lau - Ba Be, Hoi An Market VND15000.jpg",
+    "artist": "avlxyz",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Cao_Lau_-_Ba_Be%2C_Hoi_An_Market_VND15000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/cao_lau.webp"
+  },
+  "trua_bun_ca": {
+    "dish_id": "trua_bun_ca",
+    "file_title": "File:Bún cá Nha Trang.jpg",
+    "artist": "Harry Pham (thảo luận)",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/B%C3%BAn_c%C3%A1_Nha_Trang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/bun_ca.webp"
+  },
+  "trua_com_hen": {
+    "dish_id": "trua_com_hen",
+    "file_title": "File:Hến trộn.jpg",
+    "artist": "Lucas Jans from USA",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/H%E1%BA%BFn_tr%E1%BB%99n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/com_hen.webp"
+  },
+  "toi_5_1": {
+    "dish_id": "toi_5_1",
+    "file_title": "File:Tượng Chử Đồng Tử tại Đền Dạ Trạch.jpg",
+    "artist": "Vich ky Le\n\nTạp chí Nghiên cứu Phật học số tháng 11/2020",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/T%C6%B0%E1%BB%A3ng_Ch%E1%BB%AD_%C4%90%E1%BB%93ng_T%E1%BB%AD_t%E1%BA%A1i_%C4%90%E1%BB%81n_D%E1%BA%A1_Tr%E1%BA%A1ch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/vi/toi_5_1.webp"
+  },
+  "toi_5_3": {
+    "dish_id": "toi_5_3",
+    "file_title": "File:Bò nướng lá lốt (39354093491).jpg",
+    "artist": "Vinnie Cartabiano",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/B%C3%B2_n%C6%B0%E1%BB%9Bng_l%C3%A1_l%E1%BB%91t_%2839354093491%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/vi/toi_5_3.webp"
+  },
+  "toi_mi_vit_tiem": {
+    "dish_id": "toi_mi_vit_tiem",
+    "file_title": "File:Crispy Skin Chicken and Tomato Rice, Spring Roll, Longan Drink - Combo 4 - Vietnamese Grill Bar (2462989658).jpg",
+    "artist": "Alpha from Melbourne, Australia",
+    "license": "CC BY-SA 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Crispy_Skin_Chicken_and_Tomato_Rice%2C_Spring_Roll%2C_Longan_Drink_-_Combo_4_-_Vietnamese_Grill_Bar_%282462989658%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/vi/toi_mi_vit_tiem.webp"
+  },
+  "toi_chao_long": {
+    "dish_id": "toi_chao_long",
+    "file_title": "File:Cháo lòng.jpg",
+    "artist": "hongnhung106",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ch%C3%A1o_l%C3%B2ng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/chao_long.webp"
+  },
+  "toi_lau_bo": {
+    "dish_id": "toi_lau_bo",
+    "file_title": "File:Trang đầu bản Tấu của Bộ Lễ có đề cập việc khai giảng hàng năm của Hoàng thân, Hoàng đệ đang lưu lại học tập là do Khâm Thiên Giám chọn ngày tốt làm lễ.jpg",
+    "artist": "The imperial government of the Nguyễn Dynasty.",
+    "license": "Public domain",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Trang_%C4%91%E1%BA%A7u_b%E1%BA%A3n_T%E1%BA%A5u_c%E1%BB%A7a_B%E1%BB%99_L%E1%BB%85_c%C3%B3_%C4%91%E1%BB%81_c%E1%BA%ADp_vi%E1%BB%87c_khai_gi%E1%BA%A3ng_h%C3%A0ng_n%C4%83m_c%E1%BB%A7a_Ho%C3%A0ng_th%C3%A2n%2C_Ho%C3%A0ng_%C4%91%E1%BB%87_%C4%91ang_l%C6%B0u_l%E1%BA%A1i_h%E1%BB%8Dc_t%E1%BA%ADp_l%C3%A0_do_Kh%C3%A2m_Thi%C3%AAn_Gi%C3%A1m_ch%E1%BB%8Dn_ng%C3%A0y_t%E1%BB%91t_l%C3%A0m_l%E1%BB%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/lau_bo.webp"
+  },
+  "toi_nem_nuong": {
+    "dish_id": "toi_nem_nuong",
+    "file_title": "File:Mẹt nem nướng Nha Trang.jpg",
+    "artist": "Letruongan1122",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/M%E1%BA%B9t_nem_n%C6%B0%E1%BB%9Bng_Nha_Trang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/nem_nuong.webp"
+  },
+  "more_dinner_bun_hen": {
+    "dish_id": "more_dinner_bun_hen",
+    "file_title": "File:Bún bò Huế minh28397.jpg",
+    "artist": "Minh28397",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/B%C3%BAn_b%C3%B2_Hu%E1%BA%BF_minh28397.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/vi/more_dinner_bun_hen.webp"
+  },
+  "vat_che_buoi": {
+    "dish_id": "vat_che_buoi",
+    "file_title": "File:Vietblackeyedpeas.jpg",
+    "artist": "Jess Lander from Los Angeles, CA, USA",
+    "license": "CC BY 2.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Vietblackeyedpeas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/che_buoi.webp"
+  },
+  "vat_banh_lot": {
+    "dish_id": "vat_banh_lot",
+    "file_title": "File:Cendol in Penang.jpg",
+    "artist": "Xlr8ion",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Cendol_in_Penang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/banh_lot.webp"
+  },
+  "vat_che_ba_ba": {
+    "dish_id": "vat_che_ba_ba",
+    "file_title": "File:Chè bà ba.jpg",
+    "artist": "Zxcvasdfqwer888",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ch%C3%A8_b%C3%A0_ba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/che_ba_ba.webp"
+  },
+  "vat_banh_cam": {
+    "dish_id": "vat_banh_cam",
+    "file_title": "File:Banh Rán.jpg",
+    "artist": "Francesc Fort",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Banh_R%C3%A1n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/banh_cam.webp"
+  },
+  "hl_phin_sua_da": {
+    "dish_id": "hl_phin_sua_da",
+    "file_title": "File:Vietnamese Salted Coffee & Xin chao's coconut Coffee - Xin Chao, Eastbourne 2026-08-14.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Vietnamese_Salted_Coffee_%26_Xin_chao%27s_coconut_Coffee_-_Xin_Chao%2C_Eastbourne_2026-08-14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/vi/hl_phin_sua_da.webp"
+  },
+  "nuoc_ngot_1": {
+    "dish_id": "nuoc_ngot_1",
+    "file_title": "File:Sấu ngâm mắm.JPG",
+    "artist": "Viethavvh",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/S%E1%BA%A5u_ng%C3%A2m_m%E1%BA%AFm.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/vi/nuoc_ngot_1.webp"
+  },
+  "nuoc_coca_zero": {
+    "dish_id": "nuoc_coca_zero",
+    "file_title": "File:Banh da nem lang cheu.jpg",
+    "artist": "Banhdanem",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Banh_da_nem_lang_cheu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/vi/nuoc_coca_zero.webp"
+  },
+  "nuoc_pepsi_chanh": {
+    "dish_id": "nuoc_pepsi_chanh",
+    "file_title": "File:Sugar cane juice & Coconut water.jpg",
+    "artist": "Mauro Cateb",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sugar_cane_juice_%26_Coconut_water.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/vi/nuoc_pepsi_chanh.webp"
+  },
+  "nuoc_ngot_3": {
+    "dish_id": "nuoc_ngot_3",
+    "file_title": "File:Sữa chua nếp cẩm.jpg",
+    "artist": "Buileducanh (thảo luận)",
+    "license": "CC BY-SA 3.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/S%E1%BB%AFa_chua_n%E1%BA%BFp_c%E1%BA%A9m.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/vi/nuoc_ngot_3.webp"
+  },
+  "nuoc_sting_vang": {
+    "dish_id": "nuoc_sting_vang",
+    "file_title": "File:Sen bách diệp Tây Hồ.JPG",
+    "artist": "Viethavvh",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Sen_b%C3%A1ch_di%E1%BB%87p_T%C3%A2y_H%E1%BB%93.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/vi/nuoc_sting_vang.webp"
+  },
+  "nuoc_mirinda_xa_xi": {
+    "dish_id": "nuoc_mirinda_xa_xi",
+    "file_title": "File:Dua 7 ngon ha tien.jpg",
+    "artist": "Trương Thành Ý",
+    "license": "CC BY-SA 4.0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Dua_7_ngon_ha_tien.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/vi/nuoc_mirinda_xa_xi.webp"
+  },
+  "nuoc_revive": {
+    "dish_id": "nuoc_revive",
+    "file_title": "File:Reward for 47 Ronin by Yasuda Raishu (Homma Museum of Art).jpg",
+    "artist": "Yasuda Raishū 安田雷洲 (?-1858)",
+    "license": "Public domain",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Reward_for_47_Ronin_by_Yasuda_Raishu_%28Homma_Museum_of_Art%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/vi/nuoc_revive.webp"
+  },
+  "pl_tra_mang_cau": {
+    "dish_id": "pl_tra_mang_cau",
+    "file_title": "File:Nettopoc.png",
+    "artist": "BetacommandBot",
+    "license": "Public domain",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Nettopoc.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dest": "src/images/regional/vi/pl_tra_mang_cau.webp"
+  }
+}

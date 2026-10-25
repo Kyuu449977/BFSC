@@ -71,6 +71,7 @@ const CustomControls = (() => {
     trigger.disabled = source.disabled;
     list.querySelectorAll('[role=option]').forEach((option, index) => {
       option.setAttribute('aria-selected', String(index === source.selectedIndex));
+      if (source.options[index]) option.textContent = source.options[index].textContent;
     });
     if (source.disabled && opened === control) closeAll();
   }
