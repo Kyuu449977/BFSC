@@ -29,12 +29,143 @@
     <script defer src="animation.js"></script>
     <script defer src="nearby.js"></script>
     <script defer src="app.js"></script>
+    <meta name="monetag" content="3a5fa497959f6da564f92e240154c1e5">
+    <script>
+      // Trì hoãn nạp Monetag: Cú bấm đầu tiên luôn sạch 100% để người dùng chọn món mượt mà
+      (function () {
+        var loaded = false;
+        function loadMonetag() {
+          if (loaded) return;
+          loaded = true;
+          var s = document.createElement('script');
+          s.src = 'https://quge5.com/88/tag.min.js';
+          s.setAttribute('data-zone', '303018');
+          s.setAttribute('data-cfasync', 'false');
+          s.async = true;
+          document.head.appendChild(s);
+        }
+        function triggerAfterFirstAction() {
+          window.removeEventListener('click', triggerAfterFirstAction, true);
+          window.removeEventListener('touchstart', triggerAfterFirstAction, true);
+          // Đợi 2.5 giây cho vòng quay món hoàn thành rồi mới nạp quảng cáo cho các lần bấm tiếp theo
+          setTimeout(loadMonetag, 2500);
+        }
+        window.addEventListener('click', triggerAfterFirstAction, true);
+        window.addEventListener('touchstart', triggerAfterFirstAction, true);
+      })();
+    </script>
   </head>
   <body>
     <noscript
       ><p>Vui lòng bật JavaScript trong trình duyệt để chọn món và xem thực đơn.</p></noscript
     >
     <a class="skip-link" href="#home">Đến nội dung chính</a>
+        <!-- 2 DÂY LEO THẢO MỘC CỐ ĐỊNH KÉO DÀI TOÀN MÀN HÌNH TỪ ĐỈNH ĐẾN ĐÁY -->
+    <aside class="side-vine-slot left" aria-label="Dây leo tài trợ bên trái">
+      <svg class="vine-svg" viewBox="0 0 160 1000" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <!-- Thân dây leo uốn lượn liên tục từ đỉnh màn hình xuống tận đáy footer -->
+        <path d="M80,0 C66,60 94,120 80,180 C66,240 92,300 78,360 C64,430 92,500 76,570 C62,640 90,710 76,780 C62,850 90,920 80,1000" stroke="#728562" stroke-width="2.5" stroke-linecap="round"/>
+        
+        <!-- Nhánh leo ôm lấy khay banner ở giữa -->
+        <path d="M80,240 C52,260 32,290 30,350 C28,410 32,470 36,520 C42,560 62,600 76,630" stroke="#8a9e7a" stroke-width="1.8" stroke-linecap="round"/>
+        <path d="M80,240 C108,260 128,290 130,350 C132,410 128,470 124,520 C118,560 98,600 76,630" stroke="#8a9e7a" stroke-width="1.8" stroke-linecap="round"/>
+        
+        <!-- Các tua cuốn mềm mại (Tendrils) -->
+        <path d="M78,130 C90,120 98,128 94,138 C90,146 78,140 82,132" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
+        <path d="M30,350 C18,340 12,352 18,360 C24,366 32,358 26,352" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
+        <path d="M130,470 C142,460 148,472 142,480 C136,486 128,478 134,472" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
+        <path d="M76,780 C88,770 96,780 90,790 C84,798 74,790 80,782" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
+        <path d="M78,920 C66,910 58,920 64,930 C70,938 80,930 74,922" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
+
+        <!-- Hệ thống lá thảo mộc rải đều từ trên xuống dưới -->
+        <!-- Đỉnh (Header) -->
+        <path d="M78,25 C58,16 52,35 76,38 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
+        <path d="M77,28 Q66,25 60,21" stroke="#5d724e" stroke-width="0.7"/>
+        <path d="M84,65 C102,55 110,72 86,78 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+        <path d="M86,69 Q96,66 104,61" stroke="#687e5b" stroke-width="0.7"/>
+        <path d="M74,115 C54,108 48,128 72,130 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
+        <path d="M86,170 C104,162 110,180 88,185 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+
+        <!-- Khu vực khay banner -->
+        <path d="M46,260 C26,252 20,272 42,276 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
+        <path d="M116,260 C136,252 142,272 120,276 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+        <path d="M30,390 C12,385 10,402 28,406 Z" fill="#748866" stroke="#556947" stroke-width="0.8"/>
+        <path d="M130,390 C148,385 150,402 132,406 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+        <path d="M34,480 C16,475 14,492 32,496 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
+        <path d="M126,480 C144,475 146,492 128,496 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+        <path d="M48,580 C30,574 26,594 46,598 Z" fill="#748866" stroke="#556947" stroke-width="0.8"/>
+        <path d="M112,580 C130,574 134,594 114,598 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+
+        <!-- Đáy (Footer) -->
+        <path d="M84,670 C102,662 108,680 86,685 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+        <path d="M72,730 C52,724 48,742 70,746 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
+        <path d="M86,795 C104,788 110,806 88,810 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+        <path d="M74,860 C54,854 50,872 72,876 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
+        <path d="M84,930 C102,922 108,940 86,945 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+        <path d="M74,980 C56,974 52,990 72,994 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
+      </svg>
+      <div class="vine-card">
+        <span class="vine-card-tag">TÀI TRỢ</span>
+        <p class="vine-card-title">Nhánh Lá Trái</p>
+        <span class="vine-card-size">120 × 300</span>
+        <div class="vine-card-divider"></div>
+        <small class="vine-card-desc">Banner dọc sẽ hiển thị được cành lá ôm giữ</small>
+        <!-- DÁN MÃ BANNER DỌC TRÁI VÀO ĐÂY KHI CÓ -->
+      </div>
+    </aside>
+
+    <aside class="side-vine-slot right" aria-label="Dây leo tài trợ bên phải">
+      <svg class="vine-svg" viewBox="0 0 160 1000" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <!-- Thân dây leo uốn lượn liên tục từ đỉnh màn hình xuống tận đáy footer -->
+        <path d="M80,0 C66,60 94,120 80,180 C66,240 92,300 78,360 C64,430 92,500 76,570 C62,640 90,710 76,780 C62,850 90,920 80,1000" stroke="#728562" stroke-width="2.5" stroke-linecap="round"/>
+        
+        <!-- Nhánh leo ôm lấy khay banner ở giữa -->
+        <path d="M80,240 C52,260 32,290 30,350 C28,410 32,470 36,520 C42,560 62,600 76,630" stroke="#8a9e7a" stroke-width="1.8" stroke-linecap="round"/>
+        <path d="M80,240 C108,260 128,290 130,350 C132,410 128,470 124,520 C118,560 98,600 76,630" stroke="#8a9e7a" stroke-width="1.8" stroke-linecap="round"/>
+        
+        <!-- Các tua cuốn mềm mại (Tendrils) -->
+        <path d="M78,130 C90,120 98,128 94,138 C90,146 78,140 82,132" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
+        <path d="M30,350 C18,340 12,352 18,360 C24,366 32,358 26,352" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
+        <path d="M130,470 C142,460 148,472 142,480 C136,486 128,478 134,472" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
+        <path d="M76,780 C88,770 96,780 90,790 C84,798 74,790 80,782" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
+        <path d="M78,920 C66,910 58,920 64,930 C70,938 80,930 74,922" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
+
+        <!-- Hệ thống lá thảo mộc rải đều từ trên xuống dưới -->
+        <!-- Đỉnh (Header) -->
+        <path d="M78,25 C58,16 52,35 76,38 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
+        <path d="M77,28 Q66,25 60,21" stroke="#5d724e" stroke-width="0.7"/>
+        <path d="M84,65 C102,55 110,72 86,78 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+        <path d="M86,69 Q96,66 104,61" stroke="#687e5b" stroke-width="0.7"/>
+        <path d="M74,115 C54,108 48,128 72,130 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
+        <path d="M86,170 C104,162 110,180 88,185 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+
+        <!-- Khu vực khay banner -->
+        <path d="M46,260 C26,252 20,272 42,276 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
+        <path d="M116,260 C136,252 142,272 120,276 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+        <path d="M30,390 C12,385 10,402 28,406 Z" fill="#748866" stroke="#556947" stroke-width="0.8"/>
+        <path d="M130,390 C148,385 150,402 132,406 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+        <path d="M34,480 C16,475 14,492 32,496 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
+        <path d="M126,480 C144,475 146,492 128,496 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+        <path d="M48,580 C30,574 26,594 46,598 Z" fill="#748866" stroke="#556947" stroke-width="0.8"/>
+        <path d="M112,580 C130,574 134,594 114,598 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+
+        <!-- Đáy (Footer) -->
+        <path d="M84,670 C102,662 108,680 86,685 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+        <path d="M72,730 C52,724 48,742 70,746 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
+        <path d="M86,795 C104,788 110,806 88,810 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+        <path d="M74,860 C54,854 50,872 72,876 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
+        <path d="M84,930 C102,922 108,940 86,945 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
+        <path d="M74,980 C56,974 52,990 72,994 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
+      </svg>
+      <div class="vine-card">
+        <span class="vine-card-tag">TÀI TRỢ</span>
+        <p class="vine-card-title">Nhánh Lá Phải</p>
+        <span class="vine-card-size">120 × 300</span>
+        <div class="vine-card-divider"></div>
+        <small class="vine-card-desc">Banner dọc sẽ hiển thị được cành lá ôm giữ</small>
+        <!-- DÁN MÃ BANNER DỌC PHẢI VÀO ĐÂY KHI CÓ -->
+      </div>
+    </aside>
     <div class="app">
       <header class="header">
         <a class="brand" href="#home" aria-label="Ăn gì đây — về đầu trang"
@@ -228,6 +359,29 @@
             </div>
           </details>
         </section>
+                <!-- KỆ GỖ TRƯNG BÀY QUẢNG CÁO (THUẦN CSS - KHÔNG DÙNG ICON, GIF, ẢNH) -->
+        <aside class="ad-shelf-section" aria-label="Gợi ý tài trợ">
+          <span class="ad-shelf-label">GỢI Ý TÀI TRỢ</span>
+          <div class="ad-shelf-unit">
+            <div id="adsterra-banner-shelf" class="ad-shelf-display">
+              <script type="text/javascript">
+                atOptions = {
+                  'key' : '7844d453c58cc8a685769b6f72e0b7d2',
+                  'format' : 'iframe',
+                  'height' : 250,
+                  'width' : 300,
+                  'params' : {}
+                };
+              </script>
+              <script type="text/javascript" src="https://bauval.org/22/7844d453c58cc8a685769b6f72e0b7d2"></script>
+            </div>
+            <div class="ad-shelf-plank"></div>
+            <div class="ad-shelf-brackets">
+              <span class="ad-shelf-bracket"></span>
+              <span class="ad-shelf-bracket"></span>
+            </div>
+          </div>
+        </aside>
         <section id="menu" class="menu-section" aria-labelledby="menuTitle">
           <div class="section-heading">
             <div>
