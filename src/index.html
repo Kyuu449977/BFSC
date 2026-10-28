@@ -30,7 +30,30 @@
     <script defer src="animation.js"></script>
     <script defer src="nearby.js"></script>
     <script defer src="app.js"></script>
-    <script src="https://quge5.com/88/tag.min.js" data-zone="303018" async data-cfasync="false"></script>
+    <script>
+      // Trì hoãn nạp Monetag: Cú bấm đầu tiên luôn sạch 100% để người dùng chọn món mượt mà
+      (function () {
+        var loaded = false;
+        function loadMonetag() {
+          if (loaded) return;
+          loaded = true;
+          var s = document.createElement('script');
+          s.src = 'https://quge5.com/88/tag.min.js';
+          s.setAttribute('data-zone', '303018');
+          s.setAttribute('data-cfasync', 'false');
+          s.async = true;
+          document.head.appendChild(s);
+        }
+        function triggerAfterFirstAction() {
+          window.removeEventListener('click', triggerAfterFirstAction, true);
+          window.removeEventListener('touchstart', triggerAfterFirstAction, true);
+          // Đợi 2.5 giây cho vòng quay món hoàn thành rồi mới nạp quảng cáo cho các lần bấm tiếp theo
+          setTimeout(loadMonetag, 2500);
+        }
+        window.addEventListener('click', triggerAfterFirstAction, true);
+        window.addEventListener('touchstart', triggerAfterFirstAction, true);
+      })();
+    </script>
   </head>
   <body>
     <noscript
