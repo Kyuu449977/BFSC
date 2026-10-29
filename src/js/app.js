@@ -26,6 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
       collection_note_tpl: 'Đã khám phá {percent}% thực đơn · Đây là món đã gợi ý, không phải món đã ăn. Lưu trên trình duyệt này.',
       collection_toggle_title: 'Chỉ xem món đã thu thập',
       cat_all: 'Tất cả',
+      cat_main: 'Món Chính',
+      price_disclaimer: '* Giá tham khảo và có thể chênh lệch với thực tế', 
       cat_morning: 'Buổi Sáng',
       cat_lunch: 'Buổi Trưa',
       cat_afternoon: 'Buổi Chiều',
@@ -224,6 +226,8 @@ document.addEventListener('DOMContentLoaded', () => {
       collection_note_tpl: 'Discovered {percent}% of menu · These are suggested dishes, not eaten dishes. Saved in this browser.',
       collection_toggle_title: 'View collected dishes only',
       cat_all: 'All',
+      cat_main: 'Main Dishes',
+      price_disclaimer: '* Reference price, may vary in reality', 
       cat_morning: 'Breakfast',
       cat_lunch: 'Lunch',
       cat_afternoon: 'Afternoon',
@@ -422,6 +426,8 @@ document.addEventListener('DOMContentLoaded', () => {
       collection_note_tpl: 'メニューの{percent}%を発見済み · 提案された料理であり、食べた料理ではありません。このブラウザに保存されます。',
       collection_toggle_title: '収集した料理のみ表示',
       cat_all: 'すべて',
+      cat_main: 'メイン料理',
+      price_disclaimer: '* 参考価格であり、実際と異なる場合があります', 
       cat_morning: '朝食',
       cat_lunch: '昼食',
       cat_afternoon: '軽食・おやつ',
@@ -620,6 +626,8 @@ document.addEventListener('DOMContentLoaded', () => {
       collection_note_tpl: '메뉴의 {percent}% 발견 완료 · 추천된 메뉴이며 실제 식사 기록이 아닙니다. 이 브라우저에 저장됩니다.',
       collection_toggle_title: '수집한 메뉴만 보기',
       cat_all: '전체',
+      cat_main: '메인 요리',
+      price_disclaimer: '* 참고 가격이며 실제와 다를 수 있습니다', 
       cat_morning: '아침',
       cat_lunch: '점심',
       cat_afternoon: '오후',
@@ -818,6 +826,8 @@ document.addEventListener('DOMContentLoaded', () => {
       collection_note_tpl: '已探索 {percent}% 菜单 · 此为系统推荐菜品，非已吃记录。数据保存在此浏览器中。',
       collection_toggle_title: '仅查看已收集菜品',
       cat_all: '全部',
+      cat_main: '主菜',
+      price_disclaimer: '* 参考价格，实际可能有所差异', 
       cat_morning: '早餐',
       cat_lunch: '午餐',
       cat_afternoon: '下午茶',
@@ -1009,7 +1019,7 @@ document.addEventListener('DOMContentLoaded', () => {
       budget: null,
       theme: 'system',
       customColor: '#ff5722',
-      appearance: 'light',
+      appearance: 'auto',
       timezone: 'auto',
       language: 'vi',
     };
@@ -1057,6 +1067,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return value;
   }
   let settings = readSettings();
+  let subDrinkFilter = 'all';
   let searchTerm = '',
     collectionOnly = false,
     visibleCount = 12;
@@ -1519,6 +1530,11 @@ document.addEventListener('DOMContentLoaded', () => {
       $('themeBtn').setAttribute('aria-label', tDict.tool_theme);
       $('themeBtn').title = tDict.tool_theme;
     }
+    if ($('mapsHeaderBtn')) {
+      const mapsTitle = tDict.tool_maps || 'Tìm quán ăn gần bạn trên Google Maps';
+      $('mapsHeaderBtn').setAttribute('aria-label', mapsTitle);
+      $('mapsHeaderBtn').title = mapsTitle;
+    }
     if ($('langBtn')) {
       $('langBtn').setAttribute('aria-label', tDict.tool_lang);
       $('langBtn').title = tDict.tool_lang;
@@ -1654,6 +1670,17 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   $('themeBtn').onclick = () => open($('themeDialog'));
+  if ($('mapsHeaderBtn')) {
+    $('mapsHeaderBtn').onclick = () => {
+      const lang = document.documentElement.lang || 'vi';
+      let query = 'quán ăn ngon gần đây';
+      if (lang === 'ja') query = '近くの美味しいお店';
+      else if (lang === 'ko') query = '근처 맛집';
+      else if (lang === 'zh') query = '附近美食';
+      else if (lang === 'en') query = 'good food near me';
+      window.open(`https://www.google.com/maps/search/?${new URLSearchParams({ api: '1', query })}`, '_blank', 'noopener,noreferrer');
+    };
+  }
   if ($('langBtn')) {
     $('langBtn').onclick = () => open($('languageDialog'));
   }
@@ -1953,19 +1980,26 @@ document.addEventListener('DOMContentLoaded', () => {
         const body = document.createElement('div');
         body.className = 'dish-body';
         const catMap = {
-          morning: tDict.cat_morning,
-          lunch: tDict.cat_lunch,
-          afternoon: tDict.cat_afternoon,
-          dinner: tDict.cat_dinner,
+          main: tDict.cat_main || 'Món Chính',
+          morning: tDict.cat_main || 'Món Chính',
+          lunch: tDict.cat_main || 'Món Chính',
+          afternoon: tDict.cat_main || 'Món Chính',
+          dinner: tDict.cat_main || 'Món Chính',
           snacks: tDict.cat_snacks,
           drinks: tDict.cat_drinks,
         };
         const pKey = 'period_' + dish.mealId;
         const sourceName = catMap[dish.mealId] || (tDict[pKey] ? tDict[pKey].split('·')[0].trim() : result.sourceName);
+        const priceElem = text('strong', `${tDict.hero_price_note || 'Giá tham khảo'}: ${money(dish.price)}`, 'price');
+        const priceNote = document.createElement('em');
+        priceNote.className = 'price-disclaimer';
+        priceNote.textContent = tDict.price_disclaimer || '* Giá tham khảo và có thể chênh lệch với thực tế';
+
         body.append(
           text('span', sourceName, 'dish-source'),
           text('h3', typeof getDishName === 'function' ? getDishName(dish, lang) : dish.name),
-          text('strong', `${tDict.hero_price_note || 'Giá tham khảo'}: ${money(dish.price)}`, 'price'),
+          priceElem,
+          priceNote,
           text(
             'span',
             `${result.isNew ? '✨ ' + tDict.is_new + ' · ' : ''}${tDict.discovered}: x${engine.collection[dish.id] || 0}`,
@@ -1993,9 +2027,70 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         body.append(more);
         card.append(image(dish, false), body);
-        return card;
+
+        // 3D Flip Card Container
+        const flipWrapper = document.createElement('div');
+        flipWrapper.className = 'flip-card';
+        flipWrapper.setAttribute('data-flipped', detail ? 'true' : 'false');
+        flipWrapper.setAttribute('tabindex', '0');
+        flipWrapper.setAttribute('role', 'button');
+        flipWrapper.setAttribute('aria-label', `${typeof getDishName === 'function' ? getDishName(dish, lang) : dish.name} - Chạm để lật bài`);
+
+        const flipInner = document.createElement('div');
+        flipInner.className = 'flip-card-inner';
+
+        const cardBack = document.createElement('div');
+        cardBack.className = 'flip-card-back';
+        cardBack.innerHTML = `
+          <div class="card-back-ornament">
+            <div class="card-back-glow"></div>
+            <div class="card-back-symbol">✦</div>
+            <div class="card-back-brand">ĂN GÌ ĐÂY</div>
+            <div class="card-back-sub">${tDict.result_single_title || 'BỮA NGON HÔM NAY'}</div>
+            <div class="card-back-hint">👆 Chạm để lật bài</div>
+          </div>
+        `;
+
+        const cardFront = document.createElement('div');
+        cardFront.className = 'flip-card-front';
+        cardFront.append(card);
+
+        flipInner.append(cardBack, cardFront);
+        flipWrapper.append(flipInner);
+
+        flipWrapper.onclick = (e) => {
+          if (e.target.closest('button') || e.target.closest('a') || e.target.closest('summary')) return;
+          const isFlipped = flipWrapper.getAttribute('data-flipped') === 'true';
+          flipWrapper.setAttribute('data-flipped', isFlipped ? 'false' : 'true');
+          if (window.audioSystem && !window.audioSystem.isMuted) {
+            window.audioSystem.tone(520, 0, 0.05, 0.03);
+          }
+        };
+
+        flipWrapper.onkeydown = (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            flipWrapper.click();
+          }
+        };
+
+        return flipWrapper;
       })
     );
+
+    // Auto-flip after 600ms suspense if newly rolled
+    if (!detail) {
+      setTimeout(() => {
+        document.querySelectorAll('#resultGrid .flip-card').forEach((el, idx) => {
+          setTimeout(() => {
+            el.setAttribute('data-flipped', 'true');
+            if (window.audioSystem && !window.audioSystem.isMuted) {
+              window.audioSystem.tone(587.33, 0, 0.08, 0.035);
+            }
+          }, idx * 140);
+        });
+      }, 600);
+    }
     CustomControls.refresh();
     refreshPersonalActions();
     $('rerollBtn').hidden = detail;
@@ -2044,7 +2139,8 @@ document.addEventListener('DOMContentLoaded', () => {
         (personalView === 'hidden' ? personal.state(dish).hidden : !personal.state(dish).hidden) &&
         (personalView !== 'favorite' || personal.state(dish).favorite) &&
         (personalView !== 'eaten' || personal.state(dish).eaten > 0) &&
-        (filter === 'all' || dish.mealId === filter) &&
+        (filter === 'all' || (filter === 'main' ? ['morning', 'lunch', 'afternoon', 'dinner', 'main'].includes(dish.mealId) : dish.mealId === filter)) &&
+        (filter !== 'drinks' || subDrinkFilter === 'all' || dish.filter === subDrinkFilter) &&
         (!collectionOnly || engine.collection[dish.id] > 0) &&
         (!query || normalize(dish.name + ' ' + (typeof getDishName === 'function' ? getDishName(dish, lang) : '') + ' ' + dish.type).includes(query))
     );
@@ -2093,10 +2189,11 @@ document.addEventListener('DOMContentLoaded', () => {
         thumb.className = 'dish-thumb';
         thumb.append(image(dish));
         const catMap = {
-          morning: tDict.cat_morning,
-          lunch: tDict.cat_lunch,
-          afternoon: tDict.cat_afternoon,
-          dinner: tDict.cat_dinner,
+          main: tDict.cat_main || 'Món Chính',
+          morning: tDict.cat_main || 'Món Chính',
+          lunch: tDict.cat_main || 'Món Chính',
+          afternoon: tDict.cat_main || 'Món Chính',
+          dinner: tDict.cat_main || 'Món Chính',
           snacks: tDict.cat_snacks,
           drinks: tDict.cat_drinks,
         };
@@ -2139,18 +2236,44 @@ document.addEventListener('DOMContentLoaded', () => {
     );
     Experience.reveal($('menuGrid').children);
   }
+  
+  function buildDrinkSubFilters(currentLang = settings.language || 'vi') {
+    const subContainer = $('drinkSubFilters');
+    if (!subContainer) return;
+    const subTabs = [
+      { id: 'all', label: 'Tất cả đồ uống' },
+      { id: 'tra_sua', label: 'Trà sữa & Matcha' },
+      { id: 'ca_phe_tra', label: 'Cà phê & Trà trái cây' },
+      { id: 'sinh_to_nuoc_ep', label: 'Sinh tố & Nước ép' },
+      { id: 'nuoc_ngot', label: 'Nước ngọt & Giải khát' }
+    ];
+    subContainer.replaceChildren(
+      ...subTabs.map(tab => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'drink-sub-btn';
+        btn.textContent = tab.label;
+        btn.setAttribute('aria-pressed', String(subDrinkFilter === tab.id));
+        btn.onclick = () => {
+          subDrinkFilter = tab.id;
+          visibleCount = 12;
+          subContainer.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b === btn)));
+          menu();
+        };
+        return btn;
+      })
+    );
+  }
+
   function buildFilters(currentLang = settings.language || 'vi') {
     const tDict = TRANSLATIONS[currentLang] || TRANSLATIONS.vi;
     const filterMap = {
       all: tDict.cat_all || 'Tất cả',
-      morning: tDict.cat_morning || 'Buổi sáng',
-      lunch: tDict.cat_lunch || 'Buổi trưa',
-      afternoon: tDict.cat_afternoon || 'Buổi chiều',
-      dinner: tDict.cat_dinner || 'Buổi tối',
-      snacks: tDict.cat_snacks || 'Món ăn vặt',
-      drinks: tDict.cat_drinks || 'Đồ uống & Nước ngọt',
+      main: tDict.cat_main || 'Món Chính',
+      snacks: tDict.cat_snacks || 'Món Ăn Vặt',
+      drinks: tDict.cat_drinks || 'Đồ Uống & Nước Ngọt',
     };
-    const filterIds = ['all', 'morning', 'lunch', 'afternoon', 'dinner', 'snacks', 'drinks'];
+    const filterIds = ['all', 'main', 'snacks', 'drinks'];
     const existing = $('filters').querySelectorAll('button');
     if (!existing.length) {
       filterIds.forEach((id) => {
@@ -2159,6 +2282,12 @@ document.addEventListener('DOMContentLoaded', () => {
         button.setAttribute('aria-pressed', String(id === filter));
         button.onclick = () => {
           filter = id;
+          if (filter === 'drinks') {
+            if ($('drinkSubFilters')) $('drinkSubFilters').hidden = false;
+            buildDrinkSubFilters(settings.language || 'vi');
+          } else {
+            if ($('drinkSubFilters')) $('drinkSubFilters').hidden = true;
+          }
           visibleCount = 12;
           $('filters')
             .querySelectorAll('button')
@@ -2400,6 +2529,392 @@ document.addEventListener('DOMContentLoaded', () => {
       scheduleBudget(0, false);
     }
   });
+  // Vòng quay tự chọn (Custom Wheel) & Kho tàng Món từ Vũ Trụ
+  function hideCustomWheelAlert() {
+    const alertBox = $('customWheelAlert');
+    if (alertBox) alertBox.hidden = true;
+  }
+
+  function showCustomWheelAlert(msg) {
+    const alertBox = $('customWheelAlert');
+    const alertText = $('customWheelAlertText');
+    if (alertBox && alertText) {
+      alertText.textContent = msg;
+      alertBox.hidden = false;
+      alertBox.style.animation = 'none';
+      alertBox.offsetHeight;
+      alertBox.style.animation = 'wheelAlertShake 0.4s ease-in-out';
+    }
+  }
+
+  function updateCustomWheelCount() {
+    if (!$('customWheelInput') || !$('customWheelCount')) return;
+    const lines = $('customWheelInput').value.split('\n').map(s => s.trim()).filter(Boolean);
+    $('customWheelCount').textContent = `${lines.length} món trong danh sách`;
+    if (lines.length >= 2) hideCustomWheelAlert();
+  }
+
+  if ($('customWheelBtn')) {
+    $('customWheelBtn').onclick = () => {
+      open($('customWheelDialog'));
+      updateCustomWheelCount();
+      hideCustomWheelAlert();
+    };
+  }
+
+  if ($('customWheelInput')) {
+    $('customWheelInput').oninput = () => {
+      updateCustomWheelCount();
+      hideCustomWheelAlert();
+    };
+  }
+
+  if ($('customWheelClearBtn')) {
+    $('customWheelClearBtn').onclick = () => {
+      if ($('customWheelInput')) {
+        $('customWheelInput').value = '';
+        updateCustomWheelCount();
+        hideCustomWheelAlert();
+      }
+    };
+  }
+
+  // Món từ Vũ Trụ (Universe Dish Picker)
+  const universeSelected = new Set();
+  let universeActiveCategory = 'all';
+  let universeSearchTerm = '';
+
+  function renderUniverseDishList() {
+    const listEl = $('universeDishList');
+    if (!listEl) return;
+    const currentList = allDishes || [];
+    const query = normalize(universeSearchTerm);
+
+    const filtered = currentList.filter(dish => {
+      const isMain = ['morning', 'lunch', 'afternoon', 'dinner', 'main'].includes(dish.mealId);
+      const isSnack = dish.mealId === 'snacks';
+      const isDrink = dish.mealId === 'drinks';
+
+      if (universeActiveCategory === 'main' && !isMain) return false;
+      if (universeActiveCategory === 'snacks' && !isSnack) return false;
+      if (universeActiveCategory === 'drinks' && !isDrink) return false;
+
+      if (query) {
+        const dishName = normalize(dish.name);
+        const dishType = normalize(dish.type || '');
+        if (!dishName.includes(query) && !dishType.includes(query)) return false;
+      }
+      return true;
+    });
+
+    if ($('universeCountAll')) $('universeCountAll').textContent = currentList.length;
+    if ($('universeSelectedBadge')) $('universeSelectedBadge').textContent = `Đã chọn: ${universeSelected.size} món`;
+    if ($('universeConfirmCount')) $('universeConfirmCount').textContent = universeSelected.size;
+
+    listEl.replaceChildren(...filtered.map(dish => {
+      const item = document.createElement('label');
+      item.className = 'universe-dish-item' + (universeSelected.has(dish.name) ? ' selected' : '');
+
+      const cb = document.createElement('input');
+      cb.type = 'checkbox';
+      cb.checked = universeSelected.has(dish.name);
+
+      const thumb = document.createElement('img');
+      thumb.src = dish.image;
+      thumb.alt = dish.name;
+      thumb.loading = 'lazy';
+      UI.imageFallback(thumb);
+
+      const info = document.createElement('div');
+      info.className = 'universe-dish-info';
+
+      const name = document.createElement('span');
+      name.className = 'universe-dish-name';
+      name.textContent = dish.name;
+
+      const meta = document.createElement('span');
+      meta.className = 'universe-dish-meta';
+      const catLabel = ['morning', 'lunch', 'afternoon', 'dinner', 'main'].includes(dish.mealId) ? 'Món Chính' : (dish.mealId === 'snacks' ? 'Ăn Vặt' : 'Đồ Uống');
+      meta.textContent = `${catLabel} · ${money(dish.price)}`;
+
+      info.append(name, meta);
+      item.append(cb, thumb, info);
+
+      item.onclick = (e) => {
+        if (e.target !== cb) cb.checked = !cb.checked;
+        if (cb.checked) {
+          universeSelected.add(dish.name);
+          item.classList.add('selected');
+        } else {
+          universeSelected.delete(dish.name);
+          item.classList.remove('selected');
+        }
+        if ($('universeSelectedBadge')) $('universeSelectedBadge').textContent = `Đã chọn: ${universeSelected.size} món`;
+        if ($('universeConfirmCount')) $('universeConfirmCount').textContent = universeSelected.size;
+      };
+
+      return item;
+    }));
+  }
+
+  if ($('customWheelUniverseBtn')) {
+    $('customWheelUniverseBtn').onclick = () => {
+      universeSelected.clear();
+      const currentLines = ($('customWheelInput')?.value || '').split('\n').map(s => s.trim()).filter(Boolean);
+      for (const line of currentLines) universeSelected.add(line);
+
+      open($('universeDishDialog'));
+      renderUniverseDishList();
+    };
+  }
+
+  document.querySelectorAll('.universe-tab').forEach(tab => {
+    tab.onclick = () => {
+      document.querySelectorAll('.universe-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      universeActiveCategory = tab.dataset.category || 'all';
+      renderUniverseDishList();
+    };
+  });
+
+  if ($('universeDishSearch')) {
+    $('universeDishSearch').oninput = (e) => {
+      universeSearchTerm = e.target.value.trim();
+      renderUniverseDishList();
+    };
+  }
+
+  if ($('universeSelectAllBtn')) {
+    $('universeSelectAllBtn').onclick = () => {
+      const currentList = allDishes || [];
+      const query = normalize(universeSearchTerm);
+      currentList.forEach(dish => {
+        const isMain = ['morning', 'lunch', 'afternoon', 'dinner', 'main'].includes(dish.mealId);
+        const isSnack = dish.mealId === 'snacks';
+        const isDrink = dish.mealId === 'drinks';
+        if (universeActiveCategory === 'main' && !isMain) return;
+        if (universeActiveCategory === 'snacks' && !isSnack) return;
+        if (universeActiveCategory === 'drinks' && !isDrink) return;
+        if (query) {
+          const dishName = normalize(dish.name);
+          const dishType = normalize(dish.type || '');
+          if (!dishName.includes(query) && !dishType.includes(query)) return;
+        }
+        universeSelected.add(dish.name);
+      });
+      renderUniverseDishList();
+    };
+  }
+
+  if ($('universeDeselectAllBtn')) {
+    $('universeDeselectAllBtn').onclick = () => {
+      universeSelected.clear();
+      renderUniverseDishList();
+    };
+  }
+
+  if ($('universeConfirmBtn')) {
+    $('universeConfirmBtn').onclick = () => {
+      if (universeSelected.size === 0) {
+        toast('Bạn chưa chọn món nào từ Vũ Trụ.');
+        return;
+      }
+      if ($('customWheelInput')) {
+        $('customWheelInput').value = Array.from(universeSelected).join('\n');
+        updateCustomWheelCount();
+        hideCustomWheelAlert();
+      }
+      close($('universeDishDialog'));
+      toast(`✨ Đã nạp ${universeSelected.size} món từ Vũ Trụ vào vòng quay!`);
+    };
+  }
+
+  if ($('customWheelSpinActionBtn')) {
+    $('customWheelSpinActionBtn').onclick = () => {
+      const lines = ($('customWheelInput')?.value || '').split('\n').map(s => s.trim()).filter(Boolean);
+      if (lines.length === 0) {
+        showCustomWheelAlert('⚠️ Bạn chưa nhập món nào! Hãy điền danh sách hoặc bấm "+ Món từ Vũ Trụ".');
+        return;
+      }
+      if (lines.length < 2) {
+        showCustomWheelAlert('⚠️ Cần ít nhất 2 món trong danh sách để vòng quay có thể chọn ngẫu nhiên nhé!');
+        return;
+      }
+      hideCustomWheelAlert();
+      close($('customWheelDialog'));
+
+      // Pick winner
+      const winnerName = lines[Math.floor(Math.random() * lines.length)];
+      const matched = (allDishes || []).find(d => normalize(d.name) === normalize(winnerName));
+
+      const winnerDish = matched || {
+        id: 'custom_wheel_' + Date.now(),
+        name: winnerName,
+        rarity: 4,
+        mealId: 'main',
+        type: 'Món tự chọn của bạn',
+        image: 'images/brand.svg',
+        price: 0,
+        desc: 'Món ăn do bạn tự nhập vào vòng quay tùy chọn hôm nay. Chúc bạn có một bữa ăn ngon miệng!',
+        quote: 'Vũ trụ đã lựa chọn món này cho bạn!',
+        calories: 350,
+      };
+
+      // Construct reel candidates
+      const reelPool = [];
+      for (let i = 0; i < 20; i++) {
+        const itemN = lines[i % lines.length];
+        const m = (allDishes || []).find(d => normalize(d.name) === normalize(itemN));
+        reelPool.push(m || { id: 'reel_' + i, name: itemN, rarity: 3, image: 'images/brand.svg' });
+      }
+
+      open($('spinDialog'), true);
+      roulette.start(winnerDish, reelPool, () => {
+        if ($('spinDialog').open) close($('spinDialog'), false);
+        showResults([{ dish: winnerDish, isNew: false }], false);
+        audioSystem.playWin(4);
+      });
+    };
+  }
+
+
+  // Custom Dish Submission & Synchronization (Backend Server + LocalStorage)
+  let customUploadedImageBase64 = '';
+
+  if ($('addDishBtn')) {
+    $('addDishBtn').onclick = () => {
+      open($('addDishDialog'));
+    };
+  }
+
+  if ($('customDishImageInput')) {
+    $('customDishImageInput').onchange = (e) => {
+      const file = e.target.files && e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (re) => {
+        const img = new Image();
+        img.onload = () => {
+          const canvas = document.createElement('canvas');
+          let w = img.width, h = img.height;
+          const maxDim = 640;
+          if (w > maxDim || h > maxDim) {
+            if (w > h) { h = Math.round((h * maxDim) / w); w = maxDim; }
+            else { w = Math.round((w * maxDim) / h); h = maxDim; }
+          }
+          canvas.width = w;
+          canvas.height = h;
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(img, 0, 0, w, h);
+          customUploadedImageBase64 = canvas.toDataURL('image/webp', 0.82);
+          if ($('customDishPreviewImg')) $('customDishPreviewImg').src = customUploadedImageBase64;
+          if ($('customDishImagePreview')) $('customDishImagePreview').hidden = false;
+        };
+        img.src = re.target.result;
+      };
+      reader.readAsDataURL(file);
+    };
+  }
+
+  if ($('customDishRemoveImgBtn')) {
+    $('customDishRemoveImgBtn').onclick = () => {
+      customUploadedImageBase64 = '';
+      if ($('customDishImageInput')) $('customDishImageInput').value = '';
+      if ($('customDishImagePreview')) $('customDishImagePreview').hidden = true;
+    };
+  }
+
+  if ($('addDishForm')) {
+    $('addDishForm').onsubmit = async (e) => {
+      e.preventDefault();
+      const name = $('customDishName').value.trim();
+      if (!name) return;
+      const mealId = $('customDishMeal').value || 'morning';
+      const price = parseInt($('customDishPrice').value, 10) || 0;
+      const desc = $('customDishDesc').value.trim() || 'Món ăn do bạn tự tay thêm vào thực đơn.';
+
+      const payload = {
+        name,
+        mealId,
+        price,
+        desc,
+        image: customUploadedImageBase64 || 'images/brand.svg',
+        type: 'Món tự thêm',
+        rarity: 4,
+        calories: 350
+      };
+
+      try {
+        const resp = await fetch('/api/custom-dishes', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        if (resp.ok) {
+          const resData = await resp.json();
+          const createdDish = resData.dish || payload;
+          addDishToRuntime(createdDish);
+        } else {
+          fallbackSaveLocalDish(payload);
+        }
+      } catch (_) {
+        fallbackSaveLocalDish(payload);
+      }
+
+      close($('addDishDialog'));
+      $('addDishForm').reset();
+      customUploadedImageBase64 = '';
+      if ($('customDishImagePreview')) $('customDishImagePreview').hidden = true;
+      toast('Đã thêm món mới vào thực đơn thành công!');
+    };
+  }
+
+  function fallbackSaveLocalDish(dishData) {
+    dishData.id = 'custom_' + Date.now();
+    dishData.isUserCustom = true;
+    try {
+      const local = JSON.parse(localStorage.getItem('food_custom_dishes') || '[]');
+      local.push(dishData);
+      localStorage.setItem('food_custom_dishes', JSON.stringify(local));
+    } catch (_) {}
+    addDishToRuntime(dishData);
+  }
+
+  function addDishToRuntime(dish) {
+    if (!dish || !dish.id) return;
+    if (!allDishes.some(d => d.id === dish.id)) {
+      allDishes.push(dish);
+    }
+    const currentDb = typeof FOOD_DATABASE !== 'undefined' ? FOOD_DATABASE : null;
+    if (currentDb && currentDb[dish.mealId] && Array.isArray(currentDb[dish.mealId].dishes)) {
+      if (!currentDb[dish.mealId].dishes.some(d => d.id === dish.id)) {
+        currentDb[dish.mealId].dishes.push(dish);
+      }
+    }
+    menu();
+    updateControls();
+  }
+
+  // Load backend and local custom dishes on initialization
+  async function loadInitialCustomDishes() {
+    try {
+      const resp = await fetch('/api/custom-dishes');
+      if (resp.ok) {
+        const serverDishes = await resp.json();
+        if (Array.isArray(serverDishes)) {
+          serverDishes.forEach(addDishToRuntime);
+        }
+      }
+    } catch (_) {}
+    try {
+      const local = JSON.parse(localStorage.getItem('food_custom_dishes') || '[]');
+      if (Array.isArray(local)) {
+        local.forEach(addDishToRuntime);
+      }
+    } catch (_) {}
+  }
+  loadInitialCustomDishes();
+
   $('findFeaturedBtn').onclick = () => {
     if (featuredDish)
       showResults(

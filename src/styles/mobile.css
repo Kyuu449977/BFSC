@@ -92,7 +92,7 @@
   margin-top: 0;
   padding-top: 14px;
   border-top: 1px solid var(--border);
-  background: var(--cream);
+  background: var(--surface);
 }
 .result-card .dish-body {
   gap: 7px;
@@ -429,8 +429,9 @@ html {
   margin: 0 0 12px;
   padding: 12px;
   border-radius: 12px;
-  background: #fff1d9;
-  color: #70471c;
+  background: var(--surface-card);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
   font-size: 12px;
   line-height: 1.8;
 }

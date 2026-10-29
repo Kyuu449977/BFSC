@@ -37,16 +37,29 @@ class FoodRoulette {
     this.targetIndex = sequence.targetIndex;
     for (const item of sequence.items) {
       const card = document.createElement('div');
-      card.className = 'reel-card';
-      const img = new Image(130, 125);
-      UI.imageFallback(img);
-      img.src = item.image;
-      const displayName = typeof getDishName === 'function' ? getDishName(item) : item.name;
-      img.alt = displayName;
-      img.decoding = 'async';
-      const label = document.createElement('span');
-      label.textContent = displayName;
-      card.append(img, label);
+      card.className = 'reel-card reel-card-mystery';
+      card.setAttribute('aria-label', 'Thẻ bài bí ẩn');
+
+      const inner = document.createElement('div');
+      inner.className = 'reel-card-back';
+
+      const pattern = document.createElement('div');
+      pattern.className = 'reel-card-pattern';
+
+      const icon = document.createElement('div');
+      icon.className = 'reel-card-icon';
+      icon.textContent = '✨';
+
+      const title = document.createElement('div');
+      title.className = 'reel-card-title';
+      title.textContent = 'Ăn Gì Đây?';
+
+      const question = document.createElement('div');
+      question.className = 'reel-card-q';
+      question.textContent = '???';
+
+      inner.append(pattern, icon, title, question);
+      card.append(inner);
       fragment.append(card);
     }
     this.track.replaceChildren(fragment);

@@ -864,40 +864,40 @@
     "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Không dính chữ tác giả."
   },
   "nuoc_ca_phe_trung": {
-    "name": "Cà phê trứng Hà Nội",
-    "file": "images/do_uong/ca_phe_trung.webp",
+    "name": "Cà Phê Trứng Hà Nội",
+    "file": "images/do_uong/nuoc_ca_phe_trung.webp",
     "kind": "photo",
-    "title": "Món đồ uống Cà phê trứng Hà Nội",
-    "artist": "Cà Phê Phố Cổ",
-    "source": "https://commons.wikimedia.org/wiki/File:Vietnamese_drink.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/vietnamese_drink.jpg",
-    "license": "CC BY-SA 4.0",
+    "title": "File:Egg Coffee (6923068614).jpg",
+    "artist": "David McKelvey from Brisbane, Australia",
+    "source": "https://commons.wikimedia.org/wiki/File%3AEgg%20Coffee%20%286923068614%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/54/Egg_Coffee_%286923068614%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Không dính chữ tác giả."
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
   },
   "nuoc_bac_xiu": {
-    "name": "Bạc xỉu ba tầng Sài Gòn",
-    "file": "images/do_uong/bac_xiu.webp",
+    "name": "Bạc Xỉu Ba Tầng Sài Gòn",
+    "file": "images/do_uong/nuoc_bac_xiu.webp",
     "kind": "photo",
-    "title": "Món đồ uống Bạc xỉu ba tầng Sài Gòn",
-    "artist": "Cà Phê Sài Gòn",
-    "source": "https://commons.wikimedia.org/wiki/File:Vietnamese_drink.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/vietnamese_drink.jpg",
-    "license": "CC BY-SA 4.0",
+    "title": "File:Vietnamese Iced Coffee Ba Chi Canteen.jpg",
+    "artist": "Infrogmation of New Orleans",
+    "source": "https://commons.wikimedia.org/wiki/File%3AVietnamese%20Iced%20Coffee%20Ba%20Chi%20Canteen.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Vietnamese_Iced_Coffee_Ba_Chi_Canteen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Không dính chữ tác giả."
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
   },
   "nuoc_ca_phe_den_da": {
-    "name": "Cà phê đen đá",
-    "file": "images/do_uong/ca_phe_den_da.webp",
+    "name": "Cà Phê Đen Pha Phin",
+    "file": "images/do_uong/nuoc_ca_phe_den_da.webp",
     "kind": "photo",
-    "title": "Món đồ uống Cà phê đen đá",
-    "artist": "Cà Phê Phin Truyền Thống",
-    "source": "https://commons.wikimedia.org/wiki/File:Vietnamese_drink.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/vietnamese_drink.jpg",
-    "license": "CC BY-SA 4.0",
+    "title": "File:Ice coffee image.jpg",
+    "artist": "Suguri F",
+    "source": "https://commons.wikimedia.org/wiki/File%3AIce%20coffee%20image.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Ice_coffee_image.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Không dính chữ tác giả."
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
   },
   "nuoc_tra_sen_vang": {
     "name": "Trà sen vàng",
@@ -1008,16 +1008,16 @@
     "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Không dính chữ tác giả."
   },
   "nuoc_sinh_to_dau": {
-    "name": "Sinh tố dâu tây",
-    "file": "images/do_uong/sinh_to_dau.webp",
+    "name": "Sinh Tố Dâu Tây Tươi",
+    "file": "images/do_uong/nuoc_sinh_to_dau.webp",
     "kind": "photo",
-    "title": "Món đồ uống Sinh tố dâu tây",
-    "artist": "Quán Sinh Tố Trái Cây",
-    "source": "https://commons.wikimedia.org/wiki/File:Vietnamese_drink.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/vietnamese_drink.jpg",
-    "license": "CC BY-SA 4.0",
+    "title": "File:Glass of strawberry smoothie (6828826294).jpg",
+    "artist": "woodleywonderworks",
+    "source": "https://commons.wikimedia.org/wiki/File%3AGlass%20of%20strawberry%20smoothie%20%286828826294%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/93/Glass_of_strawberry_smoothie_%286828826294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Không dính chữ tác giả."
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
   },
   "nuoc_nuoc_ep_thom": {
     "name": "Nước ép thơm",
@@ -1068,16 +1068,16 @@
     "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Không dính chữ tác giả."
   },
   "nuoc_sinh_to_mang_cau": {
-    "name": "Sinh tố mãng cầu",
-    "file": "images/do_uong/sinh_to_mang_cau.webp",
+    "name": "Sinh Tố Mãng Cầu Xiêm",
+    "file": "images/do_uong/nuoc_sinh_to_mang_cau.webp",
     "kind": "photo",
-    "title": "Món đồ uống Sinh tố mãng cầu",
-    "artist": "Quán Sinh Tố Trái Cây",
-    "source": "https://commons.wikimedia.org/wiki/File:Vietnamese_drink.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/vietnamese_drink.jpg",
+    "title": "File:Guanábana juice.jpg",
+    "artist": "Spideog",
+    "source": "https://commons.wikimedia.org/wiki/File%3AGuan%C3%A1bana%20juice.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Guan%C3%A1bana_juice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Không dính chữ tác giả."
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
   },
   "nuoc_chanh_muoi": {
     "name": "Nước chanh muối",
@@ -1296,16 +1296,15 @@
     "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Không dính chữ tác giả."
   },
   "nuoc_revive": {
-    "name": "Trà thanh long đỏ hạt chia",
-    "file": "images/regional/vi/nuoc_revive.webp",
+    "name": "Nước bù khoáng Revive",
+    "file": "images/do_uong/nuoc_revive.webp",
     "kind": "photo",
-    "title": "Món đồ uống Revive Chanh Muối Isotonic",
-    "artist": "Nước giải khát thể thao",
-    "source": "https://commons.wikimedia.org/wiki/File:Vietnamese_drink.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/vietnamese_drink.jpg",
+    "title": "File:Gatorade Thirst Quencher.jpg",
+    "artist": "Clean Sports Isotonic Photography",
+    "source": "https://commons.wikimedia.org/wiki/File:Gatorade_Thirst_Quencher.jpg",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Không dính chữ tác giả."
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh tĩnh vật đồ uống bù khoáng. Không dính người."
   },
   "nuoc_tra_c2": {
     "name": "Trà Xanh Không Độ / C2",
@@ -1537,5 +1536,1046 @@
     "source": "https://commons.wikimedia.org/wiki/ca_phe_trung.webp",
     "original": "https://upload.wikimedia.org/wikipedia/commons/ca_phe_trung.webp",
     "kind": "photo"
+  },
+  "nuoc_coca_original": {
+    "name": "Coca-Cola Original",
+    "file": "images/do_uong/nuoc_coca_original.webp",
+    "kind": "photo",
+    "title": "File:Coca-cola 50cl can - Italia.jpg",
+    "artist": "M0tty",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACoca-cola%2050cl%20can%20-%20Italia.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Coca-cola_50cl_can_-_Italia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_pepsi_original": {
+    "title": "File:Pepsi lime 330ml can-front PNr°0852.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Pepsi_lime_330ml_can-front_PNr%C2%B00852.jpg/960px-Pepsi_lime_330ml_can-front_PNr%C2%B00852.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:D-Kuru\" title=\"User:D-Kuru\">D-Kuru</a>",
+    "license": "CC BY-SA 4.0"
+  },
+  "nuoc_pepsi_zero_chanh": {
+    "name": "Pepsi Zero Calorie Chanh",
+    "file": "images/do_uong/nuoc_pepsi_zero_chanh.webp",
+    "kind": "photo",
+    "title": "File:Pepsi lime 330ml can-front PNr°0852.jpg",
+    "artist": "D-Kuru",
+    "source": "https://commons.wikimedia.org/wiki/File%3APepsi%20lime%20330ml%20can-front%20PNr%C2%B00852.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/92/Pepsi_lime_330ml_can-front_PNr%C2%B00852.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_7up": {
+    "name": "7Up Chanh Tự Nhiên",
+    "file": "images/do_uong/nuoc_7up.webp",
+    "kind": "photo",
+    "title": "File:Can of Seven Up.jpg",
+    "artist": "IBERZA",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACan%20of%20Seven%20Up.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Can_of_Seven_Up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_mirinda_soda_kem": {
+    "name": "Mirinda Soda Kem",
+    "file": "images/do_uong/nuoc_mirinda_soda_kem.webp",
+    "kind": "photo",
+    "title": "File:Lime spider.jpg",
+    "artist": "Fir0002",
+    "source": "https://commons.wikimedia.org/wiki/File%3ALime%20spider.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Lime_spider.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "GFDL 1.2",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_mirinda_cam": {
+    "name": "Mirinda Cam",
+    "file": "images/do_uong/nuoc_mirinda_cam.webp",
+    "kind": "photo",
+    "title": "File:Fanta-Orange-Can-330ml 84177 (7116950883).jpg",
+    "artist": "Emilian Robert Vicol from Com. Balanesti, Romania",
+    "source": "https://commons.wikimedia.org/wiki/File%3AFanta-Orange-Can-330ml%2084177%20%287116950883%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/50/Fanta-Orange-Can-330ml_84177_%287116950883%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_fanta_cam": {
+    "name": "Fanta Hương Cam",
+    "file": "images/do_uong/nuoc_fanta_cam.webp",
+    "kind": "photo",
+    "title": "File:Fanta-Orange-Can-330ml 84177 (7116950883).jpg",
+    "artist": "Emilian Robert Vicol from Com. Balanesti, Romania",
+    "source": "https://commons.wikimedia.org/wiki/File%3AFanta-Orange-Can-330ml%2084177%20%287116950883%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/50/Fanta-Orange-Can-330ml_84177_%287116950883%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_xa_xi_chuong_duong": {
+    "name": "Xá xị Chương Dương",
+    "file": "images/do_uong/nuoc_xa_xi_chuong_duong.webp",
+    "kind": "photo",
+    "title": "File:Root beer in glass mug.jpg",
+    "artist": "Markmark28",
+    "source": "https://commons.wikimedia.org/wiki/File%3ARoot%20beer%20in%20glass%20mug.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Root_beer_in_glass_mug.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_red_bull": {
+    "name": "Red Bull (Bò Húc)",
+    "file": "images/do_uong/nuoc_red_bull.webp",
+    "kind": "photo",
+    "title": "File:Red Bull Energy Drink, Dongguan, China 1 May 2024.jpg",
+    "artist": "メイド理世",
+    "source": "https://commons.wikimedia.org/wiki/File%3ARed%20Bull%20Energy%20Drink%2C%20Dongguan%2C%20China%201%20May%202024.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Red_Bull_Energy_Drink%2C_Dongguan%2C_China_1_May_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_monster_energy": {
+    "name": "Monster Energy",
+    "file": "images/do_uong/nuoc_monster_energy.webp",
+    "kind": "photo",
+    "title": "File:Can of Monster Energy drink sold in China (0.33 l), on white background.jpg",
+    "artist": "File:Monster Energy sold in China.jpg: Bxxiaolin\nderivative work: Pittigrilli",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACan%20of%20Monster%20Energy%20drink%20sold%20in%20China%20%280.33%20l%29%2C%20on%20white%20background.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Can_of_Monster_Energy_drink_sold_in_China_%280.33_l%29%2C_on_white_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_sting_dau": {
+    "name": "Sting Dâu tây Đỏ",
+    "file": "images/do_uong/nuoc_sting_dau.webp",
+    "kind": "photo",
+    "title": "File:Strawberry soda.jpg",
+    "artist": "Kotra",
+    "source": "https://commons.wikimedia.org/wiki/File%3AStrawberry%20soda.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/af/Strawberry_soda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_sua_truyen_thong": {
+    "name": "Trà sữa Hồng trà Truyền thống",
+    "file": "images/do_uong/nuoc_tra_sua_truyen_thong.webp",
+    "kind": "photo",
+    "title": "File:Pearl Milk Tea in Chun Shui Tang.jpg",
+    "artist": "Battlesnake1",
+    "source": "https://commons.wikimedia.org/wiki/File%3APearl%20Milk%20Tea%20in%20Chun%20Shui%20Tang.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pearl_Milk_Tea_in_Chun_Shui_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_sua_oolong": {
+    "name": "Trà sữa Ô Long Đậm Vị",
+    "file": "images/do_uong/nuoc_tra_sua_oolong.webp",
+    "kind": "photo",
+    "title": "File:Classic bubble tea.jpg",
+    "artist": "Oqmilteashop",
+    "source": "https://commons.wikimedia.org/wiki/File%3AClassic%20bubble%20tea.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/Classic_bubble_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_sua_lai": {
+    "name": "Trà sữa Hoa Lài (Jasmine)",
+    "file": "images/do_uong/nuoc_tra_sua_lai.webp",
+    "kind": "photo",
+    "title": "File:Bubble tea by Johnny.jpg",
+    "artist": "Baoothersks",
+    "source": "https://commons.wikimedia.org/wiki/File%3ABubble%20tea%20by%20Johnny.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Bubble_tea_by_Johnny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_sua_thiet_quan_am": {
+    "name": "Trà sữa Thiết Quan Âm",
+    "file": "images/do_uong/nuoc_tra_sua_thiet_quan_am.webp",
+    "kind": "photo",
+    "title": "File:50 Lan Bubble Tea in Taichung 20141201.jpg",
+    "artist": "Rory Finneren",
+    "source": "https://commons.wikimedia.org/wiki/File%3A50%20Lan%20Bubble%20Tea%20in%20Taichung%2020141201.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/14/50_Lan_Bubble_Tea_in_Taichung_20141201.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_sua_earl_grey": {
+    "name": "Trà sữa Bá Tước Earl Grey",
+    "file": "images/do_uong/nuoc_tra_sua_earl_grey.webp",
+    "kind": "photo",
+    "title": "File:Cup of Earl Gray.jpg",
+    "artist": "David Wilmot (daramot) from Wimbledon, United Kingdom",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACup%20of%20Earl%20Gray.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/22/Cup_of_Earl_Gray.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_sua_thai_do": {
+    "name": "Trà sữa Thái Đỏ",
+    "file": "images/do_uong/nuoc_tra_sua_thai_do.webp",
+    "kind": "photo",
+    "title": "File:Thai Red Ice Milk Tea - Siam Siam 2024-07-31.jpg",
+    "artist": "Andy Li",
+    "source": "https://commons.wikimedia.org/wiki/File%3AThai%20Red%20Ice%20Milk%20Tea%20-%20Siam%20Siam%202024-07-31.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Thai_Red_Ice_Milk_Tea_-_Siam_Siam_2024-07-31.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_sua_thai_xanh": {
+    "name": "Trà sữa Thái Xanh",
+    "file": "images/do_uong/nuoc_tra_sua_thai_xanh.webp",
+    "kind": "photo",
+    "title": "File:Iced Thai Green Tea in Teanol Cafe & Working Space.jpg",
+    "artist": "Firzafp",
+    "source": "https://commons.wikimedia.org/wiki/File%3AIced%20Thai%20Green%20Tea%20in%20Teanol%20Cafe%20%26%20Working%20Space.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/25/Iced_Thai_Green_Tea_in_Teanol_Cafe_%26_Working_Space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_sua_khoai_mon": {
+    "name": "Trà sữa Khoai Môn (Taro)",
+    "file": "images/do_uong/nuoc_tra_sua_khoai_mon.webp",
+    "kind": "photo",
+    "title": "File:Taro flavored milk tea.jpg",
+    "artist": "Fumikas Sagisavas",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATaro%20flavored%20milk%20tea.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Taro_flavored_milk_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_sua_socola": {
+    "name": "Trà sữa Socola Đậm Đà",
+    "file": "images/do_uong/nuoc_tra_sua_socola.webp",
+    "kind": "photo",
+    "title": "File:Vanilla chocolate milk shake and ice lemon tea.jpg",
+    "artist": "Roysanjaya01",
+    "source": "https://commons.wikimedia.org/wiki/File%3AVanilla%20chocolate%20milk%20shake%20and%20ice%20lemon%20tea.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Vanilla_chocolate_milk_shake_and_ice_lemon_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_sua_bac_ha": {
+    "name": "Trà sữa Bạc Hà The Mát",
+    "file": "images/do_uong/nuoc_tra_sua_bac_ha.webp",
+    "kind": "photo",
+    "title": "File:Fresh mint tea in a glass.jpg",
+    "artist": "Mark Jason Dominus",
+    "source": "https://commons.wikimedia.org/wiki/File%3AFresh%20mint%20tea%20in%20a%20glass.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Fresh_mint_tea_in_a_glass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_sua_tuoi_tran_chau_duong_den": {
+    "name": "Sữa tươi Trân châu Đường đen",
+    "file": "images/do_uong/nuoc_sua_tuoi_tran_chau_duong_den.webp",
+    "kind": "photo",
+    "title": "File:Brown sugar boba tea at Boba Heaven, downtown Evanston, IL.jpg",
+    "artist": "~delta",
+    "source": "https://commons.wikimedia.org/wiki/File%3ABrown%20sugar%20boba%20tea%20at%20Boba%20Heaven%2C%20downtown%20Evanston%2C%20IL.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Brown_sugar_boba_tea_at_Boba_Heaven%2C_downtown_Evanston%2C_IL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_sua_tran_chau_duong_den": {
+    "name": "Trà sữa Trân châu Đường đen",
+    "file": "images/do_uong/nuoc_tra_sua_tran_chau_duong_den.webp",
+    "kind": "photo",
+    "title": "File:Popping boba w Bubble Tea.jpg",
+    "artist": "Coldsea.eu",
+    "source": "https://commons.wikimedia.org/wiki/File%3APopping%20boba%20w%20Bubble%20Tea.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Popping_boba_w_Bubble_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_sua_kem_cheese": {
+    "name": "Trà sữa Kem Cheese Macchiato",
+    "file": "images/do_uong/nuoc_tra_sua_kem_cheese.webp",
+    "kind": "photo",
+    "title": "File:Fat glass mug.jpg",
+    "artist": "Corn cheese",
+    "source": "https://commons.wikimedia.org/wiki/File%3AFat%20glass%20mug.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Fat_glass_mug.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_sua_kem_trung_chay": {
+    "title": "File:Brown sugar boba tea at Boba Heaven, downtown Evanston, IL.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Brown_sugar_boba_tea_at_Boba_Heaven%2C_downtown_Evanston%2C_IL.jpg/960px-Brown_sugar_boba_tea_at_Boba_Heaven%2C_downtown_Evanston%2C_IL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:~delta\" title=\"User:~delta\">~delta</a>",
+    "license": "CC BY-SA 4.0"
+  },
+  "nuoc_tra_sua_nuong": {
+    "name": "Trà sữa Nướng Hoàng Gia",
+    "file": "images/do_uong/nuoc_tra_sua_nuong.webp",
+    "kind": "photo",
+    "title": "File:Cold drinks at Granny's Café 2025-06-23.jpg",
+    "artist": "Andy Li",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACold%20drinks%20at%20Granny%27s%20Caf%C3%A9%202025-06-23.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cold_drinks_at_Granny%27s_Caf%C3%A9_2025-06-23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_dao_cam_sa": {
+    "name": "Trà Đào Cam Sả Tươi",
+    "file": "images/do_uong/nuoc_tra_dao_cam_sa.webp",
+    "kind": "photo",
+    "title": "File:IceTea Migros.jpg",
+    "artist": "Schutz",
+    "source": "https://commons.wikimedia.org/wiki/File%3AIceTea%20Migros.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/be/IceTea_Migros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_dao_mieng": {
+    "name": "Trà Đào Giòn Miếng",
+    "file": "images/do_uong/nuoc_tra_dao_mieng.webp",
+    "kind": "photo",
+    "title": "File:Peach soda soft drink.jpg",
+    "artist": "Geoffreyrabbit",
+    "source": "https://commons.wikimedia.org/wiki/File%3APeach%20soda%20soft%20drink.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Peach_soda_soft_drink.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_vai_lai": {
+    "name": "Trà Vải Hoa Lài",
+    "file": "images/do_uong/nuoc_tra_vai_lai.webp",
+    "kind": "photo",
+    "title": "File:Lychee sorbet black tea with mint leaf.jpg",
+    "artist": "jeffreyw",
+    "source": "https://commons.wikimedia.org/wiki/File:Lychee_sorbet_black_tea_with_mint_leaf.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons. Tĩnh vật ly trà vải hoa lài không dính người."
+  },
+  "nuoc_tra_mang_cut": {
+    "name": "Trà Măng Cụt Nhiệt Đới",
+    "file": "images/do_uong/nuoc_tra_mang_cut.webp",
+    "kind": "photo",
+    "title": "File:Mangosteen.jpg",
+    "artist": "challiyan",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMangosteen.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Mangosteen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_oi_hong_hat_chia": {
+    "name": "Trà Ổi Hồng Hạt Chia",
+    "file": "images/do_uong/nuoc_tra_oi_hong_hat_chia.webp",
+    "kind": "photo",
+    "title": "File:Fresh Gvava Juice.JPG",
+    "artist": "MGA73bot2",
+    "source": "https://commons.wikimedia.org/wiki/File:Fresh_Gvava_Juice.JPG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh tĩnh vật ẩm thực Wikimedia Commons. Không dính người."
+  },
+  "nuoc_tra_dua_luoi": {
+    "name": "Trà Dưa Lưới Mát Lạnh",
+    "file": "images/do_uong/nuoc_tra_dua_luoi.webp",
+    "kind": "photo",
+    "title": "File:Brisk Strawberry Melon Iced Tea.jpg",
+    "artist": "TaurusEmerald",
+    "source": "https://commons.wikimedia.org/wiki/File%3ABrisk%20Strawberry%20Melon%20Iced%20Tea.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Brisk_Strawberry_Melon_Iced_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_dau_tay_dam": {
+    "name": "Trà Dâu Tây Dầm Tươi",
+    "file": "images/do_uong/nuoc_tra_dau_tay_dam.webp",
+    "kind": "photo",
+    "title": "File:Milkshake beverage strawberry drink-1021027.jpg",
+    "artist": "Jakub Kapušňák",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMilkshake%20beverage%20strawberry%20drink-1021027.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/14/Milkshake_beverage_strawberry_drink-1021027.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_chanh_gia_tay": {
+    "name": "Trà Chanh Giã Tay Quảng Đông",
+    "file": "images/do_uong/nuoc_tra_chanh_gia_tay.webp",
+    "kind": "photo",
+    "title": "File:Iced Tea with Lemon, First Watch, Melbourne, Florida.jpg",
+    "artist": "Pokemonprime",
+    "source": "https://commons.wikimedia.org/wiki/File%3AIced%20Tea%20with%20Lemon%2C%20First%20Watch%2C%20Melbourne%2C%20Florida.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Iced_Tea_with_Lemon%2C_First_Watch%2C_Melbourne%2C_Florida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_tra_tac_xi_muoi": {
+    "name": "Trà Tắc Xí Muội Mật Ong",
+    "file": "images/do_uong/nuoc_tra_tac_xi_muoi.webp",
+    "kind": "photo",
+    "title": "File:KALAMASI SYRUP FOR REFRESHING COLD DRINKS SOURCE OF VITAMIN C PANGASINAN.jpg",
+    "artist": "Elmer Centeno Guevarra",
+    "source": "https://commons.wikimedia.org/wiki/File%3AKALAMASI%20SYRUP%20FOR%20REFRESHING%20COLD%20DRINKS%20SOURCE%20OF%20VITAMIN%20C%20PANGASINAN.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/df/KALAMASI_SYRUP_FOR_REFRESHING_COLD_DRINKS_SOURCE_OF_VITAMIN_C_PANGASINAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_matcha_latte": {
+    "name": "Matcha Latte Nhật Bản",
+    "file": "images/do_uong/nuoc_matcha_latte.webp",
+    "kind": "photo",
+    "title": "File:Matcha Latte KF.JPG",
+    "artist": "KathmanduFoodies",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMatcha%20Latte%20KF.JPG",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Matcha_Latte_KF.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_matcha_kem_cheese": {
+    "name": "Matcha Kem Cheese Macchiato",
+    "file": "images/do_uong/nuoc_matcha_kem_cheese.webp",
+    "kind": "photo",
+    "title": "File:Matcha Latte with Seasalt Cream.jpg",
+    "artist": "MichaellaaRubio",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMatcha%20Latte%20with%20Seasalt%20Cream.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Matcha_Latte_with_Seasalt_Cream.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_matcha_nuoc_dua": {
+    "name": "Matcha Nước Dừa Tươi (Cloud)",
+    "file": "images/do_uong/nuoc_matcha_nuoc_dua.webp",
+    "kind": "photo",
+    "title": "File:Kultura Drinks.png",
+    "artist": "Kulturasaudi",
+    "source": "https://commons.wikimedia.org/wiki/File%3AKultura%20Drinks.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kultura_Drinks.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_dirty_matcha": {
+    "name": "Dirty Matcha Espresso",
+    "file": "images/do_uong/nuoc_dirty_matcha.webp",
+    "kind": "photo",
+    "title": "File:Green tea latte 1.jpg",
+    "artist": "Jeonghyeonseo",
+    "source": "https://commons.wikimedia.org/wiki/File%3AGreen%20tea%20latte%201.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/12/Green_tea_latte_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_strawberry_matcha": {
+    "name": "Strawberry Matcha Latte Ba Tầng",
+    "file": "images/do_uong/nuoc_strawberry_matcha.webp",
+    "kind": "photo",
+    "title": "File:Iced Strawberry Shortcake Matcha - M&S Café, Worthing 2026-06-20.jpg",
+    "artist": "Andy Li",
+    "source": "https://commons.wikimedia.org/wiki/File%3AIced%20Strawberry%20Shortcake%20Matcha%20-%20M%26S%20Caf%C3%A9%2C%20Worthing%202026-06-20.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Iced_Strawberry_Shortcake_Matcha_-_M%26S_Caf%C3%A9%2C_Worthing_2026-06-20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_matcha_frappuccino": {
+    "name": "Matcha Frappuccino Đá Xay",
+    "file": "images/do_uong/nuoc_matcha_frappuccino.webp",
+    "kind": "photo",
+    "title": "File:Matcha-Kari smoothies.jpg",
+    "artist": "MatchaKari1",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMatcha-Kari%20smoothies.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/83/Matcha-Kari_smoothies.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_sinh_to_bo": {
+    "name": "Sinh Tố Bơ Sáp Đắk Lắk",
+    "file": "images/do_uong/nuoc_sinh_to_bo.webp",
+    "kind": "photo",
+    "title": "File:Avocado lamaw (Avocado in milk and sugar, chilled or with ice), Philippines 04.jpg",
+    "artist": "Obsidian Soul",
+    "source": "https://commons.wikimedia.org/wiki/File%3AAvocado%20lamaw%20%28Avocado%20in%20milk%20and%20sugar%2C%20chilled%20or%20with%20ice%29%2C%20Philippines%2004.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Avocado_lamaw_%28Avocado_in_milk_and_sugar%2C_chilled_or_with_ice%29%2C_Philippines_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_sinh_to_xoai": {
+    "name": "Sinh Tố Xoài Cát Hòa Lộc",
+    "file": "images/do_uong/nuoc_sinh_to_xoai.webp",
+    "kind": "photo",
+    "title": "File:Costco treats - Lassi.jpg",
+    "artist": "Infrogmation of New Orleans",
+    "source": "https://commons.wikimedia.org/wiki/File:Costco_treats_-_Lassi.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh tĩnh vật ẩm thực Wikimedia Commons. Không dính người."
+  },
+  "nuoc_sinh_to_chuoi": {
+    "name": "Sinh Tố Chuối Sữa Tươi",
+    "file": "images/do_uong/nuoc_sinh_to_chuoi.webp",
+    "kind": "photo",
+    "title": "File:Fresh fruit smoothie being poured into a glass.jpg",
+    "artist": "Shixart1985",
+    "source": "https://commons.wikimedia.org/wiki/File%3AFresh%20fruit%20smoothie%20being%20poured%20into%20a%20glass.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Fresh_fruit_smoothie_being_poured_into_a_glass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_sinh_to_sapoche": {
+    "name": "Sinh Tố Sapoche (Hồng Xiêm)",
+    "file": "images/do_uong/nuoc_sinh_to_sapoche.webp",
+    "kind": "photo",
+    "title": "File:ChikuBadaamShake HomeMade Mumbai.jpg",
+    "artist": "Shah Naisargi",
+    "source": "https://commons.wikimedia.org/wiki/File%3AChikuBadaamShake%20HomeMade%20Mumbai.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/f3/ChikuBadaamShake_HomeMade_Mumbai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_sinh_to_bo_xoai": {
+    "name": "Sinh Tố Bơ - Xoài Kết Hợp",
+    "file": "images/do_uong/nuoc_sinh_to_bo_xoai.webp",
+    "kind": "photo",
+    "title": "File:Fruit smoothie (8475314736).png",
+    "artist": "Mike65444",
+    "source": "https://commons.wikimedia.org/wiki/File%3AFruit%20smoothie%20%288475314736%29.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Fruit_smoothie_%288475314736%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_sinh_to_chuoi_dau": {
+    "name": "Sinh Tố Chuối - Dâu Tây",
+    "file": "images/do_uong/nuoc_sinh_to_chuoi_dau.webp",
+    "kind": "photo",
+    "title": "File:Fruit smoothie (8475314736).png",
+    "artist": "Mike65444",
+    "source": "https://commons.wikimedia.org/wiki/File%3AFruit%20smoothie%20%288475314736%29.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Fruit_smoothie_%288475314736%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_sinh_to_chuoi_bo_dau_phong": {
+    "name": "Sinh Tố Chuối - Bơ Đậu Phộng",
+    "file": "images/do_uong/nuoc_sinh_to_chuoi_bo_dau_phong.webp",
+    "kind": "photo",
+    "title": "File:Banana Smoothie.jpg",
+    "artist": "Ourlibrary",
+    "source": "https://commons.wikimedia.org/wiki/File%3ABanana%20Smoothie.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Banana_Smoothie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_sinh_to_berry_mix": {
+    "name": "Sinh Tố Berry Mix (Dâu, Việt Quất, Mâm Xôi)",
+    "file": "images/do_uong/nuoc_sinh_to_berry_mix.webp",
+    "kind": "photo",
+    "title": "File:Superberry Smoothie & Bill's Ceremonial Matcha Latte - Bill's, Lewes 2026-07-03.jpg",
+    "artist": "Andy Li",
+    "source": "https://commons.wikimedia.org/wiki/File%3ASuperberry%20Smoothie%20%26%20Bill%27s%20Ceremonial%20Matcha%20Latte%20-%20Bill%27s%2C%20Lewes%202026-07-03.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/76/Superberry_Smoothie_%26_Bill%27s_Ceremonial_Matcha_Latte_-_Bill%27s%2C_Lewes_2026-07-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_sinh_to_xoai_chanh_day": {
+    "name": "Sinh Tố Xoài - Chanh Dây",
+    "file": "images/do_uong/nuoc_sinh_to_xoai_chanh_day.webp",
+    "kind": "photo",
+    "title": "File:Fruit Juices 2.jpg",
+    "artist": "IndayLiburan",
+    "source": "https://commons.wikimedia.org/wiki/File%3AFruit%20Juices%202.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/98/Fruit_Juices_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_sinh_to_bo_sau_rieng": {
+    "name": "Sinh Tố Bơ - Sầu Riêng Béo Ngậy",
+    "file": "images/do_uong/nuoc_sinh_to_bo_sau_rieng.webp",
+    "kind": "photo",
+    "title": "File:Creamy Durian - Flickr - The World Through Athene's Eyes.jpg",
+    "artist": "The World Through Athene's Eyes from Penang, Malaysia",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACreamy%20Durian%20-%20Flickr%20-%20The%20World%20Through%20Athene%27s%20Eyes.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/40/Creamy_Durian_-_Flickr_-_The_World_Through_Athene%27s_Eyes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_dua_xiem_got_vo": {
+    "name": "Nước Dừa Xiêm Gọt Vỏ",
+    "file": "images/do_uong/nuoc_dua_xiem_got_vo.webp",
+    "kind": "photo",
+    "title": "File:Drinking coconut.jpg",
+    "artist": "Dtfman",
+    "source": "https://commons.wikimedia.org/wiki/File%3ADrinking%20coconut.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Drinking_coconut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_dua_tac_dua_thom": {
+    "name": "Nước Dừa Tắc / Dừa Thơm Khóm",
+    "file": "images/do_uong/nuoc_dua_tac_dua_thom.webp",
+    "kind": "photo",
+    "title": "File:Green coconut fruit.jpg",
+    "artist": "Ibrahim Achiri",
+    "source": "https://commons.wikimedia.org/wiki/File%3AGreen%20coconut%20fruit.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/76/Green_coconut_fruit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_cam_vat": {
+    "title": "File:Orange juice 1 edit1.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Orange_juice_1_edit1.jpg/960px-Orange_juice_1_edit1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<ul><li>Agency of the United States Department of Agriculture</li>\n<li>Edited Version by: <a href=\"//commons.wikimedia.org/wiki/User:Arad\" title=\"User:Arad\">Arad</a></li></ul>",
+    "license": "Public domain"
+  },
+  "nuoc_ep_buoi_hong": {
+    "name": "Nước Ép Bưởi Hồng Tươi",
+    "file": "images/do_uong/nuoc_ep_buoi_hong.webp",
+    "kind": "photo",
+    "title": "File:Self-made gin grapefruit long drink.jpg",
+    "artist": "JIP",
+    "source": "https://commons.wikimedia.org/wiki/File%3ASelf-made%20gin%20grapefruit%20long%20drink.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/21/Self-made_gin_grapefruit_long_drink.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_ep_dua_hau": {
+    "name": "Nước Ép Dưa Hấu Đỏ",
+    "file": "images/do_uong/nuoc_ep_dua_hau.webp",
+    "kind": "photo",
+    "title": "File:Watermelon juice in glass.jpg",
+    "artist": "Brindhashanmugam312",
+    "source": "https://commons.wikimedia.org/wiki/File%3AWatermelon%20juice%20in%20glass.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Watermelon_juice_in_glass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_ep_dua_thom": {
+    "name": "Nước Ép Dứa (Thơm) Mật",
+    "file": "images/do_uong/nuoc_ep_dua_thom.webp",
+    "kind": "photo",
+    "title": "File:Pineapple juice in glass.jpg",
+    "artist": "B722N",
+    "source": "https://commons.wikimedia.org/wiki/File%3APineapple%20juice%20in%20glass.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/00/Pineapple_juice_in_glass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_ep_tao": {
+    "name": "Nước Ép Táo Xanh & Táo Đỏ",
+    "file": "images/do_uong/nuoc_ep_tao.webp",
+    "kind": "photo",
+    "title": "File:Apple juice glass.jpg",
+    "artist": "JeanBono",
+    "source": "https://commons.wikimedia.org/wiki/File%3AApple%20juice%20glass.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/00/Apple_juice_glass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_ep_oi": {
+    "name": "Nước Ép Ổi Hạt Lựu",
+    "file": "images/do_uong/nuoc_ep_oi.webp",
+    "kind": "photo",
+    "title": "File:Agua de guayaba.jpg",
+    "artist": "AlejandroLinaresGarcia",
+    "source": "https://commons.wikimedia.org/wiki/File:Agua_de_guayaba.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh tĩnh vật ẩm thực Wikimedia Commons. Không dính người."
+  },
+  "nuoc_ep_ca_rot": {
+    "name": "Nước Ép Cà Rốt Tươi",
+    "file": "images/do_uong/nuoc_ep_ca_rot.webp",
+    "kind": "photo",
+    "title": "File:Təbrizdə bir qutu makaron və bir stəkan yerkökü suyu.jpg",
+    "artist": "Orartu",
+    "source": "https://commons.wikimedia.org/wiki/File%3AT%C9%99brizd%C9%99%20bir%20qutu%20makaron%20v%C9%99%20bir%20st%C9%99kan%20yerk%C3%B6k%C3%BC%20suyu.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/6e/T%C9%99brizd%C9%99_bir_qutu_makaron_v%C9%99_bir_st%C9%99kan_yerk%C3%B6k%C3%BC_suyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_ep_ca_chua": {
+    "name": "Nước Ép Cà Chua Tươi",
+    "file": "images/do_uong/nuoc_ep_ca_chua.webp",
+    "kind": "photo",
+    "title": "File:A glass of tomato juice on a black plate.jpg",
+    "artist": "VSerebrenikov",
+    "source": "https://commons.wikimedia.org/wiki/File%3AA%20glass%20of%20tomato%20juice%20on%20a%20black%20plate.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/94/A_glass_of_tomato_juice_on_a_black_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_mia_sieu_sach": {
+    "name": "Nước Mía Tươi Siêu Sạch",
+    "file": "images/do_uong/nuoc_mia_sieu_sach.webp",
+    "kind": "photo",
+    "title": "File:Glass of sugarcane juice.jpg",
+    "artist": "Fgnievinski",
+    "source": "https://commons.wikimedia.org/wiki/File%3AGlass%20of%20sugarcane%20juice.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Glass_of_sugarcane_juice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_ca_phe_sua_da": {
+    "name": "Cà Phê Sữa Đá Sài Gòn",
+    "file": "images/do_uong/nuoc_ca_phe_sua_da.webp",
+    "kind": "photo",
+    "title": "File:CÀ PHÊ SỮA PHA PHIN.jpg",
+    "artist": "Souradeep.Dasgupta",
+    "source": "https://commons.wikimedia.org/wiki/File%3AC%C3%80%20PH%C3%8A%20S%E1%BB%AEA%20PHA%20PHIN.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/C%C3%80_PH%C3%8A_S%E1%BB%AEA_PHA_PHIN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "nuoc_ca_phe_cot_dua": {
+    "name": "Cà Phê Cốt Dừa Hải Phòng",
+    "file": "images/do_uong/nuoc_ca_phe_cot_dua.webp",
+    "kind": "photo",
+    "title": "File:Vietnamese Salted Coffee & Xin chao's coconut Coffee - Xin Chao, Eastbourne 2026-08-14.jpg",
+    "artist": "Andy Li",
+    "source": "https://commons.wikimedia.org/wiki/File%3AVietnamese%20Salted%20Coffee%20%26%20Xin%20chao%27s%20coconut%20Coffee%20-%20Xin%20Chao%2C%20Eastbourne%202026-08-14.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/21/Vietnamese_Salted_Coffee_%26_Xin_chao%27s_coconut_Coffee_-_Xin_Chao%2C_Eastbourne_2026-08-14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+  },
+  "banh_trang_tron": {
+    "title": "File:Banh trang tron (mua tai truong thpt giadinh).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Banh_trang_tron_%28mua_tai_truong_thpt_giadinh%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "author": "<a href=\"https://vi.wikipedia.org/wiki/User:Memberofc1\" class=\"extiw\" title=\"vi:User:Memberofc1\">Memberofc1</a> (<a href=\"https://vi.wikipedia.org/wiki/User_talk:Memberofc1\" class=\"extiw\" title=\"vi:User talk:Memberofc1\">thảo luận</a>)",
+    "license": "CC BY-SA 3.0"
+  },
+  "banh_trang_nuong": {
+    "title": "File:Bánh tráng nướng TP. Hồ Chí Minh - street food in Ho Chi Minh City, Vietnam.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/B%C3%A1nh_tr%C3%A1ng_n%C6%B0%E1%BB%9Bng_TP._H%E1%BB%93_Ch%C3%AD_Minh_-_street_food_in_Ho_Chi_Minh_City%2C_Vietnam.jpg/960px-B%C3%A1nh_tr%C3%A1ng_n%C6%B0%E1%BB%9Bng_TP._H%E1%BB%93_Ch%C3%AD_Minh_-_street_food_in_Ho_Chi_Minh_City%2C_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/lightwrite/\">Light Write</a>",
+    "license": "CC BY-SA 2.0"
+  },
+  "banh_trang_cuon_bo": {
+    "title": "File:Bánh tráng cuốn 2013.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/B%C3%A1nh_tr%C3%A1ng_cu%E1%BB%91n_2013.jpg/960px-B%C3%A1nh_tr%C3%A1ng_cu%E1%BB%91n_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"https://vi.wikipedia.org/wiki/User:Ph%C6%B0%C6%A1ng_Huy\" class=\"extiw\" title=\"vi:User:Phương Huy\">Phương Huy</a> (<a href=\"https://vi.wikipedia.org/wiki/User_talk:Ph%C6%B0%C6%A1ng_Huy\" class=\"extiw\" title=\"vi:User talk:Phương Huy\">thảo luận</a>)",
+    "license": "Public domain"
+  },
+  "banh_trang_cham_me": {
+    "title": "File:Bánh Tráng Cù Lao Mây.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/B%C3%A1nh_Tr%C3%A1ng_C%C3%B9_Lao_M%C3%A2y.JPG/960px-B%C3%A1nh_Tr%C3%A1ng_C%C3%B9_Lao_M%C3%A2y.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Hoangvantoanajc\" title=\"User:Hoangvantoanajc\">Hoangvantoanajc</a>",
+    "license": "CC BY-SA 3.0"
+  },
+  "banh_trang_kep": {
+    "title": "File:Pizzabanhtrangnuong2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Pizzabanhtrangnuong2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Huutai11791&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Huutai11791 (page does not exist)\">Huutai11791</a>",
+    "license": "CC BY-SA 3.0"
+  },
+  "ca_vien_chien_mam": {
+    "title": "File:Fish balls and Chinese fried fish sausages with sauce.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Fish_balls_and_Chinese_fried_fish_sausages_with_sauce.jpg/960px-Fish_balls_and_Chinese_fried_fish_sausages_with_sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Vee Satayamas",
+    "license": "CC BY-SA 4.0"
+  },
+  "nem_chua_ran": {
+    "title": "File:Nem chua.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Nem_chua.jpg/960px-Nem_chua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91372089@N00\">Ron Diggity</a>",
+    "license": "CC BY 2.0"
+  },
+  "chan_ga_sa_tac": {
+    "title": "File:Chicken feet. Hong Kong. (16841735339).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Chicken_feet._Hong_Kong._%2816841735339%29.jpg/960px-Chicken_feet._Hong_Kong._%2816841735339%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/88123769@N02\">Bernard Spragg. NZ</a> from Christchurch, New Zealand",
+    "license": "CC0"
+  },
+  "banh_mi_muoi_ot": {
+    "title": "File:Bánh mì nướng muối ớt.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/B%C3%A1nh_m%C3%AC_n%C6%B0%E1%BB%9Bng_mu%E1%BB%91i_%E1%BB%9Bt.jpg/960px-B%C3%A1nh_m%C3%AC_n%C6%B0%E1%BB%9Bng_mu%E1%BB%91i_%E1%BB%9Bt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Baoothersks&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Baoothersks (page does not exist)\">Baoothersks</a>",
+    "license": "CC BY-SA 4.0"
+  },
+  "khoai_lang_lac": {
+    "title": "File:020240623 123653 Sweet Potato Fries.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/020240623_123653_Sweet_Potato_Fries.jpg/960px-020240623_123653_Sweet_Potato_Fries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Silar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Silar (page does not exist)\">Silar</a>",
+    "license": "CC BY-SA 4.0"
+  },
+  "khoai_tay_lac": {
+    "title": "File:Cajun fries from Popeyes Louisiana Kitchen, Stratford, Ontario, 2025-08-04.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Cajun_fries_from_Popeyes_Louisiana_Kitchen%2C_Stratford%2C_Ontario%2C_2025-08-04.jpg/960px-Cajun_fries_from_Popeyes_Louisiana_Kitchen%2C_Stratford%2C_Ontario%2C_2025-08-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Crisco_1492\" title=\"User:Crisco 1492\">Chris Woodrich</a>",
+    "license": "CC BY-SA 4.0"
+  },
+  "xoai_lac": {
+    "title": "File:Green mangoes with vinegar, chili, salt, and soy sauce (Philippines) 01.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Green_mangoes_with_vinegar%2C_chili%2C_salt%2C_and_soy_sauce_%28Philippines%29_01.jpg/960px-Green_mangoes_with_vinegar%2C_chili%2C_salt%2C_and_soy_sauce_%28Philippines%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Obsidian_Soul\" title=\"User:Obsidian Soul\">Obsidian Soul</a>",
+    "license": "CC0"
+  },
+  "coc_lac": {
+    "title": "File:Green Mango Chutney of Bengal.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Green_Mango_Chutney_of_Bengal.jpg/960px-Green_Mango_Chutney_of_Bengal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Billjones94\" title=\"User:Billjones94\">Billjones94</a>",
+    "license": "CC BY-SA 4.0"
+  },
+  "bap_xao_bo": {
+    "title": "File:Mmm... buttered sweet corn and a BLT for lunch (7670120520).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Mmm..._buttered_sweet_corn_and_a_BLT_for_lunch_%287670120520%29.jpg/960px-Mmm..._buttered_sweet_corn_and_a_BLT_for_lunch_%287670120520%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/7927684@N03\">jeffreyw</a>",
+    "license": "CC BY 2.0"
+  },
+  "pho_mai_que": {
+    "title": "File:Mozzarella Sticks at Mobtown Ballroom.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Mozzarella_Sticks_at_Mobtown_Ballroom.jpg/960px-Mozzarella_Sticks_at_Mobtown_Ballroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Sdkb\" title=\"User:Sdkb\">Sdkb</a>",
+    "license": "CC BY-SA 4.0"
+  },
+  "trung_cut_lon_me": {
+    "title": "File:Boiled quail eggs.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Profiteroles_-_Annie_Smithers_Bistrot.jpg/960px-Profiteroles_-_Annie_Smithers_Bistrot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10559879@N00\">Alpha</a> from Melbourne, Australia",
+    "license": "CC BY-SA 2.0"
+  },
+  "hot_vit_lon_me": {
+    "title": "File:EGG BALUT.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/EGG_BALUT.jpg/960px-EGG_BALUT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Melchior22&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Melchior22 (page does not exist)\">Melchior22</a>",
+    "license": "CC BY-SA 4.0"
+  },
+  "bo_bia_man": {
+    "title": "File:LunBhia.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/LunBhia.jpg/960px-LunBhia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Sjschen\" title=\"User:Sjschen\">Sjschen</a>.",
+    "license": "CC BY-SA 3.0"
+  },
+  "ga_lac_pho_mai": {
+    "title": "File:KFC Popcorn Chicken (12956064765).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/KFC_Popcorn_Chicken_%2812956064765%29.jpg/960px-KFC_Popcorn_Chicken_%2812956064765%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/39160147@N03\">Mike Mozart</a> from Funny YouTube, USA",
+    "license": "CC BY 2.0"
+  },
+  "da_heo_chay_toi": {
+    "title": "File:ChicharronMixto.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/ChicharronMixto.JPG/960px-ChicharronMixto.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Dtarazona\" title=\"User:Dtarazona\">Dtarazona</a>",
+    "license": "Public domain"
+  },
+  "banh_ga_pho_mai": {
+    "title": "File:A bowl of chicken nuggets.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/A_bowl_of_chicken_nuggets.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Rye-96\" title=\"User:Rye-96\">Rye-96</a>",
+    "license": "CC BY-SA 4.0"
+  },
+  "xien_que_nuong": {
+    "title": "File:Köfte kebabs.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/K%C3%B6fte_kebabs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/23766209@N04\">Foodista</a>",
+    "license": "CC BY 2.0"
+  },
+  "tau_hu_tran_chau": {
+    "title": "File:Douhua in Tainan.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/06.30_%E7%B8%BD%E7%B5%B1%E5%93%81%E5%9A%90%E5%8F%B0%E6%9D%B1%E5%B0%8F%E5%90%83_%2848160083661%29.jpg/960px-06.30_%E7%B8%BD%E7%B5%B1%E5%93%81%E5%9A%90%E5%8F%B0%E6%9D%B1%E5%B0%8F%E5%90%83_%2848160083661%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/40092099@N04\">總統府</a>",
+    "license": "CC BY 2.0"
+  },
+  "tokbokki_pho_mai": {
+    "title": "File:Tteokbokki.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Beef_rice_pasta_-_Korpan.jpg/960px-Beef_rice_pasta_-_Korpan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Onthewings\" title=\"User:Onthewings\">Andy Li</a>",
+    "license": "CC0"
+  },
+  "muc_rim_me": {
+    "title": "File:Dried squid in street food stall.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/HK_TKL_%E8%AA%BF%E6%99%AF%E5%B6%BA_Tiu_Keng_Leng_%E5%BD%A9%E6%98%8E%E8%A1%97_Choi_Ming_Street_%E6%99%AF%E5%B6%BA%E9%81%93_King_Ling_Road_%E5%BD%A9%E6%98%8E%E5%95%86%E5%A0%B4_Choi_Ming_Shopping_Centre_%E8%8C%B6%E9%AD%9A%E9%A3%AF%E5%90%8E_restaurant_menu_January_2023_Px3.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:KASMYSZIEpago_MEIGAUM\" title=\"User:KASMYSZIEpago MEIGAUM\">KASMYSZIEpago MEIGAUM</a>",
+    "license": "CC BY-SA 4.0"
+  },
+  "goi_cuon_tom_thit": {
+    "title": "File:Gỏi cuốn.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/G%E1%BB%8Fi_cu%E1%BB%91n.jpg/960px-G%E1%BB%8Fi_cu%E1%BB%91n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://pixabay.com/users/JamesTran-3762406/\">Tran Hai Duong</a>",
+    "license": "CC0"
+  },
+  "banh_crepe_sau_rieng": {
+    "title": "File:Mille crêpe.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Mille_cr%C3%AApe.jpg/960px-Mille_cr%C3%AApe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Laitr_Keiows\" title=\"User:Laitr Keiows\">Laitr Keiows</a>",
+    "license": "CC BY-SA 3.0"
+  },
+  "trung_long_dao": {
+    "title": "File:Boiled Egg - Crossection.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Boiled_Egg_-_Crossection.jpg/960px-Boiled_Egg_-_Crossection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/39107352@N08\">Ramesh NG</a>",
+    "license": "CC BY-SA 2.0"
+  },
+  "doi_sun_nuong": {
+    "title": "File:Grilled Sausages and Corn Sausages.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Grilled_Sausages_and_Corn_Sausages.jpg/960px-Grilled_Sausages_and_Corn_Sausages.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:%E5%BD%A9%E8%89%B2%E7%90%AA%E5%AD%90\" title=\"User:彩色琪子\">彩色琪子</a>",
+    "license": "CC BY-SA 3.0"
+  },
+  "nem_lui_nuong": {
+    "title": "File:Nhà mình Lễ 30th4n2023 (chạo nem lụi) (1).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Nh%C3%A0_m%C3%ACnh_L%E1%BB%85_30th4n2023_%28ch%E1%BA%A1o_nem_l%E1%BB%A5i%29_%281%29.jpg/960px-Nh%C3%A0_m%C3%ACnh_L%E1%BB%85_30th4n2023_%28ch%E1%BA%A1o_nem_l%E1%BB%A5i%29_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Ph%C6%B0%C6%A1ng_Huy\" title=\"User:Phương Huy\">Phương Huy</a>",
+    "license": "CC BY-SA 4.0"
+  },
+  "banh_bao_chien": {
+    "title": "File:Shengjian Mantou on a Pan.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Shengjian_Mantou_on_a_Pan.jpg/960px-Shengjian_Mantou_on_a_Pan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Luca Mascaro",
+    "license": "CC BY-SA 2.0"
+  },
+  "banh_bot_loc_chien": {
+    "title": "File:Bánh bèo, bột lọc, nem chua.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/B%C3%A1nh_b%C3%A8o%2C_b%E1%BB%99t_l%E1%BB%8Dc%2C_nem_chua.jpg/960px-B%C3%A1nh_b%C3%A8o%2C_b%E1%BB%99t_l%E1%BB%8Dc%2C_nem_chua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/70209763@N00\">Thang Nguyen</a> from Nottingham, United Kingdom",
+    "license": "CC BY-SA 2.0"
+  },
+  "kho_ga_la_chanh": {
+    "title": "File:Fragrance Pork Floss.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Fragrance_Pork_Floss.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "author": "<a href=\"https://en.wikipedia.org/wiki/en:User:Khooeddi\" class=\"extiw\" title=\"w:en:User:Khooeddi\">w:en:User:Khooeddi</a>",
+    "license": "CC BY-SA 3.0"
+  },
+  "kho_bo_den": {
+    "title": "File:BiltongUKDried.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/BiltongUKDried.jpg/960px-BiltongUKDried.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"https://en.wikipedia.org/wiki/User:Jamsta\" class=\"extiw\" title=\"wikipedia:User:Jamsta\">Jamsta</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+    "license": "CC BY-SA 3.0"
+  },
+  "ha_cao_chien": {
+    "title": "File:Jiaozi-close-look.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Jiaozi-close-look.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  },
+  "banh_flan": {
+    "title": "File:Flan-04926.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Flan-04926.jpg/960px-Flan-04926.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Ezarate\" title=\"User:Ezarate\">Ezarate</a>",
+    "license": "CC BY-SA 4.0"
+  },
+  "ja_m_4": {
+    "title": "File:Egg Sandwich.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Egg_Sandwich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dgossow&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dgossow (page does not exist)\">David Gossow</a>",
+    "license": "CC BY-SA 4.0"
+  },
+  "ja_m_7": {
+    "title": "File:Natto on rice.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Natto_on_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "author": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/User:Shades0404\" class=\"extiw\" title=\"wikipedia:User:Shades0404\">Shades0404</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>.",
+    "license": "CC BY 2.5"
+  },
+  "ja_m_9": {
+    "title": "File:Japanese rice balls (onigiri).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Japanese_rice_balls_%28onigiri%29.jpg/960px-Japanese_rice_balls_%28onigiri%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tednmiki&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tednmiki (page does not exist)\">tednmiki</a>",
+    "license": "CC BY-SA 3.0"
+  },
+  "ja_l_1": {
+    "title": "File:Kaisen-don 001.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Kaisen-don_001.jpg/960px-Kaisen-don_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Ocdp\" title=\"User:Ocdp\">Ocdp</a>",
+    "license": "CC0"
+  },
+  "nuoc_ep_oi.webp": {
+    "name": "Nước Ép Ổi Hạt Lựu",
+    "file": "images/do_uong/nuoc_ep_oi.webp",
+    "kind": "photo",
+    "title": "File:Agua de guayaba.jpg",
+    "artist": "AlejandroLinaresGarcia",
+    "source": "https://commons.wikimedia.org/wiki/File:Agua_de_guayaba.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh tĩnh vật ẩm thực Wikimedia Commons. Không dính người."
+  },
+  "nuoc_tra_oi_hong_hat_chia.webp": {
+    "name": "Trà Ổi Hồng Hạt Chia",
+    "file": "images/do_uong/nuoc_tra_oi_hong_hat_chia.webp",
+    "kind": "photo",
+    "title": "File:Fresh Gvava Juice.JPG",
+    "artist": "MGA73bot2",
+    "source": "https://commons.wikimedia.org/wiki/File:Fresh_Gvava_Juice.JPG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh tĩnh vật ẩm thực Wikimedia Commons. Không dính người."
+  },
+  "nuoc_sinh_to_xoai.webp": {
+    "name": "Sinh Tố Xoài Cát Hòa Lộc",
+    "file": "images/do_uong/nuoc_sinh_to_xoai.webp",
+    "kind": "photo",
+    "title": "File:Costco treats - Lassi.jpg",
+    "artist": "Infrogmation of New Orleans",
+    "source": "https://commons.wikimedia.org/wiki/File:Costco_treats_-_Lassi.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh tĩnh vật ẩm thực Wikimedia Commons. Không dính người."
+  },
+  "nuoc_tra_vai_lai.webp": {
+    "name": "Trà Vải Hoa Lài",
+    "file": "images/do_uong/nuoc_tra_vai_lai.webp",
+    "kind": "photo",
+    "title": "File:Lychee sorbet black tea with mint leaf.jpg",
+    "artist": "jeffreyw",
+    "source": "https://commons.wikimedia.org/wiki/File:Lychee_sorbet_black_tea_with_mint_leaf.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons. Tĩnh vật ly trà vải hoa lài không dính người."
+  },
+  "nuoc_revive.webp": {
+    "name": "Nước bù khoáng Revive",
+    "file": "images/do_uong/nuoc_revive.webp",
+    "kind": "photo",
+    "title": "File:Gatorade Thirst Quencher.jpg",
+    "artist": "Clean Sports Isotonic Photography",
+    "source": "https://commons.wikimedia.org/wiki/File:Gatorade_Thirst_Quencher.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh tĩnh vật đồ uống bù khoáng. Không dính người."
   }
 }

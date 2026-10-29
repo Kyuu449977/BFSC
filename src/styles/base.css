@@ -418,7 +418,8 @@ p {
   align-items: center;
   gap: 10px;
   padding: 3px 14px;
-  background: white;
+  background: var(--card-bg, #ffffff);
+  color: var(--ink);
   border: 1px solid var(--border);
   border-radius: 14px;
   color: #9a9084;
@@ -483,13 +484,15 @@ p {
   border-radius: 18px;
   padding: 0;
   overflow: hidden;
-  background: white;
+  background: var(--card-bg, #ffffff);
+  color: var(--ink);
   transition:
     box-shadow 0.18s ease,
     transform 0.18s ease;
 }
 .dish-card:hover {
-  background: white;
+  background: var(--card-bg, #ffffff);
+  color: var(--ink);
   box-shadow: 0 9px 24px #4c2e1010;
   transform: translateY(-2px);
 }
@@ -523,6 +526,7 @@ p {
   flex: 1;
 }
 .dish-name {
+  color: var(--ink);
   font-size: 14px;
   font-weight: 600;
   line-height: 1.55;
@@ -573,7 +577,8 @@ p {
   width: 45px;
   height: 45px;
   border-radius: 15px;
-  background: white;
+  background: var(--card-bg, #ffffff);
+  color: var(--ink);
   color: var(--orange);
   flex-shrink: 0;
 }
@@ -663,7 +668,8 @@ dialog::backdrop {
   margin: auto;
 }
 .result-card {
-  background: white;
+  background: var(--card-bg, #ffffff);
+  color: var(--ink);
   border: 1px solid var(--border);
   border-radius: 18px;
   overflow: hidden;
@@ -762,7 +768,8 @@ dialog::backdrop {
   width: 100%;
   border: 1px solid var(--border);
   border-radius: 12px;
-  background: white;
+  background: var(--card-bg, #ffffff);
+  color: var(--ink);
   padding: 14px;
   color: var(--ink);
   font-size: 13px;
@@ -792,7 +799,8 @@ dialog::backdrop {
   width: 130px;
   flex-shrink: 0;
   border-radius: 12px;
-  background: white;
+  background: var(--card-bg, #ffffff);
+  color: var(--ink);
   overflow: hidden;
   border: 1px solid var(--border);
 }
@@ -1085,6 +1093,7 @@ dialog::backdrop {
     gap: 8px;
   }
   .dish-name {
+  color: var(--ink);
     font-size: 12px;
   }
   .dish-body .price {

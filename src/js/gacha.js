@@ -130,11 +130,10 @@ class GachaEngine {
     if (budget !== null && (!Number.isSafeInteger(budget) || budget < 0))
       throw new Error('Ngân sách phải là số tiền hợp lệ.');
     const period = getCurrentMealPeriod();
-    const key = mode === 'main' ? period : mode;
     const db = this.getActiveDatabase();
     const group = (source) => {
       const srcGroup = db[source] || (typeof FOOD_DATABASE !== 'undefined' ? FOOD_DATABASE[source] : { dishes: [], name: '' });
-      return srcGroup.dishes
+      return (srcGroup.dishes || [])
         .filter((dish) => !this.preferences || this.preferences.eligible(dish, source))
         .map((dish) => ({
           dish,
@@ -142,9 +141,28 @@ class GachaEngine {
           sourceName: srcGroup.name,
         }));
     };
-    const pool = group(key);
-    const main = group(period),
-      snacks = group('snacks'),
+
+    let pool;
+    if (mode === 'main') {
+      const allMainItems = ['morning', 'lunch', 'afternoon', 'dinner'].flatMap((p) => group(p));
+      const seen = new Set();
+      pool = allMainItems.filter((item) => {
+        if (seen.has(item.dish.id)) return false;
+        seen.add(item.dish.id);
+        return true;
+      });
+    } else {
+      pool = group(mode);
+    }
+
+    const allMain = ['morning', 'lunch', 'afternoon', 'dinner'].flatMap((p) => group(p));
+    const seenM = new Set();
+    const main = allMain.filter((item) => {
+      if (seenM.has(item.dish.id)) return false;
+      seenM.add(item.dish.id);
+      return true;
+    });
+    const snacks = group('snacks'),
       drinks = group('drinks');
     const minCost = (items) => {
       const values = items
@@ -170,7 +188,7 @@ class GachaEngine {
       unique,
       budget,
       period,
-      key,
+      key: mode,
       singles: this.candidates([pool], budget, false),
       triples: this.candidates([pool, pool, pool], budget, unique),
       combos: this.candidates([main, snacks, drinks], budget, false),
@@ -229,20 +247,35 @@ class GachaEngine {
     const plan = prepared || this.prepareSelection({ mode, unique, budget });
     if (plan.signature !== this.signature(mode, unique, budget))
       throw new Error('Thực đơn hoặc ngân sách vừa thay đổi. Vui lòng chờ tính lại.');
-    const key = this.getActiveBannerKey(mode);
     const activeDb = this.getActiveDatabase();
-    const activeGroup = activeDb[key] || (typeof FOOD_DATABASE !== 'undefined' ? FOOD_DATABASE[key] : { dishes: [], name: '' });
-    if (unique && activeGroup.dishes.length < count)
+    const group = (source) => {
+      const srcGroup = activeDb[source] || (typeof FOOD_DATABASE !== 'undefined' ? FOOD_DATABASE[source] : { dishes: [], name: '' });
+      return (srcGroup.dishes || [])
+        .filter((dish) => !this.preferences || this.preferences.eligible(dish, source))
+        .map((dish) => ({
+          dish,
+          source,
+          sourceName: srcGroup.name,
+        }));
+    };
+
+    let pool;
+    if (mode === 'main') {
+      const allMainItems = ['morning', 'lunch', 'afternoon', 'dinner'].flatMap((p) => group(p));
+      const seen = new Set();
+      pool = allMainItems.filter((item) => {
+        if (seen.has(item.dish.id)) return false;
+        seen.add(item.dish.id);
+        return true;
+      });
+    } else {
+      pool = group(mode);
+    }
+
+    if (unique && pool.length < count)
       throw new Error('Không đủ món khác nhau. Hãy chọn ít món hơn hoặc tắt tùy chọn không trùng.');
     if (count === 1) return this.pick(plan.singles);
     if (count === 3) return this.pick(plan.triples);
-    const pool = activeGroup.dishes
-      .filter((dish) => !this.preferences || this.preferences.eligible(dish, key))
-      .map((dish) => ({
-        dish,
-        source: key,
-        sourceName: activeGroup.name,
-      }));
     return this.pick(this.candidates([pool, pool], budget, unique));
   }
 

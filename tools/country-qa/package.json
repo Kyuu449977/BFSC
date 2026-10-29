@@ -1,0 +1,6 @@
+{
+  "name": "bfsc-country-qa",
+  "private": true,
+  "scripts": { "test": "node run.cjs", "validate": "node run.cjs --validate" },
+  "devDependencies": { "playwright": "^1.58.0" }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://angiday.app/sitemap.xml

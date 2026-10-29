@@ -4,10 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#fbf8f3" />
+    <title>Ăn gì đây? — Hôm nay ăn gì? Vòng quay random món ăn & Quán ngon gần bạn</title>
     <meta
       name="description"
-      content="Chọn món Việt theo buổi, khám phá 89 lựa chọn món ăn bình dân và tìm quán trên Google Maps. Dùng ngay trên điện thoại, không cần quét mã."
+      content="Ăn gì đây? Ứng dụng vòng quay random món ăn, thực đơn món chính, đồ ăn vặt hot trend và thức uống giải khát số 1 Việt Nam. Giúp bạn quyết định hôm nay ăn gì trong tích tắc, tự động tìm quán ngon gần nhất trên Google Maps!"
     />
+    <meta
+      name="keywords"
+      content="ăn gì đây, hôm nay ăn gì, trưa nay ăn gì, tối nay ăn gì, sáng nay ăn gì, ăn gì hôm nay, vòng quay random món ăn, vòng quay ăn gì, gợi ý món ăn, món ngon mỗi ngày, món ăn việt nam, đồ ăn vặt hot trend, thức uống giải khát, trà sữa, quán ăn gần đây, bánh tráng trộn, phở bò, cơm tấm"
+    />
+    <meta name="author" content="Ăn Gì Đây" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="canonical" href="https://angiday.app/" />
+
+    <!-- Open Graph / Facebook / Zalo / Telegram Previews -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ăn Gì Đây?" />
+    <meta property="og:title" content="Ăn gì đây? — Hôm nay ăn gì? Vòng quay random món ăn & Quán ngon gần bạn" />
+    <meta
+      property="og:description"
+      content="Không còn đau đầu nghĩ món! Vòng quay random món chính, đồ ăn vặt hot trend và thức uống mát lạnh, tự động tìm đường đến quán ngon trên Google Maps."
+    />
+    <meta property="og:url" content="https://angiday.app/" />
+    <meta property="og:image" content="https://angiday.app/assets/brand.svg" />
+    <meta property="og:image:alt" content="Ăn Gì Đây? - Vòng quay chọn món ăn" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="ja_JP" />
+    <meta property="og:locale:alternate" content="ko_KR" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ăn gì đây? — Hôm nay ăn gì? Vòng quay random món ăn" />
+    <meta
+      name="twitter:description"
+      content="Vòng quay ngẫu nhiên món chính, đồ ăn vặt và thức uống giải khát, tự động tìm quán ngon gần nhất."
+    />
+    <meta name="twitter:image" content="https://angiday.app/assets/brand.svg" />
+
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Ăn gì đây?" />
     <script src="theme-init.js"></script>
@@ -16,7 +51,48 @@
     <link rel="icon" href="assets/brand.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="assets/fonts/fonts.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Ăn gì đây? — Một bữa ngon, một ngày vui</title>
+
+    <!-- Schema.org JSON-LD Structured Data for Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "@id": "https://angiday.app/#webapp",
+          "name": "Ăn Gì Đây?",
+          "alternateName": ["Hôm Nay Ăn Gì", "Vòng Quay Ăn Gì", "What To Eat Today"],
+          "url": "https://angiday.app/",
+          "description": "Ứng dụng vòng quay random món ăn, thực đơn món chính, đồ ăn vặt hot trend và đồ uống giải khát, tự động tìm quán ngon gần bạn trên Google Maps.",
+          "applicationCategory": "FoodAndDrinkApplication",
+          "operatingSystem": "All",
+          "browserRequirements": "Requires JavaScript. Requires HTML5.",
+          "inLanguage": ["vi", "en", "ja", "ko", "zh"],
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "VND"
+          },
+          "featureList": [
+            "Vòng quay random món chính, ăn vặt và đồ uống",
+            "Vòng quay tự chọn tùy biến với kho tàng Món từ Vũ Trụ",
+            "Hiệu ứng thẻ bài 3D Flip Card bí ẩn",
+            "Tìm quán ăn gần nhất trên Google Maps trong 1 chạm",
+            "Âm nhạc nền vui tươi kích thích vị giác",
+            "Chế độ hiển thị sáng/tối tự động đồng bộ theo buổi trong ngày"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://angiday.app/#website",
+          "url": "https://angiday.app/",
+          "name": "Ăn Gì Đây?",
+          "description": "Một bữa ngon, một ngày vui. Giải pháp chọn món ăn hàng ngày cho người Việt.",
+          "inLanguage": "vi-VN"
+        }
+      ]
+    }
+    </script>
     <script defer src="data.js"></script>
     <script defer src="assets/vendor/motion.js"></script>
     <script defer src="experience.js"></script>
@@ -70,6 +146,14 @@
             aria-haspopup="dialog"
           >
             <span data-icon="sparkles"></span>
+          </button>
+          <button
+            id="mapsHeaderBtn"
+            class="icon-button"
+            aria-label="Tìm quán trên Google Maps"
+            title="Tìm quán ăn gần bạn trên Google Maps"
+          >
+            <span data-icon="map-pin"></span>
           </button>
           <button id="installBtn" class="icon-button" title="Thêm vào màn hình chính">
             <span data-icon="download"></span><span class="sr-only">Thêm vào màn hình chính</span>
@@ -156,6 +240,9 @@
               ><button id="tripleBtn"><span data-icon="layers"></span>Chọn 3 món</button
               ><button id="comboBtn" aria-describedby="comboHelp">
                 <span data-icon="sparkles"></span>Tạo combo
+              </button>
+              <button id="customWheelBtn" class="custom-wheel-btn" type="button" title="Tự tạo danh sách món và quay ngẫu nhiên">
+                <span data-icon="sliders"></span>Vòng quay tự chọn
               </button>
             </div>
             <p id="budgetStatus" class="budget-status" role="status" aria-live="polite"></p>
@@ -264,6 +351,11 @@
               <option value="hidden">Món đã ẩn · có thể khôi phục</option>
             </select>
           </div>
+          <div class="menu-top-bar">
+            <button id="addDishBtn" class="add-dish-btn" type="button" title="Đóng góp món ăn mới vào thực đơn">
+              <span data-icon="plus-circle"></span><span>Thêm món mới</span>
+            </button>
+          </div>
           <div class="search-wrap">
             <span data-icon="search"></span
             ><input
@@ -277,6 +369,7 @@
             </button>
           </div>
           <nav id="filters" class="filters" aria-label="Lọc thực đơn"></nav>
+          <div id="drinkSubFilters" class="drink-sub-filters" hidden aria-label="Phân loại đồ uống"></div>
           <p id="menuStatus" class="menu-status" role="status" aria-live="polite"></p>
           <div id="menuEmpty" class="menu-empty" hidden>
             <p id="menuEmptyMessage"></p>
@@ -288,15 +381,42 @@
             Xem thêm món<span data-icon="arrow-right"></span>
           </button>
         </section>
-        <a class="maps-callout" href="#home" aria-label="Về phần gợi ý để chọn món và tìm quán"
-          ><span class="callout-icon"><span data-icon="map-pin"></span></span>
-          <div>
-            <strong>Thấy món ngon? Tìm ngay quán gần bạn.</strong>
-            <p>Chọn món rồi mở Google Maps để xem địa chỉ, đánh giá và thực đơn của quán.</p>
-          </div>
-          <span data-icon="arrow-up-right"></span
-        ></a>
+
       </main>
+      <!-- SEO Information Section -->
+      <section class="seo-intro" aria-label="Giới thiệu Ăn Gì Đây">
+        <div class="seo-intro-content">
+          <h2>Ăn Gì Đây? — Vòng Quay Random Món Ăn & Gợi Ý Bữa Ngon Hôm Nay</h2>
+          <p>
+            Bạn đang băn khoăn tự hỏi <strong>"Hôm nay ăn gì?", "Trưa nay ăn gì?", "Tối nay ăn gì?"</strong>? 
+            <strong>Ăn Gì Đây?</strong> là ứng dụng thông minh giúp bạn chọn món ngẫu nhiên trong 1 nốt nhạc, 
+            tổng hợp trọn vẹn hơn 100+ món chính đặc sắc khắp 3 miền, hơn 37 món ăn vặt đường phố hot trend và hơn 73 loại đồ uống thanh mát.
+          </p>
+          <div class="seo-features-grid">
+            <div class="seo-feature-item">
+              <span class="seo-feature-icon">✨</span>
+              <strong>Vòng Quay Random Món Ăn</strong>
+              <p>Quay 1 món, 3 món hoặc Combo (Món chính + Ăn vặt + Đồ uống) cùng hiệu ứng thẻ bài 3D bí ẩn.</p>
+            </div>
+            <div class="seo-feature-item">
+              <span class="seo-feature-icon">🌌</span>
+              <strong>Vòng Quay Tự Chọn & Món Vũ Trụ</strong>
+              <p>Tự nhập món bạn thích hoặc chọn nhanh từ menu web để quay ngẫu nhiên theo nhu cầu riêng.</p>
+            </div>
+            <div class="seo-feature-item">
+              <span class="seo-feature-icon">📍</span>
+              <strong>Tìm Quán Ngon Gần Bạn</strong>
+              <p>Xem vị trí, chỉ đường và đánh giá quán ăn trên Google Maps chỉ với 1 thao tác chạm.</p>
+            </div>
+            <div class="seo-feature-item">
+              <span class="seo-feature-icon">🎵</span>
+              <strong>Nhạc Nền Vui Tươi & Giao Diện Theo Buổi</strong>
+              <p>Âm nhạc kích thích cảm giác ngon miệng và màu nền tự động chuyển đổi theo thời gian thực.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer>
         <a class="footer-brand" href="#home">Ăn gì đây.</a
         ><span>Ăn ngon, chọn vui. Theo cách của bạn.</span>
@@ -373,6 +493,134 @@
           <span data-icon="check"></span>
         </button>
       </div>
+    </dialog>
+    <dialog id="customWheelDialog" class="compact-dialog" aria-labelledby="customWheelTitle">
+      <div class="dialog-heading">
+        <div>
+          <span class="eyebrow">TÙY CHỈNH THEO Ý BẠN</span>
+          <h2 id="customWheelTitle">Vòng quay tự chọn</h2>
+        </div>
+        <button class="icon-button" data-close aria-label="Đóng vòng quay tự chọn">
+          <span data-icon="x"></span>
+        </button>
+      </div>
+      <div class="custom-wheel-content">
+        <p class="custom-wheel-desc">Nhập danh sách món bạn muốn random (mỗi món 1 dòng), hoặc chọn nhanh từ menu web:</p>
+        <div class="custom-wheel-input-area">
+          <textarea id="customWheelInput" rows="5" placeholder="Ví dụ:&#10;Cơm tấm sườn bì chả&#10;Phở bò tái lăn&#10;Bún đậu mắm tôm&#10;Trà sữa trân châu&#10;Ăn mì gói ở nhà"></textarea>
+        </div>
+        <div class="custom-wheel-quick-actions">
+          <button id="customWheelUniverseBtn" type="button" class="btn-subtle custom-wheel-universe-btn" title="Chọn bất kỳ món nào từ thực đơn của web để thêm vào vòng quay">
+            <span data-icon="sparkles"></span>+ Món từ Vũ Trụ
+          </button>
+          <button id="customWheelClearBtn" type="button" class="btn-subtle">
+            <span data-icon="trash-2"></span>Xóa hết
+          </button>
+        </div>
+        <div class="custom-wheel-count-info">
+          <span id="customWheelCount">0 món trong danh sách</span>
+        </div>
+        <div id="customWheelAlert" class="custom-wheel-alert" role="alert" hidden>
+          <span data-icon="alert-circle"></span>
+          <span id="customWheelAlertText">Vui lòng nhập ít nhất 2 món vào danh sách để quay nhé!</span>
+        </div>
+        <button id="customWheelSpinActionBtn" type="button" class="primary-button custom-wheel-spin-action">
+          <span data-icon="shuffle"></span>Bắt đầu quay ngay!
+        </button>
+      </div>
+    </dialog>
+    <!-- Universe Dish Picker Dialog -->
+    <dialog id="universeDishDialog" class="universe-dish-dialog" aria-labelledby="universeDishTitle">
+      <div class="dialog-heading">
+        <div>
+          <span class="eyebrow">KHO TÀNG MÓN NGON</span>
+          <h2 id="universeDishTitle">✨ Chọn Món từ Vũ Trụ</h2>
+        </div>
+        <button class="icon-button" data-close aria-label="Đóng chọn món vũ trụ">
+          <span data-icon="x"></span>
+        </button>
+      </div>
+      <div class="universe-dialog-body">
+        <div class="universe-search-bar">
+          <span data-icon="search" class="universe-search-icon"></span>
+          <input type="text" id="universeDishSearch" placeholder="Tìm món ăn, đồ uống yêu thích..." />
+        </div>
+        <div class="universe-category-tabs" role="tablist">
+          <button type="button" class="universe-tab active" data-category="all">Tất cả (<span id="universeCountAll">0</span>)</button>
+          <button type="button" class="universe-tab" data-category="main">Món Chính</button>
+          <button type="button" class="universe-tab" data-category="snacks">Món Ăn Vặt</button>
+          <button type="button" class="universe-tab" data-category="drinks">Đồ Uống</button>
+        </div>
+        <div class="universe-quick-select">
+          <div>
+            <button type="button" id="universeSelectAllBtn" class="universe-link-btn">Chọn tất cả</button>
+            <span class="universe-divider">·</span>
+            <button type="button" id="universeDeselectAllBtn" class="universe-link-btn">Bỏ chọn</button>
+          </div>
+          <span id="universeSelectedBadge" class="universe-selected-badge">Đã chọn: 0 món</span>
+        </div>
+        <div id="universeDishList" class="universe-dish-list">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </div>
+      <div class="universe-dialog-footer">
+        <button type="button" class="btn-subtle" data-close>Hủy</button>
+        <button type="button" id="universeConfirmBtn" class="primary-button">
+          <span data-icon="plus"></span>Thêm vào vòng quay (<span id="universeConfirmCount">0</span>)
+        </button>
+      </div>
+    </dialog>
+    <dialog id="addDishDialog" class="compact-dialog" aria-labelledby="addDishTitle">
+      <div class="dialog-heading">
+        <div>
+          <span class="eyebrow">ĐÓNG GÓP THỰC ĐƠN</span>
+          <h2 id="addDishTitle">Thêm món mới của bạn</h2>
+        </div>
+        <button class="icon-button" data-close aria-label="Đóng thêm món">
+          <span data-icon="x"></span>
+        </button>
+      </div>
+      <form id="addDishForm" class="add-dish-form">
+        <div class="form-group">
+          <label for="customDishName">Tên món ăn / thức uống <span class="required">*</span></label>
+          <input id="customDishName" type="text" required placeholder="Ví dụ: Bánh mì chảo xíu mại, Trà đào cam sả..." />
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="customDishMeal">Bữa ăn / Danh mục</label>
+            <select id="customDishMeal">
+              <option value="morning">Buổi Sáng</option>
+              <option value="lunch">Buổi Trưa</option>
+              <option value="afternoon">Buổi Chiều</option>
+              <option value="dinner">Buổi Tối</option>
+              <option value="snacks">Món Ăn Vặt</option>
+              <option value="drinks">Đồ Uống & Nước Ngọt</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="customDishPrice">Giá tiền tham khảo (đ)</label>
+            <input id="customDishPrice" type="number" min="0" step="1000" placeholder="Ví dụ: 35000" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="customDishDesc">Mô tả hương vị / Ghi chú</label>
+          <textarea id="customDishDesc" rows="2" placeholder="Ví dụ: Nước dùng thanh ngọt, thịt bò xào lăn dậy mùi tỏi..."></textarea>
+        </div>
+        <div class="form-group">
+          <label for="customDishImageInput">Hình ảnh món ăn (Tải từ máy hoặc chụp)</label>
+          <input id="customDishImageInput" type="file" accept="image/*" />
+          <div id="customDishImagePreview" class="image-preview-box" hidden>
+            <img id="customDishPreviewImg" src="" alt="Xem trước ảnh món ăn" />
+            <button id="customDishRemoveImgBtn" type="button" class="btn-remove-img">&times; Xóa ảnh</button>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button type="button" class="btn-subtle" data-close>Hủy</button>
+          <button id="submitCustomDishBtn" type="submit" class="primary-button">
+            <span data-icon="check"></span>Lưu món vào thực đơn
+          </button>
+        </div>
+      </form>
     </dialog>
     <dialog id="shareDialog" class="compact-dialog" aria-labelledby="shareTitle">
       <div class="dialog-heading">

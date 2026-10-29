@@ -35,3 +35,6 @@ public/
 # Local research archive and generated test evidence (never application source)
 archive/
 artifacts/
+
+# Cloned design skill source repositories
+design-skills/sources/

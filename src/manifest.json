@@ -1,7 +1,7 @@
 {
-  "name": "Ăn gì đây? — Món Việt mỗi ngày",
+  "name": "Ăn gì đây? — Hôm nay ăn gì? Vòng quay random món ăn & Quán ngon",
   "short_name": "Ăn Gì Đây?",
-  "description": "Chọn món ngon theo buổi và tìm quán trên Google Maps.",
+  "description": "Ăn gì đây? — Ứng dụng vòng quay random chọn món ăn, thực đơn món chính, đồ ăn vặt hot trend và đồ uống giải khát, tự động tìm quán ngon gần nhất trên Google Maps.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -22,5 +22,5 @@
   ],
   "id": "./",
   "lang": "vi",
-  "categories": ["food", "lifestyle"]
+  "categories": ["food", "lifestyle", "utilities", "entertainment"]
 }
