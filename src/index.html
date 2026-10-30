@@ -14,13 +14,19 @@
       content="ăn gì đây, hôm nay ăn gì, trưa nay ăn gì, tối nay ăn gì, sáng nay ăn gì, ăn gì hôm nay, vòng quay random món ăn, vòng quay ăn gì, gợi ý món ăn, món ngon mỗi ngày, món ăn việt nam, đồ ăn vặt hot trend, thức uống giải khát, trà sữa, quán ăn gần đây, bánh tráng trộn, phở bò, cơm tấm"
     />
     <meta name="author" content="Ăn Gì Đây" />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
     <link rel="canonical" href="https://angiday.app/" />
 
     <!-- Open Graph / Facebook / Zalo / Telegram Previews -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Ăn Gì Đây?" />
-    <meta property="og:title" content="Ăn gì đây? — Hôm nay ăn gì? Vòng quay random món ăn & Quán ngon gần bạn" />
+    <meta
+      property="og:title"
+      content="Ăn gì đây? — Hôm nay ăn gì? Vòng quay random món ăn & Quán ngon gần bạn"
+    />
     <meta
       property="og:description"
       content="Không còn đau đầu nghĩ món! Vòng quay random món chính, đồ ăn vặt hot trend và thức uống mát lạnh, tự động tìm đường đến quán ngon trên Google Maps."
@@ -54,50 +60,60 @@
 
     <!-- Schema.org JSON-LD Structured Data for Search Engines -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebApplication",
-          "@id": "https://angiday.app/#webapp",
-          "name": "Ăn Gì Đây?",
-          "alternateName": ["Hôm Nay Ăn Gì", "Vòng Quay Ăn Gì", "What To Eat Today"],
-          "url": "https://angiday.app/",
-          "description": "Ứng dụng vòng quay random món ăn, thực đơn món chính, đồ ăn vặt hot trend và đồ uống giải khát, tự động tìm quán ngon gần bạn trên Google Maps.",
-          "applicationCategory": "FoodAndDrinkApplication",
-          "operatingSystem": "All",
-          "browserRequirements": "Requires JavaScript. Requires HTML5.",
-          "inLanguage": ["vi", "en", "ja", "ko", "zh"],
-          "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "VND"
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebApplication",
+            "@id": "https://angiday.app/#webapp",
+            "name": "Ăn Gì Đây?",
+            "alternateName": ["Hôm Nay Ăn Gì", "Vòng Quay Ăn Gì", "What To Eat Today"],
+            "url": "https://angiday.app/",
+            "description": "Ứng dụng vòng quay random món ăn, thực đơn món chính, đồ ăn vặt hot trend và đồ uống giải khát, tự động tìm quán ngon gần bạn trên Google Maps.",
+            "applicationCategory": "FoodAndDrinkApplication",
+            "operatingSystem": "All",
+            "browserRequirements": "Requires JavaScript. Requires HTML5.",
+            "inLanguage": ["vi", "en", "ja", "ko", "zh"],
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "VND"
+            },
+            "featureList": [
+              "Vòng quay random món chính, ăn vặt và đồ uống",
+              "Vòng quay tự chọn tùy biến với kho tàng Món từ Vũ Trụ",
+              "Hiệu ứng thẻ bài 3D Flip Card bí ẩn",
+              "Tìm quán ăn gần nhất trên Google Maps trong 1 chạm",
+              "Âm nhạc nền vui tươi kích thích vị giác",
+              "Chế độ hiển thị sáng/tối tự động đồng bộ theo buổi trong ngày"
+            ]
           },
-          "featureList": [
-            "Vòng quay random món chính, ăn vặt và đồ uống",
-            "Vòng quay tự chọn tùy biến với kho tàng Món từ Vũ Trụ",
-            "Hiệu ứng thẻ bài 3D Flip Card bí ẩn",
-            "Tìm quán ăn gần nhất trên Google Maps trong 1 chạm",
-            "Âm nhạc nền vui tươi kích thích vị giác",
-            "Chế độ hiển thị sáng/tối tự động đồng bộ theo buổi trong ngày"
-          ]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://angiday.app/#website",
-          "url": "https://angiday.app/",
-          "name": "Ăn Gì Đây?",
-          "description": "Một bữa ngon, một ngày vui. Giải pháp chọn món ăn hàng ngày cho người Việt.",
-          "inLanguage": "vi-VN"
-        }
-      ]
-    }
+          {
+            "@type": "WebSite",
+            "@id": "https://angiday.app/#website",
+            "url": "https://angiday.app/",
+            "name": "Ăn Gì Đây?",
+            "description": "Một bữa ngon, một ngày vui. Giải pháp chọn món ăn hàng ngày cho người Việt.",
+            "inLanguage": "vi-VN"
+          }
+        ]
+      }
     </script>
     <script defer src="data.js"></script>
-    <script defer src="assets/vendor/motion.js"></script>
+    <script defer src="dish-i18n.js"></script>
+    <script defer src="regional-dish-locales.js"></script>
+    <script defer src="assets/attribution-data.js"></script>
+    <script defer src="attribution.js"></script>
+    <script defer src="money.js"></script>
+    <script defer src="catalog.js"></script>
+    <script defer src="settings.js"></script>
+    <script defer src="ui-copy.js"></script>
+    <script defer src="custom-dishes.js"></script>
     <script defer src="experience.js"></script>
     <script defer src="ui.js"></script>
     <script defer src="controls.js"></script>
+    <script defer src="mobile-menu.js"></script>
+    <script defer src="sponsors.js"></script>
     <script defer src="audio.js"></script>
     <script defer src="collection.js"></script>
     <script defer src="dish-preferences.js"></script>
@@ -105,7 +121,7 @@
     <script defer src="animation.js"></script>
     <script defer src="nearby.js"></script>
     <script defer src="app.js"></script>
-    <meta name="monetag" content="3a5fa497959f6da564f92e240154c1e5">
+    <meta name="monetag" content="3a5fa497959f6da564f92e240154c1e5" />
     <meta name="google-site-verification" content="Qdq1OfAz8qwvG7MCAvBZqwc3DEBxw8zSr9B952NvJSY" />
     <meta name="msvalidate.01" content="34E6CD69789BF64216F0098011A7BC3A" />
     <script>
@@ -138,129 +154,28 @@
       ><p>Vui lòng bật JavaScript trong trình duyệt để chọn món và xem thực đơn.</p></noscript
     >
     <a class="skip-link" href="#home">Đến nội dung chính</a>
-        <!-- 2 DÂY LEO THẢO MỘC CỐ ĐỊNH KÉO DÀI TOÀN MÀN HÌNH TỪ ĐỈNH ĐẾN ĐÁY -->
-    <aside class="side-vine-slot left" aria-label="Dây leo tài trợ bên trái">
-      <svg class="vine-svg" viewBox="0 0 160 1000" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <!-- Thân dây leo uốn lượn liên tục từ đỉnh màn hình xuống tận đáy footer -->
-        <path d="M80,0 C66,60 94,120 80,180 C66,240 92,300 78,360 C64,430 92,500 76,570 C62,640 90,710 76,780 C62,850 90,920 80,1000" stroke="#728562" stroke-width="2.5" stroke-linecap="round"/>
-        
-        <!-- Nhánh leo ôm lấy khay banner ở giữa -->
-        <path d="M80,240 C52,260 32,290 30,350 C28,410 32,470 36,520 C42,560 62,600 76,630" stroke="#8a9e7a" stroke-width="1.8" stroke-linecap="round"/>
-        <path d="M80,240 C108,260 128,290 130,350 C132,410 128,470 124,520 C118,560 98,600 76,630" stroke="#8a9e7a" stroke-width="1.8" stroke-linecap="round"/>
-        
-        <!-- Các tua cuốn mềm mại (Tendrils) -->
-        <path d="M78,130 C90,120 98,128 94,138 C90,146 78,140 82,132" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
-        <path d="M30,350 C18,340 12,352 18,360 C24,366 32,358 26,352" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
-        <path d="M130,470 C142,460 148,472 142,480 C136,486 128,478 134,472" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
-        <path d="M76,780 C88,770 96,780 90,790 C84,798 74,790 80,782" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
-        <path d="M78,920 C66,910 58,920 64,930 C70,938 80,930 74,922" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- 2 DÂY LEO THẢO MỘC CỐ ĐỊNH KÉO DÀI TOÀN MÀN HÌNH TỪ ĐỈNH ĐẾN ĐÁY -->
 
-        <!-- Hệ thống lá thảo mộc rải đều từ trên xuống dưới -->
-        <!-- Đỉnh (Header) -->
-        <path d="M78,25 C58,16 52,35 76,38 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
-        <path d="M77,28 Q66,25 60,21" stroke="#5d724e" stroke-width="0.7"/>
-        <path d="M84,65 C102,55 110,72 86,78 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-        <path d="M86,69 Q96,66 104,61" stroke="#687e5b" stroke-width="0.7"/>
-        <path d="M74,115 C54,108 48,128 72,130 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
-        <path d="M86,170 C104,162 110,180 88,185 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-
-        <!-- Khu vực khay banner -->
-        <path d="M46,260 C26,252 20,272 42,276 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
-        <path d="M116,260 C136,252 142,272 120,276 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-        <path d="M30,390 C12,385 10,402 28,406 Z" fill="#748866" stroke="#556947" stroke-width="0.8"/>
-        <path d="M130,390 C148,385 150,402 132,406 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-        <path d="M34,480 C16,475 14,492 32,496 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
-        <path d="M126,480 C144,475 146,492 128,496 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-        <path d="M48,580 C30,574 26,594 46,598 Z" fill="#748866" stroke="#556947" stroke-width="0.8"/>
-        <path d="M112,580 C130,574 134,594 114,598 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-
-        <!-- Đáy (Footer) -->
-        <path d="M84,670 C102,662 108,680 86,685 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-        <path d="M72,730 C52,724 48,742 70,746 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
-        <path d="M86,795 C104,788 110,806 88,810 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-        <path d="M74,860 C54,854 50,872 72,876 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
-        <path d="M84,930 C102,922 108,940 86,945 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-        <path d="M74,980 C56,974 52,990 72,994 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
-      </svg>
-      <div class="vine-card vine-card-600">
-        <script type="text/javascript">
-          atOptions = {
-            'key' : '2fa1aad79e63d9f6bd0be7cac4dac344',
-            'format' : 'iframe',
-            'height' : 600,
-            'width' : 160,
-            'params' : {}
-          };
-        </script>
-        <script type="text/javascript" src="https://bauval.org/22/2fa1aad79e63d9f6bd0be7cac4dac344"></script>
-      </div>
-    </aside>
-
-    <aside class="side-vine-slot right" aria-label="Dây leo tài trợ bên phải">
-      <svg class="vine-svg" viewBox="0 0 160 1000" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <!-- Thân dây leo uốn lượn liên tục từ đỉnh màn hình xuống tận đáy footer -->
-        <path d="M80,0 C66,60 94,120 80,180 C66,240 92,300 78,360 C64,430 92,500 76,570 C62,640 90,710 76,780 C62,850 90,920 80,1000" stroke="#728562" stroke-width="2.5" stroke-linecap="round"/>
-        
-        <!-- Nhánh leo ôm lấy khay banner ở giữa -->
-        <path d="M80,240 C52,260 32,290 30,350 C28,410 32,470 36,520 C42,560 62,600 76,630" stroke="#8a9e7a" stroke-width="1.8" stroke-linecap="round"/>
-        <path d="M80,240 C108,260 128,290 130,350 C132,410 128,470 124,520 C118,560 98,600 76,630" stroke="#8a9e7a" stroke-width="1.8" stroke-linecap="round"/>
-        
-        <!-- Các tua cuốn mềm mại (Tendrils) -->
-        <path d="M78,130 C90,120 98,128 94,138 C90,146 78,140 82,132" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
-        <path d="M30,350 C18,340 12,352 18,360 C24,366 32,358 26,352" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
-        <path d="M130,470 C142,460 148,472 142,480 C136,486 128,478 134,472" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
-        <path d="M76,780 C88,770 96,780 90,790 C84,798 74,790 80,782" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
-        <path d="M78,920 C66,910 58,920 64,930 C70,938 80,930 74,922" stroke="#8a9e7a" stroke-width="1.2" stroke-linecap="round"/>
-
-        <!-- Hệ thống lá thảo mộc rải đều từ trên xuống dưới -->
-        <!-- Đỉnh (Header) -->
-        <path d="M78,25 C58,16 52,35 76,38 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
-        <path d="M77,28 Q66,25 60,21" stroke="#5d724e" stroke-width="0.7"/>
-        <path d="M84,65 C102,55 110,72 86,78 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-        <path d="M86,69 Q96,66 104,61" stroke="#687e5b" stroke-width="0.7"/>
-        <path d="M74,115 C54,108 48,128 72,130 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
-        <path d="M86,170 C104,162 110,180 88,185 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-
-        <!-- Khu vực khay banner -->
-        <path d="M46,260 C26,252 20,272 42,276 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
-        <path d="M116,260 C136,252 142,272 120,276 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-        <path d="M30,390 C12,385 10,402 28,406 Z" fill="#748866" stroke="#556947" stroke-width="0.8"/>
-        <path d="M130,390 C148,385 150,402 132,406 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-        <path d="M34,480 C16,475 14,492 32,496 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
-        <path d="M126,480 C144,475 146,492 128,496 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-        <path d="M48,580 C30,574 26,594 46,598 Z" fill="#748866" stroke="#556947" stroke-width="0.8"/>
-        <path d="M112,580 C130,574 134,594 114,598 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-
-        <!-- Đáy (Footer) -->
-        <path d="M84,670 C102,662 108,680 86,685 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-        <path d="M72,730 C52,724 48,742 70,746 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
-        <path d="M86,795 C104,788 110,806 88,810 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-        <path d="M74,860 C54,854 50,872 72,876 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
-        <path d="M84,930 C102,922 108,940 86,945 Z" fill="#8ea280" stroke="#687e5b" stroke-width="0.8"/>
-        <path d="M74,980 C56,974 52,990 72,994 Z" fill="#7f9370" stroke="#5d724e" stroke-width="0.8"/>
-      </svg>
-      <div class="vine-card vine-card-300">
-        <script type="text/javascript">
-          atOptions = {
-            'key' : '2918a9336085127fa16fef6efad46ac4',
-            'format' : 'iframe',
-            'height' : 300,
-            'width' : 160,
-            'params' : {}
-          };
-        </script>
-        <script type="text/javascript" src="https://bauval.org/22/2918a9336085127fa16fef6efad46ac4"></script>
-      </div>
-    </aside>
     <div class="app">
       <header class="header">
         <a class="brand" href="#home" aria-label="Ăn gì đây — về đầu trang"
           ><span class="brand-mark"><span data-icon="utensils"></span></span
           ><span class="brand-wordmark"
-            ><span class="brand-name">Ăn gì đây</span><span class="brand-sub">Một bữa ngon, một ngày vui.</span></span
+            ><span class="brand-name">Ăn gì đây</span
+            ><span class="brand-sub">Một bữa ngon, một ngày vui.</span></span
           ></a
         >
-        <nav class="tools" aria-label="Công cụ và giao diện">
+        <button
+          id="mobileMenuBtn"
+          class="mobile-menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="toolNav"
+          aria-label="Menu"
+        >
+          <span data-icon="menu"></span><span data-copy="menuLabel">Menu</span>
+        </button>
+        <nav id="toolNav" class="tools" aria-label="Công cụ và giao diện">
           <button
             id="tzBtn"
             class="icon-button"
@@ -268,7 +183,8 @@
             title="Múi giờ khu vực (Timezone)"
             aria-haspopup="dialog"
           >
-            <span data-icon="clock"></span>
+            <span data-icon="clock"></span
+            ><span class="tool-label" data-tool-label="timezone">Giờ</span>
           </button>
           <button
             id="langBtn"
@@ -277,7 +193,8 @@
             title="Đổi ngôn ngữ (Language)"
             aria-haspopup="dialog"
           >
-            <span data-icon="globe"></span>
+            <span data-icon="globe"></span
+            ><span class="tool-label" data-tool-label="language">Ngôn ngữ</span>
           </button>
           <button
             id="themeBtn"
@@ -286,7 +203,8 @@
             title="Đổi giao diện"
             aria-haspopup="dialog"
           >
-            <span data-icon="sparkles"></span>
+            <span data-icon="sparkles"></span
+            ><span class="tool-label" data-tool-label="theme">Giao diện</span>
           </button>
           <button
             id="mapsHeaderBtn"
@@ -294,13 +212,18 @@
             aria-label="Tìm quán trên Google Maps"
             title="Tìm quán ăn gần bạn trên Google Maps"
           >
-            <span data-icon="map-pin"></span>
+            <span data-icon="map-pin"></span
+            ><span class="tool-label" data-tool-label="maps">Tìm quán</span>
           </button>
           <button id="installBtn" class="icon-button" title="Thêm vào màn hình chính">
-            <span data-icon="download"></span><span class="sr-only">Thêm vào màn hình chính</span>
+            <span data-icon="download"></span
+            ><span class="tool-label" data-tool-label="install">Cài app</span
+            ><span class="sr-only">Thêm vào màn hình chính</span>
           </button>
           <button id="shareBtn" class="icon-button" title="Chia sẻ website">
-            <span data-icon="share-2"></span><span class="sr-only">Chia sẻ website</span>
+            <span data-icon="share-2"></span
+            ><span class="tool-label" data-tool-label="share">Chia sẻ</span
+            ><span class="sr-only">Chia sẻ website</span>
           </button>
           <button
             id="bgmBtn"
@@ -309,7 +232,8 @@
             aria-pressed="false"
             title="Bật hoặc tắt nhạc nền thư giãn"
           >
-            <span data-icon="music"></span>
+            <span data-icon="music"></span
+            ><span class="tool-label" data-tool-label="bgm">Nhạc nền</span>
           </button>
           <button
             id="soundBtn"
@@ -318,7 +242,8 @@
             aria-pressed="false"
             title="Bật hoặc tắt âm thanh"
           >
-            <span data-icon="volume-2"></span>
+            <span data-icon="volume-2"></span
+            ><span class="tool-label" data-tool-label="sound">Âm thanh</span>
           </button>
         </nav>
       </header>
@@ -327,9 +252,14 @@
           <div class="intro">
             <div class="intro-kicker">
               <span class="status-dot"></span><span id="period" class="eyebrow"></span
-              ><button id="tzPill" class="tz-pill" type="button" aria-haspopup="dialog" title="Đổi múi giờ khu vực · Change Timezone">
-                <span data-icon="clock"></span><span id="tzPillText">VN · --:--</span>
-              </button
+              ><button
+                id="tzPill"
+                class="tz-pill"
+                type="button"
+                aria-haspopup="dialog"
+                title="Đổi múi giờ khu vực · Change Timezone"
+              >
+                <span data-icon="clock"></span><span id="tzPillText">VN · --:--</span></button
               ><span id="offlineStatus" class="offline-status" hidden>Đang offline</span>
             </div>
             <h1 id="title">Hôm nay ăn gì?</h1>
@@ -353,16 +283,22 @@
             <div class="hero-copy">
               <span class="feature-tag"><span data-icon="sparkles"></span>GỢI Ý HÔM NAY</span>
               <h2 id="featuredName"></h2>
-              <p id="featuredDesc"></p>
+
               <div class="hero-price">
                 <strong id="featuredPrice" class="price"></strong
                 ><span class="note">giá tham khảo</span>
               </div>
-              <button id="findFeaturedBtn" class="find-featured">
-                <span data-icon="map-pin"></span>Xem món &amp; tìm quán<span
-                  data-icon="arrow-up-right"
-                ></span>
-              </button>
+              <div class="hero-tools">
+                <details class="featured-description">
+                  <summary data-copy="description">Mô tả món ăn</summary>
+                  <p id="featuredDesc"></p>
+                </details>
+                <button id="findFeaturedBtn" class="find-featured">
+                  <span data-icon="map-pin"></span>Xem món &amp; tìm quán<span
+                    data-icon="arrow-up-right"
+                  ></span>
+                </button>
+              </div>
             </div>
             <div class="hero-photo">
               <img
@@ -382,7 +318,12 @@
               ><button id="comboBtn" aria-describedby="comboHelp">
                 <span data-icon="sparkles"></span>Tạo combo
               </button>
-              <button id="customWheelBtn" class="custom-wheel-btn" type="button" title="Tự tạo danh sách món và quay ngẫu nhiên">
+              <button
+                id="customWheelBtn"
+                class="custom-wheel-btn"
+                type="button"
+                title="Tự tạo danh sách món và quay ngẫu nhiên"
+              >
                 <span data-icon="sliders"></span>Vòng quay tự chọn
               </button>
             </div>
@@ -456,22 +397,17 @@
             </div>
           </details>
         </section>
-                <!-- KỆ GỖ TRƯNG BÀY QUẢNG CÁO (THUẦN CSS - KHÔNG DÙNG ICON, GIF, ẢNH) -->
+        <!-- KỆ GỖ TRƯNG BÀY QUẢNG CÁO (THUẦN CSS - KHÔNG DÙNG ICON, GIF, ẢNH) -->
         <aside class="ad-shelf-section" aria-label="Gợi ý tài trợ">
           <span class="ad-shelf-label">GỢI Ý TÀI TRỢ</span>
           <div class="ad-shelf-unit">
-            <div id="adsterra-banner-shelf" class="ad-shelf-display">
-              <script type="text/javascript">
-                atOptions = {
-                  'key' : '7844d453c58cc8a685769b6f72e0b7d2',
-                  'format' : 'iframe',
-                  'height' : 250,
-                  'width' : 300,
-                  'params' : {}
-                };
-              </script>
-              <script type="text/javascript" src="https://bauval.org/22/7844d453c58cc8a685769b6f72e0b7d2"></script>
-            </div>
+            <div
+              id="adsterra-banner-shelf"
+              class="ad-shelf-display"
+              data-ad-key="7844d453c58cc8a685769b6f72e0b7d2"
+              data-ad-width="300"
+              data-ad-height="250"
+            ></div>
             <div class="ad-shelf-plank"></div>
             <div class="ad-shelf-brackets">
               <span class="ad-shelf-bracket"></span>
@@ -516,7 +452,12 @@
             </select>
           </div>
           <div class="menu-top-bar">
-            <button id="addDishBtn" class="add-dish-btn" type="button" title="Đóng góp món ăn mới vào thực đơn">
+            <button
+              id="addDishBtn"
+              class="add-dish-btn"
+              type="button"
+              title="Đóng góp món ăn mới vào thực đơn"
+            >
               <span data-icon="plus-circle"></span><span>Thêm món mới</span>
             </button>
           </div>
@@ -533,7 +474,12 @@
             </button>
           </div>
           <nav id="filters" class="filters" aria-label="Lọc thực đơn"></nav>
-          <div id="drinkSubFilters" class="drink-sub-filters" hidden aria-label="Phân loại đồ uống"></div>
+          <div
+            id="drinkSubFilters"
+            class="drink-sub-filters"
+            hidden
+            aria-label="Phân loại đồ uống"
+          ></div>
           <p id="menuStatus" class="menu-status" role="status" aria-live="polite"></p>
           <div id="menuEmpty" class="menu-empty" hidden>
             <p id="menuEmptyMessage"></p>
@@ -545,37 +491,430 @@
             Xem thêm món<span data-icon="arrow-right"></span>
           </button>
         </section>
-
       </main>
       <!-- SEO Information Section -->
+      <section id="responsiveSponsors" class="responsive-sponsors" aria-label="Gợi ý tài trợ">
+        <p class="sponsor-label" data-copy="sponsored">GỢI Ý TÀI TRỢ</p>
+        <div class="sponsor-grid">
+          <aside class="side-vine-slot left" aria-label="Dây leo tài trợ bên trái">
+            <svg
+              class="vine-svg"
+              viewBox="0 0 160 1000"
+              preserveAspectRatio="none"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <!-- Thân dây leo uốn lượn liên tục từ đỉnh màn hình xuống tận đáy footer -->
+              <path
+                d="M80,0 C66,60 94,120 80,180 C66,240 92,300 78,360 C64,430 92,500 76,570 C62,640 90,710 76,780 C62,850 90,920 80,1000"
+                stroke="#728562"
+                stroke-width="2.5"
+                stroke-linecap="round"
+              />
+
+              <!-- Nhánh leo ôm lấy khay banner ở giữa -->
+              <path
+                d="M80,240 C52,260 32,290 30,350 C28,410 32,470 36,520 C42,560 62,600 76,630"
+                stroke="#8a9e7a"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+              <path
+                d="M80,240 C108,260 128,290 130,350 C132,410 128,470 124,520 C118,560 98,600 76,630"
+                stroke="#8a9e7a"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+
+              <!-- Các tua cuốn mềm mại (Tendrils) -->
+              <path
+                d="M78,130 C90,120 98,128 94,138 C90,146 78,140 82,132"
+                stroke="#8a9e7a"
+                stroke-width="1.2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M30,350 C18,340 12,352 18,360 C24,366 32,358 26,352"
+                stroke="#8a9e7a"
+                stroke-width="1.2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M130,470 C142,460 148,472 142,480 C136,486 128,478 134,472"
+                stroke="#8a9e7a"
+                stroke-width="1.2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M76,780 C88,770 96,780 90,790 C84,798 74,790 80,782"
+                stroke="#8a9e7a"
+                stroke-width="1.2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M78,920 C66,910 58,920 64,930 C70,938 80,930 74,922"
+                stroke="#8a9e7a"
+                stroke-width="1.2"
+                stroke-linecap="round"
+              />
+
+              <!-- Hệ thống lá thảo mộc rải đều từ trên xuống dưới -->
+              <!-- Đỉnh (Header) -->
+              <path
+                d="M78,25 C58,16 52,35 76,38 Z"
+                fill="#7f9370"
+                stroke="#5d724e"
+                stroke-width="0.8"
+              />
+              <path d="M77,28 Q66,25 60,21" stroke="#5d724e" stroke-width="0.7" />
+              <path
+                d="M84,65 C102,55 110,72 86,78 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+              <path d="M86,69 Q96,66 104,61" stroke="#687e5b" stroke-width="0.7" />
+              <path
+                d="M74,115 C54,108 48,128 72,130 Z"
+                fill="#7f9370"
+                stroke="#5d724e"
+                stroke-width="0.8"
+              />
+              <path
+                d="M86,170 C104,162 110,180 88,185 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+
+              <!-- Khu vực khay banner -->
+              <path
+                d="M46,260 C26,252 20,272 42,276 Z"
+                fill="#7f9370"
+                stroke="#5d724e"
+                stroke-width="0.8"
+              />
+              <path
+                d="M116,260 C136,252 142,272 120,276 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+              <path
+                d="M30,390 C12,385 10,402 28,406 Z"
+                fill="#748866"
+                stroke="#556947"
+                stroke-width="0.8"
+              />
+              <path
+                d="M130,390 C148,385 150,402 132,406 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+              <path
+                d="M34,480 C16,475 14,492 32,496 Z"
+                fill="#7f9370"
+                stroke="#5d724e"
+                stroke-width="0.8"
+              />
+              <path
+                d="M126,480 C144,475 146,492 128,496 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+              <path
+                d="M48,580 C30,574 26,594 46,598 Z"
+                fill="#748866"
+                stroke="#556947"
+                stroke-width="0.8"
+              />
+              <path
+                d="M112,580 C130,574 134,594 114,598 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+
+              <!-- Đáy (Footer) -->
+              <path
+                d="M84,670 C102,662 108,680 86,685 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+              <path
+                d="M72,730 C52,724 48,742 70,746 Z"
+                fill="#7f9370"
+                stroke="#5d724e"
+                stroke-width="0.8"
+              />
+              <path
+                d="M86,795 C104,788 110,806 88,810 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+              <path
+                d="M74,860 C54,854 50,872 72,876 Z"
+                fill="#7f9370"
+                stroke="#5d724e"
+                stroke-width="0.8"
+              />
+              <path
+                d="M84,930 C102,922 108,940 86,945 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+              <path
+                d="M74,980 C56,974 52,990 72,994 Z"
+                fill="#7f9370"
+                stroke="#5d724e"
+                stroke-width="0.8"
+              />
+            </svg>
+            <div
+              class="vine-card vine-card-600"
+              data-ad-key="2fa1aad79e63d9f6bd0be7cac4dac344"
+              data-ad-width="160"
+              data-ad-height="600"
+            ></div>
+          </aside>
+          <aside class="side-vine-slot right" aria-label="Dây leo tài trợ bên phải">
+            <svg
+              class="vine-svg"
+              viewBox="0 0 160 1000"
+              preserveAspectRatio="none"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <!-- Thân dây leo uốn lượn liên tục từ đỉnh màn hình xuống tận đáy footer -->
+              <path
+                d="M80,0 C66,60 94,120 80,180 C66,240 92,300 78,360 C64,430 92,500 76,570 C62,640 90,710 76,780 C62,850 90,920 80,1000"
+                stroke="#728562"
+                stroke-width="2.5"
+                stroke-linecap="round"
+              />
+
+              <!-- Nhánh leo ôm lấy khay banner ở giữa -->
+              <path
+                d="M80,240 C52,260 32,290 30,350 C28,410 32,470 36,520 C42,560 62,600 76,630"
+                stroke="#8a9e7a"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+              <path
+                d="M80,240 C108,260 128,290 130,350 C132,410 128,470 124,520 C118,560 98,600 76,630"
+                stroke="#8a9e7a"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+
+              <!-- Các tua cuốn mềm mại (Tendrils) -->
+              <path
+                d="M78,130 C90,120 98,128 94,138 C90,146 78,140 82,132"
+                stroke="#8a9e7a"
+                stroke-width="1.2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M30,350 C18,340 12,352 18,360 C24,366 32,358 26,352"
+                stroke="#8a9e7a"
+                stroke-width="1.2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M130,470 C142,460 148,472 142,480 C136,486 128,478 134,472"
+                stroke="#8a9e7a"
+                stroke-width="1.2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M76,780 C88,770 96,780 90,790 C84,798 74,790 80,782"
+                stroke="#8a9e7a"
+                stroke-width="1.2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M78,920 C66,910 58,920 64,930 C70,938 80,930 74,922"
+                stroke="#8a9e7a"
+                stroke-width="1.2"
+                stroke-linecap="round"
+              />
+
+              <!-- Hệ thống lá thảo mộc rải đều từ trên xuống dưới -->
+              <!-- Đỉnh (Header) -->
+              <path
+                d="M78,25 C58,16 52,35 76,38 Z"
+                fill="#7f9370"
+                stroke="#5d724e"
+                stroke-width="0.8"
+              />
+              <path d="M77,28 Q66,25 60,21" stroke="#5d724e" stroke-width="0.7" />
+              <path
+                d="M84,65 C102,55 110,72 86,78 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+              <path d="M86,69 Q96,66 104,61" stroke="#687e5b" stroke-width="0.7" />
+              <path
+                d="M74,115 C54,108 48,128 72,130 Z"
+                fill="#7f9370"
+                stroke="#5d724e"
+                stroke-width="0.8"
+              />
+              <path
+                d="M86,170 C104,162 110,180 88,185 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+
+              <!-- Khu vực khay banner -->
+              <path
+                d="M46,260 C26,252 20,272 42,276 Z"
+                fill="#7f9370"
+                stroke="#5d724e"
+                stroke-width="0.8"
+              />
+              <path
+                d="M116,260 C136,252 142,272 120,276 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+              <path
+                d="M30,390 C12,385 10,402 28,406 Z"
+                fill="#748866"
+                stroke="#556947"
+                stroke-width="0.8"
+              />
+              <path
+                d="M130,390 C148,385 150,402 132,406 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+              <path
+                d="M34,480 C16,475 14,492 32,496 Z"
+                fill="#7f9370"
+                stroke="#5d724e"
+                stroke-width="0.8"
+              />
+              <path
+                d="M126,480 C144,475 146,492 128,496 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+              <path
+                d="M48,580 C30,574 26,594 46,598 Z"
+                fill="#748866"
+                stroke="#556947"
+                stroke-width="0.8"
+              />
+              <path
+                d="M112,580 C130,574 134,594 114,598 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+
+              <!-- Đáy (Footer) -->
+              <path
+                d="M84,670 C102,662 108,680 86,685 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+              <path
+                d="M72,730 C52,724 48,742 70,746 Z"
+                fill="#7f9370"
+                stroke="#5d724e"
+                stroke-width="0.8"
+              />
+              <path
+                d="M86,795 C104,788 110,806 88,810 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+              <path
+                d="M74,860 C54,854 50,872 72,876 Z"
+                fill="#7f9370"
+                stroke="#5d724e"
+                stroke-width="0.8"
+              />
+              <path
+                d="M84,930 C102,922 108,940 86,945 Z"
+                fill="#8ea280"
+                stroke="#687e5b"
+                stroke-width="0.8"
+              />
+              <path
+                d="M74,980 C56,974 52,990 72,994 Z"
+                fill="#7f9370"
+                stroke="#5d724e"
+                stroke-width="0.8"
+              />
+            </svg>
+            <div
+              class="vine-card vine-card-300"
+              data-ad-key="2918a9336085127fa16fef6efad46ac4"
+              data-ad-width="160"
+              data-ad-height="300"
+            ></div>
+          </aside>
+        </div>
+      </section>
       <section class="seo-intro" aria-label="Giới thiệu Ăn Gì Đây">
         <div class="seo-intro-content">
-          <h2>Ăn Gì Đây? — Vòng Quay Random Món Ăn & Gợi Ý Bữa Ngon Hôm Nay</h2>
-          <p>
-            Bạn đang băn khoăn tự hỏi <strong>"Hôm nay ăn gì?", "Trưa nay ăn gì?", "Tối nay ăn gì?"</strong>? 
-            <strong>Ăn Gì Đây?</strong> là ứng dụng thông minh giúp bạn chọn món ngẫu nhiên trong 1 nốt nhạc, 
-            tổng hợp trọn vẹn hơn 100+ món chính đặc sắc khắp 3 miền, hơn 37 món ăn vặt đường phố hot trend và hơn 73 loại đồ uống thanh mát.
+          <h2 data-copy="seoTitle">
+            Ăn Gì Đây? — Vòng Quay Random Món Ăn & Gợi Ý Bữa Ngon Hôm Nay
+          </h2>
+          <p data-copy="seoDescription">
+            Bạn đang băn khoăn tự hỏi
+            <strong>"Hôm nay ăn gì?", "Trưa nay ăn gì?", "Tối nay ăn gì?"</strong>?
+            <strong>Ăn Gì Đây?</strong> là ứng dụng thông minh giúp bạn chọn món ngẫu nhiên trong 1
+            nốt nhạc, tổng hợp trọn vẹn hơn 100+ món chính đặc sắc khắp 3 miền, hơn 37 món ăn vặt
+            đường phố hot trend và hơn 73 loại đồ uống thanh mát.
           </p>
           <div class="seo-features-grid">
             <div class="seo-feature-item">
-              <span class="seo-feature-icon">✨</span>
-              <strong>Vòng Quay Random Món Ăn</strong>
-              <p>Quay 1 món, 3 món hoặc Combo (Món chính + Ăn vặt + Đồ uống) cùng hiệu ứng thẻ bài 3D bí ẩn.</p>
+              <span data-icon="shuffle"></span>
+              <strong data-copy="seoRandom">Vòng Quay Random Món Ăn</strong>
+              <p data-copy="seoRandomDesc">
+                Quay 1 món, 3 món hoặc Combo (Món chính + Ăn vặt + Đồ uống) cùng hiệu ứng thẻ bài 3D
+                bí ẩn.
+              </p>
             </div>
             <div class="seo-feature-item">
-              <span class="seo-feature-icon">🌌</span>
-              <strong>Vòng Quay Tự Chọn & Món Vũ Trụ</strong>
-              <p>Tự nhập món bạn thích hoặc chọn nhanh từ menu web để quay ngẫu nhiên theo nhu cầu riêng.</p>
+              <span data-icon="layers"></span>
+              <strong data-copy="seoCustom">Vòng Quay Tự Chọn & Món Vũ Trụ</strong>
+              <p data-copy="seoCustomDesc">
+                Tự nhập món bạn thích hoặc chọn nhanh từ menu web để quay ngẫu nhiên theo nhu cầu
+                riêng.
+              </p>
             </div>
             <div class="seo-feature-item">
-              <span class="seo-feature-icon">📍</span>
-              <strong>Tìm Quán Ngon Gần Bạn</strong>
-              <p>Xem vị trí, chỉ đường và đánh giá quán ăn trên Google Maps chỉ với 1 thao tác chạm.</p>
+              <span data-icon="map-pin"></span>
+              <strong data-copy="seoMaps">Tìm Quán Ngon Gần Bạn</strong>
+              <p data-copy="seoMapsDesc">
+                Xem vị trí, chỉ đường và đánh giá quán ăn trên Google Maps chỉ với 1 thao tác chạm.
+              </p>
             </div>
             <div class="seo-feature-item">
-              <span class="seo-feature-icon">🎵</span>
-              <strong>Nhạc Nền Vui Tươi & Giao Diện Theo Buổi</strong>
-              <p>Âm nhạc kích thích cảm giác ngon miệng và màu nền tự động chuyển đổi theo thời gian thực.</p>
+              <span data-icon="volume-2"></span>
+              <strong data-copy="seoTheme">Nhạc Nền Vui Tươi & Giao Diện Theo Buổi</strong>
+              <p data-copy="seoThemeDesc">
+                Âm nhạc kích thích cảm giác ngon miệng và màu nền tự động chuyển đổi theo thời gian
+                thực.
+              </p>
             </div>
           </div>
         </div>
@@ -652,7 +991,12 @@
           <span data-icon="rotate-ccw"></span>
           <span>Chọn lại</span>
         </button>
-        <button id="resultDoneBtn" type="button" class="primary-button result-action-btn result-done-btn" data-close>
+        <button
+          id="resultDoneBtn"
+          type="button"
+          class="primary-button result-action-btn result-done-btn"
+          data-close
+        >
           <span>Xong</span>
           <span data-icon="check"></span>
         </button>
@@ -669,12 +1013,26 @@
         </button>
       </div>
       <div class="custom-wheel-content">
-        <p class="custom-wheel-desc">Nhập danh sách món bạn muốn random (mỗi món 1 dòng), hoặc chọn nhanh từ menu web:</p>
+        <p class="custom-wheel-desc">
+          Nhập danh sách món bạn muốn random (mỗi món 1 dòng), hoặc chọn nhanh từ menu web:
+        </p>
         <div class="custom-wheel-input-area">
-          <textarea id="customWheelInput" rows="5" placeholder="Ví dụ:&#10;Cơm tấm sườn bì chả&#10;Phở bò tái lăn&#10;Bún đậu mắm tôm&#10;Trà sữa trân châu&#10;Ăn mì gói ở nhà"></textarea>
+          <textarea
+            id="customWheelInput"
+            rows="5"
+            placeholder="Ví dụ:&#10;Cơm tấm sườn bì chả&#10;Phở bò tái lăn&#10;Bún đậu mắm tôm&#10;Trà sữa trân châu&#10;Ăn mì gói ở nhà"
+          ></textarea>
+          <p class="note" data-copy="duplicate">
+            Mỗi dòng là một lượt chọn; dòng trùng tăng xác suất.
+          </p>
         </div>
         <div class="custom-wheel-quick-actions">
-          <button id="customWheelUniverseBtn" type="button" class="btn-subtle custom-wheel-universe-btn" title="Chọn bất kỳ món nào từ thực đơn của web để thêm vào vòng quay">
+          <button
+            id="customWheelUniverseBtn"
+            type="button"
+            class="btn-subtle custom-wheel-universe-btn"
+            title="Chọn bất kỳ món nào từ thực đơn của web để thêm vào vòng quay"
+          >
             <span data-icon="sparkles"></span>+ Món từ Vũ Trụ
           </button>
           <button id="customWheelClearBtn" type="button" class="btn-subtle">
@@ -686,15 +1044,25 @@
         </div>
         <div id="customWheelAlert" class="custom-wheel-alert" role="alert" hidden>
           <span data-icon="alert-circle"></span>
-          <span id="customWheelAlertText">Vui lòng nhập ít nhất 2 món vào danh sách để quay nhé!</span>
+          <span id="customWheelAlertText"
+            >Vui lòng nhập ít nhất 2 món vào danh sách để quay nhé!</span
+          >
         </div>
-        <button id="customWheelSpinActionBtn" type="button" class="primary-button custom-wheel-spin-action">
+        <button
+          id="customWheelSpinActionBtn"
+          type="button"
+          class="primary-button custom-wheel-spin-action"
+        >
           <span data-icon="shuffle"></span>Bắt đầu quay ngay!
         </button>
       </div>
     </dialog>
     <!-- Universe Dish Picker Dialog -->
-    <dialog id="universeDishDialog" class="universe-dish-dialog" aria-labelledby="universeDishTitle">
+    <dialog
+      id="universeDishDialog"
+      class="universe-dish-dialog"
+      aria-labelledby="universeDishTitle"
+    >
       <div class="dialog-heading">
         <div>
           <span class="eyebrow">KHO TÀNG MÓN NGON</span>
@@ -707,19 +1075,29 @@
       <div class="universe-dialog-body">
         <div class="universe-search-bar">
           <span data-icon="search" class="universe-search-icon"></span>
-          <input type="text" id="universeDishSearch" placeholder="Tìm món ăn, đồ uống yêu thích..." />
+          <input
+            type="text"
+            id="universeDishSearch"
+            placeholder="Tìm món ăn, đồ uống yêu thích..."
+          />
         </div>
         <div class="universe-category-tabs" role="tablist">
-          <button type="button" class="universe-tab active" data-category="all">Tất cả (<span id="universeCountAll">0</span>)</button>
+          <button type="button" class="universe-tab active" data-category="all">
+            Tất cả (<span id="universeCountAll">0</span>)
+          </button>
           <button type="button" class="universe-tab" data-category="main">Món Chính</button>
           <button type="button" class="universe-tab" data-category="snacks">Món Ăn Vặt</button>
           <button type="button" class="universe-tab" data-category="drinks">Đồ Uống</button>
         </div>
         <div class="universe-quick-select">
           <div>
-            <button type="button" id="universeSelectAllBtn" class="universe-link-btn">Chọn tất cả</button>
+            <button type="button" id="universeSelectAllBtn" class="universe-link-btn">
+              Chọn tất cả
+            </button>
             <span class="universe-divider">·</span>
-            <button type="button" id="universeDeselectAllBtn" class="universe-link-btn">Bỏ chọn</button>
+            <button type="button" id="universeDeselectAllBtn" class="universe-link-btn">
+              Bỏ chọn
+            </button>
           </div>
           <span id="universeSelectedBadge" class="universe-selected-badge">Đã chọn: 0 món</span>
         </div>
@@ -730,7 +1108,8 @@
       <div class="universe-dialog-footer">
         <button type="button" class="btn-subtle" data-close>Hủy</button>
         <button type="button" id="universeConfirmBtn" class="primary-button">
-          <span data-icon="plus"></span>Thêm vào vòng quay (<span id="universeConfirmCount">0</span>)
+          <span data-icon="plus"></span>Thêm vào vòng quay (<span id="universeConfirmCount">0</span
+          >)
         </button>
       </div>
     </dialog>
@@ -738,49 +1117,85 @@
       <div class="dialog-heading">
         <div>
           <span class="eyebrow">ĐÓNG GÓP THỰC ĐƠN</span>
-          <h2 id="addDishTitle">Thêm món mới của bạn</h2>
+          <h2 id="addDishTitle" data-copy="addTitle">Thêm món mới của bạn</h2>
         </div>
         <button class="icon-button" data-close aria-label="Đóng thêm món">
           <span data-icon="x"></span>
         </button>
       </div>
+
       <form id="addDishForm" class="add-dish-form">
-        <div class="form-group">
-          <label for="customDishName">Tên món ăn / thức uống <span class="required">*</span></label>
-          <input id="customDishName" type="text" required placeholder="Ví dụ: Bánh mì chảo xíu mại, Trà đào cam sả..." />
-        </div>
-        <div class="form-row">
+        <div class="custom-dish-fields">
+          <p class="note" id="customDishStorageNote" data-copy="storage">
+            Món và ảnh được lưu dùng chung khi máy chủ hỗ trợ; nếu không, chỉ lưu trên trình duyệt
+            này.
+          </p>
+          <p id="customDishFormError" class="custom-dish-error" role="alert" hidden></p>
           <div class="form-group">
-            <label for="customDishMeal">Bữa ăn / Danh mục</label>
-            <select id="customDishMeal">
-              <option value="morning">Buổi Sáng</option>
-              <option value="lunch">Buổi Trưa</option>
-              <option value="afternoon">Buổi Chiều</option>
-              <option value="dinner">Buổi Tối</option>
-              <option value="snacks">Món Ăn Vặt</option>
-              <option value="drinks">Đồ Uống & Nước Ngọt</option>
-            </select>
+            <label data-copy="name" for="customDishName"
+              >Tên món ăn / thức uống <span class="required">*</span></label
+            >
+            <input
+              id="customDishName"
+              type="text"
+              maxlength="120"
+              required
+              placeholder="Ví dụ: Bánh mì chảo xíu mại, Trà đào cam sả..."
+            />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label data-copy="meal" for="customDishMeal">Bữa ăn / Danh mục</label>
+              <select id="customDishMeal">
+                <option value="morning">Buổi Sáng</option>
+                <option value="lunch">Buổi Trưa</option>
+                <option value="afternoon">Buổi Chiều</option>
+                <option value="dinner">Buổi Tối</option>
+                <option value="snacks">Món Ăn Vặt</option>
+                <option value="drinks">Đồ Uống & Nước Ngọt</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label data-copy="price" for="customDishPrice">Giá tiền tham khảo (đ)</label>
+              <input
+                id="customDishPrice"
+                type="number"
+                min="0"
+                step="1000"
+                placeholder="Ví dụ: 35000"
+              />
+            </div>
           </div>
           <div class="form-group">
-            <label for="customDishPrice">Giá tiền tham khảo (đ)</label>
-            <input id="customDishPrice" type="number" min="0" step="1000" placeholder="Ví dụ: 35000" />
+            <label data-copy="description" for="customDishDesc">Mô tả hương vị / Ghi chú</label>
+            <textarea
+              id="customDishDesc"
+              maxlength="2000"
+              rows="2"
+              placeholder="Ví dụ: Nước dùng thanh ngọt, thịt bò xào lăn dậy mùi tỏi..."
+            ></textarea>
           </div>
-        </div>
-        <div class="form-group">
-          <label for="customDishDesc">Mô tả hương vị / Ghi chú</label>
-          <textarea id="customDishDesc" rows="2" placeholder="Ví dụ: Nước dùng thanh ngọt, thịt bò xào lăn dậy mùi tỏi..."></textarea>
-        </div>
-        <div class="form-group">
-          <label for="customDishImageInput">Hình ảnh món ăn (Tải từ máy hoặc chụp)</label>
-          <input id="customDishImageInput" type="file" accept="image/*" />
-          <div id="customDishImagePreview" class="image-preview-box" hidden>
-            <img id="customDishPreviewImg" src="" alt="Xem trước ảnh món ăn" />
-            <button id="customDishRemoveImgBtn" type="button" class="btn-remove-img">&times; Xóa ảnh</button>
+          <div class="form-group">
+            <label data-copy="image" for="customDishImageInput"
+              >Hình ảnh món ăn (Tải từ máy hoặc chụp)</label
+            >
+            <input id="customDishImageInput" type="file" accept="image/*" />
+            <div id="customDishImagePreview" class="image-preview-box" hidden>
+              <img id="customDishPreviewImg" src="" alt="Xem trước ảnh món ăn" />
+              <button
+                id="customDishRemoveImgBtn"
+                data-copy="removeImage"
+                type="button"
+                class="btn-remove-img"
+              >
+                &times; Xóa ảnh
+              </button>
+            </div>
           </div>
         </div>
         <div class="form-actions">
           <button type="button" class="btn-subtle" data-close>Hủy</button>
-          <button id="submitCustomDishBtn" type="submit" class="primary-button">
+          <button id="submitCustomDishBtn" data-copy="save" type="submit" class="primary-button">
             <span data-icon="check"></span>Lưu món vào thực đơn
           </button>
         </div>
@@ -823,8 +1238,7 @@
         <button type="button" data-appearance-choice="light" aria-pressed="true">Sáng</button
         ><button type="button" data-appearance-choice="dark" aria-pressed="false">Tối</button
         ><button type="button" data-appearance-choice="system" aria-pressed="false">
-          Theo thiết bị
-        </button
+          Theo thiết bị</button
         ><button type="button" data-appearance-choice="auto" aria-pressed="false">
           Tự động (Theo giờ)
         </button>
@@ -845,7 +1259,12 @@
         <div class="custom-color-picker-wrap">
           <label for="customThemeColor" class="custom-color-label">
             <span class="custom-color-preview" id="customColorPreview"></span>
-            <input type="color" id="customThemeColor" value="#ff7733" aria-label="Tự chọn màu sắc giao diện" />
+            <input
+              type="color"
+              id="customThemeColor"
+              value="#ff7733"
+              aria-label="Tự chọn màu sắc giao diện"
+            />
             <span id="customColorText">Tự chọn màu</span>
           </label>
         </div>
@@ -853,7 +1272,9 @@
       <p class="note" id="themeNote">
         Màu chủ đạo kết hợp được với cả chế độ sáng và tối. Lựa chọn được lưu trên trình duyệt này.
       </p>
-      <button class="primary" data-close id="themeDoneBtn">Xong<span data-icon="check"></span></button>
+      <button class="primary" data-close id="themeDoneBtn">
+        Xong<span data-icon="check"></span>
+      </button>
     </dialog>
     <dialog id="languageDialog" class="compact-dialog" aria-labelledby="langModalTitle">
       <div class="dialog-heading">
@@ -904,9 +1325,7 @@
         </button>
       </div>
       <div class="dialog-actions">
-        <button id="langDoneBtn" class="primary-button" data-close type="button">
-          Xong
-        </button>
+        <button id="langDoneBtn" class="primary-button" data-close type="button">Xong</button>
       </div>
     </dialog>
     <dialog id="timezoneDialog" class="compact-dialog" aria-labelledby="timezoneModalTitle">
@@ -931,7 +1350,12 @@
           </div>
           <span class="tz-time" data-tz-time="auto">--:--</span>
         </button>
-        <button type="button" data-timezone-choice="Asia/Ho_Chi_Minh" class="tz-card" aria-pressed="false">
+        <button
+          type="button"
+          data-timezone-choice="Asia/Ho_Chi_Minh"
+          class="tz-card"
+          aria-pressed="false"
+        >
           <span class="tz-flag">🇻🇳</span>
           <div class="tz-info">
             <strong class="tz-city" data-tz-name="Asia/Ho_Chi_Minh">Việt Nam</strong>
@@ -939,7 +1363,12 @@
           </div>
           <span class="tz-time" data-tz-time="Asia/Ho_Chi_Minh">--:--</span>
         </button>
-        <button type="button" data-timezone-choice="Asia/Tokyo" class="tz-card" aria-pressed="false">
+        <button
+          type="button"
+          data-timezone-choice="Asia/Tokyo"
+          class="tz-card"
+          aria-pressed="false"
+        >
           <span class="tz-flag">🇯🇵</span>
           <div class="tz-info">
             <strong class="tz-city" data-tz-name="Asia/Tokyo">Nhật Bản</strong>
@@ -947,7 +1376,12 @@
           </div>
           <span class="tz-time" data-tz-time="Asia/Tokyo">--:--</span>
         </button>
-        <button type="button" data-timezone-choice="Asia/Seoul" class="tz-card" aria-pressed="false">
+        <button
+          type="button"
+          data-timezone-choice="Asia/Seoul"
+          class="tz-card"
+          aria-pressed="false"
+        >
           <span class="tz-flag">🇰🇷</span>
           <div class="tz-info">
             <strong class="tz-city" data-tz-name="Asia/Seoul">Hàn Quốc</strong>
@@ -955,7 +1389,12 @@
           </div>
           <span class="tz-time" data-tz-time="Asia/Seoul">--:--</span>
         </button>
-        <button type="button" data-timezone-choice="Asia/Shanghai" class="tz-card" aria-pressed="false">
+        <button
+          type="button"
+          data-timezone-choice="Asia/Shanghai"
+          class="tz-card"
+          aria-pressed="false"
+        >
           <span class="tz-flag">🇨🇳</span>
           <div class="tz-info">
             <strong class="tz-city" data-tz-name="Asia/Shanghai">Trung Quốc</strong>
@@ -963,7 +1402,12 @@
           </div>
           <span class="tz-time" data-tz-time="Asia/Shanghai">--:--</span>
         </button>
-        <button type="button" data-timezone-choice="Asia/Bangkok" class="tz-card" aria-pressed="false">
+        <button
+          type="button"
+          data-timezone-choice="Asia/Bangkok"
+          class="tz-card"
+          aria-pressed="false"
+        >
           <span class="tz-flag">🇹🇭</span>
           <div class="tz-info">
             <strong class="tz-city" data-tz-name="Asia/Bangkok">Thái Lan</strong>
@@ -971,7 +1415,12 @@
           </div>
           <span class="tz-time" data-tz-time="Asia/Bangkok">--:--</span>
         </button>
-        <button type="button" data-timezone-choice="Asia/Singapore" class="tz-card" aria-pressed="false">
+        <button
+          type="button"
+          data-timezone-choice="Asia/Singapore"
+          class="tz-card"
+          aria-pressed="false"
+        >
           <span class="tz-flag">🇸🇬</span>
           <div class="tz-info">
             <strong class="tz-city" data-tz-name="Asia/Singapore">Singapore / Malaysia</strong>
@@ -979,7 +1428,12 @@
           </div>
           <span class="tz-time" data-tz-time="Asia/Singapore">--:--</span>
         </button>
-        <button type="button" data-timezone-choice="Europe/London" class="tz-card" aria-pressed="false">
+        <button
+          type="button"
+          data-timezone-choice="Europe/London"
+          class="tz-card"
+          aria-pressed="false"
+        >
           <span class="tz-flag">🇬🇧</span>
           <div class="tz-info">
             <strong class="tz-city" data-tz-name="Europe/London">Anh / Tây Âu</strong>
@@ -987,7 +1441,12 @@
           </div>
           <span class="tz-time" data-tz-time="Europe/London">--:--</span>
         </button>
-        <button type="button" data-timezone-choice="Europe/Paris" class="tz-card" aria-pressed="false">
+        <button
+          type="button"
+          data-timezone-choice="Europe/Paris"
+          class="tz-card"
+          aria-pressed="false"
+        >
           <span class="tz-flag">🇫🇷</span>
           <div class="tz-info">
             <strong class="tz-city" data-tz-name="Europe/Paris">Pháp / Đức</strong>
@@ -995,7 +1454,12 @@
           </div>
           <span class="tz-time" data-tz-time="Europe/Paris">--:--</span>
         </button>
-        <button type="button" data-timezone-choice="America/New_York" class="tz-card" aria-pressed="false">
+        <button
+          type="button"
+          data-timezone-choice="America/New_York"
+          class="tz-card"
+          aria-pressed="false"
+        >
           <span class="tz-flag">🇺🇸</span>
           <div class="tz-info">
             <strong class="tz-city" data-tz-name="America/New_York">Mỹ - Bờ Đông</strong>
@@ -1003,7 +1467,12 @@
           </div>
           <span class="tz-time" data-tz-time="America/New_York">--:--</span>
         </button>
-        <button type="button" data-timezone-choice="America/Los_Angeles" class="tz-card" aria-pressed="false">
+        <button
+          type="button"
+          data-timezone-choice="America/Los_Angeles"
+          class="tz-card"
+          aria-pressed="false"
+        >
           <span class="tz-flag">🇺🇸</span>
           <div class="tz-info">
             <strong class="tz-city" data-tz-name="America/Los_Angeles">Mỹ - Bờ Tây</strong>
@@ -1011,7 +1480,12 @@
           </div>
           <span class="tz-time" data-tz-time="America/Los_Angeles">--:--</span>
         </button>
-        <button type="button" data-timezone-choice="Australia/Sydney" class="tz-card" aria-pressed="false">
+        <button
+          type="button"
+          data-timezone-choice="Australia/Sydney"
+          class="tz-card"
+          aria-pressed="false"
+        >
           <span class="tz-flag">🇦🇺</span>
           <div class="tz-info">
             <strong class="tz-city" data-tz-name="Australia/Sydney">Úc</strong>

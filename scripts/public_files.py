@@ -1,6 +1,7 @@
 """Explicit publish allowlist. Never serve the development checkout directly."""
 PUBLIC_FILES = (
     'animation.js',
+    'attribution.js',
     'app.js',
     'assets/brand.svg',
     'assets/fonts/be-vietnam-pro-latin-400-normal.woff2',
@@ -19,7 +20,7 @@ PUBLIC_FILES = (
     'assets/licenses/lucide-LICENSE.txt',
     'assets/licenses/motion-LICENSE.md',
     'assets/sources.json',
-    'assets/vendor/motion.js',
+    'assets/attribution-data.js',
     'audio.js',
     'collection.js',
     'controls.js',
@@ -496,10 +497,21 @@ PUBLIC_FILES = (
     'robots.txt',
     'sitemap.xml',
     'style.css',
+    'sw-assets.js',
     'sw.js',
     'terms.html',
     'theme-init.js',
     'ui.js',
+    'money.js',
+    'catalog.js',
+    'settings.js',
+    'custom-dishes.js',
+    'ui-copy.js',
+    'dish-i18n.js',
+    'regional-dish-locales.js',
+    'legal-copy.js',
+    'mobile-menu.js',
+    'sponsors.js',
 )
 
 
@@ -513,4 +525,4 @@ def source_path(root, public_name):
 
 
 # Concatenated in this order into the stable /style.css URL; no CSS @import waterfall.
-STYLE_SOURCES = ('base.css', 'interactions.css', 'mobile.css', 'refinements.css', 'themes.css')
+STYLE_SOURCES = ('base.css', 'interactions.css', 'mobile.css', 'refinements.css', 'themes.css', 'mobile-upgrade.css')

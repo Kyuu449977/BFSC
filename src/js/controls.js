@@ -268,12 +268,10 @@ const CustomControls = (() => {
     disclosures.set(details, state);
     summary.addEventListener('click', (event) => {
       event.preventDefault();
-      const from = details.getBoundingClientRect().height;
       const target = state.animation ? !state.expanded : !details.open;
       state.animation?.cancel();
       state.expanded = target;
       details.open = target;
-      const to = details.getBoundingClientRect().height;
       if (reduced.matches || document.hidden) {
         details.style.removeProperty('overflow');
         state.animation = null;
@@ -281,8 +279,13 @@ const CustomControls = (() => {
       }
       details.open = true;
       details.style.overflow = 'hidden';
-      const animation = details.animate(
-        { height: [from + 'px', to + 'px'] },
+      const animation = body.animate(
+        {
+          opacity: target ? [0, 1] : [1, 0],
+          transform: target
+            ? ['translateY(-4px)', 'translateY(0)']
+            : ['translateY(0)', 'translateY(-4px)'],
+        },
         { duration: 200, easing: 'cubic-bezier(.22,1,.36,1)' }
       );
       state.animation = animation;
@@ -314,6 +317,31 @@ const CustomControls = (() => {
   }
   function syncAll() {
     selects.forEach(sync);
+  }
+  function syncVisualViewport() {
+    const viewport = window.visualViewport;
+    if (!viewport) return;
+    const root = document.documentElement;
+    root.style.setProperty('--visual-viewport-height', `${Math.round(viewport.height)}px`);
+    root.style.setProperty('--visual-viewport-offset-top', `${Math.round(viewport.offsetTop)}px`);
+    const dialog = document.querySelector('dialog[open]');
+    const focused = document.activeElement;
+    if (!dialog || !focused || !dialog.contains(focused)) return;
+    const rect = focused.getBoundingClientRect();
+    const visibleTop = viewport.offsetTop + 12;
+    const visibleBottom = viewport.offsetTop + viewport.height - 16;
+    if (rect.top >= visibleTop && rect.bottom <= visibleBottom) return;
+    let scrollable = focused.parentElement;
+    while (
+      scrollable &&
+      scrollable !== dialog &&
+      scrollable.scrollHeight <= scrollable.clientHeight
+    ) {
+      scrollable = scrollable.parentElement;
+    }
+    scrollable = scrollable || dialog;
+    if (rect.bottom > visibleBottom) scrollable.scrollTop += rect.bottom - visibleBottom;
+    else if (rect.top < visibleTop) scrollable.scrollTop -= visibleTop - rect.top;
   }
   function settle() {
     closeAll();
@@ -361,6 +389,11 @@ const CustomControls = (() => {
   );
   window.addEventListener('resize', closeAll);
   window.visualViewport?.addEventListener('resize', closeAll);
+  window.visualViewport?.addEventListener('resize', syncVisualViewport);
+  window.visualViewport?.addEventListener('scroll', syncVisualViewport);
+  document.addEventListener('focusin', (event) => {
+    if (event.target.matches('input, textarea, select')) requestAnimationFrame(syncVisualViewport);
+  });
   document.addEventListener('visibilitychange', () => {
     if (document.hidden) settle();
   });

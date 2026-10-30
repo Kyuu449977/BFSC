@@ -1,3 +1,4 @@
+const { openTools, clickTool } = require('./helpers/mobile-tools.cjs');
 const { chromium } = require('playwright');
 const http = require('http'),
   fs = require('fs'),
@@ -120,10 +121,10 @@ const http = require('http'),
       .click();
     assert.ok((await page.locator('#resultGrid .collected').textContent()).includes('x0'));
     await page.keyboard.press('Escape');
-    await page.locator('#soundBtn').click();
+    await clickTool(page, 'soundBtn');
     await page.reload();
     assert.equal(await page.locator('#soundBtn').getAttribute('aria-pressed'), 'true');
-    await page.locator('#shareBtn').click();
+    await clickTool(page, 'shareBtn');
     assert.equal(await page.evaluate(() => window.copiedUrl), 'http://localhost:8097/');
     await page.evaluate(() =>
       Object.defineProperty(navigator, 'clipboard', {
@@ -135,7 +136,7 @@ const http = require('http'),
         },
       })
     );
-    await page.locator('#shareBtn').click();
+    await clickTool(page, 'shareBtn');
     await page.locator('#shareDialog').waitFor({ state: 'visible' });
     assert.equal(await page.locator('#shareUrl').inputValue(), 'http://localhost:8097/');
     await page.keyboard.press('Escape');

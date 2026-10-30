@@ -1,276 +1,87 @@
-# 🍜 Ăn Gì Đây? (Hôm Nay Ăn Gì? - BFSC)
+# Ăn Gì Đây? — BFSC
 
-> **Vòng quay ẩm thực đa quốc gia, tự động theo thời gian thực — 100% JavaScript thuần, Offline PWA, Không phụ thuộc thư viện ngoài.**
+Website chọn món ăn bằng vòng quay, hỗ trợ 382 món tĩnh thuộc Việt Nam, Nhật Bản, Hàn Quốc, Trung Quốc và Âu–Mỹ. Người dùng có thể thêm món riêng, lọc ngân sách/khẩu vị, xem bộ sưu tập và mở Google Maps theo tên món.
 
-[![Tests](https://img.shields.io/badge/Unit%20Tests-19%2F19%20PASS-brightgreen.svg)](#hệ-thống-kiểm-thử-chất-lượng)
-[![Architecture](https://img.shields.io/badge/Architecture-Vanilla%20JS%20%7C%20PWA-orange.svg)](#kiến-trúc-hệ-thống)
-[![Dishes](https://img.shields.io/badge/Dishes-333%20Curated%20Items-blue.svg)](#kho-dữ-liệu-ẩm-thực-5-quốc-gia)
-[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
+## Chạy và build
 
----
+Yêu cầu Python 3.10+ để build/preview. Frontend không cần npm hoặc bundler. Node/Playwright chỉ dùng cho phát triển và kiểm thử.
 
-## 📖 Mục lục
-
-1. [Giới thiệu dự án](#giới-thiệu-dự-án)
-2. [Tính năng nổi bật](#tính-năng-nổi-bật)
-3. [Kho dữ liệu ẩm thực 5 quốc gia](#kho-dữ-liệu-ẩm-thực-5-quốc-gia)
-4. [Cấu trúc thư mục dự án](#cấu-trúc-thư-mục-dự-án)
-5. [Hướng dẫn cài đặt & khởi chạy](#hướng-dẫn-cài-đặt--khởi-chạy)
-6. [Quy trình Build & Triển khai](#quy-trình-build--triển-khai)
-7. [Hệ thống kiểm thử chất lượng](#hệ-thống-kiểm-thử-chất-lượng)
-8. [Quy tắc bảo trì & phát triển mã nguồn](#quy-tắc-bảo-trì--phát-triển-mã-nguồn)
-9. [Tài liệu tham khảo chuyên sâu](#tài-liệu-tham-khảo-chuyên-sâu)
-
----
-
-## 🌟 Giới thiệu dự án
-
-**Ăn Gì Đây?** là ứng dụng web hiện đại giải quyết câu hỏi muôn thuở mỗi ngày: *"Hôm nay ăn gì?"*. 
-
-Ứng dụng kết hợp giữa **vòng quay Roulette / Gacha phong cách CS:GO** đầy kịch tính với **cơ sở dữ liệu ẩm thực phong phú của 5 quốc gia**, tự động nhận diện bữa ăn theo thời gian thực trong ngày, hỗ trợ đa tiền tệ, đa ngôn ngữ, quản lý ngân sách, và lưu trữ bộ sưu tập món ăn đã khám phá.
-
-Điểm đặc biệt nhất của dự án là triết lý **Pure Web Fundamentals**:
-- **Zero Runtime Dependencies**: Không sử dụng React, Vue, Angular, jQuery hay bất kỳ thư viện frontend đóng gói nào lúc chạy.
-- **100% Offline PWA**: Tích hợp Service Worker hoàn chỉnh, lưu bộ nhớ đệm toàn bộ 333+ hình ảnh món ăn thực tế và toàn bộ mã nguồn, cho phép mở và quay thưởng ngay cả khi mất kết nối mạng.
-- **Bảo vệ quyền riêng tư tuyệt đối**: Không thu thập dữ liệu cá nhân; mọi sở thích, lịch sử quay và bộ sưu tập đều được lưu trực tiếp trên thiết bị của người dùng (IndexedDB & LocalStorage).
-
----
-
-## 🚀 Tính năng nổi bật
-
-### 🎰 1. Vòng quay Gacha Roulette sống động
-- Trục quay ngang đa thẻ với thuật toán giảm tốc vật lý tự nhiên (`cubic-bezier` deceleration curve).
-- Thuật toán đảm bảo không bao giờ xuất hiện 2 thẻ giống nhau nằm liền kề trên dải quay.
-- Hệ thống âm thanh độc quyền tổng hợp trực tiếp bằng **Web Audio API** (tiếng tạch tạch theo từng nhịp quay, nhạc reo chiến thắng khi trúng món).
-- Phân loại độ hiếm rõ ràng:
-  - 🥉 **3 Sao (Đồng - Phổ biến)**: Món ăn thường ngày, bình dân.
-  - 🥈 **4 Sao (Bạc - Đặc sắc)**: Món ngon nổi tiếng, hương vị đặc trưng.
-  - 🥇 **5 Sao (Vàng - Huyền thoại)**: Sơn hào hải vị, đặc sản trứ danh kèm hiệu ứng ánh kim lấp lánh và pháo hoa giấy chúc mừng.
-
-### 🍱 2. Chế độ quay đa dạng & Quản lý ngân sách
-- **Quay 1 món**: Quyết định nhanh món ăn chính xác cho bữa ăn tiếp theo.
-- **Quay 3 món**: Đưa ra 3 phương án để người dùng dễ dàng cân nhắc lựa chọn.
-- **Rút Combo thông minh**: Tự động ghép thành 1 mâm cơm trọn vẹn gồm **Món chính + Món ăn kèm/Ăn vặt + Đồ uống thanh mát**.
-- **Bộ lọc ngân sách**: Đặt mức chi tiêu tối đa (theo đơn vị tiền tệ bản địa), thuật toán chỉ chọn lọc các món ăn hoặc combo nằm trong tầm giá cho phép.
-
-### 🕒 3. Tách biệt độc lập: Múi giờ vs Ngôn ngữ hiển thị
-- **Múi giờ khu vực (Timezone)**: Quyết định danh mục món ăn bản địa, bữa ăn tự động theo giờ địa phương, và đơn vị tiền tệ (`₫`, `¥`, `₩`, `$`).
-- **Ngôn ngữ hiển thị (Display Language)**: Hỗ trợ 5 ngôn ngữ (**Tiếng Việt**, **English**, **日本語**, **한국어**, **中文**). Thay đổi ngôn ngữ sẽ dịch toàn bộ giao diện và tên món ăn mà **không làm thay đổi thực đơn hay giá tiền** của quốc gia đang chọn.
-
-### 🎨 4. Hệ thống giao diện thông minh (Appearance System)
-- **Chế độ hiển thị**:
-  - ☀️ **Sáng (Light Mode)**
-  - 🌙 **Tối (Dark Mode)**
-  - ⏰ **Tự động theo thời gian thực (Real-time Auto)**: Tự động đổi màu nền và sắc thái theo giờ mặt trời mọc/lặn (Vàng nhạt buổi sáng → Cam ấm buổi trưa → Tím than buổi tối → Đen êm dịu lúc khuya).
-- **Màu sắc chủ đạo (Accent Colors)**:
-  - 🎨 **Màu hệ thống (`system`)**: Chuyển sắc gradient cam đất hiện đại.
-  - 🧱 **Đỏ gạch (`brick`)**
-  - 🍋 **Vàng chanh (`lemon`)**
-  - 🍃 **Xanh lá (`green`)**
-  - 🔮 **Tím mộng mơ (`purple`)**
-  - 🌈 **Tự chọn màu tùy biến (`custom`)**: Bộ chọn mã màu Hex tích hợp, tự động tính toán độ tương phản văn bản đạt chuẩn WCAG.
-- Chống giật giao diện (No FOUC) nhờ script `theme-init.js` nạp đồng bộ trước khi render CSS.
-
-### 📖 5. Sổ tay ẩm thực & Sở thích cá nhân
-- **Bộ sưu tập (Collections)**: Lưu trữ trong **IndexedDB**, theo dõi phần trăm thực đơn đã khám phá, số lần quay trúng từng món.
-- **Món yêu thích**: Đánh dấu tim các món khoái khẩu để ưu tiên xuất hiện.
-- **Món đã ăn gần đây**: Tự động giảm tỷ lệ lặp lại món ăn vừa ăn trong vài bữa trước.
-- **Ẩn món (Blacklist)**: Loại bỏ các món gây dị ứng hoặc không hợp khẩu vị ra khỏi vòng quay.
-
-### 📍 6. Tìm quán quanh đây (Nearby Google Maps)
-- Một chạm mở ngay liên kết tìm kiếm địa điểm trên Google Maps với từ khóa chuẩn xác cho từng món ăn.
-- Hoàn toàn miễn phí, không gọi API Google trả phí, đảm bảo 100% quyền riêng tư và tương thích trên mọi thiết bị.
-
----
-
-## 🌏 Kho dữ liệu ẩm thực 5 quốc gia
-
-Dự án sở hữu kho dữ liệu đồ sộ gồm **333 món ăn** được tuyển chọn công phu, chia đều theo 6 khung bữa: **Buổi Sáng**, **Buổi Trưa**, **Buổi Chiều**, **Buổi Tối**, **Món Ăn Vặt**, **Đồ Uống & Nước Ngọt**.
-
-| Quốc gia | Mã vùng | Số lượng | Đơn vị tiền tệ | Món ăn tiêu biểu |
-| :--- | :---: | :---: | :---: | :--- |
-| 🇻🇳 **Việt Nam** | `vi` | 113 món | VNĐ (`₫`) | Phở bò tái nạm, Bún bò Huế, Cơm tấm sườn bì chả, Bánh mì chảo, Bánh căn Đà Lạt, Bánh lọt nước cốt dừa, Chè bưởi An Giang, Cà phê trứng Hà Nội... |
-| 🇯🇵 **Nhật Bản** | `ja` | 55 món | JPY (`¥`) | Nigiri Sushi, Chirashizushi, Hakata Tonkotsu Ramen, Sanuki Udon, Katsudon, Hitsumabushi, Takoyaki, Okonomiyaki, Warabimochi, Melon soda float... |
-| 🇰🇷 **Hàn Quốc** | `ko` | 55 món | KRW (`₩`) | Bossam thịt luộc, Dồi sụn Sundae chiên giòn, Rosé Tteokbokki, Samgyeopsal nướng, Samgyetang gà hầm sâm, Dolsot Bibimbap, Bánh cá Bungeoppang... |
-| 🇨🇳 **Trung Quốc** | `zh` | 55 món | CNY (`¥`) | Tiểu Long Bao Thượng Hải, Bánh bao chiên Shengjianbao, Vịt quay Bắc Kinh, Đậu hũ Mapo Tofu, Mì bò Lan Châu, Há cảo tôm Har Gow, Bánh kẹp Jianbing... |
-| 🇬🇧/🇺🇸 **Âu - Mỹ** | `en` | 55 món | USD (`$`) | Double Smash Cheeseburger, New York Pepperoni Pizza, Fish & Chips, Maine Lobster Roll, Philly Cheesesteak, Texas BBQ Brisket, New York Cheesecake... |
-
-> **Quy chuẩn hình ảnh 100% thực tế:** Toàn bộ 333 món ăn đều sử dụng ảnh chụp món ăn thật đã qua chế biến từ nguồn mở **Wikimedia Commons & Wikipedia**, chuẩn hóa kích thước **640x480**, định dạng **WebP** chất lượng cao (dung lượng tối ưu 20-50KB/ảnh). Tuyệt đối không dùng ảnh minh họa chung chung hay ảnh vẽ nhân vật.
-
----
-
-## 📁 Cấu trúc thư mục dự án
-
-```text
-BFSC/
-├── src/                          # MÃ NGUỒN FRONTEND
-│   ├── index.html                # Trang chính ứng dụng
-│   ├── credits.html              # Trang thông tin bản quyền & cảm ơn
-│   ├── privacy.html              # Chính sách bảo mật người dùng
-│   ├── terms.html                # Điều khoản sử dụng
-│   ├── manifest.json             # Cấu hình PWA Web App Manifest
-│   ├── sw.js                     # Service Worker lưu bộ nhớ đệm offline
-│   ├── theme-init.js             # Script khởi tạo theme đồng bộ trước CSS
-│   ├── js/                       # Mô-đun JavaScript thuần
-│   │   ├── app.js                # Điều phối giao diện chính (Controller)
-│   │   ├── data.js               # CSDL món ăn 5 quốc gia & từ điển i18n
-│   │   ├── gacha.js              # Động cơ Gacha, xác suất, ngân sách
-│   │   ├── controls.js           # Dropdown, combobox, color picker chuẩn ARIA
-│   │   ├── animation.js          # Hoạt ảnh trục quay roulette CS:GO
-│   │   ├── audio.js              # Bộ tổng hợp âm thanh Web Audio API
-│   │   ├── collection.js         # Quản lý sổ tay bộ sưu tập qua IndexedDB
-│   │   ├── dish-preferences.js   # Quản lý danh sách ẩn, yêu thích, ăn gần đây
-│   │   ├── experience.js         # Phản hồi xúc giác & giảm hiệu ứng chuyển động
-│   │   ├── nearby.js             # Tạo liên kết tìm quán trên Google Maps
-│   │   └── ui.js                 # Thông báo Toast, modal, cài đặt PWA
-│   ├── styles/                   # Mã nguồn CSS chia theo mô-đun
-│   │   ├── base.css              # Cấu trúc nền tảng & CSS Reset
-│   │   ├── interactions.css      # Trạng thái hover, focus, animation
-│   │   ├── mobile.css            # Tối ưu giao diện điện thoại di động
-│   │   ├── refinements.css       # Tinh chỉnh thị giác, bóng đổ, bo góc
-│   │   └── themes.css            # Biến màu sắc, Dark/Light & Auto theme
-│   ├── assets/                   # Tài nguyên tĩnh
-│   │   ├── brand.svg             # Logo ứng dụng
-│   │   ├── icons.svg             # Hệ thống SVG Sprite Icons
-│   │   ├── fonts/                # Web Fonts nhúng cục bộ (.woff2)
-│   │   └── vendor/motion.js      # Thư viện hỗ trợ chuyển động nhẹ
-│   └── images/                   # Kho hình ảnh WebP 640x480
-│       ├── buoi_sang/, buoi_trua/... # Ảnh các món Việt Nam truyền thống
-│       ├── regional/             # Ảnh các món ẩm thực quốc tế (ja, ko, zh, en)
-│       └── sources.json          # Trích dẫn bản quyền và tác giả từng bức ảnh
-├── backend/                      # MÃ NGUỒN MÁY CHỦ PYTHON
-│   ├── server.py                 # Máy chủ HTTP chuẩn bảo mật CSP & allowlist
-│   ├── run_server.py             # Hỗ trợ tích hợp Cloudflare Tunnel
-│   ├── places_service.py         # Mock Places API (Maps-link mode)
-│   ├── places_budget.py          # Xử lý ngân sách phía máy chủ
-│   └── data/                     # Dữ liệu nội bộ máy chủ (không xuất bản)
-├── scripts/                      # KỊCH BẢN BUILD & CÔNG CỤ
-│   ├── build_public.py           # Kịch bản biên dịch tĩnh src/ -> public/
-│   ├── public_files.py           # Danh mục Allowlist các file được phép xuất bản
-│   └── master_replace_food_images.py # Pipeline tải & chuẩn hóa ảnh món ăn
-├── tests/                        # HỆ THỐNG KIỂM THỬ TOÀN DIỆN
-│   ├── test_server.py            # Unit test máy chủ HTTP
-│   ├── test_public_security.py   # Kiểm thử bảo mật CSP & Allowlist
-│   ├── test_places.py            # Kiểm thử dịch vụ địa điểm
-│   ├── test_places_budget.py     # Kiểm thử tính toán ngân sách
-│   └── *.test.cjs, *.cjs         # Bộ kiểm thử trình duyệt Playwright & Node.js
-├── public/                       # THƯ MỤC BUILD OUTPUT (TỰ SINH - KHÔNG SỬA)
-├── server.py                     # Entry point khởi chạy máy chủ nhanh
-├── run_server.py                 # Entry point khởi chạy máy chủ kèm tunnel
-├── build_public.py               # Entry point build tĩnh tại gốc dự án
-├── package.json                  # Cấu hình lệnh kiểm thử và Prettier
-├── vercel.json, netlify.toml     # Cấu hình triển khai đám mây
-└── AI_SYSTEM_REFERENCE.md        # Tài liệu kiến trúc chuyên sâu dành riêng cho AI
+```sh
+python -B build_public.py
+python -B server.py
 ```
 
----
+Mở địa chỉ localhost hoặc LAN được in ra. `PORT` đổi cổng preview. Sau khi sửa nguồn, build lại; khởi động lại preview nếu đổi allowlist. Service worker và cài PWA cần HTTPS hoặc localhost; HTTP LAN vẫn dùng được phần website mà trình duyệt cho phép.
 
-## 💻 Hướng dẫn cài đặt & khởi chạy
+`python -B run_server.py` hỗ trợ Cloudflare Tunnel nếu executable tùy chọn có sẵn. Không cần tunnel để dùng trong mạng LAN.
 
-### 1. Yêu cầu hệ thống
-- **Python**: Phiên bản `3.10` trở lên (Khuyến nghị Python 3.12+).
-- **Node.js** *(Tùy chọn, chỉ cần khi chạy kiểm thử Playwright hoặc format code)*: `18.0.0` trở lên.
-- **Trình duyệt**: Bất kỳ trình duyệt hiện đại nào (Chrome, Edge, Firefox, Safari).
+## Công nghệ và cấu trúc
 
-### 2. Khởi chạy máy chủ cục bộ (Local Server)
-Tại thư mục gốc của dự án, mở terminal và chạy:
+HTML5, CSS, classic JavaScript ES6, Web Animations, Web Audio và service worker; không React/Vue, ES Modules, bundler hoặc thư viện frontend lúc chạy. Các tích hợp quảng cáo bên ngoài được giữ.
 
-```bash
-python server.py
-```
+- `src/`: nguồn HTML, CSS, JavaScript và tài nguyên.
+- `src/js/money.js`, `catalog.js`, `settings.js`: tiền tệ, danh mục và cài đặt.
+- `src/js/gacha.js`, `collection.js`, `dish-preferences.js`: chọn món, lưu bộ sưu tập và sở thích.
+- `src/js/custom-dishes.js`: validation, API và lưu món local khi không có backend.
+- `src/js/theme-init.js`, `controls.js`, `experience.js`, `audio.js`: giao diện và tương tác native.
+- `src/js/mobile-menu.js`, `sponsors.js`: menu công cụ thu gọn và banner theo kích thước màn hình, tải một lần khi gần vùng nhìn thấy.
+- `src/js/dish-i18n.js`, `regional-dish-locales.js`, `ui-copy.js`, `legal-copy.js`: bản dịch món, chữ giao diện và trang thông tin; không thay ID món. Ngôn ngữ hiển thị độc lập với vùng ẩm thực và tiền tệ.
+- `backend/`: preview/API Python. `backend/data/` không được xuất bản như file tĩnh.
+- `scripts/build_public.py`, `scripts/public_files.py`: build và allowlist.
+- `public/`: đầu ra tự sinh; không sửa trực tiếp.
+- `tests/`: unit, integration và browser QA.
+- `artifacts/`: log/ảnh cục bộ; không publish.
 
-Máy chủ sẽ tự động biên dịch `public/` và phục vụ tại:
-- **Địa chỉ máy tính**: `http://localhost:8080`
-- **Địa chỉ mạng Wi-Fi (LAN)**: Được in trực tiếp ra terminal (Ví dụ: `http://192.168.1.15:8080`), cho phép các thiết bị khác trong cùng mạng Wi-Fi (điện thoại, iPad) truy cập trực tiếp.
+CSS được ghép theo thứ tự base → interactions → mobile → refinements → themes → mobile-upgrade.
 
-### 3. Phím tắt cho người dùng Windows
-- Nhấp đúp chuột vào tệp **`CHAY_WEB_CHO_DIEN_THOAI.bat`** để tự động khởi động máy chủ và hiển thị địa chỉ IP kết nối trên điện thoại.
+## Hành vi sản phẩm
 
-### 4. Khởi chạy với Cloudflare Tunnel (Chia sẻ ra Internet)
-Nếu bạn có cài đặt Cloudflare Tunnel (`cloudflared`):
-```bash
-python run_server.py
-```
-Máy chủ sẽ tạo liên kết public an toàn HTTPS để gửi cho bạn bè trải nghiệm từ xa mà không cần mở cổng modem.
+- Vùng quyết định danh mục và tiền tệ; ngôn ngữ chỉ đổi nội dung hiển thị. Main gom bốn nhóm bữa, không giới hạn một bữa hiện tại. Bữa theo timezone dùng cho bối cảnh/banner.
+- Giờ sáng 04–11, trưa 11–14, chiều 14–17, tối 17–22; khuya dùng nhóm dinner.
+- Random ưu tiên tránh món mới ăn nếu bật, rồi giảm trùng lượt trước, cân bằng lịch sử phiên và random khi hòa. Favorite/rarity không tăng xác suất.
+- Ngân sách theo tổng giá thấp nhất tham khảo; giá thực tế có thể cao hơn. VND/JPY/KRW là số nguyên; USD/CNY có tối đa hai số thập phân. Không chuyển tỷ giá khi đổi vùng.
+- Kết quả chọn trước animation và chỉ commit một lần. Skip không random lại. Vòng tự nhập là luồng riêng; dòng trùng tăng số vé và không chịu bộ lọc catalog.
+- Bộ sưu tập dùng IndexedDB `food_case_data`, store `state`, key `collection`; giữ mirror `food_case_collection`. Không đổi các khóa lưu cũ. Dữ liệu chưa nhận diện không tự bị xóa.
+- Appearance system theo thiết bị; auto theo thời gian. Màu custom được giữ cho trang trí, màu tương tác được điều chỉnh để đủ tương phản.
+- Google Maps dùng URL tìm kiếm; không xin GPS hoặc gọi Places trả phí.
 
----
+## Món tự thêm và API
 
-## 🛠️ Quy trình Build & Triển khai
+Local Python hỗ trợ GET/POST `/api/custom-dishes`. Dữ liệu và ảnh gửi lên máy chủ thuộc danh mục chung. Trên static hosting hoặc khi mạng/API không sẵn sàng, món được lưu ở trình duyệt. Validation 4xx không được che bằng fallback.
 
-### 1. Cơ chế Build an toàn (`build_public.py`)
-Dự án áp dụng nguyên tắc **Allowlist Tuyệt Đối**:
-- Kịch bản `scripts/build_public.py` đọc danh sách `PUBLIC_FILES` trong `scripts/public_files.py`.
-- Ghép các file CSS theo đúng thứ tự nghiêm ngặt thành một file duy nhất `/style.css`:
-  $$\text{base.css} \longrightarrow \text{interactions.css} \longrightarrow \text{mobile.css} \longrightarrow \text{refinements.css} \longrightarrow \text{themes.css}$$
-- Sao chép các tệp HTML, JS, font, ảnh sang thư mục đích `public/`.
-- Tự động dọn dẹp các tệp mồ côi không có trong danh sách xuất bản.
+API nhận UUID trong `id` hoặc `idempotencyKey`, region, mealId, name, price, desc và các trường phụ. Cùng ID/cùng nội dung là retry; cùng ID khác nội dung trả 409. Body tối đa 2 MiB. Ảnh upload tối đa 10 MiB trước xử lý, resize cạnh dài 640px và encode WebP. Backend kiểm tra dữ liệu, giới hạn request, khóa cập nhật và atomic replace; file JSON hỏng không bị ghi đè.
 
-Để kích hoạt build thủ công:
-```bash
-python build_public.py
-```
+`BFSC_PUBLIC_ROOT` và `BFSC_DATA_ROOT` hỗ trợ preview/test với thư mục riêng. Import server không tự build. Test API dùng data root tạm.
 
-### 2. Triển khai lên Vercel / Netlify
-Dự án được cấu hình sẵn sàng cho việc triển khai không máy chủ (Serverless / Static Hosting):
-- **Vercel**: Sử dụng cấu hình `vercel.json` phục vụ thư mục tĩnh `public/` và endpoint `api/places.py`.
-- **Netlify**: Sử dụng `netlify.toml` tự động chạy lệnh `python build_public.py` và xuất bản `public/`.
+GET `/api/places` trả maps-link; POST trả 410, kể cả khi có key. Vercel chỉ có function Places hiện hành. Netlify/Render static không có API lưu món; frontend dùng local fallback. Chưa deploy trong đợt nâng cấp.
 
----
+## PWA, tài nguyên và ghi công
 
-## 🧪 Hệ thống kiểm thử chất lượng
+Build tạo `sw-assets.js` từ allowlist: app shell bắt buộc, ảnh/font tùy chọn. Không cache API hay quảng cáo. Ảnh thiếu không chặn shell; UI báo số tài nguyên chưa lưu. Bản mới chờ người dùng cập nhật và không reload khi đang quay hoặc nhập form.
 
-Dự án duy trì tỷ lệ vượt qua **100% tất cả các bài kiểm thử**:
+Metadata ảnh được đối chiếu theo đường dẫn tại `docs/reports/image-attribution-audit.json`. Có 118 mục có metadata cấu trúc đầy đủ và 264 mục cần rà nguồn/giấy phép; nhóm cần rà dùng placeholder trong UI, giữ nguyên file gốc và ID. Đây không phải xác minh quyền sử dụng độc lập. Credits và runtime metadata sinh trong build, có escape HTML. Giấy phép font/icon/thư viện lịch sử nằm trong `src/assets/licenses/`.
 
-### 1. Kiểm thử đơn vị Python (19 Tests)
-Kiểm tra an ninh máy chủ, chính sách bảo vệ Content Security Policy (CSP), định dạng MIME, cơ chế từ chối duyệt thư mục trái phép, và logic tính toán ngân sách:
+Thêm món/asset phải cập nhật nguồn, metadata và allowlist; build tự sinh cache manifest. Tăng version cache khi phát hành thay đổi tài nguyên.
 
-```bash
-python -B -m unittest discover -s tests -p "test_*.py"
-```
+## Kiểm thử và bàn giao
 
-*Kết quả: `Ran 19 tests in 4.8s - OK`.*
+Kiểm tra cảnh báo responsive: `node --test tests/responsive-audit-browser.cjs` (alias `npm run test:responsive-audit`). Helper chỉ phục vụ tests, phân biệt nội dung ẩn/clipping/overlay với lỗi che thao tác; xem `docs/reports/RESPONSIVE-AUDIT-P1-2026-10-29.md` để đọc schema và giới hạn.
 
-### 2. Kiểm thử logic & Trình duyệt (Node.js & Playwright)
-```bash
-# Kiểm thử động cơ Gacha, logic chọn món, bộ sưu tập
+Ma trận P2: `npm run test:responsive-p2`; đặt `BFSC_TEST_ENGINE=webkit` để chạy WebKit. Có thể đặt `BFSC_P2_GROUP` thành `base`, `comparison`, `menu`, `ads` hoặc `interaction` để chạy riêng từng nhóm. Suite dùng server/storage và quảng cáo giả lập riêng, lưu JSON/ảnh trong `artifacts/responsive-p2/`. Phạm vi và kết quả: [báo cáo P2](docs/reports/RESPONSIVE-P2-2026-10-29.md).
+
+Đối chiếu báo cáo visual diff: `npm run test:responsive-crosswalk` (đặt `BFSC_TEST_ENGINE=webkit` cho WebKit). Dùng fixture dữ liệu đã trích từ HTML, không chạy mã trong báo cáo gốc. Cách chạy lại toàn bộ nghiệm thu, kết quả và giới hạn: [báo cáo P3](docs/reports/RESPONSIVE-P3-2026-10-30.md); [bảng 54 nhóm](docs/reports/VISUAL-REPORT-CROSSWALK-P3-2026-10-30.md).
+
+```sh
 node --test tests/*.test.cjs
-
-# Kiểm thử giao diện trực quan trên trình duyệt Chromium/Edge
-npm run test:browser
-npm run test:theme
-npm run test:mobile-compact
+python -B -m unittest discover -s tests -p "test_*.py"
+python -B build_public.py
+node tests/upgrade-browser.cjs
+node tests/upgrade-features-browser.cjs
+node tests/upgrade-pwa-browser.cjs
 ```
 
-### 3. Kiểm tra định dạng mã nguồn (Code Formatting)
-```bash
-npm run format:check
-npm run format
-```
+Browser scripts dùng Playwright hiện có trong `tools/country-qa/node_modules`. Cài engine tương ứng trong môi trường QA nếu thiếu. Đặt `BFSC_TEST_ENGINE=webkit` để chạy ma trận/PWA trên WebKit. Các lệnh npm trong package.json chỉ là shortcut khi npm có sẵn.
 
----
+Báo cáo nâng cấp: [docs/reports/UPGRADE-2026-10-29.md](docs/reports/UPGRADE-2026-10-29.md). Log/ảnh nằm trong `artifacts/upgrade-acceptance/` và `artifacts/responsive-qa/`.
 
-## ⚠️ Quy tắc bảo trì & phát triển mã nguồn
-
-Nếu bạn là nhà phát triển (hoặc AI coding agent) đang chỉnh sửa dự án này, hãy tuân thủ **4 nguyên tắc bất di bất dịch**:
-
-1. **Tuyệt đối KHÔNG sửa file trong `public/`**: Thư mục `public/` là sản phẩm tự động sinh ra từ build. Mọi thay đổi trực tiếp tại đây sẽ bị ghi đè hoàn toàn trong lần build tiếp theo. Hãy sửa trong `src/` hoặc `scripts/`.
-2. **Luôn đăng ký tài nguyên mới**: Khi thêm bất kỳ tệp hình ảnh, font chữ hay script mới, bắt buộc phải:
-   - Khai báo đường dẫn trong `scripts/public_files.py`.
-   - Khai báo cache trong `src/sw.js` (nếu cần cache offline).
-   - Chạy lệnh `python build_public.py`.
-   - Khởi động lại `server.py` để server cập nhật danh mục cho phép trong bộ nhớ.
-3. **Giữ vững triết lý JavaScript thuần**: Tuyệt đối không import thêm thư viện npm chạy ở frontend (như React, Axios, Lodash, Bootstrap). Mọi tính năng phải được viết bằng tiêu chuẩn ECMAScript hiện đại.
-4. **Bảo tồn tính độc lập giữa Múi giờ và Ngôn ngữ**: Tuyệt đối không để việc đổi ngôn ngữ hiển thị làm thay đổi danh sách món ăn hay mệnh giá tiền tệ, và ngược lại.
-
----
-
-## 📚 Tài liệu tham khảo chuyên sâu
-
-- 🤖 **[AI_SYSTEM_REFERENCE.md](AI_SYSTEM_REFERENCE.md)**: Bản đặc tả kiến trúc kỹ thuật toàn diện dành riêng cho AI / LLM Agents (sơ đồ quan hệ phụ thuộc các file, luồng dữ liệu, hợp đồng kiểu dữ liệu, các bẫy logic cần tránh).
-- 🏗️ **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)**: Tài liệu kiến trúc gốc và hướng dẫn phân tầng ứng dụng.
-- 📖 **[docs/USER_GUIDE.md](docs/USER_GUIDE.md)**: Sổ tay hướng dẫn chi tiết dành cho người dùng cuối.
-- 🎨 **[docs/OPEN_SOURCE.md](docs/OPEN_SOURCE.md)**: Danh mục các tài nguyên mở, font chữ và giấy phép sử dụng trong dự án.
-
----
-
-**Ăn Gì Đây?** — *Một bữa ngon, một ngày vui!* 🍲🥢
+Kiểm thử desktop engine không thay thế iPhone/Android vật lý, bàn phím ảo thật hoặc production. Browser QA chính chặn mã quảng cáo ngoài; hành vi thực của nhà cung cấp được ghi là chưa xác minh.

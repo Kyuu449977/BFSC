@@ -47,6 +47,34 @@ class DishPreferences {
     }
     this.reload();
   }
+  registerIds(dishes) {
+    if (!Array.isArray(dishes)) return;
+    for (const item of dishes) {
+      const dish = typeof item === 'string' ? { id: item, name: item } : item;
+      if (!dish?.id) continue;
+      if (!this.names.has(dish.name)) this.names.set(dish.name, dish.id);
+      this.byId.set(dish.id, this.names.get(dish.name));
+      if (!this.states.has(this.byId.get(dish.id)))
+        this.states.set(this.byId.get(dish.id), {
+          favorite: this.read(
+            this.byId.get(dish.id) + '_favorite',
+            false,
+            (v) => typeof v === 'boolean'
+          ),
+          hidden: this.read(
+            this.byId.get(dish.id) + '_hidden',
+            false,
+            (v) => typeof v === 'boolean'
+          ),
+          eaten: this.read(
+            this.byId.get(dish.id) + '_eaten',
+            0,
+            (v) => Number.isSafeInteger(v) && v >= 0 && v <= Date.now() + 300000
+          ),
+        });
+    }
+    this.revision++;
+  }
   state(dish) {
     return this.states.get(this.byId.get(dish.id)) || { favorite: false, hidden: false, eaten: 0 };
   }

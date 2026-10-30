@@ -22,12 +22,14 @@ document.addEventListener('DOMContentLoaded', () => {
       ref_photo: 'Ảnh tham khảo món ăn',
       try_remove_filters: 'Thử bỏ bớt bộ lọc',
       no_matching_dish: 'Chưa có món phù hợp',
-      no_dish_budget_pref: 'Chưa có món khớp ngân sách và sở thích. Hãy bỏ lọc khẩu vị, tăng ngân sách hoặc khôi phục món đã ẩn.',
-      collection_note_tpl: 'Đã khám phá {percent}% thực đơn · Đây là món đã gợi ý, không phải món đã ăn. Lưu trên trình duyệt này.',
+      no_dish_budget_pref:
+        'Chưa có món khớp ngân sách và sở thích. Hãy bỏ lọc khẩu vị, tăng ngân sách hoặc khôi phục món đã ẩn.',
+      collection_note_tpl:
+        'Đã khám phá {percent}% thực đơn · Đây là món đã gợi ý, không phải món đã ăn. Lưu trên trình duyệt này.',
       collection_toggle_title: 'Chỉ xem món đã thu thập',
       cat_all: 'Tất cả',
       cat_main: 'Món Chính',
-      price_disclaimer: '* Giá tham khảo và có thể chênh lệch với thực tế', 
+      price_disclaimer: '* Giá tham khảo và có thể chênh lệch với thực tế',
       cat_morning: 'Buổi Sáng',
       cat_lunch: 'Buổi Trưa',
       cat_afternoon: 'Buổi Chiều',
@@ -66,7 +68,8 @@ document.addEventListener('DOMContentLoaded', () => {
       budget_label: 'Tổng số tiền bạn muốn chi (đ)',
       budget_placeholder: 'Ví dụ: 100000',
       budget_clear: 'Bỏ giới hạn',
-      budget_help: 'Áp dụng cho cả lượt: 1 món, tổng 3 món hoặc tổng combo. Lọc theo giá thấp nhất trong khoảng tham khảo; giá thực tế có thể cao hơn.',
+      budget_help:
+        'Áp dụng cho cả lượt: 1 món, tổng 3 món hoặc tổng combo. Lọc theo giá thấp nhất trong khoảng tham khảo; giá thực tế có thể cao hơn.',
       craving_label: 'Hôm nay thèm món chính gì?',
       craving_all: 'Món nào cũng được',
       craving_rice: 'Cơm & xôi',
@@ -74,13 +77,15 @@ document.addEventListener('DOMContentLoaded', () => {
       craving_light: 'Ăn nhẹ',
       craving_spicy: 'Cay',
       craving_mild: 'Thanh đạm',
-      craving_note: 'Áp dụng cho món chính, kể cả món chính trong combo. Khẩu vị và cách nấu tùy quán; không phải bộ lọc dị ứng hay dinh dưỡng.',
+      craving_note:
+        'Áp dụng cho món chính, kể cả món chính trong combo. Khẩu vị và cách nấu tùy quán; không phải bộ lọc dị ứng hay dinh dưỡng.',
       avoid_recent_label: 'Ưu tiên tránh món đã ăn trong 3 ngày',
       avoid_recent_note: 'Nếu ít lựa chọn, món đã ăn vẫn có thể xuất hiện để giữ đúng ngân sách.',
       reset_taste_btn: 'Bỏ lọc khẩu vị',
       unique_label: 'Không trùng trong lượt chọn 3 món',
       combo_note_1: 'Combo = món chính + ăn vặt + đồ uống',
-      combo_note_2: 'Ưu tiên món khác lượt trước và ít xuất hiện trong tab này. Ngân sách ít lựa chọn vẫn có thể lặp.',
+      combo_note_2:
+        'Ưu tiên món khác lượt trước và ít xuất hiện trong tab này. Ngân sách ít lựa chọn vẫn có thể lặp.',
       menu_eyebrow: 'MỖI NGÀY MỘT HƯƠNG VỊ',
       menu_heading: 'Khám phá thực đơn',
       menu_toggle_title: 'Chỉ xem món đã thu thập',
@@ -117,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
       spin_title: 'Đang tìm món ngon…',
       spin_skip: 'Bỏ qua',
       spin_note: 'Một lựa chọn mới cho bữa ăn hôm nay.',
-            result_eyebrow: 'BỮA NGON ĐANG CHỜ',
+      result_eyebrow: 'BỮA NGON ĐANG CHỜ',
       result_single_title: 'Món ngon dành cho bạn',
       result_triple_title: 'Ba gợi ý cho bữa ăn',
       result_combo_title: 'Combo dành cho bạn',
@@ -148,7 +153,8 @@ document.addEventListener('DOMContentLoaded', () => {
       color_green: 'Xanh lá',
       color_blue: 'Xanh biển',
       color_rose: 'Hồng mận',
-      theme_note: 'Màu chủ đạo kết hợp được với cả chế độ sáng và tối. Lựa chọn được lưu trên trình duyệt này.',
+      theme_note:
+        'Màu chủ đạo kết hợp được với cả chế độ sáng và tối. Lựa chọn được lưu trên trình duyệt này.',
       tool_tz: 'Múi giờ khu vực',
       tool_theme: 'Đổi giao diện & cài đặt',
       tool_lang: 'Đổi ngôn ngữ (Language)',
@@ -160,7 +166,8 @@ document.addEventListener('DOMContentLoaded', () => {
       tool_install: 'Cài đặt ứng dụng',
       tz_modal_eyebrow: 'THỜI GIAN THEO KHU VỰC',
       tz_modal_title: 'Múi giờ khu vực',
-      tz_modal_desc: 'Chọn múi giờ để giao diện chuyển màu theo đúng buổi sáng, trưa, tối và đêm tại nơi bạn sống.',
+      tz_modal_desc:
+        'Chọn múi giờ để giao diện chuyển màu theo đúng buổi sáng, trưa, tối và đêm tại nơi bạn sống.',
       tz_auto: 'Tự động',
       tz_auto_desc: 'Theo giờ thiết bị',
       clock_prefix: 'Thời gian hiện tại:',
@@ -178,8 +185,10 @@ document.addEventListener('DOMContentLoaded', () => {
       act_find_maps: 'Tìm quán',
       find_places_for: 'Tìm quán',
       on_google_maps: 'trên Google Maps',
-      places_online: 'Xem địa chỉ, đánh giá và thực đơn (nếu quán cung cấp) trên Google Maps. Google Maps sẽ xử lý vị trí theo quyền bạn cấp tại đó.',
-      places_offline: 'Tìm quán trên Google Maps cần kết nối Internet. Bạn vẫn có thể chọn món và xem bộ sưu tập offline.',
+      places_online:
+        'Xem địa chỉ, đánh giá và thực đơn (nếu quán cung cấp) trên Google Maps. Google Maps sẽ xử lý vị trí theo quyền bạn cấp tại đó.',
+      places_offline:
+        'Tìm quán trên Google Maps cần kết nối Internet. Bạn vẫn có thể chọn món và xem bộ sưu tập offline.',
       is_new: 'Món mới',
       discovered: 'Đã khám phá',
       desc_and_source: 'Mô tả & nguồn ảnh',
@@ -222,12 +231,14 @@ document.addEventListener('DOMContentLoaded', () => {
       ref_photo: 'Reference photo',
       try_remove_filters: 'Try removing filters',
       no_matching_dish: 'No matching dishes',
-      no_dish_budget_pref: 'No dishes match your budget and taste preferences. Remove filters, increase budget, or restore hidden dishes.',
-      collection_note_tpl: 'Discovered {percent}% of menu · These are suggested dishes, not eaten dishes. Saved in this browser.',
+      no_dish_budget_pref:
+        'No dishes match your budget and taste preferences. Remove filters, increase budget, or restore hidden dishes.',
+      collection_note_tpl:
+        'Discovered {percent}% of menu · These are suggested dishes, not eaten dishes. Saved in this browser.',
       collection_toggle_title: 'View collected dishes only',
       cat_all: 'All',
       cat_main: 'Main Dishes',
-      price_disclaimer: '* Reference price, may vary in reality', 
+      price_disclaimer: '* Reference price, may vary in reality',
       cat_morning: 'Breakfast',
       cat_lunch: 'Lunch',
       cat_afternoon: 'Afternoon',
@@ -266,7 +277,8 @@ document.addEventListener('DOMContentLoaded', () => {
       budget_label: 'Total budget you want to spend (VND)',
       budget_placeholder: 'e.g. 100000',
       budget_clear: 'Clear limit',
-      budget_help: 'Applies to 1 dish, 3 dishes or combo total. Filters based on lowest reference price; actual price may vary.',
+      budget_help:
+        'Applies to 1 dish, 3 dishes or combo total. Filters based on lowest reference price; actual price may vary.',
       craving_label: 'What craving today?',
       craving_all: 'Anything is fine',
       craving_rice: 'Rice & Sticky rice',
@@ -280,7 +292,8 @@ document.addEventListener('DOMContentLoaded', () => {
       reset_taste_btn: 'Reset taste filter',
       unique_label: 'No duplicate dishes in 3 dishes',
       combo_note_1: 'Combo = main + snack + drink',
-      combo_note_2: 'Prefers different dishes from previous spin. Budget with few options may repeat.',
+      combo_note_2:
+        'Prefers different dishes from previous spin. Budget with few options may repeat.',
       menu_eyebrow: 'A NEW FLAVOR EVERY DAY',
       menu_heading: 'Explore the Menu',
       menu_toggle_title: 'Show collected only',
@@ -317,7 +330,7 @@ document.addEventListener('DOMContentLoaded', () => {
       spin_title: 'Finding delicious dish…',
       spin_skip: 'Skip',
       spin_note: "A fresh choice for today's meal.",
-            result_eyebrow: 'DELICIOUS MEAL AWAITS',
+      result_eyebrow: 'DELICIOUS MEAL AWAITS',
       result_single_title: 'Your delicious dish',
       result_triple_title: 'Three suggestions for your meal',
       result_combo_title: 'Your custom combo',
@@ -334,7 +347,7 @@ document.addEventListener('DOMContentLoaded', () => {
       install_desc: 'Add to home screen for instant app-like access.',
       install_understood: 'Got it',
       theme_heading: 'Settings & Appearance',
-      lang_heading: 'Language · Ngôn ngữ',
+      lang_heading: 'Language',
       brightness_heading: 'Display Mode',
       theme_color_heading: 'Accent Color',
       timezone_heading: 'Region & Timezone',
@@ -348,7 +361,8 @@ document.addEventListener('DOMContentLoaded', () => {
       color_green: 'Forest Green',
       color_blue: 'Ocean Blue',
       color_rose: 'Plum Rose',
-      theme_note: 'Accent color pairs with both light and dark modes. Settings are saved in this browser.',
+      theme_note:
+        'Accent color pairs with both light and dark modes. Settings are saved in this browser.',
       tool_tz: 'Region & Timezone',
       tool_theme: 'Appearance & Settings',
       tool_lang: 'Change Language',
@@ -360,7 +374,8 @@ document.addEventListener('DOMContentLoaded', () => {
       tool_install: 'Install App',
       tz_modal_eyebrow: 'REGIONAL TIMEZONE',
       tz_modal_title: 'Region & Timezone',
-      tz_modal_desc: 'Choose your timezone so the theme color shifts according to morning, lunch, dinner and late night where you live.',
+      tz_modal_desc:
+        'Choose your timezone so the theme color shifts according to morning, lunch, dinner and late night where you live.',
       tz_auto: 'Auto',
       tz_auto_desc: 'Device local time',
       clock_prefix: 'Current time:',
@@ -422,12 +437,14 @@ document.addEventListener('DOMContentLoaded', () => {
       ref_photo: '参考画像',
       try_remove_filters: 'フィルターを解除してください',
       no_matching_dish: '該当する料理がありません',
-      no_dish_budget_pref: '予算や好みに合う料理がありません。味の指定を解除するか、予算を増やすか、非表示メニューを復元してください。',
-      collection_note_tpl: 'メニューの{percent}%を発見済み · 提案された料理であり、食べた料理ではありません。このブラウザに保存されます。',
+      no_dish_budget_pref:
+        '予算や好みに合う料理がありません。味の指定を解除するか、予算を増やすか、非表示メニューを復元してください。',
+      collection_note_tpl:
+        'メニューの{percent}%を発見済み · 提案された料理であり、食べた料理ではありません。このブラウザに保存されます。',
       collection_toggle_title: '収集した料理のみ表示',
       cat_all: 'すべて',
       cat_main: 'メイン料理',
-      price_disclaimer: '* 参考価格であり、実際と異なる場合があります', 
+      price_disclaimer: '* 参考価格であり、実際と異なる場合があります',
       cat_morning: '朝食',
       cat_lunch: '昼食',
       cat_afternoon: '軽食・おやつ',
@@ -466,7 +483,8 @@ document.addEventListener('DOMContentLoaded', () => {
       budget_label: '使いたい総予算（VND）',
       budget_placeholder: '例: 100000',
       budget_clear: 'リセット',
-      budget_help: '1品、3品、またはセットの合計に適用されます。最低参考価格に基づきフィルタリングします。',
+      budget_help:
+        '1品、3品、またはセットの合計に適用されます。最低参考価格に基づきフィルタリングします。',
       craving_label: '今日の気分は？',
       craving_all: 'なんでもOK',
       craving_rice: 'ご飯・おこわ',
@@ -476,11 +494,13 @@ document.addEventListener('DOMContentLoaded', () => {
       craving_mild: 'あっさり',
       craving_note: 'メイン料理およびセットのメインに適用されます。味付けは店舗により異なります。',
       avoid_recent_label: '過去3日間に食べた料理を避ける',
-      avoid_recent_note: '選択肢が少ない場合、予算を満たすために食べた料理が含まれることがあります。',
+      avoid_recent_note:
+        '選択肢が少ない場合、予算を満たすために食べた料理が含まれることがあります。',
       reset_taste_btn: '好みのフィルターを解除',
       unique_label: '3品選択時に重複させない',
       combo_note_1: 'セット = メイン + 軽食 + 飲み物',
-      combo_note_2: '前回のスピンと異なる料理を優先します。選択肢が少ない場合は重複する場合があります。',
+      combo_note_2:
+        '前回のスピンと異なる料理を優先します。選択肢が少ない場合は重複する場合があります。',
       menu_eyebrow: '毎日新しい美味しさ',
       menu_heading: 'メニューを見る',
       menu_toggle_title: '獲得した料理のみ表示',
@@ -517,7 +537,7 @@ document.addEventListener('DOMContentLoaded', () => {
       spin_title: '美味しい料理を探しています…',
       spin_skip: 'スキップ',
       spin_note: '今日の食事に新しい選択を。',
-            result_eyebrow: '美味しい料理が待っています',
+      result_eyebrow: '美味しい料理が待っています',
       result_single_title: 'あなたにぴったりの一品',
       result_triple_title: '食事の3つの提案',
       result_combo_title: 'あなたへのセットメニュー',
@@ -548,7 +568,8 @@ document.addEventListener('DOMContentLoaded', () => {
       color_green: 'グリーン',
       color_blue: 'ブルー',
       color_rose: 'ローズ',
-      theme_note: 'テーマカラーはライト・ダーク両方に対応しています。設定はこの端末に保存されます。',
+      theme_note:
+        'テーマカラーはライト・ダーク両方に対応しています。設定はこの端末に保存されます。',
       tool_tz: '地域・タイムゾーン',
       tool_theme: '外観・設定',
       tool_lang: '言語を切り替え',
@@ -560,7 +581,8 @@ document.addEventListener('DOMContentLoaded', () => {
       tool_install: 'アプリをインストール',
       tz_modal_eyebrow: '地域のタイムゾーン',
       tz_modal_title: '地域・タイムゾーン',
-      tz_modal_desc: 'お住まいのタイムゾーンを選択すると、朝・昼・夕方・夜の時刻に合わせて背景が自動で変化します。',
+      tz_modal_desc:
+        'お住まいのタイムゾーンを選択すると、朝・昼・夕方・夜の時刻に合わせて背景が自動で変化します。',
       tz_auto: '自動',
       tz_auto_desc: '端末の時刻',
       clock_prefix: '現在時刻:',
@@ -622,12 +644,14 @@ document.addEventListener('DOMContentLoaded', () => {
       ref_photo: '참고 사진',
       try_remove_filters: '필터를 해제해보세요',
       no_matching_dish: '일치하는 메뉴 없음',
-      no_dish_budget_pref: '예산과 취향에 맞는 메뉴가 없습니다. 맛 필터를 해제하거나 예산을 늘리거나 숨긴 메뉴를 복원해보세요.',
-      collection_note_tpl: '메뉴의 {percent}% 발견 완료 · 추천된 메뉴이며 실제 식사 기록이 아닙니다. 이 브라우저에 저장됩니다.',
+      no_dish_budget_pref:
+        '예산과 취향에 맞는 메뉴가 없습니다. 맛 필터를 해제하거나 예산을 늘리거나 숨긴 메뉴를 복원해보세요.',
+      collection_note_tpl:
+        '메뉴의 {percent}% 발견 완료 · 추천된 메뉴이며 실제 식사 기록이 아닙니다. 이 브라우저에 저장됩니다.',
       collection_toggle_title: '수집한 메뉴만 보기',
       cat_all: '전체',
       cat_main: '메인 요리',
-      price_disclaimer: '* 참고 가격이며 실제와 다를 수 있습니다', 
+      price_disclaimer: '* 참고 가격이며 실제와 다를 수 있습니다',
       cat_morning: '아침',
       cat_lunch: '점심',
       cat_afternoon: '오후',
@@ -676,7 +700,8 @@ document.addEventListener('DOMContentLoaded', () => {
       craving_mild: '담백한맛',
       craving_note: '메인 메뉴 및 콤보 메인에 적용됩니다. 맛과 조리법은 식당마다 다릅니다.',
       avoid_recent_label: '최근 3일 내 먹은 음식 제외',
-      avoid_recent_note: '선택지가 적을 경우, 예산을 맞추기 위해 이미 먹은 메뉴가 포함될 수 있습니다.',
+      avoid_recent_note:
+        '선택지가 적을 경우, 예산을 맞추기 위해 이미 먹은 메뉴가 포함될 수 있습니다.',
       reset_taste_btn: '취향 필터 해제',
       unique_label: '3개 선택 시 중복 제외',
       combo_note_1: '콤보 = 메인 + 간식 + 음료',
@@ -717,7 +742,7 @@ document.addEventListener('DOMContentLoaded', () => {
       spin_title: '맛있는 메뉴를 찾는 중…',
       spin_skip: '건너뛰기',
       spin_note: '오늘 한 끼를 위한 새로운 선택.',
-            result_eyebrow: '맛있는 식사가 기다립니다',
+      result_eyebrow: '맛있는 식사가 기다립니다',
       result_single_title: '추천 메뉴',
       result_triple_title: '식사를 위한 3가지 추천',
       result_combo_title: '추천 콤보',
@@ -760,7 +785,8 @@ document.addEventListener('DOMContentLoaded', () => {
       tool_install: '앱 설치',
       tz_modal_eyebrow: '지역 시간대 설정',
       tz_modal_title: '지역 및 시간대',
-      tz_modal_desc: '거주하시는 지역의 시간대를 선택하면 아침, 점심, 저녁, 심야 시간에 맞춰 화면 색상이 자동으로 바뀝니다.',
+      tz_modal_desc:
+        '거주하시는 지역의 시간대를 선택하면 아침, 점심, 저녁, 심야 시간에 맞춰 화면 색상이 자동으로 바뀝니다.',
       tz_auto: '자동',
       tz_auto_desc: '기기 시간 기준',
       clock_prefix: '현재 시간:',
@@ -823,11 +849,12 @@ document.addEventListener('DOMContentLoaded', () => {
       try_remove_filters: '尝试清除筛选',
       no_matching_dish: '暂无合适菜品',
       no_dish_budget_pref: '没有符合预算和口味的菜品。请清除口味筛选、增加预算或恢复已隐藏菜品。',
-      collection_note_tpl: '已探索 {percent}% 菜单 · 此为系统推荐菜品，非已吃记录。数据保存在此浏览器中。',
+      collection_note_tpl:
+        '已探索 {percent}% 菜单 · 此为系统推荐菜品，非已吃记录。数据保存在此浏览器中。',
       collection_toggle_title: '仅查看已收集菜品',
       cat_all: '全部',
       cat_main: '主菜',
-      price_disclaimer: '* 参考价格，实际可能有所差异', 
+      price_disclaimer: '* 参考价格，实际可能有所差异',
       cat_morning: '早餐',
       cat_lunch: '午餐',
       cat_afternoon: '下午茶',
@@ -866,7 +893,8 @@ document.addEventListener('DOMContentLoaded', () => {
       budget_label: '想要消费的总金额 (越南盾)',
       budget_placeholder: '例如: 100000',
       budget_clear: '清除限制',
-      budget_help: '适用于单道菜、3道菜或套餐总额。根据最低参考价格进行筛选；实际价格可能略有浮动。',
+      budget_help:
+        '适用于单道菜、3道菜或套餐总额。根据最低参考价格进行筛选；实际价格可能略有浮动。',
       craving_label: '今天想吃什么口味？',
       craving_all: '都可以',
       craving_rice: '米饭与糯米饭',
@@ -917,7 +945,7 @@ document.addEventListener('DOMContentLoaded', () => {
       spin_title: '正在挑选美食…',
       spin_skip: '跳过',
       spin_note: '为今天的一餐带来新灵感。',
-            result_eyebrow: '美味佳肴正等待着您',
+      result_eyebrow: '美味佳肴正等待着您',
       result_single_title: '为你挑选的美食',
       result_triple_title: '3道精选推荐',
       result_combo_title: '为你搭配的套餐',
@@ -1010,6 +1038,10 @@ document.addEventListener('DOMContentLoaded', () => {
   let personalView = 'all',
     personalSyncPending = false;
   let featuredDish = null;
+  let languageBindingsReady = false;
+  let visibleResultState = null;
+  let collectionRefreshFrame = 0;
+  let collectionRefreshPending = false;
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
   // 01. Device preferences and validated storage
   function readSettings() {
@@ -1030,30 +1062,28 @@ document.addEventListener('DOMContentLoaded', () => {
           ? ['system', 'orange', 'green', 'blue', 'rose', 'custom'].includes(item)
           : key === 'customColor'
             ? typeof item === 'string' && /^#[0-9a-fA-F]{6}$/.test(item)
-          : key === 'timezone'
-            ? [
-                'auto',
-                'Asia/Ho_Chi_Minh',
-                'Asia/Tokyo',
-                'Asia/Seoul',
-                'Asia/Shanghai',
-                'Asia/Bangkok',
-                'Asia/Singapore',
-                'Europe/London',
-                'Europe/Paris',
-                'America/New_York',
-                'America/Los_Angeles',
-                'Australia/Sydney',
-              ].includes(item)
-            : key === 'language'
-              ? ['vi', 'en', 'ja', 'ko', 'zh'].includes(item)
-              : key === 'budget'
-                ? item === null || (Number.isSafeInteger(item) && item >= 0)
-                : typeof item === 'boolean';
-    let old = {};
-    try {
-      old = JSON.parse(localStorage.getItem('food_case_settings') || '{}') || {};
-    } catch (_) {}
+            : key === 'timezone'
+              ? [
+                  'auto',
+                  'Asia/Ho_Chi_Minh',
+                  'Asia/Tokyo',
+                  'Asia/Seoul',
+                  'Asia/Shanghai',
+                  'Asia/Bangkok',
+                  'Asia/Singapore',
+                  'Europe/London',
+                  'Europe/Paris',
+                  'America/New_York',
+                  'America/Los_Angeles',
+                  'Australia/Sydney',
+                ].includes(item)
+              : key === 'language'
+                ? ['vi', 'en', 'ja', 'ko', 'zh'].includes(item)
+                : key === 'budget'
+                  ? item === null ||
+                    (typeof item === 'number' && Number.isFinite(item) && item >= 0)
+                  : typeof item === 'boolean';
+    const old = Settings.read();
     for (const key of Object.keys(value)) {
       if (valid(key, old[key])) value[key] = old[key];
       try {
@@ -1108,8 +1138,18 @@ document.addEventListener('DOMContentLoaded', () => {
     if (TIMEZONE_TO_REGION[targetTz]) return TIMEZONE_TO_REGION[targetTz];
     if (targetTz.startsWith('Asia/Tokyo')) return 'ja';
     if (targetTz.startsWith('Asia/Seoul')) return 'ko';
-    if (targetTz.startsWith('Asia/Shanghai') || targetTz.startsWith('Asia/Hong_Kong') || targetTz.startsWith('Asia/Taipei')) return 'zh';
-    if (targetTz.startsWith('America/') || targetTz.startsWith('Europe/') || targetTz.startsWith('Australia/')) return 'en';
+    if (
+      targetTz.startsWith('Asia/Shanghai') ||
+      targetTz.startsWith('Asia/Hong_Kong') ||
+      targetTz.startsWith('Asia/Taipei')
+    )
+      return 'zh';
+    if (
+      targetTz.startsWith('America/') ||
+      targetTz.startsWith('Europe/') ||
+      targetTz.startsWith('Australia/')
+    )
+      return 'en';
     return 'vi';
   }
 
@@ -1134,7 +1174,8 @@ document.addEventListener('DOMContentLoaded', () => {
     settingsSyncPending = false;
 
   const money = (amount, explicitRegion) => {
-    const region = explicitRegion || (typeof getCurrentRegion === 'function' ? getCurrentRegion() : 'vi');
+    const region =
+      explicitRegion || (typeof getCurrentRegion === 'function' ? getCurrentRegion() : 'vi');
     if (typeof formatRegionalMoney === 'function') {
       return formatRegionalMoney(amount, region);
     }
@@ -1146,16 +1187,35 @@ document.addEventListener('DOMContentLoaded', () => {
     if (typeof engine.setRegion === 'function') {
       engine.setRegion(region);
       allDishes = engine.getAllDishesList();
+      visibleCount = 12;
     }
-    const currencyCfg = (typeof getCurrencyConfig === 'function' ? getCurrencyConfig(region) : null) || { presets: [30000, 50000, 100000, 200000], placeholder: '100000', symbol: 'đ' };
+    if ($('customDishPrice')) {
+      $('customDishPrice').step = ['en', 'zh'].includes(region) ? '0.01' : '1';
+    }
+    const currencyCfg = (typeof getCurrencyConfig === 'function'
+      ? getCurrencyConfig(region)
+      : null) || { presets: [30000, 50000, 100000, 200000], placeholder: '100000', symbol: 'đ' };
     document.querySelectorAll('[data-budget]').forEach((btn, idx) => {
       if (currencyCfg.presets && currencyCfg.presets[idx] !== undefined) {
         const val = currencyCfg.presets[idx];
         btn.dataset.budget = String(val);
-        btn.textContent = (typeof formatRegionalMoney === 'function') ? formatRegionalMoney(val, region) : money(val, region);
+        btn.textContent =
+          typeof formatRegionalMoney === 'function'
+            ? formatRegionalMoney(val, region)
+            : money(val, region);
       }
     });
     if ($('budgetInput')) $('budgetInput').placeholder = currencyCfg.placeholder || '100000';
+    $('budgetInput').inputMode = ['en', 'zh'].includes(region) ? 'decimal' : 'numeric';
+    const helpLang = settings.language || 'vi';
+    if ($('budgetHelp'))
+      $('budgetHelp').textContent = ['en', 'zh'].includes(region)
+        ? UICopy.text('decimal', helpLang)
+        : (TRANSLATIONS[helpLang] || TRANSLATIONS.vi).budget_help;
+    const customPriceLabel = document.querySelector('label[for="customDishPrice"]');
+    if (customPriceLabel)
+      customPriceLabel.textContent = `${UICopy.text('price', helpLang)} (${currencyCfg.symbol})`;
+
     const budgetInputLabel = document.querySelector('label[for="budgetInput"]');
     if (budgetInputLabel) {
       const lang = (settings && settings.language) || 'vi';
@@ -1173,12 +1233,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   function saveSettings(changes) {
     try {
-      // Independent keys prevent unrelated settings from overwriting each other across tabs.
-      for (const [key, value] of Object.entries(changes))
-        localStorage.setItem('food_case_setting_' + key, JSON.stringify(value));
-      localStorage.setItem('food_case_settings', JSON.stringify(readSettings()));
+      Settings.update(changes);
     } catch (_) {
-      toast('Trình duyệt không cho lưu tùy chọn. Bạn vẫn có thể chọn món.');
+      toast('Không lưu được tùy chọn. Thay đổi vẫn dùng trong phiên này.');
     }
   }
   function syncSettings() {
@@ -1187,10 +1244,14 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
     settingsSyncPending = false;
+    const previousRegion = engine.currentRegion;
     settings = readSettings();
+    if (getRegionFromTimezone(settings.timezone) !== previousRegion) settings.budget = null;
     $('uniqueInput').checked = settings.unique;
     updateSound();
     updateTheme();
+    applyTimezoneRegion(settings.timezone);
+    applyLanguage(settings.language);
     $('budgetInput').value = settings.budget === null ? '' : String(settings.budget);
     scheduleBudget(0, false);
   }
@@ -1277,13 +1338,69 @@ document.addEventListener('DOMContentLoaded', () => {
   function applyLanguage(lang) {
     if (lang) {
       settings.language = lang;
-      try {
-        saveSettings({ language: lang });
-      } catch (_) {}
     }
     const tDict = TRANSLATIONS[lang] || TRANSLATIONS.vi;
     document.documentElement.lang = lang;
+    UICopy.apply(lang);
+    document.querySelectorAll('.universe-tab').forEach((button) => {
+      const category = button.dataset.category;
+      const label = tDict['cat_' + category] || tDict.cat_all;
+      if (category === 'all') {
+        const count = $('universeCountAll');
+        button.replaceChildren(
+          document.createTextNode(label + ' ('),
+          count,
+          document.createTextNode(')')
+        );
+      } else button.textContent = label;
+    });
+    $('universeDishSearch').placeholder = tDict.search_placeholder;
+    $('universeDishSearch').setAttribute('aria-label', tDict.search_aria);
+    $('universeConfirmBtn').replaceChildren(
+      document.createTextNode(UICopy.text('addWheel', lang) + ' ('),
+      $('universeConfirmCount'),
+      document.createTextNode(')')
+    );
+    $('customWheelUniverseBtn').title = UICopy.text('universe', lang);
+    $('customWheelAlertText').textContent = UICopy.text('wheelShort', lang);
+    const customPriceLabel = document.querySelector('label[for="customDishPrice"]');
+    if (customPriceLabel)
+      customPriceLabel.textContent = `${UICopy.text('price', lang)} (${getCurrencyConfig(getCurrentRegion()).symbol})`;
+    const cancelDish = document.querySelector('#addDishForm [data-close]');
+    if (cancelDish) cancelDish.textContent = UICopy.text('cancel', lang);
+    $('customDishName').placeholder = UICopy.text('name', lang).replace(' *', '');
+    $('customDishDesc').placeholder = UICopy.text('description', lang);
 
+    const toolLabels = {
+      vi: [
+        'Múi giờ',
+        'Ngôn ngữ',
+        'Giao diện',
+        'Bản đồ',
+        'Cài đặt',
+        'Chia sẻ',
+        'Nhạc nền',
+        'Âm thanh',
+      ],
+      en: ['Time zone', 'Language', 'Theme', 'Maps', 'Install', 'Share', 'Music', 'Sound'],
+      ja: ['時刻', '言語', 'テーマ', '地図', 'インストール', '共有', '音楽', '音声'],
+      ko: ['시간대', '언어', '테마', '지도', '설치', '공유', '음악', '소리'],
+      zh: ['时区', '语言', '主题', '地图', '安装', '分享', '音乐', '声音'],
+    };
+    document.querySelectorAll('[data-tool-label]').forEach((el) => {
+      const keys = ['timezone', 'language', 'theme', 'maps', 'install', 'share', 'bgm', 'sound'];
+      el.textContent =
+        (toolLabels[lang] || toolLabels.vi)[keys.indexOf(el.dataset.toolLabel)] || el.textContent;
+    });
+
+    for (const option of $('customDishMeal').options) {
+      option.textContent =
+        option.value === 'snacks'
+          ? tDict.cat_snacks
+          : option.value === 'drinks'
+            ? tDict.cat_drinks
+            : (tDict['period_' + option.value] || option.textContent).split('·')[0].trim();
+    }
     // Header & Skip link
     const brandName = document.querySelector('.brand-name');
     if (brandName) brandName.textContent = tDict.brand_name || 'Ăn gì đây';
@@ -1308,7 +1425,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Hero recommendation
     const heroTag = document.querySelector('.feature-tag');
-    if (heroTag) heroTag.replaceChildren(UI.icon('sparkles'), document.createTextNode(tDict.hero_pick));
+    if (heroTag)
+      heroTag.replaceChildren(UI.icon('sparkles'), document.createTextNode(tDict.hero_pick));
     const heroPriceNote = document.querySelector('.hero-price .note');
     if (heroPriceNote) heroPriceNote.textContent = tDict.hero_price_note;
     const heroFindBtn = $('findFeaturedBtn');
@@ -1320,17 +1438,24 @@ document.addEventListener('DOMContentLoaded', () => {
       );
     }
     const heroCaption = document.querySelector('.photo-caption');
-    if (heroCaption) heroCaption.textContent = featuredDish?.imageCredit || tDict.ref_photo || tDict.hero_caption;
+    if (heroCaption) heroCaption.textContent = tDict.ref_photo || tDict.hero_caption;
 
     // Action buttons
     const singleBtn = $('singleBtn');
-    if (singleBtn) singleBtn.replaceChildren(UI.icon('shuffle'), document.createTextNode(tDict.btn_single));
+    if (singleBtn)
+      singleBtn.replaceChildren(UI.icon('shuffle'), document.createTextNode(tDict.btn_single));
     const tripleBtn = $('tripleBtn');
-    if (tripleBtn) tripleBtn.replaceChildren(UI.icon('layers'), document.createTextNode(tDict.btn_triple));
+    if (tripleBtn)
+      tripleBtn.replaceChildren(UI.icon('layers'), document.createTextNode(tDict.btn_triple));
     const comboBtn = $('comboBtn');
-    if (comboBtn) comboBtn.replaceChildren(UI.icon('sparkles'), document.createTextNode(tDict.btn_combo));
+    if (comboBtn)
+      comboBtn.replaceChildren(UI.icon('sparkles'), document.createTextNode(tDict.btn_combo));
     const rerollBtn = $('rerollBtn');
-    if (rerollBtn) rerollBtn.replaceChildren(UI.icon('rotate-ccw'), document.createTextNode(tDict.btn_spin_again || tDict.btn_reroll));
+    if (rerollBtn)
+      rerollBtn.replaceChildren(
+        UI.icon('rotate-ccw'),
+        document.createTextNode(tDict.btn_spin_again || tDict.btn_reroll)
+      );
 
     // Budget & Preferences text
     const budgetSummary = document.querySelector('#budgetPanel summary > span');
@@ -1339,16 +1464,23 @@ document.addEventListener('DOMContentLoaded', () => {
     if (budgetLabel && activeBudget === null) budgetLabel.textContent = tDict.budget_unlimited;
     const budgetInputLabel = document.querySelector('label[for="budgetInput"]');
     if (budgetInputLabel) {
-      const currencyCfg = (typeof getCurrencyConfig === 'function' ? getCurrencyConfig(getCurrentRegion()) : null) || { symbol: 'đ' };
+      const currencyCfg = (typeof getCurrencyConfig === 'function'
+        ? getCurrencyConfig(getCurrentRegion())
+        : null) || { symbol: 'đ' };
       const baseLabel = (tDict.budget_label || '').replace(/\s*\([^)]*\)$/, '');
       budgetInputLabel.textContent = `${baseLabel} (${currencyCfg.symbol})`;
     }
     const clearBudgetBtn = $('clearBudgetBtn');
     if (clearBudgetBtn) clearBudgetBtn.textContent = tDict.budget_clear;
-    if ($('budgetHelp')) $('budgetHelp').textContent = tDict.budget_help;
+    if ($('budgetHelp'))
+      $('budgetHelp').textContent = ['en', 'zh'].includes(getCurrentRegion())
+        ? UICopy.text('decimal', lang)
+        : tDict.budget_help;
 
     // Taste Options
-    const cravingLabel = document.querySelector('label[for="cravingInput"], label[for="cravingInputControl"], #cravingInputLabel');
+    const cravingLabel = document.querySelector(
+      'label[for="cravingInput"], label[for="cravingInputControl"], #cravingInputLabel'
+    );
     if (cravingLabel) cravingLabel.textContent = tDict.craving_label;
     const cravingMap = {
       all: tDict.craving_all,
@@ -1366,7 +1498,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const avoidRecentInput = $('avoidRecentInput');
     const avoidRecentLabel = avoidRecentInput?.closest('label');
     if (avoidRecentLabel) {
-      avoidRecentLabel.replaceChildren(avoidRecentInput, document.createTextNode(tDict.avoid_recent_label));
+      avoidRecentLabel.replaceChildren(
+        avoidRecentInput,
+        document.createTextNode(tDict.avoid_recent_label)
+      );
     }
     const avoidRecentNote = document.querySelector('.taste-options > p.note:nth-of-type(2)');
     if (avoidRecentNote) avoidRecentNote.textContent = tDict.avoid_recent_note;
@@ -1383,9 +1518,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // Menu Section
     const menuEyebrow = document.querySelector('#menu .section-heading .eyebrow');
     if (menuEyebrow) menuEyebrow.textContent = tDict.menu_eyebrow;
-    if ($('menuTitle')) $('menuTitle').textContent = collectionOnly ? tDict.nav_collection : tDict.menu_heading;
+    if ($('menuTitle'))
+      $('menuTitle').textContent = collectionOnly ? tDict.nav_collection : tDict.menu_heading;
     if ($('collectionToggle')) $('collectionToggle').title = tDict.menu_toggle_title;
-    const personalLabel = document.querySelector('label[for="personalView"], label[for="personalViewControl"], #personalViewLabel');
+    const personalLabel = document.querySelector(
+      'label[for="personalView"], label[for="personalViewControl"], #personalViewLabel'
+    );
     if (personalLabel) personalLabel.textContent = tDict.personal_view_label;
     const viewMap = {
       all: tDict.view_all,
@@ -1402,7 +1540,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if ($('clearSearch')) $('clearSearch').setAttribute('aria-label', tDict.search_clear);
     if ($('loadMoreBtn')) {
-      $('loadMoreBtn').replaceChildren(document.createTextNode(tDict.load_more), UI.icon('arrow-right'));
+      $('loadMoreBtn').replaceChildren(
+        document.createTextNode(tDict.load_more),
+        UI.icon('arrow-right')
+      );
     }
     if ($('resetMenuBudget')) $('resetMenuBudget').textContent = tDict.reset_menu_budget;
     if ($('resetMenuFilters')) $('resetMenuFilters').textContent = tDict.reset_menu_filters;
@@ -1411,8 +1552,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (typeof buildFilters === 'function') {
       buildFilters(lang);
     }
-    if ($('collectionToggle')) $('collectionToggle').title = tDict.collection_toggle_title || 'Chỉ xem món đã thu thập';
-    if ($('collectionProgress')) $('collectionProgress').setAttribute('aria-label', tDict.collection_progress_aria || 'Tiến độ bộ sưu tập');
+    if ($('collectionToggle'))
+      $('collectionToggle').title = tDict.collection_toggle_title || 'Chỉ xem món đã thu thập';
+    $('collectionToggle')?.setAttribute('aria-label', tDict.menu_toggle_title);
+    if ($('collectionProgress'))
+      $('collectionProgress').setAttribute(
+        'aria-label',
+        tDict.collection_progress_aria || UICopy.text('collectionProgress', lang)
+      );
 
     // Callout & Footer
     const calloutStrong = document.querySelector('.maps-callout strong');
@@ -1428,7 +1575,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (legalLinks[1]) legalLinks[1].textContent = tDict.terms;
     if (legalLinks[2]) legalLinks[2].textContent = tDict.credits;
     if ($('offlineReadiness')) {
-      $('offlineReadiness').textContent = navigator.onLine ? tDict.offline_ready : tDict.offline_preparing;
+      $('offlineReadiness').textContent = navigator.onLine
+        ? tDict.offline_ready
+        : tDict.offline_preparing;
     }
 
     // Mobile Navigation
@@ -1443,7 +1592,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const spinEyebrow = document.querySelector('#spinDialog .eyebrow');
     if (spinEyebrow) spinEyebrow.textContent = tDict.spin_eyebrow;
     if ($('spinTitle')) $('spinTitle').textContent = tDict.spin_title;
-    if ($('skipBtn')) $('skipBtn').replaceChildren(document.createTextNode(tDict.spin_skip), UI.icon('arrow-right'));
+    if ($('skipBtn'))
+      $('skipBtn').replaceChildren(
+        document.createTextNode(tDict.spin_skip),
+        UI.icon('arrow-right')
+      );
     const spinNote = document.querySelector('#spinDialog .note');
     if (spinNote) spinNote.textContent = tDict.spin_note;
 
@@ -1453,27 +1606,46 @@ document.addEventListener('DOMContentLoaded', () => {
     if ($('nearbyTitle')) $('nearbyTitle').textContent = tDict.result_maps_title;
     const nearbyNote = document.querySelector('#nearbyPanel .note');
     if (nearbyNote) nearbyNote.textContent = tDict.result_maps_note;
-    if ($('rerollBtn')) $('rerollBtn').replaceChildren(UI.icon('rotate-ccw'), document.createTextNode(tDict.btn_reroll));
-    if ($('resultModalEyebrow')) $('resultModalEyebrow').textContent = tDict.result_eyebrow || 'BỮA NGON ĐANG CHỜ';
-    if ($('resultDoneBtn')) $('resultDoneBtn').replaceChildren(document.createTextNode(tDict.btn_done), UI.icon('check'));
-    const resultCloseBtn = document.querySelector('#resultDialog .dialog-heading button[data-close]');
-    if (resultCloseBtn) resultCloseBtn.setAttribute('aria-label', tDict.close || 'Đóng');
+    if ($('rerollBtn'))
+      $('rerollBtn').replaceChildren(
+        UI.icon('rotate-ccw'),
+        document.createTextNode(tDict.btn_reroll)
+      );
+    if ($('resultModalEyebrow'))
+      $('resultModalEyebrow').textContent = tDict.result_eyebrow || 'BỮA NGON ĐANG CHỜ';
+    if ($('resultDoneBtn'))
+      $('resultDoneBtn').replaceChildren(document.createTextNode(tDict.btn_done), UI.icon('check'));
+    const resultCloseBtn = document.querySelector(
+      '#resultDialog .dialog-heading button[data-close]'
+    );
+    if (resultCloseBtn)
+      resultCloseBtn.setAttribute('aria-label', tDict.close || UICopy.text('close', lang));
 
     // Share & Install Dialogs
     if ($('shareTitle')) $('shareTitle').textContent = tDict.share_title;
     const shareDesc = document.querySelector('#shareDialog > p');
     if (shareDesc) shareDesc.textContent = tDict.share_desc;
     const shareUrlLabel = document.querySelector('label[for="shareUrl"]');
-    if (shareUrlLabel) shareUrlLabel.textContent = tDict.share_url_label || 'Đường dẫn website';
-    if ($('copyLinkBtn')) $('copyLinkBtn').replaceChildren(UI.icon('copy'), document.createTextNode(tDict.copy_link_btn));
+    if (shareUrlLabel)
+      shareUrlLabel.textContent = tDict.share_url_label || UICopy.text('shareUrl', lang);
+    if ($('copyLinkBtn'))
+      $('copyLinkBtn').replaceChildren(
+        UI.icon('copy'),
+        document.createTextNode(tDict.copy_link_btn)
+      );
     const shareDone = document.querySelector('#shareDialog button[data-close]');
-    if (shareDone) shareDone.replaceChildren(document.createTextNode(tDict.btn_done), UI.icon('check'));
+    if (shareDone)
+      shareDone.replaceChildren(document.createTextNode(tDict.btn_done), UI.icon('check'));
 
     if ($('installTitle')) $('installTitle').textContent = tDict.install_title;
     const installDesc = document.querySelector('#installDialog > p');
     if (installDesc) installDesc.textContent = tDict.install_desc;
     const installUnderstood = document.querySelector('#installDialog button[data-close]');
-    if (installUnderstood) installUnderstood.replaceChildren(document.createTextNode(tDict.install_understood), UI.icon('check'));
+    if (installUnderstood)
+      installUnderstood.replaceChildren(
+        document.createTextNode(tDict.install_understood),
+        UI.icon('check')
+      );
 
     // Theme Dialog Headings & Buttons
     if ($('appearanceTitle')) $('appearanceTitle').textContent = tDict.theme_heading;
@@ -1481,30 +1653,45 @@ document.addEventListener('DOMContentLoaded', () => {
     if ($('themeTitle')) $('themeTitle').textContent = tDict.theme_color_heading;
     if ($('timezoneTitle')) $('timezoneTitle').textContent = tDict.timezone_heading;
     if ($('themeNote')) $('themeNote').textContent = tDict.theme_note;
-    if ($('themeDoneBtn')) $('themeDoneBtn').replaceChildren(document.createTextNode(tDict.btn_done), UI.icon('check'));
+    if ($('themeDoneBtn'))
+      $('themeDoneBtn').replaceChildren(document.createTextNode(tDict.btn_done), UI.icon('check'));
 
     // Language Dialog Headings & Buttons
     if ($('langModalEyebrow')) $('langModalEyebrow').textContent = tDict.lang_modal_eyebrow;
     if ($('langModalTitle')) $('langModalTitle').textContent = tDict.lang_modal_title;
     if ($('langModalDesc')) $('langModalDesc').textContent = tDict.lang_modal_desc;
-    if ($('langDoneBtn')) $('langDoneBtn').replaceChildren(document.createTextNode(tDict.btn_done), UI.icon('check'));
+    if ($('langDoneBtn'))
+      $('langDoneBtn').replaceChildren(document.createTextNode(tDict.btn_done), UI.icon('check'));
 
     // Timezone Dialog Headings
     if ($('timezoneModalEyebrow')) $('timezoneModalEyebrow').textContent = tDict.tz_modal_eyebrow;
     if ($('timezoneModalTitle')) $('timezoneModalTitle').textContent = tDict.tz_modal_title;
     if ($('timezoneModalDesc')) $('timezoneModalDesc').textContent = tDict.tz_modal_desc;
-    if ($('tzDoneBtn')) $('tzDoneBtn').replaceChildren(document.createTextNode(tDict.btn_done), UI.icon('check'));
+    if ($('tzDoneBtn'))
+      $('tzDoneBtn').replaceChildren(document.createTextNode(tDict.btn_done), UI.icon('check'));
 
     // Appearance choice buttons
-    const appChoices = { light: tDict.mode_light, dark: tDict.mode_dark, system: tDict.mode_system, auto: tDict.mode_auto };
-    if ($('customColorLabel')) $('customColorLabel').textContent = tDict.custom_color_text || 'Tự chọn màu';
+    const appChoices = {
+      light: tDict.mode_light,
+      dark: tDict.mode_dark,
+      system: tDict.mode_system,
+      auto: tDict.mode_auto,
+    };
+    if ($('customColorLabel'))
+      $('customColorLabel').textContent = tDict.custom_color_text || 'Tự chọn màu';
     document.querySelectorAll('[data-appearance-choice]').forEach((b) => {
       const choice = b.dataset.appearanceChoice;
       if (appChoices[choice]) b.textContent = appChoices[choice];
     });
 
     // Theme choice buttons
-    const themeChoices = { system: tDict.color_system, orange: tDict.color_orange, green: tDict.color_green, blue: tDict.color_blue, rose: tDict.color_rose };
+    const themeChoices = {
+      system: tDict.color_system,
+      orange: tDict.color_orange,
+      green: tDict.color_green,
+      blue: tDict.color_blue,
+      rose: tDict.color_rose,
+    };
     document.querySelectorAll('[data-theme-choice]').forEach((b) => {
       const choice = b.dataset.themeChoice;
       const dot = document.createElement('span');
@@ -1525,13 +1712,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if ($('tzPill')) {
       $('tzPill').title = tDict.tool_tz;
+      $('tzPill').setAttribute('aria-label', tDict.tool_tz);
     }
     if ($('themeBtn')) {
       $('themeBtn').setAttribute('aria-label', tDict.tool_theme);
       $('themeBtn').title = tDict.tool_theme;
     }
     if ($('mapsHeaderBtn')) {
-      const mapsTitle = tDict.tool_maps || 'Tìm quán ăn gần bạn trên Google Maps';
+      const mapsTitle = tDict.tool_maps || UICopy.text('mapsTool', lang);
       $('mapsHeaderBtn').setAttribute('aria-label', mapsTitle);
       $('mapsHeaderBtn').title = mapsTitle;
     }
@@ -1541,15 +1729,18 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if ($('shareBtn')) {
       $('shareBtn').title = tDict.tool_share;
+      $('shareBtn').setAttribute('aria-label', tDict.tool_share);
       const sr = $('shareBtn').querySelector('.sr-only');
       if (sr) sr.textContent = tDict.tool_share;
     }
     if ($('installBtn')) {
       $('installBtn').title = tDict.tool_install;
+      $('installBtn').setAttribute('aria-label', tDict.tool_install);
       const sr = $('installBtn').querySelector('.sr-only');
       if (sr) sr.textContent = tDict.tool_install;
     }
 
+    document.dispatchEvent(new Event('bfsc-languagechange'));
     CustomControls.syncAll();
     updateSound();
     updateBgmButton();
@@ -1558,6 +1749,15 @@ document.addEventListener('DOMContentLoaded', () => {
     if (typeof nearby !== 'undefined' && nearby.updateStatus) nearby.updateStatus();
     if (typeof banner === 'function') banner();
     if (typeof menu === 'function') menu();
+    // These bindings are initialized after the first startup language pass.
+    if (languageBindingsReady) {
+      updateCustomWheelCount();
+      renderUniverseDishList();
+      if ($('resultDialog').open && visibleResultState) {
+        const { results, detail, resultBudget, saved } = visibleResultState;
+        showResults(results, detail, resultBudget, saved);
+      }
+    }
   }
 
   function updateTheme() {
@@ -1661,6 +1861,11 @@ document.addEventListener('DOMContentLoaded', () => {
       AppearancePreferences.apply(settings);
       saveSettings({ timezone: settings.timezone });
       updateTimezoneUI();
+      applyTimezoneRegion(settings.timezone);
+      activeBudget = settings.budget = null;
+      $('budgetInput').value = '';
+      saveSettings({ budget: null });
+      scheduleBudget(0, false);
       banner();
       menu();
       const lang = settings.language || 'vi';
@@ -1678,7 +1883,11 @@ document.addEventListener('DOMContentLoaded', () => {
       else if (lang === 'ko') query = '근처 맛집';
       else if (lang === 'zh') query = '附近美食';
       else if (lang === 'en') query = 'good food near me';
-      window.open(`https://www.google.com/maps/search/?${new URLSearchParams({ api: '1', query })}`, '_blank', 'noopener,noreferrer');
+      window.open(
+        `https://www.google.com/maps/search/?${new URLSearchParams({ api: '1', query })}`,
+        '_blank',
+        'noopener,noreferrer'
+      );
     };
   }
   if ($('langBtn')) {
@@ -1701,12 +1910,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const lang = settings.language || 'vi';
     const tDict = TRANSLATIONS[lang] || TRANSLATIONS.vi;
     const label = settings.muted ? tDict.tool_sound_on : tDict.tool_sound_off;
-    UI.button(
-      $('soundBtn'),
-      settings.muted ? 'volume-x' : 'volume-2',
-      label,
-      true
-    );
+    UI.button($('soundBtn'), settings.muted ? 'volume-x' : 'volume-2', label, true);
     $('soundBtn').setAttribute('aria-label', label);
     $('soundBtn').setAttribute('aria-pressed', String(settings.muted));
   }
@@ -1732,10 +1936,14 @@ document.addEventListener('DOMContentLoaded', () => {
     toast(settings.muted ? t.sound_disabled : t.sound_enabled);
   };
   // 03. Dialog lifecycle and keyboard focus
+  const dialogFocus = new WeakMap();
+  let savedScrollY = 0;
   function open(dialog, preserve = false) {
     CustomControls.closeAll();
     if (!preserve) returnFocus = document.activeElement;
-    dialog.showModal();
+    dialogFocus.set(dialog, document.activeElement);
+    if (!document.querySelector('dialog[open]')) savedScrollY = scrollY;
+    if (!dialog.open) dialog.showModal();
     document.documentElement.classList.add('dialog-open');
     Experience.dialog(dialog);
   }
@@ -1743,8 +1951,12 @@ document.addEventListener('DOMContentLoaded', () => {
     dialog.close();
     if (!document.querySelector('dialog[open]'))
       document.documentElement.classList.remove('dialog-open');
-    if (restore && returnFocus?.isConnected) returnFocus.focus();
+    const target = dialogFocus.get(dialog) || returnFocus;
+    if (restore && target?.isConnected) target.focus({ preventScroll: true });
+    if (!document.querySelector('dialog[open]'))
+      window.scrollTo({ top: savedScrollY, behavior: 'instant' });
   }
+  $('spinDialog').addEventListener('close', () => roulette.release());
   document.querySelectorAll('dialog').forEach((dialog) => {
     dialog
       .querySelectorAll('[data-close]')
@@ -1764,7 +1976,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function personalChanged(saved = true) {
     personalControls();
     scheduleBudget(0, false);
-    if (!saved) toast('Trình duyệt không cho lưu sở thích. Thay đổi chỉ dùng trong phiên này.');
+    if (!saved) toast(UICopy.text('preferencesError'));
   }
   personalControls();
   $('cravingInput').onchange = (e) =>
@@ -1806,6 +2018,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
   function personalActions(dish) {
+    if (!Catalog.getDish(dish.id)) return document.createElement('div');
     const actions = document.createElement('div');
     actions.className = 'dish-personal-actions';
     for (const field of ['favorite', 'eaten', 'hidden']) {
@@ -1826,8 +2039,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (saved && field === 'hidden')
           toast(
             personal.state(dish).hidden
-              ? 'Đã ẩn khỏi quay. Khôi phục trong Thực đơn → Món đã ẩn.'
-              : 'Đã khôi phục món vào vòng quay.'
+              ? UICopy.text('hiddenNotice')
+              : UICopy.text('restoredNotice')
           );
       };
       actions.append(button);
@@ -1851,33 +2064,48 @@ document.addEventListener('DOMContentLoaded', () => {
     featuredDish = dish || null;
     const lang = settings.language || 'vi';
     const tDict = TRANSLATIONS[lang] || TRANSLATIONS.vi;
-    const isSame = (dish && dish.id === lastFeaturedDishId && lang === lastFeaturedLang);
+    const isSame = dish && dish.id === lastFeaturedDishId && lang === lastFeaturedLang;
     lastFeaturedDishId = dish ? dish.id : null;
     lastFeaturedLang = lang;
     const captionEl = document.querySelector('.photo-caption');
     if (captionEl) {
       captionEl.textContent = !dish
-        ? (tDict.try_remove_filters || 'Thử bỏ bớt bộ lọc')
-        : dish.imageCredit || (tDict.ref_photo || 'Ảnh tham khảo món ăn');
+        ? tDict.try_remove_filters || 'Thử bỏ bớt bộ lọc'
+        : Attribution.reviewRequired(dish)
+          ? Attribution.shortNote(lang)
+          : tDict.ref_photo || tDict.hero_caption;
     }
     $('findFeaturedBtn').disabled = !dish;
     document.querySelector('.hero').dataset.empty = String(!dish);
-    const dName = dish ? (typeof getDishName === 'function' ? getDishName(dish, lang) : dish.name) : (tDict.no_matching_dish || 'Chưa có món phù hợp');
+    const dName = dish
+      ? typeof getDishName === 'function'
+        ? getDishName(dish, lang)
+        : dish.name
+      : tDict.no_matching_dish || 'Chưa có món phù hợp';
     const dDesc = dish
-      ? (typeof getDishDesc === 'function' ? getDishDesc(dish, lang) : dish.desc)
-      : (tDict.no_dish_budget_pref || 'Chưa có món khớp ngân sách và sở thích. Hãy bỏ lọc khẩu vị, tăng ngân sách hoặc khôi phục món đã ẩn.');
+      ? typeof getDishDesc === 'function'
+        ? getDishDesc(dish, lang)
+        : dish.desc
+      : tDict.no_dish_budget_pref ||
+        'Chưa có món khớp ngân sách và sở thích. Hãy bỏ lọc khẩu vị, tăng ngân sách hoặc khôi phục món đã ẩn.';
     $('featuredName').textContent = dName;
     $('featuredDesc').textContent = dDesc;
-    $('featuredPrice').textContent = dish ? money(dish.price) : (tDict.try_remove_filters || 'Thử bỏ bớt bộ lọc');
+    $('featuredPrice').textContent = dish
+      ? money(dish.price)
+      : tDict.try_remove_filters || 'Thử bỏ bớt bộ lọc';
     if (!isSame) {
       UI.imageFallback($('featuredImage'));
-      $('featuredImage').src = dish ? dish.image : 'assets/brand.svg';
+      $('featuredImage').src = dish
+        ? typeof Attribution !== 'undefined'
+          ? Attribution.imageFor(dish)
+          : dish.image
+        : 'assets/brand.svg';
       Experience.feature(document.querySelector('.hero-copy'));
       Experience.feature($('featuredImage'));
     }
     $('featuredImage').alt = dish
-      ? dish.name + ' — ' + (tDict.ref_photo || 'ảnh tham khảo')
-      : (tDict.no_matching_dish || 'Chưa có món phù hợp bộ lọc');
+      ? getDishName(dish, lang) + ' — ' + tDict.ref_photo
+      : tDict.no_matching_dish || 'Chưa có món phù hợp bộ lọc';
   }
   function banner() {
     lastPeriod = getCurrentMealPeriod();
@@ -1898,7 +2126,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 800);
     } else {
       const pKey = 'period_' + lastPeriod;
-      $('period').textContent = t[pKey] || `${FOOD_DATABASE[lastPeriod].name.toUpperCase()} · MÓN VIỆT MỖI NGÀY`;
+      $('period').textContent =
+        t[pKey] || `${FOOD_DATABASE[lastPeriod].name.toUpperCase()} · MÓN VIỆT MỖI NGÀY`;
     }
     const group = engine.getCurrentBannerData();
     const modeTitles = {
@@ -1908,7 +2137,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     const titleText = modeTitles[engine.currentMode] || t.title_default;
     $('title').textContent = titleText;
-    document.title = `${titleText} · Ăn gì đây?`;
+    document.title = `${titleText} · ${t.brand_name}`;
     document
       .querySelectorAll('[data-mode]')
       .forEach((b) =>
@@ -1916,7 +2145,9 @@ document.addEventListener('DOMContentLoaded', () => {
       );
     feature(
       group.dishes.find(
-        (d) => activeBudget === null || (engine.prices(d) && engine.prices(d).min <= activeBudget)
+        (d) =>
+          personal.eligible(d, engine.currentMode === 'main' ? lastPeriod : engine.currentMode) &&
+          (activeBudget === null || (engine.prices(d) && engine.prices(d).min <= activeBudget))
       )
     );
   }
@@ -1938,32 +2169,35 @@ document.addEventListener('DOMContentLoaded', () => {
     $('collectionProgress').setAttribute('aria-valuemax', String(s.total));
     $('progressFill').style.width = `${s.percentage}%`;
     $('collectionProgress').setAttribute('aria-valuenow', String(s.unlocked));
-    const tpl = tDict.collection_note_tpl || 'Đã khám phá {percent}% thực đơn · Đây là món đã gợi ý, không phải món đã ăn. Lưu trên trình duyệt này.';
+    const tpl =
+      tDict.collection_note_tpl ||
+      'Đã khám phá {percent}% thực đơn · Đây là món đã gợi ý, không phải món đã ăn. Lưu trên trình duyệt này.';
     $('collectionNote').textContent = tpl.replace('{percent}', s.percentage);
   }
   function image(dish, lazy = true) {
     const img = new Image(400, 300);
     UI.imageFallback(img);
-    img.src = dish.image;
-    img.alt = dish.name + ' — ảnh tham khảo';
+    img.src = typeof Attribution !== 'undefined' ? Attribution.imageFor(dish) : dish.image;
+    img.alt = getDishName(dish) + ' — ' + t('ref_photo');
     img.loading = lazy ? 'lazy' : 'eager';
     img.decoding = 'async';
     return img;
   }
   function text(tag, content, className = '') {
     const el = document.createElement(tag);
-    el.textContent = content;
+    el.textContent = content == null ? '' : String(content);
     el.className = className;
     return el;
   }
   function showResults(results, detail = false, resultBudget = activeBudget, saved = true) {
     if (detail && busy) return;
+    visibleResultState = { results, detail, resultBudget, saved };
     const lang = settings.language || 'vi';
     const tDict = TRANSLATIONS[lang] || TRANSLATIONS.vi;
     $('resultSaveNotice').hidden = detail || saved;
     $('resultSaveNotice').textContent = saved
       ? ''
-      : (tDict.result_save_notice || 'Không lưu được bộ sưu tập. Kết quả vẫn dùng được trong phiên này.');
+      : tDict.result_save_notice || UICopy.text('saveResultError', lang);
     $('resultTitle').textContent = detail
       ? tDict.result_detail_title
       : lastAction === 'combo'
@@ -1988,12 +2222,19 @@ document.addEventListener('DOMContentLoaded', () => {
           snacks: tDict.cat_snacks,
           drinks: tDict.cat_drinks,
         };
-        const pKey = 'period_' + dish.mealId;
-        const sourceName = catMap[dish.mealId] || (tDict[pKey] ? tDict[pKey].split('·')[0].trim() : result.sourceName);
-        const priceElem = text('strong', `${tDict.hero_price_note || 'Giá tham khảo'}: ${money(dish.price)}`, 'price');
+        const mealId = dish.mealId || result.source;
+        const pKey = 'period_' + mealId;
+        const sourceName =
+          catMap[mealId] || (tDict[pKey] ? tDict[pKey].split('·')[0].trim() : result.sourceName);
+        const priceElem = text(
+          'strong',
+          `${tDict.hero_price_note || 'Giá tham khảo'}: ${money(dish.price)}`,
+          'price'
+        );
         const priceNote = document.createElement('em');
         priceNote.className = 'price-disclaimer';
-        priceNote.textContent = tDict.price_disclaimer || '* Giá tham khảo và có thể chênh lệch với thực tế';
+        priceNote.textContent =
+          tDict.price_disclaimer || '* Giá tham khảo và có thể chênh lệch với thực tế';
 
         body.append(
           text('span', sourceName, 'dish-source'),
@@ -2006,7 +2247,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'collected'
           )
         );
-        if (dish.imageCredit) body.append(text('span', dish.imageCredit, 'image-note'));
+        if (dish.imageCredit) body.append(text('span', tDict.ref_photo, 'image-note'));
         const more = document.createElement('details');
         more.className = 'dish-more';
         more.open = results.length === 1;
@@ -2016,7 +2257,11 @@ document.addEventListener('DOMContentLoaded', () => {
         credit.target = '_blank';
         credit.rel = 'noopener';
         const resDesc = typeof getDishDesc === 'function' ? getDishDesc(dish, lang) : dish.desc;
-        more.append(summary, text('p', resDesc), text('blockquote', dish.quote), credit);
+        more.append(summary, text('p', resDesc), credit);
+        const quote = getDishQuote(dish, lang);
+        if (quote && quote !== resDesc) more.insertBefore(text('blockquote', quote), credit);
+        if (typeof Attribution !== 'undefined' && Attribution.reviewRequired(dish))
+          body.append(text('p', Attribution.note(lang), 'image-note'));
         const actions = personalActions(dish);
         if (results.length === 1) body.append(actions);
         else {
@@ -2031,10 +2276,12 @@ document.addEventListener('DOMContentLoaded', () => {
         // 3D Flip Card Container
         const flipWrapper = document.createElement('div');
         flipWrapper.className = 'flip-card';
-        flipWrapper.setAttribute('data-flipped', detail ? 'true' : 'false');
-        flipWrapper.setAttribute('tabindex', '0');
-        flipWrapper.setAttribute('role', 'button');
-        flipWrapper.setAttribute('aria-label', `${typeof getDishName === 'function' ? getDishName(dish, lang) : dish.name} - Chạm để lật bài`);
+        flipWrapper.setAttribute('data-flipped', 'true');
+        flipWrapper.setAttribute('role', 'group');
+        flipWrapper.setAttribute(
+          'aria-label',
+          `${getDishName(dish, lang)} - ${UICopy.text('flip', lang)}`
+        );
 
         const flipInner = document.createElement('div');
         flipInner.className = 'flip-card-inner';
@@ -2045,9 +2292,9 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="card-back-ornament">
             <div class="card-back-glow"></div>
             <div class="card-back-symbol">✦</div>
-            <div class="card-back-brand">ĂN GÌ ĐÂY</div>
+            <div class="card-back-brand">${tDict.brand_name}</div>
             <div class="card-back-sub">${tDict.result_single_title || 'BỮA NGON HÔM NAY'}</div>
-            <div class="card-back-hint">👆 Chạm để lật bài</div>
+            <div class="card-back-hint">👆 ${UICopy.text('flip', lang)}</div>
           </div>
         `;
 
@@ -2058,39 +2305,10 @@ document.addEventListener('DOMContentLoaded', () => {
         flipInner.append(cardBack, cardFront);
         flipWrapper.append(flipInner);
 
-        flipWrapper.onclick = (e) => {
-          if (e.target.closest('button') || e.target.closest('a') || e.target.closest('summary')) return;
-          const isFlipped = flipWrapper.getAttribute('data-flipped') === 'true';
-          flipWrapper.setAttribute('data-flipped', isFlipped ? 'false' : 'true');
-          if (window.audioSystem && !window.audioSystem.isMuted) {
-            window.audioSystem.tone(520, 0, 0.05, 0.03);
-          }
-        };
-
-        flipWrapper.onkeydown = (e) => {
-          if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            flipWrapper.click();
-          }
-        };
-
         return flipWrapper;
       })
     );
 
-    // Auto-flip after 600ms suspense if newly rolled
-    if (!detail) {
-      setTimeout(() => {
-        document.querySelectorAll('#resultGrid .flip-card').forEach((el, idx) => {
-          setTimeout(() => {
-            el.setAttribute('data-flipped', 'true');
-            if (window.audioSystem && !window.audioSystem.isMuted) {
-              window.audioSystem.tone(587.33, 0, 0.08, 0.035);
-            }
-          }, idx * 140);
-        });
-      }, 600);
-    }
     CustomControls.refresh();
     refreshPersonalActions();
     $('rerollBtn').hidden = detail;
@@ -2100,7 +2318,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const total = engine.totalPrice(results);
     $('resultCost').hidden = detail || !total;
     if (total && !detail) {
-      const label = text('strong', `${tDict.total_price_from}: ` + money(total.min) + ` · ${tDict.min_estimate}`);
+      const label = text(
+        'strong',
+        `${tDict.total_price_from}: ` + money(total.min) + ` · ${tDict.min_estimate}`
+      );
       const note = text(
         'p',
         resultBudget === null
@@ -2127,6 +2348,9 @@ document.addEventListener('DOMContentLoaded', () => {
       .trim();
   }
   function menu() {
+    cancelAnimationFrame(collectionRefreshFrame);
+    collectionRefreshFrame = 0;
+    collectionRefreshPending = false;
     allDishes = engine.getAllDishesList();
     CustomControls.syncAll();
     stats();
@@ -2139,10 +2363,20 @@ document.addEventListener('DOMContentLoaded', () => {
         (personalView === 'hidden' ? personal.state(dish).hidden : !personal.state(dish).hidden) &&
         (personalView !== 'favorite' || personal.state(dish).favorite) &&
         (personalView !== 'eaten' || personal.state(dish).eaten > 0) &&
-        (filter === 'all' || (filter === 'main' ? ['morning', 'lunch', 'afternoon', 'dinner', 'main'].includes(dish.mealId) : dish.mealId === filter)) &&
+        (filter === 'all' ||
+          (filter === 'main'
+            ? ['morning', 'lunch', 'afternoon', 'dinner', 'main'].includes(dish.mealId)
+            : dish.mealId === filter)) &&
         (filter !== 'drinks' || subDrinkFilter === 'all' || dish.filter === subDrinkFilter) &&
         (!collectionOnly || engine.collection[dish.id] > 0) &&
-        (!query || normalize(dish.name + ' ' + (typeof getDishName === 'function' ? getDishName(dish, lang) : '') + ' ' + dish.type).includes(query))
+        (!query ||
+          normalize(
+            dish.name +
+              ' ' +
+              (typeof getDishName === 'function' ? getDishName(dish, lang) : '') +
+              ' ' +
+              dish.type
+          ).includes(query))
     );
     const filtered = base.filter(
       (dish) =>
@@ -2160,13 +2394,13 @@ document.addEventListener('DOMContentLoaded', () => {
       personalView !== 'all'
         ? tDict.empty_menu_msg
         : noCollection
-          ? (tDict.empty_collection || 'Bạn chưa khám phá món nào.')
+          ? tDict.empty_collection || UICopy.text('emptyCollection', lang)
           : base.length && activeBudget !== null
-            ? (tDict.no_match_filter + ' ' + money(activeBudget))
+            ? tDict.no_match_filter + ' ' + money(activeBudget)
             : tDict.no_match_filter;
     $('menuStatus').textContent =
       (budgetInvalid
-        ? (tDict.budget_invalid_prefix || 'Số tiền chưa hợp lệ: ') +
+        ? (tDict.budget_invalid_prefix || UICopy.text('checkAmount', lang) + ': ') +
           (activeBudget === null ? tDict.budget_unlimited : money(activeBudget)) +
           '. '
         : '') +
@@ -2178,7 +2412,9 @@ document.addEventListener('DOMContentLoaded', () => {
     $('menuEmptyMessage').textContent = reason;
     $('resetMenuBudget').hidden = activeBudget === null && !budgetInvalid;
     $('resetMenuBudget').disabled = busy;
-    $('resetMenuFilters').textContent = noCollection ? tDict.menu_heading : tDict.reset_menu_filters;
+    $('resetMenuFilters').textContent = noCollection
+      ? tDict.menu_heading
+      : tDict.reset_menu_filters;
     $('loadMoreBtn').hidden = shown.length >= filtered.length;
     $('menuGrid').replaceChildren(
       ...shown.map((dish) => {
@@ -2198,7 +2434,8 @@ document.addEventListener('DOMContentLoaded', () => {
           drinks: tDict.cat_drinks,
         };
         const pKey = 'period_' + dish.mealId;
-        const sourceName = catMap[dish.mealId] || (tDict[pKey] ? tDict[pKey].split('·')[0].trim() : dish.mealName);
+        const sourceName =
+          catMap[dish.mealId] || (tDict[pKey] ? tDict[pKey].split('·')[0].trim() : dish.mealName);
         const source = text('span', sourceName, 'dish-source');
         thumb.append(source);
         if (dish.imageCredit) thumb.append(text('span', dish.imageCredit, 'illustration-tag'));
@@ -2214,6 +2451,8 @@ document.addEventListener('DOMContentLoaded', () => {
         );
         if (count) status.prepend(UI.icon('check'));
         body.append(status);
+        if (Attribution.reviewRequired(dish))
+          body.append(text('span', Attribution.shortNote(lang), 'image-note'));
         const personalState = personal.state(dish);
         if (personalState.favorite || personalState.eaten || personalState.hidden)
           body.append(
@@ -2236,19 +2475,19 @@ document.addEventListener('DOMContentLoaded', () => {
     );
     Experience.reveal($('menuGrid').children);
   }
-  
+
   function buildDrinkSubFilters(currentLang = settings.language || 'vi') {
     const subContainer = $('drinkSubFilters');
     if (!subContainer) return;
     const subTabs = [
-      { id: 'all', label: 'Tất cả đồ uống' },
-      { id: 'tra_sua', label: 'Trà sữa & Matcha' },
-      { id: 'ca_phe_tra', label: 'Cà phê & Trà trái cây' },
-      { id: 'sinh_to_nuoc_ep', label: 'Sinh tố & Nước ép' },
-      { id: 'nuoc_ngot', label: 'Nước ngọt & Giải khát' }
+      { id: 'all', label: UICopy.text('drinkAll', currentLang) },
+      { id: 'tra_sua', label: UICopy.text('drinkMilk', currentLang) },
+      { id: 'ca_phe_tra', label: UICopy.text('drinkCoffee', currentLang) },
+      { id: 'sinh_to_nuoc_ep', label: UICopy.text('drinkJuice', currentLang) },
+      { id: 'nuoc_ngot', label: UICopy.text('drinkSoda', currentLang) },
     ];
     subContainer.replaceChildren(
-      ...subTabs.map(tab => {
+      ...subTabs.map((tab) => {
         const btn = document.createElement('button');
         btn.type = 'button';
         btn.className = 'drink-sub-btn';
@@ -2257,7 +2496,9 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.onclick = () => {
           subDrinkFilter = tab.id;
           visibleCount = 12;
-          subContainer.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b === btn)));
+          subContainer
+            .querySelectorAll('button')
+            .forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
           menu();
         };
         return btn;
@@ -2313,44 +2554,50 @@ document.addEventListener('DOMContentLoaded', () => {
       !budgetPending &&
       prepared &&
       prepared.signature === engine.signature(engine.currentMode, settings.unique, activeBudget);
-    $('singleBtn').disabled = !ready || !prepared.singles.length;
-    $('tripleBtn').disabled = !ready || !prepared.triples.length;
-    $('comboBtn').disabled = !ready || !prepared.combos.length;
+    $('singleBtn').disabled = !ready || !prepared.availability.single;
+    $('tripleBtn').disabled = !ready || !prepared.availability.triple;
+    $('comboBtn').disabled = !ready || !prepared.availability.combo;
     $('rerollBtn').disabled =
-      !ready ||
-      !(lastAction === 'combo'
-        ? prepared.combos.length
-        : lastAction === 'triple'
-          ? prepared.triples.length
-          : prepared.singles.length);
+      lastAction === 'custom'
+        ? busy
+        : !ready ||
+          !(lastAction === 'combo'
+            ? prepared.availability.combo
+            : lastAction === 'triple'
+              ? prepared.availability.triple
+              : prepared.availability.single);
     document
       .querySelectorAll(
-        '[data-mode],#uniqueInput,#budgetInput,#clearBudgetBtn,[data-budget],#cravingInput,#avoidRecentInput,#resetTasteBtn,[data-personal-field]'
+        '[data-mode],#uniqueInput,#budgetInput,#clearBudgetBtn,[data-budget],#cravingInput,#avoidRecentInput,#resetTasteBtn,[data-personal-field],[data-timezone-choice],[data-lang-choice],#timezoneSelect,#langBtn,#tzBtn,#tzPill,#customWheelBtn,#addDishBtn'
       )
       .forEach((el) => (el.disabled = busy));
     $('budgetStatus').setAttribute('aria-busy', String(budgetPending));
     $('findFeaturedBtn').disabled = busy || !featuredDish;
     CustomControls.syncAll();
   }
+  let statusBeforeDraw = '';
   function lock(value) {
+    const wasBusy = busy;
+    if (value && !wasBusy) statusBeforeDraw = $('budgetStatus').textContent;
     busy = value;
+    if (value) $('budgetStatus').textContent = UICopy.text('drawing');
+    else if (wasBusy) $('budgetStatus').textContent = statusBeforeDraw;
     if (!value && personalSyncPending) {
       personalSyncPending = false;
       personal.reload();
       personalChanged();
       refreshPersonalActions();
     }
+    if (!value && collectionRefreshPending && !collectionRefreshFrame) {
+      collectionRefreshFrame = requestAnimationFrame(() => {
+        collectionRefreshFrame = 0;
+        if (!busy) menu();
+      });
+    }
     updateControls();
   }
   function parseBudget(value) {
-    const raw = value.trim();
-    if (!raw) return null;
-    if (!/^\d+$/.test(raw) && !/^\d{1,3}([., ])\d{3}(?:\1\d{3})*$/.test(raw))
-      throw new Error('Nhập số tiền nguyên, ví dụ 50000 hoặc 50.000. Để trống nếu không giới hạn.');
-    const amount = Number(raw.replace(/[., ]/g, ''));
-    if (!Number.isSafeInteger(amount) || amount < 0)
-      throw new Error('Số tiền chưa hợp lệ. Hãy nhập lại.');
-    return amount;
+    return Money.parseBudget(value, getCurrentRegion());
   }
   function scheduleBudget(delay = 220, persist = true, isDirectTyping = false) {
     clearTimeout(budgetTimer);
@@ -2363,13 +2610,13 @@ document.addEventListener('DOMContentLoaded', () => {
       .forEach((button) => button.setAttribute('aria-pressed', 'false'));
     if (isDirectTyping && delay >= 300) {
       $('budgetPreviewNote').hidden = false;
-      $('budgetPreviewNote').textContent =
-        'Đang kiểm tra số tiền. Nội dung bên dưới tạm giữ theo ngân sách trước: ' +
-        (activeBudget === null ? 'không giới hạn.' : money(activeBudget) + '.');
+      $('budgetPreviewNote').textContent = UICopy.text('budgetPrevious', null, {
+        amount: activeBudget === null ? UICopy.text('unlimited') : money(activeBudget),
+      });
     } else {
       $('budgetPreviewNote').hidden = true;
     }
-    $('budgetStatus').textContent = 'Đang kiểm tra ngân sách cho 1 món, 3 món và combo…';
+    $('budgetStatus').textContent = UICopy.text('budgetChecking');
     updateControls();
     budgetTimer = setTimeout(() => {
       try {
@@ -2394,49 +2641,71 @@ document.addEventListener('DOMContentLoaded', () => {
         const lang = settings.language || 'vi';
         const tDict = TRANSLATIONS[lang] || TRANSLATIONS.vi;
         $('budgetLabel').textContent =
-          amount === null ? tDict.budget_unlimited : money(amount) + ' / ' + (tDict.per_spin || 'lượt');
-        const info = (choices, minimum) =>
-          choices.length
+          amount === null
+            ? tDict.budget_unlimited
+            : money(amount) + ' / ' + (tDict.per_spin || 'lượt');
+        const info = (available, minimum) =>
+          available
             ? (tDict.can_pick_from || 'Có thể chọn · từ') + ' ' + money(minimum)
             : minimum === null
-              ? (tDict.not_enough_dishes || 'Chưa đủ món')
+              ? tDict.not_enough_dishes || 'Chưa đủ món'
               : (tDict.need_at_least || 'Cần ít nhất') + ' ' + money(minimum);
-        $('singleBudgetInfo').textContent = (tDict.dish_single_info || '1 món') + ': ' + info(plan.singles, plan.minimums.single);
-        $('tripleBudgetInfo').textContent = (tDict.dish_triple_info || '3 món') + ': ' + info(plan.triples, plan.minimums.triple);
-        $('comboBudgetInfo').textContent = (tDict.dish_combo_info || 'Combo') + ': ' + info(plan.combos, plan.minimums.combo);
+        $('singleBudgetInfo').textContent =
+          (tDict.dish_single_info || '1 món') +
+          ': ' +
+          info(plan.availability.single, plan.minimums.single);
+        $('tripleBudgetInfo').textContent =
+          (tDict.dish_triple_info || '3 món') +
+          ': ' +
+          info(plan.availability.triple, plan.minimums.triple);
+        $('comboBudgetInfo').textContent =
+          (tDict.dish_combo_info || 'Combo') +
+          ': ' +
+          info(plan.availability.combo, plan.minimums.combo);
         $('budgetStatus').textContent =
           amount === null
-            ? (tDict.budget_unlimited_status || 'Không giới hạn ngân sách.')
+            ? tDict.budget_unlimited_status || 'Không giới hạn ngân sách.'
             : (tDict.budget_label_prefix || 'Ngân sách ') +
               money(amount) +
-              ' / ' + (tDict.per_spin || 'lượt') + ' · ' +
-              plan.singles.length +
-              ' ' + (tDict.dishes_eligible || 'món trong danh mục phù hợp') + ' · ' +
-              (tDict.dish_triple_info || '3 món') + ': ' +
-              (plan.triples.length ? (tDict.has_options || 'có lựa chọn') : (tDict.not_enough_money_dishes || 'chưa đủ tiền hoặc số món')) +
+              ' / ' +
+              (tDict.per_spin || 'lượt') +
+              ' · ' +
+              plan.eligibleSingleCount +
+              ' ' +
+              (tDict.dishes_eligible || 'món trong danh mục phù hợp') +
+              ' · ' +
+              (tDict.dish_triple_info || '3 món') +
+              ': ' +
+              (plan.availability.triple
+                ? tDict.has_options || 'có lựa chọn'
+                : tDict.not_enough_money_dishes || 'chưa đủ tiền hoặc số món') +
               ' · Combo: ' +
-              (plan.combos.length ? (tDict.has_options || 'có lựa chọn') : (tDict.not_enough_money || 'chưa đủ tiền')) +
+              (plan.availability.combo
+                ? tDict.has_options || 'có lựa chọn'
+                : tDict.not_enough_money || 'chưa đủ tiền') +
               '.';
         const tasteLabel = $('cravingInput').selectedOptions[0]?.textContent || '';
         if (personal.craving !== 'all')
-          $('budgetStatus').textContent += ' · ' + (tDict.craving_label || 'Món chính') + ': ' + tasteLabel;
-        if (!plan.singles.length)
           $('budgetStatus').textContent +=
-            ' ' + (tDict.no_dish_budget_pref || 'Không còn món phù hợp; bỏ lọc khẩu vị hoặc khôi phục món đã ẩn.');
-        const eligible = plan.singles.map((choice) => choice[0].dish);
+            ' · ' + (tDict.craving_label || 'Món chính') + ': ' + tasteLabel;
+        if (!plan.eligibleSingleCount)
+          $('budgetStatus').textContent +=
+            ' ' +
+            (tDict.no_dish_budget_pref ||
+              'Không còn món phù hợp; bỏ lọc khẩu vị hoặc khôi phục món đã ẩn.');
+        const eligible = plan.pools.single.map((item) => item.dish);
         if (!featuredDish || !eligible.some((d) => d.id === featuredDish.id)) feature(eligible[0]);
         menu();
         if (persist) saveSettings({ budget: amount });
       } catch (error) {
         budgetInvalid = true;
         $('budgetPreviewNote').hidden = false;
-        $('budgetPreviewNote').textContent =
-          'Số tiền chưa hợp lệ. Nội dung bên dưới vẫn theo ngân sách trước: ' +
-          (activeBudget === null ? 'không giới hạn.' : money(activeBudget) + '.') +
-          ' Hãy sửa số tiền hoặc bấm Bỏ giới hạn.';
+        $('budgetPreviewNote').textContent = UICopy.text('budgetInvalid', null, {
+          amount: activeBudget === null ? UICopy.text('unlimited') : money(activeBudget),
+        });
         $('budgetInput').setAttribute('aria-invalid', 'true');
-        $('budgetStatus').textContent = error.message;
-        $('budgetLabel').textContent = 'Kiểm tra số tiền';
+        $('budgetStatus').textContent = UICopy.error(error.message);
+        $('budgetLabel').textContent = UICopy.text('checkAmount');
         ['singleBudgetInfo', 'tripleBudgetInfo', 'comboBudgetInfo'].forEach(
           (id) => ($(id).textContent = '')
         );
@@ -2452,21 +2721,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }, delay);
   }
   // 08. Draw, animate and publish results once
-  function choose(action) {
+  async function choose(action) {
     if (busy || budgetPending || !prepared) return;
+    lock(true);
     let results;
     try {
       results =
         action === 'combo'
-          ? engine.drawCombo({ budget: activeBudget, prepared })
-          : engine.drawDishes({
+          ? await engine.drawCombo({ budget: activeBudget, prepared })
+          : await engine.drawDishes({
               count: action === 'triple' ? 3 : 1,
               unique: settings.unique,
               budget: activeBudget,
               prepared,
             });
     } catch (error) {
-      toast(error.message);
+      lock(false);
+      toast(UICopy.error(error.message));
       scheduleBudget(0, false);
       return;
     }
@@ -2485,21 +2756,14 @@ document.addEventListener('DOMContentLoaded', () => {
       showResults(results, false, rollBudget, outcome.saved);
       if (settingsSyncPending) syncSettings();
       audioSystem.playWin(4);
-      if (!outcome.saved)
-        toast('Không lưu được bộ sưu tập. Kết quả vẫn dùng được trong phiên này.');
+      if (!outcome.saved) toast(UICopy.text('saveResultError'));
     };
     if (motion.matches) reveal();
     else {
       open($('spinDialog'), true);
-      const choices =
-        action === 'combo'
-          ? prepared.combos
-          : action === 'triple'
-            ? prepared.triples
-            : prepared.singles;
       const pool = [
         ...new Map(
-          choices
+          Object.values(prepared.pools)
             .flat()
             .filter((item) => item.source === results[0].source)
             .map((item) => [item.dish.id, item.dish])
@@ -2511,7 +2775,8 @@ document.addEventListener('DOMContentLoaded', () => {
   $('singleBtn').onclick = () => choose('single');
   $('tripleBtn').onclick = () => choose('triple');
   $('comboBtn').onclick = () => choose('combo');
-  $('rerollBtn').onclick = () => choose(lastAction);
+  $('rerollBtn').onclick = () =>
+    lastAction === 'custom' ? $('customWheelSpinActionBtn').click() : choose(lastAction);
   $('skipBtn').onclick = () => roulette.skip();
   motion.addEventListener('change', () => {
     if (motion.matches) roulette.skip();
@@ -2549,8 +2814,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function updateCustomWheelCount() {
     if (!$('customWheelInput') || !$('customWheelCount')) return;
-    const lines = $('customWheelInput').value.split('\n').map(s => s.trim()).filter(Boolean);
-    $('customWheelCount').textContent = `${lines.length} món trong danh sách`;
+    const lines = $('customWheelInput')
+      .value.split('\n')
+      .map((s) => s.trim())
+      .filter(Boolean);
+    $('customWheelCount').textContent = UICopy.text('listCount', null, { n: lines.length });
     if (lines.length >= 2) hideCustomWheelAlert();
   }
 
@@ -2590,7 +2858,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const currentList = allDishes || [];
     const query = normalize(universeSearchTerm);
 
-    const filtered = currentList.filter(dish => {
+    const filtered = currentList.filter((dish) => {
       const isMain = ['morning', 'lunch', 'afternoon', 'dinner', 'main'].includes(dish.mealId);
       const isSnack = dish.mealId === 'snacks';
       const isDrink = dish.mealId === 'drinks';
@@ -2600,7 +2868,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (universeActiveCategory === 'drinks' && !isDrink) return false;
 
       if (query) {
-        const dishName = normalize(dish.name);
+        const dishName = normalize(getDishName(dish));
         const dishType = normalize(dish.type || '');
         if (!dishName.includes(query) && !dishType.includes(query)) return false;
       }
@@ -2608,69 +2876,88 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     if ($('universeCountAll')) $('universeCountAll').textContent = currentList.length;
-    if ($('universeSelectedBadge')) $('universeSelectedBadge').textContent = `Đã chọn: ${universeSelected.size} món`;
+    if ($('universeSelectedBadge'))
+      $('universeSelectedBadge').textContent = UICopy.text('selected', null, {
+        n: universeSelected.size,
+      });
     if ($('universeConfirmCount')) $('universeConfirmCount').textContent = universeSelected.size;
 
-    listEl.replaceChildren(...filtered.map(dish => {
-      const item = document.createElement('label');
-      item.className = 'universe-dish-item' + (universeSelected.has(dish.name) ? ' selected' : '');
+    listEl.replaceChildren(
+      ...filtered.map((dish) => {
+        const item = document.createElement('label');
+        item.className = 'universe-dish-item' + (universeSelected.has(dish.id) ? ' selected' : '');
 
-      const cb = document.createElement('input');
-      cb.type = 'checkbox';
-      cb.checked = universeSelected.has(dish.name);
+        const cb = document.createElement('input');
+        cb.type = 'checkbox';
+        cb.checked = universeSelected.has(dish.id);
 
-      const thumb = document.createElement('img');
-      thumb.src = dish.image;
-      thumb.alt = dish.name;
-      thumb.loading = 'lazy';
-      UI.imageFallback(thumb);
+        const thumb = document.createElement('img');
+        thumb.src = typeof Attribution !== 'undefined' ? Attribution.imageFor(dish) : dish.image;
+        thumb.alt = getDishName(dish);
+        thumb.loading = 'lazy';
+        UI.imageFallback(thumb);
 
-      const info = document.createElement('div');
-      info.className = 'universe-dish-info';
+        const info = document.createElement('div');
+        info.className = 'universe-dish-info';
 
-      const name = document.createElement('span');
-      name.className = 'universe-dish-name';
-      name.textContent = dish.name;
+        const name = document.createElement('span');
+        name.className = 'universe-dish-name';
+        name.textContent = getDishName(dish);
 
-      const meta = document.createElement('span');
-      meta.className = 'universe-dish-meta';
-      const catLabel = ['morning', 'lunch', 'afternoon', 'dinner', 'main'].includes(dish.mealId) ? 'Món Chính' : (dish.mealId === 'snacks' ? 'Ăn Vặt' : 'Đồ Uống');
-      meta.textContent = `${catLabel} · ${money(dish.price)}`;
+        const meta = document.createElement('span');
+        meta.className = 'universe-dish-meta';
+        const catLabel = ['morning', 'lunch', 'afternoon', 'dinner', 'main'].includes(dish.mealId)
+          ? t('cat_main')
+          : dish.mealId === 'snacks'
+            ? t('cat_snacks')
+            : t('cat_drinks');
+        meta.textContent = `${catLabel} · ${money(dish.price)}`;
 
-      info.append(name, meta);
-      item.append(cb, thumb, info);
+        info.append(name, meta);
+        item.append(cb, thumb, info);
 
-      item.onclick = (e) => {
-        if (e.target !== cb) cb.checked = !cb.checked;
-        if (cb.checked) {
-          universeSelected.add(dish.name);
-          item.classList.add('selected');
-        } else {
-          universeSelected.delete(dish.name);
-          item.classList.remove('selected');
-        }
-        if ($('universeSelectedBadge')) $('universeSelectedBadge').textContent = `Đã chọn: ${universeSelected.size} món`;
-        if ($('universeConfirmCount')) $('universeConfirmCount').textContent = universeSelected.size;
-      };
+        item.onclick = (e) => {
+          if (e.target !== cb) cb.checked = !cb.checked;
+          if (cb.checked) {
+            universeSelected.add(dish.id);
+            item.classList.add('selected');
+          } else {
+            universeSelected.delete(dish.id);
+            item.classList.remove('selected');
+          }
+          if ($('universeSelectedBadge'))
+            $('universeSelectedBadge').textContent = UICopy.text('selected', null, {
+              n: universeSelected.size,
+            });
+          if ($('universeConfirmCount'))
+            $('universeConfirmCount').textContent = universeSelected.size;
+        };
 
-      return item;
-    }));
+        return item;
+      })
+    );
   }
 
   if ($('customWheelUniverseBtn')) {
     $('customWheelUniverseBtn').onclick = () => {
       universeSelected.clear();
-      const currentLines = ($('customWheelInput')?.value || '').split('\n').map(s => s.trim()).filter(Boolean);
-      for (const line of currentLines) universeSelected.add(line);
+      const currentLines = ($('customWheelInput')?.value || '')
+        .split('\n')
+        .map((s) => s.trim())
+        .filter(Boolean);
+      for (const line of currentLines) {
+        const dish = allDishes.find((d) => getDishName(d) === line);
+        if (dish) universeSelected.add(dish.id);
+      }
 
       open($('universeDishDialog'));
       renderUniverseDishList();
     };
   }
 
-  document.querySelectorAll('.universe-tab').forEach(tab => {
+  document.querySelectorAll('.universe-tab').forEach((tab) => {
     tab.onclick = () => {
-      document.querySelectorAll('.universe-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.universe-tab').forEach((t) => t.classList.remove('active'));
       tab.classList.add('active');
       universeActiveCategory = tab.dataset.category || 'all';
       renderUniverseDishList();
@@ -2688,7 +2975,7 @@ document.addEventListener('DOMContentLoaded', () => {
     $('universeSelectAllBtn').onclick = () => {
       const currentList = allDishes || [];
       const query = normalize(universeSearchTerm);
-      currentList.forEach(dish => {
+      currentList.forEach((dish) => {
         const isMain = ['morning', 'lunch', 'afternoon', 'dinner', 'main'].includes(dish.mealId);
         const isSnack = dish.mealId === 'snacks';
         const isDrink = dish.mealId === 'drinks';
@@ -2696,11 +2983,11 @@ document.addEventListener('DOMContentLoaded', () => {
         if (universeActiveCategory === 'snacks' && !isSnack) return;
         if (universeActiveCategory === 'drinks' && !isDrink) return;
         if (query) {
-          const dishName = normalize(dish.name);
+          const dishName = normalize(getDishName(dish));
           const dishType = normalize(dish.type || '');
           if (!dishName.includes(query) && !dishType.includes(query)) return;
         }
-        universeSelected.add(dish.name);
+        universeSelected.add(dish.id);
       });
       renderUniverseDishList();
     };
@@ -2716,47 +3003,64 @@ document.addEventListener('DOMContentLoaded', () => {
   if ($('universeConfirmBtn')) {
     $('universeConfirmBtn').onclick = () => {
       if (universeSelected.size === 0) {
-        toast('Bạn chưa chọn món nào từ Vũ Trụ.');
+        toast(UICopy.text('pickNone'));
         return;
       }
       if ($('customWheelInput')) {
-        $('customWheelInput').value = Array.from(universeSelected).join('\n');
+        $('customWheelInput').value = Array.from(universeSelected)
+          .map((id) => {
+            const dish = Catalog.getDish(id);
+            return dish ? getDishName(dish) : null;
+          })
+          .filter(Boolean)
+          .join('\n');
         updateCustomWheelCount();
         hideCustomWheelAlert();
       }
       close($('universeDishDialog'));
-      toast(`✨ Đã nạp ${universeSelected.size} món từ Vũ Trụ vào vòng quay!`);
+      toast(UICopy.text('pickLoaded', null, { n: universeSelected.size }));
     };
   }
 
   if ($('customWheelSpinActionBtn')) {
     $('customWheelSpinActionBtn').onclick = () => {
-      const lines = ($('customWheelInput')?.value || '').split('\n').map(s => s.trim()).filter(Boolean);
+      const lines = ($('customWheelInput')?.value || '')
+        .split('\n')
+        .map((s) => s.trim())
+        .filter(Boolean);
       if (lines.length === 0) {
-        showCustomWheelAlert('⚠️ Bạn chưa nhập món nào! Hãy điền danh sách hoặc bấm "+ Món từ Vũ Trụ".');
+        showCustomWheelAlert(UICopy.text('wheelEmpty'));
         return;
       }
       if (lines.length < 2) {
-        showCustomWheelAlert('⚠️ Cần ít nhất 2 món trong danh sách để vòng quay có thể chọn ngẫu nhiên nhé!');
+        showCustomWheelAlert(UICopy.text('wheelShort'));
         return;
       }
+      if (busy) return;
+      lastAction = 'custom';
+      lock(true);
       hideCustomWheelAlert();
+      if ($('resultDialog').open) close($('resultDialog'), false);
       close($('customWheelDialog'));
 
       // Pick winner
       const winnerName = lines[Math.floor(Math.random() * lines.length)];
-      const matched = (allDishes || []).find(d => normalize(d.name) === normalize(winnerName));
+      const matched = (allDishes || []).find(
+        (d) =>
+          normalize(getDishName(d)) === normalize(winnerName) ||
+          normalize(d.name) === normalize(winnerName)
+      );
 
       const winnerDish = matched || {
         id: 'custom_wheel_' + Date.now(),
         name: winnerName,
         rarity: 4,
         mealId: 'main',
-        type: 'Món tự chọn của bạn',
-        image: 'images/brand.svg',
+        type: UICopy.text('customType'),
+        image: 'assets/brand.svg',
         price: 0,
-        desc: 'Món ăn do bạn tự nhập vào vòng quay tùy chọn hôm nay. Chúc bạn có một bữa ăn ngon miệng!',
-        quote: 'Vũ trụ đã lựa chọn món này cho bạn!',
+        desc: UICopy.text('customDesc'),
+        quote: '',
         calories: 350,
       };
 
@@ -2764,25 +3068,43 @@ document.addEventListener('DOMContentLoaded', () => {
       const reelPool = [];
       for (let i = 0; i < 20; i++) {
         const itemN = lines[i % lines.length];
-        const m = (allDishes || []).find(d => normalize(d.name) === normalize(itemN));
-        reelPool.push(m || { id: 'reel_' + i, name: itemN, rarity: 3, image: 'images/brand.svg' });
+        const m = (allDishes || []).find(
+          (d) =>
+            normalize(getDishName(d)) === normalize(itemN) || normalize(d.name) === normalize(itemN)
+        );
+        reelPool.push(m || { id: 'reel_' + i, name: itemN, rarity: 3, image: 'assets/brand.svg' });
       }
 
-      open($('spinDialog'), true);
-      roulette.start(winnerDish, reelPool, () => {
+      const revealCustom = () => {
+        lock(false);
         if ($('spinDialog').open) close($('spinDialog'), false);
         showResults([{ dish: winnerDish, isNew: false }], false);
         audioSystem.playWin(4);
-      });
+      };
+      if (motion.matches) revealCustom();
+      else {
+        open($('spinDialog'), true);
+        roulette.start(winnerDish, reelPool, revealCustom);
+      }
     };
   }
 
-
   // Custom Dish Submission & Synchronization (Backend Server + LocalStorage)
+  function showCustomDishError(message, field) {
+    const notice = $('customDishFormError');
+    notice.textContent = message;
+    notice.hidden = !message;
+    if (field) {
+      field.setAttribute('aria-invalid', 'true');
+      field.setAttribute('aria-describedby', 'customDishFormError');
+      field.focus();
+    }
+  }
   let customUploadedImageBase64 = '';
 
   if ($('addDishBtn')) {
     $('addDishBtn').onclick = () => {
+      showCustomDishError('');
       open($('addDishDialog'));
     };
   }
@@ -2791,16 +3113,29 @@ document.addEventListener('DOMContentLoaded', () => {
     $('customDishImageInput').onchange = (e) => {
       const file = e.target.files && e.target.files[0];
       if (!file) return;
+      if (file.size > 10 * 1024 * 1024) {
+        showCustomDishError(UICopy.text('tooLarge'), $('customDishImageInput'));
+        e.target.value = '';
+        return;
+      }
       const reader = new FileReader();
+      reader.onerror = () => showCustomDishError(UICopy.text('invalid'), $('customDishImageInput'));
       reader.onload = (re) => {
         const img = new Image();
+        img.onerror = () => showCustomDishError(UICopy.text('invalid'), $('customDishImageInput'));
         img.onload = () => {
           const canvas = document.createElement('canvas');
-          let w = img.width, h = img.height;
+          let w = img.width,
+            h = img.height;
           const maxDim = 640;
           if (w > maxDim || h > maxDim) {
-            if (w > h) { h = Math.round((h * maxDim) / w); w = maxDim; }
-            else { w = Math.round((w * maxDim) / h); h = maxDim; }
+            if (w > h) {
+              h = Math.round((h * maxDim) / w);
+              w = maxDim;
+            } else {
+              w = Math.round((w * maxDim) / h);
+              h = maxDim;
+            }
           }
           canvas.width = w;
           canvas.height = h;
@@ -2824,94 +3159,92 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   }
 
+  let customSubmissionPending = false,
+    customSubmissionKey = '',
+    customSubmissionId = null;
   if ($('addDishForm')) {
+    $('addDishForm').addEventListener('input', () => {
+      showCustomDishError('');
+      $('addDishForm')
+        .querySelectorAll('[aria-invalid]')
+        .forEach((el) => el.removeAttribute('aria-invalid'));
+    });
     $('addDishForm').onsubmit = async (e) => {
       e.preventDefault();
+      if (customSubmissionPending) return;
       const name = $('customDishName').value.trim();
       if (!name) return;
       const mealId = $('customDishMeal').value || 'morning';
-      const price = parseInt($('customDishPrice').value, 10) || 0;
-      const desc = $('customDishDesc').value.trim() || 'Món ăn do bạn tự tay thêm vào thực đơn.';
+      let price;
+      try {
+        price = Money.parseBudget($('customDishPrice').value, getCurrentRegion()) ?? 0;
+      } catch (error) {
+        showCustomDishError(error.message);
+        return;
+      }
+      const desc = $('customDishDesc').value.trim() || UICopy.text('customAdded');
 
       const payload = {
+        region: getCurrentRegion(),
         name,
         mealId,
         price,
         desc,
-        image: customUploadedImageBase64 || 'images/brand.svg',
-        type: 'Món tự thêm',
+        image: customUploadedImageBase64 || 'assets/brand.svg',
+        type: UICopy.text('customType'),
         rarity: 4,
-        calories: 350
+        calories: 350,
       };
 
-      try {
-        const resp = await fetch('/api/custom-dishes', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload)
-        });
-        if (resp.ok) {
-          const resData = await resp.json();
-          const createdDish = resData.dish || payload;
-          addDishToRuntime(createdDish);
-        } else {
-          fallbackSaveLocalDish(payload);
-        }
-      } catch (_) {
-        fallbackSaveLocalDish(payload);
+      const submissionKey = JSON.stringify(payload);
+      if (submissionKey !== customSubmissionKey || !customSubmissionId) {
+        customSubmissionKey = submissionKey;
+        customSubmissionId = CustomDishes.uuid();
       }
+      payload.id = customSubmissionId;
+      customSubmissionPending = true;
+      $('submitCustomDishBtn').disabled = true;
+      try {
+        const saved = await CustomDishes.save(payload);
+        addDishToRuntime(saved.dish);
+        toast(UICopy.text(saved.local ? 'savedLocal' : 'savedServer'));
+      } catch (error) {
+        showCustomDishError(error.message);
+        return;
+      } finally {
+        customSubmissionPending = false;
+        $('submitCustomDishBtn').disabled = false;
+      }
+      customSubmissionId = null;
 
       close($('addDishDialog'));
       $('addDishForm').reset();
       customUploadedImageBase64 = '';
       if ($('customDishImagePreview')) $('customDishImagePreview').hidden = true;
-      toast('Đã thêm món mới vào thực đơn thành công!');
     };
   }
 
-  function fallbackSaveLocalDish(dishData) {
-    dishData.id = 'custom_' + Date.now();
-    dishData.isUserCustom = true;
-    try {
-      const local = JSON.parse(localStorage.getItem('food_custom_dishes') || '[]');
-      local.push(dishData);
-      localStorage.setItem('food_custom_dishes', JSON.stringify(local));
-    } catch (_) {}
-    addDishToRuntime(dishData);
-  }
-
-  function addDishToRuntime(dish) {
+  function addDishToRuntime(dish, render = true) {
     if (!dish || !dish.id) return;
-    if (!allDishes.some(d => d.id === dish.id)) {
-      allDishes.push(dish);
+    Catalog.upsertCustom(dish);
+    engine.store?.registerIds([dish.id]);
+    personal.syncAllDishes(Catalog.getAllDishes());
+    allDishes = engine.getAllDishesList();
+    visibleCount = 12;
+    if (render) {
+      scheduleBudget(0, false);
+      menu();
     }
-    const currentDb = typeof FOOD_DATABASE !== 'undefined' ? FOOD_DATABASE : null;
-    if (currentDb && currentDb[dish.mealId] && Array.isArray(currentDb[dish.mealId].dishes)) {
-      if (!currentDb[dish.mealId].dishes.some(d => d.id === dish.id)) {
-        currentDb[dish.mealId].dishes.push(dish);
-      }
-    }
-    menu();
-    updateControls();
   }
 
   // Load backend and local custom dishes on initialization
   async function loadInitialCustomDishes() {
-    try {
-      const resp = await fetch('/api/custom-dishes');
-      if (resp.ok) {
-        const serverDishes = await resp.json();
-        if (Array.isArray(serverDishes)) {
-          serverDishes.forEach(addDishToRuntime);
-        }
-      }
-    } catch (_) {}
-    try {
-      const local = JSON.parse(localStorage.getItem('food_custom_dishes') || '[]');
-      if (Array.isArray(local)) {
-        local.forEach(addDishToRuntime);
-      }
-    } catch (_) {}
+    const dishes = await CustomDishes.load();
+    for (const dish of dishes) addDishToRuntime(dish, false);
+    if (dishes.length) {
+      scheduleBudget(0, false);
+      menu();
+    }
   }
   loadInitialCustomDishes();
 
@@ -2998,7 +3331,11 @@ document.addEventListener('DOMContentLoaded', () => {
     (button) =>
       (button.onclick = () => {
         const targetAmount = Number(button.dataset.budget);
-        if (activeBudget === targetAmount && !budgetInvalid && $('budgetInput').value === String(targetAmount)) {
+        if (
+          activeBudget === targetAmount &&
+          !budgetInvalid &&
+          $('budgetInput').value === String(targetAmount)
+        ) {
           return;
         }
         $('budgetInput').value = button.dataset.budget;
@@ -3025,13 +3362,21 @@ document.addEventListener('DOMContentLoaded', () => {
     menu();
     setView('menu');
   };
-  document.addEventListener('foodcollectionchange', () => menu());
+  document.addEventListener('foodcollectionchange', () => {
+    collectionRefreshPending = true;
+    if (!busy && !collectionRefreshFrame)
+      collectionRefreshFrame = requestAnimationFrame(() => {
+        collectionRefreshFrame = 0;
+        if (!busy) menu();
+      });
+  });
   engine.ready.then(() => {
     collectionReady = true;
     menu();
     updateControls();
   });
   // 10. Sharing, installation and offline readiness
+  languageBindingsReady = true;
   new BrowserActions(open, toast);
   banner();
   menu();
@@ -3041,9 +3386,9 @@ document.addEventListener('DOMContentLoaded', () => {
       if (event.data?.type === 'OFFLINE_STATUS')
         $('offlineReadiness').textContent = event.data.ready
           ? event.data.missing
-            ? 'Chọn món offline sẵn sàng · một số ảnh/font chưa lưu.'
-            : 'Đã sẵn sàng offline'
-          : 'Chưa sẵn sàng offline. Hãy tải lại khi có mạng.';
+            ? UICopy.text('offlinePartial')
+            : UICopy.text('offlineReady')
+          : UICopy.text('offlineMissing');
     });
     const checkOffline = () =>
       navigator.serviceWorker.controller?.postMessage({ type: 'OFFLINE_STATUS' });
@@ -3057,18 +3402,53 @@ document.addEventListener('DOMContentLoaded', () => {
             const worker = registration.installing;
             worker?.addEventListener('statechange', () => {
               if (worker.state === 'redundant')
-                $('offlineReadiness').textContent =
-                  'Chưa lưu được offline. Hãy tải lại khi có mạng.';
+                $('offlineReadiness').textContent = UICopy.text('offlineMissing');
             });
           });
+          const offerUpdate = () => {
+            if (
+              !navigator.serviceWorker.controller ||
+              !registration.waiting ||
+              document.getElementById('updateAppBtn')
+            )
+              return;
+            const button = document.createElement('button');
+            button.id = 'updateAppBtn';
+            button.textContent =
+              {
+                vi: 'Có bản mới · Cập nhật',
+                en: 'Update available',
+                ja: '更新があります',
+                ko: '업데이트 가능',
+                zh: '有可用更新',
+              }[settings.language] || 'Update available';
+            button.onclick = () => {
+              const dirty = $('addDishDialog').open || $('customWheelDialog').open;
+              if (busy || budgetPending || dirty) {
+                toast(UICopy.text('updateWait'));
+                return;
+              }
+              navigator.serviceWorker.addEventListener(
+                'controllerchange',
+                () => location.reload(),
+                { once: true }
+              );
+              registration.waiting?.postMessage({ type: 'SKIP_WAITING' });
+            };
+            $('offlineReadiness').after(button);
+          };
+          offerUpdate();
+          registration.addEventListener('updatefound', () =>
+            registration.installing?.addEventListener('statechange', offerUpdate)
+          );
           checkOffline();
           navigator.serviceWorker.ready.then(checkOffline);
         })
         .catch(() => {
-          $('offlineReadiness').textContent = 'Offline chưa khả dụng trên trình duyệt này.';
+          $('offlineReadiness').textContent = UICopy.text('offlineUnavailable');
         })
     );
-  } else $('offlineReadiness').textContent = 'Trình duyệt này chưa hỗ trợ offline.';
+  } else $('offlineReadiness').textContent = UICopy.text('offlineUnavailable');
 
   // BGM control and gesture auto-start
   function updateBgmButton() {

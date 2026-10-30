@@ -4380,18 +4380,28 @@ function getDishName(dish, lang) {
   }
   const t = DISH_TRANSLATIONS[dish.id]?.[currentLang];
   const name = (t && t.name) ? t.name : dish.name;
-  return name.replace(/\s*\([^)]*\)$/, '').trim();
+  return name.trim();
 }
 
 function getDishDesc(dish, lang) {
   if (!dish) return '';
   const currentLang = lang || (typeof settings !== 'undefined' && settings.language) || (typeof document !== 'undefined' && document.documentElement && document.documentElement.lang) || 'vi';
+  if (dish.id?.startsWith('custom_wheel_') && typeof UICopy !== 'undefined') return UICopy.text('customDesc', currentLang);
   if (currentLang === 'vi') {
     const t = DISH_TRANSLATIONS[dish.id]?.vi;
     return (t && t.desc) ? t.desc : dish.desc;
   }
   const t = DISH_TRANSLATIONS[dish.id]?.[currentLang];
   return (t && t.desc) ? t.desc : dish.desc;
+}
+
+function getDishQuote(dish, lang) {
+  if (!dish) return '';
+  const language = lang || (typeof document !== 'undefined' && document.documentElement.lang) || 'vi';
+  if (language === 'vi' || dish.isUserCustom) return dish.quote || '';
+  // Never append a Vietnamese flavor quote to a translated description. The
+  // localized description already conveys the flavor when no separate quote exists.
+  return DISH_TRANSLATIONS[dish.id]?.[language]?.quote || getDishDesc(dish, language);
 }
 
 const CURRENCY_CONFIG = {

@@ -1,0 +1,4019 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": ["src/js/data.js: REGIONAL_DATABASES", "src/images/sources.json"],
+  "methodology": "Attribution is present only when an exact image-file record contains artist, license, and an HTTPS source. Conflicting records for the same image are flagged for review. This structural audit does not independently validate upstream claims.",
+  "summary": {
+    "total": 382,
+    "attributed": 118,
+    "reviewRequired": 264,
+    "regions": {
+      "vi": {
+        "total": 162,
+        "attributed": 118,
+        "reviewRequired": 44
+      },
+      "ja": {
+        "total": 55,
+        "attributed": 0,
+        "reviewRequired": 55
+      },
+      "ko": {
+        "total": 55,
+        "attributed": 0,
+        "reviewRequired": 55
+      },
+      "zh": {
+        "total": 55,
+        "attributed": 0,
+        "reviewRequired": 55
+      },
+      "en": {
+        "total": 55,
+        "attributed": 0,
+        "reviewRequired": 55
+      }
+    }
+  },
+  "entries": [
+    {
+      "region": "vi",
+      "id": "sang_5_1",
+      "name": "Phở tái lăn",
+      "file": "images/buoi_sang/pho_bo.webp",
+      "reviewRequired": true,
+      "reason": "conflicting-source-records"
+    },
+    {
+      "region": "vi",
+      "id": "sang_5_2",
+      "name": "Bún bò Huế",
+      "file": "images/buoi_sang/bun_bo_hue.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "sang_5_2",
+        "title": "Bún bò Huế đặc sản Cố đô",
+        "artist": "Đầu bếp Việt",
+        "source": "https://commons.wikimedia.org/wiki/File:Bun_Bo_Hue.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Không dính watermark hay chữ chú thích."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "sang_5_3",
+      "name": "Bánh mì chảo",
+      "file": "images/buoi_sang/banh_mi_chao.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "sang_5_3",
+        "title": "File:Một phần bánh mì chảo với trứng và chả (38657217774).jpg",
+        "artist": "Vinnie Cartabiano",
+        "source": "https://commons.wikimedia.org/wiki/File:M%E1%BB%99t_ph%E1%BA%A7n_b%C3%A1nh_m%C3%AC_ch%E1%BA%A3o_v%E1%BB%9Bi_tr%E1%BB%A9ng_v%C3%A0_ch%E1%BA%A3_(38657217774).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "sang_4_1",
+      "name": "Bánh cuốn",
+      "file": "images/buoi_sang/banh_cuon.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "sang_4_1",
+        "title": "File:Banh Cuon 2.jpg",
+        "artist": "Shyamal",
+        "source": "https://commons.wikimedia.org/wiki/File:Banh_Cuon_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "sang_4_2",
+      "name": "Hủ tiếu Nam Vang",
+      "file": "images/buoi_sang/hu_tieu.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "sang_4_2",
+        "title": "File:Hủ tiếu Nam Vang Sài Gòn.jpg",
+        "artist": "Tonbi ko",
+        "source": "https://commons.wikimedia.org/wiki/File:H%E1%BB%A7_ti%E1%BA%BFu_Nam_Vang_S%C3%A0i_G%C3%B2n.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "sang_4_3",
+      "name": "Xôi xéo",
+      "file": "images/buoi_sang/xoi_xeo.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "sang_4_3",
+        "title": "File:Xôi xéo.jpg",
+        "artist": "Viethavvh",
+        "source": "https://commons.wikimedia.org/wiki/File:X%C3%B4i_x%C3%A9o.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "sang_3_1",
+      "name": "Bánh mì pate",
+      "file": "images/buoi_sang/banh_mi_pate.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "sang_3_1",
+        "title": "File:Bánh my Pate Tháp Cám at Osu.jpg",
+        "artist": "KKPCW",
+        "source": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_my_Pate_Th%C3%A1p_C%C3%A1m_at_Osu.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "sang_3_2",
+      "name": "Bún riêu cua",
+      "file": "images/buoi_sang/bun_rieu.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "sang_3_2",
+        "title": "File:Bún riêu cua nước.jpg",
+        "artist": "Alpha",
+        "source": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_ri%C3%AAu_cua_n%C6%B0%E1%BB%9Bc.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "sv_morning_banh_bao",
+      "name": "Bánh bao nhân thịt",
+      "file": "images/sinh_vien/banh_bao.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "sv_morning_banh_bao",
+        "title": "File:Banhbao.jpg",
+        "artist": "Sue Le",
+        "source": "https://commons.wikimedia.org/wiki/File:Banhbao.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "note": "Ảnh chụp tham khảo món, cắt 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh của quán trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "sv_morning_banh_gio",
+      "name": "Bánh giò",
+      "file": "images/sinh_vien/banh_gio.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "sv_morning_banh_gio",
+        "title": "File:Banh-gio-viet-nam.jpg",
+        "artist": "Lanceranae",
+        "source": "https://commons.wikimedia.org/wiki/File:Banh-gio-viet-nam.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Ảnh chụp tham khảo món, cắt 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh của quán trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "more_morning_banh_uot",
+      "name": "Bánh ướt",
+      "file": "images/binh_dan/banh_uot.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "more_morning_banh_uot",
+        "title": "File:Bánh ướt.jpg",
+        "artist": "SauceSupreme",
+        "source": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_%C6%B0%E1%BB%9Bt.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "note": "Ảnh tham khảo món, cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh quán tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "more_morning_banh_mi_xiu_mai",
+      "name": "Bánh mì xíu mại",
+      "file": "images/binh_dan/banh_mi_xiu_mai.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "more_morning_banh_mi_xiu_mai",
+        "title": "File:Bánh mì xíu mại-meatball-sandwich.jpg",
+        "artist": "Nummymuffin",
+        "source": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_m%C3%AC_x%C3%ADu_m%E1%BA%A1i-meatball-sandwich.jpg",
+        "license": "Public domain",
+        "note": "Ảnh tham khảo món, cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh quán tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "sang_banh_tam_bi",
+      "name": "Bánh tằm bì",
+      "file": "images/regional/banh_tam_bi.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "sang_banh_tam_bi",
+        "title": "",
+        "artist": "Alpha from Melbourne, Australia",
+        "source": "https://commons.wikimedia.org/wiki/File%3ASteamed_Rice_Noodles_with_Pork_Loaf_and_Mung_Bean_Pie_-_Thanh_Ha_%283014200871%29.jpg",
+        "license": "CC BY-SA 2.0",
+        "note": ""
+      }
+    },
+    {
+      "region": "vi",
+      "id": "sang_banh_uot_long_ga",
+      "name": "Bánh ướt lòng gà",
+      "file": "images/regional/banh_uot_long_ga.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "sang_banh_uot_long_ga",
+        "title": "",
+        "artist": "SauceSupreme",
+        "source": "https://commons.wikimedia.org/wiki/File%3AB%C3%A1nh_%C6%B0%E1%BB%9Bt.jpg",
+        "license": "CC BY 2.0",
+        "note": ""
+      }
+    },
+    {
+      "region": "vi",
+      "id": "trua_5_1",
+      "name": "Cơm tấm",
+      "file": "images/buoi_trua/com_tam.webp",
+      "reviewRequired": true,
+      "reason": "conflicting-source-records"
+    },
+    {
+      "region": "vi",
+      "id": "trua_5_2",
+      "name": "Bún chả",
+      "file": "images/buoi_trua/bun_cha.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "trua_5_2",
+        "title": "File:Bun cha.jpg",
+        "artist": "tuhang",
+        "source": "https://commons.wikimedia.org/wiki/File:Bun_cha.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "trua_5_3",
+      "name": "Cơm gà xối mỡ",
+      "file": "images/buoi_trua/com_ga.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "trua_5_3",
+        "title": "Cơm gà xối mỡ da giòn",
+        "artist": "Món Ngon Sài Gòn",
+        "source": "https://commons.wikimedia.org/wiki/File:Com_ga_xoi_mo.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh sạch không dính logo báo chí."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "trua_4_1",
+      "name": "Mì Quảng",
+      "file": "images/buoi_trua/mi_quang.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "trua_4_1",
+        "title": "File:Mi Quang - Quan Hat Mi Quang, Cao Lau VND2000.jpg",
+        "artist": "Alpha",
+        "source": "https://commons.wikimedia.org/wiki/File:Mi_Quang_-_Quan_Hat_Mi_Quang,_Cao_Lau_VND2000.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "trua_4_2",
+      "name": "Bún thịt nướng",
+      "file": "images/buoi_trua/bun_thit_nuong.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "trua_4_2",
+        "title": "File:Bun thit nuong.jpg",
+        "artist": "Lưu Ly",
+        "source": "https://commons.wikimedia.org/wiki/File:Bun_thit_nuong.jpg",
+        "license": "Public domain",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "trua_3_1",
+      "name": "Cơm rang dưa bò",
+      "file": "images/buoi_trua/com_rang.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "trua_3_1",
+        "title": "File:Cơm rang.JPG",
+        "artist": "Wikimedia Commons Contributor",
+        "source": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_rang.JPG",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Không có logo/watermark thương mại."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "trua_3_2",
+      "name": "Phở trộn",
+      "file": "images/buoi_trua/pho_tron.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "trua_3_2",
+        "title": "File:Phở trộn nước tương tàu (thức ăn nhanh) (3).jpg",
+        "artist": "Phương Huy (thảo luận)",
+        "source": "https://commons.wikimedia.org/wiki/File:Ph%E1%BB%9F_tr%E1%BB%99n_n%C6%B0%E1%BB%9Bc_t%C6%B0%C6%A1ng_t%C3%A0u_(th%E1%BB%A9c_%C4%83n_nhanh)_(3).jpg",
+        "license": "Public domain",
+        "note": "Ảnh chụp nguồn ngoài, thu nhỏ WebP 640×480; ảnh tham khảo món, không phải ảnh quán trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "sv_lunch_banh_canh",
+      "name": "Bánh canh",
+      "file": "images/sinh_vien/banh_canh.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "sv_lunch_banh_canh",
+        "title": "Bánh canh cua tôm thịt",
+        "artist": "Ẩm thực Việt Nam",
+        "source": "https://commons.wikimedia.org/wiki/File:Banh_canh_cua.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Không dính chữ tác giả."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "sv_lunch_bun_mam",
+      "name": "Bún mắm",
+      "file": "images/sinh_vien/bun_mam.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "sv_lunch_bun_mam",
+        "title": "File:Bún Mắm Sóc Trăng.jpg",
+        "artist": "Alpha",
+        "source": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_M%E1%BA%AFm_S%C3%B3c_Tr%C4%83ng.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "note": "Ảnh chụp tham khảo món, cắt 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh của quán trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "trua_cao_lau",
+      "name": "Cao lầu Hội An",
+      "file": "images/regional/cao_lau.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "trua_cao_lau",
+        "title": "",
+        "artist": "avlxyz",
+        "source": "https://commons.wikimedia.org/wiki/File%3ACao_Lau_-_Ba_Be%2C_Hoi_An_Market_VND15000.jpg",
+        "license": "CC BY-SA 2.0",
+        "note": ""
+      }
+    },
+    {
+      "region": "vi",
+      "id": "more_lunch_com_chien",
+      "name": "Cơm chiên thập cẩm",
+      "file": "images/binh_dan/com_chien.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "more_lunch_com_chien",
+        "title": "File:Cơm chiên.jpg",
+        "artist": "Markphan",
+        "source": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_chi%C3%AAn.jpg",
+        "license": "CC BY-SA 3.0",
+        "note": "Ảnh tham khảo món, cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh quán tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "more_lunch_com_ca_man",
+      "name": "Cơm cá mặn",
+      "file": "images/binh_dan/com_ca_man.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "more_lunch_com_ca_man",
+        "title": "File:Cơm chiên cá mặn ở cf Quốc Hùng ngày 01.10 năm 2018 (2).jpg",
+        "artist": "Phương Huy",
+        "source": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_chi%C3%AAn_c%C3%A1_m%E1%BA%B7n_%E1%BB%9F_cf_Qu%E1%BB%91c_H%C3%B9ng_ng%C3%A0y_01.10_n%C4%83m_2018_(2).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Ảnh tham khảo món, cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh quán tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "more_lunch_bun_thai",
+      "name": "Bún cá cay Hải Phòng",
+      "file": "images/binh_dan/bun_thai.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "more_lunch_bun_thai",
+        "title": "File:Bún Thái 3.jpg",
+        "artist": "Phương Huy (thảo luận)",
+        "source": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_Th%C3%A1i_3.jpg",
+        "license": "Public domain",
+        "note": "Ảnh tham khảo món, cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh quán tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "trua_bun_ca",
+      "name": "Bún cá Nha Trang",
+      "file": "images/regional/bun_ca.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "trua_bun_ca",
+        "title": "",
+        "artist": "Nguyen Thi Quynh Tram",
+        "source": "https://commons.wikimedia.org/wiki/File%3ABun_cha_ca_nha_trang.jpg",
+        "license": "CC BY 3.0",
+        "note": ""
+      }
+    },
+    {
+      "region": "vi",
+      "id": "trua_com_hen",
+      "name": "Cơm hến xứ Huế",
+      "file": "images/regional/com_hen.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "trua_com_hen",
+        "title": "",
+        "artist": "Trinhthunga09",
+        "source": "https://commons.wikimedia.org/wiki/File%3ACom-hen-hue.jpg",
+        "license": "CC BY-SA 4.0",
+        "note": ""
+      }
+    },
+    {
+      "region": "vi",
+      "id": "chieu_5_1",
+      "name": "Bánh xèo",
+      "file": "images/buoi_chieu/banh_xeo.webp",
+      "reviewRequired": true,
+      "reason": "conflicting-source-records"
+    },
+    {
+      "region": "vi",
+      "id": "chieu_5_2",
+      "name": "Gỏi cuốn",
+      "file": "images/buoi_chieu/goi_cuon.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "chieu_5_2",
+        "title": "File:Summer roll.jpg",
+        "artist": "Yuchinkay (Flickr)",
+        "source": "https://commons.wikimedia.org/wiki/File:Summer_roll.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "chieu_4_1",
+      "name": "Bánh khọt",
+      "file": "images/buoi_chieu/banh_khot.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "chieu_4_1",
+        "title": "File:Bánh khọt.jpg",
+        "artist": "terence from Singapore",
+        "source": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_kh%E1%BB%8Dt.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "chieu_4_2",
+      "name": "Bột chiên",
+      "file": "images/buoi_chieu/bot_chien.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "chieu_4_2",
+        "title": "File:Botchien in Vietnam.jpg",
+        "artist": "Memberofc1",
+        "source": "https://commons.wikimedia.org/wiki/File:Botchien_in_Vietnam.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "chieu_3_1",
+      "name": "Bánh bột lọc",
+      "file": "images/buoi_chieu/banh_bot_loc.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "chieu_3_1",
+        "title": "File:Bánh bột lọc.jpg",
+        "artist": "Charles Haynes",
+        "source": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_b%E1%BB%99t_l%E1%BB%8Dc.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "chieu_3_2",
+      "name": "Súp cua",
+      "file": "images/buoi_chieu/sup_cua.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "chieu_3_2",
+        "title": "File:Súp cua.jpg",
+        "artist": "Hoangkid",
+        "source": "https://commons.wikimedia.org/wiki/File:S%C3%BAp_cua.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "chieu_banh_can",
+      "name": "Bánh căn Đà Lạt",
+      "file": "images/regional/banh_can.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "chieu_banh_can",
+        "title": "",
+        "artist": "Saigon Time",
+        "source": "https://commons.wikimedia.org/wiki/File%3AB%C3%A1nh_c%C4%83n_in_phan_rang%2C_vietnam.jpg",
+        "license": "CC0",
+        "note": ""
+      }
+    },
+    {
+      "region": "vi",
+      "id": "chieu_banh_cong",
+      "name": "Bánh cống Sóc Trăng",
+      "file": "images/regional/banh_cong.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "chieu_banh_cong",
+        "title": "",
+        "artist": "Alpha from Melbourne, Australia",
+        "source": "https://commons.wikimedia.org/wiki/File%3ABanh_Cong_Mung_Bean_Pie_-_Thanh_Tam_AUD2.50_%284906952131%29.jpg",
+        "license": "CC BY-SA 2.0",
+        "note": ""
+      }
+    },
+    {
+      "region": "vi",
+      "id": "sv_afternoon_pha_lau",
+      "name": "Phá lấu bánh mì",
+      "file": "images/sinh_vien/pha_lau.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "sv_afternoon_pha_lau",
+        "title": "File:Phá lấu as served in Vietnam.jpeg",
+        "artist": "Policyandinternet",
+        "source": "https://commons.wikimedia.org/wiki/File:Ph%C3%A1_l%E1%BA%A5u_as_served_in_Vietnam.jpeg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Ảnh chụp tham khảo món, cắt 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh của quán trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "chieu_banh_duc_nong",
+      "name": "Bánh đúc nóng Hà Nội",
+      "file": "images/regional/banh_duc.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "chieu_banh_duc_nong",
+        "title": "",
+        "artist": "Flickr user: hongnhung106 ( https://www.flickr.com/photos/53433754@N00/ )",
+        "source": "https://commons.wikimedia.org/wiki/File%3ABanhduc-northern.jpg",
+        "license": "CC BY 2.0",
+        "note": ""
+      }
+    },
+    {
+      "region": "vi",
+      "id": "chieu_banh_dap",
+      "name": "Bánh đập hến xào",
+      "file": "images/regional/banh_dap.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "chieu_banh_dap",
+        "title": "",
+        "artist": "Light Write",
+        "source": "https://commons.wikimedia.org/wiki/File%3AB%C3%A1nh_tr%C3%A1ng_n%C6%B0%E1%BB%9Bng_TP._H%E1%BB%93_Ch%C3%AD_Minh_-_street_food_in_Ho_Chi_Minh_City%2C_Vietnam.jpg",
+        "license": "CC BY-SA 2.0",
+        "note": ""
+      }
+    },
+    {
+      "region": "vi",
+      "id": "toi_5_1",
+      "name": "Lẩu cua đồng bắp bò",
+      "file": "images/regional/vi/toi_5_1.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "dinner",
+        "title": "",
+        "artist": "Wikimedia Commons contributor",
+        "source": "https://commons.wikimedia.org/wiki/toi_5_1.webp",
+        "license": "CC BY-SA 4.0",
+        "note": ""
+      }
+    },
+    {
+      "region": "vi",
+      "id": "toi_5_2",
+      "name": "Bún đậu mắm tôm",
+      "file": "images/buoi_toi/bun_dau.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "toi_5_2",
+        "title": "File:Bún đậu mắm tôm.jpg",
+        "artist": "trungnguyen299",
+        "source": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "toi_5_3",
+      "name": "Bò nướng lá lốt",
+      "file": "images/regional/vi/toi_5_3.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "toi_5_3",
+        "title": "File:Plancha de grillades du Baron à Gussignies.jpg",
+        "artist": "Pierre André Leclercq",
+        "source": "https://commons.wikimedia.org/wiki/File:Plancha_de_grillades_du_Baron_%C3%A0_Gussignies.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "toi_4_1",
+      "name": "Ốc hương xào bơ tỏi",
+      "file": "images/regional/vi/toi_4_1.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "toi_4_1",
+        "title": "File:Ốc hương rang me.jpg",
+        "artist": "Baoothersks",
+        "source": "https://commons.wikimedia.org/wiki/File:%E1%BB%90c_h%C6%B0%C6%A1ng_rang_me.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Ảnh chụp nguồn ngoài, thu nhỏ WebP 640×480; ảnh tham khảo món, không phải ảnh quán trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "toi_4_2",
+      "name": "Bò né hoa thiên lý",
+      "file": "images/buoi_toi/bo_ne.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "toi_4_2",
+        "title": "File:Bò bít tết ở Bình Tân ng26th6n2022 (bò né chảo gang) (4).jpg",
+        "artist": "Phương Huy",
+        "source": "https://commons.wikimedia.org/wiki/File:B%C3%B2_b%C3%ADt_t%E1%BA%BFt_%E1%BB%9F_B%C3%ACnh_T%C3%A2n_ng26th6n2022_(b%C3%B2_n%C3%A9_ch%E1%BA%A3o_gang)_(4).jpg",
+        "license": "CC0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "toi_3_1",
+      "name": "Cháo sườn sụn non",
+      "file": "images/buoi_toi/chao_suon.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "toi_3_1",
+        "title": "Cháo sườn quẩy ruốc",
+        "artist": "Ẩm Thực Hà Nội",
+        "source": "https://commons.wikimedia.org/wiki/File:Chao_suon_Ha_Noi.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Sạch sẽ không watermark."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "toi_3_2",
+      "name": "Miến gà đồi nấm hương",
+      "file": "images/buoi_toi/mien_ga.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "toi_3_2",
+        "title": "File:Miến gà.jpg",
+        "artist": "Thang Nguyen from Nottingham, United Kingdom",
+        "source": "https://commons.wikimedia.org/wiki/File:Mi%E1%BA%BFn_g%C3%A0.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "toi_mi_vit_tiem",
+      "name": "Mì gà quay da giòn",
+      "file": "images/regional/vi/toi_mi_vit_tiem.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "toi_mi_vit_tiem",
+        "title": "",
+        "artist": "Vee Satayamas from Bangkok, Thailand",
+        "source": "https://commons.wikimedia.org/wiki/File%3AYellow_noodle_soup_with_duck_at_Urai_Roasted_Duck%2C_Nawamin_Road_%288636850619%29.jpg",
+        "license": "CC BY 2.0",
+        "note": ""
+      }
+    },
+    {
+      "region": "vi",
+      "id": "toi_chao_long",
+      "name": "Cháo lòng bánh hỏi",
+      "file": "images/regional/chao_long.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "toi_chao_long",
+        "title": "",
+        "artist": "LittleT889",
+        "source": "https://commons.wikimedia.org/wiki/File%3AChao_long.jpg",
+        "license": "CC BY 4.0",
+        "note": ""
+      }
+    },
+    {
+      "region": "vi",
+      "id": "toi_lau_bo",
+      "name": "Lẩu bò nhúng giấm",
+      "file": "images/regional/lau_bo.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "toi_lau_bo",
+        "title": "",
+        "artist": "Khanh Ha, Tran",
+        "source": "https://commons.wikimedia.org/wiki/File%3ABeef_hot_pot.jpg",
+        "license": "CC BY-SA 4.0",
+        "note": ""
+      }
+    },
+    {
+      "region": "vi",
+      "id": "toi_nem_nuong",
+      "name": "Nem nướng Ninh Hòa",
+      "file": "images/regional/nem_nuong.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "toi_nem_nuong",
+        "title": "",
+        "artist": "Letruongan1122",
+        "source": "https://commons.wikimedia.org/wiki/File%3AM%E1%BA%B9t_nem_n%C6%B0%E1%BB%9Bng_Nha_Trang.jpg",
+        "license": "CC BY-SA 4.0",
+        "note": ""
+      }
+    },
+    {
+      "region": "vi",
+      "id": "more_dinner_bun_hen",
+      "name": "Bún bò giò heo Huế",
+      "file": "images/regional/vi/more_dinner_bun_hen.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "more_dinner_bun_hen",
+        "title": "File:Bún hến Mai Xá năm 2017 (1).jpg",
+        "artist": "Phương Huy",
+        "source": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_h%E1%BA%BFn_Mai_X%C3%A1_n%C4%83m_2017_(1).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Ảnh tham khảo món, cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh quán tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "vat_banh_trang_tron",
+      "name": "Bánh tráng trộn",
+      "file": "images/do_an_vat/banh_trang_tron.webp",
+      "reviewRequired": true,
+      "reason": "conflicting-source-records"
+    },
+    {
+      "region": "vi",
+      "id": "vat_banh_trang_nuong",
+      "name": "Bánh tráng nướng Đà Lạt",
+      "file": "images/do_an_vat/banh_trang_nuong.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "vat_4_2",
+        "title": "File:Pizzabanhtrangnuong2.jpg",
+        "artist": "Huutai11791",
+        "source": "https://commons.wikimedia.org/wiki/File:Pizzabanhtrangnuong2.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "vat_banh_trang_cuon_bo",
+      "name": "Bánh tráng cuộn sốt bơ",
+      "file": "images/do_an_vat/banh_trang_cuon_bo.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_banh_trang_cham_me",
+      "name": "Bánh tráng chấm sốt me bơ",
+      "file": "images/do_an_vat/banh_trang_cham_me.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_banh_trang_kep",
+      "name": "Bánh tráng kẹp Đà Nẵng",
+      "file": "images/do_an_vat/banh_trang_kep.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_ca_vien_chien_mam",
+      "name": "Cá viên chiên sốt nước mắm",
+      "file": "images/do_an_vat/ca_vien_chien_mam.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_nem_chua_ran",
+      "name": "Nem chua rán Hà Nội",
+      "file": "images/do_an_vat/nem_chua_ran.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "vat_4_1",
+        "title": "File:Nem-chua-ran2.jpg",
+        "artist": "Group6gma04",
+        "source": "https://commons.wikimedia.org/wiki/File:Nem-chua-ran2.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "vat_chan_ga_sa_tac",
+      "name": "Chân gà sả tắc chua cay",
+      "file": "images/do_an_vat/chan_ga_sa_tac.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_banh_mi_muoi_ot",
+      "name": "Bánh mì nướng muối ớt",
+      "file": "images/do_an_vat/banh_mi_muoi_ot.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_khoai_lang_lac",
+      "name": "Khoai lang lắc phô mai",
+      "file": "images/do_an_vat/khoai_lang_lac.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_khoai_tay_lac",
+      "name": "Khoai tây lắc xí muội phô mai",
+      "file": "images/do_an_vat/khoai_tay_lac.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_xoai_lac",
+      "name": "Xoài non lắc muối tôm chua cay",
+      "file": "images/do_an_vat/xoai_lac.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_coc_lac",
+      "name": "Cóc bao tử lắc muối ớt",
+      "file": "images/do_an_vat/coc_lac.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_bap_xao_bo",
+      "name": "Bắp xào bơ tép hành",
+      "file": "images/do_an_vat/bap_xao_bo.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_pho_mai_que",
+      "name": "Phô mai que chiên xù kéo sợi",
+      "file": "images/do_an_vat/pho_mai_que.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_trung_cut_lon_me",
+      "name": "Trứng cút lộn xào me chua ngọt",
+      "file": "images/do_an_vat/trung_cut_lon_me.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_hot_vit_lon_me",
+      "name": "Hột vịt lộn xào me rau răm",
+      "file": "images/do_an_vat/hot_vit_lon_me.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_bo_bia_man",
+      "name": "Bò bía mặn chấm tương ngọt",
+      "file": "images/do_an_vat/bo_bia_man.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_ga_lac_pho_mai",
+      "name": "Gà viên popcorn lắc phô mai",
+      "file": "images/do_an_vat/ga_lac_pho_mai.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_da_heo_chay_toi",
+      "name": "Da heo chiên giòn cháy tỏi ớt",
+      "file": "images/do_an_vat/da_heo_chay_toi.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_banh_ga_pho_mai",
+      "name": "Bánh gà phô mai tan chảy",
+      "file": "images/do_an_vat/banh_ga_pho_mai.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_xien_que_nuong",
+      "name": "Xiên que nướng thập cẩm",
+      "file": "images/do_an_vat/xien_que_nuong.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_tau_hu_tran_chau",
+      "name": "Tàu hũ trân châu đường đen",
+      "file": "images/do_an_vat/tau_hu_tran_chau.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_banh_trang_lui",
+      "name": "Bánh tráng lụi Tây Nguyên",
+      "file": "images/do_an_vat/banh_trang_lui.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_tokbokki_pho_mai",
+      "name": "Tokbokki phô mai sốt cay Hàn",
+      "file": "images/do_an_vat/tokbokki_pho_mai.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_muc_rim_me",
+      "name": "Mực rim me sa tế cay ngọt",
+      "file": "images/do_an_vat/muc_rim_me.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_goi_cuon_tom_thit",
+      "name": "Gỏi cuốn tôm thịt bánh tráng",
+      "file": "images/do_an_vat/goi_cuon_tom_thit.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_banh_crepe_sau_rieng",
+      "name": "Bánh crepe sầu riêng kem lạnh",
+      "file": "images/do_an_vat/banh_crepe_sau_rieng.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_trung_long_dao",
+      "name": "Trứng gà lòng đào muối tiêu chanh",
+      "file": "images/do_an_vat/trung_long_dao.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_doi_sun_nuong",
+      "name": "Dồi sụn nướng than hoa",
+      "file": "images/do_an_vat/doi_sun_nuong.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_nem_lui_nuong",
+      "name": "Nem lụi nướng sả thơm lừng",
+      "file": "images/do_an_vat/nem_lui_nuong.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_banh_bao_chien",
+      "name": "Bánh bao chiên giòn trứng cút",
+      "file": "images/do_an_vat/banh_bao_chien.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_banh_bot_loc_chien",
+      "name": "Bánh bột lọc chiên giòn rụm",
+      "file": "images/do_an_vat/banh_bot_loc_chien.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_kho_ga_la_chanh",
+      "name": "Khô gà lá chanh cay giòn",
+      "file": "images/do_an_vat/kho_ga_la_chanh.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_kho_bo_den",
+      "name": "Khô bò đen sốt tắc cay ngọt",
+      "file": "images/do_an_vat/kho_bo_den.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_ha_cao_chien",
+      "name": "Há cảo chiên giòn giấm tương",
+      "file": "images/do_an_vat/ha_cao_chien.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "vat_banh_flan",
+      "name": "Bánh flan caramel cà phê dừa",
+      "file": "images/do_an_vat/banh_flan.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_coca_original",
+      "name": "Coca-Cola Original",
+      "file": "images/do_uong/nuoc_coca_original.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_coca_original",
+        "title": "File:Coca-cola 50cl can - Italia.jpg",
+        "artist": "M0tty",
+        "source": "https://commons.wikimedia.org/wiki/File%3ACoca-cola%2050cl%20can%20-%20Italia.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_coca_zero",
+      "name": "Coca-Cola Zero Sugar",
+      "file": "images/do_uong/nuoc_coca_zero.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_pepsi_original",
+      "name": "Pepsi Cola Original",
+      "file": "images/do_uong/nuoc_pepsi_original.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_pepsi_zero_chanh",
+      "name": "Pepsi Zero Calorie Chanh",
+      "file": "images/do_uong/nuoc_pepsi_zero_chanh.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_pepsi_zero_chanh",
+        "title": "File:Pepsi lime 330ml can-front PNr°0852.jpg",
+        "artist": "D-Kuru",
+        "source": "https://commons.wikimedia.org/wiki/File%3APepsi%20lime%20330ml%20can-front%20PNr%C2%B00852.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_7up",
+      "name": "7Up Chanh Tự Nhiên",
+      "file": "images/do_uong/nuoc_7up.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_7up",
+        "title": "File:Can of Seven Up.jpg",
+        "artist": "IBERZA",
+        "source": "https://commons.wikimedia.org/wiki/File%3ACan%20of%20Seven%20Up.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_sprite",
+      "name": "Sprite Vị Chanh",
+      "file": "images/do_uong/nuoc_sprite.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_mirinda_soda_kem",
+      "name": "Mirinda Soda Kem",
+      "file": "images/do_uong/nuoc_mirinda_soda_kem.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_mirinda_soda_kem",
+        "title": "File:Lime spider.jpg",
+        "artist": "Fir0002",
+        "source": "https://commons.wikimedia.org/wiki/File%3ALime%20spider.jpg",
+        "license": "GFDL 1.2",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_mirinda_cam",
+      "name": "Mirinda Cam",
+      "file": "images/do_uong/nuoc_mirinda_cam.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_mirinda_cam",
+        "title": "File:Fanta-Orange-Can-330ml 84177 (7116950883).jpg",
+        "artist": "Emilian Robert Vicol from Com. Balanesti, Romania",
+        "source": "https://commons.wikimedia.org/wiki/File%3AFanta-Orange-Can-330ml%2084177%20%287116950883%29.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_fanta_cam",
+      "name": "Fanta Hương Cam",
+      "file": "images/do_uong/nuoc_fanta_cam.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_fanta_cam",
+        "title": "File:Fanta-Orange-Can-330ml 84177 (7116950883).jpg",
+        "artist": "Emilian Robert Vicol from Com. Balanesti, Romania",
+        "source": "https://commons.wikimedia.org/wiki/File%3AFanta-Orange-Can-330ml%2084177%20%287116950883%29.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_xa_xi_chuong_duong",
+      "name": "Xá xị Chương Dương",
+      "file": "images/do_uong/nuoc_xa_xi_chuong_duong.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_xa_xi_chuong_duong",
+        "title": "File:Root beer in glass mug.jpg",
+        "artist": "Markmark28",
+        "source": "https://commons.wikimedia.org/wiki/File%3ARoot%20beer%20in%20glass%20mug.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_mirinda_xa_xi",
+      "name": "Mirinda Xá xị",
+      "file": "images/do_uong/nuoc_mirinda_xa_xi.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_red_bull",
+      "name": "Red Bull (Bò Húc)",
+      "file": "images/do_uong/nuoc_red_bull.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_red_bull",
+        "title": "File:Red Bull Energy Drink, Dongguan, China 1 May 2024.jpg",
+        "artist": "メイド理世",
+        "source": "https://commons.wikimedia.org/wiki/File%3ARed%20Bull%20Energy%20Drink%2C%20Dongguan%2C%20China%201%20May%202024.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_monster_energy",
+      "name": "Monster Energy",
+      "file": "images/do_uong/nuoc_monster_energy.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_monster_energy",
+        "title": "File:Can of Monster Energy drink sold in China (0.33 l), on white background.jpg",
+        "artist": "File:Monster Energy sold in China.jpg: Bxxiaolin\nderivative work: Pittigrilli",
+        "source": "https://commons.wikimedia.org/wiki/File%3ACan%20of%20Monster%20Energy%20drink%20sold%20in%20China%20%280.33%20l%29%2C%20on%20white%20background.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_sting_dau",
+      "name": "Sting Dâu tây Đỏ",
+      "file": "images/do_uong/nuoc_sting_dau.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_sting_dau",
+        "title": "File:Strawberry soda.jpg",
+        "artist": "Kotra",
+        "source": "https://commons.wikimedia.org/wiki/File%3AStrawberry%20soda.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_revive",
+      "name": "Nước bù khoáng Revive",
+      "file": "images/do_uong/nuoc_revive.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_revive",
+        "title": "File:Gatorade Thirst Quencher.jpg",
+        "artist": "Clean Sports Isotonic Photography",
+        "source": "https://commons.wikimedia.org/wiki/File:Gatorade_Thirst_Quencher.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh tĩnh vật đồ uống bù khoáng. Không dính người."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_sua_truyen_thong",
+      "name": "Trà sữa Hồng trà Truyền thống",
+      "file": "images/do_uong/nuoc_tra_sua_truyen_thong.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_sua_truyen_thong",
+        "title": "File:Pearl Milk Tea in Chun Shui Tang.jpg",
+        "artist": "Battlesnake1",
+        "source": "https://commons.wikimedia.org/wiki/File%3APearl%20Milk%20Tea%20in%20Chun%20Shui%20Tang.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_sua_oolong",
+      "name": "Trà sữa Ô Long Đậm Vị",
+      "file": "images/do_uong/nuoc_tra_sua_oolong.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_sua_oolong",
+        "title": "File:Classic bubble tea.jpg",
+        "artist": "Oqmilteashop",
+        "source": "https://commons.wikimedia.org/wiki/File%3AClassic%20bubble%20tea.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_sua_lai",
+      "name": "Trà sữa Hoa Lài (Jasmine)",
+      "file": "images/do_uong/nuoc_tra_sua_lai.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_sua_lai",
+        "title": "File:Bubble tea by Johnny.jpg",
+        "artist": "Baoothersks",
+        "source": "https://commons.wikimedia.org/wiki/File%3ABubble%20tea%20by%20Johnny.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_sua_thiet_quan_am",
+      "name": "Trà sữa Thiết Quan Âm",
+      "file": "images/do_uong/nuoc_tra_sua_thiet_quan_am.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_sua_thiet_quan_am",
+        "title": "File:50 Lan Bubble Tea in Taichung 20141201.jpg",
+        "artist": "Rory Finneren",
+        "source": "https://commons.wikimedia.org/wiki/File%3A50%20Lan%20Bubble%20Tea%20in%20Taichung%2020141201.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_sua_earl_grey",
+      "name": "Trà sữa Bá Tước Earl Grey",
+      "file": "images/do_uong/nuoc_tra_sua_earl_grey.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_sua_earl_grey",
+        "title": "File:Cup of Earl Gray.jpg",
+        "artist": "David Wilmot (daramot) from Wimbledon, United Kingdom",
+        "source": "https://commons.wikimedia.org/wiki/File%3ACup%20of%20Earl%20Gray.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_sua_thai_do",
+      "name": "Trà sữa Thái Đỏ",
+      "file": "images/do_uong/nuoc_tra_sua_thai_do.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_sua_thai_do",
+        "title": "File:Thai Red Ice Milk Tea - Siam Siam 2024-07-31.jpg",
+        "artist": "Andy Li",
+        "source": "https://commons.wikimedia.org/wiki/File%3AThai%20Red%20Ice%20Milk%20Tea%20-%20Siam%20Siam%202024-07-31.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_sua_thai_xanh",
+      "name": "Trà sữa Thái Xanh",
+      "file": "images/do_uong/nuoc_tra_sua_thai_xanh.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_sua_thai_xanh",
+        "title": "File:Iced Thai Green Tea in Teanol Cafe & Working Space.jpg",
+        "artist": "Firzafp",
+        "source": "https://commons.wikimedia.org/wiki/File%3AIced%20Thai%20Green%20Tea%20in%20Teanol%20Cafe%20%26%20Working%20Space.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_sua_khoai_mon",
+      "name": "Trà sữa Khoai Môn (Taro)",
+      "file": "images/do_uong/nuoc_tra_sua_khoai_mon.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_sua_khoai_mon",
+        "title": "File:Taro flavored milk tea.jpg",
+        "artist": "Fumikas Sagisavas",
+        "source": "https://commons.wikimedia.org/wiki/File%3ATaro%20flavored%20milk%20tea.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_sua_socola",
+      "name": "Trà sữa Socola Đậm Đà",
+      "file": "images/do_uong/nuoc_tra_sua_socola.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_sua_socola",
+        "title": "File:Vanilla chocolate milk shake and ice lemon tea.jpg",
+        "artist": "Roysanjaya01",
+        "source": "https://commons.wikimedia.org/wiki/File%3AVanilla%20chocolate%20milk%20shake%20and%20ice%20lemon%20tea.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_sua_bac_ha",
+      "name": "Trà sữa Bạc Hà The Mát",
+      "file": "images/do_uong/nuoc_tra_sua_bac_ha.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_sua_bac_ha",
+        "title": "File:Fresh mint tea in a glass.jpg",
+        "artist": "Mark Jason Dominus",
+        "source": "https://commons.wikimedia.org/wiki/File%3AFresh%20mint%20tea%20in%20a%20glass.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_sua_tuoi_tran_chau_duong_den",
+      "name": "Sữa tươi Trân châu Đường đen",
+      "file": "images/do_uong/nuoc_sua_tuoi_tran_chau_duong_den.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_sua_tuoi_tran_chau_duong_den",
+        "title": "File:Brown sugar boba tea at Boba Heaven, downtown Evanston, IL.jpg",
+        "artist": "~delta",
+        "source": "https://commons.wikimedia.org/wiki/File%3ABrown%20sugar%20boba%20tea%20at%20Boba%20Heaven%2C%20downtown%20Evanston%2C%20IL.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_sua_tran_chau_duong_den",
+      "name": "Trà sữa Trân châu Đường đen",
+      "file": "images/do_uong/nuoc_tra_sua_tran_chau_duong_den.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_sua_tran_chau_duong_den",
+        "title": "File:Popping boba w Bubble Tea.jpg",
+        "artist": "Coldsea.eu",
+        "source": "https://commons.wikimedia.org/wiki/File%3APopping%20boba%20w%20Bubble%20Tea.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_sua_kem_cheese",
+      "name": "Trà sữa Kem Cheese Macchiato",
+      "file": "images/do_uong/nuoc_tra_sua_kem_cheese.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_sua_kem_cheese",
+        "title": "File:Fat glass mug.jpg",
+        "artist": "Corn cheese",
+        "source": "https://commons.wikimedia.org/wiki/File%3AFat%20glass%20mug.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_sua_kem_trung_chay",
+      "name": "Trà sữa Kem Trứng Cháy",
+      "file": "images/do_uong/nuoc_tra_sua_kem_trung_chay.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_sua_nuong",
+      "name": "Trà sữa Nướng Hoàng Gia",
+      "file": "images/do_uong/nuoc_tra_sua_nuong.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_sua_nuong",
+        "title": "File:Cold drinks at Granny's Café 2025-06-23.jpg",
+        "artist": "Andy Li",
+        "source": "https://commons.wikimedia.org/wiki/File%3ACold%20drinks%20at%20Granny%27s%20Caf%C3%A9%202025-06-23.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_dao_cam_sa",
+      "name": "Trà Đào Cam Sả Tươi",
+      "file": "images/do_uong/nuoc_tra_dao_cam_sa.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_dao_cam_sa",
+        "title": "File:IceTea Migros.jpg",
+        "artist": "Schutz",
+        "source": "https://commons.wikimedia.org/wiki/File%3AIceTea%20Migros.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_dao_mieng",
+      "name": "Trà Đào Giòn Miếng",
+      "file": "images/do_uong/nuoc_tra_dao_mieng.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_dao_mieng",
+        "title": "File:Peach soda soft drink.jpg",
+        "artist": "Geoffreyrabbit",
+        "source": "https://commons.wikimedia.org/wiki/File%3APeach%20soda%20soft%20drink.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_vai_lai",
+      "name": "Trà Vải Hoa Lài",
+      "file": "images/do_uong/nuoc_tra_vai_lai.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_vai_lai",
+        "title": "File:Lychee sorbet black tea with mint leaf.jpg",
+        "artist": "jeffreyw",
+        "source": "https://commons.wikimedia.org/wiki/File:Lychee_sorbet_black_tea_with_mint_leaf.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons. Tĩnh vật ly trà vải hoa lài không dính người."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_mang_cut",
+      "name": "Trà Măng Cụt Nhiệt Đới",
+      "file": "images/do_uong/nuoc_tra_mang_cut.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_mang_cut",
+        "title": "File:Mangosteen.jpg",
+        "artist": "challiyan",
+        "source": "https://commons.wikimedia.org/wiki/File%3AMangosteen.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_oi_hong_hat_chia",
+      "name": "Trà Ổi Hồng Hạt Chia",
+      "file": "images/do_uong/nuoc_tra_oi_hong_hat_chia.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_oi_hong_hat_chia",
+        "title": "File:Fresh Gvava Juice.JPG",
+        "artist": "MGA73bot2",
+        "source": "https://commons.wikimedia.org/wiki/File:Fresh_Gvava_Juice.JPG",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh tĩnh vật ẩm thực Wikimedia Commons. Không dính người."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_dua_luoi",
+      "name": "Trà Dưa Lưới Mát Lạnh",
+      "file": "images/do_uong/nuoc_tra_dua_luoi.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_dua_luoi",
+        "title": "File:Brisk Strawberry Melon Iced Tea.jpg",
+        "artist": "TaurusEmerald",
+        "source": "https://commons.wikimedia.org/wiki/File%3ABrisk%20Strawberry%20Melon%20Iced%20Tea.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_dau_tay_dam",
+      "name": "Trà Dâu Tây Dầm Tươi",
+      "file": "images/do_uong/nuoc_tra_dau_tay_dam.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_dau_tay_dam",
+        "title": "File:Milkshake beverage strawberry drink-1021027.jpg",
+        "artist": "Jakub Kapušňák",
+        "source": "https://commons.wikimedia.org/wiki/File%3AMilkshake%20beverage%20strawberry%20drink-1021027.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_chanh_gia_tay",
+      "name": "Trà Chanh Giã Tay Quảng Đông",
+      "file": "images/do_uong/nuoc_tra_chanh_gia_tay.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_chanh_gia_tay",
+        "title": "File:Iced Tea with Lemon, First Watch, Melbourne, Florida.jpg",
+        "artist": "Pokemonprime",
+        "source": "https://commons.wikimedia.org/wiki/File%3AIced%20Tea%20with%20Lemon%2C%20First%20Watch%2C%20Melbourne%2C%20Florida.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_tra_tac_xi_muoi",
+      "name": "Trà Tắc Xí Muội Mật Ong",
+      "file": "images/do_uong/nuoc_tra_tac_xi_muoi.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_tra_tac_xi_muoi",
+        "title": "File:KALAMASI SYRUP FOR REFRESHING COLD DRINKS SOURCE OF VITAMIN C PANGASINAN.jpg",
+        "artist": "Elmer Centeno Guevarra",
+        "source": "https://commons.wikimedia.org/wiki/File%3AKALAMASI%20SYRUP%20FOR%20REFRESHING%20COLD%20DRINKS%20SOURCE%20OF%20VITAMIN%20C%20PANGASINAN.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_matcha_latte",
+      "name": "Matcha Latte Nhật Bản",
+      "file": "images/do_uong/nuoc_matcha_latte.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_matcha_latte",
+        "title": "File:Matcha Latte KF.JPG",
+        "artist": "KathmanduFoodies",
+        "source": "https://commons.wikimedia.org/wiki/File%3AMatcha%20Latte%20KF.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_matcha_kem_cheese",
+      "name": "Matcha Kem Cheese Macchiato",
+      "file": "images/do_uong/nuoc_matcha_kem_cheese.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_matcha_kem_cheese",
+        "title": "File:Matcha Latte with Seasalt Cream.jpg",
+        "artist": "MichaellaaRubio",
+        "source": "https://commons.wikimedia.org/wiki/File%3AMatcha%20Latte%20with%20Seasalt%20Cream.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_matcha_nuoc_dua",
+      "name": "Matcha Nước Dừa Tươi (Cloud)",
+      "file": "images/do_uong/nuoc_matcha_nuoc_dua.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_matcha_nuoc_dua",
+        "title": "File:Kultura Drinks.png",
+        "artist": "Kulturasaudi",
+        "source": "https://commons.wikimedia.org/wiki/File%3AKultura%20Drinks.png",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_dirty_matcha",
+      "name": "Dirty Matcha Espresso",
+      "file": "images/do_uong/nuoc_dirty_matcha.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_dirty_matcha",
+        "title": "File:Green tea latte 1.jpg",
+        "artist": "Jeonghyeonseo",
+        "source": "https://commons.wikimedia.org/wiki/File%3AGreen%20tea%20latte%201.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_strawberry_matcha",
+      "name": "Strawberry Matcha Latte Ba Tầng",
+      "file": "images/do_uong/nuoc_strawberry_matcha.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_strawberry_matcha",
+        "title": "File:Iced Strawberry Shortcake Matcha - M&S Café, Worthing 2026-06-20.jpg",
+        "artist": "Andy Li",
+        "source": "https://commons.wikimedia.org/wiki/File%3AIced%20Strawberry%20Shortcake%20Matcha%20-%20M%26S%20Caf%C3%A9%2C%20Worthing%202026-06-20.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_matcha_frappuccino",
+      "name": "Matcha Frappuccino Đá Xay",
+      "file": "images/do_uong/nuoc_matcha_frappuccino.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_matcha_frappuccino",
+        "title": "File:Matcha-Kari smoothies.jpg",
+        "artist": "MatchaKari1",
+        "source": "https://commons.wikimedia.org/wiki/File%3AMatcha-Kari%20smoothies.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_sinh_to_bo",
+      "name": "Sinh Tố Bơ Sáp Đắk Lắk",
+      "file": "images/do_uong/nuoc_sinh_to_bo.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_sinh_to_bo",
+        "title": "File:Avocado lamaw (Avocado in milk and sugar, chilled or with ice), Philippines 04.jpg",
+        "artist": "Obsidian Soul",
+        "source": "https://commons.wikimedia.org/wiki/File%3AAvocado%20lamaw%20%28Avocado%20in%20milk%20and%20sugar%2C%20chilled%20or%20with%20ice%29%2C%20Philippines%2004.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_sinh_to_xoai",
+      "name": "Sinh Tố Xoài Cát Hòa Lộc",
+      "file": "images/do_uong/nuoc_sinh_to_xoai.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_sinh_to_xoai",
+        "title": "File:Costco treats - Lassi.jpg",
+        "artist": "Infrogmation of New Orleans",
+        "source": "https://commons.wikimedia.org/wiki/File:Costco_treats_-_Lassi.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh tĩnh vật ẩm thực Wikimedia Commons. Không dính người."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_sinh_to_dau",
+      "name": "Sinh Tố Dâu Tây Tươi",
+      "file": "images/do_uong/nuoc_sinh_to_dau.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_sinh_to_dau",
+        "title": "File:Glass of strawberry smoothie (6828826294).jpg",
+        "artist": "woodleywonderworks",
+        "source": "https://commons.wikimedia.org/wiki/File%3AGlass%20of%20strawberry%20smoothie%20%286828826294%29.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_sinh_to_chuoi",
+      "name": "Sinh Tố Chuối Sữa Tươi",
+      "file": "images/do_uong/nuoc_sinh_to_chuoi.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_sinh_to_chuoi",
+        "title": "File:Fresh fruit smoothie being poured into a glass.jpg",
+        "artist": "Shixart1985",
+        "source": "https://commons.wikimedia.org/wiki/File%3AFresh%20fruit%20smoothie%20being%20poured%20into%20a%20glass.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_sinh_to_mang_cau",
+      "name": "Sinh Tố Mãng Cầu Xiêm",
+      "file": "images/do_uong/nuoc_sinh_to_mang_cau.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_sinh_to_mang_cau",
+        "title": "File:Guanábana juice.jpg",
+        "artist": "Spideog",
+        "source": "https://commons.wikimedia.org/wiki/File%3AGuan%C3%A1bana%20juice.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_sinh_to_sapoche",
+      "name": "Sinh Tố Sapoche (Hồng Xiêm)",
+      "file": "images/do_uong/nuoc_sinh_to_sapoche.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_sinh_to_sapoche",
+        "title": "File:ChikuBadaamShake HomeMade Mumbai.jpg",
+        "artist": "Shah Naisargi",
+        "source": "https://commons.wikimedia.org/wiki/File%3AChikuBadaamShake%20HomeMade%20Mumbai.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_sinh_to_bo_xoai",
+      "name": "Sinh Tố Bơ - Xoài Kết Hợp",
+      "file": "images/do_uong/nuoc_sinh_to_bo_xoai.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_sinh_to_bo_xoai",
+        "title": "File:Fruit smoothie (8475314736).png",
+        "artist": "Mike65444",
+        "source": "https://commons.wikimedia.org/wiki/File%3AFruit%20smoothie%20%288475314736%29.png",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_sinh_to_chuoi_dau",
+      "name": "Sinh Tố Chuối - Dâu Tây",
+      "file": "images/do_uong/nuoc_sinh_to_chuoi_dau.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_sinh_to_chuoi_dau",
+        "title": "File:Fruit smoothie (8475314736).png",
+        "artist": "Mike65444",
+        "source": "https://commons.wikimedia.org/wiki/File%3AFruit%20smoothie%20%288475314736%29.png",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_sinh_to_chuoi_bo_dau_phong",
+      "name": "Sinh Tố Chuối - Bơ Đậu Phộng",
+      "file": "images/do_uong/nuoc_sinh_to_chuoi_bo_dau_phong.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_sinh_to_chuoi_bo_dau_phong",
+        "title": "File:Banana Smoothie.jpg",
+        "artist": "Ourlibrary",
+        "source": "https://commons.wikimedia.org/wiki/File%3ABanana%20Smoothie.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_sinh_to_berry_mix",
+      "name": "Sinh Tố Berry Mix (Dâu, Việt Quất, Mâm Xôi)",
+      "file": "images/do_uong/nuoc_sinh_to_berry_mix.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_sinh_to_berry_mix",
+        "title": "File:Superberry Smoothie & Bill's Ceremonial Matcha Latte - Bill's, Lewes 2026-07-03.jpg",
+        "artist": "Andy Li",
+        "source": "https://commons.wikimedia.org/wiki/File%3ASuperberry%20Smoothie%20%26%20Bill%27s%20Ceremonial%20Matcha%20Latte%20-%20Bill%27s%2C%20Lewes%202026-07-03.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_sinh_to_xoai_chanh_day",
+      "name": "Sinh Tố Xoài - Chanh Dây",
+      "file": "images/do_uong/nuoc_sinh_to_xoai_chanh_day.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_sinh_to_xoai_chanh_day",
+        "title": "File:Fruit Juices 2.jpg",
+        "artist": "IndayLiburan",
+        "source": "https://commons.wikimedia.org/wiki/File%3AFruit%20Juices%202.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_sinh_to_bo_sau_rieng",
+      "name": "Sinh Tố Bơ - Sầu Riêng Béo Ngậy",
+      "file": "images/do_uong/nuoc_sinh_to_bo_sau_rieng.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_sinh_to_bo_sau_rieng",
+        "title": "File:Creamy Durian - Flickr - The World Through Athene's Eyes.jpg",
+        "artist": "The World Through Athene's Eyes from Penang, Malaysia",
+        "source": "https://commons.wikimedia.org/wiki/File%3ACreamy%20Durian%20-%20Flickr%20-%20The%20World%20Through%20Athene%27s%20Eyes.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_dua_xiem_got_vo",
+      "name": "Nước Dừa Xiêm Gọt Vỏ",
+      "file": "images/do_uong/nuoc_dua_xiem_got_vo.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_dua_xiem_got_vo",
+        "title": "File:Drinking coconut.jpg",
+        "artist": "Dtfman",
+        "source": "https://commons.wikimedia.org/wiki/File%3ADrinking%20coconut.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_dua_tac_dua_thom",
+      "name": "Nước Dừa Tắc / Dừa Thơm Khóm",
+      "file": "images/do_uong/nuoc_dua_tac_dua_thom.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_dua_tac_dua_thom",
+        "title": "File:Green coconut fruit.jpg",
+        "artist": "Ibrahim Achiri",
+        "source": "https://commons.wikimedia.org/wiki/File%3AGreen%20coconut%20fruit.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_cam_vat",
+      "name": "Nước Cam Sành Vắt Tươi",
+      "file": "images/do_uong/nuoc_cam_vat.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_ep_buoi_hong",
+      "name": "Nước Ép Bưởi Hồng Tươi",
+      "file": "images/do_uong/nuoc_ep_buoi_hong.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_ep_buoi_hong",
+        "title": "File:Self-made gin grapefruit long drink.jpg",
+        "artist": "JIP",
+        "source": "https://commons.wikimedia.org/wiki/File%3ASelf-made%20gin%20grapefruit%20long%20drink.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_ep_dua_hau",
+      "name": "Nước Ép Dưa Hấu Đỏ",
+      "file": "images/do_uong/nuoc_ep_dua_hau.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_ep_dua_hau",
+        "title": "File:Watermelon juice in glass.jpg",
+        "artist": "Brindhashanmugam312",
+        "source": "https://commons.wikimedia.org/wiki/File%3AWatermelon%20juice%20in%20glass.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_ep_dua_thom",
+      "name": "Nước Ép Dứa (Thơm) Mật",
+      "file": "images/do_uong/nuoc_ep_dua_thom.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_ep_dua_thom",
+        "title": "File:Pineapple juice in glass.jpg",
+        "artist": "B722N",
+        "source": "https://commons.wikimedia.org/wiki/File%3APineapple%20juice%20in%20glass.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_ep_tao",
+      "name": "Nước Ép Táo Xanh & Táo Đỏ",
+      "file": "images/do_uong/nuoc_ep_tao.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_ep_tao",
+        "title": "File:Apple juice glass.jpg",
+        "artist": "JeanBono",
+        "source": "https://commons.wikimedia.org/wiki/File%3AApple%20juice%20glass.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_ep_oi",
+      "name": "Nước Ép Ổi Hạt Lựu",
+      "file": "images/do_uong/nuoc_ep_oi.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_ep_oi",
+        "title": "File:Agua de guayaba.jpg",
+        "artist": "AlejandroLinaresGarcia",
+        "source": "https://commons.wikimedia.org/wiki/File:Agua_de_guayaba.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh tĩnh vật ẩm thực Wikimedia Commons. Không dính người."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_ep_ca_rot",
+      "name": "Nước Ép Cà Rốt Tươi",
+      "file": "images/do_uong/nuoc_ep_ca_rot.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_ep_ca_rot",
+        "title": "File:Təbrizdə bir qutu makaron və bir stəkan yerkökü suyu.jpg",
+        "artist": "Orartu",
+        "source": "https://commons.wikimedia.org/wiki/File%3AT%C9%99brizd%C9%99%20bir%20qutu%20makaron%20v%C9%99%20bir%20st%C9%99kan%20yerk%C3%B6k%C3%BC%20suyu.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_ep_ca_chua",
+      "name": "Nước Ép Cà Chua Tươi",
+      "file": "images/do_uong/nuoc_ep_ca_chua.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_ep_ca_chua",
+        "title": "File:A glass of tomato juice on a black plate.jpg",
+        "artist": "VSerebrenikov",
+        "source": "https://commons.wikimedia.org/wiki/File%3AA%20glass%20of%20tomato%20juice%20on%20a%20black%20plate.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_mia_sieu_sach",
+      "name": "Nước Mía Tươi Siêu Sạch",
+      "file": "images/do_uong/nuoc_mia_sieu_sach.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_mia_sieu_sach",
+        "title": "File:Glass of sugarcane juice.jpg",
+        "artist": "Fgnievinski",
+        "source": "https://commons.wikimedia.org/wiki/File%3AGlass%20of%20sugarcane%20juice.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_ca_phe_den_da",
+      "name": "Cà Phê Đen Pha Phin",
+      "file": "images/do_uong/nuoc_ca_phe_den_da.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_ca_phe_den_da",
+        "title": "File:Ice coffee image.jpg",
+        "artist": "Suguri F",
+        "source": "https://commons.wikimedia.org/wiki/File%3AIce%20coffee%20image.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_ca_phe_sua_da",
+      "name": "Cà Phê Sữa Đá Sài Gòn",
+      "file": "images/do_uong/nuoc_ca_phe_sua_da.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_ca_phe_sua_da",
+        "title": "File:CÀ PHÊ SỮA PHA PHIN.jpg",
+        "artist": "Souradeep.Dasgupta",
+        "source": "https://commons.wikimedia.org/wiki/File%3AC%C3%80%20PH%C3%8A%20S%E1%BB%AEA%20PHA%20PHIN.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_bac_xiu",
+      "name": "Bạc Xỉu Ba Tầng Sài Gòn",
+      "file": "images/do_uong/nuoc_bac_xiu.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_bac_xiu",
+        "title": "File:Vietnamese Iced Coffee Ba Chi Canteen.jpg",
+        "artist": "Infrogmation of New Orleans",
+        "source": "https://commons.wikimedia.org/wiki/File%3AVietnamese%20Iced%20Coffee%20Ba%20Chi%20Canteen.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_ca_phe_trung",
+      "name": "Cà Phê Trứng Hà Nội",
+      "file": "images/do_uong/nuoc_ca_phe_trung.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_ca_phe_trung",
+        "title": "File:Egg Coffee (6923068614).jpg",
+        "artist": "David McKelvey from Brisbane, Australia",
+        "source": "https://commons.wikimedia.org/wiki/File%3AEgg%20Coffee%20%286923068614%29.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "vi",
+      "id": "nuoc_ca_phe_cot_dua",
+      "name": "Cà Phê Cốt Dừa Hải Phòng",
+      "file": "images/do_uong/nuoc_ca_phe_cot_dua.webp",
+      "reviewRequired": false,
+      "attribution": {
+        "sourceKey": "nuoc_ca_phe_cot_dua",
+        "title": "File:Vietnamese Salted Coffee & Xin chao's coconut Coffee - Xin Chao, Eastbourne 2026-08-14.jpg",
+        "artist": "Andy Li",
+        "source": "https://commons.wikimedia.org/wiki/File%3AVietnamese%20Salted%20Coffee%20%26%20Xin%20chao%27s%20coconut%20Coffee%20-%20Xin%20Chao%2C%20Eastbourne%202026-08-14.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
+      }
+    },
+    {
+      "region": "ja",
+      "id": "ja_m_1",
+      "name": "卵かけご飯 (TKG)",
+      "file": "images/regional/ja/ja_m_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_m_2",
+      "name": "鮭の塩焼き朝定食",
+      "file": "images/regional/ja/ja_m_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_m_3",
+      "name": "鯛茶漬け",
+      "file": "images/regional/ja/ja_m_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_m_4",
+      "name": "たまごサンド",
+      "file": "images/regional/ja/ja_m_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_m_5",
+      "name": "小倉トースト",
+      "file": "images/regional/ja/ja_m_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_m_6",
+      "name": "梅干しがゆ",
+      "file": "images/regional/ja/ja_m_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_m_7",
+      "name": "納豆朝定食",
+      "file": "images/regional/ja/ja_m_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_m_8",
+      "name": "鯖の味噌煮定食",
+      "file": "images/regional/ja/ja_m_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_m_9",
+      "name": "あさり味噌汁と塩むすび",
+      "file": "images/regional/ja/ja_m_9.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_l_1",
+      "name": "特上握り寿司盛り合わせ",
+      "file": "images/regional/ja/ja_l_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_l_2",
+      "name": "海鮮ちらし寿司",
+      "file": "images/regional/ja/ja_l_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_l_3",
+      "name": "博多豚骨ラーメン",
+      "file": "images/regional/ja/ja_l_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_l_4",
+      "name": "札幌味噌バターコーンラーメン",
+      "file": "images/regional/ja/ja_l_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_l_5",
+      "name": "特製かつ丼",
+      "file": "images/regional/ja/ja_l_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_l_6",
+      "name": "牛丼 (温玉のせ)",
+      "file": "images/regional/ja/ja_l_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_l_7",
+      "name": "讃岐海老天うどん",
+      "file": "images/regional/ja/ja_l_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_l_8",
+      "name": "ざる蕎麦 天ぷら添え",
+      "file": "images/regional/ja/ja_l_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_l_9",
+      "name": "ロースカツカレー",
+      "file": "images/regional/ja/ja_l_9.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_l_10",
+      "name": "名物ひつまぶし",
+      "file": "images/regional/ja/ja_l_10.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_l_11",
+      "name": "親子丼",
+      "file": "images/regional/ja/ja_l_11.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_l_12",
+      "name": "冷やし中華",
+      "file": "images/regional/ja/ja_l_12.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_a_1",
+      "name": "大阪名物たこ焼き",
+      "file": "images/regional/ja/ja_a_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_a_2",
+      "name": "広島風お好み焼き",
+      "file": "images/regional/ja/ja_a_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_a_3",
+      "name": "10円パン (チーズ)",
+      "file": "images/regional/ja/ja_a_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_a_4",
+      "name": "たい焼き (粒あん)",
+      "file": "images/regional/ja/ja_a_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_a_5",
+      "name": "焼きそばパン",
+      "file": "images/regional/ja/ja_a_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_a_6",
+      "name": "から揚げ串",
+      "file": "images/regional/ja/ja_a_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_a_7",
+      "name": "みたらし団子",
+      "file": "images/regional/ja/ja_a_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_a_8",
+      "name": "焼き芋ブリュレ",
+      "file": "images/regional/ja/ja_a_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_a_9",
+      "name": "イカ焼き",
+      "file": "images/regional/ja/ja_a_9.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_d_1",
+      "name": "旬の特選刺身盛り合わせ",
+      "file": "images/regional/ja/ja_d_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_d_2",
+      "name": "特選黒毛和牛すき焼き",
+      "file": "images/regional/ja/ja_d_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_d_3",
+      "name": "炭火焼き鳥盛り合わせ (5本)",
+      "file": "images/regional/ja/ja_d_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_d_4",
+      "name": "博多牛もつ鍋",
+      "file": "images/regional/ja/ja_d_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_d_5",
+      "name": "牛しゃぶしゃぶ",
+      "file": "images/regional/ja/ja_d_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_d_6",
+      "name": "明太チーズもんじゃ焼き",
+      "file": "images/regional/ja/ja_d_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_d_7",
+      "name": "北海道ジンギスカン",
+      "file": "images/regional/ja/ja_d_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_d_8",
+      "name": "大阪新世界串カツ盛合せ",
+      "file": "images/regional/ja/ja_d_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_d_9",
+      "name": "特濃魚介豚骨つけ麺",
+      "file": "images/regional/ja/ja_d_9.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_d_10",
+      "name": "銀だらの西京焼き",
+      "file": "images/regional/ja/ja_d_10.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_s_1",
+      "name": "本わらび餅 (黒蜜きな粉)",
+      "file": "images/regional/ja/ja_s_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_s_2",
+      "name": "宇治抹茶パフェ",
+      "file": "images/regional/ja/ja_s_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_s_3",
+      "name": "水信玄餅",
+      "file": "images/regional/ja/ja_s_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_s_4",
+      "name": "いちご大福",
+      "file": "images/regional/ja/ja_s_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_s_5",
+      "name": "宇治抹茶モンブランソフト",
+      "file": "images/regional/ja/ja_s_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_s_6",
+      "name": "どら焼き",
+      "file": "images/regional/ja/ja_s_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_s_7",
+      "name": "スフレパンケーキ",
+      "file": "images/regional/ja/ja_s_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_dr_1",
+      "name": "喫茶メロンソーダフロート",
+      "file": "images/regional/ja/ja_dr_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_dr_2",
+      "name": "濃厚宇治抹茶ラテ",
+      "file": "images/regional/ja/ja_dr_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_dr_3",
+      "name": "香ばしほうじ茶ラテ",
+      "file": "images/regional/ja/ja_dr_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_dr_4",
+      "name": "瓶ラムネ (ビー玉入り)",
+      "file": "images/regional/ja/ja_dr_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_dr_5",
+      "name": "カルピスソーダ",
+      "file": "images/regional/ja/ja_dr_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_dr_6",
+      "name": "特製ロイヤルミルクティー",
+      "file": "images/regional/ja/ja_dr_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_dr_7",
+      "name": "アサヒ スーパードライ",
+      "file": "images/regional/ja/ja_dr_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ja",
+      "id": "ja_dr_8",
+      "name": "本格梅酒ソーダ割り",
+      "file": "images/regional/ja/ja_dr_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_m_1",
+      "name": "전주 콩나물국밥",
+      "file": "images/regional/ko/ko_m_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_m_2",
+      "name": "원조 길거리 토스트",
+      "file": "images/regional/ko/ko_m_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_m_3",
+      "name": "제주 활전복죽",
+      "file": "images/regional/ko/ko_m_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_m_4",
+      "name": "명동 계란빵",
+      "file": "images/regional/ko/ko_m_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_m_5",
+      "name": "소고기 미역국",
+      "file": "images/regional/ko/ko_m_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_m_6",
+      "name": "우거지 뼈해장국",
+      "file": "images/regional/ko/ko_m_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_m_7",
+      "name": "단호박죽",
+      "file": "images/regional/ko/ko_m_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_m_8",
+      "name": "가래떡 구이와 조청",
+      "file": "images/regional/ko/ko_m_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_l_1",
+      "name": "전주 돌솥비빔밥",
+      "file": "images/regional/ko/ko_l_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_l_2",
+      "name": "참치 마요 김밥",
+      "file": "images/regional/ko/ko_l_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_l_3",
+      "name": "옛날 간짜장",
+      "file": "images/regional/ko/ko_l_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_l_4",
+      "name": "불맛 해물짬뽕",
+      "file": "images/regional/ko/ko_l_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_l_5",
+      "name": "돼지김치찌개",
+      "file": "images/regional/ko/ko_l_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_l_6",
+      "name": "영양 삼계탕",
+      "file": "images/regional/ko/ko_l_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_l_7",
+      "name": "부산 돼지국밥",
+      "file": "images/regional/ko/ko_l_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_l_8",
+      "name": "물냉면",
+      "file": "images/regional/ko/ko_l_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_l_9",
+      "name": "바지락 칼국수",
+      "file": "images/regional/ko/ko_l_9.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_l_10",
+      "name": "스팸 김치볶음밥",
+      "file": "images/regional/ko/ko_l_10.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_l_11",
+      "name": "뚝배기 불고기",
+      "file": "images/regional/ko/ko_l_11.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_l_12",
+      "name": "안동 찜닭",
+      "file": "images/regional/ko/ko_l_12.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_a_1",
+      "name": "치즈 로제떡볶이",
+      "file": "images/regional/ko/ko_a_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_a_2",
+      "name": "바삭 전통 순대튀김",
+      "file": "images/regional/ko/ko_a_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_a_3",
+      "name": "바삭 감자 모짜핫도그",
+      "file": "images/regional/ko/ko_a_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_a_4",
+      "name": "치즈 어니언 회오리감자",
+      "file": "images/regional/ko/ko_a_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_a_5",
+      "name": "부산 삼진어묵 꼬치",
+      "file": "images/regional/ko/ko_a_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_a_6",
+      "name": "전통 보쌈",
+      "file": "images/regional/ko/ko_a_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_a_7",
+      "name": "바삭 야채 튀김",
+      "file": "images/regional/ko/ko_a_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_a_8",
+      "name": "당면 김말이 튀김",
+      "file": "images/regional/ko/ko_a_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_a_9",
+      "name": "신림동 백순대 볶음",
+      "file": "images/regional/ko/ko_a_9.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_a_10",
+      "name": "불닭 치즈 라볶이",
+      "file": "images/regional/ko/ko_a_10.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_d_1",
+      "name": "생삼겹살 솥뚜껑 구이",
+      "file": "images/regional/ko/ko_d_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_d_2",
+      "name": "황금 반반 치킨",
+      "file": "images/regional/ko/ko_d_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_d_3",
+      "name": "소갈비 구이",
+      "file": "images/regional/ko/ko_d_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_d_4",
+      "name": "춘천 철판 닭갈비",
+      "file": "images/regional/ko/ko_d_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_d_5",
+      "name": "명품 뼈다귀 감자탕",
+      "file": "images/regional/ko/ko_d_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_d_6",
+      "name": "의정부 부대찌개",
+      "file": "images/regional/ko/ko_d_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_d_7",
+      "name": "한우 곱창 모듬 구이",
+      "file": "images/regional/ko/ko_d_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_d_8",
+      "name": "해물파전",
+      "file": "images/regional/ko/ko_d_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_d_9",
+      "name": "한우 육회",
+      "file": "images/regional/ko/ko_d_9.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_d_10",
+      "name": "영계 삼계탕",
+      "file": "images/regional/ko/ko_d_10.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_s_1",
+      "name": "브라운치즈 크로플",
+      "file": "images/regional/ko/ko_s_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_s_2",
+      "name": "설빙 인절미 팥빙수",
+      "file": "images/regional/ko/ko_s_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_s_3",
+      "name": "달콤 꿀 호떡",
+      "file": "images/regional/ko/ko_s_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_s_4",
+      "name": "슈크림 붕어빵",
+      "file": "images/regional/ko/ko_s_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_s_5",
+      "name": "전통 약과",
+      "file": "images/regional/ko/ko_s_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_s_6",
+      "name": "추억의 달고나",
+      "file": "images/regional/ko/ko_s_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_s_7",
+      "name": "수박 화채",
+      "file": "images/regional/ko/ko_s_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_dr_1",
+      "name": "빙그레 단지 바나나맛 우유",
+      "file": "images/regional/ko/ko_dr_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_dr_2",
+      "name": "아이스 아메리카노",
+      "file": "images/regional/ko/ko_dr_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_dr_3",
+      "name": "살얼음 전통 식혜",
+      "file": "images/regional/ko/ko_dr_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_dr_4",
+      "name": "계피 곶감 수정과",
+      "file": "images/regional/ko/ko_dr_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_dr_5",
+      "name": "고흥 꿀 유자차",
+      "file": "images/regional/ko/ko_dr_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_dr_6",
+      "name": "부드러운 탄산 밀키스",
+      "file": "images/regional/ko/ko_dr_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_dr_7",
+      "name": "참이슬 소주",
+      "file": "images/regional/ko/ko_dr_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "ko",
+      "id": "ko_dr_8",
+      "name": "달콤한 생막걸리",
+      "file": "images/regional/ko/ko_dr_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_m_1",
+      "name": "天津正宗煎饼果子",
+      "file": "images/regional/zh/zh_m_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_m_2",
+      "name": "上海灌汤小笼包",
+      "file": "images/regional/zh/zh_m_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_m_3",
+      "name": "老上海生煎包",
+      "file": "images/regional/zh/zh_m_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_m_4",
+      "name": "武汉热干面",
+      "file": "images/regional/zh/zh_m_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_m_5",
+      "name": "现磨醇豆浆配金黄油条",
+      "file": "images/regional/zh/zh_m_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_m_6",
+      "name": "广式皮蛋瘦肉粥",
+      "file": "images/regional/zh/zh_m_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_m_7",
+      "name": "潮汕牛肉粿条",
+      "file": "images/regional/zh/zh_m_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_m_8",
+      "name": "广式豉汁蒸排骨",
+      "file": "images/regional/zh/zh_m_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_l_1",
+      "name": "兰州正宗牛肉拉面",
+      "file": "images/regional/zh/zh_l_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_l_2",
+      "name": "陕西老潼关肉夹馍",
+      "file": "images/regional/zh/zh_l_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_l_3",
+      "name": "正宗四川麻婆豆腐",
+      "file": "images/regional/zh/zh_l_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_l_4",
+      "name": "宫保鸡丁盖浇饭",
+      "file": "images/regional/zh/zh_l_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_l_5",
+      "name": "广式蜜汁叉烧饭",
+      "file": "images/regional/zh/zh_l_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_l_6",
+      "name": "广式水晶虾饺皇",
+      "file": "images/regional/zh/zh_l_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_l_7",
+      "name": "陕西麻辣凉皮",
+      "file": "images/regional/zh/zh_l_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_l_8",
+      "name": "柳州原汤螺蛳粉",
+      "file": "images/regional/zh/zh_l_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_l_9",
+      "name": "东北老式锅包肉",
+      "file": "images/regional/zh/zh_l_9.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_l_10",
+      "name": "重庆麻辣小面",
+      "file": "images/regional/zh/zh_l_10.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_l_11",
+      "name": "扬州经典蛋炒饭",
+      "file": "images/regional/zh/zh_l_11.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_l_12",
+      "name": "新疆手抓羊肉饭",
+      "file": "images/regional/zh/zh_l_12.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_a_1",
+      "name": "港式香脆鸡蛋仔",
+      "file": "images/regional/zh/zh_a_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_a_2",
+      "name": "老北京冰糖葫芦",
+      "file": "images/regional/zh/zh_a_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_a_3",
+      "name": "长沙正宗黑金臭豆腐",
+      "file": "images/regional/zh/zh_a_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_a_4",
+      "name": "哈尔滨经典烤冷面",
+      "file": "images/regional/zh/zh_a_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_a_5",
+      "name": "乐山钵钵鸡串串香",
+      "file": "images/regional/zh/zh_a_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_a_6",
+      "name": "陕西肉汁潼关千层烧饼",
+      "file": "images/regional/zh/zh_a_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_a_7",
+      "name": "广东顺德炸牛奶",
+      "file": "images/regional/zh/zh_a_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_a_8",
+      "name": "四川红油抄手",
+      "file": "images/regional/zh/zh_a_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_a_9",
+      "name": "老北京炸酱面",
+      "file": "images/regional/zh/zh_a_9.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_a_10",
+      "name": "潮汕脆皮虾枣",
+      "file": "images/regional/zh/zh_a_10.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_d_1",
+      "name": "北京正宗挂炉烤鸭",
+      "file": "images/regional/zh/zh_d_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_d_2",
+      "name": "四川老灶九宫格牛油火锅",
+      "file": "images/regional/zh/zh_d_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_d_3",
+      "name": "广式皇上皇腊味煲仔饭",
+      "file": "images/regional/zh/zh_d_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_d_4",
+      "name": "杭州西湖东坡肉",
+      "file": "images/regional/zh/zh_d_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_d_5",
+      "name": "重庆酸菜水煮鱼",
+      "file": "images/regional/zh/zh_d_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_d_6",
+      "name": "正宗富贵叫花鸡",
+      "file": "images/regional/zh/zh_d_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_d_7",
+      "name": "无锡酱排骨",
+      "file": "images/regional/zh/zh_d_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_d_8",
+      "name": "湖南剁椒鱼头",
+      "file": "images/regional/zh/zh_d_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_d_9",
+      "name": "西安羊肉泡馍",
+      "file": "images/regional/zh/zh_d_9.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_d_10",
+      "name": "佛跳墙",
+      "file": "images/regional/zh/zh_d_10.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_s_1",
+      "name": "港式杨枝甘露",
+      "file": "images/regional/zh/zh_s_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_s_2",
+      "name": "顺德双皮奶",
+      "file": "images/regional/zh/zh_s_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_s_3",
+      "name": "成都老红糖糍粑冰粉",
+      "file": "images/regional/zh/zh_s_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_s_4",
+      "name": "宁波黑芝麻汤圆",
+      "file": "images/regional/zh/zh_s_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_s_5",
+      "name": "老北京杏仁豆腐",
+      "file": "images/regional/zh/zh_s_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_s_6",
+      "name": "港式香芒班戟",
+      "file": "images/regional/zh/zh_s_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_s_7",
+      "name": "拔丝地瓜",
+      "file": "images/regional/zh/zh_s_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_dr_1",
+      "name": "手打鸭屎香柠檬茶",
+      "file": "images/regional/zh/zh_dr_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_dr_2",
+      "name": "正宗港式丝袜奶茶",
+      "file": "images/regional/zh/zh_dr_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_dr_3",
+      "name": "老北京冰镇酸梅汤",
+      "file": "images/regional/zh/zh_dr_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_dr_4",
+      "name": "芝士现萃铁观音",
+      "file": "images/regional/zh/zh_dr_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_dr_5",
+      "name": "蜂蜜柚子茶",
+      "file": "images/regional/zh/zh_dr_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_dr_6",
+      "name": "王老吉凉茶",
+      "file": "images/regional/zh/zh_dr_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_dr_7",
+      "name": "青岛纯生啤酒",
+      "file": "images/regional/zh/zh_dr_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "zh",
+      "id": "zh_dr_8",
+      "name": "绍兴传统花雕花雕酒",
+      "file": "images/regional/zh/zh_dr_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_m_1",
+      "name": "Full English Breakfast",
+      "file": "images/regional/en/en_m_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_m_2",
+      "name": "Fluffy Buttermilk Pancakes",
+      "file": "images/regional/en/en_m_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_m_3",
+      "name": "Classic Eggs Benedict",
+      "file": "images/regional/en/en_m_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_m_4",
+      "name": "Sourdough Avocado Toast",
+      "file": "images/regional/en/en_m_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_m_5",
+      "name": "NYC Bagel with Lox",
+      "file": "images/regional/en/en_m_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_m_6",
+      "name": "Southern Chicken and Waffles",
+      "file": "images/regional/en/en_m_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_m_7",
+      "name": "Biscuits and Sausage Gravy",
+      "file": "images/regional/en/en_m_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_m_8",
+      "name": "Scottish Smoked Kippers & Poached Egg",
+      "file": "images/regional/en/en_m_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_l_1",
+      "name": "Double Smash Cheeseburger",
+      "file": "images/regional/en/en_l_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_l_2",
+      "name": "New York Pepperoni Pizza",
+      "file": "images/regional/en/en_l_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_l_3",
+      "name": "British Beer-Battered Fish & Chips",
+      "file": "images/regional/en/en_l_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_l_4",
+      "name": "Original Philly Cheesesteak",
+      "file": "images/regional/en/en_l_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_l_5",
+      "name": "Clam Chowder in Sourdough Bowl",
+      "file": "images/regional/en/en_l_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_l_6",
+      "name": "Maine Lobster Roll",
+      "file": "images/regional/en/en_l_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_l_7",
+      "name": "Nashville Hot Chicken Sandwich",
+      "file": "images/regional/en/en_l_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_l_8",
+      "name": "Classic Spaghetti Bolognese",
+      "file": "images/regional/en/en_l_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_l_9",
+      "name": "Cobb Salad with Grilled Chicken",
+      "file": "images/regional/en/en_l_9.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_l_10",
+      "name": "Pan-Seared Salmon with Asparagus",
+      "file": "images/regional/en/en_l_10.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_l_11",
+      "name": "Classic BLT on Toasted Brioche",
+      "file": "images/regional/en/en_l_11.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_l_12",
+      "name": "French Onion Soup Gratinée",
+      "file": "images/regional/en/en_l_12.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_a_1",
+      "name": "Loaded Bacon Mac & Cheese",
+      "file": "images/regional/en/en_a_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_a_2",
+      "name": "Buffalo Chicken Wings",
+      "file": "images/regional/en/en_a_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_a_3",
+      "name": "Warm Cinnamon Sugar Churros",
+      "file": "images/regional/en/en_a_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_a_4",
+      "name": "New Orleans Powdered Beignets",
+      "file": "images/regional/en/en_a_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_a_5",
+      "name": "Traditional Cornish Pasties",
+      "file": "images/regional/en/en_a_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_a_6",
+      "name": "Scotch Egg with Whole Grain Mustard",
+      "file": "images/regional/en/en_a_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_a_7",
+      "name": "Crispy Beer-Battered Onion Rings",
+      "file": "images/regional/en/en_a_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_a_8",
+      "name": "Loaded Chili Cheese Fries",
+      "file": "images/regional/en/en_a_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_a_9",
+      "name": "Soft Pretzel Bites with Beer Cheese",
+      "file": "images/regional/en/en_a_9.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_a_10",
+      "name": "Southern Fried Pickles",
+      "file": "images/regional/en/en_a_10.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_d_1",
+      "name": "USDA Prime Ribeye Steak",
+      "file": "images/regional/en/en_d_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_d_2",
+      "name": "Texas Smoked Beef Brisket",
+      "file": "images/regional/en/en_d_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_d_3",
+      "name": "Smoked BBQ Pork Ribs",
+      "file": "images/regional/en/en_d_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_d_4",
+      "name": "Traditional British Sunday Roast",
+      "file": "images/regional/en/en_d_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_d_5",
+      "name": "Traditional British Shepherd's Pie",
+      "file": "images/regional/en/en_d_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_d_6",
+      "name": "Louisiana Seafood Jambalaya",
+      "file": "images/regional/en/en_d_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_d_7",
+      "name": "Creamy Truffle Fettuccine Alfredo",
+      "file": "images/regional/en/en_d_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_d_8",
+      "name": "San Francisco Cioppino Stew",
+      "file": "images/regional/en/en_d_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_d_9",
+      "name": "Classic Steak and Ale Pie",
+      "file": "images/regional/en/en_d_9.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_d_10",
+      "name": "Pan-Seared Atlantic Salmon",
+      "file": "images/regional/en/en_d_10.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_s_1",
+      "name": "Classic New York Cheesecake",
+      "file": "images/regional/en/en_s_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_s_2",
+      "name": "Warm Chocolate Lava Cake",
+      "file": "images/regional/en/en_s_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_s_3",
+      "name": "Warm Cinnamon Apple Pie",
+      "file": "images/regional/en/en_s_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_s_4",
+      "name": "British Sticky Toffee Pudding",
+      "file": "images/regional/en/en_s_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_s_5",
+      "name": "Traditional Eton Mess",
+      "file": "images/regional/en/en_s_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_s_6",
+      "name": "Warm Frosted Cinnamon Roll",
+      "file": "images/regional/en/en_s_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_s_7",
+      "name": "British Scones with Clotted Cream",
+      "file": "images/regional/en/en_s_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_dr_1",
+      "name": "Iced Vanilla Oat Milk Latte",
+      "file": "images/regional/en/en_dr_1.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_dr_2",
+      "name": "Classic Cold Brew Coffee",
+      "file": "images/regional/en/en_dr_2.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_dr_3",
+      "name": "Fresh Strawberry Lemonade",
+      "file": "images/regional/en/en_dr_3.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_dr_4",
+      "name": "Old-Fashioned Root Beer Float",
+      "file": "images/regional/en/en_dr_4.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_dr_5",
+      "name": "Classic Salted Caramel Milkshake",
+      "file": "images/regional/en/en_dr_5.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_dr_6",
+      "name": "London Fog Earl Grey Tea Latte",
+      "file": "images/regional/en/en_dr_6.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_dr_7",
+      "name": "American Craft IPA Draft Beer",
+      "file": "images/regional/en/en_dr_7.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    },
+    {
+      "region": "en",
+      "id": "en_dr_8",
+      "name": "Classic New York Cosmopolitan",
+      "file": "images/regional/en/en_dr_8.webp",
+      "reviewRequired": true,
+      "reason": "missing-source-record"
+    }
+  ]
+}

@@ -38,6 +38,33 @@ class PublicSecurityTests(unittest.TestCase):
             code,headers,body=self.request('/'+name); self.assertEqual(code,200,name); self.assertTrue(body,name)
         for path in ['/assets/','/images/','/assets/fonts/','/missing.js','/images/missing.webp','/missing.json']:
             self.assertEqual(self.request(path)[0],404,path)
+    def test_generated_worker_manifest_matches_allowlist(self):
+        manifest = (PUBLIC_ROOT / 'sw-assets.js').read_text(encoding='utf-8')
+        data = json.loads(manifest.split(' = ', 1)[1].rstrip().removesuffix(';'))
+        cached = set(data['essential']) | set(data['optional'])
+        self.assertTrue(all('./' + name in data['essential'] for name in PUBLIC_FILES if name.endswith('.js') and '/' not in name and name not in {'sw.js', 'sw-assets.js'}))
+        self.assertEqual(cached, {'./'} | {'./' + name for name in PUBLIC_FILES if name not in {'sw.js', 'sw-assets.js'}})
+        self.assertFalse(any('://' in name or '/api/' in name for name in cached))
+        self.assertIn('./index.html', data['essential'])
+        self.assertIn('./', data['essential'])
+        self.assertIn('./assets/attribution-data.js', data['essential'])
+
+    def test_generated_credits_and_runtime_attribution_cover_every_dish(self):
+        audit = json.loads((ROOT / 'docs' / 'reports' / 'image-attribution-audit.json').read_text(encoding='utf-8'))
+        page = (PUBLIC_ROOT / 'credits.html').read_text(encoding='utf-8')
+        bundle = (PUBLIC_ROOT / 'assets' / 'attribution-data.js').read_text(encoding='utf-8')
+        self.assertNotIn('FOOD_IMAGE_CREDITS_START', page)
+        self.assertNotIn('FOOD_IMAGE_CREDITS_END', page)
+        self.assertEqual(page.count('data-review-required="true"'), audit['summary']['reviewRequired'])
+        self.assertEqual(page.count('data-review-required="false"'), audit['summary']['attributed'])
+        self.assertIn('pending review', page)
+        prefix = 'window.BFSC_ATTRIBUTION_DATA = '
+        self.assertTrue(bundle.startswith(prefix))
+        runtime_data = json.loads(bundle[len(prefix):].rstrip().removesuffix(';'))
+        self.assertEqual(len(runtime_data), 382)
+        self.assertEqual(sum(bool(record['reviewRequired']) for record in runtime_data.values()), audit['summary']['reviewRequired'])
+        self.assertTrue(all('attribution' not in record for record in runtime_data.values() if record['reviewRequired']))
+
     def test_photo_and_font_content_types_are_explicit_on_windows(self):
         for path, expected in [('/images/binh_dan/nuoc_cam.webp', 'image/webp'), ('/assets/fonts/be-vietnam-pro-latin-400-normal.woff2', 'font/woff2')]:
             code, headers, body = self.request(path)
@@ -46,8 +73,10 @@ class PublicSecurityTests(unittest.TestCase):
             self.assertTrue(body)
 
     def test_security_headers_and_head_api(self):
-        for path in ['/','/style.css','/api/server-info','/missing.js']:
-            code,headers,_=self.request(path); self.assertEqual(headers.get('X-Content-Type-Options'),'nosniff'); self.assertEqual(headers.get('X-Frame-Options'),'DENY'); self.assertIn("script-src 'self'",headers['Content-Security-Policy']); self.assertNotIn('Python',headers.get('Server',''))
+        for path in ['/','/style.css','/api/server-info','/api/custom-dishes','/missing.js']:
+            for method in ['GET', 'HEAD']:
+                code,headers,body=self.request(path,method); self.assertEqual(headers.get('X-Content-Type-Options'),'nosniff'); self.assertEqual(headers.get('X-Frame-Options'),'DENY'); self.assertIn("script-src 'self'",headers['Content-Security-Policy']); self.assertNotIn('Python',headers.get('Server',''))
+                if method == 'HEAD': self.assertEqual(body,b'')
         code,headers,body=self.request('/api/server-info','HEAD'); self.assertEqual(code,200); self.assertEqual(body,b''); self.assertIn('application/json',headers['Content-Type'])
     def test_build_contains_exact_allowlist_and_removes_stale_files(self):
         stale=PUBLIC_ROOT/'old-internal-report.txt';stale.write_text('internal test fixture',encoding='utf-8');build_public();self.assertFalse(stale.exists())

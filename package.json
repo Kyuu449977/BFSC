@@ -8,6 +8,9 @@
     "deploy:vercel": "npx vercel --prod",
     "deploy:netlify": "python build_public.py && npx netlify-cli deploy --prod --dir=public",
     "test": "node --test tests/*.test.cjs",
+    "test:responsive-audit": "node --test tests/responsive-audit-browser.cjs",
+    "test:responsive-p2": "python -B build_public.py && node tests/responsive-p2-browser.cjs",
+    "test:responsive-crosswalk": "python -B build_public.py && node tests/visual-report-crosswalk.cjs",
     "test:browser": "python -B build_public.py && node tests/browser.cjs",
     "test:server": "python -B tests/test_server.py",
     "benchmark": "node tests/benchmark.cjs",
@@ -22,14 +25,10 @@
     "format": "prettier --write src tests tools *.json",
     "format:check": "prettier --check src tests tools *.json",
     "test:personal": "python -B build_public.py && node tests/personal-browser.cjs",
-    "test:controls": "python -B build_public.py && node tests/controls-browser.cjs"
+    "test:controls": "python -B build_public.py && node tests/controls-browser.cjs",
+    "test:upgrade": "python -B build_public.py && node tests/upgrade-browser.cjs && node tests/upgrade-features-browser.cjs && node tests/upgrade-pwa-browser.cjs && node tests/upgrade-settings-browser.cjs && node tests/responsive-upgrade-browser.cjs"
   },
-  "keywords": [
-    "vietnamese-food",
-    "random-food",
-    "hom-nay-an-gi",
-    "csgo-roulette"
-  ],
+  "keywords": ["vietnamese-food", "random-food", "hom-nay-an-gi", "csgo-roulette"],
   "license": "MIT",
   "devDependencies": {
     "prettier": "3.6.2"

@@ -1,3 +1,4 @@
+const { openTools, clickTool } = require('./helpers/mobile-tools.cjs');
 const { chromium } = require('playwright'),
   assert = require('node:assert/strict');
 (async () => {
@@ -14,7 +15,7 @@ const { chromium } = require('playwright'),
     await page.goto('http://localhost:8080');
     await page.waitForFunction(() => !document.getElementById('singleBtn').disabled);
     assert.equal(await page.locator('#budgetPanel .theme-options').count(), 0);
-    await page.locator('#themeBtn').click();
+    await clickTool(page, 'themeBtn');
     for (const appearance of ['light', 'dark'])
       for (const theme of ['green', 'blue', 'rose', 'orange']) {
         await page.locator(`[data-appearance-choice=${appearance}]`).click();
@@ -54,7 +55,7 @@ const { chromium } = require('playwright'),
         true,
         'header fits ' + width
       );
-      await page.locator('#themeBtn').click();
+      await clickTool(page, 'themeBtn');
       assert.equal(
         await page.locator('#themeDialog').evaluate((e) => e.scrollWidth <= e.clientWidth + 1),
         true
@@ -64,7 +65,7 @@ const { chromium } = require('playwright'),
     const second = await context.newPage();
     await second.goto('http://localhost:8080');
     await second.waitForFunction(() => !document.getElementById('singleBtn').disabled);
-    await page.locator('#themeBtn').click();
+    await clickTool(page, 'themeBtn');
     await page.locator('[data-theme-choice=green]').click();
     await second.waitForFunction(() => document.documentElement.dataset.theme === 'green');
     await page.keyboard.press('Escape');
@@ -82,7 +83,7 @@ const { chromium } = require('playwright'),
     );
     const p = await denied.newPage();
     await p.goto('http://localhost:8080');
-    await p.locator('#themeBtn').click();
+    await clickTool(p, 'themeBtn');
     await p.locator('[data-theme-choice=rose]').click();
     await p.locator('[data-appearance-choice=dark]').click();
     assert.equal(await p.locator('html').getAttribute('data-theme'), 'rose');

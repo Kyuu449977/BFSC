@@ -1,3 +1,4 @@
+const { openTools, clickTool } = require('./helpers/mobile-tools.cjs');
 const { chromium } = require('playwright');
 const http = require('node:http');
 const fs = require('node:fs');
@@ -87,12 +88,12 @@ const assert = require('node:assert/strict');
     assert.equal(await page.locator('.dish-card').count(), 1);
     await page.locator('#menuNav').click();
     assert.equal(await page.locator('#collectionToggle').getAttribute('aria-pressed'), 'false');
-    await page.locator('#shareBtn').click();
+    await clickTool(page, 'shareBtn');
     assert.equal(await page.evaluate(() => window.sharedPayload.url), 'http://localhost:8096/');
     await page.evaluate(() =>
       Object.defineProperty(navigator, 'share', { configurable: true, value: undefined })
     );
-    await page.locator('#shareBtn').click();
+    await clickTool(page, 'shareBtn');
     assert.equal(await page.evaluate(() => window.copiedPayload), 'http://localhost:8096/');
     await page.evaluate(() =>
       Object.defineProperty(navigator, 'clipboard', {
@@ -104,7 +105,7 @@ const assert = require('node:assert/strict');
         },
       })
     );
-    await page.locator('#shareBtn').click();
+    await clickTool(page, 'shareBtn');
     await page.locator('#shareDialog').waitFor({ state: 'visible' });
     assert.equal(await page.locator('#shareUrl').inputValue(), 'http://localhost:8096/');
     await page.keyboard.press('Escape');
@@ -116,9 +117,9 @@ const assert = require('node:assert/strict');
       event.userChoice = Promise.resolve({ outcome: 'dismissed' });
       window.dispatchEvent(event);
     });
-    await page.locator('#installBtn').click();
+    await clickTool(page, 'installBtn');
     assert.equal(await page.evaluate(() => window.installPromptCalled), true);
-    await page.locator('#installBtn').click();
+    await clickTool(page, 'installBtn');
     await page.locator('#installDialog').waitFor({ state: 'visible' });
     assert.equal(await page.locator('#installSteps li').count(), 3);
     await page.keyboard.press('Escape');
@@ -156,7 +157,7 @@ const assert = require('node:assert/strict');
     });
     const iosPage = await ios.newPage();
     await iosPage.goto('http://localhost:8096');
-    await iosPage.locator('#installBtn').click();
+    await clickTool(iosPage, 'installBtn');
     assert.ok((await iosPage.locator('#installSteps').textContent()).includes('Safari'));
     await ios.close();
     const standalone = await browser.newContext({ serviceWorkers: 'block' });

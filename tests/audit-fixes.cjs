@@ -1,3 +1,4 @@
+const { openTools, clickTool } = require('./helpers/mobile-tools.cjs');
 const { chromium } = require('playwright'),
   assert = require('node:assert/strict'),
   fs = require('node:fs'),
@@ -116,7 +117,7 @@ const python = process.env.PYTHON_BIN || (fs.existsSync(bundled) ? bundled : 'py
     if (!(await b.locator('#budgetPanel').evaluate((e) => e.open)))
       await b.locator('#budgetPanel summary').click();
     await b.locator('#uniqueInput').uncheck();
-    await b.locator('#soundBtn').click();
+    await clickTool(b, 'soundBtn');
     await Promise.all([a.reload(), b.reload()]);
     for (const p of [a, b]) {
       await p.waitForFunction(() => !document.getElementById('singleBtn').disabled);

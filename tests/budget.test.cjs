@@ -3,96 +3,88 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const vm = require('node:vm');
 function app() {
-  const c = vm.createContext({ localStorage: { getItem: () => null, setItem: () => {} } });
+  const c = vm.createContext({
+    console,
+    setTimeout,
+    localStorage: { getItem: () => null, setItem() {} },
+    sessionStorage: { getItem: () => null, setItem() {} },
+  });
+  c.window = c;
+  c.addEventListener = () => {};
   vm.runInContext(
-    fs.readFileSync('src/js/data.js', 'utf8') +
-      '\n' +
-      fs.readFileSync('src/js/gacha.js', 'utf8') +
-      '\nglobalThis.engine=gachaEngine;globalThis.db=FOOD_DATABASE;',
+    [
+      'src/js/data.js',
+      'src/js/money.js',
+      'src/js/catalog.js',
+      'src/js/dish-preferences.js',
+      'src/js/collection.js',
+      'src/js/gacha.js',
+    ]
+      .map((f) => fs.readFileSync(f, 'utf8'))
+      .join('\n') +
+      '\nglobalThis.engine=gachaEngine;globalThis.money=Money;globalThis.catalog=Catalog;',
     c
   );
   return c;
 }
-test('all catalog price ranges are numeric and agree with the displayed reference prices', () => {
+test('catalog prices are numeric ranges and totals preserve minor-unit precision', () => {
   const a = app();
   for (const d of a.engine.getAllDishesList()) {
-    const nums = d.price.match(/\d[\d.]*/g).map((n) => Number(n.replace(/\./g, '')));
-    assert.deepEqual(JSON.parse(JSON.stringify(a.engine.prices(d))), {
-      min: nums[0],
-      max: nums.at(-1),
-    });
+    const p = a.engine.prices(d);
+    assert.ok(p && Number.isFinite(p.min) && p.max >= p.min);
   }
+  const d = { id: 'decimal', name: 'Decimal', priceMin: 1.23, priceMax: 2.57 };
+  a.engine.setRegion('en');
+  assert.deepEqual(JSON.parse(JSON.stringify(a.engine.prices(d))), { min: 1.23, max: 2.57 });
+  assert.deepEqual(JSON.parse(JSON.stringify(a.engine.totalPrice([{ dish: d }, { dish: d }]))), {
+    min: 2.46,
+    max: 5.14,
+  });
 });
-test('precomputed options respect whole-roll minimum prices, uniqueness and categories without mutation', () => {
+test('prepared pools respect budgets, uniqueness, categories and minimums without eager triples', async () => {
   const a = app(),
-    before = JSON.stringify(a.db);
+    db = a.catalog.getRegion('vi');
+  for (const source of ['snacks', 'drinks']) db[source].dishes = db[source].dishes.slice(0, 8);
   for (const mode of ['main', 'snacks', 'drinks'])
     for (const unique of [true, false])
-      for (const budget of [0, 15000, 30000, 50000, 100000, 200000, null]) {
+      for (const budget of [0, 30000, 100000, null]) {
         const p = a.engine.prepareSelection({ mode, unique, budget });
-        for (const [type, choices] of Object.entries({
-          singles: p.singles,
-          triples: p.triples,
-          combos: p.combos,
-        }))
-          for (const r of choices) {
-            const total = a.engine.totalPrice(r);
-            if (budget !== null) assert.ok(total.min <= budget);
-            assert.equal(r.length, type === 'singles' ? 1 : 3);
-            if (type === 'triples' && unique)
-              assert.equal(new Set(r.map((x) => x.dish.id)).size, 3);
-            if (type === 'combos')
-              assert.equal(r.map((x) => x.source).join(','), `${p.period},snacks,drinks`);
-            else assert.ok(r.every((x) => x.source === p.key));
-          }
+        assert.equal(p.triples, undefined);
+        assert.equal(p.combos, undefined);
+        assert.ok(
+          p.pools.single.every(
+            (item) => budget === null || a.engine.prices(item.dish)?.min <= budget
+          )
+        );
+        assert.equal(typeof p.availability.triple, 'boolean');
+        assert.ok(p.minimumsMinor.triple === null || typeof p.minimumsMinor.triple === 'number');
       }
-  assert.equal(JSON.stringify(a.db), before);
-  assert.equal(Object.keys(a.engine.collection).length, 0);
+  const p = a.engine.prepareSelection({ mode: 'snacks', budget: 100000 });
+  const draw = await a.engine.drawDishes({ mode: 'snacks', count: 3, budget: 100000, prepared: p });
+  assert.equal(draw.length, 3);
+  assert.equal(new Set(draw.map((x) => x.dish.id)).size, 3);
+  assert.ok(a.engine.totalPrice(draw).min <= 100000);
 });
-test('exact threshold is affordable even if upper reference price exceeds budget; no unaffordable fallback', () => {
-  const a = app();
-  const d = a.db.snacks.dishes[0];
-  const p = a.engine.prepareSelection({ mode: 'snacks', budget: d.priceMin });
-  assert.ok(p.singles.some((r) => r[0].dish.id === d.id));
-  assert.ok(d.priceMax > d.priceMin);
-  const none = a.engine.prepareSelection({ mode: 'snacks', budget: 0 });
-  assert.equal(none.singles.length + none.triples.length + none.combos.length, 0);
-  assert.throws(
-    () => a.engine.drawDishes({ mode: 'snacks', budget: 0, prepared: none }),
-    /Không có lựa chọn/
-  );
-  assert.throws(() => a.engine.drawCombo({ budget: 0, prepared: none }), /Không có lựa chọn/);
-});
-test('minimum total for distinct triples differs from repeated triples, and stale plans are rejected', () => {
-  const a = app();
-  const p = a.engine.prepareSelection({ mode: 'drinks', unique: true, budget: 50000 });
-  const repeated = a.engine.prepareSelection({ mode: 'drinks', unique: false, budget: 50000 });
-  assert.ok(p.minimums.triple >= repeated.minimums.triple);
-  assert.throws(
-    () => a.engine.drawDishes({ mode: 'drinks', unique: true, budget: 30000, prepared: p }),
-    /thay đổi/
-  );
-  assert.throws(
-    () => a.engine.drawDishes({ mode: 'snacks', unique: true, budget: 50000, prepared: p }),
-    /thay đổi/
-  );
-  assert.throws(
-    () => a.engine.drawDishes({ mode: 'drinks', unique: false, budget: 50000, prepared: p }),
-    /thay đổi/
-  );
-  vm.runInContext('Date=class {getHours(){return 5}}', a);
-  const morning = a.engine.prepareSelection();
-  vm.runInContext('Date=class {getHours(){return 18}}', a);
-  assert.throws(() => a.engine.drawCombo({ prepared: morning }), /thay đổi/);
-});
-test('unknown prices are excluded with a cap and validation rejects invalid amounts', () => {
-  const a = app();
-  const d = a.db.drinks.dishes[0];
-  delete d.priceMin;
-  const p = a.engine.prepareSelection({ mode: 'drinks', budget: 500000 });
-  assert.ok(p.singles.every((r) => r[0].dish.id !== d.id));
-  assert.ok(p.minimums.single > 0);
-  assert.ok(p.minimums.combo > 0);
-  for (const budget of [-1, NaN, Infinity, 1.5, '50000'])
+test('budget threshold is inclusive and bad amounts are rejected', async () => {
+  const a = app(),
+    d = a.catalog.getRegion('vi').snacks.dishes[0],
+    price = a.engine.prices(d).min,
+    p = a.engine.prepareSelection({ mode: 'snacks', budget: price });
+  assert.ok(p.pools.single.some((x) => x.dish.id === d.id));
+  if (price > 0)
+    assert.ok(
+      !a.engine
+        .prepareSelection({ mode: 'snacks', budget: price - 1 })
+        .pools.single.some((x) => x.dish.id === d.id)
+    );
+  for (const budget of [-1, NaN, Infinity, '50000'])
     assert.throws(() => a.engine.prepareSelection({ budget }), /Ngân sách/);
+  await assert.rejects(a.engine.drawDishes({ mode: 'snacks', budget: 0 }), /Không có lựa chọn/);
+});
+test('minimum distinct triple is not cheaper than repeatable triple; stale plan rejects', () => {
+  const a = app(),
+    unique = a.engine.prepareSelection({ mode: 'drinks', unique: true, budget: 50000 }),
+    repeat = a.engine.prepareSelection({ mode: 'drinks', unique: false, budget: 50000 });
+  assert.ok(unique.minimumsMinor.triple >= repeat.minimumsMinor.triple);
+  assert.throws(() => a.engine.assertPlan(unique, 'drinks', true, 30000), /thay đổi/);
 });

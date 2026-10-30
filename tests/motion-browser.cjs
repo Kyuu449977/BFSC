@@ -1,3 +1,4 @@
+const { openTools, clickTool } = require('./helpers/mobile-tools.cjs');
 const { chromium } = require('playwright'),
   fs = require('fs'),
   http = require('http'),
@@ -45,6 +46,7 @@ const { chromium } = require('playwright'),
     await page.goto('http://localhost:8094');
     assert.equal(await page.evaluate(() => typeof Motion.animate), 'function');
     await page.waitForFunction(() => !document.getElementById('singleBtn').disabled);
+    await openTools(page);
     await page.locator('#soundBtn').hover();
     await page.mouse.down();
     assert.equal(
@@ -60,6 +62,7 @@ const { chromium } = require('playwright'),
     await page.waitForFunction(
       () => document.getElementById('soundBtn').getAnimations().length === 0
     );
+    await openTools(page);
     await page.locator('#soundBtn').focus();
     const before = await page.locator('#soundBtn').getAttribute('aria-pressed');
     await page.keyboard.press('Space');
@@ -71,7 +74,7 @@ const { chromium } = require('playwright'),
     for (const q of ['ph', 'pho', 'bun', '']) await page.locator('#dishSearch').fill(q);
     await page.waitForFunction(() => document.getAnimations().length === 0);
     await page.emulateMedia({ reducedMotion: 'reduce' });
-    await page.locator('#soundBtn').click();
+    await clickTool(page, 'soundBtn');
     assert.equal(await page.locator('.press-wave').count(), 0);
     await page.locator('#findFeaturedBtn').click();
     await page.waitForFunction(() =>

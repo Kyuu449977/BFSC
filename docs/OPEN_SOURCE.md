@@ -8,14 +8,14 @@ Website dùng tài nguyên được lưu cục bộ, không tải thư viện ho
 
 Phiên bản, nguồn và danh sách file được ghi trong `assets/sources.json`. Không thêm framework hoặc thư viện JavaScript chạy ngoài vào website. Icon ứng dụng được vẽ bằng mã nguồn trong dự án; nội dung món và khoảng giá hiện có được giữ nguyên.
 
-## Motion — MIT
+## Chuyển động native
 
-Bản JavaScript thuần Motion 12.23.24, nguồn https://github.com/motiondivision/motion, file phân phối `assets/vendor/motion.js`; giấy phép tại `assets/licenses/motion-LICENSE.md`. Không cần React hoặc gọi CDN khi mở website. Phiên bản và SHA-256 ghi trong `assets/sources.json`.
+Website hiện dùng Web Animations API và CSS; Motion không được nạp hoặc xuất bản trong build mới. File và giấy phép Motion cũ được giữ trong nguồn để tham khảo lịch sử, không phải dependency frontend.
 
-## Hình món ăn
+## Ảnh và metadata
 
-48 ảnh chụp thật dạng WebP, không dùng SVG minh họa món ăn hoặc ảnh AI. 42 ảnh Commons giữ giấy phép của từng ảnh. 3 ảnh Cookbeo dùng cho mục đích phi thương mại, giữ watermark và ghi rõ “Ảnh: cookbeo.com” theo https://cookbeo.com/license.html. 3 ảnh Thanh Niên, Thật Là Ngon và Rau má Luck có nguồn rõ ràng nhưng chưa xác minh quyền tái sử dụng; metadata đánh dấu `rightsReviewRequired`. Cần xác nhận quyền trước khi xuất bản công khai hoặc thay bằng ảnh có quyền phù hợp.
+382 ID món tham chiếu ảnh cục bộ. Kiểm kê hiện có 118 mục có metadata đầy đủ về mặt cấu trúc và 264 mục cần rà nguồn/giấy phép; đây không phải xác minh từng nguồn trên Internet. Runtime dùng placeholder khi metadata thiếu hoặc mâu thuẫn, giữ nguyên ảnh gốc và ID.
 
-Nguồn, tác giả, URL bản gốc, giấy phép/điều kiện và biến đổi của từng hình nằm trong `images/sources.json`, hiển thị ở `credits.html#food-images`. Các nguồn có điều kiện riêng được ghi công thêm ở thẻ món và kết quả. Ảnh là tham khảo món, không phải ảnh quán từ Maps; bao bì đồ uống có thể khác thị trường Việt Nam. Không áp dụng giấy phép mã nguồn website lên ảnh.
+Metadata gốc ở `src/images/sources.json`; bản đối chiếu theo ID/đường dẫn ở `docs/reports/image-attribution-audit.json`. Build sinh credits và runtime attribution từ bản đối chiếu, có escape HTML. Không bịa tác giả, URL hay giấy phép; ảnh không tự được cấp phép theo mã nguồn ứng dụng.
 
-Script SVG cũ `tools/apply_food_images.py` đã vô hiệu để không khôi phục hình vẽ. Khi thay ảnh, kiểm tra đúng món bằng mắt, cập nhật metadata và tăng cache version trong `sw.js`.
+Khi cập nhật ảnh, xác minh đúng món và nguồn, cập nhật metadata/audit, đăng ký allowlist rồi build và tăng cache version. Script nghiên cứu cũ không thuộc quy trình build chính thức.

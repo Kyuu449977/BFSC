@@ -1,0 +1,185 @@
+/* Mobile controls stay compact while all eight actions remain one tap away. */
+.mobile-menu-toggle {
+  display: none;
+  min-width: 44px;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--text-primary);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-default);
+  border-radius: 12px;
+  font: inherit;
+  padding: 8px 12px;
+}
+@media (max-width: 899px) {
+  .header {
+    position: relative;
+    z-index: 10;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+  }
+  .header .brand {
+    grid-column: 1;
+    grid-row: 1;
+    min-width: 0;
+  }
+  .mobile-menu-toggle {
+    display: inline-flex;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .header .tools {
+    position: absolute;
+    inset-inline: 0;
+    top: calc(100% + 8px);
+    z-index: 30;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid var(--border-default);
+    border-radius: 16px;
+    background: var(--bg-elevated);
+    box-shadow: var(--surface-shadow);
+    max-height: calc(100vh - 120px);
+    max-height: min(420px, calc(100dvh - 120px - env(safe-area-inset-bottom)));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+    left: auto;
+    width: min(280px, 100%);
+  }
+  .header .tools .icon-button {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 12px;
+    min-height: 44px;
+    padding: 10px 12px;
+    text-align: start;
+  }
+  .header .tools .tool-label {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .header .tools[hidden] {
+    display: none;
+  }
+}
+/* Keep add-dish fields between non-overlapping header/footer, including when
+ * the visual viewport shrinks for a keyboard. Only the fields area scrolls. */
+#addDishDialog[open] {
+  display: flex;
+  flex-direction: column;
+  height: min(760px, calc(var(--visual-viewport-height, 100dvh) - 24px));
+  max-height: calc(var(--visual-viewport-height, 100dvh) - 24px);
+  overflow: hidden;
+}
+#addDishDialog > .dialog-heading {
+  position: static;
+  flex: 0 0 auto;
+}
+#addDishForm {
+  flex: 1 1 auto;
+  min-height: 0;
+  gap: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#addDishForm .custom-dish-fields {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 8px 2px 12px;
+  scroll-padding-block: 12px;
+}
+#addDishForm .custom-dish-fields > * {
+  flex: 0 0 auto;
+  min-width: 0;
+}
+#addDishForm > .form-actions {
+  position: static;
+  flex: 0 0 auto;
+  margin-top: 0;
+  padding-top: 10px;
+}
+/* Two original vertical units are in normal document flow on phones/tablets.
+ * At 360px, two 160px units + 8px gap fit within the 328px content width.
+ * At 320px they stack, retaining the real ad dimensions and pinch zoom. */
+.responsive-sponsors {
+  margin: 32px 0;
+  min-width: 0;
+}
+.sponsor-label {
+  color: var(--text-secondary);
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.sponsor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 160px);
+  gap: 16px 8px;
+  justify-content: center;
+  align-items: start;
+}
+.vine-card {
+  border: 0;
+  box-shadow: 0 0 0 1px var(--border-default);
+}
+.vine-card iframe,
+[data-sponsor-frame] {
+  display: block;
+  border: 0;
+  max-width: none;
+  margin: 0;
+}
+[data-ad-state='unavailable'] {
+  min-height: 64px;
+  height: auto;
+  padding: 8px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  text-align: center;
+}
+@media (max-width: 1583px) {
+  .responsive-sponsors .side-vine-slot {
+    display: flex !important;
+    position: static;
+    width: 160px;
+    height: auto;
+    min-width: 0;
+    pointer-events: auto;
+  }
+  .responsive-sponsors .vine-svg {
+    display: none;
+  }
+}
+@media (min-width: 1584px) {
+  .responsive-sponsors {
+    margin: 0;
+    height: 0;
+  }
+  .responsive-sponsors > .sponsor-label {
+    display: none;
+  }
+  .responsive-sponsors .side-vine-slot {
+    display: flex;
+  }
+}
+/* Only the roulette track moves. Thirty-two independent infinite pulses and
+ * filtered shadows needlessly consume mobile GPU time during every roll. */
+.reel-card-icon {
+  animation: none;
+  filter: none;
+}
+.reel-track {
+  will-change: auto;
+}
+#spinDialog[open] .reel-track {
+  will-change: transform;
+}

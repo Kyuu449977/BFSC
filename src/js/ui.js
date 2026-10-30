@@ -21,7 +21,9 @@ const UI = {
     const span = document.createElement('span');
     span.textContent = label;
     if (iconOnly) span.className = 'sr-only';
+    const tool = element.querySelector('[data-tool-label]');
     element.replaceChildren(UI.icon(icon), span);
+    if (tool) element.append(tool);
   },
 };
 document.addEventListener('DOMContentLoaded', () => {
@@ -35,6 +37,9 @@ class BrowserActions {
     this.openDialog = openDialog;
     this.toast = toast;
     this.installEvent = null;
+    document.addEventListener('bfsc-languagechange', () => {
+      if (this.installStepKeys) this.renderInstallSteps();
+    });
     this.installButton = document.getElementById('installBtn');
     document.getElementById('shareBtn').onclick = () => this.share();
     document.getElementById('copyLinkBtn').onclick = () => this.copy();
@@ -46,7 +51,7 @@ class BrowserActions {
     window.addEventListener('appinstalled', () => {
       this.installEvent = null;
       this.installButton.hidden = true;
-      this.toast('Đã thêm Ăn gì đây vào thiết bị.');
+      this.toast(UICopy.text('installed'));
     });
     if (matchMedia('(display-mode: standalone)').matches || navigator.standalone)
       this.installButton.hidden = true;
@@ -65,7 +70,7 @@ class BrowserActions {
 
   localLinkNotice() {
     return ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname)
-      ? ' Link localhost chỉ mở trên máy này; dùng link LAN hoặc link HTTPS để gửi sang thiết bị khác.'
+      ? ' ' + UICopy.text('localLink')
       : '';
   }
 
@@ -73,8 +78,8 @@ class BrowserActions {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'Ăn gì đây? Chọn một bữa ngon',
-          text: 'Chưa biết ăn gì? Cùng tìm một món ngon nhé.',
+          title: UICopy.text('seoTitle'),
+          text: UICopy.text('shareText'),
           url: this.url(),
         });
         if (this.localLinkNotice()) this.toast(this.localLinkNotice().trim());
@@ -89,9 +94,7 @@ class BrowserActions {
   async copy() {
     try {
       await navigator.clipboard.writeText(this.url());
-      this.toast(
-        'Đã sao chép đường dẫn.' + (this.localLinkNotice() || ' Gửi cho bạn bè để cùng chọn món!')
-      );
+      this.toast(UICopy.text('linkCopied') + this.localLinkNotice());
     } catch (_) {
       const input = document.getElementById('shareUrl');
       input.value = this.url();
@@ -99,7 +102,7 @@ class BrowserActions {
         this.openDialog(document.getElementById('shareDialog'));
       input.focus();
       input.select();
-      this.toast('Chọn và sao chép đường dẫn bên dưới.' + this.localLinkNotice());
+      this.toast(UICopy.text('copyManually') + this.localLinkNotice());
     }
   }
 
@@ -110,7 +113,7 @@ class BrowserActions {
       try {
         await event.prompt();
         const choice = await event.userChoice;
-        if (choice.outcome === 'accepted') this.toast('Đang thêm ứng dụng vào thiết bị…');
+        if (choice.outcome === 'accepted') this.toast(UICopy.text('installing'));
         return;
       } catch (_) {
         /* Show manual instructions when the browser cannot install. */
@@ -119,17 +122,15 @@ class BrowserActions {
     const ios =
       /iPhone|iPad|iPod/.test(navigator.userAgent) ||
       (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-    const steps = ios
-      ? [
-          'Mở website bằng Safari trên iPhone hoặc iPad.',
-          'Chạm nút Chia sẻ của Safari, rồi chọn “Thêm vào Màn hình chính”.',
-          'Chọn “Thêm” để mở Ăn gì đây nhanh hơn vào lần sau.',
-        ]
-      : [
-          'Mở menu trình duyệt trên thiết bị.',
-          'Tìm “Cài đặt ứng dụng” hoặc “Thêm vào màn hình chính” nếu có.',
-          'Bạn vẫn có thể sử dụng đầy đủ website mà không cần cài đặt.',
-        ];
+    this.installStepKeys = ios
+      ? ['installIos1', 'installIos2', 'installIos3']
+      : ['installOther1', 'installOther2', 'installOther3'];
+    this.renderInstallSteps();
+    this.openDialog(document.getElementById('installDialog'));
+  }
+
+  renderInstallSteps() {
+    const steps = this.installStepKeys.map((key) => UICopy.text(key));
     document.getElementById('installSteps').replaceChildren(
       ...steps.map((step) => {
         const li = document.createElement('li');
@@ -137,6 +138,5 @@ class BrowserActions {
         return li;
       })
     );
-    this.openDialog(document.getElementById('installDialog'));
   }
 }

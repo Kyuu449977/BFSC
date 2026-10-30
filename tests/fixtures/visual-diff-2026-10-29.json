@@ -1,0 +1,920 @@
+{
+  "schemaVersion": 1,
+  "sha256": "6314fd186046daa8f67037d6a5ef91f5fb8a7a0545888650f2bbb05fc8a8e6d8",
+  "widths": [
+    {
+      "requested": 320,
+      "actual": 500,
+      "heading": "320px · actual window width 500px — Chrome cannot shrink the window to 320px"
+    },
+    {
+      "requested": 768,
+      "actual": 752,
+      "heading": "768px · actual window width 752px — Chrome cannot shrink the window to 768px"
+    },
+    {
+      "requested": 1024,
+      "actual": 1008,
+      "heading": "1024px · actual window width 1008px — Chrome cannot shrink the window to 1024px"
+    },
+    {
+      "requested": 1440,
+      "actual": 1424,
+      "heading": "1440px · actual window width 1424px — Chrome cannot shrink the window to 1440px"
+    }
+  ],
+  "groups": [
+    {
+      "id": "320-01",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "div overlaps 14 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div  ×  div:nth-of-type(4), svg, div:nth-of-type(5), …",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div",
+      "partners": [
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(4)",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(4) > button > svg",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(5)",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(5) > svg",
+        "#dishSearch",
+        "body > nav",
+        "#homeNav",
+        "body > nav > a:nth-of-type(1) > svg"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 14,
+      "omittedPartners": 6
+    },
+    {
+      "id": "320-02",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "div overlaps 14 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div  ×  div:nth-of-type(4), svg, div:nth-of-type(5), …",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div",
+      "partners": [
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(4)",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(4) > button > svg",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(5)",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(5) > svg",
+        "#dishSearch",
+        "body > nav",
+        "#homeNav",
+        "body > nav > a:nth-of-type(1) > svg"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 14,
+      "omittedPartners": 6
+    },
+    {
+      "id": "320-03",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "div overlaps 14 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > aside > div  ×  #clearBudgetBtn, button:nth-of-type(1), button:nth-of-type(4), …",
+      "a": "body > div:nth-of-type(1) > main > aside > div",
+      "partners": [
+        "#clearBudgetBtn",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(2) > button:nth-of-type(1)",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(2) > button:nth-of-type(4)",
+        "#singleBudgetInfo",
+        "#tripleBudgetInfo",
+        "body > nav",
+        "#homeNav",
+        "body > nav > a:nth-of-type(1) > svg"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 14,
+      "omittedPartners": 6
+    },
+    {
+      "id": "320-04",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "iframe overlaps 12 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(1) > iframe  ×  div:nth-of-type(1), button:nth-of-type(1), button:nth-of-type(4), …",
+      "a": "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(1) > iframe",
+      "partners": [
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(1)",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(2) > button:nth-of-type(1)",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(2) > button:nth-of-type(4)",
+        "#singleBudgetInfo",
+        "#tripleBudgetInfo",
+        "body > nav",
+        "#homeNav",
+        "body > nav > a:nth-of-type(1) > svg"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 12,
+      "omittedPartners": 4
+    },
+    {
+      "id": "320-05",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "div:nth-of-type(4) overlaps 12 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4)  ×  #collectionProgress, #collectionNote, #personalViewLabel, …",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4)",
+      "partners": [
+        "#collectionProgress",
+        "#collectionNote",
+        "#personalViewLabel",
+        "body > nav",
+        "#homeNav",
+        "body > nav > a:nth-of-type(1) > svg",
+        "body > nav > a:nth-of-type(1) > span",
+        "body > nav > a:nth-of-type(2) > svg"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 12,
+      "omittedPartners": 4
+    },
+    {
+      "id": "320-06",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "aside overlaps 10 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > aside  ×  #cravingInputControl, nav, #homeNav, …",
+      "a": "body > div:nth-of-type(1) > main > aside",
+      "partners": [
+        "#cravingInputControl",
+        "body > nav",
+        "#homeNav",
+        "body > nav > a:nth-of-type(1) > svg",
+        "body > nav > a:nth-of-type(1) > span",
+        "body > nav > a:nth-of-type(2) > svg",
+        "body > nav > a:nth-of-type(2) > span",
+        "#collectionNav"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 10,
+      "omittedPartners": 2
+    },
+    {
+      "id": "320-07",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "main overlaps 9 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main  ×  nav, #homeNav, svg, …",
+      "a": "body > div:nth-of-type(1) > main",
+      "partners": [
+        "body > nav",
+        "#homeNav",
+        "body > nav > a:nth-of-type(1) > svg",
+        "body > nav > a:nth-of-type(1) > span",
+        "body > nav > a:nth-of-type(2) > svg",
+        "body > nav > a:nth-of-type(2) > span",
+        "#collectionNav",
+        "body > nav > button > svg"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 9,
+      "omittedPartners": 1
+    },
+    {
+      "id": "320-08",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "#adsterra-banner-shelf overlaps 9 blocks — likely one root cause",
+      "originalSummary": "#adsterra-banner-shelf  ×  button:nth-of-type(1), button:nth-of-type(4), #singleBudgetInfo, …",
+      "a": "#adsterra-banner-shelf",
+      "partners": [
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(2) > button:nth-of-type(1)",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(2) > button:nth-of-type(4)",
+        "#singleBudgetInfo",
+        "#tripleBudgetInfo",
+        "body > nav",
+        "body > nav > a:nth-of-type(1) > svg",
+        "#menuNav",
+        "body > nav > a:nth-of-type(2) > svg"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 9,
+      "omittedPartners": 1
+    },
+    {
+      "id": "320-09",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "#cravingInputLabel overlaps 7 blocks — likely one root cause",
+      "originalSummary": "#cravingInputLabel  ×  div:nth-of-type(2), #homeNav, svg, …",
+      "a": "#cravingInputLabel",
+      "partners": [
+        "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(2)",
+        "#homeNav",
+        "body > nav > a:nth-of-type(1) > svg",
+        "#menuNav",
+        "body > nav > a:nth-of-type(2) > svg",
+        "#collectionNav",
+        "body > nav > button > svg"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 7,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-10",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "p:nth-of-type(1) overlaps 7 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4) > p:nth-of-type(1)  ×  #menu, div:nth-of-type(1), div, …",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4) > p:nth-of-type(1)",
+      "partners": [
+        "#menu",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(1)",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(1) > div",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(1) > div > span",
+        "#collectionToggle",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(1) > button > svg",
+        "#collectionCount"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 7,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-11",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "div:nth-of-type(1) overlaps 6 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1)  ×  svg, span, svg, …",
+      "a": "body > div:nth-of-type(1)",
+      "partners": [
+        "body > nav > a:nth-of-type(1) > svg",
+        "body > nav > a:nth-of-type(1) > span",
+        "body > nav > a:nth-of-type(2) > svg",
+        "body > nav > a:nth-of-type(2) > span",
+        "body > nav > button > svg",
+        "body > nav > button > span"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 6,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-12",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "div:nth-of-type(2) overlaps 6 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(2)  ×  #homeNav, svg, #menuNav, …",
+      "a": "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(2)",
+      "partners": [
+        "#homeNav",
+        "body > nav > a:nth-of-type(1) > svg",
+        "#menuNav",
+        "body > nav > a:nth-of-type(2) > svg",
+        "#collectionNav",
+        "body > nav > button > svg"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 6,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-13",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "div overlaps 5 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4) > div  ×  div:nth-of-type(3), span:nth-of-type(1), span:nth-of-type(2), …",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4) > div",
+      "partners": [
+        "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(3)",
+        "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(3) > span:nth-of-type(1)",
+        "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(3) > span:nth-of-type(2)",
+        "body > nav",
+        "#menuNav"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 5,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-14",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "#cravingInputControl overlaps 5 blocks — likely one root cause",
+      "originalSummary": "#cravingInputControl  ×  div:nth-of-type(3), span:nth-of-type(1), span:nth-of-type(2), …",
+      "a": "#cravingInputControl",
+      "partners": [
+        "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(3)",
+        "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(3) > span:nth-of-type(1)",
+        "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(3) > span:nth-of-type(2)",
+        "body > nav",
+        "#menuNav"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 5,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-15",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "label:nth-of-type(2) overlaps 4 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4) > label:nth-of-type(2)  ×  #menu, div:nth-of-type(1), div, …",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4) > label:nth-of-type(2)",
+      "partners": [
+        "#menu",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(1)",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(1) > div",
+        "#menuTitle"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 4,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-16",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "#avoidRecentInput overlaps 4 blocks — likely one root cause",
+      "originalSummary": "#avoidRecentInput  ×  #menu, div:nth-of-type(1), div, …",
+      "a": "#avoidRecentInput",
+      "partners": [
+        "#menu",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(1)",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(1) > div",
+        "#menuTitle"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 4,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-17",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "div:nth-of-type(5) overlaps 4 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(5)  ×  div:nth-of-type(4), #addDishBtn, svg, …",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(5)",
+      "partners": [
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(4)",
+        "#addDishBtn",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(4) > button > svg",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(5)"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 4,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-18",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "#uniqueInput overlaps 4 blocks — likely one root cause",
+      "originalSummary": "#uniqueInput  ×  div:nth-of-type(3), div, #personalViewControl, …",
+      "a": "#uniqueInput",
+      "partners": [
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(3)",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(3) > div",
+        "#personalViewControl",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(3) > div > button > span:nth-of-type(1)"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 4,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-19",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "span:nth-of-type(2) overlaps 4 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(5) > span:nth-of-type(2)  ×  div:nth-of-type(4), #addDishBtn, div:nth-of-type(5), …",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(5) > span:nth-of-type(2)",
+      "partners": [
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(4)",
+        "#addDishBtn",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(5)",
+        "#dishSearch"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 4,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-20",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "#resetTasteBtn overlaps 3 blocks — likely one root cause",
+      "originalSummary": "#resetTasteBtn  ×  #collectionNote, div:nth-of-type(3), #personalViewLabel",
+      "a": "#resetTasteBtn",
+      "partners": [
+        "#collectionNote",
+        "div:nth-of-type(3)",
+        "#personalViewLabel"
+      ],
+      "partnerSelectorSource": "abbreviated",
+      "originalPartnerCount": 3,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-21",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "label overlaps 3 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(5) > label  ×  div:nth-of-type(3), div, span:nth-of-type(1)",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(5) > label",
+      "partners": [
+        "div:nth-of-type(3)",
+        "div",
+        "span:nth-of-type(1)"
+      ],
+      "partnerSelectorSource": "abbreviated",
+      "originalPartnerCount": 3,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-22",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "#comboHelp overlaps 3 blocks — likely one root cause",
+      "originalSummary": "#comboHelp  ×  div:nth-of-type(4), #addDishBtn, svg",
+      "a": "#comboHelp",
+      "partners": [
+        "div:nth-of-type(4)",
+        "#addDishBtn",
+        "svg"
+      ],
+      "partnerSelectorSource": "abbreviated",
+      "originalPartnerCount": 3,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-23",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "Blocks overlap: div and div:nth-of-type(2)",
+      "originalSummary": "Block \"body > div:nth-of-type(1) > main > section:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > details > div\" overlaps with \"body > div:nth-of-type(1) > main > section:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2)\" (intersection 9628px²)",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > details > div",
+      "partners": [
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2)"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-24",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "Blocks overlap: div and #featuredImage",
+      "originalSummary": "Block \"body > div:nth-of-type(1) > main > section:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > details > div\" overlaps with \"#featuredImage\" (intersection 9628px²)",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > details > div",
+      "partners": [
+        "#featuredImage"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-25",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "Blocks overlap: #featuredDesc and div:nth-of-type(2)",
+      "originalSummary": "Block \"#featuredDesc\" overlaps with \"body > div:nth-of-type(1) > main > section:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2)\" (intersection 9628px²)",
+      "a": "#featuredDesc",
+      "partners": [
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2)"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-26",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "Blocks overlap: #featuredDesc and #featuredImage",
+      "originalSummary": "Block \"#featuredDesc\" overlaps with \"#featuredImage\" (intersection 9628px²)",
+      "a": "#featuredDesc",
+      "partners": [
+        "#featuredImage"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-27",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "Blocks overlap: p:nth-of-type(2) and #collectionNote",
+      "originalSummary": "Block \"body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4) > p:nth-of-type(2)\" overlaps with \"#collectionNote\" (intersection 2782px²)",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4) > p:nth-of-type(2)",
+      "partners": [
+        "#collectionNote"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-28",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "Blocks overlap: div:nth-of-type(3) and #menuNav",
+      "originalSummary": "Block \"body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(3)\" overlaps with \"#menuNav\" (intersection 2387px²)",
+      "a": "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(3)",
+      "partners": [
+        "#menuNav"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-29",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "Blocks overlap: div:nth-of-type(3) and span",
+      "originalSummary": "Block \"body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(3)\" overlaps with \"body > nav > a:nth-of-type(2) > span\" (intersection 371px²)",
+      "a": "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(3)",
+      "partners": [
+        "body > nav > a:nth-of-type(2) > span"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-30",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "Blocks overlap: span:nth-of-type(1) and #homeNav",
+      "originalSummary": "Block \"body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(3) > span:nth-of-type(1)\" overlaps with \"#homeNav\" (intersection 186px²)",
+      "a": "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(3) > span:nth-of-type(1)",
+      "partners": [
+        "#homeNav"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "320-31",
+      "requestedWidth": 320,
+      "actualWidth": 500,
+      "title": "Blocks overlap: span:nth-of-type(2) and #collectionNav",
+      "originalSummary": "Block \"body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(3) > span:nth-of-type(2)\" overlaps with \"#collectionNav\" (intersection 186px²)",
+      "a": "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(3) > span:nth-of-type(2)",
+      "partners": [
+        "#collectionNav"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-01",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "p:nth-of-type(2) overlaps 6 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4) > p:nth-of-type(2)  ×  div:nth-of-type(1), div, #menuTitle, …",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4) > p:nth-of-type(2)",
+      "partners": [
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(1)",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(1) > div",
+        "#menuTitle",
+        "#collectionToggle",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(1) > button > svg",
+        "#collectionCount"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 6,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-02",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "div:nth-of-type(4) overlaps 4 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(4)  ×  div, div, div:nth-of-type(5), …",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(4)",
+      "partners": [
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(5)",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(5) > span:nth-of-type(2)"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 4,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-03",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "svg overlaps 4 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(4) > button > svg  ×  div, div, div:nth-of-type(5), …",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(4) > button > svg",
+      "partners": [
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(5)",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(5) > span:nth-of-type(2)"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 4,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-04",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "label overlaps 4 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(5) > label  ×  div:nth-of-type(3), #personalViewLabel, div, …",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(5) > label",
+      "partners": [
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(3)",
+        "#personalViewLabel",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(3) > div",
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(3) > div > button > span:nth-of-type(1)"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 4,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-05",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "iframe overlaps 3 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(1) > iframe  ×  div:nth-of-type(1), button:nth-of-type(3), #tripleBudgetInfo",
+      "a": "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(1) > iframe",
+      "partners": [
+        "div:nth-of-type(1)",
+        "button:nth-of-type(3)",
+        "#tripleBudgetInfo"
+      ],
+      "partnerSelectorSource": "abbreviated",
+      "originalPartnerCount": 3,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-06",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "div overlaps 3 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4) > div  ×  div:nth-of-type(3), span:nth-of-type(1), span:nth-of-type(2)",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4) > div",
+      "partners": [
+        "div:nth-of-type(3)",
+        "span:nth-of-type(1)",
+        "span:nth-of-type(2)"
+      ],
+      "partnerSelectorSource": "abbreviated",
+      "originalPartnerCount": 3,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-07",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "#cravingInputControl overlaps 3 blocks — likely one root cause",
+      "originalSummary": "#cravingInputControl  ×  div:nth-of-type(3), span:nth-of-type(1), span:nth-of-type(2)",
+      "a": "#cravingInputControl",
+      "partners": [
+        "div:nth-of-type(3)",
+        "span:nth-of-type(1)",
+        "span:nth-of-type(2)"
+      ],
+      "partnerSelectorSource": "abbreviated",
+      "originalPartnerCount": 3,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-08",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "label:nth-of-type(2) overlaps 3 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4) > label:nth-of-type(2)  ×  #menu, div:nth-of-type(1), div",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4) > label:nth-of-type(2)",
+      "partners": [
+        "#menu",
+        "div:nth-of-type(1)",
+        "div"
+      ],
+      "partnerSelectorSource": "abbreviated",
+      "originalPartnerCount": 3,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-09",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "#avoidRecentInput overlaps 3 blocks — likely one root cause",
+      "originalSummary": "#avoidRecentInput  ×  #menu, div:nth-of-type(1), div",
+      "a": "#avoidRecentInput",
+      "partners": [
+        "#menu",
+        "div:nth-of-type(1)",
+        "div"
+      ],
+      "partnerSelectorSource": "abbreviated",
+      "originalPartnerCount": 3,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-10",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "#resetTasteBtn overlaps 3 blocks — likely one root cause",
+      "originalSummary": "#resetTasteBtn  ×  div:nth-of-type(1), div, #collectionProgress",
+      "a": "#resetTasteBtn",
+      "partners": [
+        "div:nth-of-type(1)",
+        "div",
+        "#collectionProgress"
+      ],
+      "partnerSelectorSource": "abbreviated",
+      "originalPartnerCount": 3,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-11",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "Blocks overlap: button:nth-of-type(3) and #adsterra-banner-shelf",
+      "originalSummary": "Block \"body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(2) > button:nth-of-type(3)\" overlaps with \"#adsterra-banner-shelf\" (intersection 3415px²)",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(2) > button:nth-of-type(3)",
+      "partners": [
+        "#adsterra-banner-shelf"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-12",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "Blocks overlap: #tripleBudgetInfo and div",
+      "originalSummary": "Block \"#tripleBudgetInfo\" overlaps with \"body > div:nth-of-type(1) > main > aside > div\" (intersection 3234px²)",
+      "a": "#tripleBudgetInfo",
+      "partners": [
+        "body > div:nth-of-type(1) > main > aside > div"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-13",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "Blocks overlap: #tripleBudgetInfo and #adsterra-banner-shelf",
+      "originalSummary": "Block \"#tripleBudgetInfo\" overlaps with \"#adsterra-banner-shelf\" (intersection 3234px²)",
+      "a": "#tripleBudgetInfo",
+      "partners": [
+        "#adsterra-banner-shelf"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-14",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "Blocks overlap: div:nth-of-type(4) and #collectionProgress",
+      "originalSummary": "Block \"body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4)\" overlaps with \"#collectionProgress\" (intersection 2524px²)",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(4)",
+      "partners": [
+        "#collectionProgress"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-15",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "Blocks overlap: div:nth-of-type(5) and #addDishBtn",
+      "originalSummary": "Block \"body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(5)\" overlaps with \"#addDishBtn\" (intersection 2500px²)",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(5)",
+      "partners": [
+        "#addDishBtn"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-16",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "Blocks overlap: #uniqueInput and div:nth-of-type(3)",
+      "originalSummary": "Block \"#uniqueInput\" overlaps with \"body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(3)\" (intersection 476px²)",
+      "a": "#uniqueInput",
+      "partners": [
+        "body > div:nth-of-type(1) > main > section:nth-of-type(2) > div:nth-of-type(3)"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-17",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "Blocks overlap: #uniqueInput and #personalViewLabel",
+      "originalSummary": "Block \"#uniqueInput\" overlaps with \"#personalViewLabel\" (intersection 113px²)",
+      "a": "#uniqueInput",
+      "partners": [
+        "#personalViewLabel"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "768-18",
+      "requestedWidth": 768,
+      "actualWidth": 752,
+      "title": "Blocks overlap: span:nth-of-type(2) and #addDishBtn",
+      "originalSummary": "Block \"body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(5) > span:nth-of-type(2)\" overlaps with \"#addDishBtn\" (intersection 2500px²)",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(5) > span:nth-of-type(2)",
+      "partners": [
+        "#addDishBtn"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "1024-01",
+      "requestedWidth": 1024,
+      "actualWidth": 1008,
+      "title": "iframe overlaps 3 blocks — likely one root cause",
+      "originalSummary": "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(1) > iframe  ×  div:nth-of-type(1), button:nth-of-type(4), #tripleBudgetInfo",
+      "a": "body > div:nth-of-type(1) > main > aside > div > div:nth-of-type(1) > iframe",
+      "partners": [
+        "div:nth-of-type(1)",
+        "button:nth-of-type(4)",
+        "#tripleBudgetInfo"
+      ],
+      "partnerSelectorSource": "abbreviated",
+      "originalPartnerCount": 3,
+      "omittedPartners": 0
+    },
+    {
+      "id": "1024-02",
+      "requestedWidth": 1024,
+      "actualWidth": 1008,
+      "title": "Blocks overlap: button:nth-of-type(4) and div",
+      "originalSummary": "Block \"body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(2) > button:nth-of-type(4)\" overlaps with \"body > div:nth-of-type(1) > main > aside > div\" (intersection 2151px²)",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(2) > button:nth-of-type(4)",
+      "partners": [
+        "body > div:nth-of-type(1) > main > aside > div"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "1024-03",
+      "requestedWidth": 1024,
+      "actualWidth": 1008,
+      "title": "Blocks overlap: button:nth-of-type(4) and #adsterra-banner-shelf",
+      "originalSummary": "Block \"body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(2) > button:nth-of-type(4)\" overlaps with \"#adsterra-banner-shelf\" (intersection 1711px²)",
+      "a": "body > div:nth-of-type(1) > main > section:nth-of-type(1) > details > div > div > div:nth-of-type(2) > button:nth-of-type(4)",
+      "partners": [
+        "#adsterra-banner-shelf"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "1024-04",
+      "requestedWidth": 1024,
+      "actualWidth": 1008,
+      "title": "Blocks overlap: #tripleBudgetInfo and div",
+      "originalSummary": "Block \"#tripleBudgetInfo\" overlaps with \"body > div:nth-of-type(1) > main > aside > div\" (intersection 1388px²)",
+      "a": "#tripleBudgetInfo",
+      "partners": [
+        "body > div:nth-of-type(1) > main > aside > div"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    },
+    {
+      "id": "1024-05",
+      "requestedWidth": 1024,
+      "actualWidth": 1008,
+      "title": "Blocks overlap: #tripleBudgetInfo and #adsterra-banner-shelf",
+      "originalSummary": "Block \"#tripleBudgetInfo\" overlaps with \"#adsterra-banner-shelf\" (intersection 1201px²)",
+      "a": "#tripleBudgetInfo",
+      "partners": [
+        "#adsterra-banner-shelf"
+      ],
+      "partnerSelectorSource": "full",
+      "originalPartnerCount": 1,
+      "omittedPartners": 0
+    }
+  ],
+  "limits": "Export truncates some groups to eight partners; omitted selectors cannot be reconstructed."
+}

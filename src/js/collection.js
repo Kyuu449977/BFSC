@@ -26,11 +26,21 @@ class CollectionStore {
         return null;
       });
   }
+  registerIds(ids) {
+    let changed = false;
+    for (const id of ids || [])
+      if (typeof id === 'string' && id && !this.ids.has(id)) {
+        this.ids.add(id);
+        changed = true;
+      }
+    if (changed) this.refresh();
+    return this.ids.size;
+  }
   clean(counts) {
     const clean = {};
     if (counts && typeof counts === 'object' && !Array.isArray(counts))
-      for (const id of this.ids)
-        if (Number.isSafeInteger(counts[id]) && counts[id] > 0) clean[id] = counts[id];
+      for (const [id, count] of Object.entries(counts))
+        if (typeof id === 'string' && Number.isSafeInteger(count) && count > 0) clean[id] = count;
     return clean;
   }
   open() {

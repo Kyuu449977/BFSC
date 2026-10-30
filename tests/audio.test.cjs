@@ -29,12 +29,17 @@ function setup() {
     }
   }
   const document = { hidden: false, addEventListener: (name, fn) => (listeners[name] = fn) };
-  const context = vm.createContext({ window: { AudioContext }, document });
+  const window = {
+    AudioContext,
+    addEventListener: (name, fn) => (listeners[`window:${name}`] = fn),
+    removeEventListener() {},
+  };
+  const context = vm.createContext({ window, document });
   vm.runInContext(
     fs.readFileSync('src/js/audio.js', 'utf8') + '\nglobalThis.sound = audioSystem;',
     context
   );
-  return { sound: context.sound, document, listeners, oscillators };
+  return { sound: context.sound, document, window, listeners, oscillators };
 }
 test('audio is created only on request and mute stops scheduled voices', () => {
   const { sound, oscillators } = setup();
@@ -62,4 +67,15 @@ test('hidden page cancels cues; tick and voice counts are bounded', () => {
   assert.equal(sound.voices.size, 0);
   sound.playWin();
   assert.equal(sound.voices.size, 0);
+});
+test('iOS pageshow resumes music that was active before the page was cached', () => {
+  const { sound, listeners } = setup();
+  let resumed = 0;
+  sound.wasBgmPlaying = true;
+  sound.startBgm = () => resumed++;
+  listeners['window:pageshow']();
+  assert.equal(resumed, 1);
+  sound.isMuted = true;
+  listeners['window:pageshow']();
+  assert.equal(resumed, 1);
 });

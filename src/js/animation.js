@@ -3,6 +3,7 @@ class FoodRoulette {
     this.track = track;
     this.viewport = viewport;
     this.busy = false;
+    this.runId = 0;
     this.onResize = () => {
       if (this.busy) {
         this.width = this.viewport.clientWidth;
@@ -30,6 +31,7 @@ class FoodRoulette {
   start(dish, pool, done) {
     if (this.busy) return;
     this.busy = true;
+    const runId = ++this.runId;
     this.done = done;
     this.progress = 0;
     const fragment = document.createDocumentFragment();
@@ -38,7 +40,7 @@ class FoodRoulette {
     for (const item of sequence.items) {
       const card = document.createElement('div');
       card.className = 'reel-card reel-card-mystery';
-      card.setAttribute('aria-label', 'Thẻ bài bí ẩn');
+      card.setAttribute('aria-label', UICopy.text('mystery'));
 
       const inner = document.createElement('div');
       inner.className = 'reel-card-back';
@@ -52,7 +54,7 @@ class FoodRoulette {
 
       const title = document.createElement('div');
       title.className = 'reel-card-title';
-      title.textContent = 'Ăn Gì Đây?';
+      title.textContent = window.I18N?.[document.documentElement.lang]?.brand_name || 'Ăn Gì Đây?';
 
       const question = document.createElement('div');
       question.className = 'reel-card-q';
@@ -67,7 +69,7 @@ class FoodRoulette {
     this.place(0);
     const started = performance.now();
     const animate = (now) => {
-      if (!this.busy) return;
+      if (!this.busy || this.runId !== runId) return;
       this.progress = Math.min((now - started) / 2500, 1);
       this.place(this.progress);
       if (this.progress === 1) {
@@ -97,5 +99,15 @@ class FoodRoulette {
     const done = this.done;
     this.done = null;
     done();
+  }
+  release() {
+    if (this.busy) return;
+    cancelAnimationFrame(this.frame);
+    clearTimeout(this.landTimer);
+    this.frame = null;
+    this.landTimer = null;
+    this.done = null;
+    this.track.replaceChildren();
+    this.track.style.removeProperty('transform');
   }
 }

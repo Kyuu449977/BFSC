@@ -1,3 +1,4 @@
+const { openTools, clickTool } = require('./helpers/mobile-tools.cjs');
 const { chromium } = require('playwright'),
   assert = require('node:assert/strict'),
   http = require('node:http'),
@@ -137,7 +138,7 @@ const { chromium } = require('playwright'),
     await p.locator('#personalViewControl').click();
     await p.keyboard.press('Home');
     await p.keyboard.press('Enter');
-    await p.locator('#themeBtn').click();
+    await clickTool(p, 'themeBtn');
     await p.locator('[data-appearance-choice=dark]').click();
     await p.keyboard.press('Escape');
     await p.locator('#cravingInputControl').click();
@@ -148,7 +149,9 @@ const { chromium } = require('playwright'),
     await p.screenshot({ path: 'artifacts/custom-controls-dark.png' });
     await p.keyboard.press('Escape');
     assert.equal(await p.locator('button[title]').count(), 0);
+    await openTools(p);
     await p.locator('#themeBtn').scrollIntoViewIfNeeded();
+    await openTools(p);
     await p.locator('#themeBtn').focus();
     await p.keyboard.press('Tab');
     await p.keyboard.press('Tab');

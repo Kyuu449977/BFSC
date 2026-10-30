@@ -1,19 +1,23 @@
-/* Interaction choreography built with the vendored MIT-licensed Motion library. */
+/* Small, optional interaction choreography using the browser's Web Animations API. */
 const Experience = (() => {
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const active = new Set(),
     byElement = new WeakMap();
   function animate(element, frames, options = {}) {
-    if (!element || reduced.matches || document.hidden || !window.Motion?.animate) return;
+    if (!element || reduced.matches || document.hidden || typeof element.animate !== 'function')
+      return;
     const previous = byElement.get(element);
     if (previous) {
-      previous.stop();
+      previous.cancel();
       active.delete(previous);
     }
-    const control = Motion.animate(element, frames, {
-      duration: 0.28,
-      ease: [0.22, 1, 0.36, 1],
-      ...options,
+    const { ease, duration = 0.28, delay = 0, ...timing } = options;
+    const control = element.animate(frames, {
+      duration: duration * 1000,
+      delay: delay * 1000,
+      easing: typeof ease === 'string' ? ease : 'cubic-bezier(.22,1,.36,1)',
+      fill: 'both',
+      ...timing,
     });
     byElement.set(element, control);
     active.add(control);
@@ -25,7 +29,7 @@ const Experience = (() => {
           byElement.delete(element);
           element.style.removeProperty('opacity');
           element.style.removeProperty('transform');
-          control.cancel?.();
+          control.cancel();
         }
       });
     return control;
@@ -57,8 +61,10 @@ const Experience = (() => {
   }
   function stop() {
     active.forEach((control) => {
-      control.complete();
-      control.cancel?.();
+      try {
+        control.finish();
+      } catch (_) {}
+      control.cancel();
     });
     active.clear();
   }
