@@ -45,3 +45,5 @@ design-skills/sources/
 /tmp_download/
 /tmp_downloads/
 /tmp_chrome_*/
+*.bak
+*.tmp

@@ -4,6 +4,7 @@ PUBLIC_FILES = (
     'attribution.js',
     'app.js',
     'assets/brand.svg',
+    'assets/og-image.png',
     'assets/fonts/be-vietnam-pro-latin-400-normal.woff2',
     'assets/fonts/be-vietnam-pro-latin-600-normal.woff2',
     'assets/fonts/be-vietnam-pro-latin-700-normal.woff2',

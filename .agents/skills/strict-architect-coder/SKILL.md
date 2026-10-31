@@ -1,7 +1,6 @@
 ---
 name: strict-architect-coder
-description: >-
-  Universal Dual-Layer (Client-First + AI Technical Spec) planning, Graphify knowledge-graph context mapping, persistent project memory, product consulting, UI/UX auditing, surgical coding, and root-cause debugging skill for all AI coding agents. Use this skill whenever planning features (/plan), interviewing the user (/grill-me), exploring codebases (/graphify), writing or refactoring code, optimizing UI/UX flows, or debugging errors.
+description: Universal Dual-Layer (Client-First + AI Technical Spec) planning, Graphify knowledge-graph context mapping, persistent project memory, product consulting, UI/UX auditing, surgical coding, and root-cause debugging skill for all AI coding agents. Use this skill whenever planning features (/plan), interviewing the user (/grill-me), exploring codebases (/graphify), writing or refactoring code, optimizing UI/UX flows, or debugging errors.
 ---
 
 # Strict Architect & Spec-Driven Coder (Universal v4.0 — Auto-Pilot, Graphify & Persistent Memory Edition)

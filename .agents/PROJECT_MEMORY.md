@@ -122,3 +122,17 @@ Built local+fresh source-only export484files;45JS/34Python, redesign50/12, menu,
 
 ## 2026-10-31 — Git publication authorized
 User explicitly requested reviewing all changes then pushing after readiness caveats. Reviewed runtime/build/backend/data changes and classified historical cleanup. origin/main matched local HEAD before commit. Preparing full source/catalog/tests/docs/skills update, excluding ignored private data/build/artifacts/dependencies. Prior image-rights/root-license/live-ad caveats remain documented; no claim production release certified.
+
+## 2026-10-31 — Project cleanup and filter plan executed
+- User approved the cleanup plan.
+- Removed residual `.agents/skills/strict-architect-coder/SKILL.md.bak` and purged all `__pycache__` directories.
+- Updated `.gitignore` with `*.bak` and `*.tmp`.
+- Preserved 100% of core application code (`src/`, `backend/`, `api/`), launch interfaces (`server.py`, `run_server.py`, `build_public.py`, `CHAY_WEB_CHO_DIEN_THOAI.bat`), tests, docs, and multi-assistant rules.
+- Verified: 34 Python unit tests pass (100% OK), `python build_public.py` successfully generates `public/`.
+
+## 2026-10-31 — Social preview (OG image) and immutable cache optimization
+- Generated standard 1200x630 PNG `src/assets/og-image.png` with brand colors (#131B17 / #B94625).
+- Registered `assets/og-image.png` in `scripts/public_files.py` `PUBLIC_FILES`.
+- Updated `src/index.html` with explicit `og:image` PNG 1200x630 tags and `twitter:image`.
+- Added immutable Cache-Control headers (1 year) for `/assets/` and `/images/` in `vercel.json` and `netlify.toml`.
+- Verified: `python build_public.py` successfully generated `public/assets/og-image.png`; 34 Python unit tests passed (100% OK); git diff clean.
