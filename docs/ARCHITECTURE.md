@@ -41,11 +41,11 @@ Kiểm thử: `node tests/mobile-upgrade-browser.cjs`, hoặc `BFSC_TEST_ENGINE=
 
 ## CSS và build
 
-Nguồn CSS được ghép **đúng thứ tự** `base.css` → `interactions.css` → `mobile.css` → `refinements.css` → `themes.css` thành một `/style.css`. Không có `@import` gây thêm lượt tải. `base.css` chứa thành phần nền và quy tắc responsive ban đầu; `mobile.css` chứa bố cục mobile chi tiết, `refinements.css` chứa tinh chỉnh thị giác, `themes.css` chứa sáng/tối và màu người dùng.
+Nguồn CSS được ghép theo `STYLE_SOURCES` trong `scripts/public_files.py`: base → themes → interactions → refinements → mobile → mobile-upgrade. Không có `@import` gây thêm lượt tải. Quy tắc giao diện hiện hành nằm tại `DESIGN.md`.
 
 `python build_public.py` gọi `scripts/build_public.py`. Danh sách file xuất bản và ánh xạ nguồn nằm ở `scripts/public_files.py`. `/app.js` lấy từ `src/js/app.js`, `/style.css` được ghép từ `src/styles/`; các URL ảnh và tài nguyên giữ nguyên. Vì vậy không chạy server tĩnh trực tiếp từ `src/` hoặc gốc repository.
 
-Chỉ `public/` là đầu ra website. Build xóa file cũ không còn trong danh sách tại đầu ra, không đụng nguồn. Không sửa file trong `public/`. Thêm tài nguyên mới phải cập nhật `PUBLIC_FILES`. Build sinh `public/sw-assets.js` từ allowlist, `assets/attribution-data.js` từ báo cáo kiểm kê và phần credits món ăn từ cùng metadata; `src/sw.js` nạp manifest bằng `importScripts`, chia shell bắt buộc và tài nguyên tùy chọn. Không đưa API hay tài nguyên bên ngoài vào cache. Báo cáo `docs/reports/image-attribution-audit.json` bao phủ toàn bộ 382 ID; đây là kiểm tra cấu trúc metadata, không phải xác minh độc lập nguồn ngoài. Mục cần rà soát dùng placeholder cục bộ cho tới khi có hồ sơ đủ trường. Tăng phiên bản cache khi thay đổi hành vi cache.
+Chỉ `public/` là đầu ra website. Build xóa file cũ không còn trong danh sách tại đầu ra, không đụng nguồn. Không sửa file trong `public/`. Thêm tài nguyên mới phải cập nhật `PUBLIC_FILES`. Build sinh `public/sw-assets.js` từ allowlist, `assets/attribution-data.js` từ báo cáo kiểm kê và phần credits món ăn từ cùng metadata; `src/sw.js` nạp manifest bằng `importScripts`, chia shell bắt buộc và tài nguyên tùy chọn. Không đưa API hay tài nguyên bên ngoài vào cache. Báo cáo `docs/reports/image-attribution-audit.json` bao phủ toàn bộ 350 ID; đây là kiểm tra cấu trúc metadata, không phải xác minh độc lập nguồn ngoài. Mục cần rà soát dùng placeholder cục bộ cho tới khi có hồ sơ đủ trường. Tăng phiên bản cache khi thay đổi hành vi cache.
 
 ## Backend
 

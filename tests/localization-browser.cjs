@@ -232,7 +232,7 @@ async function assertNoVietnamese(page, scope = 'body') {
           });
           assert.deepEqual(leaks, [], `${file}/${language} legal text`);
           if (file === 'credits') {
-            assert.equal(await page.locator('[data-dish-id]').count(), 382);
+            assert.equal(await page.locator('[data-dish-id]').count(), 350);
             const names = await page.locator('[data-dish-id] > strong').allTextContents();
             assert.equal(
               names.some((name) => /[ĐđĂăƠơƯưẠ-ỹ]/u.test(name)),

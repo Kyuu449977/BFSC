@@ -1,0 +1,4589 @@
+{
+  "counts": {
+    "main": 39,
+    "snacks": 18,
+    "drinks": 73
+  },
+  "sourcePdfs": [
+    "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+    "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+    "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf"
+  ],
+  "entries": [
+    {
+      "group": "morning",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Pho tai lan",
+      "searchUrl": "https://www.bing.com/images/search?q=Pho+tai+lan",
+      "dish": {
+        "id": "sang_5_1",
+        "name": "Phở tái lăn",
+        "rarity": 5,
+        "type": "Món nước · bò xào",
+        "image": "images/catalog-20261031/sang_5_1.webp",
+        "desc": "Thịt bò xào lăn lửa lớn dậy mùi tỏi, gừng; chan nước dùng phở bò truyền thống thanh ngọt thơm ngát.",
+        "quote": "Bò xào lăn lửa lớn xém cạnh đậm đà, nước dùng thơm ngát quế hồi.",
+        "calories": 450,
+        "tags": [
+          "soup"
+        ],
+        "price": 55000,
+        "priceRange": [
+          45000,
+          70000
+        ],
+        "priceMin": 45000,
+        "priceMax": 70000
+      },
+      "image": {
+        "id": "sang_5_1",
+        "name": "Phở tái lăn",
+        "title": "Phở Tái lăn truyền thống",
+        "source": "https://phothinviet.vn/pho-tai-lan-truyen-thong",
+        "imageUrl": "https://bizweb.dktcdn.net/100/479/802/products/368215614-256189740643634-1555262302645533223-n.jpg?v=1708933239497",
+        "file": "images/catalog-20261031/sang_5_1.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "morning",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Bun bo Hue",
+      "searchUrl": "https://www.bing.com/images/search?q=Bun+bo+Hue",
+      "dish": {
+        "id": "sang_5_2",
+        "name": "Bún bò Huế",
+        "rarity": 5,
+        "type": "Món nước cay thơm",
+        "image": "images/catalog-20261031/sang_5_2.webp",
+        "desc": "Nước dùng ninh xương bò và mắm ruốc, thơm mùi sả ớt; ăn cùng bắp bò, giò heo và chả cua vàng ươm.",
+        "quote": "Mùi sả nồng nàn quyện ruốc Huế cay xé lưỡi, giò heo béo ngậy.",
+        "calories": 520,
+        "tags": [
+          "soup",
+          "spicy"
+        ],
+        "price": 50000,
+        "priceRange": [
+          40000,
+          65000
+        ],
+        "priceMin": 40000,
+        "priceMax": 65000
+      },
+      "image": {
+        "id": "sang_5_2",
+        "name": "Bún bò Huế",
+        "title": "Món ăn xứ Huế | Dân tộc và Phát triển",
+        "source": "https://dantocphattrien.vietnamnet.vn/mon-an-xu-hue-1743765532406.htm",
+        "imageUrl": "https://images.baodantoc.vn/uploads/2025/Thang-4/Ngay-4/Duy-Long/3t48.jpg",
+        "file": "images/catalog-20261031/sang_5_2.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "morning",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Banh mi chao",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+mi+chao",
+      "dish": {
+        "id": "sang_5_3",
+        "name": "Bánh mì chảo",
+        "rarity": 5,
+        "type": "Món chảo xèo xèo",
+        "image": "images/catalog-20261031/sang_5_3.webp",
+        "desc": "Chảo gang nóng hổi gồm trứng ốp la, pate thơm bùi, xúc xích, xíu mại và sốt tiêu đen sánh đậm đà chấm bánh mì.",
+        "quote": "Chảo gang bưng ra còn sôi xèo xèo, lòng đỏ trứng béo ngậy chấm bánh mì giòn tan.",
+        "calories": 580,
+        "tags": [],
+        "price": 45000,
+        "priceRange": [
+          35000,
+          60000
+        ],
+        "priceMin": 35000,
+        "priceMax": 60000
+      },
+      "image": {
+        "id": "sang_5_3",
+        "name": "Bánh mì chảo",
+        "title": "Bánh Mì Chảo: Bữa Sáng Năng Lượng, Thơm Ngon Nức Mũi Tại Nhà - Chuỗi siêu thị thực phẩm tươi ngon, chất lượng Kingfoodmart",
+        "source": "https://kingfoodmart.com/bai-viet/cong-thuc-nau-an/banh-mi-chao-thom-ngon",
+        "imageUrl": "https://storage.googleapis.com/onelife-public/blog.onelife.vn/2026/01/491a0563-banh-mi-chao-thom-ngon-1-700x525.jpg",
+        "file": "images/catalog-20261031/sang_5_3.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "morning",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Banh cuon",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+cuon",
+      "dish": {
+        "id": "sang_4_1",
+        "name": "Bánh cuốn",
+        "rarity": 4,
+        "type": "Bánh tráng hấp nóng",
+        "image": "images/catalog-20261031/sang_4_1.webp",
+        "desc": "Vỏ bánh tráng mỏng mềm mướt bọc nhân thịt băm mộc nhĩ nấm hương, rắc hành phi thơm nức ăn kèm chả lụa nước mắm chua ngọt.",
+        "quote": "Vỏ mỏng tang mềm mướt, hành phi giòn rụm thơm nức mũi.",
+        "calories": 380,
+        "tags": [
+          "light",
+          "mild"
+        ],
+        "price": 35000,
+        "priceRange": [
+          30000,
+          45000
+        ],
+        "priceMin": 30000,
+        "priceMax": 45000
+      },
+      "image": {
+        "id": "sang_4_1",
+        "name": "Bánh cuốn",
+        "title": "Unforgetable Street Food",
+        "source": "https://grandcititelhanoi.com/blog/hanoi-attractions/unforgetable-street-food.html",
+        "imageUrl": "https://grandcititelhanoi.com/UploadFile/Our-blog/Unforgetable-Street-Food/9-banh-cuon.jpg",
+        "file": "images/catalog-20261031/sang_4_1.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "morning",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Hu tieu Nam Vang",
+      "searchUrl": "https://www.bing.com/images/search?q=Hu+tieu+Nam+Vang",
+      "dish": {
+        "id": "sang_4_2",
+        "name": "Hủ tiếu Nam Vang",
+        "rarity": 4,
+        "type": "Hủ tiếu nước / khô",
+        "image": "images/catalog-20261031/sang_4_2.webp",
+        "desc": "Sợi hủ tiếu dai dai chan nước dùng xương hầm mực khô thanh ngọt, ăn cùng tôm tươi, gan heo, thịt băm và trứng cút.",
+        "quote": "Nước lèo ngọt thanh từ xương ống và tôm khô, sợi hủ tiếu dai mướt.",
+        "calories": 460,
+        "tags": [
+          "soup"
+        ],
+        "price": 45000,
+        "priceRange": [
+          40000,
+          55000
+        ],
+        "priceMin": 40000,
+        "priceMax": 55000
+      },
+      "image": {
+        "id": "sang_4_2",
+        "name": "Hủ tiếu Nam Vang",
+        "title": "Top 5 street foods in Ho Chi Minh city  | IndochinaCharmTours",
+        "source": "https://indochinacharmtours.com/blog/top-5-street-foods-in-ho-chi-minh-city.html",
+        "imageUrl": "https://indochinacharmtours.com/data/images/hu-tieu-nam-vang-tron-4c73077e-699a-4b5a-817d-81976a24d24b.jpg",
+        "file": "images/catalog-20261031/sang_4_2.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "morning",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Xoi xeo",
+      "searchUrl": "https://www.bing.com/images/search?q=Xoi+xeo",
+      "dish": {
+        "id": "sang_4_3",
+        "name": "Xôi xéo",
+        "rarity": 4,
+        "type": "Xôi nếp béo bùi",
+        "image": "images/catalog-20261031/sang_4_3.webp",
+        "desc": "Xôi nếp cái hoa vàng đồ nghệ vàng ươm, đậu xanh xắt lát mỏng mịn béo ngậy, rưới mỡ gà thơm nức và rắc hành phi giòn.",
+        "quote": "Đậu xanh thái mỏng mịn như lụa, mỡ gà vàng óng béo ngậy thơm nức.",
+        "calories": 420,
+        "tags": [
+          "rice"
+        ],
+        "price": 25000,
+        "priceRange": [
+          20000,
+          35000
+        ],
+        "priceMin": 20000,
+        "priceMax": 35000
+      },
+      "image": {
+        "id": "sang_4_3",
+        "name": "Xôi xéo",
+        "title": "Vì sao gọi là xôi xéo? Giải nghĩa tên gọi độc đáo của món xôi truyền thống",
+        "source": "https://www.bachhoaxanh.com/kinh-nghiem-hay/vi-sao-goi-la-xoi-xeo-giai-nghia-ten-goi-doc-dao-cua-mon-xoi-truyen-thong-1586010",
+        "imageUrl": "https://cdnv2.tgdd.vn/bhx-static/bhx/News/Images/2025/11/20/1586010/image1_202511201602157860.jpg",
+        "file": "images/catalog-20261031/sang_4_3.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "morning",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Banh mi pate",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+mi+pate",
+      "dish": {
+        "id": "sang_3_1",
+        "name": "Bánh mì pate",
+        "rarity": 3,
+        "type": "Bánh mì kẹp truyền thống",
+        "image": "images/catalog-20261031/sang_3_1.webp",
+        "desc": "Bánh mì nướng giòn rụm phết ngập pate gan béo bùi, chả lụa, bơ trứng gà, dưa leo ngò rí và sốt tương ớt chua ngọt cay nồng.",
+        "quote": "Pate thơm nức béo ngậy cắn ngập miệng trong ổ bánh mì nóng giòn rụm.",
+        "calories": 360,
+        "tags": [
+          "light"
+        ],
+        "price": 20000,
+        "priceRange": [
+          15000,
+          25000
+        ],
+        "priceMin": 15000,
+        "priceMax": 25000
+      },
+      "image": {
+        "id": "sang_3_1",
+        "name": "Bánh mì pate",
+        "title": "Top 19 Quán bánh mì ngon nhất Sài Gòn - toplist.vn",
+        "source": "https://toplist.vn/top-list/quan-banh-mi-ngon-nhat-sai-gon-4124.htm",
+        "imageUrl": "https://toplist.vn/images/800px/banh-mi-huynh-hoa-499048.jpg",
+        "file": "images/catalog-20261031/sang_3_1.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "morning",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Bun rieu cua",
+      "searchUrl": "https://www.bing.com/images/search?q=Bun+rieu+cua",
+      "dish": {
+        "id": "sang_3_2",
+        "name": "Bún riêu cua",
+        "rarity": 3,
+        "type": "Món bún chua thanh",
+        "image": "images/catalog-20261031/sang_3_2.webp",
+        "desc": "Tô bún riêu cua đồng thơm lừng mùi giấm bỗng chua thanh, gạch cua xốp mềm béo ngậy ăn cùng đậu rán, cà chua và rau sống.",
+        "quote": "Nước dùng chua dịu giấm bỗng, gạch cua béo ngậy tan ngay đầu lưỡi.",
+        "calories": 430,
+        "tags": [
+          "soup"
+        ],
+        "price": 35000,
+        "priceRange": [
+          30000,
+          45000
+        ],
+        "priceMin": 30000,
+        "priceMax": 45000
+      },
+      "image": {
+        "id": "sang_3_2",
+        "name": "Bún riêu cua",
+        "title": "Cách nấu bún riêu cua đặc biệt \"ăn là ghiền\"",
+        "source": "https://vinid.net/blog/cach-nau-bun-rieu-cua-dac-biet-an-la-ghien/",
+        "imageUrl": "https://cdn-www.vinid.net/337b1f74-cach-nau-bun-rieu-cua.jpg",
+        "file": "images/catalog-20261031/sang_3_2.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "morning",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Banh bao nhan thit",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+bao+nhan+thit",
+      "dish": {
+        "id": "sv_morning_banh_bao",
+        "name": "Bánh bao nhân thịt",
+        "rarity": 3,
+        "type": "Bánh hấp tiện lợi",
+        "image": "images/catalog-20261031/sv_morning_banh_bao.webp",
+        "desc": "Bánh bao bốc khói nghi ngút, vỏ bột xốp mềm thơm mùi sữa bọc nhân thịt heo băm mộc nhĩ nấm hương và hai quả trứng cút.",
+        "quote": "Cắn ngập chiếc bánh nóng hổi béo ngậy nhân thịt và trứng cút.",
+        "calories": 320,
+        "tags": [
+          "light"
+        ],
+        "price": 15000,
+        "priceRange": [
+          12000,
+          20000
+        ],
+        "priceMin": 12000,
+        "priceMax": 20000
+      },
+      "image": {
+        "id": "sv_morning_banh_bao",
+        "name": "Bánh bao nhân thịt",
+        "title": "Hướng dẫn chi tiết cách làm bánh bao nhân thịt để bán tại nhà thành công đúng vị",
+        "source": "https://memart.vn/tin-tuc/how-blog/huong-dan-chi-tiet-cach-lam-banh-bao-nhan-thit-de-ban-tai-nha-thanh-cong-dung-vi-vi-cb.html",
+        "imageUrl": "https://cdn-www.vinid.net/2019/12/Huong-dan-cach-lam-banh-bao-nhan-thit-ngon-me-ly.jpg",
+        "file": "images/catalog-20261031/sv_morning_banh_bao.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "morning",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Banh gio",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+gio",
+      "dish": {
+        "id": "sv_morning_banh_gio",
+        "name": "Bánh giò",
+        "rarity": 3,
+        "type": "Bánh lá hấp mềm mịn",
+        "image": "images/catalog-20261031/sv_morning_banh_gio.webp",
+        "desc": "Bánh bột gạo tẻ mềm mịn mướt bọc nhân thịt băm mộc nhĩ thơm nồng hạt tiêu đen, ăn cùng chả cốm hoặc giò lụa.",
+        "quote": "Bột bánh giò mềm mượt núng nính, nhân thịt băm đậm đà cay thơm mùi tiêu.",
+        "calories": 310,
+        "tags": [
+          "light"
+        ],
+        "price": 15000,
+        "priceRange": [
+          15000,
+          25000
+        ],
+        "priceMin": 15000,
+        "priceMax": 25000
+      },
+      "image": {
+        "id": "sv_morning_banh_gio",
+        "name": "Bánh giò",
+        "title": "Những món ngon Hải Phòng siêu hấp dẫn mà bạn không nên bỏ lỡ",
+        "source": "https://timchuyenbay.com/mon-ngon-hai-phong",
+        "imageUrl": "https://gmi.timchuyenbay.com/uploads/2019/08/banh-gio-600x400.jpg",
+        "file": "images/catalog-20261031/sv_morning_banh_gio.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "morning",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Banh uot",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+uot",
+      "dish": {
+        "id": "more_morning_banh_uot",
+        "name": "Bánh ướt",
+        "rarity": 3,
+        "type": "Bánh mỏng thanh nhẹ",
+        "image": "images/catalog-20261031/more_morning_banh_uot.webp",
+        "desc": "Từng lớp bánh ướt mỏng mềm mịn tráng tươi, ăn cùng chả lụa giòn sần sật, nem chua, giá đỗ chần, rau thơm và nước mắm chua ngọt.",
+        "quote": "Bánh ướt mềm thanh nhẹ ăn kèm chả quế thơm phức và nước mắm chua ngọt.",
+        "calories": 300,
+        "tags": [
+          "light",
+          "mild"
+        ],
+        "price": 25000,
+        "priceRange": [
+          20000,
+          35000
+        ],
+        "priceMin": 20000,
+        "priceMax": 35000
+      },
+      "image": {
+        "id": "more_morning_banh_uot",
+        "name": "Bánh ướt",
+        "title": "Top 9 Địa điểm bán bánh ướt ngon nhất Thừa Thiên Huế - toplist.vn",
+        "source": "https://toplist.vn/top-list/dia-diem-ban-banh-uot-ngon-nhat-o-hue-16470.htm",
+        "imageUrl": "https://toplist.vn/images/800px/banh-uot-nong-le-hong-phong-170590.jpg",
+        "file": "images/catalog-20261031/more_morning_banh_uot.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "morning",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Banh mi xiu mai",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+mi+xiu+mai",
+      "dish": {
+        "id": "more_morning_banh_mi_xiu_mai",
+        "name": "Bánh mì xíu mại",
+        "rarity": 3,
+        "type": "Bánh mì chấm nước súp",
+        "image": "images/catalog-20261031/more_morning_banh_mi_xiu_mai.webp",
+        "desc": "Chén nước súp xíu mại thơm lừng khói bốc nghi ngút, viên xíu mại thịt heo mềm mọng nước, da heo giòn béo chấm bánh mì nóng giòn.",
+        "quote": "Viên xíu mại mềm mọng tan trong miệng, nước súp cay nồng béo bùi.",
+        "calories": 420,
+        "tags": [
+          "light"
+        ],
+        "price": 25000,
+        "priceRange": [
+          20000,
+          35000
+        ],
+        "priceMin": 20000,
+        "priceMax": 35000
+      },
+      "image": {
+        "id": "more_morning_banh_mi_xiu_mai",
+        "name": "Bánh mì xíu mại",
+        "title": "Hướng dẫn cách làm xíu mại ăn bánh mì thơm ngon tại nhà",
+        "source": "https://vinid.net/blog/huong-dan-cach-lam-xiu-mai-an-banh-mi-thom-ngon-tai-nha/",
+        "imageUrl": "https://cdn-www.vinid.net/2020/03/c%C3%A1ch-l%C3%A0m-b%C3%A1nh-m%C3%AC-x%C3%ADu-m%E1%BA%A1i-vi%E1%BB%87t-nam-t%E1%BA%A1i-nh%C3%A0.jpg",
+        "file": "images/catalog-20261031/more_morning_banh_mi_xiu_mai.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "morning",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Banh uot long ga",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+uot+long+ga",
+      "dish": {
+        "id": "sang_banh_uot_long_ga",
+        "name": "Bánh ướt lòng gà",
+        "rarity": 4,
+        "type": "Đặc sản phố núi Đà Lạt",
+        "image": "images/catalog-20261031/sang_banh_uot_long_ga.webp",
+        "desc": "Bánh ướt tráng mềm mượt ăn kèm thịt gà ta xé phay giòn dai, lòng mề gà bùi bùi, trứng non vàng ươm và nước mắm chua ngọt cay xè.",
+        "quote": "Bánh ướt thanh mát hòa cùng thịt gà ta thả vườn giòn ngọt đậm vị cao nguyên.",
+        "calories": 440,
+        "tags": [],
+        "price": 40000,
+        "priceRange": [
+          35000,
+          50000
+        ],
+        "priceMin": 35000,
+        "priceMax": 50000
+      },
+      "image": {
+        "id": "sang_banh_uot_long_ga",
+        "name": "Bánh ướt lòng gà",
+        "title": "Địa chỉ 10 quán ăn ngon gần chợ đêm Đà Lạt | Viet Fun Travel",
+        "source": "https://www.vietfuntravel.com.vn/blog/dia-chi-nhung-quan-an-ngon-gan-cho-da-lat.html",
+        "imageUrl": "https://www.vietfuntravel.com.vn/image/data/Da-Lat/quan-an-gan-cho-da-lat/banh-uot-long-ga-da-lat.jpg",
+        "file": "images/catalog-20261031/sang_banh_uot_long_ga.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "lunch",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Com tam",
+      "searchUrl": "https://www.bing.com/images/search?q=Com+tam",
+      "dish": {
+        "id": "trua_5_1",
+        "name": "Cơm tấm",
+        "rarity": 5,
+        "type": "Cơm sườn nướng than hoa",
+        "image": "images/catalog-20261031/trua_5_1.webp",
+        "desc": "Hạt cơm tấm thơm dẻo ăn cùng miếng sườn cốt lết nướng than hoa vàng ruộm óng ả sốt ướp mật ong, chả trứng béo bùi và bì heo giòn.",
+        "quote": "Mùi khói sườn nướng than hoa thơm lừng góc phố, miếng sườn mọng nước mặn ngọt.",
+        "calories": 650,
+        "tags": [
+          "rice"
+        ],
+        "price": 50000,
+        "priceRange": [
+          40000,
+          65000
+        ],
+        "priceMin": 40000,
+        "priceMax": 65000
+      },
+      "image": {
+        "id": "trua_5_1",
+        "name": "Cơm tấm",
+        "title": "The Tastiest Food in Ho Chi Minh City: 10 Must-Try Dishes",
+        "source": "https://www.getyourguide.com/explorer/ho-chi-minh-ttd272/food-in-ho-chi-minh-city/",
+        "imageUrl": "https://cdn.bfldr.com/UTM69Z3S/at/8mvft9v8n66vs4knw7gfk73q/iStock-2169877344-LOW_RES.jpg?auto=webp&crop=3%3A2&quality=60&width=768",
+        "file": "images/catalog-20261031/trua_5_1.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "lunch",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Bun cha",
+      "searchUrl": "https://www.bing.com/images/search?q=Bun+cha",
+      "dish": {
+        "id": "trua_5_2",
+        "name": "Bún chả",
+        "rarity": 5,
+        "type": "Bún thịt nướng than Hà Nội",
+        "image": "images/catalog-20261031/trua_5_2.webp",
+        "desc": "Tô nước mắm pha chua ngọt ấm nóng thả những viên chả băm nướng xém cạnh, chả miếng ba chỉ nướng thơm lừng ăn cùng bún tươi và rau ghém.",
+        "quote": "Chả viên nướng xém thơm nức mũi mùi than củi, chấm ngập bún tươi lá tía tô.",
+        "calories": 540,
+        "tags": [],
+        "price": 50000,
+        "priceRange": [
+          40000,
+          60000
+        ],
+        "priceMin": 40000,
+        "priceMax": 60000
+      },
+      "image": {
+        "id": "trua_5_2",
+        "name": "Bún chả",
+        "title": "BUN CHA HUONG LIEN, Hanoi - Restaurant Reviews, Photos & Phone Number - Tripadvisor",
+        "source": "https://www.tripadvisor.com/Restaurant_Review-g293924-d8088661-Reviews-Bun_Cha_Huong_Lien-Hanoi.html",
+        "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/12/bf/ad/0d/photo1jpg.jpg",
+        "file": "images/catalog-20261031/trua_5_2.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "lunch",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Com ga xoi mo",
+      "searchUrl": "https://www.bing.com/images/search?q=Com+ga+xoi+mo",
+      "dish": {
+        "id": "trua_5_3",
+        "name": "Cơm gà xối mỡ",
+        "rarity": 5,
+        "type": "Cơm chiên gà da giòn",
+        "image": "images/catalog-20261031/trua_5_3.webp",
+        "desc": "Hạt cơm chiên đảo vàng ruộm tơi xốp ăn kèm góc đùi gà xối mỡ da giòn rụm màu cánh gián, thịt bên trong mềm ngọt mọng nước chấm nước tương ớt.",
+        "quote": "Miếng da gà xối mỡ giòn rôm rốp cắn đã miệng, cơm chiên vàng thơm phức.",
+        "calories": 680,
+        "tags": [
+          "rice"
+        ],
+        "price": 45000,
+        "priceRange": [
+          40000,
+          60000
+        ],
+        "priceMin": 40000,
+        "priceMax": 60000
+      },
+      "image": {
+        "id": "trua_5_3",
+        "name": "Cơm gà xối mỡ",
+        "title": "Cơm Gà Xối Mỡ 8102 - Đường Số 9",
+        "source": "https://www.momo.vn/page/9882269",
+        "imageUrl": "https://img.mservice.com.vn/common/u/2e02fb5fe4f64fb55bc713540643c6f8eae702d101cea8c59afc49cfc505fc37/9e672099-065d-4a19-8b96-90e79609619bnwf27vdx.jpeg",
+        "file": "images/catalog-20261031/trua_5_3.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "lunch",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Mi Quang",
+      "searchUrl": "https://www.bing.com/images/search?q=Mi+Quang",
+      "dish": {
+        "id": "trua_4_1",
+        "name": "Mì Quảng",
+        "rarity": 4,
+        "type": "Mì nước sệt đậm đà",
+        "image": "images/catalog-20261031/trua_4_1.webp",
+        "desc": "Sợi mì gạo cán dẹt vàng óng chan chút nước lèo tôm thịt hầm cô đặc đậm đà, ăn cùng tôm đất, trứng cút, đậu phộng rang và bánh tráng mè nướng.",
+        "quote": "Sợi mì gạo dai dai đẫm sốt tôm thịt sánh vàng, bẻ miếng bánh tráng mè giòn rụm.",
+        "calories": 490,
+        "tags": [
+          "soup"
+        ],
+        "price": 40000,
+        "priceRange": [
+          35000,
+          50000
+        ],
+        "priceMin": 35000,
+        "priceMax": 50000
+      },
+      "image": {
+        "id": "trua_4_1",
+        "name": "Mì Quảng",
+        "title": "Top 13 Quán mì Quảng nổi tiếng nhất thành phố Đà Nẵng - toplist.vn",
+        "source": "https://toplist.vn/top-list/quan-mi-quang-noi-tieng-nhat-thanh-pho-da-nang-2367.htm",
+        "imageUrl": "https://toplist.vn/images/800px/mi-quang-men-508532.jpg",
+        "file": "images/catalog-20261031/trua_4_1.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "lunch",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Bun thit nuong",
+      "searchUrl": "https://www.bing.com/images/search?q=Bun+thit+nuong",
+      "dish": {
+        "id": "trua_4_2",
+        "name": "Bún thịt nướng",
+        "rarity": 4,
+        "type": "Bún trộn sài gòn",
+        "image": "images/catalog-20261031/trua_4_2.webp",
+        "desc": "Tô bún tươi đầy đặn thịt heo nướng than mè thơm nức, chả giò giòn tan, mỡ hành xanh mướt, đậu phộng rang và đồ chua rưới nước mắm chua ngọt.",
+        "quote": "Thịt nướng thơm ngát mùi sả mè, chả giò giòn tan quyện mỡ hành béo ngậy.",
+        "calories": 530,
+        "tags": [],
+        "price": 45000,
+        "priceRange": [
+          35000,
+          55000
+        ],
+        "priceMin": 35000,
+        "priceMax": 55000
+      },
+      "image": {
+        "id": "trua_4_2",
+        "name": "Bún thịt nướng",
+        "title": "Bún thịt nướng bao nhiêu calo? Tips ăn ngon mà không lo tăng cân",
+        "source": "https://fptshop.com.vn/tin-tuc/dien-may/bun-thit-nuong-bao-nhieu-calo-184620",
+        "imageUrl": "https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/184620/Originals/Bun-thit-nuong-bao-nhieu-calo-4.jpg",
+        "file": "images/catalog-20261031/trua_4_2.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "lunch",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Banh canh",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+canh",
+      "dish": {
+        "id": "sv_lunch_banh_canh",
+        "name": "Bánh canh",
+        "rarity": 3,
+        "type": "Món nước sợi dai tròn",
+        "image": "images/catalog-20261031/sv_lunch_banh_canh.webp",
+        "desc": "Tô bánh canh sợi bột gạo mềm dai trong veo chan nước dùng súp cua hầm xương ngọt lịm, ăn cùng thịt cua, chả cá và khoanh giò heo.",
+        "quote": "Sợi bánh canh tròn mướt dẻo dai bơi trong nước lèo sền sệt ngọt thanh vị tôm cua.",
+        "calories": 440,
+        "tags": [
+          "soup"
+        ],
+        "price": 35000,
+        "priceRange": [
+          30000,
+          45000
+        ],
+        "priceMin": 30000,
+        "priceMax": 45000
+      },
+      "image": {
+        "id": "sv_lunch_banh_canh",
+        "name": "Bánh canh",
+        "title": "Những món Bánh canh tuyệt cú mèo mà bạn nhất định phải thử",
+        "source": "https://vncooking.com/bai-viet/nhung-mon-banh-canh-tuyet-cu-meo-ma-ban-nhat-dinh-phai-thu-55",
+        "imageUrl": "https://vncooking.com/files/common/2019/02/26/nhung-mon-banh-canh-tuyet-cu-meo-ma-ban-nhat-dinh-phai-thu-3vlgkqxo.jpg",
+        "file": "images/catalog-20261031/sv_lunch_banh_canh.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "lunch",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Bun mam",
+      "searchUrl": "https://www.bing.com/images/search?q=Bun+mam",
+      "dish": {
+        "id": "sv_lunch_bun_mam",
+        "name": "Bún mắm",
+        "rarity": 4,
+        "type": "Đặc sản miền Tây sông nước",
+        "image": "images/catalog-20261031/sv_lunch_bun_mam.webp",
+        "desc": "Tô bún mắm đậm đà mùi mắm cá linh cá sặc nức mũi, ăn cùng thịt heo quay giòn bì, tôm tươi, mực giòn, cà tím và rau đắng bông súng.",
+        "quote": "Hương mắm cá miền Tây nồng đượm khó cưỡng, ngập tràn hải sản và thịt heo quay.",
+        "calories": 550,
+        "tags": [
+          "soup"
+        ],
+        "price": 50000,
+        "priceRange": [
+          40000,
+          65000
+        ],
+        "priceMin": 40000,
+        "priceMax": 65000
+      },
+      "image": {
+        "id": "sv_lunch_bun_mam",
+        "name": "Bún mắm",
+        "title": "Bún Mắm Thiện Thành - Song Hành | Đặt Món & Giao ship tận nơi | shopeefood.vn",
+        "source": "https://shopeefood.vn/ho-chi-minh/bun-mam-thien-thanh-song-hanh",
+        "imageUrl": "https://mms.img.susercontent.com/vn-11134513-7r98o-lxchfwvuhlnf3b%40resize_ss640x400%21%40crop_w640_h400_cT",
+        "file": "images/catalog-20261031/sv_lunch_bun_mam.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "lunch",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Com chien thap cam",
+      "searchUrl": "https://www.bing.com/images/search?q=Com+chien+thap+cam",
+      "dish": {
+        "id": "more_lunch_com_chien",
+        "name": "Cơm chiên thập cẩm",
+        "rarity": 3,
+        "type": "Cơm chiên hạt tơi",
+        "image": "images/catalog-20261031/more_lunch_com_chien.webp",
+        "desc": "Cơm hạt tơi xốp rang vàng giòn đều tay cùng trứng gà, lạp xưởng Mai Quế Lộ, tôm khô, đậu hà lan ngọt và cà rốt xắt hạt lựu.",
+        "quote": "Từng hạt cơm vàng óng rực rỡ xào thơm nức mùi trứng và lạp xưởng truyền thống.",
+        "calories": 560,
+        "tags": [
+          "rice"
+        ],
+        "price": 35000,
+        "priceRange": [
+          30000,
+          45000
+        ],
+        "priceMin": 30000,
+        "priceMax": 45000
+      },
+      "image": {
+        "id": "more_lunch_com_chien",
+        "name": "Cơm chiên thập cẩm",
+        "title": "Cách làm cơm rang thập cẩm, vừa đẹp mắt lại ngon miệng",
+        "source": "https://phunumoi.net.vn/cach-lam-com-rang-thap-cam-vua-dep-mat-lai-ngon-mieng-d324875.html",
+        "imageUrl": "https://media.phunumoi.net.vn/resize/800x419/files/hvtoan/2024/12/31/471423871_550589981308897_268731194677011070_n-1019.jpg",
+        "file": "images/catalog-20261031/more_lunch_com_chien.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "lunch",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Bun ca Nha Trang",
+      "searchUrl": "https://www.bing.com/images/search?q=Bun+ca+Nha+Trang",
+      "dish": {
+        "id": "trua_bun_ca",
+        "name": "Bún cá Nha Trang",
+        "rarity": 4,
+        "type": "Bún cá thanh ngọt vị biển",
+        "image": "images/catalog-20261031/trua_bun_ca.webp",
+        "desc": "Bún cá nước trong veo nấu từ xương cá cờ ngọt lịm, chả cá thu chiên vàng dai giòn, sứa biển tươi giòn sần sật ăn kèm rau sống và ớt xiêm.",
+        "quote": "Nước dùng trong veo ngọt lịm từ cá biển, chả cá dai giòn không hề tanh.",
+        "calories": 420,
+        "tags": [],
+        "price": 45000,
+        "priceRange": [
+          35000,
+          55000
+        ],
+        "priceMin": 35000,
+        "priceMax": 55000
+      },
+      "image": {
+        "id": "trua_bun_ca",
+        "name": "Bún cá Nha Trang",
+        "title": "Top 8 quán bún cá Nha Trang ngon nức tiếng | Justfly.vn",
+        "source": "https://justfly.vn/discovery/vietnam/nha-trang/bun-ca",
+        "imageUrl": "https://cdn.justfly.vn/1920x1365/media/202303/21/1679396356-bun-ca-co-ba-nha-trang.jpg",
+        "file": "images/catalog-20261031/trua_bun_ca.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "afternoon",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Banh xeo",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+xeo",
+      "dish": {
+        "id": "chieu_5_1",
+        "name": "Bánh xèo",
+        "rarity": 5,
+        "type": "Bánh xèo giòn rụm",
+        "image": "images/catalog-20261031/chieu_5_1.webp",
+        "desc": "Vành bánh xèo to tròn mỏng tang màu vàng ươm giòn rụm, nhân ngập tôm đất, thịt ba chỉ, giá đỗ cuộn trọn trong lá cải xanh và rau rừng.",
+        "quote": "Tiếng xèo xèo vui tai trên chảo gang, vành bánh giòn tan cuộn ngập lá cải non.",
+        "calories": 520,
+        "tags": [],
+        "price": 45000,
+        "priceRange": [
+          35000,
+          60000
+        ],
+        "priceMin": 35000,
+        "priceMax": 60000
+      },
+      "image": {
+        "id": "chieu_5_1",
+        "name": "Bánh xèo",
+        "title": "Top 10 des meilleurs plats à déguster à Hô Chi Minh-Ville",
+        "source": "https://ilotustours.com/guide-meilleurs-plat-ho-chi-minh-ville",
+        "imageUrl": "https://cdn3130.cdn4s6.io.vn/media/anh-blog/ho-chi-minh/top-10-plats-hcm/banh-xeo.jpg",
+        "file": "images/catalog-20261031/chieu_5_1.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "afternoon",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Goi cuon",
+      "searchUrl": "https://www.bing.com/images/search?q=Goi+cuon",
+      "dish": {
+        "id": "chieu_5_2",
+        "name": "Gỏi cuốn",
+        "rarity": 5,
+        "type": "Món cuốn thanh mát",
+        "image": "images/catalog-20261031/chieu_5_2.webp",
+        "desc": "Bánh tráng mỏng cuộn tròn căng mọng tôm sú luộc đỏ au, thịt ba rọi mỏng mềm, bún tươi, hẹ xanh chấm ngập bát tương đen đậu phộng béo bùi.",
+        "quote": "Cuốn tôm thịt trong veo nhìn rõ sắc hồng của tôm, chấm đẫm tương bơ đậu phộng.",
+        "calories": 280,
+        "tags": [
+          "light",
+          "mild"
+        ],
+        "price": 30000,
+        "priceRange": [
+          25000,
+          40000
+        ],
+        "priceMin": 25000,
+        "priceMax": 40000
+      },
+      "image": {
+        "id": "chieu_5_2",
+        "name": "Gỏi cuốn",
+        "title": "Top 10 plats typiques au Vietnam: Un voyage culinaire inoubliable",
+        "source": "https://www.asiakingtravel.fr/blog/les-plats-typiques-au-vietnam.html",
+        "imageUrl": "https://www.asiakingtravel.fr/cuploads/files/les-plats-typiques-au-vietnam-3.jpg",
+        "file": "images/catalog-20261031/chieu_5_2.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "afternoon",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Banh khot",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+khot",
+      "dish": {
+        "id": "chieu_4_1",
+        "name": "Bánh khọt",
+        "rarity": 4,
+        "type": "Bánh nướng khuôn giòn",
+        "image": "images/catalog-20261031/chieu_4_1.webp",
+        "desc": "Từng chiếc bánh tròn nhỏ nướng giòn rụm trên khuôn đất nung, đặt con tôm tươi cong tớn, rắc bột tôm cháy và mỡ hành thơm nức.",
+        "quote": "Bánh khọt giòn rụm từ khuôn đất, cắn miếng tôm tươi giòn ngọt bùi.",
+        "calories": 420,
+        "tags": [],
+        "price": 40000,
+        "priceRange": [
+          35000,
+          50000
+        ],
+        "priceMin": 35000,
+        "priceMax": 50000
+      },
+      "image": {
+        "id": "chieu_4_1",
+        "name": "Bánh khọt",
+        "title": "South Vietnam map: Explore the best offerings of the region – VinWonders",
+        "source": "https://vinwonders.com/en/wonderpedia/news/south-vietnam-map/",
+        "imageUrl": "https://static.vinwonders.com/production/map-of-south-vietnam-9-768x614.jpg",
+        "file": "images/catalog-20261031/chieu_4_1.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "afternoon",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Bot chien",
+      "searchUrl": "https://www.bing.com/images/search?q=Bot+chien",
+      "dish": {
+        "id": "chieu_4_2",
+        "name": "Bột chiên",
+        "rarity": 4,
+        "type": "Bột chiên trứng giòn",
+        "image": "images/catalog-20261031/chieu_4_2.webp",
+        "desc": "Những khối bột gạo chiên cháy cạnh giòn tan trên chảo gang phẳng, đập thêm hai quả trứng gà vàng ươm, rắc hành lá ăn cùng đu đủ bào chua ngọt.",
+        "quote": "Miếng bột giòn rụm bên ngoài mềm dẻo bên trong quyện trứng gà béo ngậy.",
+        "calories": 460,
+        "tags": [],
+        "price": 35000,
+        "priceRange": [
+          30000,
+          45000
+        ],
+        "priceMin": 30000,
+        "priceMax": 45000
+      },
+      "image": {
+        "id": "chieu_4_2",
+        "name": "Bột chiên",
+        "title": "Cách Làm Món Bột Chiên của Hoàng Ngọc - Cookpad",
+        "source": "https://cookpad.com/vn/cong-thuc/15458155",
+        "imageUrl": "https://img-global.cpcdn.com/steps/67c1c8379218b464/400x400cq80/photo.jpg",
+        "file": "images/catalog-20261031/chieu_4_2.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "afternoon",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Banh bot loc",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+bot+loc",
+      "dish": {
+        "id": "chieu_3_1",
+        "name": "Bánh bột lọc",
+        "rarity": 3,
+        "type": "Bánh trần trong suốt",
+        "image": "images/catalog-20261031/chieu_3_1.webp",
+        "desc": "Lớp vỏ bột năng luộc chín trong suốt dai giòn nhìn thấu con tôm sông đỏ au và miếng thịt mỡ kho đậm đà, chấm nước mắm ớt cay xé lưỡi.",
+        "quote": "Vỏ bánh trong suốt dai giòn sần sật, cắn ngập con tôm đất thơm bùi.",
+        "calories": 320,
+        "tags": [
+          "light"
+        ],
+        "price": 30000,
+        "priceRange": [
+          25000,
+          40000
+        ],
+        "priceMin": 25000,
+        "priceMax": 40000
+      },
+      "image": {
+        "id": "chieu_3_1",
+        "name": "Bánh bột lọc",
+        "title": "Top 11 Loại bánh gói lá ngon đậm chất hương vị Việt Nam - toplist.vn",
+        "source": "https://toplist.vn/top-list/loai-banh-goi-la-ngon-dam-chat-huong-vi-viet-nam-12878.htm",
+        "imageUrl": "https://toplist.vn/images/800px/banh-bot-loc-1105515.jpg",
+        "file": "images/catalog-20261031/chieu_3_1.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "afternoon",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Sup cua",
+      "searchUrl": "https://www.bing.com/images/search?q=Sup+cua",
+      "dish": {
+        "id": "chieu_3_2",
+        "name": "Súp cua",
+        "rarity": 3,
+        "type": "Súp sền sệt bổ dưỡng",
+        "image": "images/catalog-20261031/chieu_3_2.webp",
+        "desc": "Bát súp nóng sánh đặc bốc khói đầy ắp thịt cua biển xé, trứng cút, bắp ngọt, nấm tuyết và nửa quả trứng bắc thảo béo ngậy ngập dầu mè tiêu đen.",
+        "quote": "Súp cua sánh mịn nóng bỏng tay, trứng bắc thảo béo bùi ăn lúc xế chiều cực đã.",
+        "calories": 290,
+        "tags": [
+          "soup",
+          "light",
+          "mild"
+        ],
+        "price": 35000,
+        "priceRange": [
+          30000,
+          45000
+        ],
+        "priceMin": 30000,
+        "priceMax": 45000
+      },
+      "image": {
+        "id": "chieu_3_2",
+        "name": "Súp cua",
+        "title": "5 cách nấu súp cua đơn giản tại nhà cực ngon không chảy nước",
+        "source": "https://eva.vn/bep-eva/cach-nau-sup-cua-ngon-don-gian-tai-nha-khong-bi-chay-nuoc-c162a519345.html",
+        "imageUrl": "https://image-us.eva.vn/upload/2-2022/images/2022-05-27/image12-1653641032-570-width900height681.jpg",
+        "file": "images/catalog-20261031/chieu_3_2.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "afternoon",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Banh can Da Lat",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+can+Da+Lat",
+      "dish": {
+        "id": "chieu_banh_can",
+        "name": "Bánh căn Đà Lạt",
+        "rarity": 4,
+        "type": "Bánh khuôn đất nung",
+        "image": "images/catalog-20261031/chieu_banh_can.webp",
+        "desc": "Cặp bánh nướng khuôn đất giòn xốp nhân trứng cút béo bùi, chấm chén xíu mại ngập mỡ hành và ớt cay thơm nức mùi phố núi.",
+        "quote": "Bánh căn giòn xốp nướng mộc mạc chấm ngập chén súp xíu mại cay nồng ấm bụng.",
+        "calories": 380,
+        "tags": [],
+        "price": 35000,
+        "priceRange": [
+          30000,
+          45000
+        ],
+        "priceMin": 30000,
+        "priceMax": 45000
+      },
+      "image": {
+        "id": "chieu_banh_can",
+        "name": "Bánh căn Đà Lạt",
+        "title": "Du Lịch Đà Lạt – Trải Nghiệm Thành Phố Ngàn Hoa Cùng Sim Du Lịch Việt Nam H2T",
+        "source": "https://simtour.vn/du-lich-da-lat-trai-nghiem-thanh-pho-ngan-hoa-cung-sim-du-lich-viet-nam-h2t",
+        "imageUrl": "https://simtour.vn/upload/images/banh-can-da-lat-1.jpg",
+        "file": "images/catalog-20261031/chieu_banh_can.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "afternoon",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Pha lau banh mi",
+      "searchUrl": "https://www.bing.com/images/search?q=Pha+lau+banh+mi",
+      "dish": {
+        "id": "sv_afternoon_pha_lau",
+        "name": "Phá lấu bánh mì",
+        "rarity": 4,
+        "type": "Đặc sản lòng hầm nước dừa",
+        "image": "images/catalog-20261031/sv_afternoon_pha_lau.webp",
+        "desc": "Chén phá lấu lòng bò nấu nước cốt dừa màu nâu cánh gián béo ngậy thơm nức ngũ vị hương, chấm bánh mì giòn tan ăn cùng nước tắc ớt chua cay.",
+        "quote": "Lòng bò ninh mềm giòn sần sật béo ngậy nước cốt dừa, chấm ngập bánh mì nóng.",
+        "calories": 480,
+        "tags": [],
+        "price": 35000,
+        "priceRange": [
+          30000,
+          45000
+        ],
+        "priceMin": 30000,
+        "priceMax": 45000
+      },
+      "image": {
+        "id": "sv_afternoon_pha_lau",
+        "name": "Phá lấu bánh mì",
+        "title": "10 món ngon tại Thành phố Hồ Chí Minh",
+        "source": "https://www.vietnamplus.vn/10-mon-ngon-ban-khong-nen-bo-lo-khi-den-thanh-pho-ho-chi-minh-dip-304-post1032064.vnp",
+        "imageUrl": "https://media.vietnamplus.vn/images/82aa36674f3fc88d0d2a750ac84ce33ab68b8e4fa91bde37714e2071676d00e41fb2a88797b720cdf99c04be0b3b8fb6/1804-pha-lau-bo.png",
+        "file": "images/catalog-20261031/sv_afternoon_pha_lau.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "dinner",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Lau cua dong bap bo",
+      "searchUrl": "https://www.bing.com/images/search?q=Lau+cua+dong+bap+bo",
+      "dish": {
+        "id": "toi_5_1",
+        "name": "Lẩu cua đồng bắp bò",
+        "rarity": 5,
+        "type": "Món ăn gia đình · nhóm nhỏ",
+        "image": "images/catalog-20261031/toi_5_1.webp",
+        "desc": "Nồi lẩu riêu cua đồng thơm lừng gạch cua béo ngậy, bắp bò tươi giòn, đậu rán vàng ươm và rau mồng tơi mướt xanh.",
+        "quote": "Nước lẩu riêu cua đồng chua thanh thơm ngậy, nhúng thịt bò hoa chuối ngon quên lối về.",
+        "calories": 520,
+        "tags": [],
+        "price": 90000,
+        "priceRange": [
+          75000,
+          120000
+        ],
+        "priceMin": 75000,
+        "priceMax": 120000
+      },
+      "image": {
+        "id": "toi_5_1",
+        "name": "Lẩu cua đồng bắp bò",
+        "title": "Lẩu Riêu Cua Bắp Bò Sườn Sụn Và Món Ăn Kèm Cho 4 Người Tại Nhà Hàng AT Restaurant Hà Nội",
+        "source": "https://www.hotdeal.vn/ha-noi/nha-hang-viet-nhat-han-thai/lau-rieu-cua-bap-bo-suon-sun-va-mon-an-kem-cho-4n-tai-nha-hang-at-restaurant-312994.html",
+        "imageUrl": "https://static.hotdeal.vn/images/1391/1391411/400x400/312994-lau-rieu-cua-bap-bo-suon-sun-va-mon-an-kem-cho-4n-tai-nha-hang-at-restaurant.jpg",
+        "file": "images/catalog-20261031/toi_5_1.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "dinner",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Bun dau mam tom",
+      "searchUrl": "https://www.bing.com/images/search?q=Bun+dau+mam+tom",
+      "dish": {
+        "id": "toi_5_2",
+        "name": "Bún đậu mắm tôm",
+        "rarity": 5,
+        "type": "Mẹt bún thập cẩm Hà Nội",
+        "image": "images/catalog-20261031/toi_5_2.webp",
+        "desc": "Mẹt bún lá cắt miếng, đậu mơ rán lướt ván giòn vỏ mềm ruột, chả cốm dẻo thơm, thịt chân giò luộc chấm bát mắm tôm đánh sủi bọt quất ớt cay nồng.",
+        "quote": "Bát mắm tôm đánh sủi bọt thơm lừng cay xè, miếng đậu mơ nóng giòn chấm ngập lối.",
+        "calories": 580,
+        "tags": [],
+        "price": 55000,
+        "priceRange": [
+          45000,
+          70000
+        ],
+        "priceMin": 45000,
+        "priceMax": 70000
+      },
+      "image": {
+        "id": "toi_5_2",
+        "name": "Bún đậu mắm tôm",
+        "title": "Combo Bún Đậu Mắm Tôm Đầy Đặn+ Bánh Tráng Cuốn Thịt Heo 2 Trà Sữa Hà Nội",
+        "source": "https://www.hotdeal.vn/ha-noi/an-uong/combo-bun-dau-mam-tom-day-danbanh-trang-cuon-thit-heo-02-tra-sua-thai-143377.html",
+        "imageUrl": "https://static.hotdeal.vn/images/683/683309/500x500/143377-combo-bun-dau-mam-tom-day-danbanh-trang-cuon-thit-heo-02-tra-sua-thai.jpg",
+        "file": "images/catalog-20261031/toi_5_2.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "dinner",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Bo nuong la lot",
+      "searchUrl": "https://www.bing.com/images/search?q=Bo+nuong+la+lot",
+      "dish": {
+        "id": "toi_5_3",
+        "name": "Bò nướng lá lốt",
+        "rarity": 5,
+        "type": "Món nướng than hoa thơm lừng",
+        "image": "images/catalog-20261031/toi_5_3.webp",
+        "desc": "Từng cuốn thịt bò băm tẩm ướp gia vị cuộn trong lá lốt bánh tẻ nướng than hoa xèo xèo thơm nức mũi, rắc đậu phộng mỡ hành cuộn bánh tráng rau sống.",
+        "quote": "Hương lá lốt nướng than củi ngào ngạt lan tỏa cả góc phố, chấm mắm nêm đậm đà.",
+        "calories": 510,
+        "tags": [],
+        "price": 65000,
+        "priceRange": [
+          50000,
+          80000
+        ],
+        "priceMin": 50000,
+        "priceMax": 80000
+      },
+      "image": {
+        "id": "toi_5_3",
+        "name": "Bò nướng lá lốt",
+        "title": "Mẹo nhỏ làm món bò nướng lá lốt thơm lừng không phải ai cũng biết",
+        "source": "https://www.thucphamchosach.com/meo-nho-lam-mon-bo-nuong-la-lot-thom-lung.html",
+        "imageUrl": "https://www.thucphamchosach.com/images/sotaynauan/0-1-bo-nuong-la-lot3.jpg",
+        "file": "images/catalog-20261031/toi_5_3.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "dinner",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Oc huong xao bo toi",
+      "searchUrl": "https://www.bing.com/images/search?q=Oc+huong+xao+bo+toi",
+      "dish": {
+        "id": "toi_4_1",
+        "name": "Ốc hương xào bơ tỏi",
+        "rarity": 4,
+        "type": "Hải sản xào thơm ngậy",
+        "image": "images/catalog-20261031/toi_4_1.webp",
+        "desc": "Từng con ốc hương tươi sống xào lửa lớn cùng bơ thơm ngậy, tỏi phi vàng giòn rụm và ớt sừng cay nhẹ, chấm bánh mì giòn tan ăn đêm.",
+        "quote": "Ốc hương giòn sần sật ngọt lịm đẫm sốt bơ tỏi sánh vàng quyến rũ.",
+        "calories": 420,
+        "tags": [],
+        "price": 70000,
+        "priceRange": [
+          55000,
+          90000
+        ],
+        "priceMin": 55000,
+        "priceMax": 90000
+      },
+      "image": {
+        "id": "toi_4_1",
+        "name": "Ốc hương xào bơ tỏi",
+        "title": "Cách chế biến ốc hương xào bơ tỏi SIÊU NGON, GIÒN, NGỌT",
+        "source": "https://haisanlocbien.vn/oc-huong-xao-bo-toi-1-2-266187.html",
+        "imageUrl": "https://cdn-img-v2.mybota.vn/uploadv2/web/16/16905/news/2021/08/05/09/34/1628171970_oc-huong-xao-bo.jpg",
+        "file": "images/catalog-20261031/toi_4_1.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "dinner",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Bo ne hoa thien ly",
+      "searchUrl": "https://www.bing.com/images/search?q=Bo+ne+hoa+thien+ly",
+      "dish": {
+        "id": "toi_4_2",
+        "name": "Bò né hoa thiên lý",
+        "rarity": 4,
+        "type": "Bò xào chảo gang nóng",
+        "image": "images/catalog-20261031/toi_4_2.webp",
+        "desc": "Miếng thịt bò mềm ngọt ướp tỏi xì dầu xào xèo xèo trên chảo gang cùng hoa thiên lý xanh mướt ngọt bùi, trứng ốp la lòng đào và bánh mì nóng.",
+        "quote": "Bò né xèo xèo khói nghi ngút, hoa thiên lý ngọt bùi chấm bánh mì giòn rụm.",
+        "calories": 540,
+        "tags": [],
+        "price": 55000,
+        "priceRange": [
+          45000,
+          70000
+        ],
+        "priceMin": 45000,
+        "priceMax": 70000
+      },
+      "image": {
+        "id": "toi_4_2",
+        "name": "Bò né hoa thiên lý",
+        "title": "2 cách làm bò né hoa thiên lý và rau càng cua lạ miệng ngon khó cưỡng",
+        "source": "https://www.dienmayxanh.com/vao-bep/2-cach-lam-bo-ne-hoa-thien-ly-va-me-la-mieng-vi-ngon-kho-09661",
+        "imageUrl": "https://cdn.tgdd.vn/2021/03/CookRecipe/Avatar/bo-ne-hoa-thien-ly-thumbnail.jpg",
+        "file": "images/catalog-20261031/toi_4_2.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "dinner",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Chao suon sun non",
+      "searchUrl": "https://www.bing.com/images/search?q=Chao+suon+sun+non",
+      "dish": {
+        "id": "toi_3_1",
+        "name": "Cháo sườn sụn non",
+        "rarity": 3,
+        "type": "Cháo bột xay mịn ấm bụng",
+        "image": "images/catalog-20261031/toi_3_1.webp",
+        "desc": "Bát cháo bột gạo xay ninh xương sánh mịn như kem, miếng sườn sụn non giòn sần sật ăn cùng quẩy giòn tan và ruốc thịt đậm đà rắc tiêu tía tô.",
+        "quote": "Bát cháo sườn sánh mịn bốc khói ấm bụng đêm đông, quẩy giòn ngập ngụa.",
+        "calories": 380,
+        "tags": [],
+        "price": 35000,
+        "priceRange": [
+          30000,
+          45000
+        ],
+        "priceMin": 30000,
+        "priceMax": 45000
+      },
+      "image": {
+        "id": "toi_3_1",
+        "name": "Cháo sườn sụn non",
+        "title": "Cách làm món cháo sườn sụn giòn sần sật",
+        "source": "https://giadinh.suckhoedoisong.vn/cach-lam-mon-chao-suon-sun-gion-san-sat-172210709101952276.htm",
+        "imageUrl": "https://giadinh.mediacdn.vn/296230595582509056/2021/7/9/photo-1-16258007122912017479220.jpg",
+        "file": "images/catalog-20261031/toi_3_1.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "dinner",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Lau bo nhung giam",
+      "searchUrl": "https://www.bing.com/images/search?q=Lau+bo+nhung+giam",
+      "dish": {
+        "id": "toi_lau_bo",
+        "name": "Lẩu bò nhúng giấm",
+        "rarity": 5,
+        "type": "Lẩu chua ngọt thanh mát",
+        "image": "images/catalog-20261031/toi_lau_bo.webp",
+        "desc": "Nồi nước dùng giấm gạo nấu nước dừa tươi thanh ngọt chua dịu điểm sả ớt, nhúng bắp bò hoa tươi tái mềm cuộn bánh tráng rau sống chấm mắm nêm.",
+        "quote": "Thịt bò bắp nhúng giấm vừa chín tới mềm ngọt mọng nước chấm mắm nêm cay xè.",
+        "calories": 560,
+        "tags": [],
+        "price": 85000,
+        "priceRange": [
+          70000,
+          110000
+        ],
+        "priceMin": 70000,
+        "priceMax": 110000
+      },
+      "image": {
+        "id": "toi_lau_bo",
+        "name": "Lẩu bò nhúng giấm",
+        "title": "Bò nhúng với giấm - Chuỗi siêu thị thực phẩm tươi ngon, chất lượng Kingfoodmart",
+        "source": "https://kingfoodmart.com/bai-viet/cong-thuc-nau-an/bo-nhung-voi-giam",
+        "imageUrl": "https://storage.googleapis.com/onelife-public/blog.onelife.vn/2021/10/cach-lam-bo-nhung-voi-giam-mon-chinh-165287336427.jpg",
+        "file": "images/catalog-20261031/toi_lau_bo.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "dinner",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Nem nuong Ninh Hoa",
+      "searchUrl": "https://www.bing.com/images/search?q=Nem+nuong+Ninh+Hoa",
+      "dish": {
+        "id": "toi_nem_nuong",
+        "name": "Nem nướng Ninh Hòa",
+        "rarity": 4,
+        "type": "Đặc sản Nha Trang",
+        "image": "images/catalog-20261031/toi_nem_nuong.webp",
+        "desc": "Từng thanh nem thịt nướng than hoa óng ả thơm nức, bánh tráng chiên giòn rụm cuộn cùng xoài xanh, dưa leo chấm bát nước sốt tương tôm nếp ấm nóng.",
+        "quote": "Nem nướng thơm lừng vị ngọt tự nhiên, nước chấm tương nếp tôm thịt vàng cam béo bùi.",
+        "calories": 490,
+        "tags": [],
+        "price": 50000,
+        "priceRange": [
+          40000,
+          65000
+        ],
+        "priceMin": 40000,
+        "priceMax": 65000
+      },
+      "image": {
+        "id": "toi_nem_nuong",
+        "name": "Nem nướng Ninh Hòa",
+        "title": "Nem Ninh Hòa Nha Trang: Sự Khác Biệt Giữa Nem Nướng & Nem Chua | Sun Kiss Hotel",
+        "source": "https://www.sunkisshotel.com/blogs/4190/nem-ninh-hoa-tu-vung-que-yen-binh-den-mon-ngon-pho-bien",
+        "imageUrl": "https://www.sunkisshotel.com/files/images/nemninhhoa.png",
+        "file": "images/catalog-20261031/toi_nem_nuong.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "dinner",
+      "pdf": "Danh Mục Hình Ảnh Món Chính (39 Món).pdf",
+      "query": "Bun bo gio heo Hue",
+      "searchUrl": "https://www.bing.com/images/search?q=Bun+bo+gio+heo+Hue",
+      "dish": {
+        "id": "more_dinner_bun_hen",
+        "name": "Bún bò giò heo Huế",
+        "rarity": 4,
+        "type": "Món bún cay thơm nồng",
+        "image": "images/catalog-20261031/more_dinner_bun_hen.webp",
+        "desc": "Tô bún bò cay thơm nồng sả ớt ruốc Huế, khoanh giò heo hầm mềm béo ngậy và chả cua vàng ươm chuẩn vị cố đô.",
+        "quote": "Khoanh giò heo ninh nhừ béo ngậy, nước súp cay nồng đậm đà sả ruốc.",
+        "calories": 550,
+        "tags": [],
+        "price": 50000,
+        "priceRange": [
+          40000,
+          65000
+        ],
+        "priceMin": 40000,
+        "priceMax": 65000
+      },
+      "image": {
+        "id": "more_dinner_bun_hen",
+        "name": "Bún bò giò heo Huế",
+        "title": "Cách nấu bún bò huế đơn giản tại nhà | Góc ẩm thực số 4",
+        "source": "https://banhkhome.com/cach-nau-bun-bo-hue-tai-nha",
+        "imageUrl": "https://banhkhome.com/uploads/images/nau-bun-bo-Hue-tai-nha.jpg",
+        "file": "images/catalog-20261031/more_dinner_bun_hen.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Banh trang tron",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+trang+tron",
+      "dish": {
+        "id": "vat_banh_trang_tron",
+        "name": "Bánh tráng trộn",
+        "rarity": 5,
+        "type": "Ăn vặt đường phố",
+        "image": "images/catalog-20261031/vat_banh_trang_tron.webp",
+        "desc": "Bánh tráng dẻo cắt sợi trộn đều cùng muối tôm Tây Ninh, khô bò đen, tép sấy, trứng cút, xoài băm, rau răm và rưới nước sốt tắc chua ngọt.",
+        "quote": "Chua cay mặn ngọt bùng nổ trong từng sợi bánh tráng thấm đẫm sốt khô bò.",
+        "calories": 320,
+        "tags": [],
+        "price": 25000,
+        "priceRange": [
+          20000,
+          35000
+        ],
+        "priceMin": 20000,
+        "priceMax": 35000
+      },
+      "image": {
+        "id": "vat_banh_trang_tron",
+        "name": "Bánh tráng trộn",
+        "title": "Nhà Lan - Bánh Tráng Trộn - Shop Online | Đặt Món & Giao ship tận nơi | shopeefood.vn",
+        "source": "https://shopeefood.vn/ho-chi-minh/nha-lan-banh-trang-tron-shop-online",
+        "imageUrl": "https://mms.img.susercontent.com/vn-11134513-7r98o-lsua5b06wptw84%40resize_ss1242x600%21%40crop_w1242_h600_cT",
+        "file": "images/catalog-20261031/vat_banh_trang_tron.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Banh trang nuong Da Lat",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+trang+nuong+Da+Lat",
+      "dish": {
+        "id": "vat_banh_trang_nuong",
+        "name": "Bánh tráng nướng Đà Lạt",
+        "rarity": 5,
+        "type": "Ăn vặt đường phố",
+        "image": "images/catalog-20261031/vat_banh_trang_nuong.webp",
+        "desc": "Được mệnh danh là pizza Việt Nam: nướng than hoa vàng giòn cùng trứng cút, hành hoa, phô mai, xúc xích và sốt bơ mayonnaise.",
+        "quote": "Vỏ bánh tráng mỏng tang giòn rụm, nhân trứng phô mai béo ngậy thơm nức mũi.",
+        "calories": 360,
+        "tags": [],
+        "price": 25000,
+        "priceRange": [
+          20000,
+          35000
+        ],
+        "priceMin": 20000,
+        "priceMax": 35000
+      },
+      "image": {
+        "id": "vat_banh_trang_nuong",
+        "name": "Bánh tráng nướng Đà Lạt",
+        "title": "12 quán bánh tráng nướng Đà Lạt ngon hút dân bản xứ & du khách – VinWonders",
+        "source": "https://vinwonders.com/vi/wonderpedia/news/banh-trang-nuong-da-lat/",
+        "imageUrl": "https://static.vinwonders.com/production/banh-trang-nuong-da-lat-8.jpg",
+        "file": "images/catalog-20261031/vat_banh_trang_nuong.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Banh trang cuon sot bo",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+trang+cuon+sot+bo",
+      "dish": {
+        "id": "vat_banh_trang_cuon_bo",
+        "name": "Bánh tráng cuộn sốt bơ",
+        "rarity": 4,
+        "type": "Ăn vặt đường phố",
+        "image": "images/catalog-20261031/vat_banh_trang_cuon_bo.webp",
+        "desc": "Bánh tráng phơi sương cuộn chặt tay với tép sấy, khô bò, trứng cút và ngập tràn sốt bơ dầu trứng vàng óng béo ngậy.",
+        "quote": "Từng cuốn bánh tráng đẫm sốt bơ trứng dẻo mịn khiến ai nấy đều mê mẩn.",
+        "calories": 380,
+        "tags": [],
+        "price": 25000,
+        "priceRange": [
+          20000,
+          30000
+        ],
+        "priceMin": 20000,
+        "priceMax": 30000
+      },
+      "image": {
+        "id": "vat_banh_trang_cuon_bo",
+        "name": "Bánh tráng cuộn sốt bơ",
+        "title": "Tổng hợp các loại bánh tráng ăn vặt, món ăn ngon nhanh cho mùa dịch",
+        "source": "https://www.dienmayxanh.com/vao-bep/tong-hop-cac-loai-banh-trang-an-vat-ngon-cho-ban-nham-nhi-09431",
+        "imageUrl": "https://cdn.tgdd.vn/2021/04/CookRecipe/Avatar/banh-trang-cuon-bo-thumbnail-1.jpg",
+        "file": "images/catalog-20261031/vat_banh_trang_cuon_bo.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Ca vien chien sot nuoc mam",
+      "searchUrl": "https://www.bing.com/images/search?q=Ca+vien+chien+sot+nuoc+mam",
+      "dish": {
+        "id": "vat_ca_vien_chien_mam",
+        "name": "Cá viên chiên sốt nước mắm",
+        "rarity": 5,
+        "type": "Ăn vặt đường phố",
+        "image": "images/catalog-20261031/vat_ca_vien_chien_mam.webp",
+        "desc": "Mẹt cá viên, bò viên, tôm viên, xúc xích và đậu bắp chiên phồng đảo sốt nước mắm tỏi ớt kẹo lại đậm đà thơm ngát.",
+        "quote": "Mùi tỏi ớt xào mắm kẹo thơm lừng phủ đều từng viên chả dai giòn sần sật.",
+        "calories": 420,
+        "tags": [],
+        "price": 35000,
+        "priceRange": [
+          25000,
+          50000
+        ],
+        "priceMin": 25000,
+        "priceMax": 50000
+      },
+      "image": {
+        "id": "vat_ca_vien_chien_mam",
+        "name": "Cá viên chiên sốt nước mắm",
+        "title": "3 phương pháp tạo ra cá viên chiên nước mắm ngon lành dành cho ăn vặt hoặc kèm cơm",
+        "source": "https://mytour.vn/vi/blog/bai-viet/3-phuong-phap-tao-ra-ca-vien-chien-nuoc-mam-ngon-lanh-danh-cho-an-vat-hoac-kem-com.html",
+        "imageUrl": "https://gcs.tripi.vn/public-tripi/tripi-feed/img/475972Sih/anh-mo-ta.png",
+        "file": "images/catalog-20261031/vat_ca_vien_chien_mam.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Chan ga sa tac chua cay",
+      "searchUrl": "https://www.bing.com/images/search?q=Chan+ga+sa+tac+chua+cay",
+      "dish": {
+        "id": "vat_chan_ga_sa_tac",
+        "name": "Chân gà sả tắc chua cay",
+        "rarity": 5,
+        "type": "Ăn vặt đường phố",
+        "image": "images/catalog-20261031/vat_chan_ga_sa_tac.webp",
+        "desc": "Chân gà rút xương ngâm ngập nước mắm chua ngọt, sả cây xắt lát, quất thơm lừng và ớt xiêm xanh giòn sần sật.",
+        "quote": "Vị giòn sần sật ngấm đều hương thơm sả tắc và vị chua cay đậm đà.",
+        "calories": 280,
+        "tags": [],
+        "price": 45000,
+        "priceRange": [
+          35000,
+          60000
+        ],
+        "priceMin": 35000,
+        "priceMax": 60000
+      },
+      "image": {
+        "id": "vat_chan_ga_sa_tac",
+        "name": "Chân gà sả tắc chua cay",
+        "title": "BẠCH TUỘC XOÀI CÓC - CHÂN GÀ NGÂM SẢ TẮC – Ăn vặt Zupy",
+        "source": "https://www.anvatzupy.com/products/bach-tuoc-xoai-coc-chan-ga-ngam-sa-tac",
+        "imageUrl": "https://product.hstatic.net/1000384853/product/342_c9d04e19a2a5460a85da316687d778f5_grande.jpg",
+        "file": "images/catalog-20261031/vat_chan_ga_sa_tac.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Banh mi nuong muoi ot",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+mi+nuong+muoi+ot",
+      "dish": {
+        "id": "vat_banh_mi_muoi_ot",
+        "name": "Bánh mì nướng muối ớt",
+        "rarity": 4,
+        "type": "Ăn vặt đường phố",
+        "image": "images/catalog-20261031/vat_banh_mi_muoi_ot.webp",
+        "desc": "Bánh mì cán dẹp quét muối ớt nướng than giòn rụm, phủ chà bông, xúc xích, mỡ hành, sốt bơ và mayonnaise ngậy béo.",
+        "quote": "Giòn tan rôm rốp cay mặn thơm nức từng miếng cắn.",
+        "calories": 310,
+        "tags": [],
+        "price": 20000,
+        "priceRange": [
+          15000,
+          25000
+        ],
+        "priceMin": 15000,
+        "priceMax": 25000
+      },
+      "image": {
+        "id": "vat_banh_mi_muoi_ot",
+        "name": "Bánh mì nướng muối ớt",
+        "title": "        | ecoeshop.vn",
+        "source": "https://ecoeshop.vn/blogs/chia-se/cach-lam-banh-mi-nuong-muoi-ot",
+        "imageUrl": "https://file.hstatic.net/200000438087/file/cach-lam-banh-mi-nuong-muoi-ot-1_6fa6a7d4fd4340f2b5dcff26d9c4b089_grande.jpg",
+        "file": "images/catalog-20261031/vat_banh_mi_muoi_ot.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Khoai lang lac pho mai",
+      "searchUrl": "https://www.bing.com/images/search?q=Khoai+lang+lac+pho+mai",
+      "dish": {
+        "id": "vat_khoai_lang_lac",
+        "name": "Khoai lang lắc phô mai",
+        "rarity": 4,
+        "type": "Ăn vặt đường phố",
+        "image": "images/catalog-20261031/vat_khoai_lang_lac.webp",
+        "desc": "Khoai lang mật vàng ươm cắt thanh chiên giòn rụm, lắc đều bột phô mai mặn ngọt béo thơm lừng khó cưỡng.",
+        "quote": "Vị ngọt bùi tự nhiên của khoai mật hòa quyện bột phô mai thơm ngậy.",
+        "calories": 320,
+        "tags": [],
+        "price": 25000,
+        "priceRange": [
+          20000,
+          35000
+        ],
+        "priceMin": 20000,
+        "priceMax": 35000
+      },
+      "image": {
+        "id": "vat_khoai_lang_lac",
+        "name": "Khoai lang lắc phô mai",
+        "title": "Top 8 Best Places to Enjoy Crispy Sweet Potato Fries in Da Nang - Mytour.vn",
+        "source": "https://mytour.vn/en/blog/bai-viet/top-8-best-spots-to-enjoy-crispy-sweet-potato-fries-in-da-nang-mytour.html",
+        "imageUrl": "https://img.tripi.vn/cdn-cgi/image/width%3D700%2Cheight%3D700/https%3A/gcs.tripi.vn/public-tripi/tripi-feed/img/481158hxe/anh-mo-ta.png",
+        "file": "images/catalog-20261031/vat_khoai_lang_lac.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Xoai non lac muoi tom chua cay",
+      "searchUrl": "https://www.bing.com/images/search?q=Xoai+non+lac+muoi+tom+chua+cay",
+      "dish": {
+        "id": "vat_xoai_lac",
+        "name": "Xoài non lắc muối tôm chua cay",
+        "rarity": 4,
+        "type": "Ăn vặt đường phố",
+        "image": "images/catalog-20261031/vat_xoai_lac.webp",
+        "desc": "Xoài keo non giòn tan thái miếng lắc cùng nước mắm đường cay kẹo và muối ớt tôm Tây Ninh siêu đã miệng.",
+        "quote": "Vị chua thanh mát lành bừng tỉnh từng nơron vị giác.",
+        "calories": 180,
+        "tags": [],
+        "price": 20000,
+        "priceRange": [
+          15000,
+          25000
+        ],
+        "priceMin": 15000,
+        "priceMax": 25000
+      },
+      "image": {
+        "id": "vat_xoai_lac",
+        "name": "Xoài non lắc muối tôm chua cay",
+        "title": "Cách làm xoài lắc muối tôm chua chua, giòn giòn, ngon ứa nước miếng",
+        "source": "https://www.24h.com.vn/am-thuc/xoai-lac-muoi-tom-chua-chua-gion-gion-ngon-ua-nuoc-mieng-c460a863829.html",
+        "imageUrl": "https://anh.24h.com.vn/upload/1-2017/images/2017-03-28/1490688865-giai-con-sot-mon-xoai-lac-muoi-tom-tai-nha-xoi-lac-muoi-tom--9--1458484150-width640height640.jpg",
+        "file": "images/catalog-20261031/vat_xoai_lac.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Coc bao tu lac muoi ot",
+      "searchUrl": "https://www.bing.com/images/search?q=Coc+bao+tu+lac+muoi+ot",
+      "dish": {
+        "id": "vat_coc_lac",
+        "name": "Cóc bao tử lắc muối ớt",
+        "rarity": 4,
+        "type": "Ăn vặt đường phố",
+        "image": "images/catalog-20261031/vat_coc_lac.webp",
+        "desc": "Cóc non giòn sần sật không hạt ngâm chua ngọt lắc cùng muối ớt hạt to đậm đà giòn rôm rốp.",
+        "quote": "Cắn một miếng cóc non giòn sần sật đã khát tan biến cảm giác buồn ngủ.",
+        "calories": 160,
+        "tags": [],
+        "price": 20000,
+        "priceRange": [
+          15000,
+          25000
+        ],
+        "priceMin": 15000,
+        "priceMax": 25000
+      },
+      "image": {
+        "id": "vat_coc_lac",
+        "name": "Cóc bao tử lắc muối ớt",
+        "title": "Cóc bao tử lắc muối ô mai, ớt siêu ngon cuối tuần",
+        "source": "https://eva.vn/bep-eva/coc-bao-tu-lac-muoi-o-mai-ot-sieu-ngon-cuoi-tuan-c162a263477.html",
+        "imageUrl": "https://cdn.eva.vn/upload/2-2016/images/2016-04-16/coc-bao-tu-lac-muoi-o-mai-ot-sieu-ngon-cuoi-tuan-img_0095-1460814167-width640height480.jpg",
+        "file": "images/catalog-20261031/vat_coc_lac.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Bap xao bo tep hanh",
+      "searchUrl": "https://www.bing.com/images/search?q=Bap+xao+bo+tep+hanh",
+      "dish": {
+        "id": "vat_bap_xao_bo",
+        "name": "Bắp xào bơ tép hành",
+        "rarity": 4,
+        "type": "Ăn vặt đường phố",
+        "image": "images/catalog-20261031/vat_bap_xao_bo.webp",
+        "desc": "Hạt bắp ngọt xào bơ béo ngậy cùng ruốc tép khô, hành lá và rưới tương ớt cay nhẹ nóng hổi trên chảo gang.",
+        "quote": "Mùi bơ ngào ngạt lan tỏa khắp góc phố mỗi chiều tan tầm.",
+        "calories": 330,
+        "tags": [],
+        "price": 20000,
+        "priceRange": [
+          15000,
+          30000
+        ],
+        "priceMin": 15000,
+        "priceMax": 30000
+      },
+      "image": {
+        "id": "vat_bap_xao_bo",
+        "name": "Bắp xào bơ tép hành",
+        "title": "Bắp nếp xào bơ - Chuỗi siêu thị thực phẩm tươi ngon, chất lượng Kingfoodmart",
+        "source": "https://kingfoodmart.com/bai-viet/cong-thuc-nau-an/bap-nep-xao-bo",
+        "imageUrl": "https://storage.googleapis.com/onelife-public/blog.onelife.vn/2021/10/cach-lam-bap-nep-xao-bo-mon-chinh-950370553581.jpg",
+        "file": "images/catalog-20261031/vat_bap_xao_bo.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Ga vien popcorn lac pho mai",
+      "searchUrl": "https://www.bing.com/images/search?q=Ga+vien+popcorn+lac+pho+mai",
+      "dish": {
+        "id": "vat_ga_lac_pho_mai",
+        "name": "Gà viên popcorn lắc phô mai",
+        "rarity": 4,
+        "type": "Ăn vặt đường phố",
+        "image": "images/catalog-20261031/vat_ga_lac_pho_mai.webp",
+        "desc": "Thịt ức gà tẩm ướp cắt miếng vừa miệng chiên vàng giòn rụm rồi lắc ngập bột phô mai mặn béo thơm lừng.",
+        "quote": "Từng viên gà giòn rụm bên ngoài mọng nước bên trong đượm vị phô mai.",
+        "calories": 390,
+        "tags": [],
+        "price": 35000,
+        "priceRange": [
+          30000,
+          45000
+        ],
+        "priceMin": 30000,
+        "priceMax": 45000
+      },
+      "image": {
+        "id": "vat_ga_lac_pho_mai",
+        "name": "Gà viên popcorn lắc phô mai",
+        "title": "Cách Làm Món Gà Viên Lắc Phomai Cho Bé của Trang Dilys - Cookpad",
+        "source": "https://cookpad.com/vn/cong-thuc/12207819",
+        "imageUrl": "https://img-global.cpcdn.com/recipes/49615bcabb1208fb/680x781cq80/ga-vien-l%E1%BA%AFc-phomai-cho-be-recipe-main-photo.jpg",
+        "file": "images/catalog-20261031/vat_ga_lac_pho_mai.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Banh ga pho mai tan chay",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+ga+pho+mai+tan+chay",
+      "dish": {
+        "id": "vat_banh_ga_pho_mai",
+        "name": "Bánh gà phô mai tan chảy",
+        "rarity": 4,
+        "type": "Ăn vặt đường phố",
+        "image": "images/catalog-20261031/vat_banh_ga_pho_mai.webp",
+        "desc": "Thịt gà băm nhuyễn tẩm ướp cuộn phô mai mozzarella chiên xù vàng ươm, cắn vào phô mai nóng hổi tan chảy béo ngậy.",
+        "quote": "Phô mai tan chảy tràn ngập bên trong vỏ gà chiên giòn rụm.",
+        "calories": 360,
+        "tags": [],
+        "price": 30000,
+        "priceRange": [
+          25000,
+          40000
+        ],
+        "priceMin": 25000,
+        "priceMax": 40000
+      },
+      "image": {
+        "id": "vat_banh_ga_pho_mai",
+        "name": "Bánh gà phô mai tan chảy",
+        "title": "Mẹ Việt ở Nhật chia sẻ cách làm bánh gà phô mai giòn rụm, thơm ngon khó cưỡng - Ẩm thực - Việt Giải Trí",
+        "source": "https://vietgiaitri.com/me-viet-o-nhat-chia-se-cach-lam-banh-ga-pho-mai-gion-rum-thom-ngon-kho-cuong-20221122i6758199/",
+        "imageUrl": "https://i.vietgiaitri.com/2022/11/22/me-viet-o-nhat-chia-se-cach-lam-banh-ga-pho-mai-gion-rum-thom-ngon-kho-cuong-85b-6758199.jpg",
+        "file": "images/catalog-20261031/vat_banh_ga_pho_mai.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Xien que nuong thap cam",
+      "searchUrl": "https://www.bing.com/images/search?q=Xien+que+nuong+thap+cam",
+      "dish": {
+        "id": "vat_xien_que_nuong",
+        "name": "Xiên que nướng thập cẩm",
+        "rarity": 4,
+        "type": "Ăn vặt đường phố",
+        "image": "images/catalog-20261031/vat_xien_que_nuong.webp",
+        "desc": "Đĩa xiên que nướng than hoa thơm nức: hồ lô nướng, xúc xích đức, nem lụi, chả cá chiên quết sốt mật ong thơm lừng.",
+        "quote": "Thơm lừng khói than hoa cùng vị ngọt đậm đà của xiên que nướng.",
+        "calories": 410,
+        "tags": [],
+        "price": 35000,
+        "priceRange": [
+          25000,
+          50000
+        ],
+        "priceMin": 25000,
+        "priceMax": 50000
+      },
+      "image": {
+        "id": "vat_xien_que_nuong",
+        "name": "Xiên que nướng thập cẩm",
+        "title": "ZHOU JI - Gà Giòn & Xiên Que - Trần Quốc Hoàn",
+        "source": "https://www.momo.vn/page/9840458",
+        "imageUrl": "https://img.mservice.com.vn/common/u/2e02fb5fe4f64fb55bc713540643c6f8eae702d101cea8c59afc49cfc505fc37/13f3848d-ec5b-47b3-be69-1f7e83f517fchvaztit5.jpg",
+        "file": "images/catalog-20261031/vat_xien_que_nuong.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Tokbokki pho mai sot cay Han",
+      "searchUrl": "https://www.bing.com/images/search?q=Tokbokki+pho+mai+sot+cay+Han",
+      "dish": {
+        "id": "vat_tokbokki_pho_mai",
+        "name": "Tokbokki phô mai sốt cay Hàn",
+        "rarity": 4,
+        "type": "Ăn vặt đường phố",
+        "image": "images/catalog-20261031/vat_tokbokki_pho_mai.webp",
+        "desc": "Bánh gạo dẻo dai sốt tương ớt gochujang đỏ rực thơm nồng, phủ ngập phô mai mozzarella kéo sợi và chả cá Hàn Quốc.",
+        "quote": "Vị cay nồng quyến rũ hòa tan cùng phô mai dẻo dai ấm nóng.",
+        "calories": 430,
+        "tags": [],
+        "price": 35000,
+        "priceRange": [
+          28000,
+          45000
+        ],
+        "priceMin": 28000,
+        "priceMax": 45000
+      },
+      "image": {
+        "id": "vat_tokbokki_pho_mai",
+        "name": "Tokbokki phô mai sốt cay Hàn",
+        "title": "Tokbokki - món ăn đường phố nổi tiếng của hàn quốc và ảnh hưởng đến cân nặng",
+        "source": "https://www.pharmacity.vn/tokbokki-mon-an-duong-pho-noi-tieng-cua-han-quoc-va-anh-huong-den-can-nang.htm",
+        "imageUrl": "https://production-cdn.pharmacity.io/digital/original/plain/blog/yYxaxJFX-tokbokki_bao_nhieu_calo_an_nhieu_co_tang_can_khong_2_cd36b0f645-scaled-1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAUYXZVMJM5QUYWSVO%2F20250513%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20250513T062705Z&X-Amz-Expires=600&X-Amz-Signature=510ec235361522ed58afa23849d81f78d15f014907b08bd900a07385e740b9ba&X-Amz-SignedHeaders=host",
+        "file": "images/catalog-20261031/vat_tokbokki_pho_mai.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Banh crepe sau rieng kem lanh",
+      "searchUrl": "https://www.bing.com/images/search?q=Banh+crepe+sau+rieng+kem+lanh",
+      "dish": {
+        "id": "vat_banh_crepe_sau_rieng",
+        "name": "Bánh crepe sầu riêng kem lạnh",
+        "rarity": 5,
+        "type": "Ăn vặt tráng miệng",
+        "image": "images/catalog-20261031/vat_banh_crepe_sau_rieng.webp",
+        "desc": "Vỏ bánh crepe lá dứa mềm mịn gói trọn cơm sầu riêng Ri6 tươi béo ngậy và lớp kem tươi thanh mát bồng bềnh.",
+        "quote": "Cắn ngập chân răng lớp sầu riêng thơm lừng béo ngậy mát lạnh.",
+        "calories": 380,
+        "tags": [],
+        "price": 35000,
+        "priceRange": [
+          25000,
+          45000
+        ],
+        "priceMin": 25000,
+        "priceMax": 45000
+      },
+      "image": {
+        "id": "vat_banh_crepe_sau_rieng",
+        "name": "Bánh crepe sầu riêng kem lạnh",
+        "title": "Sầu riêng đông lạnh 100g - Abby - Đồ làm bánh, nấu ăn và pha chế",
+        "source": "https://abby.vn/s/sau-rieng-dong-lanh-100g",
+        "imageUrl": "https://r2.web-work.4handy.vn/uploads/upload/2024/06/upload-38-1718262414590.png",
+        "file": "images/catalog-20261031/vat_banh_crepe_sau_rieng.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Kho ga la chanh cay gion",
+      "searchUrl": "https://www.bing.com/images/search?q=Kho+ga+la+chanh+cay+gion",
+      "dish": {
+        "id": "vat_kho_ga_la_chanh",
+        "name": "Khô gà lá chanh cay giòn",
+        "rarity": 4,
+        "type": "Ăn vặt đóng gói",
+        "image": "images/catalog-20261031/vat_kho_ga_la_chanh.webp",
+        "desc": "Thịt gà xé sợi sấy khô giòn đượm ớt cay nồng và lá chanh thơm ngát, món ăn vặt quốc dân của giới trẻ.",
+        "quote": "Cay cay ngọt ngọt thoang thoảng hương lá chanh ăn hoài không ngơi tay.",
+        "calories": 290,
+        "tags": [],
+        "price": 35000,
+        "priceRange": [
+          25000,
+          50000
+        ],
+        "priceMin": 25000,
+        "priceMax": 50000
+      },
+      "image": {
+        "id": "vat_kho_ga_la_chanh",
+        "name": "Khô gà lá chanh cay giòn",
+        "title": "khô gà lá chanh (gói 200g) – Bếp của Mẹ",
+        "source": "https://bepcuame.vn/products/kho-ga-la-chanh-goi-200g",
+        "imageUrl": "https://product.hstatic.net/1000221193/product/img_5525_bf5c9152eed84fefbd5b1ea9ce03bacc.jpg",
+        "file": "images/catalog-20261031/vat_kho_ga_la_chanh.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Kho bo den sot tac cay ngot",
+      "searchUrl": "https://www.bing.com/images/search?q=Kho+bo+den+sot+tac+cay+ngot",
+      "dish": {
+        "id": "vat_kho_bo_den",
+        "name": "Khô bò đen sốt tắc cay ngọt",
+        "rarity": 5,
+        "type": "Ăn vặt đường phố",
+        "image": "images/catalog-20261031/vat_kho_bo_den.webp",
+        "desc": "Khô bò đen dẻo dai tẩm gia vị ngũ vị hương rim sốt tắc chua ngọt, rắc đậu phộng rang và rau răm thơm lừng.",
+        "quote": "Món ăn vặt tuổi thơ gắn liền với những buổi chiều tan trường.",
+        "calories": 330,
+        "tags": [],
+        "price": 40000,
+        "priceRange": [
+          30000,
+          55000
+        ],
+        "priceMin": 30000,
+        "priceMax": 55000
+      },
+      "image": {
+        "id": "vat_kho_bo_den",
+        "name": "Khô bò đen sốt tắc cay ngọt",
+        "title": "Khô bò miếng sốt chanh - Conet Food",
+        "source": "https://conetfood.com/kho-bo-sot-chanh.html",
+        "imageUrl": "https://conetfood.com/datafiles/10-11-2023/16995872116827_bosotchanh.jpg",
+        "file": "images/catalog-20261031/vat_kho_bo_den.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "snacks",
+      "pdf": "Danh Mục Hình Ảnh Món Ăn Vặt (18 Món).pdf",
+      "query": "Ha cao chien gion giam tuong",
+      "searchUrl": "https://www.bing.com/images/search?q=Ha+cao+chien+gion+giam+tuong",
+      "dish": {
+        "id": "vat_ha_cao_chien",
+        "name": "Há cảo chiên giòn giấm tương",
+        "rarity": 4,
+        "type": "Ăn vặt đường phố",
+        "image": "images/catalog-20261031/vat_ha_cao_chien.webp",
+        "desc": "Há cảo nhân tôm thịt vỏ mỏng chiên ngập dầu giòn rụm, rắc hành phi và chấm tương đen pha giấm đỏ chua thanh.",
+        "quote": "Vỏ giòn tan bọc trọn nhân tôm thịt ngọt lịm chấm giấm đỏ đậm vị.",
+        "calories": 320,
+        "tags": [],
+        "price": 30000,
+        "priceRange": [
+          25000,
+          40000
+        ],
+        "priceMin": 25000,
+        "priceMax": 40000
+      },
+      "image": {
+        "id": "vat_ha_cao_chien",
+        "name": "Há cảo chiên giòn giấm tương",
+        "title": "Cuối tuần cả nhà quây quần làm há cảo chiên vừa vui vừa đầm ấm",
+        "source": "https://afamily.vn/cuoi-tuan-ca-nha-quay-quan-lam-ha-cao-chien-vua-vui-vua-dam-am-2018101311332028.chn",
+        "imageUrl": "https://afamilycdn.com/2018/10/13/ha-cao-chien-9-1539404402910610361653.jpg",
+        "file": "images/catalog-20261031/vat_ha_cao_chien.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Coca-Cola Original",
+      "searchUrl": "https://www.bing.com/images/search?q=Coca-Cola+Original",
+      "dish": {
+        "id": "nuoc_coca_original",
+        "name": "Coca-Cola Original",
+        "rarity": 3,
+        "type": "Nước ngọt có gas truyền thống",
+        "image": "images/catalog-20261031/nuoc_coca_original.webp",
+        "desc": "Vị cola nguyên bản kinh điển sủi bọt mát lạnh, mang lại cảm giác sảng khoái tức thì bừng tỉnh năng lượng.",
+        "quote": "Bật nắp lon mát lạnh, sủi bọt đã khát đánh tan cơn khát.",
+        "calories": 140,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 15000,
+        "priceRange": [
+          12000,
+          19500
+        ],
+        "priceMin": 12000,
+        "priceMax": 19500
+      },
+      "image": {
+        "id": "nuoc_coca_original",
+        "name": "Coca-Cola Original",
+        "title": "Coca Cola (330ml)",
+        "source": "https://www.dragonoriental.com/bebidas/170-coca-cola-330ml.html",
+        "imageUrl": "https://www.dragonoriental.com/967-large_default/coca-cola-330ml.jpg",
+        "file": "images/catalog-20261031/nuoc_coca_original.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Coca-Cola Zero Sugar",
+      "searchUrl": "https://www.bing.com/images/search?q=Coca-Cola+Zero+Sugar",
+      "dish": {
+        "id": "nuoc_coca_zero",
+        "name": "Coca-Cola Zero Sugar",
+        "rarity": 3,
+        "type": "Nước ngọt không calo",
+        "image": "images/catalog-20261031/nuoc_coca_zero.webp",
+        "desc": "Vị cola đậm đà sảng khoái trọn vẹn nhưng không đường, không calo, thích hợp cho người ăn kiêng và giữ dáng.",
+        "quote": "Thỏa mãn vị giác không lo calo, sảng khoái mát lạnh từng ngụm.",
+        "calories": 0,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 15000,
+        "priceRange": [
+          12000,
+          19500
+        ],
+        "priceMin": 12000,
+        "priceMax": 19500
+      },
+      "image": {
+        "id": "nuoc_coca_zero",
+        "name": "Coca-Cola Zero Sugar",
+        "title": "Coca-Cola ZERO SUGAR 375ml Can Single - Camperdown Cellars",
+        "source": "https://camperdowncellars.com.au/products/cokenosugarcansng",
+        "imageUrl": "https://camperdowncellars.com.au/cdn/shop/files/389-2-1_clipped_rev_1_1200x.png?v=1691472406",
+        "file": "images/catalog-20261031/nuoc_coca_zero.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Pepsi Cola Original",
+      "searchUrl": "https://www.bing.com/images/search?q=Pepsi+Cola+Original",
+      "dish": {
+        "id": "nuoc_pepsi_original",
+        "name": "Pepsi Cola Original",
+        "rarity": 3,
+        "type": "Nước ngọt có gas vị ngọt thanh",
+        "image": "images/catalog-20261031/nuoc_pepsi_original.webp",
+        "desc": "Vị ngọt đậm đà thanh mát đặc trưng với lớp gas sủi tăm mạnh mẽ, giải nhiệt cực đã trong những ngày oi bức.",
+        "quote": "Sự kết hợp hoàn hảo giữa vị ngọt thanh và độ ga bùng nổ.",
+        "calories": 150,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 15000,
+        "priceRange": [
+          12000,
+          19500
+        ],
+        "priceMin": 12000,
+        "priceMax": 19500
+      },
+      "image": {
+        "id": "nuoc_pepsi_original",
+        "name": "Pepsi Cola Original",
+        "title": "Gaseosa Pepsi Botella 600ml - Metro.pe",
+        "source": "https://www.metro.pe/gaseosa-pepsi-botella-600ml-2/p",
+        "imageUrl": "https://metroio.vtexassets.com/arquivos/ids/585099/Gaseosa-Pepsi-Botella-600ml-1-238297.jpg?v=638814477704700000",
+        "file": "images/catalog-20261031/nuoc_pepsi_original.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Pepsi Zero Calorie Chanh",
+      "searchUrl": "https://www.bing.com/images/search?q=Pepsi+Zero+Calorie+Chanh",
+      "dish": {
+        "id": "nuoc_pepsi_zero_chanh",
+        "name": "Pepsi Zero Calorie Chanh",
+        "rarity": 3,
+        "type": "Nước ngọt vị chanh không đường",
+        "image": "images/catalog-20261031/nuoc_pepsi_zero_chanh.webp",
+        "desc": "Vị cola không calo kết hợp cùng tinh dầu chanh vàng thơm nồng, sảng khoái nhân đôi và không lo tăng cân.",
+        "quote": "Chanh vàng the mát hòa quyện cùng cola sủi bọt mát lạnh.",
+        "calories": 0,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 15000,
+        "priceRange": [
+          12000,
+          19500
+        ],
+        "priceMin": 12000,
+        "priceMax": 19500
+      },
+      "image": {
+        "id": "nuoc_pepsi_zero_chanh",
+        "name": "Pepsi Zero Calorie Chanh",
+        "title": "\t\t\tSiêu thị Đức Thành",
+        "source": "https://sieuthiducthanh.com/nn-pepsi-lon-cao-330ml",
+        "imageUrl": "https://bizweb.dktcdn.net/100/469/765/products/pep.png?v=1670317802193",
+        "file": "images/catalog-20261031/nuoc_pepsi_zero_chanh.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "7Up Chanh Tu Nhien",
+      "searchUrl": "https://www.bing.com/images/search?q=7Up+Chanh+Tu+Nhien",
+      "dish": {
+        "id": "nuoc_7up",
+        "name": "7Up Chanh Tự Nhiên",
+        "rarity": 3,
+        "type": "Nước ngọt có gas hương chanh",
+        "image": "images/catalog-20261031/nuoc_7up.webp",
+        "desc": "Hương chanh tự nhiên thanh mát dịu nhẹ cùng độ ga sủi bọt lăn tăn, giúp thanh lọc cảm giác ngấy và giải nhiệt hiệu quả.",
+        "quote": "Chanh mát dịu dàng, từng ngụm mát lạnh xua tan oi nóng.",
+        "calories": 140,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 15000,
+        "priceRange": [
+          12000,
+          19500
+        ],
+        "priceMin": 12000,
+        "priceMax": 19500
+      },
+      "image": {
+        "id": "nuoc_7up",
+        "name": "7Up Chanh Tự Nhiên",
+        "title": "7UP 320ml – Lee's Coffee",
+        "source": "https://leescoffee.com.vn/products/7up-320ml",
+        "imageUrl": "https://product.hstatic.net/200000885783/product/31_9e38b3a8e07648e98fea0ac9b07b57bd.png",
+        "file": "images/catalog-20261031/nuoc_7up.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Sprite Vi Chanh",
+      "searchUrl": "https://www.bing.com/images/search?q=Sprite+Vi+Chanh",
+      "dish": {
+        "id": "nuoc_sprite",
+        "name": "Sprite Vị Chanh",
+        "rarity": 3,
+        "type": "Nước ngọt vị chanh sảng khoái",
+        "image": "images/catalog-20261031/nuoc_sprite.webp",
+        "desc": "Hương vị chanh sảng khoái mát lạnh bùng nổ ngay đầu lưỡi, thức uống quốc dân khi ăn kèm các món nướng và cay nóng.",
+        "quote": "Vị chanh chua ngọt sủi bọt, cân bằng hoàn hảo mọi bữa ăn đậm vị.",
+        "calories": 140,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 15000,
+        "priceRange": [
+          12000,
+          19500
+        ],
+        "priceMin": 12000,
+        "priceMax": 19500
+      },
+      "image": {
+        "id": "nuoc_sprite",
+        "name": "Sprite Vị Chanh",
+        "title": "\t\t\tSiêu thị Đức Thành",
+        "source": "https://sieuthiducthanh.com/nuoc-ngot-sprite-chai-pet-390ml",
+        "imageUrl": "https://bizweb.dktcdn.net/thumb/grande/100/469/765/products/a-1a8aa17d-5cf2-4b61-9b6e-fb1d72a3f02b.jpg",
+        "file": "images/catalog-20261031/nuoc_sprite.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Mirinda Soda Kem",
+      "searchUrl": "https://www.bing.com/images/search?q=Mirinda+Soda+Kem",
+      "dish": {
+        "id": "nuoc_mirinda_soda_kem",
+        "name": "Mirinda Soda Kem",
+        "rarity": 3,
+        "type": "Soda hương kem béo thơm",
+        "image": "images/catalog-20261031/nuoc_mirinda_soda_kem.webp",
+        "desc": "Hương kem soda béo ngọt thơm ngát kết hợp cùng ga sủi sảng khoái, màu xanh ngọc bích bắt mắt ngọt ngào tuổi thơ.",
+        "quote": "Hương vani kem béo ngọt ngào quyện cùng bọt gas mát rượi.",
+        "calories": 160,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 15000,
+        "priceRange": [
+          12000,
+          19500
+        ],
+        "priceMin": 12000,
+        "priceMax": 19500
+      },
+      "image": {
+        "id": "nuoc_mirinda_soda_kem",
+        "name": "Mirinda Soda Kem",
+        "title": "Mirinda Cream Soda 320ml (Vietnam)",
+        "source": "https://globalbiteco.com/products/mirinda-orange-320ml-vietnam-copy",
+        "imageUrl": "https://globalbiteco.com/cdn/shop/files/Mirinda-Cream-Soda-320ml.jpg?v=1741198077",
+        "file": "images/catalog-20261031/nuoc_mirinda_soda_kem.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Mirinda Cam",
+      "searchUrl": "https://www.bing.com/images/search?q=Mirinda+Cam",
+      "dish": {
+        "id": "nuoc_mirinda_cam",
+        "name": "Mirinda Cam",
+        "rarity": 3,
+        "type": "Nước ngọt hương cam bùng nổ",
+        "image": "images/catalog-20261031/nuoc_mirinda_cam.webp",
+        "desc": "Vị cam ngọt đậm thơm lừng bùng nổ với sắc cam rực rỡ, mang lại niềm vui tươi tắn cho mọi cuộc vui bè bạn.",
+        "quote": "Vị cam đậm đà ngọt mát, rạng rỡ từng khoảnh khắc giải lao.",
+        "calories": 160,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 15000,
+        "priceRange": [
+          12000,
+          19500
+        ],
+        "priceMin": 12000,
+        "priceMax": 19500
+      },
+      "image": {
+        "id": "nuoc_mirinda_cam",
+        "name": "Mirinda Cam",
+        "title": "Mirinda Orange Flavor Bottle 390ML/ 1.5L | BLUETHUNDER JOINT STOCK COMPANY",
+        "source": "https://z-bluethunder.com/mirinda-orange-flavor-bottle-390ml-1-5l",
+        "imageUrl": "https://bizweb.dktcdn.net/thumb/grande/100/447/200/products/253-094ef9b0-1e3a-4acd-b053-ca8f524dab77.png?v=1744264126700",
+        "file": "images/catalog-20261031/nuoc_mirinda_cam.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Fanta Huong Cam",
+      "searchUrl": "https://www.bing.com/images/search?q=Fanta+Huong+Cam",
+      "dish": {
+        "id": "nuoc_fanta_cam",
+        "name": "Fanta Hương Cam",
+        "rarity": 3,
+        "type": "Nước ngọt hương trái cây",
+        "image": "images/catalog-20261031/nuoc_fanta_cam.webp",
+        "desc": "Hương cam tươi vui nhộn sủi tăm lấp lánh, vị ngọt ngào dễ chịu hợp gu mọi lứa tuổi từ trẻ nhỏ tới người lớn.",
+        "quote": "Sắc cam tươi tắn, hương vị trái cây ngập tràn năng lượng.",
+        "calories": 150,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 15000,
+        "priceRange": [
+          12000,
+          19500
+        ],
+        "priceMin": 12000,
+        "priceMax": 19500
+      },
+      "image": {
+        "id": "nuoc_fanta_cam",
+        "name": "Fanta Hương Cam",
+        "title": "Fanta Cam 320ml  – VMD Foods",
+        "source": "https://www.vmde.com.vn/products/fanta-cam-320ml",
+        "imageUrl": "https://product.hstatic.net/200000874695/product/8935049501572-600x600_71ea8d1ea98444b79c6cd939a569f596_grande.jpg",
+        "file": "images/catalog-20261031/nuoc_fanta_cam.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Xa xi Chuong Duong",
+      "searchUrl": "https://www.bing.com/images/search?q=Xa+xi+Chuong+Duong",
+      "dish": {
+        "id": "nuoc_xa_xi_chuong_duong",
+        "name": "Xá xị Chương Dương",
+        "rarity": 3,
+        "type": "Hương xá xị thảo mộc truyền thống",
+        "image": "images/catalog-20261031/nuoc_xa_xi_chuong_duong.webp",
+        "desc": "Hương xá xị thảo mộc nồng nàn truyền thống lâu đời của đất Sài Gòn, dư vị cay ấm ngọt thanh không thể trộn lẫn.",
+        "quote": "Vị xá xị thảo mộc nồng nàn ký ức Sài Gòn xưa.",
+        "calories": 145,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 15000,
+        "priceRange": [
+          12000,
+          19500
+        ],
+        "priceMin": 12000,
+        "priceMax": 19500
+      },
+      "image": {
+        "id": "nuoc_xa_xi_chuong_duong",
+        "name": "Xá xị Chương Dương",
+        "title": " – Út Hiền Louisiane Seafood & Snacks",
+        "source": "https://www.tomkholouisiana.com/en/products/sa-x%E1%BB%8B-ch%C6%B0%C6%A1ng-d%C6%B0%C6%A1ng-chuong-duong-sa-xi-carbonated-soft-drink-330ml",
+        "imageUrl": "https://www.tomkholouisiana.com/cdn/shop/files/B532C363-F382-42E8-B13B-62D4F511DCF5.jpg?v=1764786809",
+        "file": "images/catalog-20261031/nuoc_xa_xi_chuong_duong.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Mirinda Xa xi",
+      "searchUrl": "https://www.bing.com/images/search?q=Mirinda+Xa+xi",
+      "dish": {
+        "id": "nuoc_mirinda_xa_xi",
+        "name": "Mirinda Xá xị",
+        "rarity": 3,
+        "type": "Xá xị sủi bọt đậm đà",
+        "image": "images/catalog-20261031/nuoc_mirinda_xa_xi.webp",
+        "desc": "Vị xá xị sủi bọt đậm đà hiện đại, the mát đầu lưỡi kích thích dịch vị và giải tỏa ngay cơn khát mùa hè.",
+        "quote": "Thơm cay nhẹ vị xá xị, ngọt mát và sảng khoái tới giọt cuối cùng.",
+        "calories": 150,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 15000,
+        "priceRange": [
+          12000,
+          19500
+        ],
+        "priceMin": 12000,
+        "priceMax": 19500
+      },
+      "image": {
+        "id": "nuoc_mirinda_xa_xi",
+        "name": "Mirinda Xá xị",
+        "title": "Mirinda Sarsi 320ml (Vietnam)",
+        "source": "https://globalbiteco.com/products/mirinda-cream-soda-320ml-vietnam-copy",
+        "imageUrl": "https://globalbiteco.com/cdn/shop/files/Mirinda-Sarsi-Can-320ml-Photoroom.png?v=1741204847",
+        "file": "images/catalog-20261031/nuoc_mirinda_xa_xi.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Red Bull Bo Huc",
+      "searchUrl": "https://www.bing.com/images/search?q=Red+Bull+Bo+Huc",
+      "dish": {
+        "id": "nuoc_red_bull",
+        "name": "Red Bull (Bò Húc)",
+        "rarity": 3,
+        "type": "Nước tăng lực năng lượng",
+        "image": "images/catalog-20261031/nuoc_red_bull.webp",
+        "desc": "Nước tăng lực lon vàng trứ danh chứa taurine và vitamin nhóm B, đánh thức sự tập trung và tiếp thêm sức mạnh bền bỉ.",
+        "quote": "Nạp năng lượng đỉnh cao, bứt phá mọi giới hạn làm việc và học tập.",
+        "calories": 180,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 18000,
+        "priceRange": [
+          14400,
+          23400
+        ],
+        "priceMin": 14400,
+        "priceMax": 23400
+      },
+      "image": {
+        "id": "nuoc_red_bull",
+        "name": "Red Bull (Bò Húc)",
+        "title": "Bò húc – VỊT 34",
+        "source": "https://vit34.vn/products/bo-huc",
+        "imageUrl": "https://product.hstatic.net/1000379753/product/a65e9caeb2b31fed46a2_cc1c9446f4f54d93bbd7740d5d43dc52_grande.jpg",
+        "file": "images/catalog-20261031/nuoc_red_bull.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Monster Energy",
+      "searchUrl": "https://www.bing.com/images/search?q=Monster+Energy",
+      "dish": {
+        "id": "nuoc_monster_energy",
+        "name": "Monster Energy",
+        "rarity": 3,
+        "type": "Nước tăng lực hương vị Mỹ",
+        "image": "images/catalog-20261031/nuoc_monster_energy.webp",
+        "desc": "Tăng lực phong cách Mỹ với hương vị mạnh mẽ bùng nổ, giúp giữ vững phong độ tỉnh táo suốt đêm dài.",
+        "quote": "Năng lượng bùng nổ mạnh mẽ cho những cú đêm tỉnh táo.",
+        "calories": 210,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 32000,
+        "priceRange": [
+          25600,
+          41600
+        ],
+        "priceMin": 25600,
+        "priceMax": 41600
+      },
+      "image": {
+        "id": "nuoc_monster_energy",
+        "name": "Monster Energy",
+        "title": "Wholesale venom energy drink for your store",
+        "source": "https://www.faire.com/discover/venom-energy-drink",
+        "imageUrl": "https://cdn.faire.com/fastly/ad4e32929cb5518ebc8c2fa95b30b0c6409d226bbcdfdf4db9cd5f55e6bf1471.webp?bg-color=FFFFFF&dpr=1&fit=crop&format=jpg&height=720&width=720",
+        "file": "images/catalog-20261031/nuoc_monster_energy.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Sting Dau tay Do",
+      "searchUrl": "https://www.bing.com/images/search?q=Sting+Dau+tay+Do",
+      "dish": {
+        "id": "nuoc_sting_dau",
+        "name": "Sting Dâu tây Đỏ",
+        "rarity": 3,
+        "type": "Nước tăng lực nhân sâm dâu",
+        "image": "images/catalog-20261031/nuoc_sting_dau.webp",
+        "desc": "Vị dâu tây ngọt thơm ngào ngạt kết hợp tinh chất nhân sâm và gas sủi bọt, nước uống biểu tượng giới trẻ học đường.",
+        "quote": "Sắc đỏ năng lượng, thơm nức mùi dâu tây quyện nhân sâm bổ dưỡng.",
+        "calories": 200,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 15000,
+        "priceRange": [
+          12000,
+          19500
+        ],
+        "priceMin": 12000,
+        "priceMax": 19500
+      },
+      "image": {
+        "id": "nuoc_sting_dau",
+        "name": "Sting Dâu tây Đỏ",
+        "title": "Nước tăng lực Sting dâu đỏ chai 330 ml – Chuỗi Tạp Hóa Việt - Chuyên Sỉ Và Lẻ",
+        "source": "https://www.webtaphoa.vn/products/nuoc-tang-luc-sting-dau-do-chai-330-ml",
+        "imageUrl": "https://product.hstatic.net/1000288770/product/n__c_t_ng_l_c_sting_d_u_d__chai_330_ml_1.jpg",
+        "file": "images/catalog-20261031/nuoc_sting_dau.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Nuoc bu khoang Revive",
+      "searchUrl": "https://www.bing.com/images/search?q=Nuoc+bu+khoang+Revive",
+      "dish": {
+        "id": "nuoc_revive",
+        "name": "Nước bù khoáng Revive",
+        "rarity": 3,
+        "type": "Nước thể thao bù điện giải",
+        "image": "images/catalog-20261031/nuoc_revive.webp",
+        "desc": "Bổ sung nước, muối khoáng và các vitamin thiết yếu bị hao hụt khi vận động, giúp cơ thể lấy lại cân bằng tức thì.",
+        "quote": "Cấp nước và muối khoáng thần tốc, tái tạo sức sống cho cơ thể.",
+        "calories": 90,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 15000,
+        "priceRange": [
+          12000,
+          19500
+        ],
+        "priceMin": 12000,
+        "priceMax": 19500
+      },
+      "image": {
+        "id": "nuoc_revive",
+        "name": "Nước bù khoáng Revive",
+        "title": "Nước bù khoáng Revive chai 500ml - AEONESHOP",
+        "source": "https://aeoneshop.com/product/4009/nuoc-uong-bu-khoang-co-gas",
+        "imageUrl": "https://catalog-assets-asia-southeast1.aeon-vn-prod.e.spresso.com/c3RvcmFnZS5nb29nbGVhcGlzLmNvbQ%3D%3D/YWVvbnZpZXRuYW0tc3ByZXNzby1wdWJsaWM%3D/Rk9PRExJTkUgMjAyNA%3D%3D/QVBS/MDExOTgxOTUgKDEp.PNG",
+        "file": "images/catalog-20261031/nuoc_revive.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra sua Hong tra Truyen thong",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+sua+Hong+tra+Truyen+thong",
+      "dish": {
+        "id": "nuoc_tra_sua_truyen_thong",
+        "name": "Trà sữa Hồng trà Truyền thống",
+        "rarity": 4,
+        "type": "Hồng trà sữa cổ điển",
+        "image": "images/catalog-20261031/nuoc_tra_sua_truyen_thong.webp",
+        "desc": "Cốt hồng trà đen tuyển chọn ủ đậm vị hòa quyện cùng sữa béo thơm mịn, hương vị chuẩn mực của mọi tín đồ trà sữa.",
+        "quote": "Vị chát dịu của hồng trà đượm mùi sữa béo ngọt ngào khó quên.",
+        "calories": 320,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 35000,
+        "priceRange": [
+          28000,
+          45500
+        ],
+        "priceMin": 28000,
+        "priceMax": 45500
+      },
+      "image": {
+        "id": "nuoc_tra_sua_truyen_thong",
+        "name": "Trà sữa Hồng trà Truyền thống",
+        "title": "Cách làm trà sữa truyền thống đốn tim khách hàng - Trà Chính Sơn",
+        "source": "https://trachinhson.com/blogs/horeca/tra-sua-truyen-thong",
+        "imageUrl": "https://file.hstatic.net/1000135323/file/tra-olong-sua-chan-trau_087ab955cbbb4a0188eebcd8f3de2a6e_1024x1024.jpg",
+        "file": "images/catalog-20261031/nuoc_tra_sua_truyen_thong.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra sua O Long Dam Vi",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+sua+O+Long+Dam+Vi",
+      "dish": {
+        "id": "nuoc_tra_sua_oolong",
+        "name": "Trà sữa Ô Long Đậm Vị",
+        "rarity": 4,
+        "type": "Trà sữa Oolong rang thơm",
+        "image": "images/catalog-20261031/nuoc_tra_sua_oolong.webp",
+        "desc": "Hương trà ô long rang lửa sâu đượm khói, hậu vị ngọt sâu lưu luyến kết hợp sữa tươi thanh béo trang nhã.",
+        "quote": "Hương khói ô long thanh tao hòa cùng vị sữa béo êm dịu.",
+        "calories": 300,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 38000,
+        "priceRange": [
+          30400,
+          49400
+        ],
+        "priceMin": 30400,
+        "priceMax": 49400
+      },
+      "image": {
+        "id": "nuoc_tra_sua_oolong",
+        "name": "Trà sữa Ô Long Đậm Vị",
+        "title": "Honeylla - Trà Sữa Olong Rang - Bà Hom ở Quận 6, TP. HCM | Foody.vn",
+        "source": "https://www.foody.vn/ho-chi-minh/honeylla-tra-sua-olong-rang-ba-hom",
+        "imageUrl": "https://down-vn.img.susercontent.com/vn-11134259-7r98o-lw9o0gfnw7ob17",
+        "file": "images/catalog-20261031/nuoc_tra_sua_oolong.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra sua Hoa Lai Jasmine",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+sua+Hoa+Lai+Jasmine",
+      "dish": {
+        "id": "nuoc_tra_sua_lai",
+        "name": "Trà sữa Hoa Lài (Jasmine)",
+        "rarity": 3,
+        "type": "Trà sữa hương hoa lài",
+        "image": "images/catalog-20261031/nuoc_tra_sua_lai.webp",
+        "desc": "Hương hoa lài thanh khiết thoang thoảng dịu nhẹ trên nền trà xanh tinh túy quyện sữa non mịn màng.",
+        "quote": "Thơm ngát hương hoa lài sớm mai, nhẹ bụng và thanh mát vị giác.",
+        "calories": 280,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 35000,
+        "priceRange": [
+          28000,
+          45500
+        ],
+        "priceMin": 28000,
+        "priceMax": 45500
+      },
+      "image": {
+        "id": "nuoc_tra_sua_lai",
+        "name": "Trà sữa Hoa Lài (Jasmine)",
+        "title": "Coconut oil powder healthy milk tea, bubble tea, latte companion",
+        "source": "https://vonive.com.cn/products/coconut-oil-powder",
+        "imageUrl": "https://img-va.myshopline.com/image/store/1697439863327/63d466b1f97644a3b51d15bd89ce47d6.jpeg?h=1147&w=1000",
+        "file": "images/catalog-20261031/nuoc_tra_sua_lai.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra sua Thiet Quan Am",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+sua+Thiet+Quan+Am",
+      "dish": {
+        "id": "nuoc_tra_sua_thiet_quan_am",
+        "name": "Trà sữa Thiết Quan Âm",
+        "rarity": 3,
+        "type": "Trà sữa danh trà Đài Loan",
+        "image": "images/catalog-20261031/nuoc_tra_sua_thiet_quan_am.webp",
+        "desc": "Dòng trà danh bất hư truyền với hương hoa lan tự nhiên và độ đậm trà vượt trội, mang đến trải nghiệm trà sữa đỉnh cao.",
+        "quote": "Đậm đà phong vị trà đạo kết hợp sữa béo thượng hạng.",
+        "calories": 310,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 40000,
+        "priceRange": [
+          32000,
+          52000
+        ],
+        "priceMin": 32000,
+        "priceMax": 52000
+      },
+      "image": {
+        "id": "nuoc_tra_sua_thiet_quan_am",
+        "name": "Trà sữa Thiết Quan Âm",
+        "title": "CÔNG THỨC PHA CHẾ TRÀ SỮA THIẾT QUAN ÂM – CHi Gourmet Store",
+        "source": "https://nguyenlieuphache.vn/blogs/cong-thuc-pha-che/cong-thuc-pha-che-tra-sua-thiet-quan-am?srsltid=AfmBOoqFxe6n1VkHIIC4cdePabyLeYEbKsSxkC8eUuzLpCoSgHmnnUoP",
+        "imageUrl": "https://file.hstatic.net/1000220639/file/thumb_1_977d0ea5df0246ef9c2b05a892bf1caf_grande.png",
+        "file": "images/catalog-20261031/nuoc_tra_sua_thiet_quan_am.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra sua Ba Tuoc Earl Grey",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+sua+Ba+Tuoc+Earl+Grey",
+      "dish": {
+        "id": "nuoc_tra_sua_earl_grey",
+        "name": "Trà sữa Bá Tước Earl Grey",
+        "rarity": 3,
+        "type": "Trà sữa hương cam Bergamot",
+        "image": "images/catalog-20261031/nuoc_tra_sua_earl_grey.webp",
+        "desc": "Cốt hồng trà Anh Quốc ướp hương tinh dầu cam Bergamot tinh tế chuẩn vị quý tộc châu Âu, thanh lịch và quý phái.",
+        "quote": "Hương cam Bergamot quý tộc thơm lừng quyện cùng sữa tươi béo mịn.",
+        "calories": 290,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 42000,
+        "priceRange": [
+          33600,
+          54600
+        ],
+        "priceMin": 33600,
+        "priceMax": 54600
+      },
+      "image": {
+        "id": "nuoc_tra_sua_earl_grey",
+        "name": "Trà sữa Bá Tước Earl Grey",
+        "title": "Kafela Coffee: Tinh hoa cà phê đặc sản Việt Nam | Xanh SM",
+        "source": "https://www.xanhsm.com/news/kafela-coffee-ha-noi",
+        "imageUrl": "https://cdn.xanhsm.com/2025/01/f2140228-kafela-coffee-6.jpg",
+        "file": "images/catalog-20261031/nuoc_tra_sua_earl_grey.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra sua Thai Do",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+sua+Thai+Do",
+      "dish": {
+        "id": "nuoc_tra_sua_thai_do",
+        "name": "Trà sữa Thái Đỏ",
+        "rarity": 3,
+        "type": "Trà sữa Thái thơm thảo mộc",
+        "image": "images/catalog-20261031/nuoc_tra_sua_thai_do.webp",
+        "desc": "Hương trà Thái đỏ nồng nàn thảo mộc quế hồi quyện sữa đặc béo ngậy, sắc cam cam rực rỡ mang phong vị đường phố Bangkok.",
+        "quote": "Hương hồi quế ấm nồng hòa cùng vị sữa đặc béo ngậy.",
+        "calories": 310,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 28000,
+        "priceRange": [
+          22400,
+          36400
+        ],
+        "priceMin": 22400,
+        "priceMax": 36400
+      },
+      "image": {
+        "id": "nuoc_tra_sua_thai_do",
+        "name": "Trà sữa Thái Đỏ",
+        "title": "4 How to cook delicious Thai green milk tea and Thai red milk tea at home",
+        "source": "https://tnhelearning.edu.vn/4-how-to-cook-delicious-thai-green-milk-tea-and-thai-red-milk-tea-at-home/",
+        "imageUrl": "https://cdn.tgdd.vn/Files/2019/11/11/1217662/cach-lam-tra-sua-thai-voi-bot-beo-don-gian-vua-ngon-vua-thom-mat-cho-nang-sanh-an-vat-202103111455525921.jpg",
+        "file": "images/catalog-20261031/nuoc_tra_sua_thai_do.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra sua Thai Xanh",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+sua+Thai+Xanh",
+      "dish": {
+        "id": "nuoc_tra_sua_thai_xanh",
+        "name": "Trà sữa Thái Xanh",
+        "rarity": 3,
+        "type": "Trà sữa Thái thơm mát",
+        "image": "images/catalog-20261031/nuoc_tra_sua_thai_xanh.webp",
+        "desc": "Trà xanh Thái Lan thanh mát thảo mộc kết hợp sữa béo, màu xanh ngọc bích êm đềm giải nhiệt tuyệt hảo.",
+        "quote": "Màu xanh ngọc dịu mắt, thơm mát hương thảo mộc giải ngấy tức thì.",
+        "calories": 290,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 28000,
+        "priceRange": [
+          22400,
+          36400
+        ],
+        "priceMin": 22400,
+        "priceMax": 36400
+      },
+      "image": {
+        "id": "nuoc_tra_sua_thai_xanh",
+        "name": "Trà sữa Thái Xanh",
+        "title": "Trà Sữa Thái Xanh Đặc Biệt 43 - Địa Chỉ và Combo Hấp Dẫn Tại Quận 8",
+        "source": "https://www.lemon8-app.com/%40vynguyen02189/7533984308680688149?region=my",
+        "imageUrl": "https://www.lemon8-app.com/seo/image?index=0&item_id=7533984308680688149&sign=f7b69c4a4531f913e0e2162c6cde1b2e",
+        "file": "images/catalog-20261031/nuoc_tra_sua_thai_xanh.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra sua Khoai Mon Taro",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+sua+Khoai+Mon+Taro",
+      "dish": {
+        "id": "nuoc_tra_sua_khoai_mon",
+        "name": "Trà sữa Khoai Môn (Taro)",
+        "rarity": 4,
+        "type": "Trà sữa béo bùi khoai môn",
+        "image": "images/catalog-20261031/nuoc_tra_sua_khoai_mon.webp",
+        "desc": "Sắc tím pastel mơ màng cùng vị bùi béo ngọt dịu của củ khoai môn nghiền mịn, thức uống ngọt ngào ấm áp.",
+        "quote": "Thơm bùi vị khoai môn dẻo, sánh mịn ngọt ngào nơi đầu lưỡi.",
+        "calories": 360,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 38000,
+        "priceRange": [
+          30400,
+          49400
+        ],
+        "priceMin": 30400,
+        "priceMax": 49400
+      },
+      "image": {
+        "id": "nuoc_tra_sua_khoai_mon",
+        "name": "Trà sữa Khoai Môn (Taro)",
+        "title": "HOMITA Coffee & Tea House - Real love with milktea",
+        "source": "https://homitatea.com/",
+        "imageUrl": "https://homitatea.com/uploads/products/milktea/tra_sua_khoai_mon.png",
+        "file": "images/catalog-20261031/nuoc_tra_sua_khoai_mon.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra sua Socola Dam Da",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+sua+Socola+Dam+Da",
+      "dish": {
+        "id": "nuoc_tra_sua_socola",
+        "name": "Trà sữa Socola Đậm Đà",
+        "rarity": 3,
+        "type": "Trà sữa cacao nguyên chất",
+        "image": "images/catalog-20261031/nuoc_tra_sua_socola.webp",
+        "desc": "Vị đắng nhẹ quyến rũ của bột cacao nguyên chất hòa lẫn sữa ngọt béo và cốt trà, làm say đắm tín đồ socola.",
+        "quote": "Socola đen nồng nàn quyện cùng sữa béo ngọt ngào mê hoặc.",
+        "calories": 370,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 38000,
+        "priceRange": [
+          30400,
+          49400
+        ],
+        "priceMin": 30400,
+        "priceMax": 49400
+      },
+      "image": {
+        "id": "nuoc_tra_sua_socola",
+        "name": "Trà sữa Socola Đậm Đà",
+        "title": "데일리푸드",
+        "source": "https://food.daily.co.kr/thema3133202678",
+        "imageUrl": "https://img.daily.co.kr/%40files/www.daily.co.kr/content/food/2022/20220905/24d8fc05a6b4c14976deaa7562af1813.jpg",
+        "file": "images/catalog-20261031/nuoc_tra_sua_socola.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra sua Bac Ha The Mat",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+sua+Bac+Ha+The+Mat",
+      "dish": {
+        "id": "nuoc_tra_sua_bac_ha",
+        "name": "Trà sữa Bạc Hà The Mát",
+        "rarity": 3,
+        "type": "Trà sữa vị the mát sảng khoái",
+        "image": "images/catalog-20261031/nuoc_tra_sua_bac_ha.webp",
+        "desc": "Cảm giác the mát sảng khoái lan tỏa khắp vòm họng kết hợp cùng vị trà sữa ngọt béo, bừng tỉnh tinh thần.",
+        "quote": "Hơi thở bạc hà the mát kết hợp cùng sữa béo ngọt ngào tuyệt đỉnh.",
+        "calories": 310,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 38000,
+        "priceRange": [
+          30400,
+          49400
+        ],
+        "priceMin": 30400,
+        "priceMax": 49400
+      },
+      "image": {
+        "id": "nuoc_tra_sua_bac_ha",
+        "name": "Trà sữa Bạc Hà The Mát",
+        "title": "Hướng dẫn cách làm trà sữa bạc hà ngon ngất ngây",
+        "source": "https://hocphachehanoi.com.vn/cong-thuc-pha-che/huong-dan-cach-lam-tra-sua-bac-ha-tai-nha-ngon-ngay-ngat.html",
+        "imageUrl": "https://hocphachehanoi.com.vn/upload/userfiles/images/cach-lam-tra-sua-bac-ha.jpg",
+        "file": "images/catalog-20261031/nuoc_tra_sua_bac_ha.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Sua tuoi Tran chau Duong den",
+      "searchUrl": "https://www.bing.com/images/search?q=Sua+tuoi+Tran+chau+Duong+den",
+      "dish": {
+        "id": "nuoc_sua_tuoi_tran_chau_duong_den",
+        "name": "Sữa tươi Trân châu Đường đen",
+        "rarity": 5,
+        "type": "Sữa tươi thanh trùng mật mía",
+        "image": "images/catalog-20261031/nuoc_sua_tuoi_tran_chau_duong_den.webp",
+        "desc": "Từng viên trân châu dẻo quánh nấu mật mía đường nâu ấm nóng rót quanh thành ly, hòa cùng sữa tươi Đà Lạt mát lạnh béo ngậy.",
+        "quote": "Vân đường nâu óng ả quyện cùng sữa tươi thanh trùng dẻo dai từng ngụm.",
+        "calories": 420,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 45000,
+        "priceRange": [
+          36000,
+          58500
+        ],
+        "priceMin": 36000,
+        "priceMax": 58500
+      },
+      "image": {
+        "id": "nuoc_sua_tuoi_tran_chau_duong_den",
+        "name": "Sữa tươi Trân châu Đường đen",
+        "title": "Top 10 Quán Trà Sữa Ngon Nhất Được Ưa Chuộng Tại Sài Gòn | mybest",
+        "source": "https://vn.my-best.com/36855",
+        "imageUrl": "https://img.vn.my-best.com/content_section/choice_component/sub_contents/0d518478cbe16b72a9ef519e4aa9c84c.png?fit=max&ixlib=rails-4.3.1&lossless=0&q=70&s=b1a3118b2e570bab5740b36d2927caa5&w=690",
+        "file": "images/catalog-20261031/nuoc_sua_tuoi_tran_chau_duong_den.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra sua Tran chau Duong den",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+sua+Tran+chau+Duong+den",
+      "dish": {
+        "id": "nuoc_tra_sua_tran_chau_duong_den",
+        "name": "Trà sữa Trân châu Đường đen",
+        "rarity": 3,
+        "type": "Trà sữa mật mía đậm đà",
+        "image": "images/catalog-20261031/nuoc_tra_sua_tran_chau_duong_den.webp",
+        "desc": "Biến tấu cốt trà đen đậm đà phối cùng trân châu ngào đường nâu dẻo dai bùi bùi, thơm nồng đượm vị mật mía.",
+        "quote": "Cốt trà đượm vị kết hợp trân châu đường đen dẻo dính ngon khó cưỡng.",
+        "calories": 400,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 42000,
+        "priceRange": [
+          33600,
+          54600
+        ],
+        "priceMin": 33600,
+        "priceMax": 54600
+      },
+      "image": {
+        "id": "nuoc_tra_sua_tran_chau_duong_den",
+        "name": "Trà sữa Trân châu Đường đen",
+        "title": "Gak Perlu Jajan Mahal, Ini Dia Cara Bikin Boba Brown Sugar Ala Cafe yang Enak dan Kenyal",
+        "source": "https://jawapos.com/kuliner/2510090220/gak-perlu-jajan-mahal-ini-dia-cara-bikin-boba-brown-sugar-ala-cafe-yang-enak-dan-kenyal",
+        "imageUrl": "https://cdn-assets.jawapos.com/images/1/2025/10/09/Gak-Perlu-Jajan-Mahal-Ini-Dia-Cara-Bikin-Boba-Brown-Sugar-Ala-Cafe-yang-Enak-dan-Kenyal-2274529989.jpg",
+        "file": "images/catalog-20261031/nuoc_tra_sua_tran_chau_duong_den.webp",
+        "licenseVerified": false,
+        "userApproved": true,
+        "visualReview": {
+          "date": "2026-10-31",
+          "noPeopleOrHands": true
+        }
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra sua Kem Cheese Macchiato",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+sua+Kem+Cheese+Macchiato",
+      "dish": {
+        "id": "nuoc_tra_sua_kem_cheese",
+        "name": "Trà sữa Kem Cheese Macchiato",
+        "rarity": 4,
+        "type": "Trà sữa phủ lớp váng phô mai",
+        "image": "images/catalog-20261031/nuoc_tra_sua_kem_cheese.webp",
+        "desc": "Lớp kem phô mai Macchiato đánh bông mặn mặn béo ngậy phủ dầy trên bề mặt trà sữa đậm đà, uống nghiêng góc 45 độ chuẩn điệu.",
+        "quote": "Váng kem phô mai béo mặn sánh mịn hòa cùng trà sữa mát lạnh.",
+        "calories": 390,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 45000,
+        "priceRange": [
+          36000,
+          58500
+        ],
+        "priceMin": 36000,
+        "priceMax": 58500
+      },
+      "image": {
+        "id": "nuoc_tra_sua_kem_cheese",
+        "name": "Trà sữa Kem Cheese Macchiato",
+        "title": "Review không gian và menu Tocotoco",
+        "source": "https://spacet.vn/blog/nguon-cam-hung/review-khong-gian-va-do-uong-tocotoco",
+        "imageUrl": "https://spacet-release.s3.ap-southeast-1.amazonaws.com/img/blog/2026-01-23/review-khong-gian-va-do-uong-tocotoco-1-69731b6ad07568fa1c817f4c.webp",
+        "file": "images/catalog-20261031/nuoc_tra_sua_kem_cheese.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra sua Kem Trung Chay",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+sua+Kem+Trung+Chay",
+      "dish": {
+        "id": "nuoc_tra_sua_kem_trung_chay",
+        "name": "Trà sữa Kem Trứng Cháy",
+        "rarity": 4,
+        "type": "Kem trứng khò lửa caramel",
+        "image": "images/catalog-20261031/nuoc_tra_sua_kem_trung_chay.webp",
+        "desc": "Lớp kem trứng custard vàng ươm rắc đường nâu khò lửa xém cạnh giòn tan thơm lừng mùi caramel, béo ngậy bậc nhất.",
+        "quote": "Mặt caramel khò xém giòn tan trên nền kem trứng béo mịn ngây ngất.",
+        "calories": 430,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 48000,
+        "priceRange": [
+          38400,
+          62400
+        ],
+        "priceMin": 38400,
+        "priceMax": 62400
+      },
+      "image": {
+        "id": "nuoc_tra_sua_kem_trung_chay",
+        "name": "Trà sữa Kem Trứng Cháy",
+        "title": "TRÀ SỮA KEM TRỨNG KHÈ ĐẦU TIÊN TẠI SÀI GÒN - SUNDAY BASIC",
+        "source": "https://sundaybasic.com/ve-chung-toi/chu-de-blog/cau-chuyen-ve-thuong-hieu/tra-sua-kem-trung-khe-dau-tien-tai-sai-gon",
+        "imageUrl": "https://sundaybasic.com/Data/Sites/1/media/img_1621.jpg",
+        "file": "images/catalog-20261031/nuoc_tra_sua_kem_trung_chay.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra sua Nuong Hoang Gia",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+sua+Nuong+Hoang+Gia",
+      "dish": {
+        "id": "nuoc_tra_sua_nuong",
+        "name": "Trà sữa Nướng Hoàng Gia",
+        "rarity": 3,
+        "type": "Trà nướng hương caramel xém",
+        "image": "images/catalog-20261031/nuoc_tra_sua_nuong.webp",
+        "desc": "Lá trà được sấy nướng nhiệt độ cao tỏa ra mùi caramel cháy nhẹ đặc trưng, hòa cùng sữa ngọt thanh không ngấy.",
+        "quote": "Mùi trà nướng caramel độc đáo thơm nức mũi, đậm đà sâu lắng.",
+        "calories": 340,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 40000,
+        "priceRange": [
+          32000,
+          52000
+        ],
+        "priceMin": 32000,
+        "priceMax": 52000
+      },
+      "image": {
+        "id": "nuoc_tra_sua_nuong",
+        "name": "Trà sữa Nướng Hoàng Gia",
+        "title": "Resep Roasted Milk Tea oleh Bunda TitanQue  - Cookpad",
+        "source": "https://cookpad.com/id/resep/24718674-roasted-milk-tea",
+        "imageUrl": "https://img-global.cpcdn.com/recipes/535d2f0f895f2b83/680x781f0.5_0.5_1.0q80/roasted-milk-tea-foto-resep-utama.jpg",
+        "file": "images/catalog-20261031/nuoc_tra_sua_nuong.webp",
+        "licenseVerified": false,
+        "userApproved": true,
+        "visualReview": {
+          "date": "2026-10-31",
+          "noPeopleOrHands": true
+        }
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra Dao Cam Sa Tuoi",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+Dao+Cam+Sa+Tuoi",
+      "dish": {
+        "id": "nuoc_tra_dao_cam_sa",
+        "name": "Trà Đào Cam Sả Tươi",
+        "rarity": 5,
+        "type": "Trà trái cây quốc dân",
+        "image": "images/catalog-20261031/nuoc_tra_dao_cam_sa.webp",
+        "desc": "Cốt trà thanh ngọt kết hợp cùng lát cam vàng mọng nước, hương sả tươi ấm nồng và miếng đào ngâm giòn sần sật.",
+        "quote": "Vị chua thanh của cam, ngọt dịu của đào quyện hương sả thư thái.",
+        "calories": 180,
+        "tags": [],
+        "filter": "ca_phe_tra",
+        "price": 40000,
+        "priceRange": [
+          32000,
+          52000
+        ],
+        "priceMin": 32000,
+        "priceMax": 52000
+      },
+      "image": {
+        "id": "nuoc_tra_dao_cam_sa",
+        "name": "Trà Đào Cam Sả Tươi",
+        "title": "Cách Làm Trà Đào Cam Sả Ngon Như The Coffee House: Công Thức Chuẩn",
+        "source": "https://www.tu-farm.com/blog/post/cach-lam-tra-dao-cam-sa-ngon-nhu-the-coffee-house-cong-thuc-chuan",
+        "imageUrl": "https://content.pancake.vn/web-media/ce/74/fb/e2/3db819f9a3e791e5ef3565b15597bf6c5f707433f89f6cfb25bcde19-w%3A1024-h%3A1024-l%3A695443-t%3Aimage/jpeg.jpeg",
+        "file": "images/catalog-20261031/nuoc_tra_dao_cam_sa.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra Dao Gion Mieng",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+Dao+Gion+Mieng",
+      "dish": {
+        "id": "nuoc_tra_dao_mieng",
+        "name": "Trà Đào Giòn Miếng",
+        "rarity": 3,
+        "type": "Trà đào truyền thống",
+        "image": "images/catalog-20261031/nuoc_tra_dao_mieng.webp",
+        "desc": "Trà đen ướp hương đào thơm ngát, kèm 3-4 miếng đào vàng giòn tan ngọt lịm nhai đã miệng cùng đá mát lạnh.",
+        "quote": "Đào giòn sần sật ngọt ngào trong làn nước trà thơm ngát.",
+        "calories": 160,
+        "tags": [],
+        "filter": "ca_phe_tra",
+        "price": 35000,
+        "priceRange": [
+          28000,
+          45500
+        ],
+        "priceMin": 28000,
+        "priceMax": 45500
+      },
+      "image": {
+        "id": "nuoc_tra_dao_mieng",
+        "name": "Trà Đào Giòn Miếng",
+        "title": "Cách làm đào ngâm giải khát mùa hè",
+        "source": "https://www.beemart.vn/cach-lam-dao-ngam-giai-khat-mua-he",
+        "imageUrl": "https://bizweb.dktcdn.net/100/004/714/articles/tra-dao.jpg?v=1563186774693",
+        "file": "images/catalog-20261031/nuoc_tra_dao_mieng.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra Vai Hoa Lai",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+Vai+Hoa+Lai",
+      "dish": {
+        "id": "nuoc_tra_vai_lai",
+        "name": "Trà Vải Hoa Lài",
+        "rarity": 3,
+        "type": "Trà hoa quả nhiệt đới",
+        "image": "images/catalog-20261031/nuoc_tra_vai_lai.webp",
+        "desc": "Những trái vải thiều mọng nước ngọt lịm kết hợp hoàn hảo cùng nền trà hoa lài ngát hương, thanh khiết dịu dàng.",
+        "quote": "Ngọt thơm vị vải thiều mọng nước hòa cùng hương lài thanh khiết.",
+        "calories": 170,
+        "tags": [],
+        "filter": "ca_phe_tra",
+        "price": 38000,
+        "priceRange": [
+          30400,
+          49400
+        ],
+        "priceMin": 30400,
+        "priceMax": 49400
+      },
+      "image": {
+        "id": "nuoc_tra_vai_lai",
+        "name": "Trà Vải Hoa Lài",
+        "title": "Trà Nhãn Lài (L)",
+        "source": "https://phuclong.com.vn/products/tra-nhan-lai-l--s65000128",
+        "imageUrl": "https://s3-hcmc02.higiocloud.vn/images/2022/65000127-65000128-tra-nhan-lai_2fe90bd0-65fb-4bb3-8f74-44a92e067926-og.png",
+        "file": "images/catalog-20261031/nuoc_tra_vai_lai.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra Mang Cut Nhiet Doi",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+Mang+Cut+Nhiet+Doi",
+      "dish": {
+        "id": "nuoc_tra_mang_cut",
+        "name": "Trà Măng Cụt Nhiệt Đới",
+        "rarity": 3,
+        "type": "Đặc sản mùa quả miền Tây",
+        "image": "images/catalog-20261031/nuoc_tra_mang_cut.webp",
+        "desc": "Múi măng cụt trắng nõn chua ngọt thanh tao thả trong nền trà hoa quả tươi mát, thức uống mùa hè thanh nhiệt giải độc.",
+        "quote": "Chua thanh tao nhã vị nữ hoàng trái cây măng cụt miền nhiệt đới.",
+        "calories": 150,
+        "tags": [],
+        "filter": "ca_phe_tra",
+        "price": 45000,
+        "priceRange": [
+          36000,
+          58500
+        ],
+        "priceMin": 36000,
+        "priceMax": 58500
+      },
+      "image": {
+        "id": "nuoc_tra_mang_cut",
+        "name": "Trà Măng Cụt Nhiệt Đới",
+        "title": "“Đu trend” cách làm trà măng cụt hoa đậu biếc",
+        "source": "https://mediamart.vn/vao-bep/cach-lam-tra-mang-cut-hoa-dau-biec",
+        "imageUrl": "https://cdn.mediamart.vn/images/news/du-trend-cach-lam-tra-mang-cut-hoa-dau-biec_11e739e7.jpg",
+        "file": "images/catalog-20261031/nuoc_tra_mang_cut.webp",
+        "licenseVerified": false,
+        "userApproved": true,
+        "visualReview": {
+          "date": "2026-10-31",
+          "noPeopleOrHands": true
+        }
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra Oi Hong Hat Chia",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+Oi+Hong+Hat+Chia",
+      "dish": {
+        "id": "nuoc_tra_oi_hong_hat_chia",
+        "name": "Trà Ổi Hồng Hạt Chia",
+        "rarity": 3,
+        "type": "Trà trái cây giàu vitamin C",
+        "image": "images/catalog-20261031/nuoc_tra_oi_hong_hat_chia.webp",
+        "desc": "Sắc hồng ruby kiêu sa cùng hương ổi xá lị nồng nàn quyến rũ, bổ sung hạt chia thanh lọc cơ thể và làm đẹp da.",
+        "quote": "Hương ổi hồng ngào ngạt cùng hạt chia thanh mát đẹp dáng sáng da.",
+        "calories": 140,
+        "tags": [],
+        "filter": "ca_phe_tra",
+        "price": 38000,
+        "priceRange": [
+          30400,
+          49400
+        ],
+        "priceMin": 30400,
+        "priceMax": 49400
+      },
+      "image": {
+        "id": "nuoc_tra_oi_hong_hat_chia",
+        "name": "Trà Ổi Hồng Hạt Chia",
+        "title": "Trà Ổi Hồng – Thức uống ngọt lành và tươi mới tại Mangrove Coffee & Tea",
+        "source": "https://www.mangrovevn.com/post/tr%C3%A0-%E1%BB%95i-h%E1%BB%93ng-th%E1%BB%A9c-u%E1%BB%91ng-ng%E1%BB%8Dt-l%C3%A0nh-v%C3%A0-t%C6%B0%C6%A1i-m%E1%BB%9Bi-t%E1%BA%A1i-mangrove-coffee-tea",
+        "imageUrl": "https://static.wixstatic.com/media/3a563c_e5056df37dc54a9994f78f78e00d6071~mv2.jpg/v1/fill/w_704%2Ch_704%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/3a563c_e5056df37dc54a9994f78f78e00d6071~mv2.jpg",
+        "file": "images/catalog-20261031/nuoc_tra_oi_hong_hat_chia.webp",
+        "licenseVerified": false,
+        "userApproved": true,
+        "visualReview": {
+          "date": "2026-10-31",
+          "noPeopleOrHands": true
+        }
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra Dua Luoi Mat Lanh",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+Dua+Luoi+Mat+Lanh",
+      "dish": {
+        "id": "nuoc_tra_dua_luoi",
+        "name": "Trà Dưa Lưới Mát Lạnh",
+        "rarity": 3,
+        "type": "Trà hoa quả thanh ngọt",
+        "image": "images/catalog-20261031/nuoc_tra_dua_luoi.webp",
+        "desc": "Hương dưa lưới cantaloupe thơm lừng ngọt lành mọng nước, xua tan cái oi bức mùa hè chỉ với một ngụm mát lạnh.",
+        "quote": "Ngọt mát thuần khiết như vừa cắn trọn miếng dưa lưới mọng nước.",
+        "calories": 130,
+        "tags": [],
+        "filter": "ca_phe_tra",
+        "price": 38000,
+        "priceRange": [
+          30400,
+          49400
+        ],
+        "priceMin": 30400,
+        "priceMax": 49400
+      },
+      "image": {
+        "id": "nuoc_tra_dua_luoi",
+        "name": "Trà Dưa Lưới Mát Lạnh",
+        "title": "3 Cách Pha Trà Dưa Lưới Thơm Ngon, Giải Nhiệt Ngày Hè",
+        "source": "https://www.tu-farm.com/blog/post/tra-dua-luoi-cong-thuc-loi-ich-kinh-doanh",
+        "imageUrl": "https://content.pancake.vn/web-media-262/a7/49/a5/ca/be5f540172e8dcbb197cdcff835888b3b90c5876197beff1e5b39821-w%3A1024-h%3A1024-l%3A674099-t%3Aimage/jpeg.jpeg",
+        "file": "images/catalog-20261031/nuoc_tra_dua_luoi.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra Dau Tay Dam Tuoi",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+Dau+Tay+Dam+Tuoi",
+      "dish": {
+        "id": "nuoc_tra_dau_tay_dam",
+        "name": "Trà Dâu Tây Dầm Tươi",
+        "rarity": 3,
+        "type": "Trà dâu tây Đà Lạt",
+        "image": "images/catalog-20261031/nuoc_tra_dau_tay_dam.webp",
+        "desc": "Dâu tây Đà Lạt dầm nhuyễn sốt mứt chua chua ngọt ngọt, kết hợp trà ô long thanh khiết bắt mắt sắc đỏ ruby tươi tắn.",
+        "quote": "Chua ngọt bùng nổ vị dâu tây tươi mọng nước trên nền trà thanh tao.",
+        "calories": 160,
+        "tags": [],
+        "filter": "ca_phe_tra",
+        "price": 40000,
+        "priceRange": [
+          32000,
+          52000
+        ],
+        "priceMin": 32000,
+        "priceMax": 52000
+      },
+      "image": {
+        "id": "nuoc_tra_dau_tay_dam",
+        "name": "Trà Dâu Tây Dầm Tươi",
+        "title": "Order for Pickup · Chillville",
+        "source": "https://www.chillvilletreats.com/order",
+        "imageUrl": "https://www.chillvilletreats.com/images/Boba/fruit_tea/strawberry_fruit_tea.jpg",
+        "file": "images/catalog-20261031/nuoc_tra_dau_tay_dam.webp",
+        "licenseVerified": false,
+        "userApproved": true,
+        "visualReview": {
+          "date": "2026-10-31",
+          "noPeopleOrHands": true
+        }
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra Chanh Gia Tay Quang Dong",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+Chanh+Gia+Tay+Quang+Dong",
+      "dish": {
+        "id": "nuoc_tra_chanh_gia_tay",
+        "name": "Trà Chanh Giã Tay Quảng Đông",
+        "rarity": 4,
+        "type": "Trà chanh tinh dầu bùng nổ",
+        "image": "images/catalog-20261031/nuoc_tra_chanh_gia_tay.webp",
+        "desc": "Chanh nước hoa Quảng Đông giã tay trực tiếp với đá để ép trọn tinh dầu thơm nức, vị chua thanh sảng khoái kích thích vị giác.",
+        "quote": "Tinh dầu chanh tươi bùng nổ thơm nức mũi, chua ngọt sảng khoái.",
+        "calories": 120,
+        "tags": [],
+        "filter": "ca_phe_tra",
+        "price": 25000,
+        "priceRange": [
+          20000,
+          32500
+        ],
+        "priceMin": 20000,
+        "priceMax": 32500
+      },
+      "image": {
+        "id": "nuoc_tra_chanh_gia_tay",
+        "name": "Trà Chanh Giã Tay Quảng Đông",
+        "title": "Trà chanh giã tay trở thành \"trend\" tại Trung Quốc và bắt đầu thu hút ở Việt Nam, có gì mới trong món đồ uống này?",
+        "source": "https://kenh14.vn/tra-chanh-gia-tay-tro-thanh-trend-tai-trung-quoc-va-bat-dau-thu-hut-o-viet-nam-co-gi-moi-trong-mon-do-uong-nay-20231103141745365.chn",
+        "imageUrl": "https://kenh14cdn.com/203336854389633024/2023/11/3/photo-7-16989956799031664444526.png",
+        "file": "images/catalog-20261031/nuoc_tra_chanh_gia_tay.webp",
+        "licenseVerified": false,
+        "userApproved": true,
+        "visualReview": {
+          "date": "2026-10-31",
+          "noPeopleOrHands": true
+        }
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Tra Tac Xi Muoi Mat Ong",
+      "searchUrl": "https://www.bing.com/images/search?q=Tra+Tac+Xi+Muoi+Mat+Ong",
+      "dish": {
+        "id": "nuoc_tra_tac_xi_muoi",
+        "name": "Trà Tắc Xí Muội Mật Ong",
+        "rarity": 3,
+        "type": "Giải khát thảo mộc dân gian",
+        "image": "images/catalog-20261031/nuoc_tra_tac_xi_muoi.webp",
+        "desc": "Quả tắc (quất) tươi vắt nước thơm lừng kết hợp xí muội mặn mặn ngọt ngọt và mật ong rừng ấm họng, giải ngấy số 1.",
+        "quote": "Chua dịu xen lẫn vị mặn ngọt cổ điển, ấm họng giải nhiệt tuyệt vời.",
+        "calories": 110,
+        "tags": [],
+        "filter": "ca_phe_tra",
+        "price": 25000,
+        "priceRange": [
+          20000,
+          32500
+        ],
+        "priceMin": 20000,
+        "priceMax": 32500
+      },
+      "image": {
+        "id": "nuoc_tra_tac_xi_muoi",
+        "name": "Trà Tắc Xí Muội Mật Ong",
+        "title": "Cách Làm Món Trà Tắc Mật Ong của DiepngocNguyen - Cookpad",
+        "source": "https://cookpad.com/vn/cong-thuc/14535200",
+        "imageUrl": "https://img-global.cpcdn.com/recipes/b8911042af6c54ac/680x781cq80/tra-t%E1%BA%AFc-m%E1%BA%ADt-ong-recipe-main-photo.jpg",
+        "file": "images/catalog-20261031/nuoc_tra_tac_xi_muoi.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Matcha Latte Nhat Ban",
+      "searchUrl": "https://www.bing.com/images/search?q=Matcha+Latte+Nhat+Ban",
+      "dish": {
+        "id": "nuoc_matcha_latte",
+        "name": "Matcha Latte Nhật Bản",
+        "rarity": 5,
+        "type": "Matcha Uji nguyên chất đánh sữa",
+        "image": "images/catalog-20261031/nuoc_matcha_latte.webp",
+        "desc": "Bột trà xanh Uji Kyoto hảo hạng đánh chổi chasen tạo bọt mịn màng, hòa vào dòng sữa tươi thanh mát béo dịu.",
+        "quote": "Vị chát thanh tao nguyên bản quyện cùng sữa tươi mềm mịn như lụa.",
+        "calories": 240,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 45000,
+        "priceRange": [
+          36000,
+          58500
+        ],
+        "priceMin": 36000,
+        "priceMax": 58500
+      },
+      "image": {
+        "id": "nuoc_matcha_latte",
+        "name": "Matcha Latte Nhật Bản",
+        "title": "NIGICHA, Shinjuku - Menu, Prices & Restaurant Reviews - Tripadvisor",
+        "source": "https://www.tripadvisor.com/Restaurant_Review-g1066457-d32800934-Reviews-NIGICHA-Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html",
+        "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/f7/bd/07/caption.jpg?h=400&s=1&w=500",
+        "file": "images/catalog-20261031/nuoc_matcha_latte.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Matcha Kem Cheese Macchiato",
+      "searchUrl": "https://www.bing.com/images/search?q=Matcha+Kem+Cheese+Macchiato",
+      "dish": {
+        "id": "nuoc_matcha_kem_cheese",
+        "name": "Matcha Kem Cheese Macchiato",
+        "rarity": 3,
+        "type": "Matcha phủ váng sữa phô mai",
+        "image": "images/catalog-20261031/nuoc_matcha_kem_cheese.webp",
+        "desc": "Màu xanh ngọc bích của matcha thanh khiết tương phản lớp kem phô mai trắng muốt sánh mịn mặn mặn ngậy béo.",
+        "quote": "Matcha chát dịu thanh tao bên dưới lớp kem cheese béo mặn tuyệt mỹ.",
+        "calories": 310,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 48000,
+        "priceRange": [
+          38400,
+          62400
+        ],
+        "priceMin": 38400,
+        "priceMax": 62400
+      },
+      "image": {
+        "id": "nuoc_matcha_kem_cheese",
+        "name": "Matcha Kem Cheese Macchiato",
+        "title": "Bật mí bí mật đằng sau độ ngon tuyệt hảo từ dòng kem phô mai tại TocoToco",
+        "source": "https://kenh14.vn/bat-mi-bi-mat-dang-sau-do-ngon-tuyet-hao-tu-dong-kem-pho-mai-tai-tocotoco-20180915125653043.chn",
+        "imageUrl": "https://channel.mediacdn.vn/prupload/879/2018/09/img20180915122047684.jpg",
+        "file": "images/catalog-20261031/nuoc_matcha_kem_cheese.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Matcha Nuoc Dua Tuoi",
+      "searchUrl": "https://www.bing.com/images/search?q=Matcha+Nuoc+Dua+Tuoi",
+      "dish": {
+        "id": "nuoc_matcha_nuoc_dua",
+        "name": "Matcha Nước Dừa Tươi (Cloud)",
+        "rarity": 3,
+        "type": "Biến tấu nước dừa thanh mát",
+        "image": "images/catalog-20261031/nuoc_matcha_nuoc_dua.webp",
+        "desc": "Sự giao thoa thanh tao giữa nước dừa xiêm ngọt lịm tự nhiên và tầng màng matcha xanh mướt nổi bồng bềnh phía trên.",
+        "quote": "Nước dừa ngọt lành nâng đỡ lớp matcha thanh khiết bồng bềnh như mây.",
+        "calories": 160,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 45000,
+        "priceRange": [
+          36000,
+          58500
+        ],
+        "priceMin": 36000,
+        "priceMax": 58500
+      },
+      "image": {
+        "id": "nuoc_matcha_nuoc_dua",
+        "name": "Matcha Nước Dừa Tươi (Cloud)",
+        "title": "Matcha Cloud Rezept – Kokos-Matcha Cloud Iced Drink | Berliner Kaffeerösterei",
+        "source": "https://shop.berliner-kaffeeroesterei.de/teerezepte-matcha-cloud",
+        "imageUrl": "https://shop.berliner-kaffeeroesterei.de/media/9c/00/3c/1768479172/Matcha%20Cloud.webp?ts=1768821570",
+        "file": "images/catalog-20261031/nuoc_matcha_nuoc_dua.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Dirty Matcha Espresso",
+      "searchUrl": "https://www.bing.com/images/search?q=Dirty+Matcha+Espresso",
+      "dish": {
+        "id": "nuoc_dirty_matcha",
+        "name": "Dirty Matcha Espresso",
+        "rarity": 3,
+        "type": "Cà phê rót tầng matcha",
+        "image": "images/catalog-20261031/nuoc_dirty_matcha.webp",
+        "desc": "Shot cà phê Espresso nóng đậm đặc rót tràn tầng lên ly sữa matcha ướp lạnh, vị đắng kép hòa quyện đầy mê hoặc.",
+        "quote": "Vị đắng thơm của cà phê hòa cùng chát dịu matcha trên nền sữa mát lạnh.",
+        "calories": 220,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 50000,
+        "priceRange": [
+          40000,
+          65000
+        ],
+        "priceMin": 40000,
+        "priceMax": 65000
+      },
+      "image": {
+        "id": "nuoc_dirty_matcha",
+        "name": "Dirty Matcha Espresso",
+        "title": "Dirty Matcha Rezept – Matcha trifft Espresso",
+        "source": "https://shop.berliner-kaffeeroesterei.de/rezept-dirty-matcha",
+        "imageUrl": "https://shop.berliner-kaffeeroesterei.de/media/fc/17/0c/1745916211/Dirty%20Matcha%20im%20Glas.jpg?ts=1774942437",
+        "file": "images/catalog-20261031/nuoc_dirty_matcha.webp",
+        "licenseVerified": false,
+        "userApproved": true,
+        "visualReview": {
+          "date": "2026-10-31",
+          "noPeopleOrHands": true
+        }
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Strawberry Matcha Latte Ba Tang",
+      "searchUrl": "https://www.bing.com/images/search?q=Strawberry+Matcha+Latte+Ba+Tang",
+      "dish": {
+        "id": "nuoc_strawberry_matcha",
+        "name": "Strawberry Matcha Latte Ba Tầng",
+        "rarity": 4,
+        "type": "Dâu tây sữa tươi và matcha",
+        "image": "images/catalog-20261031/nuoc_strawberry_matcha.webp",
+        "desc": "Ba tầng màu sắc nghệ thuật: mứt dâu tây đỏ thắm ở đáy, sữa tươi trắng muốt ở giữa và lớp matcha xanh ngọc trên cùng.",
+        "quote": "Bữa tiệc sắc màu: dâu ngọt ngào, sữa béo thơm và matcha thanh lịch.",
+        "calories": 270,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 52000,
+        "priceRange": [
+          41600,
+          67600
+        ],
+        "priceMin": 41600,
+        "priceMax": 67600
+      },
+      "image": {
+        "id": "nuoc_strawberry_matcha",
+        "name": "Strawberry Matcha Latte Ba Tầng",
+        "title": "Cách Làm Món Strawberry Matcha Latte 🍓 của Bòn Bon - Cookpad",
+        "source": "https://cookpad.com/vn/cong-thuc/25307755",
+        "imageUrl": "https://img-global.cpcdn.com/steps/bcac3b432d96a8c5/400x400cq80/photo.jpg",
+        "file": "images/catalog-20261031/nuoc_strawberry_matcha.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Matcha Frappuccino Da Xay",
+      "searchUrl": "https://www.bing.com/images/search?q=Matcha+Frappuccino+Da+Xay",
+      "dish": {
+        "id": "nuoc_matcha_frappuccino",
+        "name": "Matcha Frappuccino Đá Xay",
+        "rarity": 3,
+        "type": "Matcha tuyết phủ kem tươi",
+        "image": "images/catalog-20261031/nuoc_matcha_frappuccino.webp",
+        "desc": "Matcha thượng hạng xay nhuyễn cùng đá tuyết và sữa béo ngậy, phủ chóp kem bông whipping cream béo ngậy xốp mềm.",
+        "quote": "Tuyết matcha mịn màng mát buốt chân răng phủ kem tươi béo ngậy.",
+        "calories": 380,
+        "tags": [],
+        "filter": "tra_sua",
+        "price": 55000,
+        "priceRange": [
+          44000,
+          71500
+        ],
+        "priceMin": 44000,
+        "priceMax": 71500
+      },
+      "image": {
+        "id": "nuoc_matcha_frappuccino",
+        "name": "Matcha Frappuccino Đá Xay",
+        "title": " – Yōko Matcha",
+        "source": "https://yokomatcha.com/blogs/matcha-guide/12-delicious-matcha-drinks-at-starbucks-for-a-sweet-green-treat",
+        "imageUrl": "https://yokomatcha.com/cdn/shop/articles/Starbucks.Matcha1.png?v=1708514734&width=800",
+        "file": "images/catalog-20261031/nuoc_matcha_frappuccino.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Sinh To Bo Sap Dak Lak",
+      "searchUrl": "https://www.bing.com/images/search?q=Sinh+To+Bo+Sap+Dak+Lak",
+      "dish": {
+        "id": "nuoc_sinh_to_bo",
+        "name": "Sinh Tố Bơ Sáp Đắk Lắk",
+        "rarity": 5,
+        "type": "Sinh tố béo ngậy sánh mịn",
+        "image": "images/catalog-20261031/nuoc_sinh_to_bo.webp",
+        "desc": "Bơ sáp Tây Nguyên dẻo quánh xay cùng sữa đặc và sữa tươi tạo nên độ sánh mịn béo ngậy trứ danh đánh thức vị giác.",
+        "quote": "Bơ sáp vàng ươm béo ngậy dẻo quánh, sánh mịn ngon ngất ngây.",
+        "calories": 340,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 40000,
+        "priceRange": [
+          32000,
+          52000
+        ],
+        "priceMin": 32000,
+        "priceMax": 52000
+      },
+      "image": {
+        "id": "nuoc_sinh_to_bo",
+        "name": "Sinh Tố Bơ Sáp Đắk Lắk",
+        "title": "Bơ Sáp Đắk Lắk",
+        "source": "https://nongsandaklak.vn/bo-sap-dak-lak/",
+        "imageUrl": "https://nongsandaklak.vn/uploads/images/bo-sap-dak-lak-5.jpg",
+        "file": "images/catalog-20261031/nuoc_sinh_to_bo.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Sinh To Xoai Cat Hoa Loc",
+      "searchUrl": "https://www.bing.com/images/search?q=Sinh+To+Xoai+Cat+Hoa+Loc",
+      "dish": {
+        "id": "nuoc_sinh_to_xoai",
+        "name": "Sinh Tố Xoài Cát Hòa Lộc",
+        "rarity": 4,
+        "type": "Sinh tố xoài chín ngọt lịm",
+        "image": "images/catalog-20261031/nuoc_sinh_to_xoai.webp",
+        "desc": "Xoài cát chín mọng thơm lừng, thịt quả vàng tươi ngọt đậm hòa cùng sữa đặc sánh mịn mát lạnh ngất ngây.",
+        "quote": "Thơm lừng hương xoài cát chín cây, ngọt lịm tự nhiên từng ngụm.",
+        "calories": 260,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 35000,
+        "priceRange": [
+          28000,
+          45500
+        ],
+        "priceMin": 28000,
+        "priceMax": 45500
+      },
+      "image": {
+        "id": "nuoc_sinh_to_xoai",
+        "name": "Sinh Tố Xoài Cát Hòa Lộc",
+        "title": "Sinh Tố Xoài",
+        "source": "https://www.tu-farm.com/products/sinh-to-xoai",
+        "imageUrl": "https://content.pancake.vn/web-media/19/4a/33/b9/94d3d27e5c62e06ef8a291fa6da64ba9b8a7ed35110ad5d2e25b8366-w%3A900-h%3A900-l%3A650284-t%3Aimage/png.png",
+        "file": "images/catalog-20261031/nuoc_sinh_to_xoai.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Sinh To Dau Tay Tuoi",
+      "searchUrl": "https://www.bing.com/images/search?q=Sinh+To+Dau+Tay+Tuoi",
+      "dish": {
+        "id": "nuoc_sinh_to_dau",
+        "name": "Sinh Tố Dâu Tây Tươi",
+        "rarity": 4,
+        "type": "Sinh tố trái cây mọng nước",
+        "image": "images/catalog-20261031/nuoc_sinh_to_dau.webp",
+        "desc": "Dâu tây tươi mọng xay nhuyễn mang sắc hồng đáng yêu, vị chua ngọt hài hòa bổ sung lượng vitamin C dồi dào.",
+        "quote": "Sắc hồng quyến rũ, vị chua ngọt thanh dịu xua tan mệt mỏi.",
+        "calories": 220,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 38000,
+        "priceRange": [
+          30400,
+          49400
+        ],
+        "priceMin": 30400,
+        "priceMax": 49400
+      },
+      "image": {
+        "id": "nuoc_sinh_to_dau",
+        "name": "Sinh Tố Dâu Tây Tươi",
+        "title": "Fruit Shake & Dessert 362  Delivery in Cambodia | See Menu & Order on foodpanda",
+        "source": "https://www.foodpanda.com.kh/en/chain/cg2au/fruit-shake-and-dessert-362",
+        "imageUrl": "https://images.deliveryhero.io/image/fd-kh/products/526727.jpg?height=393.75&width=393.75",
+        "file": "images/catalog-20261031/nuoc_sinh_to_dau.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Sinh To Chuoi Sua Tuoi",
+      "searchUrl": "https://www.bing.com/images/search?q=Sinh+To+Chuoi+Sua+Tuoi",
+      "dish": {
+        "id": "nuoc_sinh_to_chuoi",
+        "name": "Sinh Tố Chuối Sữa Tươi",
+        "rarity": 3,
+        "type": "Sinh tố giàu kali năng lượng",
+        "image": "images/catalog-20261031/nuoc_sinh_to_chuoi.webp",
+        "desc": "Chuối tiêu chín ngọt đậm đà kết hợp sữa tươi thanh trùng, thức uống lành mạnh giàu năng lượng cho ngày mới.",
+        "quote": "Chuối chín ngọt bùi hòa sữa tươi ngậy, nạp đầy năng lượng hứng khởi.",
+        "calories": 250,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 30000,
+        "priceRange": [
+          24000,
+          39000
+        ],
+        "priceMin": 24000,
+        "priceMax": 39000
+      },
+      "image": {
+        "id": "nuoc_sinh_to_chuoi",
+        "name": "Sinh Tố Chuối Sữa Tươi",
+        "title": "Điều gì xảy ra khi kết hợp chuối với sữa? | Znews.vn",
+        "source": "https://znews.vn/dieu-gi-xay-ra-khi-ket-hop-chuoi-voi-sua-post1655488.html",
+        "imageUrl": "https://photo.znews.vn/Uploaded/rfkbflu/2026_05_30/sua_va_chuoi.jpg",
+        "file": "images/catalog-20261031/nuoc_sinh_to_chuoi.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Sinh To Mang Cau Xiem",
+      "searchUrl": "https://www.bing.com/images/search?q=Sinh+To+Mang+Cau+Xiem",
+      "dish": {
+        "id": "nuoc_sinh_to_mang_cau",
+        "name": "Sinh Tố Mãng Cầu Xiêm",
+        "rarity": 3,
+        "type": "Sinh tố chua ngọt thanh mát",
+        "image": "images/catalog-20261031/nuoc_sinh_to_mang_cau.webp",
+        "desc": "Thịt mãng cầu xiêm dai dai vị chua ngọt thanh thoát xay cùng sữa đá, thức uống giải ngấy cực kỳ được yêu thích.",
+        "quote": "Vị chua thanh mát lành của mãng cầu xiêm, uống một ngụm là sảng khoái.",
+        "calories": 240,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 38000,
+        "priceRange": [
+          30400,
+          49400
+        ],
+        "priceMin": 30400,
+        "priceMax": 49400
+      },
+      "image": {
+        "id": "nuoc_sinh_to_mang_cau",
+        "name": "Sinh Tố Mãng Cầu Xiêm",
+        "title": "Mãng cầu xiêm bao nhiêu calo? Món ngon mãng cầu xiêm giảm cân",
+        "source": "https://www.thethaothientruong.vn/tin-tuc/mang-cau-xiem-bao-nhieu-calo.html",
+        "imageUrl": "https://www.thethaothientruong.vn/uploads/2023/sinh-to-mang-cau-xiem-sua-chua.jpg",
+        "file": "images/catalog-20261031/nuoc_sinh_to_mang_cau.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Sinh To Sapoche Hong Xiem",
+      "searchUrl": "https://www.bing.com/images/search?q=Sinh+To+Sapoche+Hong+Xiem",
+      "dish": {
+        "id": "nuoc_sinh_to_sapoche",
+        "name": "Sinh Tố Sapoche (Hồng Xiêm)",
+        "rarity": 3,
+        "type": "Sinh tố ngọt lịm vị mật",
+        "image": "images/catalog-20261031/nuoc_sinh_to_sapoche.webp",
+        "desc": "Hồng xiêm chín mọng thơm bùi ngọt đậm đà như mật mía xay nhuyễn cùng sữa đá, món sinh tố kinh điển miền Nam.",
+        "quote": "Ngọt lịm vị mật hồng xiêm chín cây, thơm bùi béo ngậy khó cưỡng.",
+        "calories": 290,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 35000,
+        "priceRange": [
+          28000,
+          45500
+        ],
+        "priceMin": 28000,
+        "priceMax": 45500
+      },
+      "image": {
+        "id": "nuoc_sinh_to_sapoche",
+        "name": "Sinh Tố Sapoche (Hồng Xiêm)",
+        "title": "[Trái cây nội địa VN] Sapoche Việt Nam",
+        "source": "https://www.vitaminhouse.vn/products/sapoche-loai-1?srsltid=AfmBOorM9HvGeX4W9KK2hYaLSQcCF-KBt3tylIfe7Avy7AgOWPF397m-",
+        "imageUrl": "https://www.vitaminhouse.vn/cdn/shop/products/sapochevitaminhouse_800x.jpg?v=1751615327",
+        "file": "images/catalog-20261031/nuoc_sinh_to_sapoche.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Sinh To Bo Xoai",
+      "searchUrl": "https://www.bing.com/images/search?q=Sinh+To+Bo+Xoai",
+      "dish": {
+        "id": "nuoc_sinh_to_bo_xoai",
+        "name": "Sinh Tố Bơ - Xoài Kết Hợp",
+        "rarity": 3,
+        "type": "Sinh tố nhiệt đới mix vị",
+        "image": "images/catalog-20261031/nuoc_sinh_to_bo_xoai.webp",
+        "desc": "Sự giao thoa hoàn mỹ giữa độ béo ngậy dẻo mịn của bơ sáp và hương thơm ngọt ngào của xoài cát chín vàng.",
+        "quote": "Bơ béo ngậy hòa quyện xoài thơm ngọt, hương vị nhiệt đới ngập tràn.",
+        "calories": 310,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 42000,
+        "priceRange": [
+          33600,
+          54600
+        ],
+        "priceMin": 33600,
+        "priceMax": 54600
+      },
+      "image": {
+        "id": "nuoc_sinh_to_bo_xoai",
+        "name": "Sinh Tố Bơ - Xoài Kết Hợp",
+        "title": "Vietnamese avocado smoothie: TOP 8 recipes for your health",
+        "source": "https://vinpearl.com/en/vietnamese-avocado-smoothie-top-recipes-for-your-health",
+        "imageUrl": "https://statics.vinpearl.com/vietnamese-avocado-smoothie-5_1702922794.jpg",
+        "file": "images/catalog-20261031/nuoc_sinh_to_bo_xoai.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Sinh To Chuoi Dau Tay",
+      "searchUrl": "https://www.bing.com/images/search?q=Sinh+To+Chuoi+Dau+Tay",
+      "dish": {
+        "id": "nuoc_sinh_to_chuoi_dau",
+        "name": "Sinh Tố Chuối - Dâu Tây",
+        "rarity": 3,
+        "type": "Sinh tố chua ngọt cân bằng",
+        "image": "images/catalog-20261031/nuoc_sinh_to_chuoi_dau.webp",
+        "desc": "Vị chuối ngọt bùi đằm thắm kết hợp ăn ý cùng dâu tây chua thanh mọng nước, thức uống dinh dưỡng đẹp dáng.",
+        "quote": "Sự cân bằng tuyệt mỹ giữa vị bùi của chuối và chua dịu của dâu tây.",
+        "calories": 260,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 40000,
+        "priceRange": [
+          32000,
+          52000
+        ],
+        "priceMin": 32000,
+        "priceMax": 52000
+      },
+      "image": {
+        "id": "nuoc_sinh_to_chuoi_dau",
+        "name": "Sinh Tố Chuối - Dâu Tây",
+        "title": "Giảm cân hiệu quả với sinh tố chuối dâu tây",
+        "source": "https://www.bachhoaxanh.com/kinh-nghiem-hay/giam-can-hieu-qua-voi-sinh-to-chuoi-dau-tay-1168040",
+        "imageUrl": "https://cdn.tgdd.vn/Files/2019/05/21/1168040/giam-can-hieu-qua-voi-sinh-to-chuoi-dau-tay-3_800x450.jpg",
+        "file": "images/catalog-20261031/nuoc_sinh_to_chuoi_dau.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Sinh To Chuoi Bo Dau Phong",
+      "searchUrl": "https://www.bing.com/images/search?q=Sinh+To+Chuoi+Bo+Dau+Phong",
+      "dish": {
+        "id": "nuoc_sinh_to_chuoi_bo_dau_phong",
+        "name": "Sinh Tố Chuối - Bơ Đậu Phộng",
+        "rarity": 3,
+        "type": "Sinh tố thể thao giàu Protein",
+        "image": "images/catalog-20261031/nuoc_sinh_to_chuoi_bo_dau_phong.webp",
+        "desc": "Thức uống hoàn hảo cho người tập gym: chuối chín giàu khoáng chất xay cùng bơ đậu phộng béo bùi đậm đà.",
+        "quote": "Bơ đậu phộng thơm bùi béo ngậy tiếp thêm sức mạnh thể lực bền bỉ.",
+        "calories": 390,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 45000,
+        "priceRange": [
+          36000,
+          58500
+        ],
+        "priceMin": 36000,
+        "priceMax": 58500
+      },
+      "image": {
+        "id": "nuoc_sinh_to_chuoi_bo_dau_phong",
+        "name": "Sinh Tố Chuối - Bơ Đậu Phộng",
+        "title": "Sinh Tố Chuối Bơ Đậu Phộng: Công Thức Tuyệt Vời Cho Sức Khỏe và Sắc Đẹp",
+        "source": "https://rdsic.edu.vn/blog/toan/nhung-cach-lam-sinh-to-chuoi-bo-dau-phong-ngon-va-bo-duong-vi-cb.html",
+        "imageUrl": "https://nomnomnhatrang.com/assets/uploads/nomnomnhatrang.com_1636013385845.png",
+        "file": "images/catalog-20261031/nuoc_sinh_to_chuoi_bo_dau_phong.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Sinh To Berry Mix",
+      "searchUrl": "https://www.bing.com/images/search?q=Sinh+To+Berry+Mix",
+      "dish": {
+        "id": "nuoc_sinh_to_berry_mix",
+        "name": "Sinh Tố Berry Mix (Dâu, Việt Quất, Mâm Xôi)",
+        "rarity": 3,
+        "type": "Sinh tố siêu chống oxy hóa",
+        "image": "images/catalog-20261031/nuoc_sinh_to_berry_mix.webp",
+        "desc": "Tập hợp các loại quả mọng thượng hạng giàu chất chống oxy hóa, mang sắc tím đỏ quyến rũ và vị chua ngọt tinh tế.",
+        "quote": "Bộ ba quả mọng đỏ tím rực rỡ, thanh lọc cơ thể tươi trẻ làn da.",
+        "calories": 210,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 48000,
+        "priceRange": [
+          38400,
+          62400
+        ],
+        "priceMin": 38400,
+        "priceMax": 62400
+      },
+      "image": {
+        "id": "nuoc_sinh_to_berry_mix",
+        "name": "Sinh Tố Berry Mix (Dâu, Việt Quất, Mâm Xôi)",
+        "title": "404 Not Found",
+        "source": "https://stonelab.princeton.edu/news/tips.html?p=11-simple-drinks-for-one-week-of-lighter-belly-habits-69c3c288d355b",
+        "imageUrl": "https://img.siterank.app/topic/yogurt-berry-shake.png",
+        "file": "images/catalog-20261031/nuoc_sinh_to_berry_mix.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Sinh To Xoai Chanh Day",
+      "searchUrl": "https://www.bing.com/images/search?q=Sinh+To+Xoai+Chanh+Day",
+      "dish": {
+        "id": "nuoc_sinh_to_xoai_chanh_day",
+        "name": "Sinh Tố Xoài - Chanh Dây",
+        "rarity": 3,
+        "type": "Sinh tố chua ngọt nhiệt đới",
+        "image": "images/catalog-20261031/nuoc_sinh_to_xoai_chanh_day.webp",
+        "desc": "Vị ngọt đậm của xoài cát được nâng tầm bởi vị chua thanh nồng nàn của chanh leo tươi, bừng tỉnh mọi giác quan.",
+        "quote": "Chua ngọt bừng tỉnh giác quan, hương chanh dây ngào ngạt tươi mát.",
+        "calories": 220,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 38000,
+        "priceRange": [
+          30400,
+          49400
+        ],
+        "priceMin": 30400,
+        "priceMax": 49400
+      },
+      "image": {
+        "id": "nuoc_sinh_to_xoai_chanh_day",
+        "name": "Sinh Tố Xoài - Chanh Dây",
+        "title": "Xoài Chanh Dây Đá Xây – nangtamvn",
+        "source": "https://nangtamvn.com/products/xoai-chanh-day-da-xay",
+        "imageUrl": "https://product.hstatic.net/200000791069/product/lord-83_4b0c8f2bd7e6478da21891e100a8a053_grande.jpg",
+        "file": "images/catalog-20261031/nuoc_sinh_to_xoai_chanh_day.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Sinh To Bo Sau Rieng",
+      "searchUrl": "https://www.bing.com/images/search?q=Sinh+To+Bo+Sau+Rieng",
+      "dish": {
+        "id": "nuoc_sinh_to_bo_sau_rieng",
+        "name": "Sinh Tố Bơ - Sầu Riêng Béo Ngậy",
+        "rarity": 4,
+        "type": "Đỉnh cao béo ngậy miền nhiệt đới",
+        "image": "images/catalog-20261031/nuoc_sinh_to_bo_sau_rieng.webp",
+        "desc": "Cơm sầu riêng Ri6 thơm lừng nức mũi kết hợp cùng bơ sáp béo ngậy, món sinh tố xa xỉ thỏa mãn tín đồ sầu riêng.",
+        "quote": "Độ béo ngậy bùng nổ, hương thơm sầu riêng nồng nàn quyến rũ ngây ngất.",
+        "calories": 450,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 50000,
+        "priceRange": [
+          40000,
+          65000
+        ],
+        "priceMin": 40000,
+        "priceMax": 65000
+      },
+      "image": {
+        "id": "nuoc_sinh_to_bo_sau_rieng",
+        "name": "Sinh Tố Bơ - Sầu Riêng Béo Ngậy",
+        "title": "Cách Làm Món Sinh Tố Bơ Sầu Riêng của Rose Truong - Cookpad",
+        "source": "https://cookpad.com/vn/cong-thuc/2996638",
+        "imageUrl": "https://img-global.cpcdn.com/recipes/5b0a6b75e39877f7/680x781cq80/sinh-t%E1%BB%91-b%C6%A1-s%E1%BA%A7u-rieng-recipe-main-photo.jpg",
+        "file": "images/catalog-20261031/nuoc_sinh_to_bo_sau_rieng.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Nuoc Dua Xiem Got Vo",
+      "searchUrl": "https://www.bing.com/images/search?q=Nuoc+Dua+Xiem+Got+Vo",
+      "dish": {
+        "id": "nuoc_dua_xiem_got_vo",
+        "name": "Nước Dừa Xiêm Gọt Vỏ",
+        "rarity": 3,
+        "type": "Nước dừa tươi nguyên chất",
+        "image": "images/catalog-20261031/nuoc_dua_xiem_got_vo.webp",
+        "desc": "Trái dừa xiêm Bến Tre gọt vỏ uống liền, nước ngọt thanh mát lành tinh khiết từ lòng đất, bù điện giải tự nhiên.",
+        "quote": "Ngọt thanh thuần khiết từ thiên nhiên, mát rượi từng giọt nước dừa tươi.",
+        "calories": 60,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 25000,
+        "priceRange": [
+          20000,
+          32500
+        ],
+        "priceMin": 20000,
+        "priceMax": 32500
+      },
+      "image": {
+        "id": "nuoc_dua_xiem_got_vo",
+        "name": "Nước Dừa Xiêm Gọt Vỏ",
+        "title": "Nước dừa Cocoxim xiêm xanh 1000ml/1L - 18791 | Hotelmart.vn",
+        "source": "https://hotelmart.vn/san-pham/nuoc-dua-cocoxim-xiem-xanh-1000ml-1l-18791",
+        "imageUrl": "https://hotelmart.vn/uploads/share-images/2022/05/30/2026_i629485463d882.jpg",
+        "file": "images/catalog-20261031/nuoc_dua_xiem_got_vo.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Nuoc Dua Tac Dua Thom",
+      "searchUrl": "https://www.bing.com/images/search?q=Nuoc+Dua+Tac+Dua+Thom",
+      "dish": {
+        "id": "nuoc_dua_tac_dua_thom",
+        "name": "Nước Dừa Tắc / Dừa Thơm Khóm",
+        "rarity": 3,
+        "type": "Giải khát đường phố Sài Gòn",
+        "image": "images/catalog-20261031/nuoc_dua_tac_dua_thom.webp",
+        "desc": "Nước dừa tươi hòa cùng mứt tắc thơm dẻo hoặc khóm xào đường, thêm chút cơm dừa giòn giòn nhai vui miệng.",
+        "quote": "Cơm dừa giòn sần sật quyện nước dừa tắc chua ngọt đường phố Sài Gòn.",
+        "calories": 95,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 20000,
+        "priceRange": [
+          16000,
+          26000
+        ],
+        "priceMin": 16000,
+        "priceMax": 26000
+      },
+      "image": {
+        "id": "nuoc_dua_tac_dua_thom",
+        "name": "Nước Dừa Tắc / Dừa Thơm Khóm",
+        "title": "2 cách làm dừa tắc chua ngọt thanh mát giải nhiệt ngày hè nóng bức",
+        "source": "https://www.dienmayxanh.com/vao-bep/cach-lam-dua-tac-chua-ngot-thanh-mat-giai-nhiet-ngay-he-02261",
+        "imageUrl": "https://cdn.tgdd.vn/2021/09/CookRecipe/Avatar/dua-tac-xi-muoi-thumbnail.jpg",
+        "file": "images/catalog-20261031/nuoc_dua_tac_dua_thom.webp",
+        "licenseVerified": false,
+        "userApproved": true,
+        "visualReview": {
+          "date": "2026-10-31",
+          "noPeopleOrHands": true
+        }
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Nuoc Cam Sanh Vat Tuoi",
+      "searchUrl": "https://www.bing.com/images/search?q=Nuoc+Cam+Sanh+Vat+Tuoi",
+      "dish": {
+        "id": "nuoc_cam_vat",
+        "name": "Nước Cam Sành Vắt Tươi",
+        "rarity": 4,
+        "type": "Nước ép giàu Vitamin C tự nhiên",
+        "image": "images/catalog-20261031/nuoc_cam_vat.webp",
+        "desc": "Cam sành mọng nước vắt tươi nguyên chất, tép cam vàng óng hòa cùng chút đá mát lạnh giúp tăng cường sức đề kháng.",
+        "quote": "Từng tép cam vàng mọng nước, chua ngọt sảng khoái bổ sung vitamin C.",
+        "calories": 110,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 25000,
+        "priceRange": [
+          20000,
+          32500
+        ],
+        "priceMin": 20000,
+        "priceMax": 32500
+      },
+      "image": {
+        "id": "nuoc_cam_vat",
+        "name": "Nước Cam Sành Vắt Tươi",
+        "title": "Vào chính vụ cam sành bán chạy vì giá rẻ",
+        "source": "https://cafef.vn/vao-chinh-vu-cam-sanh-ban-chay-vi-gia-re-20230212082726675.chn",
+        "imageUrl": "https://cafefcdn.com/203337114487263232/2023/2/12/photo-4-16761650502281255444557.jpg",
+        "file": "images/catalog-20261031/nuoc_cam_vat.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Nuoc Ep Buoi Hong Tuoi",
+      "searchUrl": "https://www.bing.com/images/search?q=Nuoc+Ep+Buoi+Hong+Tuoi",
+      "dish": {
+        "id": "nuoc_ep_buoi_hong",
+        "name": "Nước Ép Bưởi Hồng Tươi",
+        "rarity": 4,
+        "type": "Nước ép hỗ trợ giữ dáng",
+        "image": "images/catalog-20261031/nuoc_ep_buoi_hong.webp",
+        "desc": "Tép bưởi da xanh hồng hào ép chậm nguyên chất, vị chua ngọt thanh nhẹ chứa enzyme tự nhiên hỗ trợ tiêu hóa và giảm mỡ.",
+        "quote": "Thanh mát vị bưởi hồng, hỗ trợ giữ dáng và thanh lọc cơ thể.",
+        "calories": 90,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 35000,
+        "priceRange": [
+          28000,
+          45500
+        ],
+        "priceMin": 28000,
+        "priceMax": 45500
+      },
+      "image": {
+        "id": "nuoc_ep_buoi_hong",
+        "name": "Nước Ép Bưởi Hồng Tươi",
+        "title": "Những người không nên uống nước ép bưởi",
+        "source": "https://nld.com.vn/nhung-nguoi-khong-nen-uong-nuoc-ep-buoi-196250306101123577.htm",
+        "imageUrl": "https://nld.mediacdn.vn/thumb_w/640/291774122806476800/2025/3/6/untitledaaa-17412305183031216719021.jpg",
+        "file": "images/catalog-20261031/nuoc_ep_buoi_hong.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Nuoc Ep Dua Hau Do",
+      "searchUrl": "https://www.bing.com/images/search?q=Nuoc+Ep+Dua+Hau+Do",
+      "dish": {
+        "id": "nuoc_ep_dua_hau",
+        "name": "Nước Ép Dưa Hấu Đỏ",
+        "rarity": 4,
+        "type": "Nước ép cấp nước tức thì",
+        "image": "images/catalog-20261031/nuoc_ep_dua_hau.webp",
+        "desc": "Dưa hấu chín đỏ mọng ngọt dịu mát lịm, cấp nước và làm dịu ngay cơn khát cháy cổ trong những ngày nắng nóng đỉnh điểm.",
+        "quote": "Sắc đỏ ngọt lịm mát lòng, cấp nước tức thì cho cơ thể căng tràn sức sống.",
+        "calories": 85,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 25000,
+        "priceRange": [
+          20000,
+          32500
+        ],
+        "priceMin": 20000,
+        "priceMax": 32500
+      },
+      "image": {
+        "id": "nuoc_ep_dua_hau",
+        "name": "Nước Ép Dưa Hấu Đỏ",
+        "title": "10 Minuman Segar yang Ampuh Mengatasi Hipertensi, Mulai dari Jus Semangka hingga Air Kelapa - Tampang.com",
+        "source": "https://tampang.com/berita/kesehatan/10-minuman-segar-yang-ampuh-mengatasi-hipertensi-mulai-dari-jus-semangka-hingga-air-kelapa-untuk-kesegaran-dan-kesehatan-badan-9c74zmb3ewrggofgz5",
+        "imageUrl": "https://media.tampang.com/tm_images/article/202407/jusjpgxacblaq6er69yvafv89fpu.jpg",
+        "file": "images/catalog-20261031/nuoc_ep_dua_hau.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Nuoc Ep Dua Thom Mat",
+      "searchUrl": "https://www.bing.com/images/search?q=Nuoc+Ep+Dua+Thom+Mat",
+      "dish": {
+        "id": "nuoc_ep_dua_thom",
+        "name": "Nước Ép Dứa (Thơm) Mật",
+        "rarity": 3,
+        "type": "Nước ép chua ngọt đậm đà",
+        "image": "images/catalog-20261031/nuoc_ep_dua_thom.webp",
+        "desc": "Dứa mật chín vàng ươm ép tươi nguyên chất, vị chua ngọt thơm lừng chứa enzyme bromelain hỗ trợ tiêu hóa tuyệt vời.",
+        "quote": "Chua ngọt đậm đà thơm ngát hương dứa, kích thích vị giác thèm ăn.",
+        "calories": 100,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 25000,
+        "priceRange": [
+          20000,
+          32500
+        ],
+        "priceMin": 20000,
+        "priceMax": 32500
+      },
+      "image": {
+        "id": "nuoc_ep_dua_thom",
+        "name": "Nước Ép Dứa (Thơm) Mật",
+        "title": "16 tác dụng không ngờ của quả dứa đối với sức khỏe con người",
+        "source": "https://moitruong.net.vn/16-tac-dung-khong-ngo-cua-qua-dua-doi-voi-suc-khoe-con-nguoi-82901.html",
+        "imageUrl": "https://mtcs.1cdn.vn/2025/05/19/dua.jpg",
+        "file": "images/catalog-20261031/nuoc_ep_dua_thom.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Nuoc Ep Tao Xanh Tao Do",
+      "searchUrl": "https://www.bing.com/images/search?q=Nuoc+Ep+Tao+Xanh+Tao+Do",
+      "dish": {
+        "id": "nuoc_ep_tao",
+        "name": "Nước Ép Táo Xanh & Táo Đỏ",
+        "rarity": 3,
+        "type": "Nước ép ngọt thanh sảng khoái",
+        "image": "images/catalog-20261031/nuoc_ep_tao.webp",
+        "desc": "Táo giòn tươi ép chậm giữ trọn dinh dưỡng, vị ngọt thanh tự nhiên và hương thơm dịu nhẹ tiếp thêm năng lượng tích cực.",
+        "quote": "Ngọt thanh sảng khoái vị táo tươi, mỗi ngày một ly cho cơ thể khỏe mạnh.",
+        "calories": 115,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 35000,
+        "priceRange": [
+          28000,
+          45500
+        ],
+        "priceMin": 28000,
+        "priceMax": 45500
+      },
+      "image": {
+        "id": "nuoc_ep_tao",
+        "name": "Nước Ép Táo Xanh & Táo Đỏ",
+        "title": "Cara Mudah Membuat Jus Apel Merah Yang Segar - Minuman Starbucks",
+        "source": "https://minumanstarbucks.blogspot.com/2016/02/resep-minuman-jus-buah-apel.html",
+        "imageUrl": "https://2.bp.blogspot.com/-j85aLJRlm2s/W02qabBq-9I/AAAAAAAAE4c/r3e64nHh2GcIQbuZIfMNH-8G1qboLrMDwCLcBGAs/s1600/jus%2Bapel.jpg",
+        "file": "images/catalog-20261031/nuoc_ep_tao.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Nuoc Ep Oi Hat Luu",
+      "searchUrl": "https://www.bing.com/images/search?q=Nuoc+Ep+Oi+Hat+Luu",
+      "dish": {
+        "id": "nuoc_ep_oi",
+        "name": "Nước Ép Ổi Hạt Lựu",
+        "rarity": 4,
+        "type": "Hàm lượng Vitamin C vượt trội",
+        "image": "images/catalog-20261031/nuoc_ep_oi.webp",
+        "desc": "Ổi tươi giòn ép lấy nước thơm nồng nàn, hàm lượng vitamin C cao gấp 4 lần cam giúp tăng cường miễn dịch và sáng da.",
+        "quote": "Vị chát ngọt nhẹ thơm nồng nàn, vua hàm lượng vitamin C tự nhiên.",
+        "calories": 95,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 25000,
+        "priceRange": [
+          20000,
+          32500
+        ],
+        "priceMin": 20000,
+        "priceMax": 32500
+      },
+      "image": {
+        "id": "nuoc_ep_oi",
+        "name": "Nước Ép Ổi Hạt Lựu",
+        "title": "Mỗi ngày uống một cốc nước ổi còn tốt hơn cả “thần dược”",
+        "source": "https://m.nguoiduatin.vn/moi-ngay-uong-mot-coc-nuoc-oi-con-tot-hon-ca-than-duoc-204515244.amp",
+        "imageUrl": "https://nguoiduatin.mediacdn.vn/media/le-thi-duyen/2021/05/22/nuoc-ep-oi-2.png",
+        "file": "images/catalog-20261031/nuoc_ep_oi.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Nuoc Ep Ca Rot Tuoi",
+      "searchUrl": "https://www.bing.com/images/search?q=Nuoc+Ep+Ca+Rot+Tuoi",
+      "dish": {
+        "id": "nuoc_ep_ca_rot",
+        "name": "Nước Ép Cà Rốt Tươi",
+        "rarity": 3,
+        "type": "Nước ép sáng mắt đẹp da",
+        "image": "images/catalog-20261031/nuoc_ep_ca_rot.webp",
+        "desc": "Cà rốt Đà Lạt tươi ngọt ép cùng chút đá, giàu beta-carotene chuyển hóa thành vitamin A nuôi dưỡng đôi mắt sáng ngời.",
+        "quote": "Sắc cam tươi sáng, giàu dưỡng chất nuôi dưỡng đôi mắt sáng tinh anh.",
+        "calories": 80,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 25000,
+        "priceRange": [
+          20000,
+          32500
+        ],
+        "priceMin": 20000,
+        "priceMax": 32500
+      },
+      "image": {
+        "id": "nuoc_ep_ca_rot",
+        "name": "Nước Ép Cà Rốt Tươi",
+        "title": "Có nên uống nước ép cà rốt mỗi ngày và đâu là cách uống đúng chuẩn",
+        "source": "https://www.bachhoaxanh.com/kinh-nghiem-hay/co-nen-uong-nuoc-ep-ca-rot-moi-ngay-va-dau-la-cach-uong-dung-chuan-1195087",
+        "imageUrl": "https://cdn.tgdd.vn/Files/2019/09/05/1195087/co-nen-uong-nuoc-ep-ca-rot-moi-ngay-va-dau-la-cach-uong-dung-chuan-201909050905064136.jpg",
+        "file": "images/catalog-20261031/nuoc_ep_ca_rot.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Nuoc Ep Ca Chua Tuoi",
+      "searchUrl": "https://www.bing.com/images/search?q=Nuoc+Ep+Ca+Chua+Tuoi",
+      "dish": {
+        "id": "nuoc_ep_ca_chua",
+        "name": "Nước Ép Cà Chua Tươi",
+        "rarity": 3,
+        "type": "Nước ép chống oxy hóa",
+        "image": "images/catalog-20261031/nuoc_ep_ca_chua.webp",
+        "desc": "Cà chua chín mọng giàu lycopene chống lão hóa và bảo vệ tim mạch, vị chua thanh mát nhẹ nhàng cho vóc dáng thon gọn.",
+        "quote": "Lycopene dồi dào từ cà chua chín đỏ, gìn giữ nét thanh xuân tươi trẻ.",
+        "calories": 70,
+        "tags": [],
+        "filter": "sinh_to_nuoc_ep",
+        "price": 25000,
+        "priceRange": [
+          20000,
+          32500
+        ],
+        "priceMin": 20000,
+        "priceMax": 32500
+      },
+      "image": {
+        "id": "nuoc_ep_ca_chua",
+        "name": "Nước Ép Cà Chua Tươi",
+        "title": "トマトジュースを飲みすぎるとどうなる？メリット、デメリットをそれぞれ解説 | サンキュ！",
+        "source": "https://39mag.benesse.ne.jp/beauty/content/?id=181923",
+        "imageUrl": "https://img.benesse-cms.jp/thank-you/item/image/normal/fa967635-bf80-460a-8e68-f6c859b2a770.jpg?h=900&resize_mode=force&resize_type=cover&w=1200",
+        "file": "images/catalog-20261031/nuoc_ep_ca_chua.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Nuoc Mia Tuoi Sieu Sach",
+      "searchUrl": "https://www.bing.com/images/search?q=Nuoc+Mia+Tuoi+Sieu+Sach",
+      "dish": {
+        "id": "nuoc_mia_sieu_sach",
+        "name": "Nước Mía Tươi Siêu Sạch",
+        "rarity": 3,
+        "type": "Giải khát quốc dân đường phố",
+        "image": "images/catalog-20261031/nuoc_mia_sieu_sach.webp",
+        "desc": "Mía tím ép tươi cùng trái quất (tắc) thơm ngát tạo nên ly nước mía sủi bọt ngọt lịm giải nhiệt quốc dân của người Việt.",
+        "quote": "Ngọt lịm mát rượi từng ngụm nước mía tươi ép quất thơm nức hè về.",
+        "calories": 130,
+        "tags": [],
+        "filter": "nuoc_ngot",
+        "price": 12000,
+        "priceRange": [
+          9600,
+          15600
+        ],
+        "priceMin": 9600,
+        "priceMax": 15600
+      },
+      "image": {
+        "id": "nuoc_mia_sieu_sach",
+        "name": "Nước Mía Tươi Siêu Sạch",
+        "title": "5 cách uống nước mía để tránh bị tiểu đường",
+        "source": "https://vtcnews.vn/5-cach-uong-nuoc-mia-de-tranh-bi-tieu-duong-ar937940.html",
+        "imageUrl": "https://cdn-i.vtcnews.vn/resize/1200x900/upload/2025/04/16/tieu-duong-co-uong-duoc-nuoc-mia-khong-1-09331587.jpg",
+        "file": "images/catalog-20261031/nuoc_mia_sieu_sach.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Ca Phe Den Pha Phin",
+      "searchUrl": "https://www.bing.com/images/search?q=Ca+Phe+Den+Pha+Phin",
+      "dish": {
+        "id": "nuoc_ca_phe_den_da",
+        "name": "Cà Phê Đen Pha Phin",
+        "rarity": 3,
+        "type": "Cà phê Robusta truyền thống",
+        "image": "images/catalog-20261031/nuoc_ca_phe_den_da.webp",
+        "desc": "Hạt cà phê Robusta Buôn Ma Thuột rang mộc pha phin truyền thống, đắng đậm đà nồng nàn đánh thức trọn vẹn trí não.",
+        "quote": "Từng giọt cà phê phin tí tách, đắng đậm đà mạnh mẽ tinh thần.",
+        "calories": 15,
+        "tags": [],
+        "filter": "ca_phe_tra",
+        "price": 20000,
+        "priceRange": [
+          16000,
+          26000
+        ],
+        "priceMin": 16000,
+        "priceMax": 26000
+      },
+      "image": {
+        "id": "nuoc_ca_phe_den_da",
+        "name": "Cà Phê Đen Pha Phin",
+        "title": "世界が注目する4大ベトナムコーヒー｜®️OTASUKE | ベトナムで営業支援・営業代行",
+        "source": "https://note.com/otasuke0126/n/n57bf3f7711de",
+        "imageUrl": "https://assets.st-note.com/img/1740376094-KHD7B3EZbU9O16egsnYCxNca.jpg",
+        "file": "images/catalog-20261031/nuoc_ca_phe_den_da.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Ca Phe Sua Da Sai Gon",
+      "searchUrl": "https://www.bing.com/images/search?q=Ca+Phe+Sua+Da+Sai+Gon",
+      "dish": {
+        "id": "nuoc_ca_phe_sua_da",
+        "name": "Cà Phê Sữa Đá Sài Gòn",
+        "rarity": 5,
+        "type": "Cà phê sữa đá huyền thoại",
+        "image": "images/catalog-20261031/nuoc_ca_phe_sua_da.webp",
+        "desc": "Sự hòa quyện kinh điển giữa cà phê phin đậm đắng và sữa đặc béo ngọt, thức uống được Bloomberg bình chọn ngon nhất thế giới.",
+        "quote": "Hương vị cà phê sữa đá trứ danh Sài Gòn, ngọt béo đắng êm say đắm lòng người.",
+        "calories": 180,
+        "tags": [],
+        "filter": "ca_phe_tra",
+        "price": 25000,
+        "priceRange": [
+          20000,
+          32500
+        ],
+        "priceMin": 20000,
+        "priceMax": 32500
+      },
+      "image": {
+        "id": "nuoc_ca_phe_sua_da",
+        "name": "Cà Phê Sữa Đá Sài Gòn",
+        "title": "Thủ tướng Canada ông Trudeau đã bị cà phê sữa đá Sài Gòn thuyết phục như thế nào?",
+        "source": "https://eva.vn/bep-eva/ca-phe-sua-da-sai-gon-da-thuyet-phuc-thu-tuong-quyen-luc-cua-canada-nhu-the-nao-c162a330190.html",
+        "imageUrl": "https://cdn.eva.vn/upload/4-2017/images/2017-11-10/ca-phe-sua-da-sai-gon-da-thuyet-phuc-thu-tuong-quyen-luc-cua-canada-nhu-the-nao-img_2923-1510298453-574-width600height800.jpg",
+        "file": "images/catalog-20261031/nuoc_ca_phe_sua_da.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Bac Xiu Ba Tang Sai Gon",
+      "searchUrl": "https://www.bing.com/images/search?q=Bac+Xiu+Ba+Tang+Sai+Gon",
+      "dish": {
+        "id": "nuoc_bac_xiu",
+        "name": "Bạc Xỉu Ba Tầng Sài Gòn",
+        "rarity": 4,
+        "type": "Nhiều sữa ít cà phê béo ngậy",
+        "image": "images/catalog-20261031/nuoc_bac_xiu.webp",
+        "desc": "Ly bạc xỉu ba tầng đẹp mắt gồm sữa đặc, sữa tươi và lớp cà phê bồng bềnh, ngọt ngào dành cho ai yêu thích vị sữa thơm bùi.",
+        "quote": "Nhiều sữa ít cà phê, ngọt ngào dịu êm cho một buổi sáng thảnh thơi.",
+        "calories": 210,
+        "tags": [],
+        "filter": "ca_phe_tra",
+        "price": 28000,
+        "priceRange": [
+          22400,
+          36400
+        ],
+        "priceMin": 22400,
+        "priceMax": 36400
+      },
+      "image": {
+        "id": "nuoc_bac_xiu",
+        "name": "Bạc Xỉu Ba Tầng Sài Gòn",
+        "title": "Lemongrass Orange Peach tea - Trà đào cam sả | Nôm Nôm Restaurant | Rẻ mà gần",
+        "source": "https://remagan.com/product/lemongrass-orange-peach-tea-tra-dao-cam-sa-a5c867df",
+        "imageUrl": "https://s3.remagan.com/pro.remagan.uploads/product/2023/11/three-layers-coffee-ca-phe-3-tang-20231122125505_655d97b93ffd7.webp",
+        "file": "images/catalog-20261031/nuoc_bac_xiu.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Ca Phe Trung Ha Noi",
+      "searchUrl": "https://www.bing.com/images/search?q=Ca+Phe+Trung+Ha+Noi",
+      "dish": {
+        "id": "nuoc_ca_phe_trung",
+        "name": "Cà Phê Trứng Hà Nội",
+        "rarity": 5,
+        "type": "Đặc sản cà phê thủ đô",
+        "image": "images/catalog-20261031/nuoc_ca_phe_trung.webp",
+        "desc": "Lòng đỏ trứng gà tươi đánh bông mịn như nhung bồng bềnh trên cốt cà phê phin nóng hổi, vị béo ngậy không hề tanh.",
+        "quote": "Lớp kem trứng mềm mịn như nhung hòa cùng giọt cà phê đắng nồng ấm lòng.",
+        "calories": 260,
+        "tags": [],
+        "filter": "ca_phe_tra",
+        "price": 40000,
+        "priceRange": [
+          32000,
+          52000
+        ],
+        "priceMin": 32000,
+        "priceMax": 52000
+      },
+      "image": {
+        "id": "nuoc_ca_phe_trung",
+        "name": "Cà Phê Trứng Hà Nội",
+        "title": "Ba địa điểm uống cà phê trứng trong lòng phố cổ",
+        "source": "https://giadinh.suckhoedoisong.vn/ba-dia-diem-uong-ca-phe-trung-trong-long-pho-co-172160808211159226.htm",
+        "imageUrl": "https://giadinh.mediacdn.vn/2016/cf-1470665431201.jpg",
+        "file": "images/catalog-20261031/nuoc_ca_phe_trung.webp",
+        "licenseVerified": false,
+        "userApproved": true
+      }
+    },
+    {
+      "group": "drinks",
+      "pdf": "Danh Mục Hình Ảnh Đồ Uống (73 Món).pdf",
+      "query": "Ca Phe Cot Dua Hai Phong",
+      "searchUrl": "https://www.bing.com/images/search?q=Ca+Phe+Cot+Dua+Hai+Phong",
+      "dish": {
+        "id": "nuoc_ca_phe_cot_dua",
+        "name": "Cà Phê Cốt Dừa Hải Phòng",
+        "rarity": 4,
+        "type": "Cà phê tuyết nước cốt dừa",
+        "image": "images/catalog-20261031/nuoc_ca_phe_cot_dua.webp",
+        "desc": "Nước cốt dừa thơm béo xay nhuyễn cùng đá tuyết mịn như kem, rót cà phê đen lên bề mặt tạo sự hòa quyện khó quên.",
+        "quote": "Tuyết cốt dừa béo ngậy thơm lừng tan chảy trong vị đắng dịu cà phê.",
+        "calories": 280,
+        "tags": [],
+        "filter": "ca_phe_tra",
+        "price": 38000,
+        "priceRange": [
+          30400,
+          49400
+        ],
+        "priceMin": 30400,
+        "priceMax": 49400
+      },
+      "image": {
+        "id": "nuoc_ca_phe_cot_dua",
+        "name": "Cà Phê Cốt Dừa Hải Phòng",
+        "title": " – Blu Ore Coffee | Premium Vietnamese Coffee",
+        "source": "https://bluorecoffee.com/blogs/news/vietnamese-coconut-coffee-ca-phe-c%E1%BB%91t-d%E1%BB%ABa",
+        "imageUrl": "https://bluorecoffee.com/cdn/shop/articles/a-high-resolution-close-up-photograph-of-a-tall-glass-of-vietnamese-coconut-coffee-c-ph-c-t-d-a-on-a-rustic-wooden-table-the-drink-shows-two-distinct-layers-rich-dark-brewed-robusta-c_1200x1200.png?v=1754873263",
+        "file": "images/catalog-20261031/nuoc_ca_phe_cot_dua.webp",
+        "licenseVerified": false,
+        "userApproved": true,
+        "visualReview": {
+          "date": "2026-10-31",
+          "noPeopleOrHands": true
+        }
+      }
+    }
+  ]
+}

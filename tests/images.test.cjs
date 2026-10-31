@@ -22,10 +22,10 @@ function allDishes() {
 
 test('all five regional catalogs have exact asset and attribution audit coverage', () => {
   const all = allDishes();
-  assert.equal(all.length, 382);
-  assert.equal(new Set(all.map(({ dish }) => dish.id)).size, 382);
-  assert.equal(audit.entries.length, 382);
-  assert.equal(audit.summary.total, 382);
+  assert.equal(all.length, 350);
+  assert.equal(new Set(all.map(({ dish }) => dish.id)).size, 350);
+  assert.equal(audit.entries.length, 350);
+  assert.equal(audit.summary.total, 350);
   assert.deepEqual(Object.keys(audit.summary.regions).sort(), ['en', 'ja', 'ko', 'vi', 'zh']);
 
   for (const { region, dish } of all) {
@@ -62,6 +62,7 @@ test('runtime attribution falls back without mutating catalog data and exposes l
       {
         file: entry.file,
         reviewRequired: entry.reviewRequired,
+        displayApproved: entry.displayApproved,
         reason: entry.reason,
         ...(entry.attribution ? { attribution: entry.attribution } : {}),
       },
@@ -73,13 +74,26 @@ test('runtime attribution falls back without mutating catalog data and exposes l
     context
   );
   const dishes = allDishes();
-  const known = dishes.find(
-    ({ region, dish }) => !auditByDish.get(`${region}:${dish.id}`).reviewRequired
+  let known = dishes.find(
+    ({ region, dish }) => !auditByDish.get(`${region}:${dish.id}`).reviewRequired && !auditByDish.get(`${region}:${dish.id}`).displayApproved
   );
   const unresolved = dishes.find(
-    ({ region, dish }) => auditByDish.get(`${region}:${dish.id}`).reviewRequired
+    ({ region, dish }) => auditByDish.get(`${region}:${dish.id}`).reviewRequired && !auditByDish.get(`${region}:${dish.id}`).displayApproved
   );
-  assert.ok(known && unresolved);
+  assert.ok(unresolved);
+  const approved = dishes.find(({region,dish}) => auditByDish.get(`${region}:${dish.id}`).displayApproved);
+  assert.ok(approved);
+  assert.equal(context.__attribution.imageFor(approved.dish), approved.dish.image);
+  if (!known) {
+    // A fully replaced catalog may have no licensed entry. Exercise the verified
+    // metadata branch with an independent fixture rather than skipping coverage.
+    const fixture = { id: 'verified_fixture', image: 'images/verified.webp' };
+    context.window.BFSC_ATTRIBUTION_DATA[fixture.id] = {
+      file: fixture.image, reviewRequired: false,
+      attribution: { source: 'https://example.org/photo', artist: 'Fixture', license: 'CC0' },
+    };
+    known = { dish: fixture };
+  }
 
   const knownOriginal = known.dish.image;
   const unresolvedOriginal = unresolved.dish.image;

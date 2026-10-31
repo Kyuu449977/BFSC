@@ -31,7 +31,7 @@ test('all-region catalog IDs remain stable while menu list is active-region scop
   const a = app(),
     all = a.catalog.getAllDishes(),
     active = a.engine.getAllDishesList();
-  assert.equal(all.length, 382);
+  assert.equal(all.length, 350);
   assert.ok(all.length > active.length);
   assert.equal(active.length, a.engine.getDishesFrom(a.catalog.getRegion('vi')).length);
   a.engine.setRegion('ja');

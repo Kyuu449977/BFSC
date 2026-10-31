@@ -1,6 +1,6 @@
 # Ăn Gì Đây? — BFSC
 
-Website chọn món ăn bằng vòng quay, hỗ trợ 382 món tĩnh thuộc Việt Nam, Nhật Bản, Hàn Quốc, Trung Quốc và Âu–Mỹ. Người dùng có thể thêm món riêng, lọc ngân sách/khẩu vị, xem bộ sưu tập và mở Google Maps theo tên món.
+Website chọn món ăn bằng vòng quay, hỗ trợ 350 món tĩnh (Việt Nam: 130; bốn vùng còn lại: 220) thuộc Việt Nam, Nhật Bản, Hàn Quốc, Trung Quốc và Âu–Mỹ. Người dùng có thể thêm món riêng, lọc ngân sách/khẩu vị, xem bộ sưu tập và mở Google Maps theo tên món.
 
 ## Chạy và build
 
@@ -17,22 +17,24 @@ Mở địa chỉ localhost hoặc LAN được in ra. `PORT` đổi cổng prev
 
 ## Công nghệ và cấu trúc
 
-HTML5, CSS, classic JavaScript ES6, Web Animations, Web Audio và service worker; không React/Vue, ES Modules, bundler hoặc thư viện frontend lúc chạy. Các tích hợp quảng cáo bên ngoài được giữ.
+HTML5, CSS, classic JavaScript ES6, Web Animations, Web Audio và service worker; không React/Vue, ES Modules, bundler hoặc thư viện frontend lúc chạy. Quảng cáo Monetag và ba banner Adsterra đã được bật lại theo yêu cầu.
 
 - `src/`: nguồn HTML, CSS, JavaScript và tài nguyên.
 - `src/js/money.js`, `catalog.js`, `settings.js`: tiền tệ, danh mục và cài đặt.
 - `src/js/gacha.js`, `collection.js`, `dish-preferences.js`: chọn món, lưu bộ sưu tập và sở thích.
 - `src/js/custom-dishes.js`: validation, API và lưu món local khi không có backend.
 - `src/js/theme-init.js`, `controls.js`, `experience.js`, `audio.js`: giao diện và tương tác native.
-- `src/js/mobile-menu.js`, `sponsors.js`: menu công cụ thu gọn và banner theo kích thước màn hình, tải một lần khi gần vùng nhìn thấy.
+- `src/js/mobile-menu.js`, `sponsors.js`: menu công cụ thu gọn và banner tải khi gần vùng nhìn thấy.
 - `src/js/dish-i18n.js`, `regional-dish-locales.js`, `ui-copy.js`, `legal-copy.js`: bản dịch món, chữ giao diện và trang thông tin; không thay ID món. Ngôn ngữ hiển thị độc lập với vùng ẩm thực và tiền tệ.
 - `backend/`: preview/API Python. `backend/data/` không được xuất bản như file tĩnh.
 - `scripts/build_public.py`, `scripts/public_files.py`: build và allowlist.
 - `public/`: đầu ra tự sinh; không sửa trực tiếp.
 - `tests/`: unit, integration và browser QA.
 - `artifacts/`: log/ảnh cục bộ; không publish.
+- `tools/assets/download_catalog_images.py`: công cụ tải ảnh theo danh mục đã duyệt (chạy thủ công, cần Pillow).
+- `docs/`: tài liệu, hợp đồng kỹ thuật và báo cáo; xem [bản đồ thư mục](docs/PROJECT_STRUCTURE.md) và [SEO đa ngôn ngữ](docs/SEO.md).
 
-CSS được ghép theo thứ tự base → interactions → mobile → refinements → themes → mobile-upgrade.
+CSS được ghép theo thứ tự base → themes → interactions → refinements → mobile → mobile-upgrade. Hệ thống thiết kế nằm tại `DESIGN.md`.
 
 ## Hành vi sản phẩm
 
@@ -59,7 +61,7 @@ GET `/api/places` trả maps-link; POST trả 410, kể cả khi có key. Vercel
 
 Build tạo `sw-assets.js` từ allowlist: app shell bắt buộc, ảnh/font tùy chọn. Không cache API hay quảng cáo. Ảnh thiếu không chặn shell; UI báo số tài nguyên chưa lưu. Bản mới chờ người dùng cập nhật và không reload khi đang quay hoặc nhập form.
 
-Metadata ảnh được đối chiếu theo đường dẫn tại `docs/reports/image-attribution-audit.json`. Có 118 mục có metadata cấu trúc đầy đủ và 264 mục cần rà nguồn/giấy phép; nhóm cần rà dùng placeholder trong UI, giữ nguyên file gốc và ID. Đây không phải xác minh quyền sử dụng độc lập. Credits và runtime metadata sinh trong build, có escape HTML. Giấy phép font/icon/thư viện lịch sử nằm trong `src/assets/licenses/`.
+Metadata ảnh được đối chiếu theo đường dẫn tại `docs/reports/image-attribution-audit.json`. Danh mục Việt Nam gồm 130 ảnh do người dùng cho phép chọn từ kết quả tìm kiếm, đã nén WebP và lưu URL nguồn; chưa xác minh giấy phép. Các mục của vùng khác còn chờ rà nguồn tiếp tục dùng placeholder. Không tự gán tác giả hoặc giấy phép. Nguồn và danh mục được ghi tại `docs/reports/catalog-2026-10-31.json`; credits và runtime metadata sinh trong build, có escape HTML. Giấy phép font/icon/thư viện nằm trong `src/assets/licenses/`.
 
 Thêm món/asset phải cập nhật nguồn, metadata và allowlist; build tự sinh cache manifest. Tăng version cache khi phát hành thay đổi tài nguyên.
 
@@ -85,3 +87,7 @@ Browser scripts dùng Playwright hiện có trong `tools/country-qa/node_modules
 Báo cáo nâng cấp: [docs/reports/UPGRADE-2026-10-29.md](docs/reports/UPGRADE-2026-10-29.md). Log/ảnh nằm trong `artifacts/upgrade-acceptance/` và `artifacts/responsive-qa/`.
 
 Kiểm thử desktop engine không thay thế iPhone/Android vật lý, bàn phím ảo thật hoặc production. Browser QA chính chặn mã quảng cáo ngoài; hành vi thực của nhà cung cấp được ghi là chưa xác minh.
+
+Nút “Xem thêm món” mở `menu.html`, phân trang 12 món và giữ truy vấn/bộ lọc trong URL. Trang chính giới hạn 6 thẻ món; thực đơn riêng giữ 12 món/trang.
+
+Giao diện khám phá mới: [báo cáo thiết kế và kiểm chứng](docs/reports/REDESIGN-2026-10-31.md).

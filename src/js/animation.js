@@ -4,6 +4,11 @@ class FoodRoulette {
     this.viewport = viewport;
     this.busy = false;
     this.runId = 0;
+    const device = typeof navigator === 'undefined' ? {} : navigator;
+    this.light = (device.deviceMemory > 0 && device.deviceMemory <= 4) ||
+      (device.hardwareConcurrency > 0 && device.hardwareConcurrency <= 4);
+    this.slowRuns = 0;
+    this.cardCache = [];
     this.onResize = () => {
       if (this.busy) {
         this.width = this.viewport.clientWidth;
@@ -16,8 +21,8 @@ class FoodRoulette {
     const options = [...new Map([...pool, dish].map((item) => [item.id, item])).values()];
     // One eligible dish: show it once rather than fake a strip of repeated cards.
     if (options.length === 1) return { items: [dish], targetIndex: 0 };
-    const items = new Array(32),
-      targetIndex = 26;
+    const items = new Array(this.light ? 12 : 32),
+      targetIndex = this.light ? 8 : 26;
     items[targetIndex] = dish;
     const pickOther = (neighbor) => {
       const eligible = options.filter((item) => item.id !== neighbor.id);
@@ -37,7 +42,15 @@ class FoodRoulette {
     const fragment = document.createDocumentFragment();
     const sequence = this.buildSequence(dish, pool);
     this.targetIndex = sequence.targetIndex;
-    for (const item of sequence.items) {
+    for (let index = 0; index < sequence.items.length; index++) {
+      const cached = this.cardCache[index];
+      if (cached) {
+        cached.removeAttribute('data-winner');
+        cached.setAttribute('aria-label', UICopy.text('mystery'));
+        cached.querySelector('.reel-card-title').textContent = window.I18N?.[document.documentElement.lang]?.brand_name || 'Ăn Gì Đây?';
+        fragment.append(cached);
+        continue;
+      }
       const card = document.createElement('div');
       card.className = 'reel-card reel-card-mystery';
       card.setAttribute('aria-label', UICopy.text('mystery'));
@@ -62,19 +75,32 @@ class FoodRoulette {
 
       inner.append(pattern, icon, title, question);
       card.append(inner);
+      this.cardCache[index] = card;
       fragment.append(card);
     }
+    this.track.classList.toggle('reel-light', this.light);
     this.track.replaceChildren(fragment);
     this.width = this.viewport.clientWidth;
     this.place(0);
     const started = performance.now();
+    const duration = this.light ? 1200 : 2500;
+    let previous = started, frames = 0, slowFrames = 0;
     const animate = (now) => {
       if (!this.busy || this.runId !== runId) return;
-      this.progress = Math.min((now - started) / 2500, 1);
+      if (!document.hidden) {
+        frames++;
+        if (now - previous > 40) slowFrames++;
+      }
+      previous = now;
+      this.progress = Math.min((now - started) / duration, 1);
       this.place(this.progress);
       if (this.progress === 1) {
         this.track.children[this.targetIndex]?.setAttribute('data-winner', 'true');
-        this.landTimer = setTimeout(() => this.finish(), 140);
+        if (!this.light && frames >= 10) {
+          this.slowRuns = slowFrames / frames > 0.2 ? this.slowRuns + 1 : 0;
+          if (this.slowRuns >= 2) this.light = true;
+        }
+        this.landTimer = setTimeout(() => this.finish(), this.light ? 60 : 140);
       } else this.frame = requestAnimationFrame(animate);
     };
     this.frame = requestAnimationFrame(animate);
@@ -98,7 +124,7 @@ class FoodRoulette {
     clearTimeout(this.landTimer);
     const done = this.done;
     this.done = null;
-    done();
+    done?.();
   }
   release() {
     if (this.busy) return;

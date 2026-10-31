@@ -1,3 +1,4 @@
+import copy
 import base64
 import binascii
 import http.server
@@ -99,7 +100,30 @@ def validate_dish(payload):
             'price': price_value, 'priceRange': [price_value, price_value], 'desc': desc, 'quote': quote,
             'image': image, 'calories': calories, 'rarity': rarity, 'isUserCustom': True}
 
+_dish_cache_key = None
+_dish_cache = None
+
+
 def read_dishes():
+    # Include identity and nanosecond timestamps: atomic replacements and external
+    # edits must invalidate the cache. Never serve cached data after a read error.
+    global _dish_cache_key, _dish_cache
+    with DATA_LOCK:
+        try:
+            stat = CUSTOM_DISH_FILE.stat()
+            key = (str(CUSTOM_DISH_FILE.resolve()), stat.st_ino, stat.st_size, stat.st_mtime_ns, stat.st_ctime_ns)
+        except FileNotFoundError:
+            _dish_cache_key = _dish_cache = None
+            return []
+        except OSError as error:
+            raise RuntimeError('custom dishes data is unavailable') from error
+        if key != _dish_cache_key:
+            data = _read_dishes_uncached()
+            _dish_cache_key, _dish_cache = key, data
+        return copy.deepcopy(_dish_cache)
+
+
+def _read_dishes_uncached():
     if not CUSTOM_DISH_FILE.exists():
         return []
     try:
@@ -111,10 +135,12 @@ def read_dishes():
     return data
 
 def atomic_write_dishes(dishes):
+    global _dish_cache_key, _dish_cache
     temporary = CUSTOM_DISH_FILE.with_name(CUSTOM_DISH_FILE.name + '.tmp')
     try:
         temporary.write_text(json.dumps(dishes, ensure_ascii=False, indent=2), encoding='utf-8')
         os.replace(temporary, CUSTOM_DISH_FILE)
+        _dish_cache_key = _dish_cache = None
     finally:
         if temporary.exists():
             temporary.unlink()

@@ -19,9 +19,9 @@ function load() {
   return c.api;
 }
 const vietnamese = /[ĐđĂăƠơƯưẠ-ỹ]/u;
-test('all 382 built-in dishes have actual target-language names and descriptions', () => {
+test('all 350 built-in dishes have actual target-language names and descriptions', () => {
   const api = load();
-  assert.equal(api.dishes.length, 382);
+  assert.equal(api.dishes.length, 350);
   for (const dish of api.dishes) {
     for (const lang of ['vi', 'en', 'ja', 'ko', 'zh']) {
       const name = api.names(dish, lang),

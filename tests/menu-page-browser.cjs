@@ -1,0 +1,55 @@
+const {chromium}=require('../tools/country-qa/node_modules/playwright');
+const assert=require('node:assert/strict'),fs=require('node:fs');
+(async()=>{
+ const browser=await chromium.launch({headless:true,channel:'msedge'});
+ try{for(const width of [390,1440]){
+  const ctx=await browser.newContext({viewport:{width,height:900},serviceWorkers:'block',timezoneId:'Asia/Ho_Chi_Minh',reducedMotion:'reduce'});
+  await ctx.route('**/*',r=>new URL(r.request().url()).origin==='http://localhost:8080'?r.continue():r.abort());
+  const page=await ctx.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.goto('http://localhost:8080/');await page.waitForFunction(()=>window.engine&&!document.querySelector('#singleBtn').disabled);
+  assert.deepEqual(await page.evaluate(()=>Object.fromEntries(Object.entries(Catalog.getRegion('vi')).map(([k,g])=>[k,g.dishes.length]))),{morning:13,lunch:9,afternoon:8,dinner:9,snacks:18,drinks:73});
+  assert.equal(await page.locator('#menuGrid .dish-card').count(),6);
+  assert.equal((await page.locator('#loadMoreBtn').innerText()).trim(),'Xem thêm món');
+  await page.locator('#filters [data-filter="snacks"]').click();
+  await Promise.all([page.waitForURL('**/menu.html?**'),page.locator('#loadMoreBtn').click()]);
+  await page.waitForFunction(()=>window.engine&&!document.querySelector('#singleBtn').disabled);
+  assert.equal(new URL(page.url()).searchParams.get('category'),'snacks');
+  assert.equal(await page.locator('#home').isVisible(),false);
+  assert.equal(await page.locator('#menuGrid .dish-card').count(),12);
+  await page.evaluate(()=>{window.paginationDocumentMarker='same-document';});
+  let paginationDocumentRequests=0;
+  page.on('request',r=>{if(r.isNavigationRequest()&&r.frame()===page.mainFrame())paginationDocumentRequests++;});
+  const first=await page.locator('#menuGrid .dish-name').allTextContents();
+  await Promise.all([page.waitForURL('**page=2**'),page.locator('#menuPagination a').last().click()]);
+  await page.waitForFunction(()=>window.engine&&!document.querySelector('#singleBtn').disabled);
+  assert.equal(await page.locator('#menuGrid .dish-card').count(),6);
+  assert.ok(!(await page.locator('#menuGrid .dish-name').allTextContents()).some(n=>first.includes(n)));
+  assert.equal(await page.evaluate(()=>window.paginationDocumentMarker),'same-document');
+  assert.equal(paginationDocumentRequests,0);
+  await page.goBack();
+  await page.waitForFunction(()=>document.querySelectorAll('#menuGrid .dish-card').length===12);
+  assert.equal(new URL(page.url()).searchParams.get('page'),'1');
+  await page.goForward();
+  await page.waitForFunction(()=>document.querySelectorAll('#menuGrid .dish-card').length===6);
+  assert.equal(await page.evaluate(()=>window.paginationDocumentMarker),'same-document');
+  assert.equal(paginationDocumentRequests,0);
+  await page.reload();await page.waitForFunction(()=>window.engine&&!document.querySelector('#singleBtn').disabled);
+  assert.equal(await page.locator('#menuGrid .dish-card').count(),6);
+  await page.locator('#dishSearch').fill('không có món này xyz');
+  assert.equal(await page.locator('#menuGrid .dish-card').count(),0);
+  assert.equal(new URL(page.url()).searchParams.get('page'),'1');
+  await page.locator('#clearSearch').click();
+  assert.equal(await page.locator('#menuGrid .dish-card').count(),12);
+  const broken=await page.evaluate(async()=>{
+   const dishes=engine.getAllDishesList(),failed=[];
+   for(let i=0;i<dishes.length;i+=4)await Promise.all(dishes.slice(i,i+4).map(d=>new Promise(resolve=>{const im=new Image();im.onload=resolve;im.onerror=()=>{failed.push(d.id);resolve();};im.src=Attribution.imageFor(d);})));return failed;
+  });assert.deepEqual(broken,[]);
+  await page.screenshot({path:`artifacts/catalog-update/menu-${width}.png`,fullPage:true});
+  await Promise.all([page.waitForURL('**/#menu'),page.locator('#menuBackLink').click()]);
+  await page.waitForFunction(()=>window.engine&&!document.querySelector('#singleBtn').disabled);
+  assert.equal(await page.locator('#menuGrid .dish-card').count(),6);
+  assert.deepEqual(errors,[]);
+  console.log(JSON.stringify({width,main:39,snacks:18,drinks:73,homeCards:6,secondSnackPage:6,brokenImages:broken,errors}));
+  await ctx.close();
+ }}finally{await browser.close();}
+})().catch(e=>{console.error(e);process.exitCode=1;});

@@ -34,7 +34,7 @@ const CustomControls = (() => {
       tooltip.className = 'control-tooltip';
       tooltip.setAttribute('role', 'tooltip');
       tooltip.textContent = target.getAttribute('aria-label') || target.dataset.tooltip;
-      document.body.append(tooltip);
+      (target.closest('dialog') || document.body).append(tooltip);
       const rect = target.getBoundingClientRect(),
         width = tooltip.offsetWidth,
         height = tooltip.offsetHeight;
@@ -119,6 +119,7 @@ const CustomControls = (() => {
     if (opened === control) return;
     closeAll();
     opened = control;
+    (control.source.closest('dialog') || document.body).append(control.list);
     control.list.hidden = false;
     if (!position(control)) return;
     control.trigger.setAttribute('aria-expanded', 'true');

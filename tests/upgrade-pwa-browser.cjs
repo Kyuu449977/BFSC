@@ -182,9 +182,9 @@ const server = http.createServer((req, res) => {
     const offlineNames = await page.evaluate(() =>
       Catalog.getAllDishes().map((dish) => getDishName(dish, 'ja'))
     );
-    if (offlineNames.length !== 382 || offlineNames.some((name) => /[ĐđĂăƠơƯưẠ-ỹ]/u.test(name)))
+    if (offlineNames.length !== 350 || offlineNames.some((name) => /[ĐđĂăƠơƯưẠ-ỹ]/u.test(name)))
       throw Error('Offline localized catalog is incomplete');
-    checks.push('all 382 translated dish names remain available after switching language offline');
+    checks.push('all 350 translated dish names remain available after switching language offline');
     await ctx.close();
     missingEssential = true;
     const failedContext = await browser.newContext();

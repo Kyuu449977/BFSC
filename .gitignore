@@ -38,3 +38,10 @@ artifacts/
 
 # Cloned design skill source repositories
 design-skills/sources/
+
+# Historical export locations; keep new QA evidence under artifacts/.
+/outputs/
+/test-reports/
+/tmp_download/
+/tmp_downloads/
+/tmp_chrome_*/

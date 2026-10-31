@@ -26,7 +26,7 @@ const UICopy = (() => {
       storageError: 'Không lưu được món trên thiết bị. Kiểm tra dung lượng và quyền lưu trữ.',
       seoTitle: 'Ăn Gì Đây? — Chọn một bữa ngon theo cách của bạn',
       seoDescription:
-        'Khám phá 382 món thuộc năm vùng ẩm thực. Chọn một món, ba gợi ý hoặc combo; tùy chỉnh ngân sách, khẩu vị và giao diện theo ý bạn.',
+        'Khám phá 350 món thuộc năm vùng ẩm thực. Chọn một món, ba gợi ý hoặc combo; tùy chỉnh ngân sách, khẩu vị và giao diện theo ý bạn.',
       seoRandom: 'Gợi ý ngẫu nhiên có giảm lặp',
       seoRandomDesc: 'Chọn món chính, ăn vặt, đồ uống hoặc combo và xem kết quả sau vòng quay.',
       seoCustom: 'Vòng quay tự chọn',
@@ -62,7 +62,7 @@ const UICopy = (() => {
       storageError: 'Storage is unavailable. Check free space and browser permissions.',
       seoTitle: 'What to eat? — Find a meal your way',
       seoDescription:
-        'Explore 382 dishes across five food regions. Pick one dish, three suggestions or a combo, with your own budget, tastes and appearance.',
+        'Explore 350 dishes across five food regions. Pick one dish, three suggestions or a combo, with your own budget, tastes and appearance.',
       seoRandom: 'Random picks with less repetition',
       seoRandomDesc:
         'Choose mains, snacks, drinks or a combo and reveal the result after the spin.',
@@ -99,7 +99,7 @@ const UICopy = (() => {
       storageError: '保存できません。空き容量とブラウザの権限を確認してください。',
       seoTitle: '何食べる？ — あなたらしい一食を',
       seoDescription:
-        '5つの地域から382品を探索。1品、3つの候補、セットを予算と好みに合わせて選べます。',
+        '5つの地域から350品を探索。1品、3つの候補、セットを予算と好みに合わせて選べます。',
       seoRandom: '繰り返しを抑えたランダム提案',
       seoRandomDesc: '主食、おやつ、飲み物、セットを選んで抽選結果を楽しめます。',
       seoCustom: '自分だけの料理ルーレット',
@@ -134,7 +134,7 @@ const UICopy = (() => {
       storageError: '저장할 수 없습니다. 여유 공간과 브라우저 권한을 확인하세요.',
       seoTitle: '오늘 뭐 먹지? — 나에게 맞는 한 끼',
       seoDescription:
-        '다섯 지역의 음식 382가지를 살펴보세요. 예산과 취향에 맞춰 한 가지, 세 가지 추천 또는 세트를 고를 수 있습니다.',
+        '다섯 지역의 음식 350가지를 살펴보세요. 예산과 취향에 맞춰 한 가지, 세 가지 추천 또는 세트를 고를 수 있습니다.',
       seoRandom: '반복을 줄인 무작위 추천',
       seoRandomDesc: '주식, 간식, 음료 또는 세트를 선택하고 룰렛 결과를 확인하세요.',
       seoCustom: '나만의 음식 룰렛',
@@ -166,7 +166,7 @@ const UICopy = (() => {
       response: '服务器响应无效，请重试。',
       storageError: '无法保存，请检查剩余空间和浏览器权限。',
       seoTitle: '今天吃什么？— 找到适合你的一餐',
-      seoDescription: '探索五个地区的382道菜品，按预算和口味选择一道菜、三个建议或套餐。',
+      seoDescription: '探索五个地区的350道菜品，按预算和口味选择一道菜、三个建议或套餐。',
       seoRandom: '减少重复的随机建议',
       seoRandomDesc: '选择主食、小吃、饮品或套餐，转动后查看结果。',
       seoCustom: '你的专属美食转盘',
@@ -179,10 +179,19 @@ const UICopy = (() => {
   };
   // Every row supplies all five locales; no Vietnamese fallback for these UI paths.
   const extra = `
+mapsAction|Tìm quán|Find restaurants|お店を探す|식당 찾기|查找餐馆
+dishInfo|Thông tin món|Dish details|料理の情報|음식 정보|菜品信息
+priceInfo|Phân loại và giá|Category and price|分類と価格|분류 및 가격|分类与价格
+photoInfo|Ảnh minh họa|Dish photo|料理の写真|음식 사진|菜品图片
+settingsTitle|Cài đặt|Settings|設定|설정|设置
+settingsAppearance|Giao diện|Appearance|表示|화면|外观
+settingsRegion|Ngôn ngữ và vùng giờ|Language and time zone|言語とタイムゾーン|언어 및 시간대|语言与时区
+settingsAudio|Âm thanh|Audio|音声|오디오|声音
+settingsApp|Ứng dụng và chia sẻ|App and sharing|アプリと共有|앱 및 공유|应用与分享
+settingsMaps|Tìm quán|Find restaurants|お店を探す|식당 찾기|查找餐馆
+advancedFilters|Bộ lọc nâng cao|More filters|詳細フィルター|추가 필터|更多筛选
 flip|Chạm để lật bài|Tap to reveal|タップしてめくる|탭하여 공개|轻触翻牌
-menuLabel|Menu|Menu|メニュー|메뉴|菜单
-sponsorUnavailable|Quảng cáo hiện chưa tải được.|Advertisement unavailable right now.|広告を読み込めません。|현재 광고를 불러올 수 없습니다.|广告暂时无法加载。
-sponsored|GỢI Ý TÀI TRỢ|SPONSORED|スポンサー|스폰서|赞助内容
+menuLabel|Cài đặt|Settings|設定|설정|设置
 addDish|Thêm món mới|Add a dish|料理を追加|음식 추가|添加菜品
 tools|Công cụ và giao diện|Tools and appearance|ツールと表示|도구와 화면|工具与外观
 mapsTool|Tìm quán trên Google Maps|Find restaurants on Google Maps|Googleマップでお店を探す|Google 지도에서 식당 찾기|在Google地图查找餐馆
@@ -202,13 +211,15 @@ noSelection|Không có lựa chọn phù hợp. Hãy bỏ bớt bộ lọc hoặ
 notUnique|Không đủ món khác nhau. Hãy chọn ít món hơn hoặc cho phép trùng.|Not enough distinct dishes. Choose fewer or allow repeats.|異なる料理が足りません。品数を減らすか重複を許可してください。|서로 다른 음식이 부족합니다. 개수를 줄이거나 중복을 허용하세요.|不同菜品不足，请减少数量或允许重复。
 invalidSelection|Yêu cầu chọn món không hợp lệ.|Invalid selection request.|抽選の指定が不正です。|선택 요청이 올바르지 않습니다.|选菜请求无效。
 mystery|Thẻ bài bí ẩn|Mystery card|秘密のカード|미스터리 카드|神秘卡牌
+sponsorUnavailable|Quảng cáo hiện chưa tải được.|Advertisement unavailable right now.|広告を読み込めません。|현재 광고를 불러올 수 없습니다.|广告暂时无法加载。
+sponsored|GỢI Ý TÀI TRỢ|SPONSORED|スポンサー|스폰서|赞助内容
 selected|Đã chọn: {n} món|Selected: {n} dishes|選択済み：{n}品|선택: {n}개|已选：{n}道
 listCount|{n} món trong danh sách|{n} entries in the list|リストに{n}件|목록에 {n}개|清单中有{n}项
 wheelTitle|Vòng quay tự chọn|Custom food wheel|自分だけの料理ルーレット|나만의 음식 룰렛|自定义美食转盘
 wheelEyebrow|TÙY CHỈNH THEO Ý BẠN|MAKE IT YOURS|自分好みに|내 취향대로|随心自定义
 wheelDesc|Nhập mỗi lựa chọn trên một dòng, hoặc chọn món từ thực đơn.|Enter one option per line, or choose dishes from the menu.|1行に1つ入力するか、メニューから選んでください。|한 줄에 하나씩 입력하거나 메뉴에서 고르세요.|每行输入一个选项，或从菜单中选择。
 wheelExample|Ví dụ:\\nCơm gà\\nMì xào\\nTrà sữa|Example:\\nChicken rice\\nStir-fried noodles\\nMilk tea|例：\\nチキンライス\\n焼きそば\\nミルクティー|예:\\n닭고기 덮밥\\n볶음면\\n밀크티|例如：\\n鸡肉饭\\n炒面\\n奶茶
-universe|Món từ thực đơn|Dishes from the menu|メニューから料理を選ぶ|메뉴에서 음식 선택|从菜单选择菜品
+universe|Chọn từ thực đơn|Choose from menu|メニューから選ぶ|메뉴에서 선택|从菜单选择
 universeEyebrow|KHO TÀNG MÓN NGON|EXPLORE THE MENU|料理を探そう|맛있는 메뉴 탐색|探索美食菜单
 clearAll|Xóa hết|Clear all|すべて消去|모두 지우기|全部清空
 spinNow|Bắt đầu quay|Start spinning|ルーレットを回す|룰렛 시작|开始转动
@@ -303,7 +314,6 @@ close|Đóng|Close|閉じる|닫기|关闭
       '#offlineStatus': 'offlineNotice',
       '#customWheelBtn': 'wheelTitle',
       '#addDishBtn': 'addDish',
-      '.ad-shelf-label': 'sponsored',
       '#installDialog > [data-close]': 'close',
     };
     Object.entries(labels).forEach(([selector, key]) => {
@@ -337,12 +347,13 @@ close|Đóng|Close|閉じる|닫기|关闭
       '#drinkSubFilters': 'drinkFilters',
       '.mobile-nav': 'quickNav',
       '.brand': 'brandHome',
+      '#mobileMenuBtn': 'menuLabel',
+      '.ad-shelf-label': 'sponsored',
       '.ad-shelf-section': 'sponsored',
       '.side-vine-slot': 'sponsored',
       '.responsive-sponsors': 'sponsored',
-      '#mobileMenuBtn': 'menuLabel',
       '.seo-intro': 'seoTitle',
-      '#placesLinks': 'universe',
+      '#placesLinks': 'mapsAction',
     };
     Object.entries(aria).forEach(([selector, key]) =>
       document

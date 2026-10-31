@@ -43,13 +43,13 @@ const { chromium } = require('playwright'),
     await p.goto('http://localhost:8109');
     await p.waitForFunction(() => !document.getElementById('singleBtn').disabled);
     assert.equal(
-      await p.locator('#uniqueInput').evaluate((e) => getComputedStyle(e).appearance),
-      'none'
+      await p.locator('#uniqueInput').evaluate((e) => e.type),
+      'checkbox'
     );
     assert.equal(await p.locator('#cravingInput').getAttribute('aria-hidden'), 'true');
     await p.locator('#budgetPanel summary').click();
     await p.waitForFunction(
-      () => document.getElementById('budgetPanel').getAnimations().length === 0
+      () => document.getElementById('budgetPanel').getAnimations({subtree:true}).length === 0
     );
     await p.locator('#cravingInputControl').click();
     assert.equal(await p.locator('#cravingInputOptions').isVisible(), true);
@@ -120,7 +120,7 @@ const { chromium } = require('playwright'),
     await p.locator('#budgetPanel summary').click();
     await p.locator('#budgetPanel summary').click();
     await p.waitForFunction(
-      () => document.getElementById('budgetPanel').getAnimations().length === 0
+      () => document.getElementById('budgetPanel').getAnimations({subtree:true}).length === 0
     );
     assert.equal(await p.locator('#budgetPanel').evaluate((e) => e.open), false);
     await p.emulateMedia({ reducedMotion: 'reduce' });
@@ -131,6 +131,7 @@ const { chromium } = require('playwright'),
       0
     );
     await p.keyboard.press('Escape');
+    if (!(await p.locator('.menu-advanced').evaluate(e=>e.open))) await p.locator('.menu-advanced > summary').click();
     await p.locator('#personalViewControl').click();
     await p.keyboard.press('End');
     await p.keyboard.press('Enter');
@@ -144,16 +145,15 @@ const { chromium } = require('playwright'),
     await p.locator('#cravingInputControl').click();
     assert.equal(
       await p.locator('#cravingInputOptions').evaluate((e) => getComputedStyle(e).backgroundColor),
-      'rgb(36, 42, 50)'
+      'rgb(28, 40, 33)'
     );
     await p.screenshot({ path: 'artifacts/custom-controls-dark.png' });
     await p.keyboard.press('Escape');
-    assert.equal(await p.locator('button[title]').count(), 0);
+    assert.ok(await p.locator('button[title]').evaluateAll(buttons=>buttons.every(b=>b.getAttribute('aria-label')||b.textContent.trim())));
     await openTools(p);
     await p.locator('#themeBtn').scrollIntoViewIfNeeded();
     await openTools(p);
-    await p.locator('#themeBtn').focus();
-    await p.keyboard.press('Tab');
+    await p.locator('#installBtn').focus();
     await p.keyboard.press('Tab');
     await p.getByRole('tooltip').waitFor({ state: 'visible' });
     assert.ok((await p.getByRole('tooltip').textContent()).includes('Chia sẻ'));

@@ -1,5 +1,7 @@
 /* Shared custom-dish transport; 4xx validation must not become silent local success. */
 const CustomDishes = {
+  // Archived by the approved 2026-10-31 catalog replacement; keep stored copies recoverable.
+  retiredIds: new Set(["custom_1793198706284", "custom_1793198715108", "custom_1793206113759", "custom_1793206545793", "custom_1793208273775", "custom_1793209386817", "custom_1793215420839"]),
   message(key) {
     return typeof UICopy !== 'undefined' ? UICopy.text(key) : key;
   },
@@ -21,7 +23,7 @@ const CustomDishes = {
         const rows = await response.json();
         if (Array.isArray(rows))
           for (const dish of rows)
-            if (dish && typeof dish.id === 'string') dishes.set(dish.id, dish);
+            if (dish && typeof dish.id === 'string' && !this.retiredIds.has(dish.id)) dishes.set(dish.id, dish);
       }
     } catch (_) {
     } finally {
@@ -31,7 +33,7 @@ const CustomDishes = {
       const local = JSON.parse(localStorage.getItem('food_custom_dishes') || '[]');
       if (Array.isArray(local))
         for (const dish of local)
-          if (dish && typeof dish.id === 'string' && !dishes.has(dish.id))
+          if (dish && typeof dish.id === 'string' && !this.retiredIds.has(dish.id) && !dishes.has(dish.id))
             dishes.set(dish.id, dish);
     } catch (_) {}
     return [...dishes.values()];

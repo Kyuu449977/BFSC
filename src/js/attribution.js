@@ -23,7 +23,8 @@ const Attribution = (() => {
   function imageFor(dish) {
     if (!dish || typeof dish !== 'object') return fallbackImage;
     if (dish.isUserCustom) return dish.image || fallbackImage;
-    return reviewRequired(dish) ? fallbackImage : dish.image;
+    const record = recordFor(dish);
+    return record?.displayApproved === true ? dish.image : reviewRequired(dish) ? fallbackImage : dish.image;
   }
   function note(language = 'vi') {
     return messages[language] || messages.vi;

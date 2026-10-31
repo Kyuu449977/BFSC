@@ -10,4 +10,7 @@ public/
 cloudflared.exe
 
 archive/
-docs/
+# docs/reports/image-attribution-audit.json is a required build input.
+design-skills/
+graphify-out/
+.agents/

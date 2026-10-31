@@ -3,6 +3,7 @@ const FoodCatalog = (() => {
   let revision = 1;
   const custom = new Map();
   const ids = new Set();
+  let cachedRevision = 0, cachedDishes = [], cachedIndex = new Map();
   function builtin(region) {
     return typeof REGIONAL_DATABASES !== 'undefined' && REGIONAL_DATABASES[region]
       ? REGIONAL_DATABASES[region]
@@ -40,6 +41,7 @@ const FoodCatalog = (() => {
     return result;
   }
   function allDishes() {
+    if (cachedRevision === revision) return cachedDishes.map(dish => ({ ...dish }));
     const result = [],
       seen = new Set();
     for (const region of Object.keys(
@@ -47,7 +49,10 @@ const FoodCatalog = (() => {
     ))
       result.push(...collect(builtin(region), seen));
     for (const database of custom.values()) result.push(...collect(database, seen));
-    return result;
+    cachedDishes = result;
+    cachedIndex = new Map(result.map(dish => [dish.id, dish]));
+    cachedRevision = revision;
+    return result.map(dish => ({ ...dish }));
   }
   function registerRegion(region, database) {
     if (typeof region !== 'string' || !region.trim() || !database || typeof database !== 'object')
@@ -87,7 +92,9 @@ const FoodCatalog = (() => {
     allDishes,
     getAllDishes: allDishes,
     getDish(id) {
-      return allDishes().find((dish) => dish.id === id) || null;
+      if (cachedRevision !== revision) allDishes();
+      const dish = cachedIndex.get(id);
+      return dish ? { ...dish } : null;
     },
     registerRegion,
     upsertCustom,

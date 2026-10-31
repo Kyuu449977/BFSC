@@ -6,11 +6,26 @@ import json
 import os
 import shutil
 import tempfile
+import re
 from scripts.public_files import PUBLIC_FILES, STYLE_SOURCES, source_path
 ROOT = Path(__file__).resolve().parents[1]
 ATTRIBUTION_AUDIT = ROOT / 'docs' / 'reports' / 'image-attribution-audit.json'
 ATTRIBUTION_JS = 'assets/attribution-data.js'
 PUBLIC_ROOT = ROOT / 'public'
+
+def render_menu(template):
+    """Give the shared menu document its own search and sharing identity."""
+    page = template.replace('<body>', '<body class="menu-page">')
+    title = 'Thực đơn 350 món ăn và đồ uống · Ăn gì đây'
+    description = 'Khám phá thực đơn 350 món chính, ăn vặt và đồ uống. Tìm món theo tên, lọc theo ngân sách và vùng ẩm thực; lưu món yêu thích, mở Google Maps tìm quán.'
+    page = re.sub(r'<title>.*?</title>', '<title>' + title + '</title>', page, count=1)
+    for attribute, key, value in [('name', 'description', description), ('property', 'og:title', title),
+                                  ('property', 'og:description', description), ('name', 'twitter:title', title),
+                                  ('name', 'twitter:description', description), ('property', 'og:url', 'https://angiday.app/menu.html')]:
+        pattern = r'(<meta\s+' + attribute + r'="' + re.escape(key) + r'"\s+content=")[^"]*("\s*/>)'
+        page = re.sub(pattern, lambda match: match[1] + html.escape(value, quote=True) + match[2], page, count=1)
+    return page.replace('<link rel="canonical" href="https://angiday.app/" />',
+                        '<link rel="canonical" href="https://angiday.app/menu.html" />', 1)
 
 def validate_attribution_audit(audit):
     if not isinstance(audit, dict) or audit.get('schemaVersion') != 1 or not isinstance(audit.get('entries'), list):
@@ -26,6 +41,8 @@ def validate_attribution_audit(audit):
             raise RuntimeError('Incomplete image attribution entry: ' + entry['id'])
         seen.add(entry['id'])
         region_counts[entry['region']] = region_counts.get(entry['region'], 0) + 1
+        if entry.get('displayApproved') and (not entry['reviewRequired'] or not _safe_https_url(entry.get('imageSource'))):
+            raise RuntimeError('Approved image is missing honest source metadata: ' + entry['id'])
         attribution = entry.get('attribution')
         if entry['reviewRequired']:
             review_required += 1
@@ -60,7 +77,9 @@ def render_credits(template):
         region = html.escape(entry['region'], quote=True)
         attribution = entry.get('attribution')
         if entry['reviewRequired']:
-            detail = 'Source and license details are missing or conflicting. The local placeholder is shown pending review.'
+            detail = 'Source and license details need review. ' + ('The user approved this search-result image for display; license is not verified.' if entry.get('displayApproved') else 'The local placeholder is shown pending review.')
+            if entry.get('displayApproved') and _safe_https_url(entry.get('imageSource')):
+                detail += ' Source: ' + entry['imageSource']
             items.append(f'<li data-dish-id="{dish_id}" data-review-required="true" data-region="{region}"><strong>{dish}</strong> <small>({dish_id}; {region})</small> — <span class="credit-review-note">{html.escape(detail)}</span></li>')
             continue
         title = attribution.get('title') or attribution['source']
@@ -102,6 +121,9 @@ def build_public():
                     css = ROOT / 'src' / 'styles' / stylesheet
                     temporary.write(css.read_bytes())
                     temporary.write(b'\n')
+            elif name == 'menu.html':
+                page = render_menu(source.read_text(encoding='utf-8'))
+                temporary.write(page.encode('utf-8'))
             elif name == 'credits.html':
                 temporary.write(render_credits(source.read_text(encoding='utf-8')).encode('utf-8'))
             else:
@@ -110,7 +132,7 @@ def build_public():
         os.replace(temporary_path, destination)
     audit = json.loads(ATTRIBUTION_AUDIT.read_text(encoding='utf-8'))
     validate_attribution_audit(audit)
-    attribution_map = {entry['id']: {key: value for key, value in entry.items() if key in {'file', 'reviewRequired', 'reason', 'attribution'}} for entry in audit['entries']}
+    attribution_map = {entry['id']: {key: value for key, value in entry.items() if key in {'file', 'reviewRequired', 'reason', 'attribution', 'displayApproved', 'imageSource'}} for entry in audit['entries']}
     data_js = 'window.BFSC_ATTRIBUTION_DATA = ' + json.dumps(attribution_map, ensure_ascii=False, separators=(',', ':')).replace('<', r'\u003c').replace('>', r'\u003e').replace('&', r'\u0026') + ';\n'
     generated_attribution = PUBLIC_ROOT / ATTRIBUTION_JS
     with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', dir=generated_attribution.parent, prefix='.build-', delete=False) as temporary:
@@ -118,7 +140,7 @@ def build_public():
         generated_attribution_temp = Path(temporary.name)
     os.replace(generated_attribution_temp, generated_attribution)
     # Service-worker cache input is generated from the same exact publish allowlist.
-    essential = {'./', 'index.html', 'style.css', 'assets/brand.svg', 'assets/icons.svg', 'assets/image-unavailable.svg'}
+    essential = {'./', 'index.html', 'menu.html', 'style.css', 'assets/brand.svg', 'assets/icons.svg', 'assets/image-unavailable.svg'}
     essential.add(ATTRIBUTION_JS)
     essential.update(name for name in PUBLIC_FILES if name.endswith('.js') and '/' not in name and name not in {'sw.js', 'sw-assets.js'})
     cache_assets = {'essential': sorted(name if name == './' else './' + name for name in essential),

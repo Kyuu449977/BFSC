@@ -3,9 +3,10 @@ const UI = {
     img.onerror = () => {
       img.onerror = null;
       img.dataset.failed = 'true';
-      img.src = 'assets/image-unavailable.svg';
+      img.hidden = true;
     };
     delete img.dataset.failed;
+    img.hidden = false;
   },
   icon(name) {
     const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');

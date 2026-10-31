@@ -1,16 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedFrom": ["src/js/data.js: REGIONAL_DATABASES", "src/images/sources.json"],
+  "generatedFrom": [
+    "src/js/data.js: REGIONAL_DATABASES",
+    "src/images/sources.json"
+  ],
   "methodology": "Attribution is present only when an exact image-file record contains artist, license, and an HTTPS source. Conflicting records for the same image are flagged for review. This structural audit does not independently validate upstream claims.",
   "summary": {
-    "total": 382,
-    "attributed": 118,
-    "reviewRequired": 264,
+    "total": 350,
+    "attributed": 0,
+    "reviewRequired": 350,
     "regions": {
       "vi": {
-        "total": 162,
-        "attributed": 118,
-        "reviewRequired": 44
+        "total": 130,
+        "attributed": 0,
+        "reviewRequired": 130
       },
       "ja": {
         "total": 55,
@@ -35,2226 +38,6 @@
     }
   },
   "entries": [
-    {
-      "region": "vi",
-      "id": "sang_5_1",
-      "name": "Phở tái lăn",
-      "file": "images/buoi_sang/pho_bo.webp",
-      "reviewRequired": true,
-      "reason": "conflicting-source-records"
-    },
-    {
-      "region": "vi",
-      "id": "sang_5_2",
-      "name": "Bún bò Huế",
-      "file": "images/buoi_sang/bun_bo_hue.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "sang_5_2",
-        "title": "Bún bò Huế đặc sản Cố đô",
-        "artist": "Đầu bếp Việt",
-        "source": "https://commons.wikimedia.org/wiki/File:Bun_Bo_Hue.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Không dính watermark hay chữ chú thích."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "sang_5_3",
-      "name": "Bánh mì chảo",
-      "file": "images/buoi_sang/banh_mi_chao.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "sang_5_3",
-        "title": "File:Một phần bánh mì chảo với trứng và chả (38657217774).jpg",
-        "artist": "Vinnie Cartabiano",
-        "source": "https://commons.wikimedia.org/wiki/File:M%E1%BB%99t_ph%E1%BA%A7n_b%C3%A1nh_m%C3%AC_ch%E1%BA%A3o_v%E1%BB%9Bi_tr%E1%BB%A9ng_v%C3%A0_ch%E1%BA%A3_(38657217774).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "sang_4_1",
-      "name": "Bánh cuốn",
-      "file": "images/buoi_sang/banh_cuon.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "sang_4_1",
-        "title": "File:Banh Cuon 2.jpg",
-        "artist": "Shyamal",
-        "source": "https://commons.wikimedia.org/wiki/File:Banh_Cuon_2.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "sang_4_2",
-      "name": "Hủ tiếu Nam Vang",
-      "file": "images/buoi_sang/hu_tieu.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "sang_4_2",
-        "title": "File:Hủ tiếu Nam Vang Sài Gòn.jpg",
-        "artist": "Tonbi ko",
-        "source": "https://commons.wikimedia.org/wiki/File:H%E1%BB%A7_ti%E1%BA%BFu_Nam_Vang_S%C3%A0i_G%C3%B2n.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "sang_4_3",
-      "name": "Xôi xéo",
-      "file": "images/buoi_sang/xoi_xeo.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "sang_4_3",
-        "title": "File:Xôi xéo.jpg",
-        "artist": "Viethavvh",
-        "source": "https://commons.wikimedia.org/wiki/File:X%C3%B4i_x%C3%A9o.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "sang_3_1",
-      "name": "Bánh mì pate",
-      "file": "images/buoi_sang/banh_mi_pate.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "sang_3_1",
-        "title": "File:Bánh my Pate Tháp Cám at Osu.jpg",
-        "artist": "KKPCW",
-        "source": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_my_Pate_Th%C3%A1p_C%C3%A1m_at_Osu.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "sang_3_2",
-      "name": "Bún riêu cua",
-      "file": "images/buoi_sang/bun_rieu.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "sang_3_2",
-        "title": "File:Bún riêu cua nước.jpg",
-        "artist": "Alpha",
-        "source": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_ri%C3%AAu_cua_n%C6%B0%E1%BB%9Bc.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "sv_morning_banh_bao",
-      "name": "Bánh bao nhân thịt",
-      "file": "images/sinh_vien/banh_bao.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "sv_morning_banh_bao",
-        "title": "File:Banhbao.jpg",
-        "artist": "Sue Le",
-        "source": "https://commons.wikimedia.org/wiki/File:Banhbao.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "note": "Ảnh chụp tham khảo món, cắt 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh của quán trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "sv_morning_banh_gio",
-      "name": "Bánh giò",
-      "file": "images/sinh_vien/banh_gio.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "sv_morning_banh_gio",
-        "title": "File:Banh-gio-viet-nam.jpg",
-        "artist": "Lanceranae",
-        "source": "https://commons.wikimedia.org/wiki/File:Banh-gio-viet-nam.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Ảnh chụp tham khảo món, cắt 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh của quán trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "more_morning_banh_uot",
-      "name": "Bánh ướt",
-      "file": "images/binh_dan/banh_uot.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "more_morning_banh_uot",
-        "title": "File:Bánh ướt.jpg",
-        "artist": "SauceSupreme",
-        "source": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_%C6%B0%E1%BB%9Bt.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-        "note": "Ảnh tham khảo món, cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh quán tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "more_morning_banh_mi_xiu_mai",
-      "name": "Bánh mì xíu mại",
-      "file": "images/binh_dan/banh_mi_xiu_mai.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "more_morning_banh_mi_xiu_mai",
-        "title": "File:Bánh mì xíu mại-meatball-sandwich.jpg",
-        "artist": "Nummymuffin",
-        "source": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_m%C3%AC_x%C3%ADu_m%E1%BA%A1i-meatball-sandwich.jpg",
-        "license": "Public domain",
-        "note": "Ảnh tham khảo món, cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh quán tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "sang_banh_tam_bi",
-      "name": "Bánh tằm bì",
-      "file": "images/regional/banh_tam_bi.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "sang_banh_tam_bi",
-        "title": "",
-        "artist": "Alpha from Melbourne, Australia",
-        "source": "https://commons.wikimedia.org/wiki/File%3ASteamed_Rice_Noodles_with_Pork_Loaf_and_Mung_Bean_Pie_-_Thanh_Ha_%283014200871%29.jpg",
-        "license": "CC BY-SA 2.0",
-        "note": ""
-      }
-    },
-    {
-      "region": "vi",
-      "id": "sang_banh_uot_long_ga",
-      "name": "Bánh ướt lòng gà",
-      "file": "images/regional/banh_uot_long_ga.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "sang_banh_uot_long_ga",
-        "title": "",
-        "artist": "SauceSupreme",
-        "source": "https://commons.wikimedia.org/wiki/File%3AB%C3%A1nh_%C6%B0%E1%BB%9Bt.jpg",
-        "license": "CC BY 2.0",
-        "note": ""
-      }
-    },
-    {
-      "region": "vi",
-      "id": "trua_5_1",
-      "name": "Cơm tấm",
-      "file": "images/buoi_trua/com_tam.webp",
-      "reviewRequired": true,
-      "reason": "conflicting-source-records"
-    },
-    {
-      "region": "vi",
-      "id": "trua_5_2",
-      "name": "Bún chả",
-      "file": "images/buoi_trua/bun_cha.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "trua_5_2",
-        "title": "File:Bun cha.jpg",
-        "artist": "tuhang",
-        "source": "https://commons.wikimedia.org/wiki/File:Bun_cha.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "trua_5_3",
-      "name": "Cơm gà xối mỡ",
-      "file": "images/buoi_trua/com_ga.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "trua_5_3",
-        "title": "Cơm gà xối mỡ da giòn",
-        "artist": "Món Ngon Sài Gòn",
-        "source": "https://commons.wikimedia.org/wiki/File:Com_ga_xoi_mo.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh sạch không dính logo báo chí."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "trua_4_1",
-      "name": "Mì Quảng",
-      "file": "images/buoi_trua/mi_quang.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "trua_4_1",
-        "title": "File:Mi Quang - Quan Hat Mi Quang, Cao Lau VND2000.jpg",
-        "artist": "Alpha",
-        "source": "https://commons.wikimedia.org/wiki/File:Mi_Quang_-_Quan_Hat_Mi_Quang,_Cao_Lau_VND2000.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "trua_4_2",
-      "name": "Bún thịt nướng",
-      "file": "images/buoi_trua/bun_thit_nuong.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "trua_4_2",
-        "title": "File:Bun thit nuong.jpg",
-        "artist": "Lưu Ly",
-        "source": "https://commons.wikimedia.org/wiki/File:Bun_thit_nuong.jpg",
-        "license": "Public domain",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "trua_3_1",
-      "name": "Cơm rang dưa bò",
-      "file": "images/buoi_trua/com_rang.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "trua_3_1",
-        "title": "File:Cơm rang.JPG",
-        "artist": "Wikimedia Commons Contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_rang.JPG",
-        "license": "CC0 1.0 Universal",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Không có logo/watermark thương mại."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "trua_3_2",
-      "name": "Phở trộn",
-      "file": "images/buoi_trua/pho_tron.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "trua_3_2",
-        "title": "File:Phở trộn nước tương tàu (thức ăn nhanh) (3).jpg",
-        "artist": "Phương Huy (thảo luận)",
-        "source": "https://commons.wikimedia.org/wiki/File:Ph%E1%BB%9F_tr%E1%BB%99n_n%C6%B0%E1%BB%9Bc_t%C6%B0%C6%A1ng_t%C3%A0u_(th%E1%BB%A9c_%C4%83n_nhanh)_(3).jpg",
-        "license": "Public domain",
-        "note": "Ảnh chụp nguồn ngoài, thu nhỏ WebP 640×480; ảnh tham khảo món, không phải ảnh quán trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "sv_lunch_banh_canh",
-      "name": "Bánh canh",
-      "file": "images/sinh_vien/banh_canh.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "sv_lunch_banh_canh",
-        "title": "Bánh canh cua tôm thịt",
-        "artist": "Ẩm thực Việt Nam",
-        "source": "https://commons.wikimedia.org/wiki/File:Banh_canh_cua.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Không dính chữ tác giả."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "sv_lunch_bun_mam",
-      "name": "Bún mắm",
-      "file": "images/sinh_vien/bun_mam.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "sv_lunch_bun_mam",
-        "title": "File:Bún Mắm Sóc Trăng.jpg",
-        "artist": "Alpha",
-        "source": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_M%E1%BA%AFm_S%C3%B3c_Tr%C4%83ng.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-        "note": "Ảnh chụp tham khảo món, cắt 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh của quán trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "trua_cao_lau",
-      "name": "Cao lầu Hội An",
-      "file": "images/regional/cao_lau.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "trua_cao_lau",
-        "title": "",
-        "artist": "avlxyz",
-        "source": "https://commons.wikimedia.org/wiki/File%3ACao_Lau_-_Ba_Be%2C_Hoi_An_Market_VND15000.jpg",
-        "license": "CC BY-SA 2.0",
-        "note": ""
-      }
-    },
-    {
-      "region": "vi",
-      "id": "more_lunch_com_chien",
-      "name": "Cơm chiên thập cẩm",
-      "file": "images/binh_dan/com_chien.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "more_lunch_com_chien",
-        "title": "File:Cơm chiên.jpg",
-        "artist": "Markphan",
-        "source": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_chi%C3%AAn.jpg",
-        "license": "CC BY-SA 3.0",
-        "note": "Ảnh tham khảo món, cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh quán tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "more_lunch_com_ca_man",
-      "name": "Cơm cá mặn",
-      "file": "images/binh_dan/com_ca_man.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "more_lunch_com_ca_man",
-        "title": "File:Cơm chiên cá mặn ở cf Quốc Hùng ngày 01.10 năm 2018 (2).jpg",
-        "artist": "Phương Huy",
-        "source": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_chi%C3%AAn_c%C3%A1_m%E1%BA%B7n_%E1%BB%9F_cf_Qu%E1%BB%91c_H%C3%B9ng_ng%C3%A0y_01.10_n%C4%83m_2018_(2).jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Ảnh tham khảo món, cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh quán tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "more_lunch_bun_thai",
-      "name": "Bún cá cay Hải Phòng",
-      "file": "images/binh_dan/bun_thai.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "more_lunch_bun_thai",
-        "title": "File:Bún Thái 3.jpg",
-        "artist": "Phương Huy (thảo luận)",
-        "source": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_Th%C3%A1i_3.jpg",
-        "license": "Public domain",
-        "note": "Ảnh tham khảo món, cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh quán tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "trua_bun_ca",
-      "name": "Bún cá Nha Trang",
-      "file": "images/regional/bun_ca.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "trua_bun_ca",
-        "title": "",
-        "artist": "Nguyen Thi Quynh Tram",
-        "source": "https://commons.wikimedia.org/wiki/File%3ABun_cha_ca_nha_trang.jpg",
-        "license": "CC BY 3.0",
-        "note": ""
-      }
-    },
-    {
-      "region": "vi",
-      "id": "trua_com_hen",
-      "name": "Cơm hến xứ Huế",
-      "file": "images/regional/com_hen.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "trua_com_hen",
-        "title": "",
-        "artist": "Trinhthunga09",
-        "source": "https://commons.wikimedia.org/wiki/File%3ACom-hen-hue.jpg",
-        "license": "CC BY-SA 4.0",
-        "note": ""
-      }
-    },
-    {
-      "region": "vi",
-      "id": "chieu_5_1",
-      "name": "Bánh xèo",
-      "file": "images/buoi_chieu/banh_xeo.webp",
-      "reviewRequired": true,
-      "reason": "conflicting-source-records"
-    },
-    {
-      "region": "vi",
-      "id": "chieu_5_2",
-      "name": "Gỏi cuốn",
-      "file": "images/buoi_chieu/goi_cuon.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "chieu_5_2",
-        "title": "File:Summer roll.jpg",
-        "artist": "Yuchinkay (Flickr)",
-        "source": "https://commons.wikimedia.org/wiki/File:Summer_roll.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "chieu_4_1",
-      "name": "Bánh khọt",
-      "file": "images/buoi_chieu/banh_khot.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "chieu_4_1",
-        "title": "File:Bánh khọt.jpg",
-        "artist": "terence from Singapore",
-        "source": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_kh%E1%BB%8Dt.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "chieu_4_2",
-      "name": "Bột chiên",
-      "file": "images/buoi_chieu/bot_chien.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "chieu_4_2",
-        "title": "File:Botchien in Vietnam.jpg",
-        "artist": "Memberofc1",
-        "source": "https://commons.wikimedia.org/wiki/File:Botchien_in_Vietnam.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "chieu_3_1",
-      "name": "Bánh bột lọc",
-      "file": "images/buoi_chieu/banh_bot_loc.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "chieu_3_1",
-        "title": "File:Bánh bột lọc.jpg",
-        "artist": "Charles Haynes",
-        "source": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_b%E1%BB%99t_l%E1%BB%8Dc.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "chieu_3_2",
-      "name": "Súp cua",
-      "file": "images/buoi_chieu/sup_cua.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "chieu_3_2",
-        "title": "File:Súp cua.jpg",
-        "artist": "Hoangkid",
-        "source": "https://commons.wikimedia.org/wiki/File:S%C3%BAp_cua.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "chieu_banh_can",
-      "name": "Bánh căn Đà Lạt",
-      "file": "images/regional/banh_can.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "chieu_banh_can",
-        "title": "",
-        "artist": "Saigon Time",
-        "source": "https://commons.wikimedia.org/wiki/File%3AB%C3%A1nh_c%C4%83n_in_phan_rang%2C_vietnam.jpg",
-        "license": "CC0",
-        "note": ""
-      }
-    },
-    {
-      "region": "vi",
-      "id": "chieu_banh_cong",
-      "name": "Bánh cống Sóc Trăng",
-      "file": "images/regional/banh_cong.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "chieu_banh_cong",
-        "title": "",
-        "artist": "Alpha from Melbourne, Australia",
-        "source": "https://commons.wikimedia.org/wiki/File%3ABanh_Cong_Mung_Bean_Pie_-_Thanh_Tam_AUD2.50_%284906952131%29.jpg",
-        "license": "CC BY-SA 2.0",
-        "note": ""
-      }
-    },
-    {
-      "region": "vi",
-      "id": "sv_afternoon_pha_lau",
-      "name": "Phá lấu bánh mì",
-      "file": "images/sinh_vien/pha_lau.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "sv_afternoon_pha_lau",
-        "title": "File:Phá lấu as served in Vietnam.jpeg",
-        "artist": "Policyandinternet",
-        "source": "https://commons.wikimedia.org/wiki/File:Ph%C3%A1_l%E1%BA%A5u_as_served_in_Vietnam.jpeg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Ảnh chụp tham khảo món, cắt 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh của quán trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "chieu_banh_duc_nong",
-      "name": "Bánh đúc nóng Hà Nội",
-      "file": "images/regional/banh_duc.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "chieu_banh_duc_nong",
-        "title": "",
-        "artist": "Flickr user: hongnhung106 ( https://www.flickr.com/photos/53433754@N00/ )",
-        "source": "https://commons.wikimedia.org/wiki/File%3ABanhduc-northern.jpg",
-        "license": "CC BY 2.0",
-        "note": ""
-      }
-    },
-    {
-      "region": "vi",
-      "id": "chieu_banh_dap",
-      "name": "Bánh đập hến xào",
-      "file": "images/regional/banh_dap.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "chieu_banh_dap",
-        "title": "",
-        "artist": "Light Write",
-        "source": "https://commons.wikimedia.org/wiki/File%3AB%C3%A1nh_tr%C3%A1ng_n%C6%B0%E1%BB%9Bng_TP._H%E1%BB%93_Ch%C3%AD_Minh_-_street_food_in_Ho_Chi_Minh_City%2C_Vietnam.jpg",
-        "license": "CC BY-SA 2.0",
-        "note": ""
-      }
-    },
-    {
-      "region": "vi",
-      "id": "toi_5_1",
-      "name": "Lẩu cua đồng bắp bò",
-      "file": "images/regional/vi/toi_5_1.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "dinner",
-        "title": "",
-        "artist": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/toi_5_1.webp",
-        "license": "CC BY-SA 4.0",
-        "note": ""
-      }
-    },
-    {
-      "region": "vi",
-      "id": "toi_5_2",
-      "name": "Bún đậu mắm tôm",
-      "file": "images/buoi_toi/bun_dau.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "toi_5_2",
-        "title": "File:Bún đậu mắm tôm.jpg",
-        "artist": "trungnguyen299",
-        "source": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "toi_5_3",
-      "name": "Bò nướng lá lốt",
-      "file": "images/regional/vi/toi_5_3.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "toi_5_3",
-        "title": "File:Plancha de grillades du Baron à Gussignies.jpg",
-        "artist": "Pierre André Leclercq",
-        "source": "https://commons.wikimedia.org/wiki/File:Plancha_de_grillades_du_Baron_%C3%A0_Gussignies.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "toi_4_1",
-      "name": "Ốc hương xào bơ tỏi",
-      "file": "images/regional/vi/toi_4_1.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "toi_4_1",
-        "title": "File:Ốc hương rang me.jpg",
-        "artist": "Baoothersks",
-        "source": "https://commons.wikimedia.org/wiki/File:%E1%BB%90c_h%C6%B0%C6%A1ng_rang_me.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Ảnh chụp nguồn ngoài, thu nhỏ WebP 640×480; ảnh tham khảo món, không phải ảnh quán trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "toi_4_2",
-      "name": "Bò né hoa thiên lý",
-      "file": "images/buoi_toi/bo_ne.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "toi_4_2",
-        "title": "File:Bò bít tết ở Bình Tân ng26th6n2022 (bò né chảo gang) (4).jpg",
-        "artist": "Phương Huy",
-        "source": "https://commons.wikimedia.org/wiki/File:B%C3%B2_b%C3%ADt_t%E1%BA%BFt_%E1%BB%9F_B%C3%ACnh_T%C3%A2n_ng26th6n2022_(b%C3%B2_n%C3%A9_ch%E1%BA%A3o_gang)_(4).jpg",
-        "license": "CC0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "toi_3_1",
-      "name": "Cháo sườn sụn non",
-      "file": "images/buoi_toi/chao_suon.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "toi_3_1",
-        "title": "Cháo sườn quẩy ruốc",
-        "artist": "Ẩm Thực Hà Nội",
-        "source": "https://commons.wikimedia.org/wiki/File:Chao_suon_Ha_Noi.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Sạch sẽ không watermark."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "toi_3_2",
-      "name": "Miến gà đồi nấm hương",
-      "file": "images/buoi_toi/mien_ga.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "toi_3_2",
-        "title": "File:Miến gà.jpg",
-        "artist": "Thang Nguyen from Nottingham, United Kingdom",
-        "source": "https://commons.wikimedia.org/wiki/File:Mi%E1%BA%BFn_g%C3%A0.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "toi_mi_vit_tiem",
-      "name": "Mì gà quay da giòn",
-      "file": "images/regional/vi/toi_mi_vit_tiem.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "toi_mi_vit_tiem",
-        "title": "",
-        "artist": "Vee Satayamas from Bangkok, Thailand",
-        "source": "https://commons.wikimedia.org/wiki/File%3AYellow_noodle_soup_with_duck_at_Urai_Roasted_Duck%2C_Nawamin_Road_%288636850619%29.jpg",
-        "license": "CC BY 2.0",
-        "note": ""
-      }
-    },
-    {
-      "region": "vi",
-      "id": "toi_chao_long",
-      "name": "Cháo lòng bánh hỏi",
-      "file": "images/regional/chao_long.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "toi_chao_long",
-        "title": "",
-        "artist": "LittleT889",
-        "source": "https://commons.wikimedia.org/wiki/File%3AChao_long.jpg",
-        "license": "CC BY 4.0",
-        "note": ""
-      }
-    },
-    {
-      "region": "vi",
-      "id": "toi_lau_bo",
-      "name": "Lẩu bò nhúng giấm",
-      "file": "images/regional/lau_bo.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "toi_lau_bo",
-        "title": "",
-        "artist": "Khanh Ha, Tran",
-        "source": "https://commons.wikimedia.org/wiki/File%3ABeef_hot_pot.jpg",
-        "license": "CC BY-SA 4.0",
-        "note": ""
-      }
-    },
-    {
-      "region": "vi",
-      "id": "toi_nem_nuong",
-      "name": "Nem nướng Ninh Hòa",
-      "file": "images/regional/nem_nuong.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "toi_nem_nuong",
-        "title": "",
-        "artist": "Letruongan1122",
-        "source": "https://commons.wikimedia.org/wiki/File%3AM%E1%BA%B9t_nem_n%C6%B0%E1%BB%9Bng_Nha_Trang.jpg",
-        "license": "CC BY-SA 4.0",
-        "note": ""
-      }
-    },
-    {
-      "region": "vi",
-      "id": "more_dinner_bun_hen",
-      "name": "Bún bò giò heo Huế",
-      "file": "images/regional/vi/more_dinner_bun_hen.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "more_dinner_bun_hen",
-        "title": "File:Bún hến Mai Xá năm 2017 (1).jpg",
-        "artist": "Phương Huy",
-        "source": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_h%E1%BA%BFn_Mai_X%C3%A1_n%C4%83m_2017_(1).jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Ảnh tham khảo món, cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP; không phải ảnh quán tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "vat_banh_trang_tron",
-      "name": "Bánh tráng trộn",
-      "file": "images/do_an_vat/banh_trang_tron.webp",
-      "reviewRequired": true,
-      "reason": "conflicting-source-records"
-    },
-    {
-      "region": "vi",
-      "id": "vat_banh_trang_nuong",
-      "name": "Bánh tráng nướng Đà Lạt",
-      "file": "images/do_an_vat/banh_trang_nuong.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "vat_4_2",
-        "title": "File:Pizzabanhtrangnuong2.jpg",
-        "artist": "Huutai11791",
-        "source": "https://commons.wikimedia.org/wiki/File:Pizzabanhtrangnuong2.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "vat_banh_trang_cuon_bo",
-      "name": "Bánh tráng cuộn sốt bơ",
-      "file": "images/do_an_vat/banh_trang_cuon_bo.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_banh_trang_cham_me",
-      "name": "Bánh tráng chấm sốt me bơ",
-      "file": "images/do_an_vat/banh_trang_cham_me.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_banh_trang_kep",
-      "name": "Bánh tráng kẹp Đà Nẵng",
-      "file": "images/do_an_vat/banh_trang_kep.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_ca_vien_chien_mam",
-      "name": "Cá viên chiên sốt nước mắm",
-      "file": "images/do_an_vat/ca_vien_chien_mam.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_nem_chua_ran",
-      "name": "Nem chua rán Hà Nội",
-      "file": "images/do_an_vat/nem_chua_ran.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "vat_4_1",
-        "title": "File:Nem-chua-ran2.jpg",
-        "artist": "Group6gma04",
-        "source": "https://commons.wikimedia.org/wiki/File:Nem-chua-ran2.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP. Ảnh tham khảo món; không phải ảnh của quán được tìm trên Maps."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "vat_chan_ga_sa_tac",
-      "name": "Chân gà sả tắc chua cay",
-      "file": "images/do_an_vat/chan_ga_sa_tac.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_banh_mi_muoi_ot",
-      "name": "Bánh mì nướng muối ớt",
-      "file": "images/do_an_vat/banh_mi_muoi_ot.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_khoai_lang_lac",
-      "name": "Khoai lang lắc phô mai",
-      "file": "images/do_an_vat/khoai_lang_lac.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_khoai_tay_lac",
-      "name": "Khoai tây lắc xí muội phô mai",
-      "file": "images/do_an_vat/khoai_tay_lac.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_xoai_lac",
-      "name": "Xoài non lắc muối tôm chua cay",
-      "file": "images/do_an_vat/xoai_lac.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_coc_lac",
-      "name": "Cóc bao tử lắc muối ớt",
-      "file": "images/do_an_vat/coc_lac.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_bap_xao_bo",
-      "name": "Bắp xào bơ tép hành",
-      "file": "images/do_an_vat/bap_xao_bo.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_pho_mai_que",
-      "name": "Phô mai que chiên xù kéo sợi",
-      "file": "images/do_an_vat/pho_mai_que.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_trung_cut_lon_me",
-      "name": "Trứng cút lộn xào me chua ngọt",
-      "file": "images/do_an_vat/trung_cut_lon_me.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_hot_vit_lon_me",
-      "name": "Hột vịt lộn xào me rau răm",
-      "file": "images/do_an_vat/hot_vit_lon_me.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_bo_bia_man",
-      "name": "Bò bía mặn chấm tương ngọt",
-      "file": "images/do_an_vat/bo_bia_man.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_ga_lac_pho_mai",
-      "name": "Gà viên popcorn lắc phô mai",
-      "file": "images/do_an_vat/ga_lac_pho_mai.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_da_heo_chay_toi",
-      "name": "Da heo chiên giòn cháy tỏi ớt",
-      "file": "images/do_an_vat/da_heo_chay_toi.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_banh_ga_pho_mai",
-      "name": "Bánh gà phô mai tan chảy",
-      "file": "images/do_an_vat/banh_ga_pho_mai.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_xien_que_nuong",
-      "name": "Xiên que nướng thập cẩm",
-      "file": "images/do_an_vat/xien_que_nuong.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_tau_hu_tran_chau",
-      "name": "Tàu hũ trân châu đường đen",
-      "file": "images/do_an_vat/tau_hu_tran_chau.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_banh_trang_lui",
-      "name": "Bánh tráng lụi Tây Nguyên",
-      "file": "images/do_an_vat/banh_trang_lui.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_tokbokki_pho_mai",
-      "name": "Tokbokki phô mai sốt cay Hàn",
-      "file": "images/do_an_vat/tokbokki_pho_mai.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_muc_rim_me",
-      "name": "Mực rim me sa tế cay ngọt",
-      "file": "images/do_an_vat/muc_rim_me.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_goi_cuon_tom_thit",
-      "name": "Gỏi cuốn tôm thịt bánh tráng",
-      "file": "images/do_an_vat/goi_cuon_tom_thit.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_banh_crepe_sau_rieng",
-      "name": "Bánh crepe sầu riêng kem lạnh",
-      "file": "images/do_an_vat/banh_crepe_sau_rieng.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_trung_long_dao",
-      "name": "Trứng gà lòng đào muối tiêu chanh",
-      "file": "images/do_an_vat/trung_long_dao.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_doi_sun_nuong",
-      "name": "Dồi sụn nướng than hoa",
-      "file": "images/do_an_vat/doi_sun_nuong.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_nem_lui_nuong",
-      "name": "Nem lụi nướng sả thơm lừng",
-      "file": "images/do_an_vat/nem_lui_nuong.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_banh_bao_chien",
-      "name": "Bánh bao chiên giòn trứng cút",
-      "file": "images/do_an_vat/banh_bao_chien.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_banh_bot_loc_chien",
-      "name": "Bánh bột lọc chiên giòn rụm",
-      "file": "images/do_an_vat/banh_bot_loc_chien.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_kho_ga_la_chanh",
-      "name": "Khô gà lá chanh cay giòn",
-      "file": "images/do_an_vat/kho_ga_la_chanh.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_kho_bo_den",
-      "name": "Khô bò đen sốt tắc cay ngọt",
-      "file": "images/do_an_vat/kho_bo_den.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_ha_cao_chien",
-      "name": "Há cảo chiên giòn giấm tương",
-      "file": "images/do_an_vat/ha_cao_chien.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "vat_banh_flan",
-      "name": "Bánh flan caramel cà phê dừa",
-      "file": "images/do_an_vat/banh_flan.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_coca_original",
-      "name": "Coca-Cola Original",
-      "file": "images/do_uong/nuoc_coca_original.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_coca_original",
-        "title": "File:Coca-cola 50cl can - Italia.jpg",
-        "artist": "M0tty",
-        "source": "https://commons.wikimedia.org/wiki/File%3ACoca-cola%2050cl%20can%20-%20Italia.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_coca_zero",
-      "name": "Coca-Cola Zero Sugar",
-      "file": "images/do_uong/nuoc_coca_zero.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_pepsi_original",
-      "name": "Pepsi Cola Original",
-      "file": "images/do_uong/nuoc_pepsi_original.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_pepsi_zero_chanh",
-      "name": "Pepsi Zero Calorie Chanh",
-      "file": "images/do_uong/nuoc_pepsi_zero_chanh.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_pepsi_zero_chanh",
-        "title": "File:Pepsi lime 330ml can-front PNr°0852.jpg",
-        "artist": "D-Kuru",
-        "source": "https://commons.wikimedia.org/wiki/File%3APepsi%20lime%20330ml%20can-front%20PNr%C2%B00852.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_7up",
-      "name": "7Up Chanh Tự Nhiên",
-      "file": "images/do_uong/nuoc_7up.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_7up",
-        "title": "File:Can of Seven Up.jpg",
-        "artist": "IBERZA",
-        "source": "https://commons.wikimedia.org/wiki/File%3ACan%20of%20Seven%20Up.jpg",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_sprite",
-      "name": "Sprite Vị Chanh",
-      "file": "images/do_uong/nuoc_sprite.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_mirinda_soda_kem",
-      "name": "Mirinda Soda Kem",
-      "file": "images/do_uong/nuoc_mirinda_soda_kem.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_mirinda_soda_kem",
-        "title": "File:Lime spider.jpg",
-        "artist": "Fir0002",
-        "source": "https://commons.wikimedia.org/wiki/File%3ALime%20spider.jpg",
-        "license": "GFDL 1.2",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_mirinda_cam",
-      "name": "Mirinda Cam",
-      "file": "images/do_uong/nuoc_mirinda_cam.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_mirinda_cam",
-        "title": "File:Fanta-Orange-Can-330ml 84177 (7116950883).jpg",
-        "artist": "Emilian Robert Vicol from Com. Balanesti, Romania",
-        "source": "https://commons.wikimedia.org/wiki/File%3AFanta-Orange-Can-330ml%2084177%20%287116950883%29.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_fanta_cam",
-      "name": "Fanta Hương Cam",
-      "file": "images/do_uong/nuoc_fanta_cam.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_fanta_cam",
-        "title": "File:Fanta-Orange-Can-330ml 84177 (7116950883).jpg",
-        "artist": "Emilian Robert Vicol from Com. Balanesti, Romania",
-        "source": "https://commons.wikimedia.org/wiki/File%3AFanta-Orange-Can-330ml%2084177%20%287116950883%29.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_xa_xi_chuong_duong",
-      "name": "Xá xị Chương Dương",
-      "file": "images/do_uong/nuoc_xa_xi_chuong_duong.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_xa_xi_chuong_duong",
-        "title": "File:Root beer in glass mug.jpg",
-        "artist": "Markmark28",
-        "source": "https://commons.wikimedia.org/wiki/File%3ARoot%20beer%20in%20glass%20mug.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_mirinda_xa_xi",
-      "name": "Mirinda Xá xị",
-      "file": "images/do_uong/nuoc_mirinda_xa_xi.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_red_bull",
-      "name": "Red Bull (Bò Húc)",
-      "file": "images/do_uong/nuoc_red_bull.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_red_bull",
-        "title": "File:Red Bull Energy Drink, Dongguan, China 1 May 2024.jpg",
-        "artist": "メイド理世",
-        "source": "https://commons.wikimedia.org/wiki/File%3ARed%20Bull%20Energy%20Drink%2C%20Dongguan%2C%20China%201%20May%202024.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_monster_energy",
-      "name": "Monster Energy",
-      "file": "images/do_uong/nuoc_monster_energy.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_monster_energy",
-        "title": "File:Can of Monster Energy drink sold in China (0.33 l), on white background.jpg",
-        "artist": "File:Monster Energy sold in China.jpg: Bxxiaolin\nderivative work: Pittigrilli",
-        "source": "https://commons.wikimedia.org/wiki/File%3ACan%20of%20Monster%20Energy%20drink%20sold%20in%20China%20%280.33%20l%29%2C%20on%20white%20background.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_sting_dau",
-      "name": "Sting Dâu tây Đỏ",
-      "file": "images/do_uong/nuoc_sting_dau.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_sting_dau",
-        "title": "File:Strawberry soda.jpg",
-        "artist": "Kotra",
-        "source": "https://commons.wikimedia.org/wiki/File%3AStrawberry%20soda.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_revive",
-      "name": "Nước bù khoáng Revive",
-      "file": "images/do_uong/nuoc_revive.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_revive",
-        "title": "File:Gatorade Thirst Quencher.jpg",
-        "artist": "Clean Sports Isotonic Photography",
-        "source": "https://commons.wikimedia.org/wiki/File:Gatorade_Thirst_Quencher.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh tĩnh vật đồ uống bù khoáng. Không dính người."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_sua_truyen_thong",
-      "name": "Trà sữa Hồng trà Truyền thống",
-      "file": "images/do_uong/nuoc_tra_sua_truyen_thong.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_sua_truyen_thong",
-        "title": "File:Pearl Milk Tea in Chun Shui Tang.jpg",
-        "artist": "Battlesnake1",
-        "source": "https://commons.wikimedia.org/wiki/File%3APearl%20Milk%20Tea%20in%20Chun%20Shui%20Tang.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_sua_oolong",
-      "name": "Trà sữa Ô Long Đậm Vị",
-      "file": "images/do_uong/nuoc_tra_sua_oolong.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_sua_oolong",
-        "title": "File:Classic bubble tea.jpg",
-        "artist": "Oqmilteashop",
-        "source": "https://commons.wikimedia.org/wiki/File%3AClassic%20bubble%20tea.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_sua_lai",
-      "name": "Trà sữa Hoa Lài (Jasmine)",
-      "file": "images/do_uong/nuoc_tra_sua_lai.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_sua_lai",
-        "title": "File:Bubble tea by Johnny.jpg",
-        "artist": "Baoothersks",
-        "source": "https://commons.wikimedia.org/wiki/File%3ABubble%20tea%20by%20Johnny.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_sua_thiet_quan_am",
-      "name": "Trà sữa Thiết Quan Âm",
-      "file": "images/do_uong/nuoc_tra_sua_thiet_quan_am.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_sua_thiet_quan_am",
-        "title": "File:50 Lan Bubble Tea in Taichung 20141201.jpg",
-        "artist": "Rory Finneren",
-        "source": "https://commons.wikimedia.org/wiki/File%3A50%20Lan%20Bubble%20Tea%20in%20Taichung%2020141201.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_sua_earl_grey",
-      "name": "Trà sữa Bá Tước Earl Grey",
-      "file": "images/do_uong/nuoc_tra_sua_earl_grey.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_sua_earl_grey",
-        "title": "File:Cup of Earl Gray.jpg",
-        "artist": "David Wilmot (daramot) from Wimbledon, United Kingdom",
-        "source": "https://commons.wikimedia.org/wiki/File%3ACup%20of%20Earl%20Gray.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_sua_thai_do",
-      "name": "Trà sữa Thái Đỏ",
-      "file": "images/do_uong/nuoc_tra_sua_thai_do.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_sua_thai_do",
-        "title": "File:Thai Red Ice Milk Tea - Siam Siam 2024-07-31.jpg",
-        "artist": "Andy Li",
-        "source": "https://commons.wikimedia.org/wiki/File%3AThai%20Red%20Ice%20Milk%20Tea%20-%20Siam%20Siam%202024-07-31.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_sua_thai_xanh",
-      "name": "Trà sữa Thái Xanh",
-      "file": "images/do_uong/nuoc_tra_sua_thai_xanh.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_sua_thai_xanh",
-        "title": "File:Iced Thai Green Tea in Teanol Cafe & Working Space.jpg",
-        "artist": "Firzafp",
-        "source": "https://commons.wikimedia.org/wiki/File%3AIced%20Thai%20Green%20Tea%20in%20Teanol%20Cafe%20%26%20Working%20Space.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_sua_khoai_mon",
-      "name": "Trà sữa Khoai Môn (Taro)",
-      "file": "images/do_uong/nuoc_tra_sua_khoai_mon.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_sua_khoai_mon",
-        "title": "File:Taro flavored milk tea.jpg",
-        "artist": "Fumikas Sagisavas",
-        "source": "https://commons.wikimedia.org/wiki/File%3ATaro%20flavored%20milk%20tea.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_sua_socola",
-      "name": "Trà sữa Socola Đậm Đà",
-      "file": "images/do_uong/nuoc_tra_sua_socola.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_sua_socola",
-        "title": "File:Vanilla chocolate milk shake and ice lemon tea.jpg",
-        "artist": "Roysanjaya01",
-        "source": "https://commons.wikimedia.org/wiki/File%3AVanilla%20chocolate%20milk%20shake%20and%20ice%20lemon%20tea.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_sua_bac_ha",
-      "name": "Trà sữa Bạc Hà The Mát",
-      "file": "images/do_uong/nuoc_tra_sua_bac_ha.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_sua_bac_ha",
-        "title": "File:Fresh mint tea in a glass.jpg",
-        "artist": "Mark Jason Dominus",
-        "source": "https://commons.wikimedia.org/wiki/File%3AFresh%20mint%20tea%20in%20a%20glass.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_sua_tuoi_tran_chau_duong_den",
-      "name": "Sữa tươi Trân châu Đường đen",
-      "file": "images/do_uong/nuoc_sua_tuoi_tran_chau_duong_den.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_sua_tuoi_tran_chau_duong_den",
-        "title": "File:Brown sugar boba tea at Boba Heaven, downtown Evanston, IL.jpg",
-        "artist": "~delta",
-        "source": "https://commons.wikimedia.org/wiki/File%3ABrown%20sugar%20boba%20tea%20at%20Boba%20Heaven%2C%20downtown%20Evanston%2C%20IL.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_sua_tran_chau_duong_den",
-      "name": "Trà sữa Trân châu Đường đen",
-      "file": "images/do_uong/nuoc_tra_sua_tran_chau_duong_den.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_sua_tran_chau_duong_den",
-        "title": "File:Popping boba w Bubble Tea.jpg",
-        "artist": "Coldsea.eu",
-        "source": "https://commons.wikimedia.org/wiki/File%3APopping%20boba%20w%20Bubble%20Tea.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_sua_kem_cheese",
-      "name": "Trà sữa Kem Cheese Macchiato",
-      "file": "images/do_uong/nuoc_tra_sua_kem_cheese.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_sua_kem_cheese",
-        "title": "File:Fat glass mug.jpg",
-        "artist": "Corn cheese",
-        "source": "https://commons.wikimedia.org/wiki/File%3AFat%20glass%20mug.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_sua_kem_trung_chay",
-      "name": "Trà sữa Kem Trứng Cháy",
-      "file": "images/do_uong/nuoc_tra_sua_kem_trung_chay.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_sua_nuong",
-      "name": "Trà sữa Nướng Hoàng Gia",
-      "file": "images/do_uong/nuoc_tra_sua_nuong.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_sua_nuong",
-        "title": "File:Cold drinks at Granny's Café 2025-06-23.jpg",
-        "artist": "Andy Li",
-        "source": "https://commons.wikimedia.org/wiki/File%3ACold%20drinks%20at%20Granny%27s%20Caf%C3%A9%202025-06-23.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_dao_cam_sa",
-      "name": "Trà Đào Cam Sả Tươi",
-      "file": "images/do_uong/nuoc_tra_dao_cam_sa.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_dao_cam_sa",
-        "title": "File:IceTea Migros.jpg",
-        "artist": "Schutz",
-        "source": "https://commons.wikimedia.org/wiki/File%3AIceTea%20Migros.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_dao_mieng",
-      "name": "Trà Đào Giòn Miếng",
-      "file": "images/do_uong/nuoc_tra_dao_mieng.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_dao_mieng",
-        "title": "File:Peach soda soft drink.jpg",
-        "artist": "Geoffreyrabbit",
-        "source": "https://commons.wikimedia.org/wiki/File%3APeach%20soda%20soft%20drink.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_vai_lai",
-      "name": "Trà Vải Hoa Lài",
-      "file": "images/do_uong/nuoc_tra_vai_lai.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_vai_lai",
-        "title": "File:Lychee sorbet black tea with mint leaf.jpg",
-        "artist": "jeffreyw",
-        "source": "https://commons.wikimedia.org/wiki/File:Lychee_sorbet_black_tea_with_mint_leaf.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons. Tĩnh vật ly trà vải hoa lài không dính người."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_mang_cut",
-      "name": "Trà Măng Cụt Nhiệt Đới",
-      "file": "images/do_uong/nuoc_tra_mang_cut.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_mang_cut",
-        "title": "File:Mangosteen.jpg",
-        "artist": "challiyan",
-        "source": "https://commons.wikimedia.org/wiki/File%3AMangosteen.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_oi_hong_hat_chia",
-      "name": "Trà Ổi Hồng Hạt Chia",
-      "file": "images/do_uong/nuoc_tra_oi_hong_hat_chia.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_oi_hong_hat_chia",
-        "title": "File:Fresh Gvava Juice.JPG",
-        "artist": "MGA73bot2",
-        "source": "https://commons.wikimedia.org/wiki/File:Fresh_Gvava_Juice.JPG",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh tĩnh vật ẩm thực Wikimedia Commons. Không dính người."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_dua_luoi",
-      "name": "Trà Dưa Lưới Mát Lạnh",
-      "file": "images/do_uong/nuoc_tra_dua_luoi.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_dua_luoi",
-        "title": "File:Brisk Strawberry Melon Iced Tea.jpg",
-        "artist": "TaurusEmerald",
-        "source": "https://commons.wikimedia.org/wiki/File%3ABrisk%20Strawberry%20Melon%20Iced%20Tea.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_dau_tay_dam",
-      "name": "Trà Dâu Tây Dầm Tươi",
-      "file": "images/do_uong/nuoc_tra_dau_tay_dam.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_dau_tay_dam",
-        "title": "File:Milkshake beverage strawberry drink-1021027.jpg",
-        "artist": "Jakub Kapušňák",
-        "source": "https://commons.wikimedia.org/wiki/File%3AMilkshake%20beverage%20strawberry%20drink-1021027.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_chanh_gia_tay",
-      "name": "Trà Chanh Giã Tay Quảng Đông",
-      "file": "images/do_uong/nuoc_tra_chanh_gia_tay.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_chanh_gia_tay",
-        "title": "File:Iced Tea with Lemon, First Watch, Melbourne, Florida.jpg",
-        "artist": "Pokemonprime",
-        "source": "https://commons.wikimedia.org/wiki/File%3AIced%20Tea%20with%20Lemon%2C%20First%20Watch%2C%20Melbourne%2C%20Florida.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_tra_tac_xi_muoi",
-      "name": "Trà Tắc Xí Muội Mật Ong",
-      "file": "images/do_uong/nuoc_tra_tac_xi_muoi.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_tra_tac_xi_muoi",
-        "title": "File:KALAMASI SYRUP FOR REFRESHING COLD DRINKS SOURCE OF VITAMIN C PANGASINAN.jpg",
-        "artist": "Elmer Centeno Guevarra",
-        "source": "https://commons.wikimedia.org/wiki/File%3AKALAMASI%20SYRUP%20FOR%20REFRESHING%20COLD%20DRINKS%20SOURCE%20OF%20VITAMIN%20C%20PANGASINAN.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_matcha_latte",
-      "name": "Matcha Latte Nhật Bản",
-      "file": "images/do_uong/nuoc_matcha_latte.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_matcha_latte",
-        "title": "File:Matcha Latte KF.JPG",
-        "artist": "KathmanduFoodies",
-        "source": "https://commons.wikimedia.org/wiki/File%3AMatcha%20Latte%20KF.JPG",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_matcha_kem_cheese",
-      "name": "Matcha Kem Cheese Macchiato",
-      "file": "images/do_uong/nuoc_matcha_kem_cheese.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_matcha_kem_cheese",
-        "title": "File:Matcha Latte with Seasalt Cream.jpg",
-        "artist": "MichaellaaRubio",
-        "source": "https://commons.wikimedia.org/wiki/File%3AMatcha%20Latte%20with%20Seasalt%20Cream.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_matcha_nuoc_dua",
-      "name": "Matcha Nước Dừa Tươi (Cloud)",
-      "file": "images/do_uong/nuoc_matcha_nuoc_dua.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_matcha_nuoc_dua",
-        "title": "File:Kultura Drinks.png",
-        "artist": "Kulturasaudi",
-        "source": "https://commons.wikimedia.org/wiki/File%3AKultura%20Drinks.png",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_dirty_matcha",
-      "name": "Dirty Matcha Espresso",
-      "file": "images/do_uong/nuoc_dirty_matcha.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_dirty_matcha",
-        "title": "File:Green tea latte 1.jpg",
-        "artist": "Jeonghyeonseo",
-        "source": "https://commons.wikimedia.org/wiki/File%3AGreen%20tea%20latte%201.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_strawberry_matcha",
-      "name": "Strawberry Matcha Latte Ba Tầng",
-      "file": "images/do_uong/nuoc_strawberry_matcha.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_strawberry_matcha",
-        "title": "File:Iced Strawberry Shortcake Matcha - M&S Café, Worthing 2026-06-20.jpg",
-        "artist": "Andy Li",
-        "source": "https://commons.wikimedia.org/wiki/File%3AIced%20Strawberry%20Shortcake%20Matcha%20-%20M%26S%20Caf%C3%A9%2C%20Worthing%202026-06-20.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_matcha_frappuccino",
-      "name": "Matcha Frappuccino Đá Xay",
-      "file": "images/do_uong/nuoc_matcha_frappuccino.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_matcha_frappuccino",
-        "title": "File:Matcha-Kari smoothies.jpg",
-        "artist": "MatchaKari1",
-        "source": "https://commons.wikimedia.org/wiki/File%3AMatcha-Kari%20smoothies.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_sinh_to_bo",
-      "name": "Sinh Tố Bơ Sáp Đắk Lắk",
-      "file": "images/do_uong/nuoc_sinh_to_bo.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_sinh_to_bo",
-        "title": "File:Avocado lamaw (Avocado in milk and sugar, chilled or with ice), Philippines 04.jpg",
-        "artist": "Obsidian Soul",
-        "source": "https://commons.wikimedia.org/wiki/File%3AAvocado%20lamaw%20%28Avocado%20in%20milk%20and%20sugar%2C%20chilled%20or%20with%20ice%29%2C%20Philippines%2004.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_sinh_to_xoai",
-      "name": "Sinh Tố Xoài Cát Hòa Lộc",
-      "file": "images/do_uong/nuoc_sinh_to_xoai.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_sinh_to_xoai",
-        "title": "File:Costco treats - Lassi.jpg",
-        "artist": "Infrogmation of New Orleans",
-        "source": "https://commons.wikimedia.org/wiki/File:Costco_treats_-_Lassi.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh tĩnh vật ẩm thực Wikimedia Commons. Không dính người."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_sinh_to_dau",
-      "name": "Sinh Tố Dâu Tây Tươi",
-      "file": "images/do_uong/nuoc_sinh_to_dau.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_sinh_to_dau",
-        "title": "File:Glass of strawberry smoothie (6828826294).jpg",
-        "artist": "woodleywonderworks",
-        "source": "https://commons.wikimedia.org/wiki/File%3AGlass%20of%20strawberry%20smoothie%20%286828826294%29.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_sinh_to_chuoi",
-      "name": "Sinh Tố Chuối Sữa Tươi",
-      "file": "images/do_uong/nuoc_sinh_to_chuoi.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_sinh_to_chuoi",
-        "title": "File:Fresh fruit smoothie being poured into a glass.jpg",
-        "artist": "Shixart1985",
-        "source": "https://commons.wikimedia.org/wiki/File%3AFresh%20fruit%20smoothie%20being%20poured%20into%20a%20glass.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_sinh_to_mang_cau",
-      "name": "Sinh Tố Mãng Cầu Xiêm",
-      "file": "images/do_uong/nuoc_sinh_to_mang_cau.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_sinh_to_mang_cau",
-        "title": "File:Guanábana juice.jpg",
-        "artist": "Spideog",
-        "source": "https://commons.wikimedia.org/wiki/File%3AGuan%C3%A1bana%20juice.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_sinh_to_sapoche",
-      "name": "Sinh Tố Sapoche (Hồng Xiêm)",
-      "file": "images/do_uong/nuoc_sinh_to_sapoche.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_sinh_to_sapoche",
-        "title": "File:ChikuBadaamShake HomeMade Mumbai.jpg",
-        "artist": "Shah Naisargi",
-        "source": "https://commons.wikimedia.org/wiki/File%3AChikuBadaamShake%20HomeMade%20Mumbai.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_sinh_to_bo_xoai",
-      "name": "Sinh Tố Bơ - Xoài Kết Hợp",
-      "file": "images/do_uong/nuoc_sinh_to_bo_xoai.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_sinh_to_bo_xoai",
-        "title": "File:Fruit smoothie (8475314736).png",
-        "artist": "Mike65444",
-        "source": "https://commons.wikimedia.org/wiki/File%3AFruit%20smoothie%20%288475314736%29.png",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_sinh_to_chuoi_dau",
-      "name": "Sinh Tố Chuối - Dâu Tây",
-      "file": "images/do_uong/nuoc_sinh_to_chuoi_dau.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_sinh_to_chuoi_dau",
-        "title": "File:Fruit smoothie (8475314736).png",
-        "artist": "Mike65444",
-        "source": "https://commons.wikimedia.org/wiki/File%3AFruit%20smoothie%20%288475314736%29.png",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_sinh_to_chuoi_bo_dau_phong",
-      "name": "Sinh Tố Chuối - Bơ Đậu Phộng",
-      "file": "images/do_uong/nuoc_sinh_to_chuoi_bo_dau_phong.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_sinh_to_chuoi_bo_dau_phong",
-        "title": "File:Banana Smoothie.jpg",
-        "artist": "Ourlibrary",
-        "source": "https://commons.wikimedia.org/wiki/File%3ABanana%20Smoothie.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_sinh_to_berry_mix",
-      "name": "Sinh Tố Berry Mix (Dâu, Việt Quất, Mâm Xôi)",
-      "file": "images/do_uong/nuoc_sinh_to_berry_mix.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_sinh_to_berry_mix",
-        "title": "File:Superberry Smoothie & Bill's Ceremonial Matcha Latte - Bill's, Lewes 2026-07-03.jpg",
-        "artist": "Andy Li",
-        "source": "https://commons.wikimedia.org/wiki/File%3ASuperberry%20Smoothie%20%26%20Bill%27s%20Ceremonial%20Matcha%20Latte%20-%20Bill%27s%2C%20Lewes%202026-07-03.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_sinh_to_xoai_chanh_day",
-      "name": "Sinh Tố Xoài - Chanh Dây",
-      "file": "images/do_uong/nuoc_sinh_to_xoai_chanh_day.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_sinh_to_xoai_chanh_day",
-        "title": "File:Fruit Juices 2.jpg",
-        "artist": "IndayLiburan",
-        "source": "https://commons.wikimedia.org/wiki/File%3AFruit%20Juices%202.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_sinh_to_bo_sau_rieng",
-      "name": "Sinh Tố Bơ - Sầu Riêng Béo Ngậy",
-      "file": "images/do_uong/nuoc_sinh_to_bo_sau_rieng.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_sinh_to_bo_sau_rieng",
-        "title": "File:Creamy Durian - Flickr - The World Through Athene's Eyes.jpg",
-        "artist": "The World Through Athene's Eyes from Penang, Malaysia",
-        "source": "https://commons.wikimedia.org/wiki/File%3ACreamy%20Durian%20-%20Flickr%20-%20The%20World%20Through%20Athene%27s%20Eyes.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_dua_xiem_got_vo",
-      "name": "Nước Dừa Xiêm Gọt Vỏ",
-      "file": "images/do_uong/nuoc_dua_xiem_got_vo.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_dua_xiem_got_vo",
-        "title": "File:Drinking coconut.jpg",
-        "artist": "Dtfman",
-        "source": "https://commons.wikimedia.org/wiki/File%3ADrinking%20coconut.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_dua_tac_dua_thom",
-      "name": "Nước Dừa Tắc / Dừa Thơm Khóm",
-      "file": "images/do_uong/nuoc_dua_tac_dua_thom.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_dua_tac_dua_thom",
-        "title": "File:Green coconut fruit.jpg",
-        "artist": "Ibrahim Achiri",
-        "source": "https://commons.wikimedia.org/wiki/File%3AGreen%20coconut%20fruit.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_cam_vat",
-      "name": "Nước Cam Sành Vắt Tươi",
-      "file": "images/do_uong/nuoc_cam_vat.webp",
-      "reviewRequired": true,
-      "reason": "missing-source-record"
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_ep_buoi_hong",
-      "name": "Nước Ép Bưởi Hồng Tươi",
-      "file": "images/do_uong/nuoc_ep_buoi_hong.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_ep_buoi_hong",
-        "title": "File:Self-made gin grapefruit long drink.jpg",
-        "artist": "JIP",
-        "source": "https://commons.wikimedia.org/wiki/File%3ASelf-made%20gin%20grapefruit%20long%20drink.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_ep_dua_hau",
-      "name": "Nước Ép Dưa Hấu Đỏ",
-      "file": "images/do_uong/nuoc_ep_dua_hau.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_ep_dua_hau",
-        "title": "File:Watermelon juice in glass.jpg",
-        "artist": "Brindhashanmugam312",
-        "source": "https://commons.wikimedia.org/wiki/File%3AWatermelon%20juice%20in%20glass.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_ep_dua_thom",
-      "name": "Nước Ép Dứa (Thơm) Mật",
-      "file": "images/do_uong/nuoc_ep_dua_thom.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_ep_dua_thom",
-        "title": "File:Pineapple juice in glass.jpg",
-        "artist": "B722N",
-        "source": "https://commons.wikimedia.org/wiki/File%3APineapple%20juice%20in%20glass.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_ep_tao",
-      "name": "Nước Ép Táo Xanh & Táo Đỏ",
-      "file": "images/do_uong/nuoc_ep_tao.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_ep_tao",
-        "title": "File:Apple juice glass.jpg",
-        "artist": "JeanBono",
-        "source": "https://commons.wikimedia.org/wiki/File%3AApple%20juice%20glass.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_ep_oi",
-      "name": "Nước Ép Ổi Hạt Lựu",
-      "file": "images/do_uong/nuoc_ep_oi.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_ep_oi",
-        "title": "File:Agua de guayaba.jpg",
-        "artist": "AlejandroLinaresGarcia",
-        "source": "https://commons.wikimedia.org/wiki/File:Agua_de_guayaba.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh tĩnh vật ẩm thực Wikimedia Commons. Không dính người."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_ep_ca_rot",
-      "name": "Nước Ép Cà Rốt Tươi",
-      "file": "images/do_uong/nuoc_ep_ca_rot.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_ep_ca_rot",
-        "title": "File:Təbrizdə bir qutu makaron və bir stəkan yerkökü suyu.jpg",
-        "artist": "Orartu",
-        "source": "https://commons.wikimedia.org/wiki/File%3AT%C9%99brizd%C9%99%20bir%20qutu%20makaron%20v%C9%99%20bir%20st%C9%99kan%20yerk%C3%B6k%C3%BC%20suyu.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_ep_ca_chua",
-      "name": "Nước Ép Cà Chua Tươi",
-      "file": "images/do_uong/nuoc_ep_ca_chua.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_ep_ca_chua",
-        "title": "File:A glass of tomato juice on a black plate.jpg",
-        "artist": "VSerebrenikov",
-        "source": "https://commons.wikimedia.org/wiki/File%3AA%20glass%20of%20tomato%20juice%20on%20a%20black%20plate.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_mia_sieu_sach",
-      "name": "Nước Mía Tươi Siêu Sạch",
-      "file": "images/do_uong/nuoc_mia_sieu_sach.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_mia_sieu_sach",
-        "title": "File:Glass of sugarcane juice.jpg",
-        "artist": "Fgnievinski",
-        "source": "https://commons.wikimedia.org/wiki/File%3AGlass%20of%20sugarcane%20juice.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_ca_phe_den_da",
-      "name": "Cà Phê Đen Pha Phin",
-      "file": "images/do_uong/nuoc_ca_phe_den_da.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_ca_phe_den_da",
-        "title": "File:Ice coffee image.jpg",
-        "artist": "Suguri F",
-        "source": "https://commons.wikimedia.org/wiki/File%3AIce%20coffee%20image.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_ca_phe_sua_da",
-      "name": "Cà Phê Sữa Đá Sài Gòn",
-      "file": "images/do_uong/nuoc_ca_phe_sua_da.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_ca_phe_sua_da",
-        "title": "File:CÀ PHÊ SỮA PHA PHIN.jpg",
-        "artist": "Souradeep.Dasgupta",
-        "source": "https://commons.wikimedia.org/wiki/File%3AC%C3%80%20PH%C3%8A%20S%E1%BB%AEA%20PHA%20PHIN.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_bac_xiu",
-      "name": "Bạc Xỉu Ba Tầng Sài Gòn",
-      "file": "images/do_uong/nuoc_bac_xiu.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_bac_xiu",
-        "title": "File:Vietnamese Iced Coffee Ba Chi Canteen.jpg",
-        "artist": "Infrogmation of New Orleans",
-        "source": "https://commons.wikimedia.org/wiki/File%3AVietnamese%20Iced%20Coffee%20Ba%20Chi%20Canteen.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_ca_phe_trung",
-      "name": "Cà Phê Trứng Hà Nội",
-      "file": "images/do_uong/nuoc_ca_phe_trung.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_ca_phe_trung",
-        "title": "File:Egg Coffee (6923068614).jpg",
-        "artist": "David McKelvey from Brisbane, Australia",
-        "source": "https://commons.wikimedia.org/wiki/File%3AEgg%20Coffee%20%286923068614%29.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
-    {
-      "region": "vi",
-      "id": "nuoc_ca_phe_cot_dua",
-      "name": "Cà Phê Cốt Dừa Hải Phòng",
-      "file": "images/do_uong/nuoc_ca_phe_cot_dua.webp",
-      "reviewRequired": false,
-      "attribution": {
-        "sourceKey": "nuoc_ca_phe_cot_dua",
-        "title": "File:Vietnamese Salted Coffee & Xin chao's coconut Coffee - Xin Chao, Eastbourne 2026-08-14.jpg",
-        "artist": "Andy Li",
-        "source": "https://commons.wikimedia.org/wiki/File%3AVietnamese%20Salted%20Coffee%20%26%20Xin%20chao%27s%20coconut%20Coffee%20-%20Xin%20Chao%2C%20Eastbourne%202026-08-14.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "note": "Cắt khung 4:3, thu nhỏ 640×480 và chuyển WebP từ nguồn ảnh ẩm thực mở Wikimedia Commons."
-      }
-    },
     {
       "region": "ja",
       "id": "ja_m_1",
@@ -4014,6 +1797,1436 @@
       "file": "images/regional/en/en_dr_8.webp",
       "reviewRequired": true,
       "reason": "missing-source-record"
+    },
+    {
+      "id": "sang_5_1",
+      "region": "vi",
+      "name": "Phở tái lăn",
+      "file": "images/catalog-20261031/sang_5_1.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://phothinviet.vn/pho-tai-lan-truyen-thong",
+      "imageUrl": "https://bizweb.dktcdn.net/100/479/802/products/368215614-256189740643634-1555262302645533223-n.jpg?v=1708933239497",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "sang_5_2",
+      "region": "vi",
+      "name": "Bún bò Huế",
+      "file": "images/catalog-20261031/sang_5_2.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://dantocphattrien.vietnamnet.vn/mon-an-xu-hue-1743765532406.htm",
+      "imageUrl": "https://images.baodantoc.vn/uploads/2025/Thang-4/Ngay-4/Duy-Long/3t48.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "sang_5_3",
+      "region": "vi",
+      "name": "Bánh mì chảo",
+      "file": "images/catalog-20261031/sang_5_3.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://kingfoodmart.com/bai-viet/cong-thuc-nau-an/banh-mi-chao-thom-ngon",
+      "imageUrl": "https://storage.googleapis.com/onelife-public/blog.onelife.vn/2026/01/491a0563-banh-mi-chao-thom-ngon-1-700x525.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "sang_4_1",
+      "region": "vi",
+      "name": "Bánh cuốn",
+      "file": "images/catalog-20261031/sang_4_1.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://grandcititelhanoi.com/blog/hanoi-attractions/unforgetable-street-food.html",
+      "imageUrl": "https://grandcititelhanoi.com/UploadFile/Our-blog/Unforgetable-Street-Food/9-banh-cuon.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "sang_4_2",
+      "region": "vi",
+      "name": "Hủ tiếu Nam Vang",
+      "file": "images/catalog-20261031/sang_4_2.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://indochinacharmtours.com/blog/top-5-street-foods-in-ho-chi-minh-city.html",
+      "imageUrl": "https://indochinacharmtours.com/data/images/hu-tieu-nam-vang-tron-4c73077e-699a-4b5a-817d-81976a24d24b.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "sang_4_3",
+      "region": "vi",
+      "name": "Xôi xéo",
+      "file": "images/catalog-20261031/sang_4_3.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.bachhoaxanh.com/kinh-nghiem-hay/vi-sao-goi-la-xoi-xeo-giai-nghia-ten-goi-doc-dao-cua-mon-xoi-truyen-thong-1586010",
+      "imageUrl": "https://cdnv2.tgdd.vn/bhx-static/bhx/News/Images/2025/11/20/1586010/image1_202511201602157860.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "sang_3_1",
+      "region": "vi",
+      "name": "Bánh mì pate",
+      "file": "images/catalog-20261031/sang_3_1.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://toplist.vn/top-list/quan-banh-mi-ngon-nhat-sai-gon-4124.htm",
+      "imageUrl": "https://toplist.vn/images/800px/banh-mi-huynh-hoa-499048.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "sang_3_2",
+      "region": "vi",
+      "name": "Bún riêu cua",
+      "file": "images/catalog-20261031/sang_3_2.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://vinid.net/blog/cach-nau-bun-rieu-cua-dac-biet-an-la-ghien/",
+      "imageUrl": "https://cdn-www.vinid.net/337b1f74-cach-nau-bun-rieu-cua.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "sv_morning_banh_bao",
+      "region": "vi",
+      "name": "Bánh bao nhân thịt",
+      "file": "images/catalog-20261031/sv_morning_banh_bao.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://memart.vn/tin-tuc/how-blog/huong-dan-chi-tiet-cach-lam-banh-bao-nhan-thit-de-ban-tai-nha-thanh-cong-dung-vi-vi-cb.html",
+      "imageUrl": "https://cdn-www.vinid.net/2019/12/Huong-dan-cach-lam-banh-bao-nhan-thit-ngon-me-ly.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "sv_morning_banh_gio",
+      "region": "vi",
+      "name": "Bánh giò",
+      "file": "images/catalog-20261031/sv_morning_banh_gio.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://timchuyenbay.com/mon-ngon-hai-phong",
+      "imageUrl": "https://gmi.timchuyenbay.com/uploads/2019/08/banh-gio-600x400.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "more_morning_banh_uot",
+      "region": "vi",
+      "name": "Bánh ướt",
+      "file": "images/catalog-20261031/more_morning_banh_uot.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://toplist.vn/top-list/dia-diem-ban-banh-uot-ngon-nhat-o-hue-16470.htm",
+      "imageUrl": "https://toplist.vn/images/800px/banh-uot-nong-le-hong-phong-170590.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "more_morning_banh_mi_xiu_mai",
+      "region": "vi",
+      "name": "Bánh mì xíu mại",
+      "file": "images/catalog-20261031/more_morning_banh_mi_xiu_mai.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://vinid.net/blog/huong-dan-cach-lam-xiu-mai-an-banh-mi-thom-ngon-tai-nha/",
+      "imageUrl": "https://cdn-www.vinid.net/2020/03/c%C3%A1ch-l%C3%A0m-b%C3%A1nh-m%C3%AC-x%C3%ADu-m%E1%BA%A1i-vi%E1%BB%87t-nam-t%E1%BA%A1i-nh%C3%A0.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_banh_trang_tron",
+      "region": "vi",
+      "name": "Bánh tráng trộn",
+      "file": "images/catalog-20261031/vat_banh_trang_tron.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://shopeefood.vn/ho-chi-minh/nha-lan-banh-trang-tron-shop-online",
+      "imageUrl": "https://mms.img.susercontent.com/vn-11134513-7r98o-lsua5b06wptw84%40resize_ss1242x600%21%40crop_w1242_h600_cT",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_banh_trang_nuong",
+      "region": "vi",
+      "name": "Bánh tráng nướng Đà Lạt",
+      "file": "images/catalog-20261031/vat_banh_trang_nuong.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://vinwonders.com/vi/wonderpedia/news/banh-trang-nuong-da-lat/",
+      "imageUrl": "https://static.vinwonders.com/production/banh-trang-nuong-da-lat-8.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_banh_trang_cuon_bo",
+      "region": "vi",
+      "name": "Bánh tráng cuộn sốt bơ",
+      "file": "images/catalog-20261031/vat_banh_trang_cuon_bo.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.dienmayxanh.com/vao-bep/tong-hop-cac-loai-banh-trang-an-vat-ngon-cho-ban-nham-nhi-09431",
+      "imageUrl": "https://cdn.tgdd.vn/2021/04/CookRecipe/Avatar/banh-trang-cuon-bo-thumbnail-1.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_ca_vien_chien_mam",
+      "region": "vi",
+      "name": "Cá viên chiên sốt nước mắm",
+      "file": "images/catalog-20261031/vat_ca_vien_chien_mam.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://mytour.vn/vi/blog/bai-viet/3-phuong-phap-tao-ra-ca-vien-chien-nuoc-mam-ngon-lanh-danh-cho-an-vat-hoac-kem-com.html",
+      "imageUrl": "https://gcs.tripi.vn/public-tripi/tripi-feed/img/475972Sih/anh-mo-ta.png",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_chan_ga_sa_tac",
+      "region": "vi",
+      "name": "Chân gà sả tắc chua cay",
+      "file": "images/catalog-20261031/vat_chan_ga_sa_tac.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.anvatzupy.com/products/bach-tuoc-xoai-coc-chan-ga-ngam-sa-tac",
+      "imageUrl": "https://product.hstatic.net/1000384853/product/342_c9d04e19a2a5460a85da316687d778f5_grande.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_banh_mi_muoi_ot",
+      "region": "vi",
+      "name": "Bánh mì nướng muối ớt",
+      "file": "images/catalog-20261031/vat_banh_mi_muoi_ot.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://ecoeshop.vn/blogs/chia-se/cach-lam-banh-mi-nuong-muoi-ot",
+      "imageUrl": "https://file.hstatic.net/200000438087/file/cach-lam-banh-mi-nuong-muoi-ot-1_6fa6a7d4fd4340f2b5dcff26d9c4b089_grande.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_khoai_lang_lac",
+      "region": "vi",
+      "name": "Khoai lang lắc phô mai",
+      "file": "images/catalog-20261031/vat_khoai_lang_lac.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://mytour.vn/en/blog/bai-viet/top-8-best-spots-to-enjoy-crispy-sweet-potato-fries-in-da-nang-mytour.html",
+      "imageUrl": "https://img.tripi.vn/cdn-cgi/image/width%3D700%2Cheight%3D700/https%3A/gcs.tripi.vn/public-tripi/tripi-feed/img/481158hxe/anh-mo-ta.png",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_xoai_lac",
+      "region": "vi",
+      "name": "Xoài non lắc muối tôm chua cay",
+      "file": "images/catalog-20261031/vat_xoai_lac.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.24h.com.vn/am-thuc/xoai-lac-muoi-tom-chua-chua-gion-gion-ngon-ua-nuoc-mieng-c460a863829.html",
+      "imageUrl": "https://anh.24h.com.vn/upload/1-2017/images/2017-03-28/1490688865-giai-con-sot-mon-xoai-lac-muoi-tom-tai-nha-xoi-lac-muoi-tom--9--1458484150-width640height640.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_coc_lac",
+      "region": "vi",
+      "name": "Cóc bao tử lắc muối ớt",
+      "file": "images/catalog-20261031/vat_coc_lac.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://eva.vn/bep-eva/coc-bao-tu-lac-muoi-o-mai-ot-sieu-ngon-cuoi-tuan-c162a263477.html",
+      "imageUrl": "https://cdn.eva.vn/upload/2-2016/images/2016-04-16/coc-bao-tu-lac-muoi-o-mai-ot-sieu-ngon-cuoi-tuan-img_0095-1460814167-width640height480.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_bap_xao_bo",
+      "region": "vi",
+      "name": "Bắp xào bơ tép hành",
+      "file": "images/catalog-20261031/vat_bap_xao_bo.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://kingfoodmart.com/bai-viet/cong-thuc-nau-an/bap-nep-xao-bo",
+      "imageUrl": "https://storage.googleapis.com/onelife-public/blog.onelife.vn/2021/10/cach-lam-bap-nep-xao-bo-mon-chinh-950370553581.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_ga_lac_pho_mai",
+      "region": "vi",
+      "name": "Gà viên popcorn lắc phô mai",
+      "file": "images/catalog-20261031/vat_ga_lac_pho_mai.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://cookpad.com/vn/cong-thuc/12207819",
+      "imageUrl": "https://img-global.cpcdn.com/recipes/49615bcabb1208fb/680x781cq80/ga-vien-l%E1%BA%AFc-phomai-cho-be-recipe-main-photo.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_banh_ga_pho_mai",
+      "region": "vi",
+      "name": "Bánh gà phô mai tan chảy",
+      "file": "images/catalog-20261031/vat_banh_ga_pho_mai.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://vietgiaitri.com/me-viet-o-nhat-chia-se-cach-lam-banh-ga-pho-mai-gion-rum-thom-ngon-kho-cuong-20221122i6758199/",
+      "imageUrl": "https://i.vietgiaitri.com/2022/11/22/me-viet-o-nhat-chia-se-cach-lam-banh-ga-pho-mai-gion-rum-thom-ngon-kho-cuong-85b-6758199.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "nuoc_coca_original",
+      "region": "vi",
+      "name": "Coca-Cola Original",
+      "file": "images/catalog-20261031/nuoc_coca_original.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.dragonoriental.com/bebidas/170-coca-cola-330ml.html",
+      "imageUrl": "https://www.dragonoriental.com/967-large_default/coca-cola-330ml.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_coca_zero",
+      "region": "vi",
+      "name": "Coca-Cola Zero Sugar",
+      "file": "images/catalog-20261031/nuoc_coca_zero.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://camperdowncellars.com.au/products/cokenosugarcansng",
+      "imageUrl": "https://camperdowncellars.com.au/cdn/shop/files/389-2-1_clipped_rev_1_1200x.png?v=1691472406",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_pepsi_original",
+      "region": "vi",
+      "name": "Pepsi Cola Original",
+      "file": "images/catalog-20261031/nuoc_pepsi_original.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.metro.pe/gaseosa-pepsi-botella-600ml-2/p",
+      "imageUrl": "https://metroio.vtexassets.com/arquivos/ids/585099/Gaseosa-Pepsi-Botella-600ml-1-238297.jpg?v=638814477704700000",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_pepsi_zero_chanh",
+      "region": "vi",
+      "name": "Pepsi Zero Calorie Chanh",
+      "file": "images/catalog-20261031/nuoc_pepsi_zero_chanh.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://sieuthiducthanh.com/nn-pepsi-lon-cao-330ml",
+      "imageUrl": "https://bizweb.dktcdn.net/100/469/765/products/pep.png?v=1670317802193",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_7up",
+      "region": "vi",
+      "name": "7Up Chanh Tự Nhiên",
+      "file": "images/catalog-20261031/nuoc_7up.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://leescoffee.com.vn/products/7up-320ml",
+      "imageUrl": "https://product.hstatic.net/200000885783/product/31_9e38b3a8e07648e98fea0ac9b07b57bd.png",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_sprite",
+      "region": "vi",
+      "name": "Sprite Vị Chanh",
+      "file": "images/catalog-20261031/nuoc_sprite.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://sieuthiducthanh.com/nuoc-ngot-sprite-chai-pet-390ml",
+      "imageUrl": "https://bizweb.dktcdn.net/thumb/grande/100/469/765/products/a-1a8aa17d-5cf2-4b61-9b6e-fb1d72a3f02b.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_mirinda_soda_kem",
+      "region": "vi",
+      "name": "Mirinda Soda Kem",
+      "file": "images/catalog-20261031/nuoc_mirinda_soda_kem.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://globalbiteco.com/products/mirinda-orange-320ml-vietnam-copy",
+      "imageUrl": "https://globalbiteco.com/cdn/shop/files/Mirinda-Cream-Soda-320ml.jpg?v=1741198077",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_mirinda_cam",
+      "region": "vi",
+      "name": "Mirinda Cam",
+      "file": "images/catalog-20261031/nuoc_mirinda_cam.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://z-bluethunder.com/mirinda-orange-flavor-bottle-390ml-1-5l",
+      "imageUrl": "https://bizweb.dktcdn.net/thumb/grande/100/447/200/products/253-094ef9b0-1e3a-4acd-b053-ca8f524dab77.png?v=1744264126700",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_fanta_cam",
+      "region": "vi",
+      "name": "Fanta Hương Cam",
+      "file": "images/catalog-20261031/nuoc_fanta_cam.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.vmde.com.vn/products/fanta-cam-320ml",
+      "imageUrl": "https://product.hstatic.net/200000874695/product/8935049501572-600x600_71ea8d1ea98444b79c6cd939a569f596_grande.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_xa_xi_chuong_duong",
+      "region": "vi",
+      "name": "Xá xị Chương Dương",
+      "file": "images/catalog-20261031/nuoc_xa_xi_chuong_duong.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.tomkholouisiana.com/en/products/sa-x%E1%BB%8B-ch%C6%B0%C6%A1ng-d%C6%B0%C6%A1ng-chuong-duong-sa-xi-carbonated-soft-drink-330ml",
+      "imageUrl": "https://www.tomkholouisiana.com/cdn/shop/files/B532C363-F382-42E8-B13B-62D4F511DCF5.jpg?v=1764786809",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_mirinda_xa_xi",
+      "region": "vi",
+      "name": "Mirinda Xá xị",
+      "file": "images/catalog-20261031/nuoc_mirinda_xa_xi.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://globalbiteco.com/products/mirinda-cream-soda-320ml-vietnam-copy",
+      "imageUrl": "https://globalbiteco.com/cdn/shop/files/Mirinda-Sarsi-Can-320ml-Photoroom.png?v=1741204847",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_red_bull",
+      "region": "vi",
+      "name": "Red Bull (Bò Húc)",
+      "file": "images/catalog-20261031/nuoc_red_bull.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://vit34.vn/products/bo-huc",
+      "imageUrl": "https://product.hstatic.net/1000379753/product/a65e9caeb2b31fed46a2_cc1c9446f4f54d93bbd7740d5d43dc52_grande.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_monster_energy",
+      "region": "vi",
+      "name": "Monster Energy",
+      "file": "images/catalog-20261031/nuoc_monster_energy.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.faire.com/discover/venom-energy-drink",
+      "imageUrl": "https://cdn.faire.com/fastly/ad4e32929cb5518ebc8c2fa95b30b0c6409d226bbcdfdf4db9cd5f55e6bf1471.webp?bg-color=FFFFFF&dpr=1&fit=crop&format=jpg&height=720&width=720",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_sting_dau",
+      "region": "vi",
+      "name": "Sting Dâu tây Đỏ",
+      "file": "images/catalog-20261031/nuoc_sting_dau.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.webtaphoa.vn/products/nuoc-tang-luc-sting-dau-do-chai-330-ml",
+      "imageUrl": "https://product.hstatic.net/1000288770/product/n__c_t_ng_l_c_sting_d_u_d__chai_330_ml_1.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_revive",
+      "region": "vi",
+      "name": "Nước bù khoáng Revive",
+      "file": "images/catalog-20261031/nuoc_revive.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://aeoneshop.com/product/4009/nuoc-uong-bu-khoang-co-gas",
+      "imageUrl": "https://catalog-assets-asia-southeast1.aeon-vn-prod.e.spresso.com/c3RvcmFnZS5nb29nbGVhcGlzLmNvbQ%3D%3D/YWVvbnZpZXRuYW0tc3ByZXNzby1wdWJsaWM%3D/Rk9PRExJTkUgMjAyNA%3D%3D/QVBS/MDExOTgxOTUgKDEp.PNG",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_sua_truyen_thong",
+      "region": "vi",
+      "name": "Trà sữa Hồng trà Truyền thống",
+      "file": "images/catalog-20261031/nuoc_tra_sua_truyen_thong.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://trachinhson.com/blogs/horeca/tra-sua-truyen-thong",
+      "imageUrl": "https://file.hstatic.net/1000135323/file/tra-olong-sua-chan-trau_087ab955cbbb4a0188eebcd8f3de2a6e_1024x1024.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_sua_oolong",
+      "region": "vi",
+      "name": "Trà sữa Ô Long Đậm Vị",
+      "file": "images/catalog-20261031/nuoc_tra_sua_oolong.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.foody.vn/ho-chi-minh/honeylla-tra-sua-olong-rang-ba-hom",
+      "imageUrl": "https://down-vn.img.susercontent.com/vn-11134259-7r98o-lw9o0gfnw7ob17",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_sua_lai",
+      "region": "vi",
+      "name": "Trà sữa Hoa Lài (Jasmine)",
+      "file": "images/catalog-20261031/nuoc_tra_sua_lai.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://vonive.com.cn/products/coconut-oil-powder",
+      "imageUrl": "https://img-va.myshopline.com/image/store/1697439863327/63d466b1f97644a3b51d15bd89ce47d6.jpeg?h=1147&w=1000",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_sua_thiet_quan_am",
+      "region": "vi",
+      "name": "Trà sữa Thiết Quan Âm",
+      "file": "images/catalog-20261031/nuoc_tra_sua_thiet_quan_am.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://nguyenlieuphache.vn/blogs/cong-thuc-pha-che/cong-thuc-pha-che-tra-sua-thiet-quan-am?srsltid=AfmBOoqFxe6n1VkHIIC4cdePabyLeYEbKsSxkC8eUuzLpCoSgHmnnUoP",
+      "imageUrl": "https://file.hstatic.net/1000220639/file/thumb_1_977d0ea5df0246ef9c2b05a892bf1caf_grande.png",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_sua_earl_grey",
+      "region": "vi",
+      "name": "Trà sữa Bá Tước Earl Grey",
+      "file": "images/catalog-20261031/nuoc_tra_sua_earl_grey.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.xanhsm.com/news/kafela-coffee-ha-noi",
+      "imageUrl": "https://cdn.xanhsm.com/2025/01/f2140228-kafela-coffee-6.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_sua_thai_do",
+      "region": "vi",
+      "name": "Trà sữa Thái Đỏ",
+      "file": "images/catalog-20261031/nuoc_tra_sua_thai_do.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://tnhelearning.edu.vn/4-how-to-cook-delicious-thai-green-milk-tea-and-thai-red-milk-tea-at-home/",
+      "imageUrl": "https://cdn.tgdd.vn/Files/2019/11/11/1217662/cach-lam-tra-sua-thai-voi-bot-beo-don-gian-vua-ngon-vua-thom-mat-cho-nang-sanh-an-vat-202103111455525921.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_sua_thai_xanh",
+      "region": "vi",
+      "name": "Trà sữa Thái Xanh",
+      "file": "images/catalog-20261031/nuoc_tra_sua_thai_xanh.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.lemon8-app.com/%40vynguyen02189/7533984308680688149?region=my",
+      "imageUrl": "https://www.lemon8-app.com/seo/image?index=0&item_id=7533984308680688149&sign=f7b69c4a4531f913e0e2162c6cde1b2e",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_sua_khoai_mon",
+      "region": "vi",
+      "name": "Trà sữa Khoai Môn (Taro)",
+      "file": "images/catalog-20261031/nuoc_tra_sua_khoai_mon.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://homitatea.com/",
+      "imageUrl": "https://homitatea.com/uploads/products/milktea/tra_sua_khoai_mon.png",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_sua_socola",
+      "region": "vi",
+      "name": "Trà sữa Socola Đậm Đà",
+      "file": "images/catalog-20261031/nuoc_tra_sua_socola.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://food.daily.co.kr/thema3133202678",
+      "imageUrl": "https://img.daily.co.kr/%40files/www.daily.co.kr/content/food/2022/20220905/24d8fc05a6b4c14976deaa7562af1813.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_sua_bac_ha",
+      "region": "vi",
+      "name": "Trà sữa Bạc Hà The Mát",
+      "file": "images/catalog-20261031/nuoc_tra_sua_bac_ha.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://hocphachehanoi.com.vn/cong-thuc-pha-che/huong-dan-cach-lam-tra-sua-bac-ha-tai-nha-ngon-ngay-ngat.html",
+      "imageUrl": "https://hocphachehanoi.com.vn/upload/userfiles/images/cach-lam-tra-sua-bac-ha.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_sua_tuoi_tran_chau_duong_den",
+      "region": "vi",
+      "name": "Sữa tươi Trân châu Đường đen",
+      "file": "images/catalog-20261031/nuoc_sua_tuoi_tran_chau_duong_den.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://vn.my-best.com/36855",
+      "imageUrl": "https://img.vn.my-best.com/content_section/choice_component/sub_contents/0d518478cbe16b72a9ef519e4aa9c84c.png?fit=max&ixlib=rails-4.3.1&lossless=0&q=70&s=b1a3118b2e570bab5740b36d2927caa5&w=690",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_sua_tran_chau_duong_den",
+      "region": "vi",
+      "name": "Trà sữa Trân châu Đường đen",
+      "file": "images/catalog-20261031/nuoc_tra_sua_tran_chau_duong_den.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://jawapos.com/kuliner/2510090220/gak-perlu-jajan-mahal-ini-dia-cara-bikin-boba-brown-sugar-ala-cafe-yang-enak-dan-kenyal",
+      "imageUrl": "https://cdn-assets.jawapos.com/images/1/2025/10/09/Gak-Perlu-Jajan-Mahal-Ini-Dia-Cara-Bikin-Boba-Brown-Sugar-Ala-Cafe-yang-Enak-dan-Kenyal-2274529989.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_sua_kem_cheese",
+      "region": "vi",
+      "name": "Trà sữa Kem Cheese Macchiato",
+      "file": "images/catalog-20261031/nuoc_tra_sua_kem_cheese.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://spacet.vn/blog/nguon-cam-hung/review-khong-gian-va-do-uong-tocotoco",
+      "imageUrl": "https://spacet-release.s3.ap-southeast-1.amazonaws.com/img/blog/2026-01-23/review-khong-gian-va-do-uong-tocotoco-1-69731b6ad07568fa1c817f4c.webp",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_sua_kem_trung_chay",
+      "region": "vi",
+      "name": "Trà sữa Kem Trứng Cháy",
+      "file": "images/catalog-20261031/nuoc_tra_sua_kem_trung_chay.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://sundaybasic.com/ve-chung-toi/chu-de-blog/cau-chuyen-ve-thuong-hieu/tra-sua-kem-trung-khe-dau-tien-tai-sai-gon",
+      "imageUrl": "https://sundaybasic.com/Data/Sites/1/media/img_1621.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_sua_nuong",
+      "region": "vi",
+      "name": "Trà sữa Nướng Hoàng Gia",
+      "file": "images/catalog-20261031/nuoc_tra_sua_nuong.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://cookpad.com/id/resep/24718674-roasted-milk-tea",
+      "imageUrl": "https://img-global.cpcdn.com/recipes/535d2f0f895f2b83/680x781f0.5_0.5_1.0q80/roasted-milk-tea-foto-resep-utama.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_dao_cam_sa",
+      "region": "vi",
+      "name": "Trà Đào Cam Sả Tươi",
+      "file": "images/catalog-20261031/nuoc_tra_dao_cam_sa.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.tu-farm.com/blog/post/cach-lam-tra-dao-cam-sa-ngon-nhu-the-coffee-house-cong-thuc-chuan",
+      "imageUrl": "https://content.pancake.vn/web-media/ce/74/fb/e2/3db819f9a3e791e5ef3565b15597bf6c5f707433f89f6cfb25bcde19-w%3A1024-h%3A1024-l%3A695443-t%3Aimage/jpeg.jpeg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_dao_mieng",
+      "region": "vi",
+      "name": "Trà Đào Giòn Miếng",
+      "file": "images/catalog-20261031/nuoc_tra_dao_mieng.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.beemart.vn/cach-lam-dao-ngam-giai-khat-mua-he",
+      "imageUrl": "https://bizweb.dktcdn.net/100/004/714/articles/tra-dao.jpg?v=1563186774693",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_vai_lai",
+      "region": "vi",
+      "name": "Trà Vải Hoa Lài",
+      "file": "images/catalog-20261031/nuoc_tra_vai_lai.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://phuclong.com.vn/products/tra-nhan-lai-l--s65000128",
+      "imageUrl": "https://s3-hcmc02.higiocloud.vn/images/2022/65000127-65000128-tra-nhan-lai_2fe90bd0-65fb-4bb3-8f74-44a92e067926-og.png",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_mang_cut",
+      "region": "vi",
+      "name": "Trà Măng Cụt Nhiệt Đới",
+      "file": "images/catalog-20261031/nuoc_tra_mang_cut.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://mediamart.vn/vao-bep/cach-lam-tra-mang-cut-hoa-dau-biec",
+      "imageUrl": "https://cdn.mediamart.vn/images/news/du-trend-cach-lam-tra-mang-cut-hoa-dau-biec_11e739e7.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_oi_hong_hat_chia",
+      "region": "vi",
+      "name": "Trà Ổi Hồng Hạt Chia",
+      "file": "images/catalog-20261031/nuoc_tra_oi_hong_hat_chia.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.mangrovevn.com/post/tr%C3%A0-%E1%BB%95i-h%E1%BB%93ng-th%E1%BB%A9c-u%E1%BB%91ng-ng%E1%BB%8Dt-l%C3%A0nh-v%C3%A0-t%C6%B0%C6%A1i-m%E1%BB%9Bi-t%E1%BA%A1i-mangrove-coffee-tea",
+      "imageUrl": "https://static.wixstatic.com/media/3a563c_e5056df37dc54a9994f78f78e00d6071~mv2.jpg/v1/fill/w_704%2Ch_704%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/3a563c_e5056df37dc54a9994f78f78e00d6071~mv2.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_dua_luoi",
+      "region": "vi",
+      "name": "Trà Dưa Lưới Mát Lạnh",
+      "file": "images/catalog-20261031/nuoc_tra_dua_luoi.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.tu-farm.com/blog/post/tra-dua-luoi-cong-thuc-loi-ich-kinh-doanh",
+      "imageUrl": "https://content.pancake.vn/web-media-262/a7/49/a5/ca/be5f540172e8dcbb197cdcff835888b3b90c5876197beff1e5b39821-w%3A1024-h%3A1024-l%3A674099-t%3Aimage/jpeg.jpeg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_dau_tay_dam",
+      "region": "vi",
+      "name": "Trà Dâu Tây Dầm Tươi",
+      "file": "images/catalog-20261031/nuoc_tra_dau_tay_dam.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.chillvilletreats.com/order",
+      "imageUrl": "https://www.chillvilletreats.com/images/Boba/fruit_tea/strawberry_fruit_tea.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_chanh_gia_tay",
+      "region": "vi",
+      "name": "Trà Chanh Giã Tay Quảng Đông",
+      "file": "images/catalog-20261031/nuoc_tra_chanh_gia_tay.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://kenh14.vn/tra-chanh-gia-tay-tro-thanh-trend-tai-trung-quoc-va-bat-dau-thu-hut-o-viet-nam-co-gi-moi-trong-mon-do-uong-nay-20231103141745365.chn",
+      "imageUrl": "https://kenh14cdn.com/203336854389633024/2023/11/3/photo-7-16989956799031664444526.png",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_tra_tac_xi_muoi",
+      "region": "vi",
+      "name": "Trà Tắc Xí Muội Mật Ong",
+      "file": "images/catalog-20261031/nuoc_tra_tac_xi_muoi.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://cookpad.com/vn/cong-thuc/14535200",
+      "imageUrl": "https://img-global.cpcdn.com/recipes/b8911042af6c54ac/680x781cq80/tra-t%E1%BA%AFc-m%E1%BA%ADt-ong-recipe-main-photo.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_matcha_latte",
+      "region": "vi",
+      "name": "Matcha Latte Nhật Bản",
+      "file": "images/catalog-20261031/nuoc_matcha_latte.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.tripadvisor.com/Restaurant_Review-g1066457-d32800934-Reviews-NIGICHA-Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/f7/bd/07/caption.jpg?h=400&s=1&w=500",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_matcha_kem_cheese",
+      "region": "vi",
+      "name": "Matcha Kem Cheese Macchiato",
+      "file": "images/catalog-20261031/nuoc_matcha_kem_cheese.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://kenh14.vn/bat-mi-bi-mat-dang-sau-do-ngon-tuyet-hao-tu-dong-kem-pho-mai-tai-tocotoco-20180915125653043.chn",
+      "imageUrl": "https://channel.mediacdn.vn/prupload/879/2018/09/img20180915122047684.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_matcha_nuoc_dua",
+      "region": "vi",
+      "name": "Matcha Nước Dừa Tươi (Cloud)",
+      "file": "images/catalog-20261031/nuoc_matcha_nuoc_dua.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://shop.berliner-kaffeeroesterei.de/teerezepte-matcha-cloud",
+      "imageUrl": "https://shop.berliner-kaffeeroesterei.de/media/9c/00/3c/1768479172/Matcha%20Cloud.webp?ts=1768821570",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_dirty_matcha",
+      "region": "vi",
+      "name": "Dirty Matcha Espresso",
+      "file": "images/catalog-20261031/nuoc_dirty_matcha.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://shop.berliner-kaffeeroesterei.de/rezept-dirty-matcha",
+      "imageUrl": "https://shop.berliner-kaffeeroesterei.de/media/fc/17/0c/1745916211/Dirty%20Matcha%20im%20Glas.jpg?ts=1774942437",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_strawberry_matcha",
+      "region": "vi",
+      "name": "Strawberry Matcha Latte Ba Tầng",
+      "file": "images/catalog-20261031/nuoc_strawberry_matcha.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://cookpad.com/vn/cong-thuc/25307755",
+      "imageUrl": "https://img-global.cpcdn.com/steps/bcac3b432d96a8c5/400x400cq80/photo.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_matcha_frappuccino",
+      "region": "vi",
+      "name": "Matcha Frappuccino Đá Xay",
+      "file": "images/catalog-20261031/nuoc_matcha_frappuccino.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://yokomatcha.com/blogs/matcha-guide/12-delicious-matcha-drinks-at-starbucks-for-a-sweet-green-treat",
+      "imageUrl": "https://yokomatcha.com/cdn/shop/articles/Starbucks.Matcha1.png?v=1708514734&width=800",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_sinh_to_bo",
+      "region": "vi",
+      "name": "Sinh Tố Bơ Sáp Đắk Lắk",
+      "file": "images/catalog-20261031/nuoc_sinh_to_bo.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://nongsandaklak.vn/bo-sap-dak-lak/",
+      "imageUrl": "https://nongsandaklak.vn/uploads/images/bo-sap-dak-lak-5.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_sinh_to_xoai",
+      "region": "vi",
+      "name": "Sinh Tố Xoài Cát Hòa Lộc",
+      "file": "images/catalog-20261031/nuoc_sinh_to_xoai.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.tu-farm.com/products/sinh-to-xoai",
+      "imageUrl": "https://content.pancake.vn/web-media/19/4a/33/b9/94d3d27e5c62e06ef8a291fa6da64ba9b8a7ed35110ad5d2e25b8366-w%3A900-h%3A900-l%3A650284-t%3Aimage/png.png",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_sinh_to_dau",
+      "region": "vi",
+      "name": "Sinh Tố Dâu Tây Tươi",
+      "file": "images/catalog-20261031/nuoc_sinh_to_dau.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.foodpanda.com.kh/en/chain/cg2au/fruit-shake-and-dessert-362",
+      "imageUrl": "https://images.deliveryhero.io/image/fd-kh/products/526727.jpg?height=393.75&width=393.75",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_sinh_to_chuoi",
+      "region": "vi",
+      "name": "Sinh Tố Chuối Sữa Tươi",
+      "file": "images/catalog-20261031/nuoc_sinh_to_chuoi.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://znews.vn/dieu-gi-xay-ra-khi-ket-hop-chuoi-voi-sua-post1655488.html",
+      "imageUrl": "https://photo.znews.vn/Uploaded/rfkbflu/2026_05_30/sua_va_chuoi.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_sinh_to_mang_cau",
+      "region": "vi",
+      "name": "Sinh Tố Mãng Cầu Xiêm",
+      "file": "images/catalog-20261031/nuoc_sinh_to_mang_cau.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.thethaothientruong.vn/tin-tuc/mang-cau-xiem-bao-nhieu-calo.html",
+      "imageUrl": "https://www.thethaothientruong.vn/uploads/2023/sinh-to-mang-cau-xiem-sua-chua.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_sinh_to_sapoche",
+      "region": "vi",
+      "name": "Sinh Tố Sapoche (Hồng Xiêm)",
+      "file": "images/catalog-20261031/nuoc_sinh_to_sapoche.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.vitaminhouse.vn/products/sapoche-loai-1?srsltid=AfmBOorM9HvGeX4W9KK2hYaLSQcCF-KBt3tylIfe7Avy7AgOWPF397m-",
+      "imageUrl": "https://www.vitaminhouse.vn/cdn/shop/products/sapochevitaminhouse_800x.jpg?v=1751615327",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_sinh_to_bo_xoai",
+      "region": "vi",
+      "name": "Sinh Tố Bơ - Xoài Kết Hợp",
+      "file": "images/catalog-20261031/nuoc_sinh_to_bo_xoai.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://vinpearl.com/en/vietnamese-avocado-smoothie-top-recipes-for-your-health",
+      "imageUrl": "https://statics.vinpearl.com/vietnamese-avocado-smoothie-5_1702922794.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_sinh_to_chuoi_dau",
+      "region": "vi",
+      "name": "Sinh Tố Chuối - Dâu Tây",
+      "file": "images/catalog-20261031/nuoc_sinh_to_chuoi_dau.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.bachhoaxanh.com/kinh-nghiem-hay/giam-can-hieu-qua-voi-sinh-to-chuoi-dau-tay-1168040",
+      "imageUrl": "https://cdn.tgdd.vn/Files/2019/05/21/1168040/giam-can-hieu-qua-voi-sinh-to-chuoi-dau-tay-3_800x450.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_sinh_to_chuoi_bo_dau_phong",
+      "region": "vi",
+      "name": "Sinh Tố Chuối - Bơ Đậu Phộng",
+      "file": "images/catalog-20261031/nuoc_sinh_to_chuoi_bo_dau_phong.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://rdsic.edu.vn/blog/toan/nhung-cach-lam-sinh-to-chuoi-bo-dau-phong-ngon-va-bo-duong-vi-cb.html",
+      "imageUrl": "https://nomnomnhatrang.com/assets/uploads/nomnomnhatrang.com_1636013385845.png",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_sinh_to_berry_mix",
+      "region": "vi",
+      "name": "Sinh Tố Berry Mix (Dâu, Việt Quất, Mâm Xôi)",
+      "file": "images/catalog-20261031/nuoc_sinh_to_berry_mix.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://stonelab.princeton.edu/news/tips.html?p=11-simple-drinks-for-one-week-of-lighter-belly-habits-69c3c288d355b",
+      "imageUrl": "https://img.siterank.app/topic/yogurt-berry-shake.png",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_sinh_to_xoai_chanh_day",
+      "region": "vi",
+      "name": "Sinh Tố Xoài - Chanh Dây",
+      "file": "images/catalog-20261031/nuoc_sinh_to_xoai_chanh_day.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://nangtamvn.com/products/xoai-chanh-day-da-xay",
+      "imageUrl": "https://product.hstatic.net/200000791069/product/lord-83_4b0c8f2bd7e6478da21891e100a8a053_grande.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_sinh_to_bo_sau_rieng",
+      "region": "vi",
+      "name": "Sinh Tố Bơ - Sầu Riêng Béo Ngậy",
+      "file": "images/catalog-20261031/nuoc_sinh_to_bo_sau_rieng.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://cookpad.com/vn/cong-thuc/2996638",
+      "imageUrl": "https://img-global.cpcdn.com/recipes/5b0a6b75e39877f7/680x781cq80/sinh-t%E1%BB%91-b%C6%A1-s%E1%BA%A7u-rieng-recipe-main-photo.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_dua_xiem_got_vo",
+      "region": "vi",
+      "name": "Nước Dừa Xiêm Gọt Vỏ",
+      "file": "images/catalog-20261031/nuoc_dua_xiem_got_vo.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://hotelmart.vn/san-pham/nuoc-dua-cocoxim-xiem-xanh-1000ml-1l-18791",
+      "imageUrl": "https://hotelmart.vn/uploads/share-images/2022/05/30/2026_i629485463d882.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_dua_tac_dua_thom",
+      "region": "vi",
+      "name": "Nước Dừa Tắc / Dừa Thơm Khóm",
+      "file": "images/catalog-20261031/nuoc_dua_tac_dua_thom.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.dienmayxanh.com/vao-bep/cach-lam-dua-tac-chua-ngot-thanh-mat-giai-nhiet-ngay-he-02261",
+      "imageUrl": "https://cdn.tgdd.vn/2021/09/CookRecipe/Avatar/dua-tac-xi-muoi-thumbnail.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_cam_vat",
+      "region": "vi",
+      "name": "Nước Cam Sành Vắt Tươi",
+      "file": "images/catalog-20261031/nuoc_cam_vat.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://cafef.vn/vao-chinh-vu-cam-sanh-ban-chay-vi-gia-re-20230212082726675.chn",
+      "imageUrl": "https://cafefcdn.com/203337114487263232/2023/2/12/photo-4-16761650502281255444557.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_ep_buoi_hong",
+      "region": "vi",
+      "name": "Nước Ép Bưởi Hồng Tươi",
+      "file": "images/catalog-20261031/nuoc_ep_buoi_hong.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://nld.com.vn/nhung-nguoi-khong-nen-uong-nuoc-ep-buoi-196250306101123577.htm",
+      "imageUrl": "https://nld.mediacdn.vn/thumb_w/640/291774122806476800/2025/3/6/untitledaaa-17412305183031216719021.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_ep_dua_hau",
+      "region": "vi",
+      "name": "Nước Ép Dưa Hấu Đỏ",
+      "file": "images/catalog-20261031/nuoc_ep_dua_hau.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://tampang.com/berita/kesehatan/10-minuman-segar-yang-ampuh-mengatasi-hipertensi-mulai-dari-jus-semangka-hingga-air-kelapa-untuk-kesegaran-dan-kesehatan-badan-9c74zmb3ewrggofgz5",
+      "imageUrl": "https://media.tampang.com/tm_images/article/202407/jusjpgxacblaq6er69yvafv89fpu.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_ep_dua_thom",
+      "region": "vi",
+      "name": "Nước Ép Dứa (Thơm) Mật",
+      "file": "images/catalog-20261031/nuoc_ep_dua_thom.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://moitruong.net.vn/16-tac-dung-khong-ngo-cua-qua-dua-doi-voi-suc-khoe-con-nguoi-82901.html",
+      "imageUrl": "https://mtcs.1cdn.vn/2025/05/19/dua.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_ep_tao",
+      "region": "vi",
+      "name": "Nước Ép Táo Xanh & Táo Đỏ",
+      "file": "images/catalog-20261031/nuoc_ep_tao.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://minumanstarbucks.blogspot.com/2016/02/resep-minuman-jus-buah-apel.html",
+      "imageUrl": "https://2.bp.blogspot.com/-j85aLJRlm2s/W02qabBq-9I/AAAAAAAAE4c/r3e64nHh2GcIQbuZIfMNH-8G1qboLrMDwCLcBGAs/s1600/jus%2Bapel.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_ep_oi",
+      "region": "vi",
+      "name": "Nước Ép Ổi Hạt Lựu",
+      "file": "images/catalog-20261031/nuoc_ep_oi.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://m.nguoiduatin.vn/moi-ngay-uong-mot-coc-nuoc-oi-con-tot-hon-ca-than-duoc-204515244.amp",
+      "imageUrl": "https://nguoiduatin.mediacdn.vn/media/le-thi-duyen/2021/05/22/nuoc-ep-oi-2.png",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_ep_ca_rot",
+      "region": "vi",
+      "name": "Nước Ép Cà Rốt Tươi",
+      "file": "images/catalog-20261031/nuoc_ep_ca_rot.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.bachhoaxanh.com/kinh-nghiem-hay/co-nen-uong-nuoc-ep-ca-rot-moi-ngay-va-dau-la-cach-uong-dung-chuan-1195087",
+      "imageUrl": "https://cdn.tgdd.vn/Files/2019/09/05/1195087/co-nen-uong-nuoc-ep-ca-rot-moi-ngay-va-dau-la-cach-uong-dung-chuan-201909050905064136.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_ep_ca_chua",
+      "region": "vi",
+      "name": "Nước Ép Cà Chua Tươi",
+      "file": "images/catalog-20261031/nuoc_ep_ca_chua.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://39mag.benesse.ne.jp/beauty/content/?id=181923",
+      "imageUrl": "https://img.benesse-cms.jp/thank-you/item/image/normal/fa967635-bf80-460a-8e68-f6c859b2a770.jpg?h=900&resize_mode=force&resize_type=cover&w=1200",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_mia_sieu_sach",
+      "region": "vi",
+      "name": "Nước Mía Tươi Siêu Sạch",
+      "file": "images/catalog-20261031/nuoc_mia_sieu_sach.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://vtcnews.vn/5-cach-uong-nuoc-mia-de-tranh-bi-tieu-duong-ar937940.html",
+      "imageUrl": "https://cdn-i.vtcnews.vn/resize/1200x900/upload/2025/04/16/tieu-duong-co-uong-duoc-nuoc-mia-khong-1-09331587.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_ca_phe_den_da",
+      "region": "vi",
+      "name": "Cà Phê Đen Pha Phin",
+      "file": "images/catalog-20261031/nuoc_ca_phe_den_da.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://note.com/otasuke0126/n/n57bf3f7711de",
+      "imageUrl": "https://assets.st-note.com/img/1740376094-KHD7B3EZbU9O16egsnYCxNca.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_ca_phe_sua_da",
+      "region": "vi",
+      "name": "Cà Phê Sữa Đá Sài Gòn",
+      "file": "images/catalog-20261031/nuoc_ca_phe_sua_da.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://eva.vn/bep-eva/ca-phe-sua-da-sai-gon-da-thuyet-phuc-thu-tuong-quyen-luc-cua-canada-nhu-the-nao-c162a330190.html",
+      "imageUrl": "https://cdn.eva.vn/upload/4-2017/images/2017-11-10/ca-phe-sua-da-sai-gon-da-thuyet-phuc-thu-tuong-quyen-luc-cua-canada-nhu-the-nao-img_2923-1510298453-574-width600height800.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_bac_xiu",
+      "region": "vi",
+      "name": "Bạc Xỉu Ba Tầng Sài Gòn",
+      "file": "images/catalog-20261031/nuoc_bac_xiu.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://remagan.com/product/lemongrass-orange-peach-tea-tra-dao-cam-sa-a5c867df",
+      "imageUrl": "https://s3.remagan.com/pro.remagan.uploads/product/2023/11/three-layers-coffee-ca-phe-3-tang-20231122125505_655d97b93ffd7.webp",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_ca_phe_trung",
+      "region": "vi",
+      "name": "Cà Phê Trứng Hà Nội",
+      "file": "images/catalog-20261031/nuoc_ca_phe_trung.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://giadinh.suckhoedoisong.vn/ba-dia-diem-uong-ca-phe-trung-trong-long-pho-co-172160808211159226.htm",
+      "imageUrl": "https://giadinh.mediacdn.vn/2016/cf-1470665431201.jpg",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "nuoc_ca_phe_cot_dua",
+      "region": "vi",
+      "name": "Cà Phê Cốt Dừa Hải Phòng",
+      "file": "images/catalog-20261031/nuoc_ca_phe_cot_dua.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://bluorecoffee.com/blogs/news/vietnamese-coconut-coffee-ca-phe-c%E1%BB%91t-d%E1%BB%ABa",
+      "imageUrl": "https://bluorecoffee.com/cdn/shop/articles/a-high-resolution-close-up-photograph-of-a-tall-glass-of-vietnamese-coconut-coffee-c-ph-c-t-d-a-on-a-rustic-wooden-table-the-drink-shows-two-distinct-layers-rich-dark-brewed-robusta-c_1200x1200.png?v=1754873263",
+      "reason": "User authorized search-result image selection; source license has not been verified."
+    },
+    {
+      "id": "sang_banh_uot_long_ga",
+      "region": "vi",
+      "name": "Bánh ướt lòng gà",
+      "file": "images/catalog-20261031/sang_banh_uot_long_ga.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.vietfuntravel.com.vn/blog/dia-chi-nhung-quan-an-ngon-gan-cho-da-lat.html",
+      "imageUrl": "https://www.vietfuntravel.com.vn/image/data/Da-Lat/quan-an-gan-cho-da-lat/banh-uot-long-ga-da-lat.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "trua_5_1",
+      "region": "vi",
+      "name": "Cơm tấm",
+      "file": "images/catalog-20261031/trua_5_1.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.getyourguide.com/explorer/ho-chi-minh-ttd272/food-in-ho-chi-minh-city/",
+      "imageUrl": "https://cdn.bfldr.com/UTM69Z3S/at/8mvft9v8n66vs4knw7gfk73q/iStock-2169877344-LOW_RES.jpg?auto=webp&crop=3%3A2&quality=60&width=768",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "trua_5_2",
+      "region": "vi",
+      "name": "Bún chả",
+      "file": "images/catalog-20261031/trua_5_2.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.tripadvisor.com/Restaurant_Review-g293924-d8088661-Reviews-Bun_Cha_Huong_Lien-Hanoi.html",
+      "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/12/bf/ad/0d/photo1jpg.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "trua_5_3",
+      "region": "vi",
+      "name": "Cơm gà xối mỡ",
+      "file": "images/catalog-20261031/trua_5_3.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.momo.vn/page/9882269",
+      "imageUrl": "https://img.mservice.com.vn/common/u/2e02fb5fe4f64fb55bc713540643c6f8eae702d101cea8c59afc49cfc505fc37/9e672099-065d-4a19-8b96-90e79609619bnwf27vdx.jpeg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "trua_4_1",
+      "region": "vi",
+      "name": "Mì Quảng",
+      "file": "images/catalog-20261031/trua_4_1.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://toplist.vn/top-list/quan-mi-quang-noi-tieng-nhat-thanh-pho-da-nang-2367.htm",
+      "imageUrl": "https://toplist.vn/images/800px/mi-quang-men-508532.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "trua_4_2",
+      "region": "vi",
+      "name": "Bún thịt nướng",
+      "file": "images/catalog-20261031/trua_4_2.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://fptshop.com.vn/tin-tuc/dien-may/bun-thit-nuong-bao-nhieu-calo-184620",
+      "imageUrl": "https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/184620/Originals/Bun-thit-nuong-bao-nhieu-calo-4.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "sv_lunch_banh_canh",
+      "region": "vi",
+      "name": "Bánh canh",
+      "file": "images/catalog-20261031/sv_lunch_banh_canh.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://vncooking.com/bai-viet/nhung-mon-banh-canh-tuyet-cu-meo-ma-ban-nhat-dinh-phai-thu-55",
+      "imageUrl": "https://vncooking.com/files/common/2019/02/26/nhung-mon-banh-canh-tuyet-cu-meo-ma-ban-nhat-dinh-phai-thu-3vlgkqxo.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "sv_lunch_bun_mam",
+      "region": "vi",
+      "name": "Bún mắm",
+      "file": "images/catalog-20261031/sv_lunch_bun_mam.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://shopeefood.vn/ho-chi-minh/bun-mam-thien-thanh-song-hanh",
+      "imageUrl": "https://mms.img.susercontent.com/vn-11134513-7r98o-lxchfwvuhlnf3b%40resize_ss640x400%21%40crop_w640_h400_cT",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "more_lunch_com_chien",
+      "region": "vi",
+      "name": "Cơm chiên thập cẩm",
+      "file": "images/catalog-20261031/more_lunch_com_chien.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://phunumoi.net.vn/cach-lam-com-rang-thap-cam-vua-dep-mat-lai-ngon-mieng-d324875.html",
+      "imageUrl": "https://media.phunumoi.net.vn/resize/800x419/files/hvtoan/2024/12/31/471423871_550589981308897_268731194677011070_n-1019.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "trua_bun_ca",
+      "region": "vi",
+      "name": "Bún cá Nha Trang",
+      "file": "images/catalog-20261031/trua_bun_ca.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://justfly.vn/discovery/vietnam/nha-trang/bun-ca",
+      "imageUrl": "https://cdn.justfly.vn/1920x1365/media/202303/21/1679396356-bun-ca-co-ba-nha-trang.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "chieu_5_1",
+      "region": "vi",
+      "name": "Bánh xèo",
+      "file": "images/catalog-20261031/chieu_5_1.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://ilotustours.com/guide-meilleurs-plat-ho-chi-minh-ville",
+      "imageUrl": "https://cdn3130.cdn4s6.io.vn/media/anh-blog/ho-chi-minh/top-10-plats-hcm/banh-xeo.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "chieu_5_2",
+      "region": "vi",
+      "name": "Gỏi cuốn",
+      "file": "images/catalog-20261031/chieu_5_2.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.asiakingtravel.fr/blog/les-plats-typiques-au-vietnam.html",
+      "imageUrl": "https://www.asiakingtravel.fr/cuploads/files/les-plats-typiques-au-vietnam-3.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "chieu_4_1",
+      "region": "vi",
+      "name": "Bánh khọt",
+      "file": "images/catalog-20261031/chieu_4_1.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://vinwonders.com/en/wonderpedia/news/south-vietnam-map/",
+      "imageUrl": "https://static.vinwonders.com/production/map-of-south-vietnam-9-768x614.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "chieu_4_2",
+      "region": "vi",
+      "name": "Bột chiên",
+      "file": "images/catalog-20261031/chieu_4_2.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://cookpad.com/vn/cong-thuc/15458155",
+      "imageUrl": "https://img-global.cpcdn.com/steps/67c1c8379218b464/400x400cq80/photo.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "chieu_3_1",
+      "region": "vi",
+      "name": "Bánh bột lọc",
+      "file": "images/catalog-20261031/chieu_3_1.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://toplist.vn/top-list/loai-banh-goi-la-ngon-dam-chat-huong-vi-viet-nam-12878.htm",
+      "imageUrl": "https://toplist.vn/images/800px/banh-bot-loc-1105515.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "chieu_3_2",
+      "region": "vi",
+      "name": "Súp cua",
+      "file": "images/catalog-20261031/chieu_3_2.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://eva.vn/bep-eva/cach-nau-sup-cua-ngon-don-gian-tai-nha-khong-bi-chay-nuoc-c162a519345.html",
+      "imageUrl": "https://image-us.eva.vn/upload/2-2022/images/2022-05-27/image12-1653641032-570-width900height681.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "chieu_banh_can",
+      "region": "vi",
+      "name": "Bánh căn Đà Lạt",
+      "file": "images/catalog-20261031/chieu_banh_can.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://simtour.vn/du-lich-da-lat-trai-nghiem-thanh-pho-ngan-hoa-cung-sim-du-lich-viet-nam-h2t",
+      "imageUrl": "https://simtour.vn/upload/images/banh-can-da-lat-1.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "sv_afternoon_pha_lau",
+      "region": "vi",
+      "name": "Phá lấu bánh mì",
+      "file": "images/catalog-20261031/sv_afternoon_pha_lau.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.vietnamplus.vn/10-mon-ngon-ban-khong-nen-bo-lo-khi-den-thanh-pho-ho-chi-minh-dip-304-post1032064.vnp",
+      "imageUrl": "https://media.vietnamplus.vn/images/82aa36674f3fc88d0d2a750ac84ce33ab68b8e4fa91bde37714e2071676d00e41fb2a88797b720cdf99c04be0b3b8fb6/1804-pha-lau-bo.png",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "toi_5_1",
+      "region": "vi",
+      "name": "Lẩu cua đồng bắp bò",
+      "file": "images/catalog-20261031/toi_5_1.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.hotdeal.vn/ha-noi/nha-hang-viet-nhat-han-thai/lau-rieu-cua-bap-bo-suon-sun-va-mon-an-kem-cho-4n-tai-nha-hang-at-restaurant-312994.html",
+      "imageUrl": "https://static.hotdeal.vn/images/1391/1391411/400x400/312994-lau-rieu-cua-bap-bo-suon-sun-va-mon-an-kem-cho-4n-tai-nha-hang-at-restaurant.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "toi_5_2",
+      "region": "vi",
+      "name": "Bún đậu mắm tôm",
+      "file": "images/catalog-20261031/toi_5_2.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.hotdeal.vn/ha-noi/an-uong/combo-bun-dau-mam-tom-day-danbanh-trang-cuon-thit-heo-02-tra-sua-thai-143377.html",
+      "imageUrl": "https://static.hotdeal.vn/images/683/683309/500x500/143377-combo-bun-dau-mam-tom-day-danbanh-trang-cuon-thit-heo-02-tra-sua-thai.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "toi_5_3",
+      "region": "vi",
+      "name": "Bò nướng lá lốt",
+      "file": "images/catalog-20261031/toi_5_3.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.thucphamchosach.com/meo-nho-lam-mon-bo-nuong-la-lot-thom-lung.html",
+      "imageUrl": "https://www.thucphamchosach.com/images/sotaynauan/0-1-bo-nuong-la-lot3.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "toi_4_1",
+      "region": "vi",
+      "name": "Ốc hương xào bơ tỏi",
+      "file": "images/catalog-20261031/toi_4_1.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://haisanlocbien.vn/oc-huong-xao-bo-toi-1-2-266187.html",
+      "imageUrl": "https://cdn-img-v2.mybota.vn/uploadv2/web/16/16905/news/2021/08/05/09/34/1628171970_oc-huong-xao-bo.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "toi_4_2",
+      "region": "vi",
+      "name": "Bò né hoa thiên lý",
+      "file": "images/catalog-20261031/toi_4_2.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.dienmayxanh.com/vao-bep/2-cach-lam-bo-ne-hoa-thien-ly-va-me-la-mieng-vi-ngon-kho-09661",
+      "imageUrl": "https://cdn.tgdd.vn/2021/03/CookRecipe/Avatar/bo-ne-hoa-thien-ly-thumbnail.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "toi_3_1",
+      "region": "vi",
+      "name": "Cháo sườn sụn non",
+      "file": "images/catalog-20261031/toi_3_1.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://giadinh.suckhoedoisong.vn/cach-lam-mon-chao-suon-sun-gion-san-sat-172210709101952276.htm",
+      "imageUrl": "https://giadinh.mediacdn.vn/296230595582509056/2021/7/9/photo-1-16258007122912017479220.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "toi_lau_bo",
+      "region": "vi",
+      "name": "Lẩu bò nhúng giấm",
+      "file": "images/catalog-20261031/toi_lau_bo.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://kingfoodmart.com/bai-viet/cong-thuc-nau-an/bo-nhung-voi-giam",
+      "imageUrl": "https://storage.googleapis.com/onelife-public/blog.onelife.vn/2021/10/cach-lam-bo-nhung-voi-giam-mon-chinh-165287336427.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "toi_nem_nuong",
+      "region": "vi",
+      "name": "Nem nướng Ninh Hòa",
+      "file": "images/catalog-20261031/toi_nem_nuong.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.sunkisshotel.com/blogs/4190/nem-ninh-hoa-tu-vung-que-yen-binh-den-mon-ngon-pho-bien",
+      "imageUrl": "https://www.sunkisshotel.com/files/images/nemninhhoa.png",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "more_dinner_bun_hen",
+      "region": "vi",
+      "name": "Bún bò giò heo Huế",
+      "file": "images/catalog-20261031/more_dinner_bun_hen.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://banhkhome.com/cach-nau-bun-bo-hue-tai-nha",
+      "imageUrl": "https://banhkhome.com/uploads/images/nau-bun-bo-Hue-tai-nha.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_xien_que_nuong",
+      "region": "vi",
+      "name": "Xiên que nướng thập cẩm",
+      "file": "images/catalog-20261031/vat_xien_que_nuong.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.momo.vn/page/9840458",
+      "imageUrl": "https://img.mservice.com.vn/common/u/2e02fb5fe4f64fb55bc713540643c6f8eae702d101cea8c59afc49cfc505fc37/13f3848d-ec5b-47b3-be69-1f7e83f517fchvaztit5.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_tokbokki_pho_mai",
+      "region": "vi",
+      "name": "Tokbokki phô mai sốt cay Hàn",
+      "file": "images/catalog-20261031/vat_tokbokki_pho_mai.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://www.pharmacity.vn/tokbokki-mon-an-duong-pho-noi-tieng-cua-han-quoc-va-anh-huong-den-can-nang.htm",
+      "imageUrl": "https://production-cdn.pharmacity.io/digital/original/plain/blog/yYxaxJFX-tokbokki_bao_nhieu_calo_an_nhieu_co_tang_can_khong_2_cd36b0f645-scaled-1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAUYXZVMJM5QUYWSVO%2F20250513%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20250513T062705Z&X-Amz-Expires=600&X-Amz-Signature=510ec235361522ed58afa23849d81f78d15f014907b08bd900a07385e740b9ba&X-Amz-SignedHeaders=host",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_banh_crepe_sau_rieng",
+      "region": "vi",
+      "name": "Bánh crepe sầu riêng kem lạnh",
+      "file": "images/catalog-20261031/vat_banh_crepe_sau_rieng.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://abby.vn/s/sau-rieng-dong-lanh-100g",
+      "imageUrl": "https://r2.web-work.4handy.vn/uploads/upload/2024/06/upload-38-1718262414590.png",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_kho_ga_la_chanh",
+      "region": "vi",
+      "name": "Khô gà lá chanh cay giòn",
+      "file": "images/catalog-20261031/vat_kho_ga_la_chanh.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://bepcuame.vn/products/kho-ga-la-chanh-goi-200g",
+      "imageUrl": "https://product.hstatic.net/1000221193/product/img_5525_bf5c9152eed84fefbd5b1ea9ce03bacc.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_kho_bo_den",
+      "region": "vi",
+      "name": "Khô bò đen sốt tắc cay ngọt",
+      "file": "images/catalog-20261031/vat_kho_bo_den.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://conetfood.com/kho-bo-sot-chanh.html",
+      "imageUrl": "https://conetfood.com/datafiles/10-11-2023/16995872116827_bosotchanh.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
+    },
+    {
+      "id": "vat_ha_cao_chien",
+      "region": "vi",
+      "name": "Há cảo chiên giòn giấm tương",
+      "file": "images/catalog-20261031/vat_ha_cao_chien.webp",
+      "reviewRequired": true,
+      "displayApproved": true,
+      "imageSource": "https://afamily.vn/cuoi-tuan-ca-nha-quay-quan-lam-ha-cao-chien-vua-vui-vua-dam-am-2018101311332028.chn",
+      "imageUrl": "https://afamilycdn.com/2018/10/13/ha-cao-chien-9-1539404402910610361653.jpg",
+      "reason": "User authorized search-result illustrations; license not independently verified."
     }
   ]
 }

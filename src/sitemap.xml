@@ -1,32 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://bfsc.netlify.app/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://bfsc.netlify.app/?lang=vi" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://bfsc.netlify.app/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bfsc.netlify.app/?lang=ja" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://bfsc.netlify.app/?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://bfsc.netlify.app/?lang=zh" />
-  </url>
-  <url>
-    <loc>https://bfsc.netlify.app/credits.html</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://bfsc.netlify.app/privacy.html</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://bfsc.netlify.app/terms.html</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://angiday.app/</loc></url>
+  <url><loc>https://angiday.app/menu.html</loc></url>
+  <url><loc>https://angiday.app/credits.html</loc></url>
+  <url><loc>https://angiday.app/privacy.html</loc></url>
+  <url><loc>https://angiday.app/terms.html</loc></url>
 </urlset>

@@ -1,643 +1,361 @@
-/* Compact mobile composition. All selectors keep the existing feature/state IDs. */
-.selection-options {
-  margin-top: 12px;
-  padding-top: 12px;
-  border-top: 1px solid var(--border);
-}
-.selection-options .unique {
-  min-height: 44px;
-  font-size: 12px;
-}
-.selection-options .combo-note {
-  display: block;
-  font-size: 11px;
-  margin: 6px 0;
-  line-height: 1.7;
-}
-.offline-readiness {
-  flex-basis: 100%;
-  margin: 0;
-}
-.home-section > .budget-panel {
-  margin-top: 0;
-  margin-bottom: 28px;
-}
-.budget-panel summary::after {
-  content: '+';
-  font-size: 19px;
-  line-height: 1;
-  width: 18px;
-  text-align: center;
-  color: var(--muted);
-}
-.budget-panel[open] summary::after {
-  content: '−';
-}
-.budget-panel summary > strong {
-  margin-left: auto;
-}
-.budget-panel summary {
-  gap: 8px;
-}
-.budget-panel summary:focus-visible,
-.dish-more summary:focus-visible {
-  outline: 3px solid var(--orange);
-  outline-offset: 3px;
-}
-.dish-more {
-  width: 100%;
-  min-width: 0;
-}
-.dish-more summary {
-  cursor: pointer;
-  color: var(--orange);
-  font-size: 12px;
-  line-height: 1.5;
-  padding: 12px 0;
-  min-height: 44px;
-}
-.dish-more p {
-  margin: 4px 0 10px;
-}
-.dish-more a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 44px;
-  font-size: 11px;
-}
-#resultDialog[open] {
-  display: flex;
-  flex-direction: column;
-  height: min(800px, calc(100dvh - 36px));
-  overflow: hidden;
-}
-#resultDialog .dialog-heading {
-  position: static;
-  flex: 0 0 auto;
-  margin-bottom: 0;
-  padding-bottom: 12px;
-}
-.result-scroll {
-  min-height: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  overscroll-behavior: contain;
-  scrollbar-gutter: stable;
-}
-.result-cost {
-  margin: 0 0 14px;
-}
-#resultDialog .result-actions {
-  flex: 0 0 auto;
-  margin-top: 0;
-  padding-top: 14px;
-  border-top: 1px solid var(--border);
-  background: var(--surface);
-}
-.result-card .dish-body {
-  gap: 7px;
-}
-.result-card .price {
-  margin-top: 0;
-}
-@media (max-width: 600px) {
-  .header {
-    padding: 10px 0;
+/* Responsive layout;
+the same controls remain available at every size. */
+@media(max-width:1099px) {
+  .menu-grid {
+    grid-template-columns:repeat(3,minmax(0,1fr));
+  }
+  .app {
+    width:calc(100% - 48px);
+  }
+
+  .mobile-nav a,.mobile-nav button {
+    padding:10px;
+    font-size:.8125rem;
   }
   .brand-sub {
-    display: none;
-  }
-  .intro {
-    padding: 18px 0 14px;
-  }
-  .intro h1 {
-    font-size: 28px;
-    margin: 7px 0 0;
-  }
-  .intro > p {
-    display: none;
-  }
-  .intro .eyebrow {
-    font-size: 9px;
-    letter-spacing: 0.65px;
-  }
-  .intro-kicker {
-    flex-wrap: wrap;
-    row-gap: 4px;
-  }
-  .modes {
-    margin-bottom: 12px;
-  }
-  .modes button {
-    font-size: 12px;
-    padding: 8px 6px;
-  }
-  .hero {
-    grid-template-columns: minmax(0, 1fr) 104px;
-    border-radius: 17px;
-    align-items: stretch;
-  }
-  .hero-photo {
-    grid-row: auto;
-  }
-  .hero-photo img {
-    height: 100%;
-    min-height: 130px;
-    max-height: none;
-    aspect-ratio: auto;
-  }
-  .hero-copy {
-    padding: 12px 14px 6px;
-  }
-  .feature-tag {
-    font-size: 9px;
-    letter-spacing: 0.4px;
-  }
-  .hero h2 {
-    font-size: 19px;
-    line-height: 1.35;
-    margin: 5px 0;
-    overflow-wrap: anywhere;
-  }
-  .hero-copy > p {
-    display: none;
-  }
-  .hero-price {
-    gap: 3px 7px;
-  }
-  .hero-price .price {
-    font-size: 12px;
-  }
-  .hero-price .note {
-    font-size: 10px;
-  }
-  .find-featured {
-    min-height: 44px;
-    font-size: 11px;
-    margin-top: 2px;
-    gap: 5px;
-  }
-  .find-featured .icon:last-child {
-    display: none;
-  }
-  .photo-caption {
-    bottom: 7px;
-    left: 6px;
-    right: 6px;
-    font-size: 9px;
-    line-height: 1.5;
-    border-radius: 8px;
-    padding: 4px 6px;
-  }
-  .choose {
-    padding: 12px 0;
-  }
-  .choose .actions {
-    gap: 8px;
-  }
-  .choose .actions button,
-  .choose .actions .primary {
-    min-height: 48px;
-    font-size: 13px;
-    padding: 10px;
-  }
-  .budget-status {
-    margin: 9px 0 0;
-    font-size: 11px;
-    line-height: 1.6;
-  }
-  .home-section > .budget-panel {
-    margin-bottom: 22px;
-  }
-  .budget-panel summary {
-    padding: 12px;
-    font-size: 12px;
-  }
-  .budget-panel summary > strong {
-    font-size: 11px;
-  }
-  .budget-content {
-    padding: 12px;
-  }
-  .budget-presets {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 6px;
-  }
-  .budget-presets button {
-    min-width: 0;
-    padding: 8px 3px;
-    font-size: 10px;
-  }
-  .budget-options {
-    display: grid;
-    gap: 4px;
-    font-size: 11px;
-  }
-  .budget-preview-note {
-    margin: 12px 0 0;
-    font-size: 12px;
-  }
-  .section-heading h2 {
-    font-size: 20px;
-  }
-  #collectionNote {
-    font-size: 11px;
-    line-height: 1.6;
-  }
-  .dish-name {
-    font-size: 13px;
-  }
-  .dish-body .price {
-    font-size: 11px;
-  }
-  .collected,
-  .uncollected {
-    font-size: 10px;
-  }
-  .menu-status {
-    font-size: 11px;
-  }
-  #resultDialog[open] {
-    height: min(820px, calc(100dvh - 12px));
-    max-height: calc(100dvh - 12px);
-    padding: 16px 14px max(14px, env(safe-area-inset-bottom));
-  }
-  #resultDialog .dialog-heading {
-    margin-top: 0;
-    padding: 0 0 12px;
-  }
-  #resultDialog .dialog-heading .eyebrow {
-    display: none;
-  }
-  #resultDialog .dialog-heading h2 {
-    font-size: 19px;
-    margin: 0;
-  }
-  .result-scroll {
-    scrollbar-gutter: auto;
-    padding: 0 1px;
-  }
-  .result-cost {
-    padding: 12px;
-  }
-  .result-cost > strong {
-    font-size: 13px;
-    line-height: 1.6;
-  }
-  .result-grid {
-    gap: 10px;
-  }
-  .result-grid:not(.single) .result-card {
-    display: grid;
-    grid-template-columns: 78px minmax(0, 1fr);
-    align-items: start;
-  }
-  .result-grid:not(.single) .result-card > img {
-    width: 78px;
-    height: 104px;
-    aspect-ratio: auto;
-    border-radius: 12px;
-    margin: 10px 0 0 8px;
-  }
-  .result-grid:not(.single) .dish-body {
-    padding: 10px 12px 4px 16px;
-    gap: 4px;
-  }
-  .result-grid:not(.single) h3 {
-    font-size: 16px;
-  }
-  .result-card .price {
-    font-size: 12px;
-    line-height: 1.7;
-  }
-  .result-card .collected {
-    font-size: 10px;
-  }
-  .result-grid.single .result-card > img {
-    height: 160px;
-    max-height: 160px;
-    aspect-ratio: auto;
-  }
-  .result-grid.single .dish-body {
-    padding: 14px;
-  }
-  .result-grid.single h3 {
-    font-size: 21px;
-  }
-  .result-card .image-note {
-    font-size: 10px;
-    margin: 0;
-  }
-  .result-card .dish-more summary {
-    font-size: 11px;
-    padding: 11px 0;
-  }
-  .result-card .dish-more p {
-    font-size: 12px;
-    line-height: 1.8;
-  }
-  #resultDialog .result-actions {
-    flex-direction: row;
-    gap: 8px;
-    padding-top: 12px;
-  }
-  #resultDialog .result-actions button {
-    flex: 1;
-    width: auto;
-    min-width: 0;
-    min-height: 48px;
-    padding: 10px 8px;
-    font-size: 13px;
-  }
-  .nearby-panel {
-    margin-top: 18px;
-    padding-top: 12px;
-  }
-  .nearby-heading .eyebrow {
-    display: none;
-  }
-  .nearby-heading h3 {
-    font-size: 17px;
-    margin: 4px 0;
-  }
-  .nearby-heading {
-    gap: 4px;
-  }
-  .places-status {
-    font-size: 11px;
-    margin: 8px 0;
-  }
-  .maps-dish-links {
-    gap: 8px;
-    margin: 12px 0;
-  }
-  .maps-dish-link {
-    padding: 10px 12px;
-    font-size: 12px;
+    display:none;
   }
 }
-@media (max-width: 350px) {
-  .hero {
-    grid-template-columns: minmax(0, 1fr) 88px;
+@media(max-width:767px) {
+  :root {
+    scroll-padding-top:24px;
   }
-  .hero-copy {
-    padding-left: 11px;
-    padding-right: 9px;
+  .app {
+    width:calc(100% - 32px);
   }
-  .hero h2 {
-    font-size: 18px;
-  }
-  .budget-panel summary {
-    font-size: 11px;
-    gap: 6px;
-  }
-  .budget-panel summary > strong {
-    font-size: 10px;
-  }
-}
-@media (max-height: 500px) and (orientation: landscape) {
-  dialog {
-    max-height: calc(100dvh - 16px);
-  }
-  #resultDialog[open] {
-    height: calc(100dvh - 16px);
-    max-height: calc(100dvh - 16px);
-  }
-  #resultDialog .dialog-heading {
-    padding-top: 0;
-    padding-bottom: 8px;
-  }
-  #resultDialog .dialog-heading .eyebrow {
-    display: none;
-  }
-  #resultDialog .dialog-heading h2 {
-    font-size: 18px;
-  }
-  #resultDialog .result-actions {
-    padding-top: 8px;
-  }
-}
-html.dialog-open,
-html.dialog-open body {
-  overflow: hidden;
-}
-html {
-  scrollbar-gutter: stable;
-}
-.result-save-notice {
-  margin: 0 0 12px;
-  padding: 12px;
-  border-radius: 12px;
-  background: var(--surface-card);
-  border: 1px solid var(--border);
-  color: var(--text-primary);
-  font-size: 12px;
-  line-height: 1.8;
-}
-@media (max-width: 900px) and (max-height: 500px) and (orientation: landscape) {
   .header {
-    padding: 6px 0;
-  }
-  .home-section {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    column-gap: 16px;
-  }
-  .intro {
-    grid-column: 1/-1;
-    padding: 8px 0 10px;
-  }
-  .intro h1 {
-    font-size: 24px;
-    margin: 5px 0 0;
-  }
-  .intro > p {
-    display: none;
-  }
-  .intro .eyebrow {
-    font-size: 9px;
-  }
-  .modes {
-    grid-column: 1;
-    grid-row: 2;
-    margin-bottom: 0;
-    gap: 5px;
-  }
-  .modes button {
-    flex: 1;
-    min-width: 0;
-    min-height: 44px;
-    padding: 6px 4px;
-    gap: 5px;
-    font-size: 11px;
-  }
-  .modes .icon {
-    width: 15px;
-    height: 15px;
-  }
-  .hero {
-    grid-column: 2;
-    grid-row: 2/4;
-    grid-template-columns: minmax(0, 1fr) 88px;
-    align-self: start;
-    border-radius: 16px;
-  }
-  .hero-copy {
-    padding: 12px 10px 6px;
-  }
-  .hero h2 {
-    font-size: 19px;
-    margin: 6px 0;
-  }
-  .hero-copy > p {
-    display: none;
-  }
-  .feature-tag {
-    font-size: 9px;
-  }
-  .hero-photo {
-    grid-row: auto;
-  }
-  .hero-photo img {
-    height: 100%;
-    min-height: 150px;
-    max-height: none;
-    aspect-ratio: auto;
-  }
-  .hero-price .price {
-    font-size: 12px;
-  }
-  .hero-price .note {
-    font-size: 10px;
-  }
-  .find-featured {
-    font-size: 11px;
-    min-height: 44px;
-    margin-top: 2px;
-    gap: 5px;
-  }
-  .find-featured .icon:last-child {
-    display: none;
-  }
-  .photo-caption {
-    bottom: 6px;
-    left: 5px;
-    right: 5px;
-    padding: 4px 5px;
-    font-size: 8px;
-    border-radius: 8px;
-  }
-  .choose {
-    grid-column: 1;
-    grid-row: 3;
-    padding: 8px 0;
-  }
-  .choose .actions {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 6px;
-  }
-  .choose .actions button {
-    font-size: 12px;
-    min-height: 44px;
-    padding: 7px;
-  }
-  .choose .actions .primary {
-    grid-column: 1/-1;
-    min-height: 44px;
-  }
-  .budget-status {
-    font-size: 10px;
-    line-height: 1.5;
-    margin-top: 6px;
-  }
-  .home-section > .budget-panel {
-    grid-column: 1;
-    grid-row: 4;
-    margin: 0 0 18px;
-  }
-  .home-section > .budget-panel[open] {
-    grid-column: 1/-1;
-  }
-  .budget-panel summary {
-    font-size: 11px;
-    padding: 10px;
-  }
-  .budget-panel summary > strong {
-    font-size: 10px;
+    padding:16px 0;
+    gap:12px;
+    justify-content:space-between;
   }
   .mobile-nav {
-    padding-top: 4px;
-    padding-bottom: max(4px, env(safe-area-inset-bottom));
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:40;
+    margin:0;
+    padding:8px 12px calc(8px + env(safe-area-inset-bottom));
+    background:var(--card-bg);
+    border-top:1px solid var(--border);
+    justify-content:space-around;
+    gap:8px;
   }
-  .mobile-nav a,
-  .mobile-nav button {
-    flex-direction: row;
-    min-height: 36px;
-    padding: 4px;
-    font-size: 10px;
-    gap: 6px;
+  .mobile-nav a,.mobile-nav button {
+    flex:1;
+    flex-direction:column;
+    gap:3px;
+    font-size:10px;
+    min-height:52px;
+    padding:6px 4px;
+    line-height:1.4;
   }
   .mobile-nav .icon {
-    width: 17px;
-    height: 17px;
+    width:20px;
+    height:20px;
+  }
+  .mobile-menu-toggle {
+    padding:10px 12px;
+    font-size:.8125rem;
+  }
+  .brand-name {
+    font-size:1.05rem;
+  }
+  .brand-mark {
+    width:36px;
+    height:36px;
+  }
+  .home-section {
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    padding:20px 0 24px;
+  }
+  .intro h1 {
+    font-size:1.9rem;
+  }
+  .intro>p {
+    font-size:.875rem;
+    margin-bottom:0;
+  }
+  .intro-kicker {
+    margin-bottom:12px;
+  }
+  .modes {
+    gap:6px;
+  }
+  .modes button {
+    font-size:.8125rem;
+    padding:10px 8px;
+  }
+  .hero {
+    --featured-photo-width:96px;
+    width:100%;
+  }
+  .hero-copy h2 {
+    font-size:1.1rem;
+  }
+  .budget-panel {
+    width:100%;
+    padding-top:8px;
+  }
+  .budget-content {
+    padding-top:16px;
+  }
+  .menu-section {
+    padding:28px 0;
+  }
+  .section-heading {
+    gap:8px;
+    margin-bottom:12px;
+    flex-wrap:wrap;
+  }
+  .section-heading>div:first-child {
+    flex-basis:100%;
+  }
+  .section-heading .menu-top-bar {
+    margin-left:auto;
+  }
+  .section-heading h2 {
+    font-size:1.3rem;
+  }
+  .collection-toggle {
+    padding:8px;
+    font-size:11px;
+  }
+  .collection-toggle .icon {
+    width:16px;
+  }
+  .menu-grid {
+    gap:12px;
+  }
+  .dish-body {
+    padding:10px;
+    gap:6px;
+  }
+  .dish-name {
+    font-size:.8125rem;
+    line-height:1.5;
+  }
+  .dish-card .price {
+    font-size:.8125rem;
+  }
+  .dish-thumb .dish-source {
+    font-size:9px;
+    left:6px;
+    top:6px;
+  }
+  .filters {
+    gap:6px;
+  }
+  .filters button {
+    padding:10px 12px;
+    font-size:12px;
+  }
+  .personal-view {
+    flex-direction:column;
+    align-items:stretch;
+    gap:8px;
+  }
+  .menu-top-bar {
+    margin-bottom:0;
+  }
+  .menu-advanced {
+    font-size:.8125rem;
+  }
+  .menu-pagination {
+    gap:4px;
+  }
+  .menu-pagination a,.menu-pagination span {
+    padding:10px 12px;
+    font-size:.8125rem;
+  }
+  .legal-page {
+    padding-top:24px;
+  }
+  .legal-page h1 {
+    font-size:1.8rem;
+  }
+  footer {
+    padding-bottom:calc(96px + env(safe-area-inset-bottom));
+    gap:12px;
+  }
+  .legal-links {
+    width:100%;
+    margin:0;
+    flex-wrap:wrap;
+  }
+  .toast {
+    bottom:calc(90px + env(safe-area-inset-bottom));
+  }
+  .result-grid {
+    grid-template-columns:1fr;
+    gap:24px;
+  }
+  .result-grid.single .result-card {
+    display:flex;
+    gap:0;
+  }
+  .result-grid.single .dish-body {
+    padding:16px 0 0;
+  }
+  .result-card>img {
+    max-height:260px;
+  }
+  .result-grid:not(.single) .result-card {
+    display:grid;
+    grid-template-columns:110px 1fr;
+    gap:16px;
+  }
+  .result-grid:not(.single) .result-card>img {
+    height:110px;
+    aspect-ratio:1;
+  }
+  .result-grid:not(.single) .dish-body {
+    padding:0;
+  }
+  .result-card h3 {
+    font-size:1.2rem;
+  }
+  .maps-dish-link {
+    width:100%;
+  }
+  .result-actions button {
+    flex:1;
+  }
+  .dialog-heading h2 {
+    font-size:1.25rem;
+  }
+  .universe-dish-list {
+    grid-template-columns:1fr;
+    max-height:none;
+    flex:1;
+  }
+  .universe-dish-item img {
+    width:48px;
+    height:48px;
+  }
+  .universe-dialog-body {
+    flex:1;
+  }
+  .form-row {
+    grid-template-columns:1fr;
+    gap:0;
+  }
+  .form-actions button {
+    flex:1;
+  }
+  .form-actions {
+    padding-bottom:env(safe-area-inset-bottom);
+  }
+  .settings-options .icon-button {
+    font-size:.8125rem;
+  }
+  .settings-group {
+    grid-template-columns:1fr;
+    gap:6px;
+    padding-bottom:8px;
+    border-bottom:1px solid var(--border);
+  }
+  #settingsDialog {
+    height:auto;
+  }
+  #settingsDialog .tools {
+    flex:0 1 auto;
+  }
+  .settings-options {
+    gap:8px;
+  }
+  .custom-wheel-spin-action {
+    min-height:48px;
+  }
+  .universe-dialog-footer button {
+    font-size:.8125rem;
+    padding:10px;
+  }
+  .nearby-heading {
+    flex-wrap:wrap;
   }
 }
-/* Respect display cut-outs and home indicators in browser and installed PWA. */
-.app {
-  padding-left: max(36px, env(safe-area-inset-left));
-  padding-right: max(36px, env(safe-area-inset-right));
-}
-.header {
-  padding-top: calc(var(--header-top-space, 26px) + env(safe-area-inset-top));
-}
-dialog,
-#resultDialog[open] {
-  padding-left: max(var(--dialog-gutter, 24px), env(safe-area-inset-left));
-  padding-right: max(var(--dialog-gutter, 24px), env(safe-area-inset-right));
-}
-@media (max-width: 600px) {
-  :root {
-    scroll-padding-bottom: calc(88px + env(safe-area-inset-bottom));
-  }
-  .app {
-    padding-left: max(18px, env(safe-area-inset-left));
-    padding-right: max(18px, env(safe-area-inset-right));
-  }
-  .header {
-    --header-top-space: 10px;
+@media(max-width:639px) {
+  .menu-grid {
+    grid-template-columns:repeat(2,minmax(0,1fr));
   }
   dialog {
-    --dialog-gutter: 18px;
+    padding:20px 16px;
+    width:calc(100% - 16px);
+    max-width:calc(100% - 16px);
+    max-height:calc(var(--visual-viewport-height,100dvh) - 24px);
+    border-radius:var(--radius-dialog);
+    gap:16px;
   }
   #resultDialog {
-    --dialog-gutter: 14px;
+    width:calc(100% - 16px);
   }
-  #resultDialog[open] {
-    height: min(820px, calc(100dvh - max(12px, env(safe-area-inset-top))));
-    max-height: calc(100dvh - max(12px, env(safe-area-inset-top)));
+  #universeDishDialog,#addDishDialog {
+    height:calc(var(--visual-viewport-height,100dvh) - 24px);
   }
-  .hero[data-empty='true'] .hero-photo img {
-    padding: 18px;
+  .dialog-actions,.form-actions,.result-actions,.universe-dialog-footer {
+    padding-top:12px;
   }
-  #budgetInput,
-  #dishSearch {
-    scroll-margin-bottom: 100px;
+  .budget-input-row {
+    flex-wrap:wrap;
   }
-  .mobile-nav {
-    padding-left: max(12px, env(safe-area-inset-left));
-    padding-right: max(12px, env(safe-area-inset-right));
+  .budget-input-row input {
+    flex-basis:180px;
+  }
+  .universe-category-tabs {
+    gap:4px;
+  }
+  .universe-tab {
+    font-size:11px;
+    padding:8px;
+  }
+  #languageDialog,#timezoneDialog,#themeDialog {
+    max-height:calc(var(--visual-viewport-height,100dvh) - 24px);
+  }
+  .nearby-panel .note {
+    font-size:12px;
   }
 }
-@media (max-width: 350px) {
-  .app {
-    padding-left: max(14px, env(safe-area-inset-left));
-    padding-right: max(14px, env(safe-area-inset-right));
+@media(min-width:768px) and (max-width:1099px) {
+  .home-section {
+    grid-template-columns:none;
+  }
+  .brand-name {
+    font-size:1rem;
+  }
+  .mobile-nav .icon {
+    display:none;
+  }
+  .mobile-menu-toggle .icon {
+    display:none;
   }
 }
-@media (max-width: 900px) and (max-height: 500px) and (orientation: landscape) {
-  .header {
-    --header-top-space: 6px;
+@media(prefers-reduced-motion:reduce) {
+  :root {
+    scroll-behavior:auto;
   }
+  *,*::before,*::after {
+    animation:none!important;
+    transition:none!important;
+  }
+}
+@media(max-width:767px) {
+  .result-actions {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+  }
+  .result-actions #resultMapBtn {
+    grid-column:1/-1;
+  }
+}
+
+@media(min-width:768px) and (max-width:1023px){
+ .home-section{display:flex;flex-direction:column;gap:12px}
+
+}
+@media(min-width:640px) and (max-width:767px){
+ .result-grid.single .result-card{display:grid;grid-template-columns:2fr 3fr;gap:16px}
+ .result-grid.single .dish-body{padding:0}
 }

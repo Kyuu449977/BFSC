@@ -35,11 +35,11 @@ class AttributionBuildTests(unittest.TestCase):
         self.assertIn('Dish &amp; drink', result)
         self.assertIn('CC &lt;unknown&gt;', result)
 
-    def test_checked_in_audit_has_382_unique_entries(self):
+    def test_checked_in_audit_has_350_unique_entries(self):
         report = json.loads((ROOT / 'docs/reports/image-attribution-audit.json').read_text(encoding='utf-8'))
-        self.assertEqual(len(build_public.validate_attribution_audit(report)), 382)
-        self.assertEqual(report['summary']['total'], 382)
-        self.assertEqual(report['summary']['attributed'] + report['summary']['reviewRequired'], 382)
+        self.assertEqual(len(build_public.validate_attribution_audit(report)), 350)
+        self.assertEqual(report['summary']['total'], 350)
+        self.assertEqual(report['summary']['attributed'] + report['summary']['reviewRequired'], 350)
 
 if __name__ == '__main__':
     unittest.main()

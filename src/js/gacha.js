@@ -82,7 +82,8 @@ class GachaEngine {
   getCurrentBannerData() {
     const db = this.getActiveDatabase();
     return (
-      db[this.getActiveBannerKey()] ||
+      (db[this.getActiveBannerKey()]?.dishes?.length ? db[this.getActiveBannerKey()] :
+        (this.currentMode === 'main' ? db.morning : db[this.getActiveBannerKey()])) ||
       (typeof FOOD_DATABASE !== 'undefined' ? FOOD_DATABASE[this.getActiveBannerKey()] : null)
     );
   }

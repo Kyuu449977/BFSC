@@ -1,5 +1,5 @@
 const CACHE_PREFIX = 'hom-nay-an-gi-';
-const CACHE_NAME = `${CACHE_PREFIX}v31`;
+const CACHE_NAME = `${CACHE_PREFIX}v50`;
 importScripts('./sw-assets.js');
 const ASSET_GROUPS = self.__BFSC_ASSETS__ || { essential: [], optional: [] };
 const ESSENTIAL = ASSET_GROUPS.essential;
@@ -54,23 +54,38 @@ self.addEventListener('install', (event) => {
           await cache.put(url.href, response);
         })
       );
-      let cursor = 0;
-      await Promise.all(
-        Array.from({ length: 4 }, async () => {
-          while (cursor < OPTIONAL.length) {
-            const asset = OPTIONAL[cursor++];
-            try {
-              const url = new URL(asset, self.registration.scope);
-              const response = await fetch(url, { cache: 'reload' });
-              if (response.ok && response.type === 'basic' && validType(url, response))
-                await cache.put(url.href, response);
-            } catch (_) {}
-          }
-        })
-      );
+
     })()
   );
 });
+
+// Optional photos are cached only while a visible client is idle. Installation
+// needs only the shell; two concurrent downloads cannot flood a slow device.
+const clientActivity = new Map();
+let optionalJob = null;
+async function cacheOptionalWhileIdle() {
+  if (optionalJob) return optionalJob;
+  optionalJob = (async () => {
+    const cache = await caches.open(CACHE_NAME);
+    for (let i = 0; i < OPTIONAL.length; i += 2) {
+      const clients = await self.clients.matchAll({ type: 'window' });
+      if (!clients.some(client => client.visibilityState === 'visible') ||
+          clients.some(client => clientActivity.get(client.id) === true)) break;
+      await Promise.all(OPTIONAL.slice(i, i + 2).map(async asset => {
+        const url = new URL(asset, self.registration.scope);
+        if (await cache.match(url.href)) return;
+        try {
+          const response = await fetch(url, { cache: 'reload' });
+          if (response.ok && response.type === 'basic' && validType(url, response))
+            await cache.put(url.href, response);
+        } catch (_) {}
+      }));
+      await new Promise(resolve => setTimeout(resolve, 80));
+    }
+    await notifyStatus();
+  })();
+  try { await optionalJob; } finally { optionalJob = null; }
+}
 
 self.addEventListener('activate', (event) => {
   event.waitUntil(
@@ -87,7 +102,10 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('message', (event) => {
-  if (event.data?.type === 'OFFLINE_STATUS') {
+  if (event.data?.type === 'CACHE_ACTIVITY' && event.source?.id) {
+    clientActivity.set(event.source.id, event.data.busy === true);
+    if (!event.data.busy) event.waitUntil(cacheOptionalWhileIdle());
+  } else if (event.data?.type === 'OFFLINE_STATUS') {
     event.waitUntil(offlineStatus().then((state) => event.source?.postMessage(state)));
   } else if (event.data?.type === 'SKIP_WAITING') {
     event.waitUntil(self.skipWaiting());

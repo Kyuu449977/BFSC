@@ -51,8 +51,8 @@ document.addEventListener('DOMContentLoaded', () => {
       title_main: 'Món chính hôm nay',
       title_snacks: 'Ăn vặt hôm nay',
       title_drinks: 'Thức uống thanh mát',
-      slogan: 'Để cái bụng thôi réo gọi, Vũ trụ sẽ mang bất ngờ tới cho bạn💫',
-      latenight_notice: '*Chú ý: HÃY ĂN NHẸ THÔI NHÉ BẠN ƠI<3',
+      slogan: 'Chọn nhóm món, để web gợi ý cho bạn.',
+      latenight_notice: 'Gợi ý dành cho buổi khuya.',
       mode_main: 'Món chính',
       mode_snacks: 'Ăn vặt',
       mode_drinks: 'Đồ uống',
@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
       credits: 'Nguồn mở',
       offline_ready: 'Đã sẵn sàng offline.',
       offline_preparing: 'Đang chuẩn bị offline…',
-      nav_home: 'Gợi ý',
+      nav_home: 'Chọn món',
       nav_menu: 'Thực đơn',
       nav_collection: 'Bộ sưu tập',
       spin_eyebrow: 'MỘT CHÚT BẤT NGỜ',
@@ -260,8 +260,8 @@ document.addEventListener('DOMContentLoaded', () => {
       title_main: "Today's Main Dishes",
       title_snacks: "Today's Street Snacks",
       title_drinks: 'Refreshing Drinks',
-      slogan: 'To quiet the rumbling belly, the Universe will bring you a surprise💫',
-      latenight_notice: '*Note: KEEP IT LIGHT AT NIGHT, FRIEND <3',
+      slogan: 'Choose a category and let us suggest a dish.',
+      latenight_notice: 'Suggestions for a late-night meal.',
       mode_main: 'Main dishes',
       mode_snacks: 'Snacks',
       mode_drinks: 'Drinks',
@@ -323,7 +323,7 @@ document.addEventListener('DOMContentLoaded', () => {
       credits: 'Open Source',
       offline_ready: 'Ready for offline use.',
       offline_preparing: 'Preparing offline mode…',
-      nav_home: 'Home',
+      nav_home: 'Choose',
       nav_menu: 'Menu',
       nav_collection: 'Collection',
       spin_eyebrow: 'A LITTLE SURPRISE',
@@ -466,8 +466,8 @@ document.addEventListener('DOMContentLoaded', () => {
       title_main: '今日のメイン料理',
       title_snacks: '今日のおやつ・軽食',
       title_drinks: '爽やかなドリンク',
-      slogan: 'お腹の虫を静めるために、宇宙が驚きを届けてくれます💫',
-      latenight_notice: '*注意：夜食は軽めにね <3',
+      slogan: 'カテゴリーを選ぶと、おすすめの料理が見つかります。',
+      latenight_notice: '夜食のおすすめ。',
       mode_main: 'メイン料理',
       mode_snacks: '軽食・おやつ',
       mode_drinks: '飲み物',
@@ -530,7 +530,7 @@ document.addEventListener('DOMContentLoaded', () => {
       credits: 'オープンソース',
       offline_ready: 'オフライン利用が可能です。',
       offline_preparing: 'オフライン準備中…',
-      nav_home: 'ホーム',
+      nav_home: '料理を選ぶ',
       nav_menu: 'メニュー',
       nav_collection: 'コレクション',
       spin_eyebrow: 'ワクワクするサプライズ',
@@ -673,8 +673,8 @@ document.addEventListener('DOMContentLoaded', () => {
       title_main: '오늘의 메인 메뉴',
       title_snacks: '오늘의 간식·길거리음식',
       title_drinks: '시원한 음료',
-      slogan: '꼬르륵거리는 배를 채워줄, 우주가 보낸 깜짝 선물💫',
-      latenight_notice: '*주의: 야식은 가볍게 드세요 <3',
+      slogan: '종류를 고르면 메뉴를 추천해 드려요.',
+      latenight_notice: '늦은 밤을 위한 추천입니다.',
       mode_main: '메인 요리',
       mode_snacks: '간식',
       mode_drinks: '음료',
@@ -735,7 +735,7 @@ document.addEventListener('DOMContentLoaded', () => {
       credits: '오픈 소스',
       offline_ready: '오프라인 사용 준비 완료.',
       offline_preparing: '오프라인 모드 준비 중…',
-      nav_home: '추천',
+      nav_home: '음식 고르기',
       nav_menu: '메뉴',
       nav_collection: '컬렉션',
       spin_eyebrow: '기분 좋은 서프라이즈',
@@ -876,8 +876,8 @@ document.addEventListener('DOMContentLoaded', () => {
       title_main: '今日主食推荐',
       title_snacks: '今日风味小吃',
       title_drinks: '清爽特色饮品',
-      slogan: '让咕咕叫的肚子安静下来，宇宙将为你带来惊喜💫',
-      latenight_notice: '*注意：深夜饮食要清淡哦 <3',
+      slogan: '选择分类，让我们为你推荐美食。',
+      latenight_notice: '深夜餐食推荐。',
       mode_main: '主食',
       mode_snacks: '小吃',
       mode_drinks: '饮品',
@@ -938,7 +938,7 @@ document.addEventListener('DOMContentLoaded', () => {
       credits: '开源许可',
       offline_ready: '离线模式已就绪。',
       offline_preparing: '正在准备离线缓存…',
-      nav_home: '推荐',
+      nav_home: '选菜',
       nav_menu: '菜单',
       nav_collection: '收藏',
       spin_eyebrow: '一点小惊喜',
@@ -1107,7 +1107,22 @@ document.addEventListener('DOMContentLoaded', () => {
     lastAction = 'single',
     toastTimer,
     returnFocus;
+  const HOME_PREVIEW_SIZE = 6, MENU_PAGE_SIZE = 12;
+  const isMenuPage = location.pathname.endsWith('/menu.html');
+  const menuParams = new URLSearchParams(location.search);
+  let menuPageNumber = isMenuPage ? Math.max(1, Math.min(100000, Math.floor(Number(menuParams.get('page'))) || 1)) : 1;
+  let menuFilterSignature = '';
+  function menuPageUrl(page = 1) {
+    const params = new URLSearchParams({page:String(page),category:filter,query:searchTerm,view:personalView,collection:String(collectionOnly),drink:subDrinkFilter});
+    return 'menu.html?' + params;
+  }
   const roulette = new FoodRoulette($('reelTrack'), $('reelViewport'));
+  function syncCacheActivity() {
+    navigator.serviceWorker?.controller?.postMessage({ type: 'CACHE_ACTIVITY', busy: busy || document.hidden });
+  }
+  document.addEventListener('visibilitychange', syncCacheActivity);
+  setTimeout(syncCacheActivity, 1500);
+  navigator.serviceWorker?.addEventListener('controllerchange', syncCacheActivity);
 
   function getRegionFromTimezone(tz) {
     let targetTz = tz;
@@ -1758,6 +1773,7 @@ document.addEventListener('DOMContentLoaded', () => {
         showResults(results, detail, resultBudget, saved);
       }
     }
+    CustomControls.refresh();
   }
 
   function updateTheme() {
@@ -1951,7 +1967,8 @@ document.addEventListener('DOMContentLoaded', () => {
     dialog.close();
     if (!document.querySelector('dialog[open]'))
       document.documentElement.classList.remove('dialog-open');
-    const target = dialogFocus.get(dialog) || returnFocus;
+    let target = dialogFocus.get(dialog) || returnFocus;
+    if (target?.closest('dialog') && !target.closest('dialog').open) target = $('mobileMenuBtn');
     if (restore && target?.isConnected) target.focus({ preventScroll: true });
     if (!document.querySelector('dialog[open]'))
       window.scrollTo({ top: savedScrollY, behavior: 'instant' });
@@ -2069,11 +2086,8 @@ document.addEventListener('DOMContentLoaded', () => {
     lastFeaturedLang = lang;
     const captionEl = document.querySelector('.photo-caption');
     if (captionEl) {
-      captionEl.textContent = !dish
-        ? tDict.try_remove_filters || 'Thử bỏ bớt bộ lọc'
-        : Attribution.reviewRequired(dish)
-          ? Attribution.shortNote(lang)
-          : tDict.ref_photo || tDict.hero_caption;
+      captionEl.textContent = '';
+      captionEl.hidden = true;
     }
     $('findFeaturedBtn').disabled = !dish;
     document.querySelector('.hero').dataset.empty = String(!dish);
@@ -2135,7 +2149,7 @@ document.addEventListener('DOMContentLoaded', () => {
       snacks: t.title_snacks || group.title,
       drinks: t.title_drinks || group.title,
     };
-    const titleText = modeTitles[engine.currentMode] || t.title_default;
+    const titleText = t.title_default;
     $('title').textContent = titleText;
     document.title = `${titleText} · ${t.brand_name}`;
     document
@@ -2250,7 +2264,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (dish.imageCredit) body.append(text('span', tDict.ref_photo, 'image-note'));
         const more = document.createElement('details');
         more.className = 'dish-more';
-        more.open = results.length === 1;
+        more.open = false;
         const summary = text('summary', tDict.desc_and_source);
         const credit = text('a', tDict.photo_source_license, 'image-note');
         credit.href = 'credits.html#food-images';
@@ -2261,7 +2275,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const quote = getDishQuote(dish, lang);
         if (quote && quote !== resDesc) more.insertBefore(text('blockquote', quote), credit);
         if (typeof Attribution !== 'undefined' && Attribution.reviewRequired(dish))
-          body.append(text('p', Attribution.note(lang), 'image-note'));
+          more.append(text('p', Attribution.note(lang), 'image-note'));
         const actions = personalActions(dish);
         if (results.length === 1) body.append(actions);
         else {
@@ -2384,7 +2398,41 @@ document.addEventListener('DOMContentLoaded', () => {
         activeBudget === null ||
         (engine.prices(dish) && engine.prices(dish).min <= activeBudget)
     );
-    const shown = filtered.slice(0, visibleCount);
+    const signature = JSON.stringify([filter, searchTerm, personalView, collectionOnly, subDrinkFilter, activeBudget, engine.currentRegion]);
+    if (menuFilterSignature && signature !== menuFilterSignature) menuPageNumber = 1;
+    menuFilterSignature = signature;
+    const pageCount = Math.max(1, Math.ceil(filtered.length / MENU_PAGE_SIZE));
+    menuPageNumber = Math.min(menuPageNumber, pageCount);
+    const offset = isMenuPage ? (menuPageNumber - 1) * MENU_PAGE_SIZE : 0;
+    const shown = filtered.slice(offset, offset + (isMenuPage ? MENU_PAGE_SIZE : HOME_PREVIEW_SIZE));
+    const pager = $('menuPagination');
+    if (pager) {
+      pager.hidden = !isMenuPage || pageCount < 2;
+      if (isMenuPage) {
+        const labels = {vi:['Trước','Sau','Trang'],en:['Previous','Next','Page'],ja:['前へ','次へ','ページ'],ko:['이전','다음','페이지'],zh:['上一页','下一页','页']}[lang] || ['Previous','Next','Page'];
+        const makeLink = (label, page, disabled) => {
+          const link = document.createElement(disabled ? 'span' : 'a');
+          link.textContent = label;
+          if (!disabled) {
+            link.href = menuPageUrl(page);
+            link.onclick = (event) => {
+              if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+              event.preventDefault();
+              menuPageNumber = page;
+              history.pushState(null, '', menuPageUrl(page));
+              menu();
+              $('menu').scrollIntoView({ behavior: motion.matches ? 'instant' : 'smooth' });
+            };
+          } else link.setAttribute('aria-disabled','true');
+          return link;
+        };
+        const status = document.createElement('span');
+        status.textContent = `${labels[2]} ${menuPageNumber} / ${pageCount}`;
+        status.setAttribute('aria-current','page');
+        pager.replaceChildren(makeLink('← ' + labels[0],menuPageNumber-1,menuPageNumber===1),status,makeLink(labels[1] + ' →',menuPageNumber+1,menuPageNumber===pageCount));
+        history.replaceState(null,'',menuPageUrl(menuPageNumber));
+      }
+    }
     $('menuTitle').textContent = collectionOnly ? tDict.nav_collection : tDict.menu_heading;
     $('collectionToggle').setAttribute('aria-pressed', String(collectionOnly));
     $('clearSearch').hidden = !searchTerm;
@@ -2415,7 +2463,7 @@ document.addEventListener('DOMContentLoaded', () => {
     $('resetMenuFilters').textContent = noCollection
       ? tDict.menu_heading
       : tDict.reset_menu_filters;
-    $('loadMoreBtn').hidden = shown.length >= filtered.length;
+    $('loadMoreBtn').hidden = isMenuPage || shown.length >= filtered.length;
     $('menuGrid').replaceChildren(
       ...shown.map((dish) => {
         const card = document.createElement('button');
@@ -2451,8 +2499,7 @@ document.addEventListener('DOMContentLoaded', () => {
         );
         if (count) status.prepend(UI.icon('check'));
         body.append(status);
-        if (Attribution.reviewRequired(dish))
-          body.append(text('span', Attribution.shortNote(lang), 'image-note'));
+
         const personalState = personal.state(dish);
         if (personalState.favorite || personalState.eaten || personalState.hidden)
           body.append(
@@ -2580,6 +2627,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const wasBusy = busy;
     if (value && !wasBusy) statusBeforeDraw = $('budgetStatus').textContent;
     busy = value;
+    syncCacheActivity();
     if (value) $('budgetStatus').textContent = UICopy.text('drawing');
     else if (wasBusy) $('budgetStatus').textContent = statusBeforeDraw;
     if (!value && personalSyncPending) {
@@ -2778,6 +2826,11 @@ document.addEventListener('DOMContentLoaded', () => {
   $('rerollBtn').onclick = () =>
     lastAction === 'custom' ? $('customWheelSpinActionBtn').click() : choose(lastAction);
   $('skipBtn').onclick = () => roulette.skip();
+  $('resultMapBtn').onclick = () => {
+    const links = $('placesLinks').querySelectorAll('a');
+    if (links.length === 1) links[0].click();
+    else $('nearbyPanel').scrollIntoView({behavior: motion.matches ? 'instant' : 'smooth', block:'start'});
+  };
   motion.addEventListener('change', () => {
     if (motion.matches) roulette.skip();
   });
@@ -2851,11 +2904,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const universeSelected = new Set();
   let universeActiveCategory = 'all';
   let universeSearchTerm = '';
+  let universeSearchTimer;
+  const universeRows = new Map();
 
   function renderUniverseDishList() {
     const listEl = $('universeDishList');
     if (!listEl) return;
     const currentList = allDishes || [];
+    const currentIds = new Set(currentList.map(dish => dish.id));
+    for (const id of universeRows.keys()) if (!currentIds.has(id)) universeRows.delete(id);
     const query = normalize(universeSearchTerm);
 
     const filtered = currentList.filter((dish) => {
@@ -2884,6 +2941,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     listEl.replaceChildren(
       ...filtered.map((dish) => {
+        const key = JSON.stringify([dish.id, getDishName(dish), dish.price, dish.image, dish.mealId, settings.language, engine.currentRegion]);
+        const cached = universeRows.get(dish.id);
+        if (cached?.key === key) {
+          cached.item.classList.toggle('selected', universeSelected.has(dish.id));
+          cached.item.querySelector('input').checked = universeSelected.has(dish.id);
+          return cached.item;
+        }
         const item = document.createElement('label');
         item.className = 'universe-dish-item' + (universeSelected.has(dish.id) ? ' selected' : '');
 
@@ -2933,6 +2997,7 @@ document.addEventListener('DOMContentLoaded', () => {
             $('universeConfirmCount').textContent = universeSelected.size;
         };
 
+        universeRows.set(dish.id, { key, item });
         return item;
       })
     );
@@ -2967,7 +3032,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if ($('universeDishSearch')) {
     $('universeDishSearch').oninput = (e) => {
       universeSearchTerm = e.target.value.trim();
-      renderUniverseDishList();
+      clearTimeout(universeSearchTimer);
+      universeSearchTimer = setTimeout(renderUniverseDishList, 120);
     };
   }
 
@@ -3228,10 +3294,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!dish || !dish.id) return;
     Catalog.upsertCustom(dish);
     engine.store?.registerIds([dish.id]);
-    personal.syncAllDishes(Catalog.getAllDishes());
-    allDishes = engine.getAllDishesList();
-    visibleCount = 12;
     if (render) {
+      personal.syncAllDishes(Catalog.getAllDishes());
+      allDishes = engine.getAllDishesList();
+      visibleCount = 12;
       scheduleBudget(0, false);
       menu();
     }
@@ -3242,6 +3308,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const dishes = await CustomDishes.load();
     for (const dish of dishes) addDishToRuntime(dish, false);
     if (dishes.length) {
+      personal.syncAllDishes(Catalog.getAllDishes());
+      allDishes = engine.getAllDishesList();
+      visibleCount = 12;
       scheduleBudget(0, false);
       menu();
     }
@@ -3275,8 +3344,7 @@ document.addEventListener('DOMContentLoaded', () => {
     $('dishSearch').focus();
   };
   $('loadMoreBtn').onclick = () => {
-    visibleCount += 12;
-    menu();
+    location.assign(menuPageUrl(1));
   };
   // 09. Navigation and collection views
   function setView(view) {
@@ -3285,20 +3353,23 @@ document.addEventListener('DOMContentLoaded', () => {
       view === 'home' ? 'homeNav' : view === 'collection' ? 'collectionNav' : 'menuNav'
     ).setAttribute('aria-current', 'page');
   }
-  $('homeNav').onclick = () => {
+  $('homeNav').onclick = (event) => {
+    if (isMenuPage) { event.preventDefault(); location.assign('./'); return; }
     collectionOnly = false;
     personalView = 'all';
     $('personalView').value = 'all';
     menu();
     setView('home');
   };
-  $('menuNav').onclick = () => {
+  $('menuNav').onclick = (event) => {
+    if (!isMenuPage) { event.preventDefault(); location.assign(menuPageUrl(1)); return; }
     collectionOnly = false;
     visibleCount = 12;
     menu();
     setView('menu');
   };
   $('collectionNav').onclick = () => {
+    if (!isMenuPage) { location.assign('menu.html?page=1&category=all&collection=true'); return; }
     personalView = 'all';
     $('personalView').value = 'all';
     collectionOnly = true;
@@ -3494,5 +3565,33 @@ document.addEventListener('DOMContentLoaded', () => {
   window.applyTimezoneRegion = applyTimezoneRegion;
   window.getRegionFromTimezone = getRegionFromTimezone;
   window.getCurrentRegion = getCurrentRegion;
+  function restoreMenuLocation(menuParams = new URLSearchParams(location.search)) {
+    menuPageNumber = Math.max(1, Math.min(100000, Math.floor(Number(menuParams.get('page'))) || 1));
+    filter = 'all';
+    personalView = 'all';
+    subDrinkFilter = 'all';
+    if (['all','main','snacks','drinks'].includes(menuParams.get('category'))) filter = menuParams.get('category');
+    searchTerm = (menuParams.get('query') || '').slice(0, 200);
+    if (['all','hidden','favorite','eaten'].includes(menuParams.get('view'))) personalView = menuParams.get('view');
+    collectionOnly = menuParams.get('collection') === 'true';
+    if (['all','tra_sua','ca_phe_tra','sinh_to_nuoc_ep','nuoc_ngot'].includes(menuParams.get('drink'))) subDrinkFilter = menuParams.get('drink');
+    $('dishSearch').value = searchTerm;
+    $('personalView').value = personalView;
+    buildDrinkSubFilters();
+    $('drinkSubFilters').hidden = filter !== 'drinks';
+    document.querySelectorAll('a[href="#home"]').forEach(link => link.href = './');
+    const lang = settings.language || 'vi';
+    $('menuBackLink').textContent = ({vi:'← Về trang chính',en:'← Back to home',ja:'← ホームへ',ko:'← 홈으로',zh:'← 返回首页'})[lang];
+    menuFilterSignature = '';
+    menu();
+    setView(collectionOnly ? 'collection' : 'menu');
+  }
+  if (isMenuPage) {
+    restoreMenuLocation(menuParams);
+    window.addEventListener('popstate', () => {
+      restoreMenuLocation();
+      $('menu').scrollIntoView({ behavior: 'instant' });
+    });
+  }
   window.engine = engine;
 });

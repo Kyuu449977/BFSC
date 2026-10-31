@@ -103,5 +103,28 @@ class CustomDishesApiTests(unittest.TestCase):
         self.assertEqual(self.post({'name': 'valid'})[0], 500)
         self.assertEqual(module.CUSTOM_DISH_FILE.read_text(encoding='utf-8'), '{broken')
 
+    def test_cache_reuses_parse_and_isolates_callers(self):
+        from unittest.mock import patch
+        module.CUSTOM_DISH_FILE.write_text('[{"id":"one","name":"First"}]', encoding='utf-8')
+        with patch.object(module, '_read_dishes_uncached', wraps=module._read_dishes_uncached) as read:
+            first = module.read_dishes()
+            first[0]['name'] = 'mutated'
+            self.assertEqual(module.read_dishes()[0]['name'], 'First')
+            self.assertEqual(read.call_count, 1)
+            module.CUSTOM_DISH_FILE.write_text('[{"id":"two","name":"Other"}]', encoding='utf-8')
+            self.assertEqual(module.read_dishes()[0]['id'], 'two')
+            self.assertEqual(read.call_count, 2)
+            module.CUSTOM_DISH_FILE.write_text('{bad', encoding='utf-8')
+            with self.assertRaises(RuntimeError):
+                module.read_dishes()
+            module.CUSTOM_DISH_FILE.unlink()
+            self.assertEqual(module.read_dishes(), [])
+
+    def test_atomic_write_invalidates_cached_read(self):
+        module.atomic_write_dishes([{'id':'old'}])
+        self.assertEqual(module.read_dishes()[0]['id'], 'old')
+        module.atomic_write_dishes([{'id':'new'}])
+        self.assertEqual(module.read_dishes()[0]['id'], 'new')
+
 if __name__ == '__main__':
     unittest.main()

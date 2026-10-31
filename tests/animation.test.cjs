@@ -30,3 +30,14 @@ test('one eligible dish is rendered once; target remains correct without a long 
   assert.equal(sequence.items[0], dish);
   assert.equal(sequence.targetIndex, 0);
 });
+
+test('low-memory hardware keeps the winner and neighbor rules with a shorter strip', () => {
+  const light = vm.createContext({ navigator: { deviceMemory: 4 }, window: { addEventListener() {} } });
+  vm.runInContext(fs.readFileSync('src/js/animation.js', 'utf8') + ';this.reel=new FoodRoulette({},{});', light);
+  const pool = Array.from({length: 10}, (_, id) => ({id:String(id)}));
+  const sequence = light.reel.buildSequence(pool[3], pool);
+  assert.equal(light.reel.light, true);
+  assert.equal(sequence.items.length, 12);
+  assert.equal(sequence.items[sequence.targetIndex], pool[3]);
+  assert.ok(sequence.items.every((dish,i) => !i || dish.id !== sequence.items[i-1].id));
+});

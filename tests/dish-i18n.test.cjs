@@ -15,10 +15,10 @@ function catalog() {
   return context;
 }
 
-test('all 382 catalog dishes resolve a nonempty name and description in every supported language', () => {
+test('all 350 catalog dishes resolve a nonempty name and description in every supported language', () => {
   const app = catalog();
   const dishes = [...new Map(app.dishes.map((d) => [d.id, d])).values()];
-  assert.equal(dishes.length, 382);
+  assert.equal(dishes.length, 350);
   for (const dish of dishes)
     for (const lang of ['vi', 'en', 'ja', 'ko', 'zh']) {
       assert.ok(app.names(dish, lang).trim(), `${dish.id} name ${lang}`);
@@ -26,10 +26,10 @@ test('all 382 catalog dishes resolve a nonempty name and description in every su
     }
 });
 
-test('the 114 new Vietnamese dishes receive localized names without replacing existing translations', () => {
+test('the retained Vietnamese dishes receive localized names without replacing existing translations', () => {
   const app = catalog();
   const missing = [...new Set(app.dishes.map((d) => d.id))].filter((id) => !app.beforeIds.has(id));
-  assert.equal(missing.length, 114);
+  assert.equal(missing.length, 87);
   for (const id of missing)
     for (const lang of ['en', 'ja', 'ko', 'zh']) {
       const text = app.translations[id]?.[lang]?.name;

@@ -44,7 +44,7 @@ const server = http.createServer((req, res) => {
   const browser = await (engineName === 'webkit' ? webkit : chromium).launch({ headless: true });
   try {
     for (const [region, tz, count] of [
-      ['vi', 'Asia/Ho_Chi_Minh', 162],
+      ['vi', 'Asia/Ho_Chi_Minh', 130],
       ['ja', 'Asia/Tokyo', 55],
       ['ko', 'Asia/Seoul', 55],
       ['zh', 'Asia/Shanghai', 55],

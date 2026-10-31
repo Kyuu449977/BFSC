@@ -1,185 +1,125 @@
-/* Mobile controls stay compact while all eight actions remain one tap away. */
-.mobile-menu-toggle {
-  display: none;
-  min-width: 44px;
-  min-height: 44px;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  color: var(--text-primary);
-  background: var(--bg-surface);
-  border: 1px solid var(--border-default);
-  border-radius: 12px;
-  font: inherit;
-  padding: 8px 12px;
+/* Reserved advertising surfaces: no decorative vines or remount-on-resize. */
+.ad-shelf-section {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  padding:24px 0;
+  border-block:1px solid var(--border);
+  margin:8px 0 24px;
 }
-@media (max-width: 899px) {
-  .header {
-    position: relative;
-    z-index: 10;
-    grid-template-columns: minmax(0, 1fr) auto;
-    align-items: center;
-  }
-  .header .brand {
-    grid-column: 1;
-    grid-row: 1;
-    min-width: 0;
-  }
-  .mobile-menu-toggle {
-    display: inline-flex;
-    grid-column: 2;
-    grid-row: 1;
-  }
-  .header .tools {
-    position: absolute;
-    inset-inline: 0;
-    top: calc(100% + 8px);
-    z-index: 30;
-    box-sizing: border-box;
-    padding: 10px;
-    border: 1px solid var(--border-default);
-    border-radius: 16px;
-    background: var(--bg-elevated);
-    box-shadow: var(--surface-shadow);
-    max-height: calc(100vh - 120px);
-    max-height: min(420px, calc(100dvh - 120px - env(safe-area-inset-bottom)));
-    overflow-y: auto;
-    overscroll-behavior: contain;
-    grid-template-columns: minmax(0, 1fr);
-    gap: 4px;
-    left: auto;
-    width: min(280px, 100%);
-  }
-  .header .tools .icon-button {
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 12px;
-    min-height: 44px;
-    padding: 10px 12px;
-    text-align: start;
-  }
-  .header .tools .tool-label {
-    font-size: 14px;
-    line-height: 1.4;
-  }
-  .header .tools[hidden] {
-    display: none;
-  }
+.ad-shelf-label,.sponsor-label {
+  font-size:10px;
+  letter-spacing:.08em;
+  color:var(--muted);
+  text-align:center;
 }
-/* Keep add-dish fields between non-overlapping header/footer, including when
- * the visual viewport shrinks for a keyboard. Only the fields area scrolls. */
-#addDishDialog[open] {
-  display: flex;
-  flex-direction: column;
-  height: min(760px, calc(var(--visual-viewport-height, 100dvh) - 24px));
-  max-height: calc(var(--visual-viewport-height, 100dvh) - 24px);
-  overflow: hidden;
+.ad-shelf-display {
+  width:300px;
+  min-height:250px;
+  background:var(--surface);
+  border-radius:8px;
+  overflow:hidden;
 }
-#addDishDialog > .dialog-heading {
-  position: static;
-  flex: 0 0 auto;
+.ad-shelf-display iframe {
+  display:block;
+  border:0;
 }
-#addDishForm {
-  flex: 1 1 auto;
-  min-height: 0;
-  gap: 0;
-  padding: 0;
-  overflow: hidden;
+.ad-shelf-plank,.ad-shelf-brackets,.vine-svg {
+  display:none;
 }
-#addDishForm .custom-dish-fields {
-  flex: 1 1 auto;
-  min-height: 0;
-  overflow-y: auto;
-  overscroll-behavior: contain;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  padding: 8px 2px 12px;
-  scroll-padding-block: 12px;
-}
-#addDishForm .custom-dish-fields > * {
-  flex: 0 0 auto;
-  min-width: 0;
-}
-#addDishForm > .form-actions {
-  position: static;
-  flex: 0 0 auto;
-  margin-top: 0;
-  padding-top: 10px;
-}
-/* Two original vertical units are in normal document flow on phones/tablets.
- * At 360px, two 160px units + 8px gap fit within the 328px content width.
- * At 320px they stack, retaining the real ad dimensions and pinch zoom. */
 .responsive-sponsors {
-  margin: 32px 0;
-  min-width: 0;
-}
-.sponsor-label {
-  color: var(--text-secondary);
-  font-size: 12px;
-  text-align: center;
-  margin-bottom: 12px;
+  margin:24px 0;
 }
 .sponsor-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 160px);
-  gap: 16px 8px;
-  justify-content: center;
-  align-items: start;
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  gap:16px;
+  flex-wrap:wrap;
+}
+.side-vine-slot {
+  display:block;
+  width:160px;
+  flex:none;
 }
 .vine-card {
-  border: 0;
-  box-shadow: 0 0 0 1px var(--border-default);
+  width:160px;
+  background:var(--surface);
+  border-radius:8px;
+  overflow:hidden;
 }
-.vine-card iframe,
+.vine-card-600 {
+  min-height:600px;
+}
+.vine-card-300 {
+  min-height:300px;
+}
 [data-sponsor-frame] {
-  display: block;
-  border: 0;
-  max-width: none;
-  margin: 0;
+  display:block;
+  border:0;
+  margin:0;
+  max-width:none;
 }
-[data-ad-state='unavailable'] {
-  min-height: 64px;
-  height: auto;
-  padding: 8px;
-  font-size: 12px;
-  color: var(--text-secondary);
-  text-align: center;
+[data-ad-state=unavailable] {
+  padding:12px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:12px;
+  color:var(--muted);
+  text-align:center;
 }
-@media (max-width: 1583px) {
-  .responsive-sponsors .side-vine-slot {
-    display: flex !important;
-    position: static;
-    width: 160px;
-    height: auto;
-    min-width: 0;
-    pointer-events: auto;
-  }
-  .responsive-sponsors .vine-svg {
-    display: none;
-  }
+.sponsor-label {
+  margin:0 0 16px;
 }
-@media (min-width: 1584px) {
+.reel-light .reel-card,.reel-light .reel-card-back,.reel-light .reel-card-pattern,.reel-light .reel-card-icon {
+  animation:none;
+  filter:none;
+  box-shadow:none;
+  text-shadow:none;
+}
+@media(min-width:1550px) {
   .responsive-sponsors {
-    margin: 0;
-    height: 0;
+    height:0;
+    margin:0;
   }
-  .responsive-sponsors > .sponsor-label {
-    display: none;
+  .responsive-sponsors>.sponsor-label {
+    display:none;
   }
-  .responsive-sponsors .side-vine-slot {
-    display: flex;
+  .side-vine-slot {
+    position:fixed;
+    top:160px;
+  }
+  .side-vine-slot.left {
+    left:max(16px,calc((100vw - 1510px)/2));
+  }
+  .side-vine-slot.right {
+    right:max(16px,calc((100vw - 1510px)/2));
   }
 }
-/* Only the roulette track moves. Thirty-two independent infinite pulses and
- * filtered shadows needlessly consume mobile GPU time during every roll. */
-.reel-card-icon {
-  animation: none;
-  filter: none;
-}
-.reel-track {
-  will-change: auto;
-}
-#spinDialog[open] .reel-track {
-  will-change: transform;
+@media(max-width:359px) {
+  .sponsor-grid {
+    gap:16px;
+  }
+  .side-vine-slot {
+    margin-inline:auto;
+  }
+  .app {
+    width:calc(100% - 24px);
+  }
+  .brand-sub {
+    display:none;
+  }
+  .modes .icon {
+    width:16px;
+    height:16px;
+  }
+  .modes button {
+    font-size:11px;
+  }
+  .hero-tools {
+    gap:8px;
+  }
 }

@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-31",
+  "scope": "Vietnam drinks",
+  "reviewed": 73,
+  "replaced": 9,
+  "criteria": "No people, hands or visible body parts, including background; visually reviewed.",
+  "backup": "C:\\Users\\phamp\\.codex\\backups\\BFSC-drink-images-20261031-010450",
+  "entries": [
+    {
+      "id": "nuoc_tra_sua_tran_chau_duong_den",
+      "name": "Trà sữa Trân châu Đường đen",
+      "file": "images/catalog-20261031/nuoc_tra_sua_tran_chau_duong_den.webp",
+      "source": "https://jawapos.com/kuliner/2510090220/gak-perlu-jajan-mahal-ini-dia-cara-bikin-boba-brown-sugar-ala-cafe-yang-enak-dan-kenyal",
+      "imageUrl": "https://cdn-assets.jawapos.com/images/1/2025/10/09/Gak-Perlu-Jajan-Mahal-Ini-Dia-Cara-Bikin-Boba-Brown-Sugar-Ala-Cafe-yang-Enak-dan-Kenyal-2274529989.jpg",
+      "beforeSha256": "448935888ebeef756eb4f66ea12e42f26237d58cb365ee69e4725d2baf1a088c",
+      "afterSha256": "3f88edb03aa028bdb492ad5dbe6398ea05618616ec89d7c9c99393d91d57398a"
+    },
+    {
+      "id": "nuoc_tra_sua_nuong",
+      "name": "Trà sữa Nướng Hoàng Gia",
+      "file": "images/catalog-20261031/nuoc_tra_sua_nuong.webp",
+      "source": "https://cookpad.com/id/resep/24718674-roasted-milk-tea",
+      "imageUrl": "https://img-global.cpcdn.com/recipes/535d2f0f895f2b83/680x781f0.5_0.5_1.0q80/roasted-milk-tea-foto-resep-utama.jpg",
+      "beforeSha256": "fc3b5ee97738a45cfd1d5e8fc502c61ae87190510769ab8c1edc52418b120446",
+      "afterSha256": "006c8d6431e3d932809eadf83c3e6621fccfb6428cbbe444660f3511df00f16a"
+    },
+    {
+      "id": "nuoc_tra_mang_cut",
+      "name": "Trà Măng Cụt Nhiệt Đới",
+      "file": "images/catalog-20261031/nuoc_tra_mang_cut.webp",
+      "source": "https://mediamart.vn/vao-bep/cach-lam-tra-mang-cut-hoa-dau-biec",
+      "imageUrl": "https://cdn.mediamart.vn/images/news/du-trend-cach-lam-tra-mang-cut-hoa-dau-biec_11e739e7.jpg",
+      "beforeSha256": "9c16a3884c8c1662e995210d8d8e4fe9fc43ed6273065769cf0087e27945a66b",
+      "afterSha256": "7e8bc81b799ab876ae76970b177a274683a52e42f1eb6297a2fb9424759235da"
+    },
+    {
+      "id": "nuoc_tra_oi_hong_hat_chia",
+      "name": "Trà Ổi Hồng Hạt Chia",
+      "file": "images/catalog-20261031/nuoc_tra_oi_hong_hat_chia.webp",
+      "source": "https://www.mangrovevn.com/post/tr%C3%A0-%E1%BB%95i-h%E1%BB%93ng-th%E1%BB%A9c-u%E1%BB%91ng-ng%E1%BB%8Dt-l%C3%A0nh-v%C3%A0-t%C6%B0%C6%A1i-m%E1%BB%9Bi-t%E1%BA%A1i-mangrove-coffee-tea",
+      "imageUrl": "https://static.wixstatic.com/media/3a563c_e5056df37dc54a9994f78f78e00d6071~mv2.jpg/v1/fill/w_704%2Ch_704%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/3a563c_e5056df37dc54a9994f78f78e00d6071~mv2.jpg",
+      "beforeSha256": "2ac1904c85cec2c117ea1d68003e22757aacb8ab47aaf9e60040f77111381258",
+      "afterSha256": "f1203f328890c07d86c1557e0183c4bf37f82770cc5eff74a5cb00737455820a"
+    },
+    {
+      "id": "nuoc_tra_dau_tay_dam",
+      "name": "Trà Dâu Tây Dầm Tươi",
+      "file": "images/catalog-20261031/nuoc_tra_dau_tay_dam.webp",
+      "source": "https://www.chillvilletreats.com/order",
+      "imageUrl": "https://www.chillvilletreats.com/images/Boba/fruit_tea/strawberry_fruit_tea.jpg",
+      "beforeSha256": "fb0e211cfba8d550dc46115f6a492879e0eb43b56f4dce322070e3987724f7ee",
+      "afterSha256": "1e80fef16c4b52c71085368c2e9135775bb250e3bb9b84422408807f53ce62f0"
+    },
+    {
+      "id": "nuoc_tra_chanh_gia_tay",
+      "name": "Trà Chanh Giã Tay Quảng Đông",
+      "file": "images/catalog-20261031/nuoc_tra_chanh_gia_tay.webp",
+      "source": "https://kenh14.vn/tra-chanh-gia-tay-tro-thanh-trend-tai-trung-quoc-va-bat-dau-thu-hut-o-viet-nam-co-gi-moi-trong-mon-do-uong-nay-20231103141745365.chn",
+      "imageUrl": "https://kenh14cdn.com/203336854389633024/2023/11/3/photo-7-16989956799031664444526.png",
+      "beforeSha256": "a26bc79dd92788f1b395760b759f08c97058b308f4ac6d36a971c91f7caf4e80",
+      "afterSha256": "82af1c5307ce26bc62b6db9fb74c57a80660d0cdf9bffe9dd5aa8772c9de906a"
+    },
+    {
+      "id": "nuoc_dirty_matcha",
+      "name": "Dirty Matcha Espresso",
+      "file": "images/catalog-20261031/nuoc_dirty_matcha.webp",
+      "source": "https://shop.berliner-kaffeeroesterei.de/rezept-dirty-matcha",
+      "imageUrl": "https://shop.berliner-kaffeeroesterei.de/media/fc/17/0c/1745916211/Dirty%20Matcha%20im%20Glas.jpg?ts=1774942437",
+      "beforeSha256": "707f55a6184d69a9cfd3b1098e68246e24a5a54dcb72e488ac3edaf0d2de626d",
+      "afterSha256": "419125009664c98e067677e0b0d631675efd58491a08ba0da562b6ad1ed12880"
+    },
+    {
+      "id": "nuoc_dua_tac_dua_thom",
+      "name": "Nước Dừa Tắc / Dừa Thơm Khóm",
+      "file": "images/catalog-20261031/nuoc_dua_tac_dua_thom.webp",
+      "source": "https://www.dienmayxanh.com/vao-bep/cach-lam-dua-tac-chua-ngot-thanh-mat-giai-nhiet-ngay-he-02261",
+      "imageUrl": "https://cdn.tgdd.vn/2021/09/CookRecipe/Avatar/dua-tac-xi-muoi-thumbnail.jpg",
+      "beforeSha256": "82c5762b4ec05ebaa4db8e6035c8a39ce6582e4cf8115a6ecd3d7dc5df0fe9ed",
+      "afterSha256": "04f2efbcb4650a9e810493f3222a394a8909d57db8e058b24fbf42d99406117f"
+    },
+    {
+      "id": "nuoc_ca_phe_cot_dua",
+      "name": "Cà Phê Cốt Dừa Hải Phòng",
+      "file": "images/catalog-20261031/nuoc_ca_phe_cot_dua.webp",
+      "source": "https://bluorecoffee.com/blogs/news/vietnamese-coconut-coffee-ca-phe-c%E1%BB%91t-d%E1%BB%ABa",
+      "imageUrl": "https://bluorecoffee.com/cdn/shop/articles/a-high-resolution-close-up-photograph-of-a-tall-glass-of-vietnamese-coconut-coffee-c-ph-c-t-d-a-on-a-rustic-wooden-table-the-drink-shows-two-distinct-layers-rich-dark-brewed-robusta-c_1200x1200.png?v=1754873263",
+      "beforeSha256": "edbd4d20f8c2f6d43aebae90eeec3436c03e89e267d3f74660917758794f2fad",
+      "afterSha256": "bdee8e9dc7ed6b4bcf23a90969df4b2868e9560c824127cadd697a4b0bb81052"
+    }
+  ]
+}

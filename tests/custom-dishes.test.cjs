@@ -39,6 +39,16 @@ const payload = () => ({
   image: 'assets/brand.svg',
 });
 
+test('retired server and browser duplicates stay archived while new custom dishes load', async () => {
+  const retired = { id: 'custom_1793198706284', name: 'Archived' };
+  const current = { id: 'custom_new', name: 'New contribution' };
+  const a = load(async () => ({ok:true,json:async()=>[retired,current]}));
+  a.storage.food_custom_dishes = JSON.stringify([retired]);
+  const dishes = await a.transport.load();
+  assert.deepEqual(Array.from(dishes, dish=>dish.id), [current.id]);
+  assert.equal(JSON.parse(a.storage.food_custom_dishes).length, 1);
+});
+
 test('server validation failure never writes local fallback', async () => {
   const a = load(async () => ({ status: 409, ok: false }));
   await assert.rejects(a.transport.save(payload()));

@@ -61,7 +61,7 @@ class PublicSecurityTests(unittest.TestCase):
         prefix = 'window.BFSC_ATTRIBUTION_DATA = '
         self.assertTrue(bundle.startswith(prefix))
         runtime_data = json.loads(bundle[len(prefix):].rstrip().removesuffix(';'))
-        self.assertEqual(len(runtime_data), 382)
+        self.assertEqual(len(runtime_data), 350)
         self.assertEqual(sum(bool(record['reviewRequired']) for record in runtime_data.values()), audit['summary']['reviewRequired'])
         self.assertTrue(all('attribution' not in record for record in runtime_data.values() if record['reviewRequired']))
 
