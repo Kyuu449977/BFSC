@@ -136,3 +136,4 @@ User explicitly requested reviewing all changes then pushing after readiness cav
 - Updated `src/index.html` with explicit `og:image` PNG 1200x630 tags and `twitter:image`.
 - Added immutable Cache-Control headers (1 year) for `/assets/` and `/images/` in `vercel.json` and `netlify.toml`.
 - Verified: `python build_public.py` successfully generated `public/assets/og-image.png`; 34 Python unit tests passed (100% OK); git diff clean.
+- Changes successfully committed (cd5001d) and pushed to remote `origin/main` (https://github.com/Kyuu449977/BFSC.git).
