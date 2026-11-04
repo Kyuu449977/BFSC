@@ -73,6 +73,7 @@ async function cacheOptionalWhileIdle() {
       if (!clients.some(client => client.visibilityState === 'visible') ||
           clients.some(client => clientActivity.get(client.id) === true)) break;
       await Promise.all(OPTIONAL.slice(i, i + 2).map(async asset => {
+        if (asset.endsWith('.mp4')) return;
         const url = new URL(asset, self.registration.scope);
         if (await cache.match(url.href)) return;
         try {

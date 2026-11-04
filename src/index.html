@@ -170,6 +170,7 @@
         window.addEventListener('touchstart', triggerAfterFirstAction, true);
       })();
     </script>
+      <script src="https://accounts.google.com/gsi/client" async defer></script>
   </head>
   <body>
     <noscript
@@ -1124,13 +1125,13 @@
     </dialog>
         <dialog id="wishDialog" class="wish-dialog" aria-label="Cầu nguyện ẩm thực">
       <div id="wishVideoContainer" class="wish-video-container">
-        <video id="wishVideo" class="wish-video" playsinline preload="auto"></video>
+        <video id="wishVideo" class="wish-video" playsinline preload="none"></video>
         <button id="wishSkipBtn" class="wish-skip-btn" type="button">Bỏ qua &gt;&gt;</button>
       </div>
       <div id="wishResultsContainer" class="wish-results-container" hidden>
         <div class="wish-results-header">
           <span class="wish-results-eyebrow">✦ KẾT QUẢ CẦU NGUYỆN ✦</span>
-          <button id="wishCloseBtn" class="wish-close-btn" type="button" aria-label="Đóng"></button>
+          <button id="wishCloseBtn" class="wish-close-btn" type="button" aria-label="Đóng"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#x"></use></svg></button>
         </div>
         <div id="wishResultsContent" class="wish-results-content"></div>
         <div id="wishDetailOverlay" class="wish-detail-overlay" hidden></div>
@@ -1141,7 +1142,7 @@
               <img src="assets/images/wish/wish-button.png" alt="" class="wish-btn-icon" />
               <span id="wishAgainLabel">Cầu nguyện lại</span>
             </button>
-            <button id="wishShareBtn" class="wish-action-btn wish-share-btn" type="button" title="Chia sẻ mâm tiệc cho bạn bè">📤 Chia sẻ</button>
+            <button id="wishShareBtn" class="wish-action-btn wish-share-btn" type="button" title="Chia sẻ mâm tiệc cho bạn bè"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#share-2"></use></svg><span>Chia sẻ</span></button>
             <button id="wishAcceptBtn" class="wish-action-btn wish-accept-btn" type="button">Nhận tất cả</button>
           </div>
         </div>
@@ -1149,7 +1150,7 @@
     </dialog>
         <dialog id="authDialog" class="auth-dialog" aria-label="Đăng nhập tài khoản">
       <div class="auth-dialog-card">
-        <button id="authCloseBtn" class="auth-close-btn" type="button" aria-label="Đóng">✕</button>
+        <button id="authCloseBtn" class="auth-close-btn" type="button" aria-label="Đóng"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#x"></use></svg></button>
         <div class="auth-dialog-header">
           <span class="auth-badge">✦ ĐẶC QUYỀN ẨM THỰC ✦</span>
           <h2>Đăng Nhập Tài Khoản</h2>
@@ -1157,23 +1158,26 @@
         </div>
         <div class="auth-features-list">
           <div class="auth-feature-item">
-            <span class="feat-icon">💎</span>
+            <span class="feat-icon"><svg class="icon"><use href="assets/icons.svg#zap"></use></svg></span>
             <div><strong>Nhận 20 vé/ngày:</strong> Tự động hồi phục đầy đủ mỗi 00:00 đêm.</div>
           </div>
           <div class="auth-feature-item">
-            <span class="feat-icon">🌟</span>
+            <span class="feat-icon"><svg class="icon"><use href="assets/icons.svg#sparkles"></use></svg></span>
             <div><strong>Cầu nguyện x10:</strong> Mở mâm tiệc 10 món cùng lúc hoành tráng.</div>
           </div>
           <div class="auth-feature-item">
-            <span class="feat-icon">⚡</span>
+            <span class="feat-icon"><svg class="icon"><use href="assets/icons.svg#package"></use></svg></span>
             <div><strong>Ghép thẻ Đột Phá:</strong> Thu thập thẻ trùng để nâng lên 5★ Cực phẩm.</div>
           </div>
         </div>
         <div class="auth-actions-group">
-          <button id="googleLoginBtn" class="google-login-btn" type="button">
-            <svg width="20" height="20" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/></svg>
-            Đăng nhập bằng Google
-          </button>
+          <div id="googleBtnWrapper" class="google-btn-wrapper">
+            <button id="googleLoginBtn" class="google-login-btn" type="button">
+              <svg class="icon" width="20" height="20" viewBox="0 0 24 24"><use href="assets/icons.svg#google"></use></svg>
+              <span>Tiếp tục với Google</span>
+            </button>
+            <div id="g_id_signin_render" style="display:none;"></div>
+          </div>
           <div class="auth-divider"><span>HOẶC</span></div>
           <div class="quick-login-row">
             <input id="authNameInput" type="text" placeholder="Nhập biệt danh của bạn..." maxlength="30" />
