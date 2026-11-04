@@ -2604,6 +2604,7 @@ document.addEventListener('DOMContentLoaded', () => {
     $('singleBtn').disabled = !ready || !prepared.availability.single;
     $('tripleBtn').disabled = !ready || !prepared.availability.triple;
     $('comboBtn').disabled = !ready || !prepared.availability.combo;
+    if ($('wishTenBtn')) $('wishTenBtn').disabled = !ready;
     $('rerollBtn').disabled =
       lastAction === 'custom'
         ? busy
@@ -2771,18 +2772,89 @@ document.addEventListener('DOMContentLoaded', () => {
   // 08. Draw, animate and publish results once
   async function choose(action) {
     if (busy || budgetPending || !prepared) return;
+
+    // Account Gating & Daily Ticket check for wishTen
+    if (action === 'wishTen') {
+      if (window.Auth && !window.Auth.isAuthenticated()) {
+        window.Auth.openAuthModal();
+        return;
+      }
+      if (window.Auth && window.Auth.getTickets() < 10) {
+        toast('⚡ Bạn đã hết vé hôm nay (cần 10 vé)! Hồi phục vào lúc 00:00.');
+        return;
+      }
+    }
+
     lock(true);
     let results;
     try {
-      results =
-        action === 'combo'
-          ? await engine.drawCombo({ budget: activeBudget, prepared })
-          : await engine.drawDishes({
-              count: action === 'triple' ? 3 : 1,
+      if (action === 'wishTen') {
+        if (window.API && window.Auth && window.Auth.isAuthenticated()) {
+          const rollData = await window.API.rollWish(10);
+          if (rollData && rollData.success) {
+            window.Auth.updateTickets(rollData.tickets);
+            results = rollData.results.map((r) => ({
+              dish: r.dish,
+              source: r.dish.category || 'Món Chính',
+              isNew: r.isNew,
+              isDuplicate: r.isDuplicate,
+              shardsAdded: r.shardsAdded,
+              totalShards: r.shards,
+              shardsNeeded: r.shardsNeeded,
+              starLevel: r.starLevel,
+              rarity: r.starLevel || r.dish.rarity,
+              breakthrough: r.breakthrough,
+            }));
+          } else {
+            throw new Error(rollData?.message || 'Không thể ước x10');
+          }
+        } else {
+          results = engine.rollWishMulti(10);
+        }
+      } else if (action === 'single') {
+        if (window.API && window.Auth && window.Auth.isAuthenticated() && window.Auth.getTickets() >= 1) {
+          const rollData = await window.API.rollWish(1);
+          if (rollData && rollData.success) {
+            window.Auth.updateTickets(rollData.tickets);
+            results = rollData.results.map((r) => ({
+              dish: r.dish,
+              source: r.dish.category || 'Món Chính',
+              isNew: r.isNew,
+              isDuplicate: r.isDuplicate,
+              shardsAdded: r.shardsAdded,
+              totalShards: r.shards,
+              shardsNeeded: r.shardsNeeded,
+              starLevel: r.starLevel,
+              rarity: r.starLevel || r.dish.rarity,
+              breakthrough: r.breakthrough,
+            }));
+          } else {
+            results = await engine.drawDishes({
+              count: 1,
               unique: settings.unique,
               budget: activeBudget,
               prepared,
             });
+          }
+        } else {
+          results = await engine.drawDishes({
+            count: 1,
+            unique: settings.unique,
+            budget: activeBudget,
+            prepared,
+          });
+        }
+      } else {
+        results =
+          action === 'combo'
+            ? await engine.drawCombo({ budget: activeBudget, prepared })
+            : await engine.drawDishes({
+                count: action === 'triple' ? 3 : 1,
+                unique: settings.unique,
+                budget: activeBudget,
+                prepared,
+              });
+      }
     } catch (error) {
       lock(false);
       toast(UICopy.error(error.message));
@@ -2795,19 +2867,54 @@ document.addEventListener('DOMContentLoaded', () => {
     else close($('resultDialog'), false);
     lock(true);
     audioSystem.playClick();
-    const reveal = async () => {
-      const outcome = await engine.commitResults(results);
+    const reveal = async (acceptedResults, bestDish) => {
+      const activeList = acceptedResults || results;
+      const outcome = await engine.commitResults(activeList);
       if ($('spinDialog').open) close($('spinDialog'), false);
       lock(false);
-      feature(results[0].dish);
+
+      const spotlightDish = bestDish || activeList[0]?.dish;
+      if (spotlightDish) {
+        feature(spotlightDish);
+        const heroEl = document.querySelector('.hero');
+        if (heroEl) {
+          heroEl.classList.add('hero-victory-spotlight');
+          const featureTag = heroEl.querySelector('.feature-tag');
+          if (featureTag) {
+            featureTag.hidden = false;
+            featureTag.classList.add('hero-victory-tag');
+            const stars = spotlightDish.rarity || 3;
+            featureTag.innerHTML = `<span data-icon="sparkles"></span>✦ VỪA CẦU NGUYỆN ĐƯỢC ${stars}★ ✦`;
+          }
+          heroEl.scrollIntoView({ behavior: motion.matches ? 'instant' : 'smooth', block: 'center' });
+          setTimeout(() => {
+            heroEl.classList.remove('hero-victory-spotlight');
+            if (featureTag) featureTag.classList.remove('hero-victory-tag');
+          }, 6000);
+        }
+      }
       menu();
-      showResults(results, false, rollBudget, outcome.saved);
       if (settingsSyncPending) syncSettings();
       audioSystem.playWin(4);
+
+      if (!window.WishUI || !acceptedResults) {
+        showResults(activeList, false, rollBudget, outcome.saved);
+      } else {
+        const dishCount = activeList.length;
+        toast(`🎉 Đã nhận ${dishCount} món vào Bộ sưu tập! Chúc bạn ngon miệng!`);
+      }
       if (!outcome.saved) toast(UICopy.text('saveResultError'));
     };
-    if (motion.matches) reveal();
-    else {
+    if (window.WishUI && typeof window.WishUI.openWish === 'function') {
+      window.WishUI.openWish({
+        results,
+        mode: (action === 'wishTen' || results.length > 1) ? 'multi' : 'single',
+        gacha: engine,
+        onAccept: reveal,
+      });
+    } else if (motion.matches) {
+      reveal();
+    } else {
       open($('spinDialog'), true);
       const pool = [
         ...new Map(
@@ -2823,6 +2930,8 @@ document.addEventListener('DOMContentLoaded', () => {
   $('singleBtn').onclick = () => choose('single');
   $('tripleBtn').onclick = () => choose('triple');
   $('comboBtn').onclick = () => choose('combo');
+  const wishTenBtn = $('wishTenBtn');
+  if (wishTenBtn) wishTenBtn.onclick = () => choose('wishTen');
   $('rerollBtn').onclick = () =>
     lastAction === 'custom' ? $('customWheelSpinActionBtn').click() : choose(lastAction);
   $('skipBtn').onclick = () => roulette.skip();

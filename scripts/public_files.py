@@ -485,6 +485,17 @@ PUBLIC_FILES = (
     'legal-copy.js',
     'mobile-menu.js',
     'sponsors.js',
+    'api.js',
+    'auth.js',
+    'wish-ui.js',
+    'assets/videos/wish/3starwish-single.mp4',
+    'assets/videos/wish/4starwish-single.mp4',
+    'assets/videos/wish/4starwish.mp4',
+    'assets/videos/wish/5starwish-single.mp4',
+    'assets/videos/wish/5starwish.mp4',
+    'assets/images/wish/wish-details-background.jpg',
+    'assets/images/wish/wish-button.png',
+    'assets/images/wish/closing-button.png',
 )
 
 

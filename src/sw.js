@@ -35,7 +35,8 @@ function validType(url, response) {
   if (extension === 'js') return /^(text|application)\/(javascript|ecmascript)/i.test(type);
   if (extension === 'css') return type.startsWith('text/css');
   if (extension === 'json') return type.startsWith('application/json');
-  if (['webp', 'png', 'svg'].includes(extension)) return type.startsWith('image/');
+  if (['webp', 'png', 'svg', 'jpg', 'jpeg'].includes(extension)) return type.startsWith('image/');
+  if (extension === 'mp4') return type.startsWith('video/');
   if (extension === 'woff2')
     return type.startsWith('font/') || type.startsWith('application/octet-stream');
   return extension === 'html' && type.startsWith('text/html');

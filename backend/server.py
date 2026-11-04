@@ -15,6 +15,13 @@ from urllib.parse import urlsplit, unquote
 from scripts.build_public import ROOT, build_public
 from scripts.public_files import PUBLIC_FILES
 from backend.places_service import send_json
+from backend import auth_service
+
+def _extract_token(headers):
+    auth_header = headers.get('Authorization', '')
+    if auth_header.startswith('Bearer '):
+        return auth_header[7:].strip()
+    return headers.get('X-Auth-Token', '').strip()
 
 PORT = int(os.environ.get('PORT', 8080))
 DIRECTORY = str(ROOT)
@@ -176,6 +183,47 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         if path == '/api/places':
             send_json(self, 410, {'error': {'code': 'API_DISABLED', 'message': 'Website dùng link Google Maps trực tiếp. API trả phí đã tắt.'}})
             return
+        if path == '/api/auth/login':
+            try:
+                length = int(self.headers.get('Content-Length', '0'))
+                payload = json.loads(self.rfile.read(length).decode('utf-8')) if length > 0 else {}
+                user = auth_service.login_or_register(payload)
+                send_json(self, 200, {
+                    'token': user['token'],
+                    'user': {
+                        'id': user['id'],
+                        'name': user['name'],
+                        'email': user['email'],
+                        'avatar': user['avatar'],
+                        'tickets': user['tickets'],
+                        'inventoryCount': len(user.get('inventory', {})),
+                        'fiveStarCount': sum(1 for v in user.get('inventory', {}).values() if v.get('starLevel') == 5)
+                    }
+                })
+            except Exception as e:
+                send_json(self, 400, {'error': 'LOGIN_FAILED', 'message': str(e)})
+            return
+        if path == '/api/wish/roll':
+            token = _extract_token(self.headers)
+            user = auth_service.get_user_by_token(token)
+            if not user:
+                send_json(self, 401, {'error': 'UNAUTHORIZED', 'message': 'Cần đăng nhập để cầu nguyện.'})
+                return
+            try:
+                length = int(self.headers.get('Content-Length', '0'))
+                payload = json.loads(self.rfile.read(length).decode('utf-8')) if length > 0 else {}
+                count = int(payload.get('count', 1))
+                result = auth_service.roll_wish(user, count)
+                send_json(self, 200, {"success": True, **result})
+            except ValueError as e:
+                err_str = str(e)
+                if 'INSUFFICIENT_TICKETS' in err_str:
+                    send_json(self, 403, {'error': 'INSUFFICIENT_TICKETS', 'message': 'Bạn đã dùng hết vé hôm nay!'})
+                else:
+                    send_json(self, 400, {'error': 'ROLL_FAILED', 'message': err_str})
+            except Exception as e:
+                send_json(self, 500, {'error': 'SERVER_ERROR', 'message': str(e)})
+            return
         if path != '/api/custom-dishes':
             send_json(self, 404, {'error': {'code': 'NOT_FOUND', 'message': 'Không tìm thấy dịch vụ.'}})
             return
@@ -227,7 +275,33 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         except (ValueError, UnicodeError):
             self.send_error(404)
             return
-        if path in ('/api/places', '/api/server-info', '/api/custom-dishes'):
+        if path in ('/api/places', '/api/server-info', '/api/custom-dishes', '/api/user/profile', '/api/user/inventory'):
+            if path == '/api/user/profile':
+                token = _extract_token(self.headers)
+                user = auth_service.get_user_by_token(token)
+                if not user:
+                    send_json(self, 401, {'error': 'UNAUTHORIZED', 'message': 'Chưa đăng nhập.'})
+                    return
+                send_json(self, 200, {
+                    'user': {
+                        'id': user['id'],
+                        'name': user['name'],
+                        'email': user['email'],
+                        'avatar': user['avatar'],
+                        'tickets': user['tickets'],
+                        'inventoryCount': len(user.get('inventory', {})),
+                        'fiveStarCount': sum(1 for v in user.get('inventory', {}).values() if v.get('starLevel') == 5)
+                    }
+                })
+                return
+            if path == '/api/user/inventory':
+                token = _extract_token(self.headers)
+                user = auth_service.get_user_by_token(token)
+                if not user:
+                    send_json(self, 401, {'error': 'UNAUTHORIZED', 'message': 'Chưa đăng nhập.'})
+                    return
+                send_json(self, 200, {'inventory': user.get('inventory', {})})
+                return
             if path == '/api/custom-dishes':
                 try:
                     with DATA_LOCK:

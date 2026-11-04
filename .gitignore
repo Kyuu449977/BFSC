@@ -47,3 +47,7 @@ design-skills/sources/
 /tmp_chrome_*/
 *.bak
 *.tmp
+
+# Temporary scratch files
+scratch/
+backend/data/users.json

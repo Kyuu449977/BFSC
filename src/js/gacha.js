@@ -44,6 +44,7 @@ class GachaEngine {
           )
         : null;
     this.ready = this.store ? this.store.ready : Promise.resolve();
+    this.initWishPity();
   }
   saveCollection() {
     try {
@@ -490,6 +491,104 @@ class GachaEngine {
           list.push({ ...d, mealId: g.id || id, mealName: g.name });
         }
     return list;
+  }
+  initWishPity() {
+    this.wishHardPity5 = 90;
+    this.wishSoftPity5Start = 75;
+    this.wishPityState = {
+      attemptsCount: 0,
+      pityCounter4: 0,
+      pityCounter5: 0,
+      guaranteedFeatured5Star: false,
+    };
+    try {
+      const saved = JSON.parse(localStorage.getItem('food_wish_pity_state') || '{}');
+      if (saved && typeof saved === 'object') {
+        if (Number.isSafeInteger(saved.attemptsCount)) this.wishPityState.attemptsCount = saved.attemptsCount;
+        if (Number.isSafeInteger(saved.pityCounter4)) this.wishPityState.pityCounter4 = saved.pityCounter4;
+        if (Number.isSafeInteger(saved.pityCounter5)) this.wishPityState.pityCounter5 = saved.pityCounter5;
+        if (typeof saved.guaranteedFeatured5Star === 'boolean') this.wishPityState.guaranteedFeatured5Star = saved.guaranteedFeatured5Star;
+      }
+    } catch (_) {}
+  }
+  saveWishPity() {
+    try {
+      localStorage.setItem('food_wish_pity_state', JSON.stringify(this.wishPityState));
+    } catch (_) {}
+  }
+  getWishPity() {
+    if (!this.wishPityState) this.initWishPity();
+    const p4 = this.wishPityState.pityCounter4;
+    const p5 = this.wishPityState.pityCounter5;
+    return {
+      attempts: this.wishPityState.attemptsCount,
+      pity4: p4,
+      pity5: p5,
+      toNext4Star: Math.max(1, 10 - (p4 % 10)),
+      toNext5Star: Math.max(1, 90 - (p5 % 90)),
+    };
+  }
+  rollWishOnce(poolDishes = null) {
+    if (!this.wishPityState) this.initWishPity();
+    const all = poolDishes && poolDishes.length ? poolDishes : this.getAllDishesList();
+    const dishesByRarity = {
+      5: all.filter((d) => (d.rarity || 3) === 5),
+      4: all.filter((d) => (d.rarity || 3) === 4),
+      3: all.filter((d) => (d.rarity || 3) <= 3),
+    };
+    if (!dishesByRarity[5].length) dishesByRarity[5] = all;
+    if (!dishesByRarity[4].length) dishesByRarity[4] = all;
+    if (!dishesByRarity[3].length) dishesByRarity[3] = all;
+
+    this.wishPityState.attemptsCount++;
+    this.wishPityState.pityCounter4++;
+    this.wishPityState.pityCounter5++;
+
+    let targetRarity = 3;
+    const isHardPity5 = this.wishPityState.pityCounter5 >= this.wishHardPity5;
+    const isSoftPity5 = this.wishPityState.pityCounter5 >= this.wishSoftPity5Start;
+    const isPity4 = this.wishPityState.pityCounter4 >= 10;
+
+    const fiveStarChance = isSoftPity5 ? 0.32 : 0.006;
+    const fourStarChance = 0.051;
+    const roll = this.random();
+
+    if (isHardPity5) {
+      targetRarity = 5;
+    } else if (roll < fiveStarChance) {
+      targetRarity = 5;
+    } else if (isPity4) {
+      targetRarity = 4;
+    } else if (roll < (fiveStarChance + fourStarChance)) {
+      targetRarity = 4;
+    } else {
+      targetRarity = 3;
+    }
+
+    if (targetRarity === 5) {
+      this.wishPityState.pityCounter5 = 0;
+    }
+    if (targetRarity >= 4) {
+      this.wishPityState.pityCounter4 = 0;
+    }
+
+    const candidatePool = dishesByRarity[targetRarity] || all;
+    const chosenDish = candidatePool[Math.floor(this.random() * candidatePool.length)];
+
+    return {
+      dish: chosenDish,
+      rarity: targetRarity,
+      bannerKey: typeof this.getActiveBannerKey === 'function' ? this.getActiveBannerKey() : 'main',
+      isNew: !this.collection[chosenDish.id],
+    };
+  }
+  rollWishMulti(count = 10, poolDishes = null) {
+    const results = [];
+    for (let i = 0; i < count; i++) {
+      results.push(this.rollWishOnce(poolDishes));
+    }
+    this.saveWishPity();
+    return results;
   }
   getCollectionStats() {
     const all = this.getAllDishesList(),
