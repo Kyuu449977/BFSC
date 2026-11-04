@@ -2,6 +2,7 @@ services:
   - type: web
     name: hom-nay-an-gi
     runtime: python
+    plan: free
     buildCommand: "python build_public.py"
     startCommand: "python server.py"
     envVars:
