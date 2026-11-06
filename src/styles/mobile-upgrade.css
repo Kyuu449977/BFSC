@@ -1,3 +1,4 @@
+.ad-shelf-section, .ad-shelf-unit, .ad-shelf-display { display: none !important; }
 /* Reserved advertising surfaces: no decorative vines or remount-on-resize. */
 .ad-shelf-section {
   display:flex;

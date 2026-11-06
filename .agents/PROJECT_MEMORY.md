@@ -8,7 +8,8 @@
   - Daily ticket quota: 20 pulls/day (`⚡ 20/20 vé`), auto-refreshed at 00:00.
   - 5% chance of rolling a brand-new dish; 95% duplicate drop converted into Breakthrough Shards ("Mảnh Đột Phá").
   - Star Breakthrough evolution: up to 5★ Hoàng Gia with visual glowing badge (`✦ ĐỘT PHÁ LÊN 5★! ✦`).
-  - Dual-mode architecture: Authoritative Python backend for local/VPS AND Resilient Static LocalEngine for Netlify CDN.
+  - Google Sign-In: Google Identity Services integration with real name, email, avatar parsing.
+- **Clean Experience:** 100% ad-free. All third-party advertising scripts (Monetag, Adsterra, PropellerAds, Bauval) and banner slots have been completely removed.
 
 ## 2. Live Deployments
 - **Netlify (Main Production):** `https://bfsc.netlify.app` (100% Free, auto-deployed from GitHub `main`).
