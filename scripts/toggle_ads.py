@@ -19,25 +19,62 @@ AD_DOMAINS = "https://quge5.com https://*.quge5.com https://*.monetag.com https:
 
 MONETAG_TAGS = '''    <meta name="monetag" content="3a5fa497959f6da564f92e240154c1e5" />
     <script>
-      // Trì hoãn nạp Monetag: Cú bấm đầu tiên luôn sạch 100% để người dùng chọn món mượt mà
+      // Giới hạn Monetag OnClick: Chỉ được chuyển trang / popunder đúng 1 lần trong 1 phiên vào web
       (function () {
-        var loaded = false;
-        function loadMonetag() {
-          if (loaded) return;
-          loaded = true;
-          var s = document.createElement('script');
-          s.src = 'https://quge5.com/88/tag.min.js';
-          s.setAttribute('data-zone', '303018');
-          s.setAttribute('data-cfasync', 'false');
-          s.async = true;
-          document.head.appendChild(s);
+        var SESSION_KEY = 'bfsc_monetag_redirected';
+        var isRedirected = false;
+        try {
+          isRedirected = sessionStorage.getItem(SESSION_KEY) === '1';
+        } catch (e) {
+          isRedirected = window.__bfsc_ad_redirected === true;
         }
+
+        // Nếu đã từng chuyển trang trong phiên này -> KHÔNG nạp Monetag
+        if (isRedirected) return;
+
+        var originalOpen = window.open;
+        var monetagScript = null;
+
+        function cleanupMonetag() {
+          try {
+            sessionStorage.setItem(SESSION_KEY, '1');
+          } catch (e) {
+            window.__bfsc_ad_redirected = true;
+          }
+          isRedirected = true;
+          if (monetagScript && monetagScript.parentNode) {
+            monetagScript.parentNode.removeChild(monetagScript);
+          }
+          // Khôi phục window.open nguyên bản sau khi đã chuyển trang 1 lần
+          window.open = originalOpen;
+        }
+
+        // Bọc window.open để chặn đứng sau đúng 1 lần chuyển trang duy nhất
+        window.open = function (url, target, features) {
+          if (isRedirected) {
+            return null;
+          }
+          cleanupMonetag();
+          return originalOpen.apply(this, arguments);
+        };
+
+        function loadMonetag() {
+          if (isRedirected) return;
+          monetagScript = document.createElement('script');
+          monetagScript.src = 'https://quge5.com/88/tag.min.js';
+          monetagScript.setAttribute('data-zone', '303018');
+          monetagScript.setAttribute('data-cfasync', 'false');
+          monetagScript.async = true;
+          document.head.appendChild(monetagScript);
+        }
+
         function triggerAfterFirstAction() {
           window.removeEventListener('click', triggerAfterFirstAction, true);
           window.removeEventListener('touchstart', triggerAfterFirstAction, true);
-          // Đợi 2.5 giây cho vòng quay món hoàn thành rồi mới nạp quảng cáo cho các lần bấm tiếp theo
+          // Trì hoãn 2.5s sau cú click đầu tiên để đảm bảo trải nghiệm mượt mà
           setTimeout(loadMonetag, 2500);
         }
+
         window.addEventListener('click', triggerAfterFirstAction, true);
         window.addEventListener('touchstart', triggerAfterFirstAction, true);
       })();

@@ -4,10 +4,17 @@
   flex-direction:column;
   align-items:center;
   justify-content:center;
-  gap:8px;
-  padding:24px 0;
+  gap:6px;
+  padding:10px 0 14px;
   border-block:1px solid var(--border);
-  margin:8px 0 24px;
+  margin:6px 0 14px;
+}
+.ad-shelf-section:empty,
+.ad-shelf-display:empty {
+  min-height:0;
+  padding:0;
+  margin:0;
+  border:none;
 }
 .ad-shelf-label,.sponsor-label {
   font-size:10px;

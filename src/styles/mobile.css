@@ -21,11 +21,12 @@ the same controls remain available at every size. */
     scroll-padding-top:24px;
   }
   .app {
-    width:calc(100% - 32px);
+    width:calc(100% - 20px);
+    max-width:100%;
   }
   .header {
-    padding:16px 0;
-    gap:12px;
+    padding:10px 0;
+    gap:8px;
     justify-content:space-between;
   }
   .mobile-nav {
@@ -77,14 +78,38 @@ the same controls remain available at every size. */
     display:flex;
     flex-direction:column;
     gap:12px;
-    padding:20px 0 24px;
+    padding:12px 0 16px;
+  }
+  .intro {
+    padding:2px 0 6px;
   }
   .intro h1 {
-    font-size:1.9rem;
+    font-size:1.75rem;
+    line-height:1.15;
+    margin-bottom:4px;
   }
+  .intro .intro-sub,
   .intro>p {
     font-size:.875rem;
-    margin-bottom:0;
+    margin:4px auto 0;
+    line-height:1.4;
+  }
+  .choose .actions {
+    gap:8px;
+  }
+  .choose #singleBtn,
+  .choose .action-hero-btn {
+    min-height:50px;
+    font-size:1.05rem;
+  }
+  .actions-secondary {
+    gap:8px;
+  }
+  .choose #tripleBtn,
+  .choose #comboBtn,
+  .action-sub-btn {
+    min-height:44px;
+    font-size:.875rem;
   }
   .intro-kicker {
     margin-bottom:12px;
@@ -97,16 +122,31 @@ the same controls remain available at every size. */
     padding:10px 8px;
   }
   .hero {
-    grid-template-columns: 110px minmax(0, 1fr);
-    gap: 14px;
-    padding: 14px;
+    grid-template-columns: 100px minmax(0, 1fr);
+    gap: 12px;
+    padding: 12px;
+    margin-top: 4px;
     width: 100%;
   }
   .hero-photo {
-    height: 120px;
+    height: 105px;
+    border-radius: 8px;
   }
   .hero-copy h2 {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
+    margin: 2px 0;
+  }
+  .hero-price {
+    font-size: 0.95rem;
+    margin-bottom: 4px;
+  }
+  .hero-tools {
+    gap: 6px;
+  }
+  .hero-tools button {
+    min-height: 38px;
+    font-size: 0.8125rem;
+    padding: 6px 12px;
   }
   .budget-panel {
     width:100%;
@@ -116,7 +156,10 @@ the same controls remain available at every size. */
     padding-top:16px;
   }
   .menu-section {
-    padding:28px 0;
+    padding:18px 0 20px;
+  }
+  .menu-grid {
+    gap:10px;
   }
   .section-heading {
     gap:8px;
@@ -159,11 +202,25 @@ the same controls remain available at every size. */
     top:6px;
   }
   .filters {
+    display:flex;
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+    padding:4px 2px;
     gap:6px;
+    margin-bottom:8px;
+  }
+  .filters::-webkit-scrollbar {
+    display:none;
   }
   .filters button {
-    padding:10px 12px;
-    font-size:12px;
+    flex:0 0 auto;
+    white-space:nowrap;
+    padding:7px 14px;
+    font-size:.8125rem;
+    min-height:36px;
+    border-radius:var(--radius-pill);
   }
   .personal-view {
     flex-direction:column;
@@ -190,8 +247,9 @@ the same controls remain available at every size. */
     font-size:1.8rem;
   }
   footer {
-    padding-bottom:calc(96px + env(safe-area-inset-bottom));
-    gap:12px;
+    padding:16px 0 calc(76px + env(safe-area-inset-bottom));
+    gap:10px;
+    font-size:.75rem;
   }
   .legal-links {
     width:100%;

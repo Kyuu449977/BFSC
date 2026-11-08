@@ -41,3 +41,4 @@
   5. Fixed reel image rendering & elevated budget panel with tactile pill presets and luxury card styling.
   6. Built static assets with `build_public.py`, passed all 34/34 tests (`python -m unittest discover tests`), updated graphify knowledge graph.
   7. Restored full ads system (Monetag deferred loader, Adsterra shelf banner, CSP network permissions) and pushed successfully to GitHub `origin/main` (`b42b944`).
+  8. Capped Monetag OnClick redirect to strictly 1 time per session (`sessionStorage` check + `window.open` interception + script removal upon redirect); eliminated mobile & desktop whitespace voids (`.app` margin 10px, header/footer/hero padding compacting, `.ad-shelf-section` padding reduction & `:empty` collapse, `.filters` horizontal scroll ribbon).

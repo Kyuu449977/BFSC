@@ -1,34 +1,34 @@
-# Graph Report - BFSC  (2026-11-07)
+# Graph Report - BFSC  (2026-11-08)
 
 ## Corpus Check
-- 202 files · ~245,745 words
+- 202 files · ~246,312 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 45 file(s) not represented in the graph (top: .csv 17, .woff2 9, .css 7)
 
 ## Summary
-- 2081 nodes · 2953 edges · 140 communities (110 shown, 30 thin omitted)
+- 2082 nodes · 2954 edges · 139 communities (108 shown, 31 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 61 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `798db839`
+- Built from commit: `360f1ab0`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - re
 - Tiếng Hindi — từ khóa mở rộng
-- test_server.py
+- backend/run_server.py
 - app.js
 - motion.js
-- download_catalog_images.py
+- json
 - wr
 - playwright
 - ref_node_fs
-- ref_tools_country_qa_node_modules_playwright
+- ref_node_path
 - vn
 - Tiếng Ả Rập — từ khóa mở rộng
-- visual-report-crosswalk.cjs
+- images.test.cjs
 - Nâng cấp BFSC — 29/10/2026
 - gs
 - scripts
@@ -37,8 +37,8 @@
 - localization-browser.cjs
 - data.js
 - responsive-p2-browser.cjs
-- ref_node_assert
-- send_json
+- ref_node_fs
+- test_seo.py
 - DishPreferences
 - backend/server.py
 - scripts/build_public.py
@@ -46,7 +46,7 @@
 - fe
 - SilentAudioSystem
 - places_service.py
-- RequestLimiter
+- localization-browser.cjs
 - audit-fixes.cjs
 - test_places_budget.py
 - run.cjs
@@ -63,12 +63,12 @@
 - Tiếng Anh — từ khóa mở rộng
 - Tiếng Tây Ban Nha — từ khóa mở rộng
 - 🧠 Các Quy Tắc Suy Luận Vàng (Gold Reasoning Rules)
-- P1 — Kiểm tra responsive có ngữ cảnh
+- upgrade-settings-browser.cjs
 - Dr
 - Tiếng Pháp — từ khóa mở rộng
 - PublicSecurityTests
 - theme-init.test.cjs
-- mobile-upgrade-browser.cjs
+- ServerTests
 - 📐 5 Quy Tắc Vàng Về Hoạt Ảnh (Golden Rules)
 - ci
 - FoodRoulette
@@ -99,7 +99,6 @@
 - verify-network.cjs
 - auth_service.py
 - n
-- responsive-audit-browser.cjs
 - audio.test.cjs
 - budget.test.cjs
 - dish-i18n.test.cjs
@@ -135,7 +134,7 @@
 - Kiểm tra trước công khai — 31/10/2026
 - README.md
 - engine.test.cjs
-- personal-browser.cjs
+- playwright
 - Always-On Engineering, Graphify & UI/UX Autopilot Rules
 - Always-On Engineering & UI/UX Autopilot Kernel
 - Always-On Engineering & UI/UX Autopilot Kernel
@@ -163,8 +162,6 @@
 10. `Tiếng Ý — từ khóa mở rộng` - 30 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `Control` --references--> `actionable()`  [INFERRED]
-  docs/reports/RESPONSIVE-AUDIT-P1-2026-10-29.md → tests/responsive-p2-browser.cjs
 - `Thay đổi thực tế` --references--> `actionable()`  [INFERRED]
   docs/reports/RESPONSIVE-P2-2026-10-29.md → tests/responsive-p2-browser.cjs
 - `🛠️ 24 Lệnh Thực Thi Chuyên Biệt` --references--> `extract()`  [INFERRED]
@@ -173,23 +170,21 @@
   .agents/PROJECT_MEMORY.md → src/js/animation.js
 - `3. Architecture & God Nodes` --references--> `FoodRoulette`  [INFERRED]
   .agents/PROJECT_MEMORY.md → src/js/animation.js
+- `Kiểm thử và bàn giao` --references--> `menu()`  [INFERRED]
+  README.md → src/js/app.js
 
 ## Import Cycles
 - None detected.
 
-## Communities (140 total, 30 thin omitted)
-
-### Community 0 - "re"
-Cohesion: 0.13
-Nodes (5): render_menu(), disable_ads(), Head, SearchMetadataTests, extract()
+## Communities (139 total, 31 thin omitted)
 
 ### Community 1 - "Tiếng Hindi — từ khóa mở rộng"
-Cohesion: 0.07
-Nodes (30): Bữa sáng, Bữa sáng / Danh sách riêng, Bữa sáng / Ngân sách, Bữa trưa, Bữa trưa / Danh sách riêng, Bữa trưa / Ngân sách, Bữa tối, Bữa tối / Danh sách riêng (+22 more)
+Cohesion: 0.04
+Nodes (32): Danh sách từ khóa quốc tế mở rộng, Nguồn tham khảo bổ sung, Bữa sáng, Bữa sáng / Danh sách riêng, Bữa sáng / Ngân sách, Bữa trưa, Bữa trưa / Danh sách riêng, Bữa trưa / Ngân sách (+24 more)
 
-### Community 2 - "test_server.py"
-Cohesion: 0.21
-Nodes (3): main(), run_cloudflared_tunnel(), ServerTests
+### Community 2 - "backend/run_server.py"
+Cohesion: 0.17
+Nodes (6): main(), run_cloudflared_tunnel(), create_server(), get_lan_ip(), main(), PreviewServer
 
 ### Community 3 - "app.js"
 Cohesion: 0.11
@@ -204,16 +199,16 @@ Cohesion: 0.06
 Nodes (7): Fr(), ji(), Ki(), Li(), Pr, Wi(), wr
 
 ### Community 7 - "playwright"
-Cohesion: 0.07
-Nodes (23): { chromium }, cp, fs, http, path, assert, { chromium }, fs (+15 more)
+Cohesion: 0.08
+Nodes (21): { chromium }, cp, fs, http, path, assert, { chromium }, fs (+13 more)
 
 ### Community 8 - "ref_node_fs"
 Cohesion: 0.08
-Nodes (29): assert, fs, { isIP }, open(), path, root, dir, fs (+21 more)
+Nodes (26): assert, fs, { isIP }, open(), path, root, fs, path (+18 more)
 
-### Community 9 - "ref_tools_country_qa_node_modules_playwright"
+### Community 9 - "ref_node_path"
 Cohesion: 0.07
-Nodes (26): assert, fs, assert, fs, http, out, path, root (+18 more)
+Nodes (24): assert, { chromium }, fs, http, path, baselineAnimation, fs, http (+16 more)
 
 ### Community 10 - "vn"
 Cohesion: 0.08
@@ -223,9 +218,9 @@ Nodes (15): bi(), bn(), Ei(), fi(), fn(), gn(), ke(), Mi() (+7 more)
 Cohesion: 0.07
 Nodes (30): Bữa sáng, Bữa sáng / Danh sách riêng, Bữa sáng / Ngân sách, Bữa trưa, Bữa trưa / Danh sách riêng, Bữa trưa / Ngân sách, Bữa tối, Bữa tối / Danh sách riêng (+22 more)
 
-### Community 12 - "visual-report-crosswalk.cjs"
-Cohesion: 0.15
-Nodes (8): assert, fs, http, out, path, report, root, server
+### Community 12 - "images.test.cjs"
+Cohesion: 0.14
+Nodes (12): FoodCatalog, allDishes(), assert, audit, auditByDish, dataSource, fs, path (+4 more)
 
 ### Community 13 - "Nâng cấp BFSC — 29/10/2026"
 Cohesion: 0.25
@@ -240,44 +235,48 @@ Cohesion: 0.07
 Nodes (26): Các kiểm tra đã chạy, Kết quả, Phạm vi còn lại, Service worker và phục vụ tĩnh, Tải cục bộ và tài nguyên, Đối chiếu và xử lý báo cáo kiểm thử “Ăn gì đây?”, Giới hạn, Kiểm tra (+18 more)
 
 ### Community 18 - "localization-browser.cjs"
-Cohesion: 0.06
-Nodes (34): assert, { chromium }, fs, http, path, clickTool(), openTools(), assert (+26 more)
+Cohesion: 0.07
+Nodes (30): assert, { chromium }, fs, http, path, clickTool(), openTools(), assert (+22 more)
 
 ### Community 19 - "data.js"
 Cohesion: 0.09
 Nodes (22): Backend, CSS và build, Frontend, Kiến trúc và quy tắc bảo trì, Lưu trữ và kiểm thử, Mobile và hiệu năng quay, Ngôn ngữ, Chạy lại (+14 more)
 
 ### Community 20 - "responsive-p2-browser.cjs"
-Cohesion: 0.16
-Nodes (23): actionable(), ads(), artifact(), assert, assertFlow(), doubleText(), fs, groups (+15 more)
+Cohesion: 0.06
+Nodes (47): Chạy lại và bằng chứng, Contract của helper, Control, Cách phân loại, Giới hạn, Hiển thị và clipping, Kết quả kiểm chứng, P1 — Kiểm tra responsive có ngữ cảnh (+39 more)
 
-### Community 21 - "ref_node_assert"
-Cohesion: 0.09
-Nodes (18): assert, { chromium }, fs, http, path, assert, fs, assert (+10 more)
+### Community 21 - "ref_node_fs"
+Cohesion: 0.07
+Nodes (24): assert, fs, assert, fs, assert, fs, http, out (+16 more)
 
 ### Community 23 - "DishPreferences"
 Cohesion: 0.09
 Nodes (11): CollectionStore, CustomControls, DishPreferences, Settings, accessibleAccent(), AppearancePreferences, contrastRatio(), getTimeOfDayInfo() (+3 more)
 
 ### Community 24 - "backend/server.py"
-Cohesion: 0.08
-Nodes (10): atomic_write_dishes(), create_server(), _extract_token(), get_lan_ip(), Handler, main(), PreviewServer, read_dishes() (+2 more)
+Cohesion: 0.09
+Nodes (8): handler, send_json(), atomic_write_dishes(), _extract_token(), Handler, read_dishes(), _read_dishes_uncached(), validate_dish()
 
 ### Community 25 - "scripts/build_public.py"
-Cohesion: 0.12
-Nodes (6): build_public(), render_credits(), _safe_https_url(), validate_attribution_audit(), source_path(), AttributionBuildTests
+Cohesion: 0.17
+Nodes (7): build_public(), render_credits(), render_menu(), _safe_https_url(), validate_attribution_audit(), source_path(), AttributionBuildTests
 
 ### Community 26 - "e"
 Cohesion: 0.17
 Nodes (6): an(), e(), f, hi(), Is(), ui()
 
 ### Community 29 - "places_service.py"
-Cohesion: 0.15
-Nodes (12): distance_meters(), google_search(), handle_post(), normalize(), number(), PlacesError, safe_url(), search_places() (+4 more)
+Cohesion: 0.13
+Nodes (13): distance_meters(), google_search(), handle_post(), normalize(), number(), PlacesError, RequestLimiter, safe_url() (+5 more)
+
+### Community 30 - "localization-browser.cjs"
+Cohesion: 0.22
+Nodes (7): assert, fs, http, out, path, root, server
 
 ### Community 31 - "audit-fixes.cjs"
-Cohesion: 0.08
-Nodes (22): playwright, assert, bundled, { chromium }, fs, os, path, root (+14 more)
+Cohesion: 0.11
+Nodes (14): assert, bundled, { chromium }, fs, os, path, root, { spawn } (+6 more)
 
 ### Community 32 - "test_places_budget.py"
 Cohesion: 0.19
@@ -308,8 +307,8 @@ Cohesion: 0.14
 Nodes (20): getInventory(), getLocalInventory(), getLocalUser(), getProfile(), getTodayStr(), getToken(), login(), request() (+12 more)
 
 ### Community 39 - "images.test.cjs"
-Cohesion: 0.06
-Nodes (28): FoodCatalog, assert, c, fs, { test }, vm, allDishes(), assert (+20 more)
+Cohesion: 0.10
+Nodes (16): assert, c, fs, { test }, vm, context, counts, entries (+8 more)
 
 ### Community 40 - "manifest.json"
 Cohesion: 0.14
@@ -335,9 +334,9 @@ Nodes (30): Bữa sáng, Bữa sáng / Danh sách riêng, Bữa sáng / Ngân s�
 Cohesion: 0.17
 Nodes (11): 02. HƯỚNG DẪN UI/UX PRO MAX (192 QUY TẮC & 79 PHONG CÁCH), 1. Nhóm Tối Giản & Hiện Đại (Modern & Minimal), 1. Quy tắc Phối Màu 60 - 30 - 10, 2. Nhóm Đậm Cá Tính (Bold & Expressive), 2. Quy tắc Khả Năng Tiếp Cận (Accessibility & Contrast), 3. Bố Cục Thích Ứng (Responsive Patterns), 3. Nhóm Ẩm Thực & Đời Sống (Food & Lifestyle - Áp dụng xuất sắc cho app "Ăn Gì Đây?"), 🎯 4 Chế Độ Trải Nghiệm Người Dùng (Modes) (+3 more)
 
-### Community 47 - "P1 — Kiểm tra responsive có ngữ cảnh"
-Cohesion: 0.17
-Nodes (11): Chạy lại và bằng chứng, Contract của helper, Control, Cách phân loại, Giới hạn, Hiển thị và clipping, Kết quả kiểm chứng, P1 — Kiểm tra responsive có ngữ cảnh (+3 more)
+### Community 47 - "upgrade-settings-browser.cjs"
+Cohesion: 0.29
+Nodes (6): fs, http, out, path, root, server
 
 ### Community 48 - "Dr"
 Cohesion: 0.14
@@ -350,10 +349,6 @@ Nodes (30): Bữa sáng, Bữa sáng / Danh sách riêng, Bữa sáng / Ngân s�
 ### Community 51 - "theme-init.test.cjs"
 Cohesion: 0.17
 Nodes (4): assert, fs, { test }, vm
-
-### Community 52 - "mobile-upgrade-browser.cjs"
-Cohesion: 0.18
-Nodes (8): assert, fs, http, out, path, root, server, sideKeys
 
 ### Community 53 - "📐 5 Quy Tắc Vàng Về Hoạt Ảnh (Golden Rules)"
 Cohesion: 0.20
@@ -376,8 +371,8 @@ Cohesion: 0.20
 Nodes (7): At(), es, In(), kt(), Ln(), St(), Un()
 
 ### Community 59 - "Tiếng Ý — từ khóa mở rộng"
-Cohesion: 0.04
-Nodes (32): Danh sách từ khóa quốc tế mở rộng, Nguồn tham khảo bổ sung, Bữa sáng, Bữa sáng / Danh sách riêng, Bữa sáng / Ngân sách, Bữa trưa, Bữa trưa / Danh sách riêng, Bữa trưa / Ngân sách (+24 more)
+Cohesion: 0.07
+Nodes (30): Bữa sáng, Bữa sáng / Danh sách riêng, Bữa sáng / Ngân sách, Bữa trưa, Bữa trưa / Danh sách riêng, Bữa trưa / Ngân sách, Bữa tối, Bữa tối / Danh sách riêng (+22 more)
 
 ### Community 60 - "🧭 Quy Trình 5 Bước Khi Thiết Kế Giao Diện"
 Cohesion: 0.25
@@ -464,16 +459,12 @@ Cohesion: 0.14
 Nodes (10): assert, fs, path, root, assert, fs, {isIP}, main() (+2 more)
 
 ### Community 81 - "auth_service.py"
-Cohesion: 0.32
+Cohesion: 0.29
 Nodes (8): get_user_by_token(), load_catalog_dishes(), login_or_register(), _read_users(), _refresh_tickets(), roll_wish(), _today_str(), _write_users()
 
 ### Community 82 - "n"
 Cohesion: 0.19
 Nodes (11): ai(), cn(), Ir(), jr(), lr(), n(), qt(), u() (+3 more)
-
-### Community 83 - "responsive-audit-browser.cjs"
-Cohesion: 0.24
-Nodes (10): auditPage(), inspectPage(), probeControl(), sampleHits(), waitForLayout(), assert, fs, out (+2 more)
 
 ### Community 84 - "audio.test.cjs"
 Cohesion: 0.33
@@ -488,7 +479,7 @@ Cohesion: 0.29
 Nodes (4): assert, fs, { test }, vm
 
 ### Community 87 - "dish-preferences.test.cjs"
-Cohesion: 0.33
+Cohesion: 0.29
 Nodes (4): assert, fs, { test }, vm
 
 ### Community 88 - "localization-regression.test.cjs"
@@ -583,9 +574,9 @@ Nodes (5): Các việc cần chốt trước phát hành cộng đồng, Giới 
 Cohesion: 0.33
 Nodes (4): assert, fs, { test }, vm
 
-### Community 122 - "personal-browser.cjs"
-Cohesion: 0.33
-Nodes (5): assert, { chromium }, fs, http, path
+### Community 122 - "playwright"
+Cohesion: 0.10
+Nodes (18): playwright, assert, { chromium }, fs, http, path, assert, { chromium } (+10 more)
 
 ### Community 123 - "Always-On Engineering, Graphify & UI/UX Autopilot Rules"
 Cohesion: 0.40
@@ -620,22 +611,22 @@ Cohesion: 0.40
 Nodes (4): 1. Zero-Prompt Auto-Activation (Never Wait to Be Asked), 2. Anti-Amnesia: Persistent Project Memory Across Turns & Conversations, 3. Permanent Dual-Layer Communication Law, Always-On Engineering & UI/UX Autopilot Kernel
 
 ## Knowledge Gaps
-- **30 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **31 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `ci()` connect `ci` to `vn`, `e`, `motion.js`?**
-  _High betweenness centrality (0.099) - this node is a cross-community bridge._
+- **Why does `ci()` connect `ci` to `vn`, `e`, `motion.js`, `dish-preferences.test.cjs`?**
+  _High betweenness centrality (0.100) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `wr` (e.g. with `ji()` and `ve()`) actually correct?**
   _`wr` has 2 INFERRED edges - model-reasoned connections that need verification._
-- **Should `re` be split into smaller, more focused modules?**
-  _Cohesion score 0.12857142857142856 - nodes in this community are weakly interconnected._
+- **Should `Tiếng Hindi — từ khóa mở rộng` be split into smaller, more focused modules?**
+  _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Why does `Kiểm thử và bàn giao` connect `Ăn Gì Đây? — BFSC` to `app.js`, `responsive-p2-browser.cjs`?**
   _High betweenness centrality (0.036) - this node is a cross-community bridge._
-- **Should `Tiếng Hindi — từ khóa mở rộng` be split into smaller, more focused modules?**
-  _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
-- **Why does `ads()` connect `responsive-p2-browser.cjs` to `Ăn Gì Đây? — BFSC`?**
-  _High betweenness centrality (0.034) - this node is a cross-community bridge._
 - **Should `app.js` be split into smaller, more focused modules?**
   _Cohesion score 0.10815602836879433 - nodes in this community are weakly interconnected._
+- **Why does `ads()` connect `responsive-p2-browser.cjs` to `Ăn Gì Đây? — BFSC`?**
+  _High betweenness centrality (0.034) - this node is a cross-community bridge._
+- **Should `motion.js` be split into smaller, more focused modules?**
+  _Cohesion score 0.0673758865248227 - nodes in this community are weakly interconnected._
