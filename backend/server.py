@@ -42,7 +42,7 @@ SECURITY_HEADERS = {
     'X-Content-Type-Options': 'nosniff',
     'X-Frame-Options': 'DENY',
     'Referrer-Policy': 'strict-origin-when-cross-origin',
-    'Content-Security-Policy': "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://accounts.google.com https://accounts.google.com/gsi/client; style-src 'self' 'unsafe-inline' https://accounts.google.com; img-src 'self' data: https: blob: https://lh3.googleusercontent.com; font-src 'self' https: data:; connect-src 'self' https://accounts.google.com https://accounts.google.com/gsi/ https:; frame-src 'self' https: data: https://accounts.google.com; child-src 'self' https: blob:; worker-src 'self' blob:; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'",
+    'Content-Security-Policy': "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://accounts.google.com https://accounts.google.com/gsi/client https://quge5.com https://*.quge5.com https://*.monetag.com https://*.propellerads.com https://bauval.org https://*.bauval.org https://*.adsterra.com; style-src 'self' 'unsafe-inline' https://accounts.google.com; img-src 'self' data: https: blob: https://lh3.googleusercontent.com; font-src 'self' https: data:; connect-src 'self' https://accounts.google.com https://accounts.google.com/gsi/ https://quge5.com https://*.quge5.com https://*.monetag.com https://*.propellerads.com https://bauval.org https://*.bauval.org https://*.adsterra.com https:; frame-src 'self' https: data: https://accounts.google.com; child-src 'self' https: blob:; worker-src 'self' blob:; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'",
 }
 
 def validate_dish(payload):

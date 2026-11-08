@@ -425,15 +425,15 @@ const AppearancePreferences = (() => {
 
     // Shared neutral surfaces; saved accent choices remain independent.
     const surfaces = dark
-      ? {'--cream':'#131B17','--card-bg':'#1C2821','--surface':'#1C2821','--surface-card':'#1C2821','--surface-hover':'#26392D','--hero-surface':'#1C2821','--ink':'#EDF3EE','--muted':'#B0C2B5','--border':'#35473B'}
-      : {'--cream':'#F5F7F4','--card-bg':'#FCFDFC','--surface':'#FCFDFC','--surface-card':'#FCFDFC','--surface-hover':'#EAF0EA','--hero-surface':'#FCFDFC','--ink':'#19251F','--muted':'#526458','--border':'#D8E2DA'};
+      ? {'--cream':'#0E1210','--card-bg':'#151C18','--surface':'#151C18','--surface-card':'#151C18','--surface-hover':'#1D2621','--hero-surface':'#151C18','--ink':'#F2F5F3','--muted':'#9CA8A0','--border':'#26332B'}
+      : {'--cream':'#FBF9F5','--card-bg':'#FFFFFF','--surface':'#FFFFFF','--surface-card':'#FFFFFF','--surface-hover':'#F4EFEB','--hero-surface':'#FFFFFF','--ink':'#181D1A','--muted':'#606863','--border':'#EAE5DC'};
     if (docEl.style) {
       Object.entries(surfaces).forEach(([key,value]) => docEl.style.setProperty(key,value));
       if (theme === 'system') {
-        docEl.style.setProperty('--orange', dark ? '#85D6AC' : '#1F6D4D');
-        docEl.style.setProperty('--accent-hover', dark ? '#A1E4C1' : '#17543B');
-        docEl.style.setProperty('--orange-soft', dark ? '#263D30' : '#E3EEE6');
-        docEl.style.setProperty('--primary-ink', dark ? '#13251A' : '#FFFFFF');
+        docEl.style.setProperty('--orange', dark ? '#D4AF37' : '#B84324');
+        docEl.style.setProperty('--accent-hover', dark ? '#E5C158' : '#9E3219');
+        docEl.style.setProperty('--orange-soft', dark ? 'rgba(212, 175, 55, 0.14)' : 'rgba(184, 67, 36, 0.08)');
+        docEl.style.setProperty('--primary-ink', dark ? '#0E1210' : '#FFFFFF');
       }
     }
     const meta = document.querySelector('meta[name="theme-color"]');
@@ -450,7 +450,7 @@ const AppearancePreferences = (() => {
       } else {
         meta.content = { green: '#f5faf6', blue: '#f5f9fc', rose: '#fcf6f8' }[theme] || '#fcf9f5';
       }
-      meta.content = dark ? '#131B17' : '#F5F7F4';
+      meta.content = dark ? '#0B110E' : '#FAF7F2';
     }
   }
 

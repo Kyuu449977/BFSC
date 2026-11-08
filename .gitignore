@@ -51,3 +51,6 @@ design-skills/sources/
 # Temporary scratch files
 scratch/
 backend/data/users.json
+
+# Graphify ephemeral cache
+graphify-out/cache/ast/

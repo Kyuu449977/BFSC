@@ -3,7 +3,10 @@ const UI = {
     img.onerror = () => {
       img.onerror = null;
       img.dataset.failed = 'true';
-      img.hidden = true;
+      if (!img.src.includes('brand.svg')) {
+        img.src = 'assets/brand.svg';
+        img.hidden = false;
+      }
     };
     delete img.dataset.failed;
     img.hidden = false;

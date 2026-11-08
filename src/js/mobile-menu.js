@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   document.getElementById('toolNav').addEventListener('click', event => {
     const trigger = event.target.closest('button');
-    if (trigger && !['bgmBtn','soundBtn'].includes(trigger.id)) dialog.close();
+    if (trigger) dialog.close();
   }, true);
   dialog.addEventListener('close', () => {
     button.setAttribute('aria-expanded', 'false');

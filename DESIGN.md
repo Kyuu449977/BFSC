@@ -1,50 +1,49 @@
-# Ăn gì đây — Food discovery application
+# Bữa Ăn Hôm Nay — Michelin Editorial Design System
 
-## Intent and structure
-Quick selection is the primary task. One prominent action per area. Main navigation:
-Choose, Menu, Collection. All secondary tools live in the Settings dialog.
-Home has six preview cards; menu/collection have twelve per page without document reload.
-Do not restore the removed introduction panel. No external fonts, frameworks or WebGL.
+## Intent and Structure
+Culinary editorial design inspired by Kinfolk, Michelin Guide, and NYT Cooking.
+Zero AI Slop: No cheesy AI chat prompts, no gradient abuse, no emoji spam, no nested "box-in-box".
+One clear visual anchor on the Home screen: Primary "Gợi ý bữa ngon" (Terracotta accent) flanked by balanced secondary actions ("3 món cân bằng", "Thực đơn Combo").
+Main navigation: Choose, Menu, Settings. Secondary tools live in the Settings dialog.
 
-## Tokens
-Light: canvas #F5F7F4, surface #FCFDFC, text #19251F, secondary #526458,
-accent #1F6D4D, accent text #FFFFFF, border #D8E2DA.
-Dark: canvas #131B17, surface #1C2821, text #EDF3EE, secondary #B0C2B5,
-accent #85D6AC, accent text #13251A, border #35473B.
-System uses this palette. Saved orange/green/blue/rose/custom accents remain supported.
-Automatic appearance still follows time; system appearance follows OS preference.
+## Tokens (Michelin Editorial Archetype)
+Light (Ivory Silk & Terracotta):
+- Canvas: #FBF9F5 (Warm linen silk paper)
+- Surface: #FFFFFF (Pure porcelain card surface)
+- Surface Hover: #F4EFEB (Subtle warm stone tint)
+- Text Primary (Ink): #181D1A (Deep charcoal truffle ink)
+- Text Secondary (Muted): #606863 (Warm riverbed gray)
+- Accent (Primary Terracotta): #B84324 (Rich fired terracotta clay)
+- Accent Hover: #A2371B
+- Accent Text: #FFFFFF
+- Accent Soft: rgba(184, 67, 36, 0.10)
+- Gold Win Accent: #D4AF37 (Champagne Gold)
+- Border / Hairline: #EAE5DC (Refined editorial hairline divider)
 
-Be Vietnam Pro (local), body 16px/1.6, secondary 14px/1.5, captions 13px.
-Heading sizes 36/28/22px desktop, 30/24/20px mobile. Spacing 4/8/12/16/24/32/48px.
-Control radius 12px, cards/dialogs 16px. Controls at least 44px; focus ring 3px.
-Photographs 4:3 with reserved space. No neon shadows, decorative vines or boxed eyebrows.
+Dark (Obsidian & Champagne):
+- Canvas: #0E1210 (Deep midnight noir)
+- Surface: #151C18 (Dark charcoal silk)
+- Surface Hover: #1D2621
+- Text Primary: #F2F5F3 (Warm bone white)
+- Text Secondary: #9CA8A0
+- Accent: #D4AF37 (Warm champagne gold)
+- Accent Hover: #E5C158
+- Accent Text: #0E1210
+- Accent Soft: rgba(212, 175, 55, 0.12)
+- Border: #26332B
 
-## Responsive and motion
-320–639px: two card columns, bottom navigation, controls precede featured image.
-640–1099px: three columns. 1100px+: four columns; desktop choose/feature split.
-Content maximum 1120px. Dialogs have fixed header/actions and an independently scrolling body.
-Use safe areas and visual viewport sizing; min-width/min-height zero on scroll/grid children.
-Only transform/opacity animate, typically 150–220ms, with reduced-motion support.
-Low-end roulette keeps twelve reusable cards/1.2s; normal remains 32/2.5s.
+Typography:
+- Be Vietnam Pro (local), Body 16px/1.6, Secondary 14px/1.5, Caption 12px/1.4.
+- Heading sizes: Desktop 36/28/22px, Mobile 28/22/18px. Letter-spacing -0.02em on headings.
+- Spacing rhythm: 4/8/12/16/24/32/48px.
+- Radius: Controls 12px/999px (pill), Cards 16px, Dialogs 20px. Target size >= 44px.
+- Zero box-in-box: Maximum 1 outer border per section; use whitespace and tonal surfaces for separation.
+- Physics: Sub-200ms tactile spring feedback, cubic-bezier(0.22, 1, 0.36, 1). Strict 3D/Canvas lock.
 
-## States and invariants
-Every flow covers initial, pending, empty/prerequisite, error and success states.
-Specific inline errors, preserved input on failure, no silent success on storage errors.
-Keep all five languages, data IDs, prices, persisted keys and selection probabilities.
-Ads retain keys/dimensions, remain outside primary controls, do not remount on pagination.
-Validate all supported accent palettes for WCAG AA 4.5:1 text contrast.
-
-## Compact layout refinement (2026-10-31)
-Menu heading groups collection/add controls; wraps on small screens. Card text padding 12px, gap 4px, no flex-grown text body. Home spacing 12px, desktop rows content-sized except remaining budget row. Mobile featured card uses a 104px photo column and natural-height text. Settings width up to 580px, desktop label/action rows, stacked mobile groups, content-driven height. Preserve 44px targets and 4:3 photos.
-
-Menu status/back link share a wrapping summary row. Below 768px, the menu title owns a full row so action buttons cannot squeeze its text.
-
-Content-shaped frames: home60/40 at1024+, stacked horizontal feature below; result single800px/40:60, multi960px/three columns900+. Card metadata wraps naturally; custom640px with count/action row.
-
-Choose-first home supersedes 60/40: centered720px action column at all sizes, horizontal small hero below; primary60px/18px, stable translated question, secondary outlined. Time/night metadata follows selection.
-
-Soft surface update: control16px, card/dialog24px, pill999px and primary20px radii. Mode pills share a subtle group surface; menu cards use surface separation with transparent borders. Preserve readable spacing and first-screen actions.
-
-Translucent treatment requested: cards use86% surface, dialogs94%, page subtle accent wash. Blur limited to dialogs12px and backdrop4px; text and primary controls stay opaque.
-
-Featured card supersedes inset thumbnail: full-height left image40% desktop/96px below768, CSS mask opaque to50% then transparent; content begins16px beyond image; failed-image layout removes reserved width. No animation or duplicate background download.
+## Responsive and Motion
+- 320–639px: Mobile vertical flow with bottom 3-tab navigation bar.
+- 640–1099px: Three columns in menu grid; stacked hero on tablet.
+- 1100px+: Desktop editorial spread. Content maximum 1120px.
+- Dialogs: Fixed header/actions, independently scrolling body (`overflow-y: auto; min-h-0`).
+- Only transform/opacity animate (150–220ms).
+- Respect `prefers-reduced-motion` at all times.

@@ -47,12 +47,12 @@ document.addEventListener('DOMContentLoaded', () => {
       period_afternoon: 'BUỔI CHIỀU · MÓN VIỆT MỖI NGÀY',
       period_dinner: 'BUỔI TỐI · MÓN VIỆT MỖI NGÀY',
       period_latenight: 'BUỔI KHUYA · MÓN VIỆT MỖI NGÀY',
-      title_default: 'Hôm nay ăn gì?',
+      title_default: 'Bữa Ăn Hôm Nay',
       title_main: 'Món chính hôm nay',
       title_snacks: 'Ăn vặt hôm nay',
       title_drinks: 'Thức uống thanh mát',
-      slogan: 'Chọn nhóm món, để web gợi ý cho bạn.',
-      latenight_notice: 'Gợi ý dành cho buổi khuya.',
+      slogan: 'Khám phá hương vị Việt qua từng gợi ý tinh tuyển mỗi ngày.',
+      latenight_notice: 'Bữa đêm thanh đạm: Hãy ưu tiên món nhẹ nhàng cho dạ dày bạn nhé.',
       mode_main: 'Món chính',
       mode_snacks: 'Ăn vặt',
       mode_drinks: 'Đồ uống',
@@ -60,9 +60,9 @@ document.addEventListener('DOMContentLoaded', () => {
       hero_price_note: 'giá tham khảo',
       hero_find_btn: 'Xem món & tìm quán',
       hero_caption: 'Hương vị Việt, lựa chọn mỗi ngày',
-      btn_single: 'Chọn 1 món',
-      btn_triple: 'Chọn 3 món',
-      btn_combo: 'Tạo combo',
+      btn_single: 'Gợi ý bữa ngon',
+      btn_triple: '3 món cân bằng',
+      btn_combo: 'Thực đơn Combo',
       budget_panel_title: 'Ngân sách & sở thích',
       budget_unlimited: 'Không giới hạn',
       budget_label: 'Tổng số tiền bạn muốn chi (đ)',
@@ -256,12 +256,12 @@ document.addEventListener('DOMContentLoaded', () => {
       period_afternoon: 'AFTERNOON · DAILY VIETNAMESE FLAVORS',
       period_dinner: 'DINNER · DAILY VIETNAMESE FLAVORS',
       period_latenight: 'LATE NIGHT · DAILY VIETNAMESE FLAVORS',
-      title_default: 'What to eat today?',
+      title_default: "Today's Table",
       title_main: "Today's Main Dishes",
       title_snacks: "Today's Street Snacks",
       title_drinks: 'Refreshing Drinks',
-      slogan: 'Choose a category and let us suggest a dish.',
-      latenight_notice: 'Suggestions for a late-night meal.',
+      slogan: 'Curated Vietnamese culinary recommendations for your day.',
+      latenight_notice: 'Late night note: Please opt for gentle, light nourishment.',
       mode_main: 'Main dishes',
       mode_snacks: 'Snacks',
       mode_drinks: 'Drinks',
@@ -269,9 +269,9 @@ document.addEventListener('DOMContentLoaded', () => {
       hero_price_note: 'est. price',
       hero_find_btn: 'View dish & Find places',
       hero_caption: 'Vietnamese flavors, daily choice',
-      btn_single: 'Pick 1 dish',
-      btn_triple: 'Pick 3 dishes',
-      btn_combo: 'Make combo',
+      btn_single: 'Curated Pick',
+      btn_triple: '3-Course Selection',
+      btn_combo: 'Tasting Combo',
       budget_panel_title: 'Budget & Preferences',
       budget_unlimited: 'No limit',
       budget_label: 'Total budget you want to spend (VND)',
@@ -1458,7 +1458,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Action buttons
     const singleBtn = $('singleBtn');
     if (singleBtn)
-      singleBtn.replaceChildren(UI.icon('shuffle'), document.createTextNode(tDict.btn_single));
+      singleBtn.replaceChildren(UI.icon('compass'), document.createTextNode(tDict.btn_single));
     const tripleBtn = $('tripleBtn');
     if (tripleBtn)
       tripleBtn.replaceChildren(UI.icon('layers'), document.createTextNode(tDict.btn_triple));
@@ -1922,6 +1922,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   function updateSound() {
+    if (!$('soundBtn')) return;
     audioSystem.isMuted = settings.muted;
     const lang = settings.language || 'vi';
     const tDict = TRANSLATIONS[lang] || TRANSLATIONS.vi;
@@ -1942,15 +1943,17 @@ document.addEventListener('DOMContentLoaded', () => {
     saveSettings({ unique: settings.unique });
     scheduleBudget(0, false);
   };
-  $('soundBtn').onclick = () => {
-    settings.muted = !settings.muted;
-    updateSound();
-    saveSettings({ muted: settings.muted });
-    const lang = settings.language || 'vi';
-    const t = TRANSLATIONS[lang] || TRANSLATIONS.vi;
-    if (!settings.muted) audioSystem.playClick();
-    toast(settings.muted ? t.sound_disabled : t.sound_enabled);
-  };
+  if ($('soundBtn')) {
+    $('soundBtn').onclick = () => {
+      settings.muted = !settings.muted;
+      updateSound();
+      saveSettings({ muted: settings.muted });
+      const lang = settings.language || 'vi';
+      const t = TRANSLATIONS[lang] || TRANSLATIONS.vi;
+      if (!settings.muted) audioSystem.playClick();
+      toast(settings.muted ? t.sound_disabled : t.sound_enabled);
+    };
+  }
   // 03. Dialog lifecycle and keyboard focus
   const dialogFocus = new WeakMap();
   let savedScrollY = 0;
@@ -2326,6 +2329,10 @@ document.addEventListener('DOMContentLoaded', () => {
     CustomControls.refresh();
     refreshPersonalActions();
     $('rerollBtn').hidden = detail;
+    if ($('pickThisDishBtn')) $('pickThisDishBtn').hidden = !detail;
+    if ($('resultModalEyebrow')) {
+      $('resultModalEyebrow').textContent = detail ? 'HỒ SƠ MÓN NGON · CHI TIẾT' : 'BỮA NGON ĐANG CHỜ';
+    }
     open($('resultDialog'), !detail);
     $('resultScroll').scrollTop = 0;
     nearby.setDishes(results);
@@ -2773,77 +2780,18 @@ document.addEventListener('DOMContentLoaded', () => {
   async function choose(action) {
     if (busy || budgetPending || !prepared) return;
 
-    // Account Gating & Daily Ticket check for wishTen
-    if (action === 'wishTen') {
-      if (window.Auth && !window.Auth.isAuthenticated()) {
-        window.Auth.openAuthModal();
-        return;
-      }
-      if (window.Auth && window.Auth.getTickets() < 10) {
-        toast('⚡ Bạn đã hết vé hôm nay (cần 10 vé)! Hồi phục vào lúc 00:00.');
-        return;
-      }
-    }
-
     lock(true);
     let results;
     try {
       if (action === 'wishTen') {
-        if (window.API && window.Auth && window.Auth.isAuthenticated()) {
-          const rollData = await window.API.rollWish(10);
-          if (rollData && rollData.success) {
-            window.Auth.updateTickets(rollData.tickets);
-            results = rollData.results.map((r) => ({
-              dish: r.dish,
-              source: r.dish.category || 'Món Chính',
-              isNew: r.isNew,
-              isDuplicate: r.isDuplicate,
-              shardsAdded: r.shardsAdded,
-              totalShards: r.shards,
-              shardsNeeded: r.shardsNeeded,
-              starLevel: r.starLevel,
-              rarity: r.starLevel || r.dish.rarity,
-              breakthrough: r.breakthrough,
-            }));
-          } else {
-            throw new Error(rollData?.message || 'Không thể ước x10');
-          }
-        } else {
-          results = engine.rollWishMulti(10);
-        }
+        results = engine.rollWishMulti(10);
       } else if (action === 'single') {
-        if (window.API && window.Auth && window.Auth.isAuthenticated() && window.Auth.getTickets() >= 1) {
-          const rollData = await window.API.rollWish(1);
-          if (rollData && rollData.success) {
-            window.Auth.updateTickets(rollData.tickets);
-            results = rollData.results.map((r) => ({
-              dish: r.dish,
-              source: r.dish.category || 'Món Chính',
-              isNew: r.isNew,
-              isDuplicate: r.isDuplicate,
-              shardsAdded: r.shardsAdded,
-              totalShards: r.shards,
-              shardsNeeded: r.shardsNeeded,
-              starLevel: r.starLevel,
-              rarity: r.starLevel || r.dish.rarity,
-              breakthrough: r.breakthrough,
-            }));
-          } else {
-            results = await engine.drawDishes({
-              count: 1,
-              unique: settings.unique,
-              budget: activeBudget,
-              prepared,
-            });
-          }
-        } else {
-          results = await engine.drawDishes({
-            count: 1,
-            unique: settings.unique,
-            budget: activeBudget,
-            prepared,
-          });
-        }
+        results = await engine.drawDishes({
+          count: 1,
+          unique: settings.unique,
+          budget: activeBudget,
+          prepared,
+        });
       } else {
         results =
           action === 'combo'
@@ -2867,52 +2815,18 @@ document.addEventListener('DOMContentLoaded', () => {
     else close($('resultDialog'), false);
     lock(true);
     audioSystem.playClick();
-    const reveal = async (acceptedResults, bestDish) => {
-      const activeList = acceptedResults || results;
-      const outcome = await engine.commitResults(activeList);
+    const reveal = async () => {
+      const outcome = await engine.commitResults(results);
       if ($('spinDialog').open) close($('spinDialog'), false);
       lock(false);
-
-      const spotlightDish = bestDish || activeList[0]?.dish;
-      if (spotlightDish) {
-        feature(spotlightDish);
-        const heroEl = document.querySelector('.hero');
-        if (heroEl) {
-          heroEl.classList.add('hero-victory-spotlight');
-          const featureTag = heroEl.querySelector('.feature-tag');
-          if (featureTag) {
-            featureTag.hidden = false;
-            featureTag.classList.add('hero-victory-tag');
-            const stars = spotlightDish.rarity || 3;
-            featureTag.innerHTML = `<span data-icon="sparkles"></span>✦ VỪA CẦU NGUYỆN ĐƯỢC ${stars}★ ✦`;
-          }
-          heroEl.scrollIntoView({ behavior: motion.matches ? 'instant' : 'smooth', block: 'center' });
-          setTimeout(() => {
-            heroEl.classList.remove('hero-victory-spotlight');
-            if (featureTag) featureTag.classList.remove('hero-victory-tag');
-          }, 6000);
-        }
-      }
-      menu();
+      feature(results[0].dish);
+      showResults(results, false, rollBudget, outcome.saved);
+      setTimeout(() => { if (!busy) menu(); }, 120);
       if (settingsSyncPending) syncSettings();
       audioSystem.playWin(4);
-
-      if (!window.WishUI || !acceptedResults) {
-        showResults(activeList, false, rollBudget, outcome.saved);
-      } else {
-        const dishCount = activeList.length;
-        toast(`🎉 Đã nhận ${dishCount} món vào Bộ sưu tập! Chúc bạn ngon miệng!`);
-      }
       if (!outcome.saved) toast(UICopy.text('saveResultError'));
     };
-    if (window.WishUI && typeof window.WishUI.openWish === 'function') {
-      window.WishUI.openWish({
-        results,
-        mode: (action === 'wishTen' || results.length > 1) ? 'multi' : 'single',
-        gacha: engine,
-        onAccept: reveal,
-      });
-    } else if (motion.matches) {
+    if (motion.matches) {
       reveal();
     } else {
       open($('spinDialog'), true);
@@ -2932,6 +2846,18 @@ document.addEventListener('DOMContentLoaded', () => {
   $('comboBtn').onclick = () => choose('combo');
   const wishTenBtn = $('wishTenBtn');
   if (wishTenBtn) wishTenBtn.onclick = () => choose('wishTen');
+  if ($('pickThisDishBtn')) {
+    $('pickThisDishBtn').onclick = () => {
+      const dish = visibleResultState?.results?.[0]?.dish;
+      if (dish) {
+        personal.eat(dish);
+        const lang = settings.language || 'vi';
+        const dName = typeof getDishName === 'function' ? getDishName(dish, lang) : dish.name;
+        UI.toast(`Đã chọn "${dName}" cho bữa hôm nay!`);
+      }
+      $('resultDialog').close();
+    };
+  }
   $('rerollBtn').onclick = () =>
     lastAction === 'custom' ? $('customWheelSpinActionBtn').click() : choose(lastAction);
   $('skipBtn').onclick = () => roulette.skip();
@@ -3440,10 +3366,14 @@ document.addEventListener('DOMContentLoaded', () => {
         true
       );
   };
+  let searchDebounceTimer = null;
   $('dishSearch').addEventListener('input', (event) => {
     searchTerm = event.target.value;
-    visibleCount = 12;
-    menu();
+    clearTimeout(searchDebounceTimer);
+    searchDebounceTimer = setTimeout(() => {
+      visibleCount = 12;
+      menu();
+    }, 100);
   });
   $('clearSearch').onclick = () => {
     $('dishSearch').value = '';
@@ -3669,7 +3599,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('touchstart', handleGesture, { once: true, passive: true });
     window.addEventListener('keydown', handleGesture, { once: true, passive: true });
   }
-  autoStartBgmOnGesture();
+  // autoStartBgmOnGesture(); // BGM removed
   window.applyLanguage = applyLanguage;
   window.applyTimezoneRegion = applyTimezoneRegion;
   window.getRegionFromTimezone = getRegionFromTimezone;

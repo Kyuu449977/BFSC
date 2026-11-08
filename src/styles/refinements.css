@@ -130,6 +130,7 @@
   display:grid;
   grid-template-columns:repeat(var(--menu-columns,4),minmax(0,1fr));
   gap:16px;
+  contain:layout;
 }
 .dish-card {
   display:flex;
@@ -139,17 +140,23 @@
   overflow:hidden;
   align-items:stretch;
   text-align:left;
-  background:var(--glass-surface,var(--card-bg));
-  border:1px solid transparent;
-  border-radius:var(--radius-card);
+  background:var(--card-bg);
+  border:1px solid var(--border);
+  border-radius:20px;
   min-width:0;
   font-weight:400;
   justify-content:flex-start;
-  transition:border-color .15s;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s cubic-bezier(0.2, 0.9, 0.3, 1), border-color 0.25s, box-shadow 0.25s;
+  contain:content;
 }
 .dish-card:hover {
   border-color:var(--orange);
-  background:var(--glass-surface,var(--card-bg));
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+}
+.dish-card:active {
+  transform: translateY(-1px) scale(0.99);
 }
 .dish-thumb {
   display:block;
@@ -165,6 +172,10 @@
   height:100%;
   object-fit:cover;
   display:block;
+  transition: transform 0.35s ease;
+}
+.dish-card:hover .dish-thumb>img {
+  transform: scale(1.05);
 }
 .dish-thumb .dish-source {
   position:absolute;
@@ -293,4 +304,31 @@ body:not(.menu-page) .menu-section {
 /* Failed photos collapse their own slot; source records remain in credits. */
 .dish-thumb:has(img[data-failed=true]),.hero-photo:has(img[data-failed=true]){display:none}
 .result-grid.single .result-card:has(>img[data-failed=true]){grid-template-columns:minmax(0,1fr)}
-.result-card>img[data-failed=true]{display:none}
+.result-card>img[data-failed=true]{opacity:0.9}
+
+/* Clean Michelin Card Layout - Hide Collection & Clutter */
+.dish-card .collected,
+.dish-card .uncollected,
+.dish-card .personal-badges,
+.dish-card .dish-personal-actions,
+.dish-card .illustration-tag,
+.dish-card .dish-source {
+  display: none !important;
+}
+.dish-card .dish-body {
+  padding: 12px 14px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.dish-card .dish-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--ink);
+}
+.dish-card .price {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--orange);
+}
