@@ -425,28 +425,23 @@ const AppearancePreferences = (() => {
 
     // Shared neutral surfaces; saved accent choices remain independent.
     const surfaces = dark
-      ? {'--cream':'#0E1210','--card-bg':'#151C18','--surface':'#151C18','--surface-card':'#151C18','--surface-hover':'#1D2621','--hero-surface':'#151C18','--ink':'#F2F5F3','--muted':'#9CA8A0','--border':'#26332B'}
-      : {'--cream':'#FBF9F5','--card-bg':'#FFFFFF','--surface':'#FFFFFF','--surface-card':'#FFFFFF','--surface-hover':'#F4EFEB','--hero-surface':'#FFFFFF','--ink':'#181D1A','--muted':'#606863','--border':'#EAE5DC'};
+      ? {'--cream':'#0F172A','--card-bg':'#1E293B','--surface':'#1E293B','--surface-card':'#1E293B','--surface-hover':'#334155','--hero-surface':'#1E293B','--ink':'#F8FAFC','--muted':'#94A3B8','--border':'#334155','--mint':'#2DD4BF','--mint-hover':'#14B8A6','--mint-soft':'rgba(45, 212, 191, 0.15)','--coral':'#FF6B6B','--coral-hover':'#FA5252','--amber':'#FBBF24'}
+      : {'--cream':'#F8FAFA','--card-bg':'#FFFFFF','--surface':'#FFFFFF','--surface-card':'#FFFFFF','--surface-hover':'#F0FDFD','--hero-surface':'#FFFFFF','--ink':'#111827','--muted':'#64748B','--border':'#E5E7EB','--mint':'#2AC1BC','--mint-hover':'#24ACA7','--mint-soft':'rgba(42, 193, 188, 0.12)','--coral':'#FF5252','--coral-hover':'#E04040','--amber':'#F59E0B'};
     if (docEl.style) {
       Object.entries(surfaces).forEach(([key,value]) => docEl.style.setProperty(key,value));
       if (theme === 'system') {
-        docEl.style.setProperty('--orange', dark ? '#D4AF37' : '#B84324');
-        docEl.style.setProperty('--accent-hover', dark ? '#E5C158' : '#9E3219');
-        docEl.style.setProperty('--orange-soft', dark ? 'rgba(212, 175, 55, 0.14)' : 'rgba(184, 67, 36, 0.08)');
-        docEl.style.setProperty('--primary-ink', dark ? '#0E1210' : '#FFFFFF');
+        docEl.style.setProperty('--orange', dark ? '#FF6B6B' : '#FF5252');
+        docEl.style.setProperty('--accent-hover', dark ? '#FA5252' : '#E04040');
+        docEl.style.setProperty('--orange-soft', dark ? 'rgba(255, 107, 107, 0.15)' : 'rgba(255, 82, 82, 0.10)');
+        docEl.style.setProperty('--primary-ink', '#FFFFFF');
       }
     }
     const meta = document.querySelector('meta[name="theme-color"]');
     if (meta) {
       if (dark) {
-        meta.content = '#181c21';
+        meta.content = '#0F172A';
       } else if (theme === 'system' || theme === 'orange') {
-        meta.content =
-          timeInfo.period === 'morning'
-            ? '#fef5dc'
-            : timeInfo.period === 'lunch' || timeInfo.period === 'afternoon'
-              ? '#ffe9cc'
-              : '#101c2e';
+        meta.content = '#F8FAFA';
       } else {
         meta.content = { green: '#f5faf6', blue: '#f5f9fc', rose: '#fcf6f8' }[theme] || '#fcf9f5';
       }

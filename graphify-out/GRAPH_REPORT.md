@@ -1,7 +1,7 @@
-# Graph Report - BFSC  (2026-11-08)
+# Graph Report - BFSC  (2026-11-09)
 
 ## Corpus Check
-- 202 files · ~246,312 words
+- 202 files · ~246,454 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 45 file(s) not represented in the graph (top: .csv 17, .woff2 9, .css 7)
 
@@ -11,7 +11,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `360f1ab0`
+- Built from commit: `c7e5a8c6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -536,7 +536,7 @@ Nodes (7): Buổi chiều (8), Buổi sáng (13), Buổi trưa (9), Buổi tối
 
 ### Community 102 - "Bữa Ăn Hôm Nay — Michelin Editorial Design System"
 Cohesion: 0.40
-Nodes (4): Bữa Ăn Hôm Nay — Michelin Editorial Design System, Intent and Structure, Responsive and Motion, Tokens (Michelin Editorial Archetype)
+Nodes (4): Intent and Structure, Responsive and Motion, Tokens (Baemin Gen Z Archetype), Ăn Gì Đây? — Baemin Gen Z & Real-World Food Design System
 
 ### Community 103 - "Ăn gì đây — discovery interface redesign"
 Cohesion: 0.29

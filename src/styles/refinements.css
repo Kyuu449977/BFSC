@@ -54,7 +54,7 @@
   color:var(--muted);
 }
 .search-wrap:focus-within {
-  outline:2px solid var(--orange);
+  outline:2px solid var(--mint);
   outline-offset:2px;
 }
 .filters,.drink-sub-filters {
@@ -88,7 +88,7 @@
 }
 .progress>div {
   height:100%;
-  background:var(--orange);
+  background:var(--mint);
 }
 .personal-view {
   display:flex;
@@ -151,9 +151,9 @@
   contain:content;
 }
 .dish-card:hover {
-  border-color:var(--orange);
+  border-color:var(--mint);
   transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 12px 32px rgba(42, 193, 188, 0.12);
 }
 .dish-card:active {
   transform: translateY(-1px) scale(0.99);

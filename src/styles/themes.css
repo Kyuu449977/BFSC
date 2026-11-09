@@ -10,26 +10,26 @@
   --text-on-accent:var(--primary-ink);
   --border-default:var(--border);
   --border-color:var(--border);
-  --accent:var(--orange);
-  --focus-ring:var(--orange);
-  --glass-surface:color-mix(in srgb,var(--card-bg) 86%,transparent);
-  --glass-dialog:color-mix(in srgb,var(--card-bg) 94%,transparent);
-  --status-success:#206642;
-  --status-warning:#80520D;
-  --status-danger:#AA302A;
+  --accent:var(--mint);
+  --focus-ring:var(--mint);
+  --glass-surface:color-mix(in srgb,var(--card-bg) 90%,transparent);
+  --glass-dialog:color-mix(in srgb,var(--card-bg) 96%,transparent);
+  --status-success:#10B981;
+  --status-warning:#F59E0B;
+  --status-danger:#EF4444;
 }
 :root[data-appearance=dark] {
   color-scheme:dark;
-  --status-success:#9AD8AF;
-  --status-warning:#F1CB7D;
-  --status-danger:#FFABA2;
+  --status-success:#34D399;
+  --status-warning:#FBBF24;
+  --status-danger:#F87171;
 }
 body {
-  background:radial-gradient(ellipse at 12% 0%,var(--orange-soft),transparent 55%),var(--cream);
+  background:radial-gradient(ellipse at 12% 0%,var(--mint-soft),transparent 55%),var(--cream);
   color:var(--ink);
 }
 .image-note a {
-  color:var(--orange);
+  color:var(--coral);
 }
 .custom-select-list[popover] {
   inset:auto;

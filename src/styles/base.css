@@ -1,17 +1,24 @@
 /* Foundation: typography, shared controls and page shell. */
 :root {
   color-scheme:light;
-  --cream:#FBF9F5;
+  --cream:#F8FAFA;
   --card-bg:#FFFFFF;
   --surface:#FFFFFF;
-  --surface-hover:#F4EFEB;
-  --ink:#181D1A;
-  --muted:#606863;
-  --orange:#B84324;
-  --orange-soft:rgba(184, 67, 36, 0.08);
-  --primary-ink:#fff;
-  --border:#EAE5DC;
-  --accent-hover:#9E3219;
+  --surface-hover:#F0FDFD;
+  --ink:#111827;
+  --muted:#64748B;
+  --mint:#2AC1BC;
+  --mint-hover:#24ACA7;
+  --mint-soft:rgba(42, 193, 188, 0.12);
+  --coral:#FF5252;
+  --coral-hover:#E04040;
+  --coral-soft:rgba(255, 82, 82, 0.12);
+  --amber:#F59E0B;
+  --orange:#FF5252;
+  --orange-soft:rgba(255, 82, 82, 0.10);
+  --primary-ink:#FFFFFF;
+  --border:#E5E7EB;
+  --accent-hover:#E04040;
   --radius-control:14px;
   --radius-card:20px;
   --radius-dialog:24px;
@@ -289,7 +296,7 @@ button:active:not(:disabled) {
   width:6px;
   height:6px;
   border-radius:50%;
-  background:var(--orange);
+  background:var(--mint);
 }
 .tz-pill {
   font-size:12px;
@@ -324,17 +331,17 @@ button:active:not(:disabled) {
   transition:all .2s ease;
 }
 .modes button[aria-pressed=true] {
-  background:var(--orange);
+  background:var(--mint);
   color:var(--primary-ink);
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4px 14px rgba(42, 193, 188, 0.35);
 }
 .modes button:active {
   transform: scale(0.96);
 }
 .filters [aria-pressed=true],.drink-sub-filters [aria-pressed=true] {
-  background:var(--orange-soft);
-  color:var(--orange);
-  border-color:var(--orange);
+  background:var(--mint-soft);
+  color:var(--mint-hover);
+  border-color:var(--mint);
 }
 .choose {
   grid-column:1;
@@ -358,10 +365,10 @@ button:active:not(:disabled) {
   font-size:1.125rem;
   font-weight:750;
   letter-spacing:-0.01em;
-  background:var(--orange);
+  background:var(--coral);
   color:var(--primary-ink);
   border:none;
-  box-shadow: 0 4px 18px rgba(184, 67, 36, 0.28);
+  box-shadow: 0 4px 18px rgba(255, 82, 82, 0.28);
   display:flex;
   align-items:center;
   justify-content:center;
@@ -371,13 +378,13 @@ button:active:not(:disabled) {
 .choose #singleBtn:hover:not(:disabled),
 .choose .action-hero-btn:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 8px 26px rgba(184, 67, 36, 0.38);
-  background:var(--accent-hover);
+  box-shadow: 0 8px 26px rgba(255, 82, 82, 0.38);
+  background:var(--coral-hover);
 }
 .choose #singleBtn:active:not(:disabled),
 .choose .action-hero-btn:active:not(:disabled) {
   transform: translateY(0) scale(0.985);
-  box-shadow: 0 2px 8px rgba(184, 67, 36, 0.2);
+  box-shadow: 0 2px 8px rgba(255, 82, 82, 0.2);
 }
 .actions-secondary {
   display:grid;
@@ -401,7 +408,8 @@ button:active:not(:disabled) {
 }
 .choose #tripleBtn:hover:not(:disabled), .choose #comboBtn:hover:not(:disabled), .action-sub-btn:hover:not(:disabled) {
   transform: translateY(-1px);
-  border-color: var(--orange);
+  border-color: var(--mint);
+  color: var(--mint-hover);
   background:var(--surface-hover);
 }
 .choose #tripleBtn:active:not(:disabled), .choose #comboBtn:active:not(:disabled), .action-sub-btn:active:not(:disabled) {
@@ -410,11 +418,11 @@ button:active:not(:disabled) {
 .custom-wheel-btn {
   grid-column: 1/-1;
   background: var(--card-bg);
-  border: 1px dashed var(--border);
+  border: 1.5px dashed var(--mint);
   border-radius: var(--radius-pill);
   font-size: 0.875rem;
   font-weight: 650;
-  color: var(--orange);
+  color: var(--mint-hover);
   padding: 12px 20px;
   margin: 6px 0 0;
   display: inline-flex;
@@ -425,11 +433,11 @@ button:active:not(:disabled) {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 }
 .custom-wheel-btn:hover {
-  background: var(--orange-soft);
-  border-color: var(--orange);
+  background: var(--mint-soft);
+  border-color: var(--mint);
   border-style: solid;
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 6px 16px rgba(42, 193, 188, 0.18);
 }
 .custom-wheel-btn:active {
   transform: translateY(0) scale(0.985);
@@ -555,16 +563,16 @@ button:active:not(:disabled) {
   transition: all 0.15s ease;
 }
 .budget-presets button:hover {
-  border-color: var(--orange);
+  border-color: var(--mint);
   background: var(--surface-hover);
   transform: translateY(-1px);
 }
 .budget-presets button[aria-pressed=true] {
-  background: var(--orange) !important;
+  background: var(--mint) !important;
   color: var(--primary-ink) !important;
-  border-color: var(--orange) !important;
+  border-color: var(--mint) !important;
   font-weight: 750;
-  box-shadow: 0 3px 10px rgba(242, 100, 25, 0.35);
+  box-shadow: 0 3px 10px rgba(42, 193, 188, 0.35);
 }
 .budget-options {
   display:grid;
@@ -632,8 +640,8 @@ button:active:not(:disabled) {
   font-size: 11px;
   font-weight: 800;
   letter-spacing: 1.5px;
-  color: var(--orange);
-  background: var(--orange-soft);
+  color: var(--coral);
+  background: var(--coral-soft);
   padding: 4px 10px;
   border-radius: var(--radius-pill);
   width: fit-content;
@@ -661,6 +669,15 @@ button:active:not(:disabled) {
   min-height:44px;
   padding:10px 16px;
   border-radius: var(--radius-pill);
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  color: var(--ink);
+  transition: all 0.2s ease;
+}
+.find-featured:hover {
+  border-color: var(--mint);
+  color: var(--mint-hover);
+  background: var(--surface-hover);
 }
 .featured-description {
   margin: 2px 0 6px 0;
@@ -794,4 +811,47 @@ footer {
 .settings-options button[aria-pressed=true] {
   background:var(--orange-soft);
   color:var(--orange);
+}
+
+/* Desktop 2-Column Split-Hero Layout */
+@media (min-width: 900px) {
+  .home-section {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    grid-template-areas:
+      "intro intro"
+      "modes hero"
+      "choose hero"
+      "budget hero"
+      "customwheel hero"
+      "latenight hero"
+      "kicker hero";
+    column-gap: 32px;
+    row-gap: 16px;
+    max-width: 1040px;
+    align-items: start;
+    padding: 32px 0 24px;
+  }
+  .intro { grid-area: intro; }
+  .modes { grid-area: modes; }
+  .choose { grid-area: choose; }
+  .budget-panel { grid-area: budget; }
+  .custom-wheel-btn { grid-area: customwheel; }
+  .latenight-banner { grid-area: latenight; }
+  .intro-kicker { grid-area: kicker; }
+  .hero {
+    grid-area: hero;
+    position: sticky;
+    top: 90px;
+    margin-top: 0;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 22px;
+  }
+  .hero-photo {
+    width: 100%;
+    height: 220px;
+  }
 }

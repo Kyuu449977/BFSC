@@ -252,9 +252,9 @@
     "semantic_hash": ""
   },
   "src/js/theme-init.js": {
-    "mtime": 1794029696.5168278,
-    "seen": 1794030157.682347,
-    "ast_hash": "3b981a605796da2e71cde27b37f6b426",
+    "mtime": 1794236134.4574177,
+    "seen": 1794236240.6171267,
+    "ast_hash": "6dd85a5e40e346dab6f2a32ee8abbcaa",
     "semantic_hash": ""
   },
   "src/js/ui-copy.js": {
@@ -3774,9 +3774,9 @@
     "semantic_hash": ""
   },
   ".agents/PROJECT_MEMORY.md": {
-    "mtime": 1794115334.4280722,
-    "seen": 1794116043.368622,
-    "ast_hash": "2b3d27ef1ae313815c4aeb190104bb04",
+    "mtime": 1794116059.9613633,
+    "seen": 1794236240.6171267,
+    "ast_hash": "6907fb0fcea1b87390656794baabbc15",
     "semantic_hash": ""
   },
   ".agents/rules/always-on-autopilot.md": {
@@ -3846,9 +3846,9 @@
     "semantic_hash": ""
   },
   "DESIGN.md": {
-    "mtime": 1794029542.937553,
-    "seen": 1794030157.682347,
-    "ast_hash": "1c26ce30bb86cb7d851ba660f8156f0c",
+    "mtime": 1794235931.081739,
+    "seen": 1794236240.6171267,
+    "ast_hash": "1f09969dec3f7be08732e0c488e27cd8",
     "semantic_hash": ""
   },
   "GEMINI.md": {

@@ -59,6 +59,12 @@ the same controls remain available at every size. */
     color:var(--muted);
     border-radius:var(--radius-control);
   }
+  .mobile-nav a:hover,
+  .mobile-nav button:hover,
+  .mobile-nav a.active,
+  .mobile-nav a[aria-current=page] {
+    color:var(--mint);
+  }
   .mobile-nav .icon {
     width:20px;
     height:20px;
@@ -389,12 +395,18 @@ the same controls remain available at every size. */
     font-size:12px;
   }
 }
-@media(min-width:768px) and (max-width:1099px) {
+@media(min-width:768px) and (max-width:899px) {
   .home-section {
     grid-template-columns:none;
   }
   .brand-name {
     font-size:1rem;
+  }
+  .mobile-nav a:hover,
+  .mobile-nav button:hover,
+  .mobile-nav a.active,
+  .mobile-nav a[aria-current=page] {
+    color:var(--mint);
   }
   .mobile-nav .icon {
     display:none;
@@ -422,7 +434,7 @@ the same controls remain available at every size. */
   }
 }
 
-@media(min-width:768px) and (max-width:1023px){
+@media(min-width:768px) and (max-width:899px){
  .home-section{display:flex;flex-direction:column;gap:12px}
 
 }

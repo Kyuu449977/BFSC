@@ -195,24 +195,33 @@ dialog h2 {
   padding:12px 16px;
   min-height:48px;
   border-radius:var(--radius-control);
-  background:var(--orange);
+  background:var(--coral);
   color:var(--primary-ink);
   text-decoration:none;
   font-size:.875rem;
   font-weight:650;
+  transition:all .15s ease;
+}
+.maps-dish-link:hover {
+  background:var(--coral-hover);
+  transform:translateY(-1px);
 }
 #customWheelDialog {
-  width:min(580px,calc(100% - 32px));
-  max-width:580px;
+  width:min(520px,calc(100% - 24px));
+  max-width:520px;
+  padding:24px 20px;
+  box-sizing:border-box;
 }
 .custom-wheel-content {
   display:flex;
   flex-direction:column;
-  gap:16px;
+  gap:14px;
+  width:100%;
   min-height:0;
   overflow-y:auto;
 }
 .custom-wheel-desc {
+  width:100%;
   margin:0;
   color:var(--muted);
   font-size:.9375rem;
@@ -227,10 +236,10 @@ dialog h2 {
 #customWheelInput {
   width:100%;
   box-sizing:border-box;
-  height:9em;
-  min-height:8.5em;
+  height:120px;
+  min-height:110px;
   resize:vertical;
-  padding:14px 16px;
+  padding:12px 14px;
   border-radius:var(--radius-control);
   border:1.5px solid var(--border);
   background:var(--surface);
@@ -242,8 +251,8 @@ dialog h2 {
 }
 #customWheelInput:focus {
   outline:none;
-  border-color:var(--orange);
-  box-shadow:0 0 0 3px var(--orange-soft);
+  border-color:var(--mint);
+  box-shadow:0 0 0 3px var(--mint-soft);
 }
 .custom-wheel-input-area .note {
   margin:0;
@@ -255,8 +264,9 @@ dialog h2 {
   display:flex;
   align-items:center;
   justify-content:space-between;
-  gap:12px;
+  gap:10px;
   flex-wrap:wrap;
+  width:100%;
 }
 .custom-wheel-quick-actions {
   display:flex;
@@ -270,6 +280,15 @@ dialog h2 {
   font-size:.875rem;
   font-weight:600;
   border-radius:var(--radius-pill);
+  border:1px solid var(--border);
+  background:var(--surface);
+  color:var(--ink);
+  transition:all .15s ease;
+}
+.custom-wheel-quick-actions button:hover {
+  border-color:var(--mint);
+  color:var(--mint-hover);
+  background:var(--surface-hover);
 }
 .custom-wheel-count-info {
   font-size:.875rem;
@@ -279,24 +298,24 @@ dialog h2 {
 }
 .custom-wheel-spin-action {
   width:100%;
-  min-height:48px;
-  font-size:1rem;
-  font-weight:700;
+  min-height:50px;
+  font-size:1.05rem;
+  font-weight:750;
   border-radius:var(--radius-control);
   display:inline-flex;
   align-items:center;
   justify-content:center;
   gap:8px;
-  background:var(--orange);
+  background:var(--coral);
   color:var(--primary-ink);
   border:none;
-  box-shadow:0 4px 16px rgba(184,67,36,0.25);
+  box-shadow:0 4px 18px rgba(255,82,82,0.28);
   transition:transform .15s cubic-bezier(0.2, 0.9, 0.3, 1), box-shadow .15s, background-color .15s;
 }
 .custom-wheel-spin-action:hover:not(:disabled) {
   transform:translateY(-1px);
-  background:var(--accent-hover);
-  box-shadow:0 6px 20px rgba(184,67,36,0.35);
+  background:var(--coral-hover);
+  box-shadow:0 8px 24px rgba(255,82,82,0.38);
 }
 .custom-wheel-spin-action:active:not(:disabled) {
   transform:translateY(1px);
@@ -857,3 +876,144 @@ dialog h2 {
 #customThemeColor::-webkit-color-swatch-wrapper{padding:2px}
 #customThemeColor::-webkit-color-swatch{border:1px solid var(--border);border-radius:50%}
 #customThemeColor::-moz-color-swatch{border:1px solid var(--border);border-radius:50%}
+
+/* --- Refined Lucide Icons Alignment & GPU Hardware Acceleration --- */
+.user-ticket-pill .icon,
+.inventory-pill-btn .icon,
+.login-trigger-btn .icon {
+  width: 1.15rem;
+  height: 1.15rem;
+  flex-shrink: 0;
+  vertical-align: -0.15em;
+}
+
+.user-ticket-pill .icon-zap {
+  color: #facc15;
+  stroke: currentColor;
+}
+
+.inventory-pill-btn .icon-package {
+  color: #93c5fd;
+  stroke: currentColor;
+}
+
+.user-profile-badge .user-avatar-img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid #38bdf8;
+  flex-shrink: 0;
+}
+
+.user-profile-badge .icon-user {
+  width: 1.1rem;
+  height: 1.1rem;
+  color: #38bdf8;
+}
+
+.logout-mini-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.2s ease;
+}
+
+.logout-mini-btn:hover {
+  background: rgba(239, 68, 68, 0.25);
+  color: #ef4444;
+}
+
+.logout-mini-btn .icon-logout {
+  width: 13px;
+  height: 13px;
+}
+
+.login-trigger-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(56, 189, 248, 0.15);
+  border: 1.5px solid rgba(56, 189, 248, 0.6);
+  color: #38bdf8;
+  padding: 5px 14px;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.login-trigger-btn:hover {
+  background: rgba(56, 189, 248, 0.28);
+  transform: translateY(-1px);
+}
+
+.google-btn-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+#g_id_signin_render {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 44px;
+}
+
+.google-login-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 20px;
+  background: #ffffff;
+  color: #1f2937;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.google-login-btn:hover {
+  background: #f9fafb;
+  border-color: #d1d5db;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* GPU Hardware Acceleration for zero-lag 60fps rendering */
+.wish-dialog,
+.auth-dialog,
+.inventory-dialog,
+.wish-card,
+.inv-card {
+  transform: translateZ(0);
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+/* Stop heavy backdrop blur lag on mobile devices */
+@media (max-width: 768px) {
+  .wish-dialog,
+  .auth-dialog,
+  .inventory-dialog {
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+  }
+}
